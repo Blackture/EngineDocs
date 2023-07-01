@@ -29,8 +29,7 @@
           "articles/**",
           "toc.yml",
           "*.md",
-          "engineAPI/**",
-          "References/**"
+          "engineAPI/**"
         ]
       }
     ],
