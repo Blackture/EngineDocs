@@ -1,0 +1,48 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Components
+  commentId: N:Engine.Core.Components
+  id: Engine.Core.Components
+  children:
+  - Engine.Core.Components.Edge
+  - Engine.Core.Components.Face
+  - Engine.Core.Components.Mesh
+  - Engine.Core.Components.Vertex
+  langs:
+  - csharp
+  - vb
+  name: Engine.Core.Components
+  nameWithType: Engine.Core.Components
+  fullName: Engine.Core.Components
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Engine.Core.Components.Edge
+  commentId: T:Engine.Core.Components.Edge
+  parent: Engine.Core.Components
+  name: Edge
+  nameWithType: Edge
+  fullName: Engine.Core.Components.Edge
+- uid: Engine.Core.Components.Face
+  commentId: T:Engine.Core.Components.Face
+  parent: Engine.Core.Components
+  name: Face
+  nameWithType: Face
+  fullName: Engine.Core.Components.Face
+- uid: Engine.Core.Components.Mesh
+  commentId: T:Engine.Core.Components.Mesh
+  name: Mesh
+  nameWithType: Mesh
+  fullName: Engine.Core.Components.Mesh
+- uid: Engine.Core.Components.Vertex
+  commentId: T:Engine.Core.Components.Vertex
+  parent: Engine.Core.Components
+  name: Vertex
+  nameWithType: Vertex
+  fullName: Engine.Core.Components.Vertex
+- uid: Engine.Core.Components
+  commentId: N:Engine.Core.Components
+  name: Engine.Core.Components
+  nameWithType: Engine.Core.Components
+  fullName: Engine.Core.Components

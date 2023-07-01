@@ -1,0 +1,572 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/Users/patri/Desktop/docfx/~Desktop/EngineDocs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Core.Component.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Core.Component.html",
+          "hash": "Npf5iTTnx8uYo+oek7F7e5GIzt2vaSVpWccd04//WuM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Core.Components.Edge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Core.Components.Edge.html",
+          "hash": "RmY4cCgPj+zJ5MjNmpxzb/qheJcoYbAWgak8+XtKiMg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Core.Components.Face.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Core.Components.Face.html",
+          "hash": "NeYvVadEb8aiHP9lFSqaNcAXOvk/h2JrgTXm+f0Q7qo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Core.Components.Mesh.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Core.Components.Mesh.html",
+          "hash": "EOXpr0QKFjWKqpAG619FAoIJ9SawDGsb2wqFpaUeMIk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Core.Components.Vertex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Core.Components.Vertex.html",
+          "hash": "hzkK8fm0UdvUbTHnQO/rCavUEaCvWDp+kIfB0fXvG5o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Core.Components.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Core.Components.html",
+          "hash": "5NjRtJI/d3UUCCV3+cuqOQNo2TCU1UETP2Umt6O9N1c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Core.Layer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Core.Layer.html",
+          "hash": "KqEY9WuHxaHt8vM2ixp0p4sTur/EM4TulsQzFT8pBMs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Core.Maths.AugmentedMatrix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Core.Maths.AugmentedMatrix.html",
+          "hash": "upxvXDmdoHWdiM8jQOmg9fRohyeHXkhDHHgaOdMVubc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Core.Maths.FloatEnumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Core.Maths.FloatEnumerator.html",
+          "hash": "HL7MkhqlNqtVSSbXDOalux1ZPYwsmLNCoDWDSsHFH2w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Core.Maths.GCS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Core.Maths.GCS.html",
+          "hash": "+VNzpKLcpkphgLtVKV+/m6pckXoTBxYi1cpNrGbybnQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Core.Maths.Gauss.EliminationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Core.Maths.Gauss.EliminationResult.html",
+          "hash": "Uo+U135SLa2TXtePaybkeH7PXDu+xaNR4NwyYqJZBhc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Core.Maths.Gauss.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Core.Maths.Gauss.html",
+          "hash": "39d83X11khOhk24dzDBL/GuydxkW3iqkYzaYqpYlMfk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Core.Maths.IMatrix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Core.Maths.IMatrix.html",
+          "hash": "eKDun7t7AXdRzV9nUtD3VaHva7HLgI9KxZ0RHeEQHSY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Core.Maths.LCS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Core.Maths.LCS.html",
+          "hash": "+JLVWzDZRs7ov0ipKGUPIITMaeiUQV7/5QJnkzYf1sA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Core.Maths.Mathf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Core.Maths.Mathf.html",
+          "hash": "rPwHHuo9OV0kAgtoP07Zx/I4tAczBzyRzol2nFqY5JM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Core.Maths.Matrix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Core.Maths.Matrix.html",
+          "hash": "j4Pnn7229h4HD9IvG4AZqJXz5CsALwpKKYWBCuqXZ7w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Core.Maths.Matrix3x3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Core.Maths.Matrix3x3.html",
+          "hash": "gRq/xP15dhA/W6cIdp/8hRoeiG1rVKSi6hSvl7P5Gqc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Core.Maths.MatrixMxN.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Core.Maths.MatrixMxN.html",
+          "hash": "ptdt+niyg+XGPCcMHDgWLQSU1NBzilX0DPrTavsCRVw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Core.Maths.MatrixOperation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Core.Maths.MatrixOperation.html",
+          "hash": "HKx7Xjv/a69H6a47FxQ7WDPi8x2GBugsCjTEuaSyyHY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Core.Maths.Obsolete.Gaussian.GaussianResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Core.Maths.Obsolete.Gaussian.GaussianResult.html",
+          "hash": "jLGd0/bGGhdDWY3s8oeGSW0S9/sXtlyNrL09XOC7ZcM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Core.Maths.Obsolete.Gaussian.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Core.Maths.Obsolete.Gaussian.html",
+          "hash": "4DsDr5tlKFG4epzLjYgnffWty2QSSyPxEM1qRNLmecw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Core.Maths.Obsolete.Matrix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Core.Maths.Obsolete.Matrix.html",
+          "hash": "PCUEzS/0L4gwCi1dkwNzFnizluKKxzP4jFgI2DGF8pY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Core.Maths.Obsolete.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Core.Maths.Obsolete.html",
+          "hash": "JJJ1mkFFIEjHvBcIptq5eZsBcbAZhEFJzEd9nXiOmCQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Core.Maths.Plane.PlaneSetupType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Core.Maths.Plane.PlaneSetupType.html",
+          "hash": "Mk0y4Cw2yEq1dkDOspB4HgBsDKQ+oksAsqYrCZUSjlU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Core.Maths.Plane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Core.Maths.Plane.html",
+          "hash": "+kYnI4DQlZbGfTY+laHdnwuqz6AfES2jhII/IWcDpVY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Core.Maths.Straight.LineSetupType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Core.Maths.Straight.LineSetupType.html",
+          "hash": "T3wdyKM7zNy4yDx1OrOiBz8KTVp4yUcd+I5BJgb4nh8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Core.Maths.Straight.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Core.Maths.Straight.html",
+          "hash": "we/r1Y8sOpv38Ercc6IbIAHyQwuIoUMxtfod28UOR3k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Core.Maths.Vector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Core.Maths.Vector.html",
+          "hash": "ZBYGXOl1IHBjXN8vkW2B93J+LReag9iVwamwdpBD+fM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Core.Maths.Vector3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Core.Maths.Vector3.html",
+          "hash": "va24yjjrnZVu1hJjjJ2ZUQzw29QXpIk4hNhrnrTzvH0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Core.Maths.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Core.Maths.html",
+          "hash": "BpNfx4I4dURD3HzXOPc6CxClD/hg43+8DEvoGxGxoyo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Core.Object3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Core.Object3D.html",
+          "hash": "1kMx9WNA/oxz+bp09387uqr0C15OXIiNo8P4Gxzm9Mg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Core.html",
+          "hash": "wjExlf/Mf1y0Gq8Mz5W/T0f7tn57W3M7iNw/xKO46zE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Main.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Main.html",
+          "hash": "PEy93Hjb56Z3tJUUGq7cV51bFRlD231Qls6dMNWZR+8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Rendering.ColorExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Rendering.ColorExtension.html",
+          "hash": "P/6qVET7hbA/0nsRfTdQGZlhfbVBsg/3NfCfch2LxUY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Rendering.Projection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Rendering.Projection.html",
+          "hash": "5pGZu9CD0k4Q4ShdifQ36LUIblIma+eIwRaHW2H0FKM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Rendering.RenderImage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Rendering.RenderImage.html",
+          "hash": "7I5ibzsN1YxMUij5hqa6ImiSkeVJMy9ETVT8Yy/2SmQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Rendering.RenderPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Rendering.RenderPoint.html",
+          "hash": "YvYYMwDTv1IiLSSFK/meFE9bMkVpnnwKW37F6ERBrM4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Rendering.RenderingConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Rendering.RenderingConstants.html",
+          "hash": "Q/D2xh6cwsBBB0IUHbgJqvDMTE8tJH8rJkNUXIRpiO8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.Rendering.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.Rendering.html",
+          "hash": "vw5GeviFV0E3YECsZNbHOxbsn0fHex1tGD6gZOixlto="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "engineAPI/Engine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/Engine.html",
+          "hash": "sV45G/W9HCq3iine6MfudDmtY4fxTOYxiK1mWs22YO8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "engineAPI/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "engineAPI/toc.html",
+          "hash": "n747mLuZbuI3yw9t3Dzh63nYTfH5jUTZzz9fAiBKvvo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "Cg5/NjJOXUHOoGi2BhmKeU/eEcacjJ8yrEoGnDxnacU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "YRmnFoPaOxFl2evu6LXNr5JoBn/n1MdrdBX1LzjfM34="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 1,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 40,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

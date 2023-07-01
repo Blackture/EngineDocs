@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Main
+  commentId: T:Engine.Main
+  id: Main
+  parent: Engine
+  children:
+  - Engine.Main.#ctor
+  - Engine.Main.Dispose(System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: Main
+  nameWithType: Main
+  fullName: Engine.Main
+  type: Class
+  source:
+    id: Main
+    path: ''
+    startLine: 63
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine
+  syntax:
+    content: 'public class Main : Form'
+    content.vb: >-
+      Public Class Main
+          Inherits Form
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Engine.Main.#ctor
+  commentId: M:Engine.Main.#ctor
+  id: '#ctor'
+  parent: Engine.Main
+  langs:
+  - csharp
+  - vb
+  name: Main()
+  nameWithType: Main.Main()
+  fullName: Engine.Main.Main()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 39
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine
+  syntax:
+    content: public Main()
+    content.vb: Public Sub New
+  overload: Engine.Main.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Main.Dispose(System.Boolean)
+  commentId: M:Engine.Main.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: Engine.Main
+  langs:
+  - csharp
+  - vb
+  name: Dispose(Boolean)
+  nameWithType: Main.Dispose(Boolean)
+  fullName: Engine.Main.Dispose(System.Boolean)
+  type: Method
+  source:
+    id: Dispose
+    path: ''
+    startLine: 74
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine
+  summary: "\nVerwendete Ressourcen bereinigen.\n"
+  example: []
+  syntax:
+    content: protected override void Dispose(bool disposing)
+    parameters:
+    - id: disposing
+      type: System.Boolean
+      description: True, wenn verwaltete Ressourcen gelöscht werden sollen; andernfalls False.
+    content.vb: Protected Overrides Sub Dispose(disposing As Boolean)
+  overload: Engine.Main.Dispose*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Engine
+  commentId: N:Engine
+  name: Engine
+  nameWithType: Engine
+  fullName: Engine
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Engine.Main.#ctor*
+  commentId: Overload:Engine.Main.#ctor
+  name: Main
+  nameWithType: Main.Main
+  fullName: Engine.Main.Main
+- uid: Engine.Main.Dispose*
+  commentId: Overload:Engine.Main.Dispose
+  name: Dispose
+  nameWithType: Main.Dispose
+  fullName: Engine.Main.Dispose
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

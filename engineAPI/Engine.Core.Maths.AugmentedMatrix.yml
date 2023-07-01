@@ -1,0 +1,559 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Maths.AugmentedMatrix
+  commentId: T:Engine.Core.Maths.AugmentedMatrix
+  id: AugmentedMatrix
+  parent: Engine.Core.Maths
+  children:
+  - Engine.Core.Maths.AugmentedMatrix.#ctor(Engine.Core.Maths.IMatrix,Engine.Core.Maths.IMatrix)
+  - Engine.Core.Maths.AugmentedMatrix.Augmentation
+  - Engine.Core.Maths.AugmentedMatrix.Matrix
+  - Engine.Core.Maths.AugmentedMatrix.RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+  - Engine.Core.Maths.AugmentedMatrix.SwapRows(System.Int32,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: AugmentedMatrix
+  nameWithType: AugmentedMatrix
+  fullName: Engine.Core.Maths.AugmentedMatrix
+  type: Class
+  source:
+    id: AugmentedMatrix
+    path: ''
+    startLine: 551
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public class AugmentedMatrix
+    content.vb: Public Class AugmentedMatrix
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Engine.Core.Maths.AugmentedMatrix.Matrix
+  commentId: P:Engine.Core.Maths.AugmentedMatrix.Matrix
+  id: Matrix
+  parent: Engine.Core.Maths.AugmentedMatrix
+  langs:
+  - csharp
+  - vb
+  name: Matrix
+  nameWithType: AugmentedMatrix.Matrix
+  fullName: Engine.Core.Maths.AugmentedMatrix.Matrix
+  type: Property
+  source:
+    id: Matrix
+    path: ''
+    startLine: 556
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public IMatrix Matrix { get; set; }
+    parameters: []
+    return:
+      type: Engine.Core.Maths.IMatrix
+    content.vb: Public Property Matrix As IMatrix
+  overload: Engine.Core.Maths.AugmentedMatrix.Matrix*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Maths.AugmentedMatrix.Augmentation
+  commentId: P:Engine.Core.Maths.AugmentedMatrix.Augmentation
+  id: Augmentation
+  parent: Engine.Core.Maths.AugmentedMatrix
+  langs:
+  - csharp
+  - vb
+  name: Augmentation
+  nameWithType: AugmentedMatrix.Augmentation
+  fullName: Engine.Core.Maths.AugmentedMatrix.Augmentation
+  type: Property
+  source:
+    id: Augmentation
+    path: ''
+    startLine: 561
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public IMatrix Augmentation { get; set; }
+    parameters: []
+    return:
+      type: Engine.Core.Maths.IMatrix
+    content.vb: Public Property Augmentation As IMatrix
+  overload: Engine.Core.Maths.AugmentedMatrix.Augmentation*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Maths.AugmentedMatrix.#ctor(Engine.Core.Maths.IMatrix,Engine.Core.Maths.IMatrix)
+  commentId: M:Engine.Core.Maths.AugmentedMatrix.#ctor(Engine.Core.Maths.IMatrix,Engine.Core.Maths.IMatrix)
+  id: '#ctor(Engine.Core.Maths.IMatrix,Engine.Core.Maths.IMatrix)'
+  parent: Engine.Core.Maths.AugmentedMatrix
+  langs:
+  - csharp
+  - vb
+  name: AugmentedMatrix(IMatrix, IMatrix)
+  nameWithType: AugmentedMatrix.AugmentedMatrix(IMatrix, IMatrix)
+  fullName: Engine.Core.Maths.AugmentedMatrix.AugmentedMatrix(Engine.Core.Maths.IMatrix, Engine.Core.Maths.IMatrix)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 567
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public AugmentedMatrix(IMatrix matrix, IMatrix augmentation)
+    parameters:
+    - id: matrix
+      type: Engine.Core.Maths.IMatrix
+    - id: augmentation
+      type: Engine.Core.Maths.IMatrix
+    content.vb: Public Sub New(matrix As IMatrix, augmentation As IMatrix)
+  overload: Engine.Core.Maths.AugmentedMatrix.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Maths.AugmentedMatrix.RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+  commentId: M:Engine.Core.Maths.AugmentedMatrix.RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+  id: RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+  parent: Engine.Core.Maths.AugmentedMatrix
+  langs:
+  - csharp
+  - vb
+  name: RowOperation(Int32, Int32, MatrixOperation, Single)
+  nameWithType: AugmentedMatrix.RowOperation(Int32, Int32, MatrixOperation, Single)
+  fullName: Engine.Core.Maths.AugmentedMatrix.RowOperation(System.Int32, System.Int32, Engine.Core.Maths.MatrixOperation, System.Single)
+  type: Method
+  source:
+    id: RowOperation
+    path: ''
+    startLine: 582
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  summary: "\nresult = target operation source (eg. target row + source row = new target row)\nIf the operation is a scalar operation then use float f and input something random into source as it won&apos;t be used.\n"
+  example: []
+  syntax:
+    content: public void RowOperation(int target, int source, MatrixOperation operation, float f = 0F)
+    parameters:
+    - id: target
+      type: System.Int32
+      description: ''
+    - id: source
+      type: System.Int32
+      description: ''
+    - id: operation
+      type: Engine.Core.Maths.MatrixOperation
+      description: ''
+    - id: f
+      type: System.Single
+      description: ''
+    content.vb: Public Sub RowOperation(target As Integer, source As Integer, operation As MatrixOperation, f As Single = 0F)
+  overload: Engine.Core.Maths.AugmentedMatrix.RowOperation*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Maths.AugmentedMatrix.SwapRows(System.Int32,System.Int32)
+  commentId: M:Engine.Core.Maths.AugmentedMatrix.SwapRows(System.Int32,System.Int32)
+  id: SwapRows(System.Int32,System.Int32)
+  parent: Engine.Core.Maths.AugmentedMatrix
+  langs:
+  - csharp
+  - vb
+  name: SwapRows(Int32, Int32)
+  nameWithType: AugmentedMatrix.SwapRows(Int32, Int32)
+  fullName: Engine.Core.Maths.AugmentedMatrix.SwapRows(System.Int32, System.Int32)
+  type: Method
+  source:
+    id: SwapRows
+    path: ''
+    startLine: 587
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public void SwapRows(int from, int to)
+    parameters:
+    - id: from
+      type: System.Int32
+    - id: to
+      type: System.Int32
+    content.vb: Public Sub SwapRows(from As Integer, to As Integer)
+  overload: Engine.Core.Maths.AugmentedMatrix.SwapRows*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Engine.Core.Maths
+  commentId: N:Engine.Core.Maths
+  name: Engine.Core.Maths
+  nameWithType: Engine.Core.Maths
+  fullName: Engine.Core.Maths
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Engine.Core.Maths.AugmentedMatrix.Matrix*
+  commentId: Overload:Engine.Core.Maths.AugmentedMatrix.Matrix
+  name: Matrix
+  nameWithType: AugmentedMatrix.Matrix
+  fullName: Engine.Core.Maths.AugmentedMatrix.Matrix
+- uid: Engine.Core.Maths.IMatrix
+  commentId: T:Engine.Core.Maths.IMatrix
+  parent: Engine.Core.Maths
+  name: IMatrix
+  nameWithType: IMatrix
+  fullName: Engine.Core.Maths.IMatrix
+- uid: Engine.Core.Maths.AugmentedMatrix.Augmentation*
+  commentId: Overload:Engine.Core.Maths.AugmentedMatrix.Augmentation
+  name: Augmentation
+  nameWithType: AugmentedMatrix.Augmentation
+  fullName: Engine.Core.Maths.AugmentedMatrix.Augmentation
+- uid: Engine.Core.Maths.AugmentedMatrix.#ctor*
+  commentId: Overload:Engine.Core.Maths.AugmentedMatrix.#ctor
+  name: AugmentedMatrix
+  nameWithType: AugmentedMatrix.AugmentedMatrix
+  fullName: Engine.Core.Maths.AugmentedMatrix.AugmentedMatrix
+- uid: Engine.Core.Maths.AugmentedMatrix.RowOperation*
+  commentId: Overload:Engine.Core.Maths.AugmentedMatrix.RowOperation
+  name: RowOperation
+  nameWithType: AugmentedMatrix.RowOperation
+  fullName: Engine.Core.Maths.AugmentedMatrix.RowOperation
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Engine.Core.Maths.MatrixOperation
+  commentId: T:Engine.Core.Maths.MatrixOperation
+  parent: Engine.Core.Maths
+  name: MatrixOperation
+  nameWithType: MatrixOperation
+  fullName: Engine.Core.Maths.MatrixOperation
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Engine.Core.Maths.AugmentedMatrix.SwapRows*
+  commentId: Overload:Engine.Core.Maths.AugmentedMatrix.SwapRows
+  name: SwapRows
+  nameWithType: AugmentedMatrix.SwapRows
+  fullName: Engine.Core.Maths.AugmentedMatrix.SwapRows

@@ -1,0 +1,42 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core
+  commentId: N:Engine.Core
+  id: Engine.Core
+  children:
+  - Engine.Core.Component
+  - Engine.Core.Layer
+  - Engine.Core.Object3D
+  langs:
+  - csharp
+  - vb
+  name: Engine.Core
+  nameWithType: Engine.Core
+  fullName: Engine.Core
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Engine.Core.Component
+  commentId: T:Engine.Core.Component
+  parent: Engine.Core
+  name: Component
+  nameWithType: Component
+  fullName: Engine.Core.Component
+- uid: Engine.Core.Layer
+  commentId: T:Engine.Core.Layer
+  parent: Engine.Core
+  name: Layer
+  nameWithType: Layer
+  fullName: Engine.Core.Layer
+- uid: Engine.Core.Object3D
+  commentId: T:Engine.Core.Object3D
+  parent: Engine.Core
+  name: Object3D
+  nameWithType: Object3D
+  fullName: Engine.Core.Object3D
+- uid: Engine.Core
+  commentId: N:Engine.Core
+  name: Engine.Core
+  nameWithType: Engine.Core
+  fullName: Engine.Core

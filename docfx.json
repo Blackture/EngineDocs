@@ -1,0 +1,70 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "C:/Users/Admin/Desktop/Engine",
+          "files": [
+            "**.cs",
+            "**/**.cs",
+            "**/**/**.cs",
+            "**/**/**/**.cs"
+          ],
+          "exclude": [
+            "**/bin/**",
+            "**/obj/**",
+            "**/Properties/**"
+          ]
+        }
+      ],
+      "dest": "engineAPI",
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "articles/**",
+          "toc.yml",
+          "*.md",
+          "engineAPI/**",
+          "References/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+        ]
+      }
+    ],
+    "overwrite": [
+      {
+        "files": [
+          "apidoc/**.md"
+        ],
+        "exclude": [
+          "obj/**",
+          "docs/**"
+        ]
+      }
+    ],
+    "xref": [
+
+    ],
+    "dest": "docs",
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "template": [
+      "default"
+    ],
+    "postProcessors": [],
+    "markdownEngineName": "markdig",
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": false,
+    "disableGitFeatures": false
+  }
+}

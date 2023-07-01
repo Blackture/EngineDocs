@@ -1,0 +1,422 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Rendering.RenderImage
+  commentId: T:Engine.Rendering.RenderImage
+  id: RenderImage
+  parent: Engine.Rendering
+  children:
+  - Engine.Rendering.RenderImage.#ctor(Engine.Rendering.Projection,PictureBox@)
+  - Engine.Rendering.RenderImage.Render
+  langs:
+  - csharp
+  - vb
+  name: RenderImage
+  nameWithType: RenderImage
+  fullName: Engine.Rendering.RenderImage
+  type: Class
+  source:
+    id: RenderImage
+    path: ''
+    startLine: 3555
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Rendering
+  syntax:
+    content: public class RenderImage
+    content.vb: Public Class RenderImage
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Engine.Rendering.RenderImage.#ctor(Engine.Rendering.Projection,PictureBox@)
+  commentId: M:Engine.Rendering.RenderImage.#ctor(Engine.Rendering.Projection,PictureBox@)
+  id: '#ctor(Engine.Rendering.Projection,PictureBox@)'
+  parent: Engine.Rendering.RenderImage
+  langs:
+  - csharp
+  - vb
+  name: RenderImage(Projection, ref PictureBox)
+  nameWithType: RenderImage.RenderImage(Projection, ref PictureBox)
+  fullName: Engine.Rendering.RenderImage.RenderImage(Engine.Rendering.Projection, ref PictureBox)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 3562
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Rendering
+  syntax:
+    content: public RenderImage(Projection projection, ref PictureBox pictureBox)
+    parameters:
+    - id: projection
+      type: Engine.Rendering.Projection
+    - id: pictureBox
+      type: PictureBox
+    content.vb: Public Sub New(projection As Projection, ByRef pictureBox As PictureBox)
+  overload: Engine.Rendering.RenderImage.#ctor*
+  nameWithType.vb: RenderImage.RenderImage(Projection, ByRef PictureBox)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Engine.Rendering.RenderImage.RenderImage(Engine.Rendering.Projection, ByRef PictureBox)
+  name.vb: RenderImage(Projection, ByRef PictureBox)
+- uid: Engine.Rendering.RenderImage.Render
+  commentId: M:Engine.Rendering.RenderImage.Render
+  id: Render
+  parent: Engine.Rendering.RenderImage
+  langs:
+  - csharp
+  - vb
+  name: Render()
+  nameWithType: RenderImage.Render()
+  fullName: Engine.Rendering.RenderImage.Render()
+  type: Method
+  source:
+    id: Render
+    path: ''
+    startLine: 3570
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Rendering
+  syntax:
+    content: public void Render()
+    content.vb: Public Sub Render
+  overload: Engine.Rendering.RenderImage.Render*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Engine.Rendering
+  commentId: N:Engine.Rendering
+  name: Engine.Rendering
+  nameWithType: Engine.Rendering
+  fullName: Engine.Rendering
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Engine.Rendering.RenderImage.#ctor*
+  commentId: Overload:Engine.Rendering.RenderImage.#ctor
+  name: RenderImage
+  nameWithType: RenderImage.RenderImage
+  fullName: Engine.Rendering.RenderImage.RenderImage
+- uid: Engine.Rendering.Projection
+  commentId: T:Engine.Rendering.Projection
+  parent: Engine.Rendering
+  name: Projection
+  nameWithType: Projection
+  fullName: Engine.Rendering.Projection
+- uid: PictureBox
+  commentId: '!:PictureBox'
+  isExternal: true
+  name: PictureBox
+  nameWithType: PictureBox
+  fullName: PictureBox
+- uid: Engine.Rendering.RenderImage.Render*
+  commentId: Overload:Engine.Rendering.RenderImage.Render
+  name: Render
+  nameWithType: RenderImage.Render
+  fullName: Engine.Rendering.RenderImage.Render

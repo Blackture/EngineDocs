@@ -1,0 +1,2040 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Maths.Mathf
+  commentId: T:Engine.Core.Maths.Mathf
+  id: Mathf
+  parent: Engine.Core.Maths
+  children:
+  - Engine.Core.Maths.Mathf.Abs(System.Single)
+  - Engine.Core.Maths.Mathf.Acos(System.Single)
+  - Engine.Core.Maths.Mathf.Approximately(System.Single,System.Single)
+  - Engine.Core.Maths.Mathf.Approximately(System.Single,System.Single,System.Single)
+  - Engine.Core.Maths.Mathf.Asin(System.Single)
+  - Engine.Core.Maths.Mathf.Atan(System.Single)
+  - Engine.Core.Maths.Mathf.Atan2(System.Single,System.Single)
+  - Engine.Core.Maths.Mathf.Ceiling(System.Single)
+  - Engine.Core.Maths.Mathf.Cos(System.Single)
+  - Engine.Core.Maths.Mathf.Cosh(System.Single)
+  - Engine.Core.Maths.Mathf.Deg2Rad(System.Single)
+  - Engine.Core.Maths.Mathf.e
+  - Engine.Core.Maths.Mathf.Exp(System.Single)
+  - Engine.Core.Maths.Mathf.Floor(System.Single)
+  - Engine.Core.Maths.Mathf.IEEERemainder(System.Single,System.Single)
+  - Engine.Core.Maths.Mathf.Log(System.Single)
+  - Engine.Core.Maths.Mathf.Log(System.Single,System.Single)
+  - Engine.Core.Maths.Mathf.Log10(System.Single)
+  - Engine.Core.Maths.Mathf.Max(System.Single,System.Single)
+  - Engine.Core.Maths.Mathf.Min(System.Single,System.Single)
+  - Engine.Core.Maths.Mathf.NthSqrt(System.Single,System.Int32)
+  - Engine.Core.Maths.Mathf.pi
+  - Engine.Core.Maths.Mathf.Pi(System.Func{System.Single,System.Single},System.Int32,System.Int32)
+  - Engine.Core.Maths.Mathf.Pi(System.Func{System.Single,System.Single},System.Single,System.Single,System.Single)
+  - Engine.Core.Maths.Mathf.Pow(System.Single,System.Single)
+  - Engine.Core.Maths.Mathf.Round(System.Single)
+  - Engine.Core.Maths.Mathf.Round(System.Single,System.Int32)
+  - Engine.Core.Maths.Mathf.Round(System.Single,System.Int32,System.MidpointRounding)
+  - Engine.Core.Maths.Mathf.Sigma(System.Func{System.Single,System.Single},System.Int32,System.Int32)
+  - Engine.Core.Maths.Mathf.Sigma(System.Func{System.Single,System.Single},System.Single,System.Single,System.Single)
+  - Engine.Core.Maths.Mathf.Sign(System.Single)
+  - Engine.Core.Maths.Mathf.Sin(System.Single)
+  - Engine.Core.Maths.Mathf.Sinc(System.Single,System.Boolean)
+  - Engine.Core.Maths.Mathf.Sinh(System.Single)
+  - Engine.Core.Maths.Mathf.Sqrt(System.Single)
+  - Engine.Core.Maths.Mathf.Sum(System.Single[])
+  - Engine.Core.Maths.Mathf.Tan(System.Single)
+  - Engine.Core.Maths.Mathf.Tanh(System.Single)
+  - Engine.Core.Maths.Mathf.Truncate(System.Single)
+  langs:
+  - csharp
+  - vb
+  name: Mathf
+  nameWithType: Mathf
+  fullName: Engine.Core.Maths.Mathf
+  type: Class
+  source:
+    id: Mathf
+    path: ''
+    startLine: 908
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static class Mathf
+    content.vb: Public Module Mathf
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Engine.Core.Maths.Mathf.e
+  commentId: F:Engine.Core.Maths.Mathf.e
+  id: e
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: e
+  nameWithType: Mathf.e
+  fullName: Engine.Core.Maths.Mathf.e
+  type: Field
+  source:
+    id: e
+    path: ''
+    startLine: 910
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public const float e = 2.71828175F
+    return:
+      type: System.Single
+    content.vb: Public Const e As Single = 2.71828175F
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Engine.Core.Maths.Mathf.pi
+  commentId: F:Engine.Core.Maths.Mathf.pi
+  id: pi
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: pi
+  nameWithType: Mathf.pi
+  fullName: Engine.Core.Maths.Mathf.pi
+  type: Field
+  source:
+    id: pi
+    path: ''
+    startLine: 911
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public const float pi = 3.14159274F
+    return:
+      type: System.Single
+    content.vb: Public Const pi As Single = 3.14159274F
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Engine.Core.Maths.Mathf.Acos(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Acos(System.Single)
+  id: Acos(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Acos(Single)
+  nameWithType: Mathf.Acos(Single)
+  fullName: Engine.Core.Maths.Mathf.Acos(System.Single)
+  type: Method
+  source:
+    id: Acos
+    path: ''
+    startLine: 913
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Acos(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Acos(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Acos*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Engine.Core.Maths.Mathf.Asin(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Asin(System.Single)
+  id: Asin(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Asin(Single)
+  nameWithType: Mathf.Asin(Single)
+  fullName: Engine.Core.Maths.Mathf.Asin(System.Single)
+  type: Method
+  source:
+    id: Asin
+    path: ''
+    startLine: 918
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Asin(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Asin(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Asin*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Engine.Core.Maths.Mathf.Atan(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Atan(System.Single)
+  id: Atan(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Atan(Single)
+  nameWithType: Mathf.Atan(Single)
+  fullName: Engine.Core.Maths.Mathf.Atan(System.Single)
+  type: Method
+  source:
+    id: Atan
+    path: ''
+    startLine: 923
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Atan(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Atan(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Atan*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Engine.Core.Maths.Mathf.Abs(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Abs(System.Single)
+  id: Abs(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Abs(Single)
+  nameWithType: Mathf.Abs(Single)
+  fullName: Engine.Core.Maths.Mathf.Abs(System.Single)
+  type: Method
+  source:
+    id: Abs
+    path: ''
+    startLine: 928
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Abs(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Abs(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Abs*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Engine.Core.Maths.Mathf.Atan2(System.Single,System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Atan2(System.Single,System.Single)
+  id: Atan2(System.Single,System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Atan2(Single, Single)
+  nameWithType: Mathf.Atan2(Single, Single)
+  fullName: Engine.Core.Maths.Mathf.Atan2(System.Single, System.Single)
+  type: Method
+  source:
+    id: Atan2
+    path: ''
+    startLine: 933
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Atan2(float x, float y)
+    parameters:
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Atan2(x As Single, y As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Atan2*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Engine.Core.Maths.Mathf.Ceiling(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Ceiling(System.Single)
+  id: Ceiling(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Ceiling(Single)
+  nameWithType: Mathf.Ceiling(Single)
+  fullName: Engine.Core.Maths.Mathf.Ceiling(System.Single)
+  type: Method
+  source:
+    id: Ceiling
+    path: ''
+    startLine: 938
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Ceiling(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Ceiling(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Ceiling*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Engine.Core.Maths.Mathf.Cos(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Cos(System.Single)
+  id: Cos(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Cos(Single)
+  nameWithType: Mathf.Cos(Single)
+  fullName: Engine.Core.Maths.Mathf.Cos(System.Single)
+  type: Method
+  source:
+    id: Cos
+    path: ''
+    startLine: 943
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Cos(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Cos(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Cos*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Engine.Core.Maths.Mathf.Cosh(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Cosh(System.Single)
+  id: Cosh(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Cosh(Single)
+  nameWithType: Mathf.Cosh(Single)
+  fullName: Engine.Core.Maths.Mathf.Cosh(System.Single)
+  type: Method
+  source:
+    id: Cosh
+    path: ''
+    startLine: 948
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Cosh(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Cosh(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Cosh*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Engine.Core.Maths.Mathf.Exp(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Exp(System.Single)
+  id: Exp(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Exp(Single)
+  nameWithType: Mathf.Exp(Single)
+  fullName: Engine.Core.Maths.Mathf.Exp(System.Single)
+  type: Method
+  source:
+    id: Exp
+    path: ''
+    startLine: 953
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Exp(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Exp(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Exp*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Engine.Core.Maths.Mathf.Floor(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Floor(System.Single)
+  id: Floor(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Floor(Single)
+  nameWithType: Mathf.Floor(Single)
+  fullName: Engine.Core.Maths.Mathf.Floor(System.Single)
+  type: Method
+  source:
+    id: Floor
+    path: ''
+    startLine: 958
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Floor(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Floor(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Floor*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Engine.Core.Maths.Mathf.IEEERemainder(System.Single,System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.IEEERemainder(System.Single,System.Single)
+  id: IEEERemainder(System.Single,System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: IEEERemainder(Single, Single)
+  nameWithType: Mathf.IEEERemainder(Single, Single)
+  fullName: Engine.Core.Maths.Mathf.IEEERemainder(System.Single, System.Single)
+  type: Method
+  source:
+    id: IEEERemainder
+    path: ''
+    startLine: 963
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float IEEERemainder(float x, float y)
+    parameters:
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function IEEERemainder(x As Single, y As Single) As Single
+  overload: Engine.Core.Maths.Mathf.IEEERemainder*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Engine.Core.Maths.Mathf.Log(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Log(System.Single)
+  id: Log(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Log(Single)
+  nameWithType: Mathf.Log(Single)
+  fullName: Engine.Core.Maths.Mathf.Log(System.Single)
+  type: Method
+  source:
+    id: Log
+    path: ''
+    startLine: 968
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Log(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Log(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Log*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Engine.Core.Maths.Mathf.Log(System.Single,System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Log(System.Single,System.Single)
+  id: Log(System.Single,System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Log(Single, Single)
+  nameWithType: Mathf.Log(Single, Single)
+  fullName: Engine.Core.Maths.Mathf.Log(System.Single, System.Single)
+  type: Method
+  source:
+    id: Log
+    path: ''
+    startLine: 973
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Log(float f, float newBase)
+    parameters:
+    - id: f
+      type: System.Single
+    - id: newBase
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Log(f As Single, newBase As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Log*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Engine.Core.Maths.Mathf.Log10(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Log10(System.Single)
+  id: Log10(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Log10(Single)
+  nameWithType: Mathf.Log10(Single)
+  fullName: Engine.Core.Maths.Mathf.Log10(System.Single)
+  type: Method
+  source:
+    id: Log10
+    path: ''
+    startLine: 978
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Log10(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Log10(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Log10*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Engine.Core.Maths.Mathf.Max(System.Single,System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Max(System.Single,System.Single)
+  id: Max(System.Single,System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Max(Single, Single)
+  nameWithType: Mathf.Max(Single, Single)
+  fullName: Engine.Core.Maths.Mathf.Max(System.Single, System.Single)
+  type: Method
+  source:
+    id: Max
+    path: ''
+    startLine: 983
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Max(float val1, float val2)
+    parameters:
+    - id: val1
+      type: System.Single
+    - id: val2
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Max(val1 As Single, val2 As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Max*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Engine.Core.Maths.Mathf.Min(System.Single,System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Min(System.Single,System.Single)
+  id: Min(System.Single,System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Min(Single, Single)
+  nameWithType: Mathf.Min(Single, Single)
+  fullName: Engine.Core.Maths.Mathf.Min(System.Single, System.Single)
+  type: Method
+  source:
+    id: Min
+    path: ''
+    startLine: 988
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Min(float val1, float val2)
+    parameters:
+    - id: val1
+      type: System.Single
+    - id: val2
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Min(val1 As Single, val2 As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Min*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Engine.Core.Maths.Mathf.Pow(System.Single,System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Pow(System.Single,System.Single)
+  id: Pow(System.Single,System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Pow(Single, Single)
+  nameWithType: Mathf.Pow(Single, Single)
+  fullName: Engine.Core.Maths.Mathf.Pow(System.Single, System.Single)
+  type: Method
+  source:
+    id: Pow
+    path: ''
+    startLine: 993
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Pow(float b, float p)
+    parameters:
+    - id: b
+      type: System.Single
+    - id: p
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Pow(b As Single, p As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Pow*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Engine.Core.Maths.Mathf.Round(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Round(System.Single)
+  id: Round(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Round(Single)
+  nameWithType: Mathf.Round(Single)
+  fullName: Engine.Core.Maths.Mathf.Round(System.Single)
+  type: Method
+  source:
+    id: Round
+    path: ''
+    startLine: 998
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Round(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Round(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Round*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Engine.Core.Maths.Mathf.Round(System.Single,System.Int32)
+  commentId: M:Engine.Core.Maths.Mathf.Round(System.Single,System.Int32)
+  id: Round(System.Single,System.Int32)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Round(Single, Int32)
+  nameWithType: Mathf.Round(Single, Int32)
+  fullName: Engine.Core.Maths.Mathf.Round(System.Single, System.Int32)
+  type: Method
+  source:
+    id: Round
+    path: ''
+    startLine: 1003
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Round(float f, int digits)
+    parameters:
+    - id: f
+      type: System.Single
+    - id: digits
+      type: System.Int32
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Round(f As Single, digits As Integer) As Single
+  overload: Engine.Core.Maths.Mathf.Round*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Engine.Core.Maths.Mathf.Round(System.Single,System.Int32,System.MidpointRounding)
+  commentId: M:Engine.Core.Maths.Mathf.Round(System.Single,System.Int32,System.MidpointRounding)
+  id: Round(System.Single,System.Int32,System.MidpointRounding)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Round(Single, Int32, MidpointRounding)
+  nameWithType: Mathf.Round(Single, Int32, MidpointRounding)
+  fullName: Engine.Core.Maths.Mathf.Round(System.Single, System.Int32, System.MidpointRounding)
+  type: Method
+  source:
+    id: Round
+    path: ''
+    startLine: 1008
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Round(float f, int digits, MidpointRounding midpointRounding)
+    parameters:
+    - id: f
+      type: System.Single
+    - id: digits
+      type: System.Int32
+    - id: midpointRounding
+      type: System.MidpointRounding
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Round(f As Single, digits As Integer, midpointRounding As MidpointRounding) As Single
+  overload: Engine.Core.Maths.Mathf.Round*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Engine.Core.Maths.Mathf.Sign(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Sign(System.Single)
+  id: Sign(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Sign(Single)
+  nameWithType: Mathf.Sign(Single)
+  fullName: Engine.Core.Maths.Mathf.Sign(System.Single)
+  type: Method
+  source:
+    id: Sign
+    path: ''
+    startLine: 1013
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static int Sign(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function Sign(f As Single) As Integer
+  overload: Engine.Core.Maths.Mathf.Sign*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Engine.Core.Maths.Mathf.Sin(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Sin(System.Single)
+  id: Sin(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Sin(Single)
+  nameWithType: Mathf.Sin(Single)
+  fullName: Engine.Core.Maths.Mathf.Sin(System.Single)
+  type: Method
+  source:
+    id: Sin
+    path: ''
+    startLine: 1018
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Sin(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Sin(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Sin*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Engine.Core.Maths.Mathf.Sinh(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Sinh(System.Single)
+  id: Sinh(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Sinh(Single)
+  nameWithType: Mathf.Sinh(Single)
+  fullName: Engine.Core.Maths.Mathf.Sinh(System.Single)
+  type: Method
+  source:
+    id: Sinh
+    path: ''
+    startLine: 1023
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Sinh(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Sinh(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Sinh*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Engine.Core.Maths.Mathf.Sqrt(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Sqrt(System.Single)
+  id: Sqrt(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Sqrt(Single)
+  nameWithType: Mathf.Sqrt(Single)
+  fullName: Engine.Core.Maths.Mathf.Sqrt(System.Single)
+  type: Method
+  source:
+    id: Sqrt
+    path: ''
+    startLine: 1028
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Sqrt(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Sqrt(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Sqrt*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Engine.Core.Maths.Mathf.NthSqrt(System.Single,System.Int32)
+  commentId: M:Engine.Core.Maths.Mathf.NthSqrt(System.Single,System.Int32)
+  id: NthSqrt(System.Single,System.Int32)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: NthSqrt(Single, Int32)
+  nameWithType: Mathf.NthSqrt(Single, Int32)
+  fullName: Engine.Core.Maths.Mathf.NthSqrt(System.Single, System.Int32)
+  type: Method
+  source:
+    id: NthSqrt
+    path: ''
+    startLine: 1034
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float NthSqrt(float f, int n)
+    parameters:
+    - id: f
+      type: System.Single
+    - id: n
+      type: System.Int32
+    return:
+      type: System.Single
+    content.vb: Public Shared Function NthSqrt(f As Single, n As Integer) As Single
+  overload: Engine.Core.Maths.Mathf.NthSqrt*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Engine.Core.Maths.Mathf.Tan(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Tan(System.Single)
+  id: Tan(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Tan(Single)
+  nameWithType: Mathf.Tan(Single)
+  fullName: Engine.Core.Maths.Mathf.Tan(System.Single)
+  type: Method
+  source:
+    id: Tan
+    path: ''
+    startLine: 1039
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Tan(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Tan(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Tan*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Engine.Core.Maths.Mathf.Tanh(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Tanh(System.Single)
+  id: Tanh(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Tanh(Single)
+  nameWithType: Mathf.Tanh(Single)
+  fullName: Engine.Core.Maths.Mathf.Tanh(System.Single)
+  type: Method
+  source:
+    id: Tanh
+    path: ''
+    startLine: 1044
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Tanh(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Tanh(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Tanh*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Engine.Core.Maths.Mathf.Truncate(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Truncate(System.Single)
+  id: Truncate(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Truncate(Single)
+  nameWithType: Mathf.Truncate(Single)
+  fullName: Engine.Core.Maths.Mathf.Truncate(System.Single)
+  type: Method
+  source:
+    id: Truncate
+    path: ''
+    startLine: 1049
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Truncate(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Truncate(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Truncate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Engine.Core.Maths.Mathf.Pi(System.Func{System.Single,System.Single},System.Int32,System.Int32)
+  commentId: M:Engine.Core.Maths.Mathf.Pi(System.Func{System.Single,System.Single},System.Int32,System.Int32)
+  id: Pi(System.Func{System.Single,System.Single},System.Int32,System.Int32)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Pi(Func<Single, Single>, Int32, Int32)
+  nameWithType: Mathf.Pi(Func<Single, Single>, Int32, Int32)
+  fullName: Engine.Core.Maths.Mathf.Pi(System.Func<System.Single, System.Single>, System.Int32, System.Int32)
+  type: Method
+  source:
+    id: Pi
+    path: ''
+    startLine: 1054
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Pi(Func<float, float> innerFunction, int limit1, int limit2)
+    parameters:
+    - id: innerFunction
+      type: System.Func{System.Single,System.Single}
+    - id: limit1
+      type: System.Int32
+    - id: limit2
+      type: System.Int32
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Pi(innerFunction As Func(Of Single, Single), limit1 As Integer, limit2 As Integer) As Single
+  overload: Engine.Core.Maths.Mathf.Pi*
+  nameWithType.vb: Mathf.Pi(Func(Of Single, Single), Int32, Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Engine.Core.Maths.Mathf.Pi(System.Func(Of System.Single, System.Single), System.Int32, System.Int32)
+  name.vb: Pi(Func(Of Single, Single), Int32, Int32)
+- uid: Engine.Core.Maths.Mathf.Pi(System.Func{System.Single,System.Single},System.Single,System.Single,System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Pi(System.Func{System.Single,System.Single},System.Single,System.Single,System.Single)
+  id: Pi(System.Func{System.Single,System.Single},System.Single,System.Single,System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Pi(Func<Single, Single>, Single, Single, Single)
+  nameWithType: Mathf.Pi(Func<Single, Single>, Single, Single, Single)
+  fullName: Engine.Core.Maths.Mathf.Pi(System.Func<System.Single, System.Single>, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: Pi
+    path: ''
+    startLine: 1064
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Pi(Func<float, float> innerFunction, float limit1, float limit2, float increment)
+    parameters:
+    - id: innerFunction
+      type: System.Func{System.Single,System.Single}
+    - id: limit1
+      type: System.Single
+    - id: limit2
+      type: System.Single
+    - id: increment
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Pi(innerFunction As Func(Of Single, Single), limit1 As Single, limit2 As Single, increment As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Pi*
+  nameWithType.vb: Mathf.Pi(Func(Of Single, Single), Single, Single, Single)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Engine.Core.Maths.Mathf.Pi(System.Func(Of System.Single, System.Single), System.Single, System.Single, System.Single)
+  name.vb: Pi(Func(Of Single, Single), Single, Single, Single)
+- uid: Engine.Core.Maths.Mathf.Sigma(System.Func{System.Single,System.Single},System.Single,System.Single,System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Sigma(System.Func{System.Single,System.Single},System.Single,System.Single,System.Single)
+  id: Sigma(System.Func{System.Single,System.Single},System.Single,System.Single,System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Sigma(Func<Single, Single>, Single, Single, Single)
+  nameWithType: Mathf.Sigma(Func<Single, Single>, Single, Single, Single)
+  fullName: Engine.Core.Maths.Mathf.Sigma(System.Func<System.Single, System.Single>, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: Sigma
+    path: ''
+    startLine: 1074
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Sigma(Func<float, float> innerFunction, float limit1, float limit2, float increment)
+    parameters:
+    - id: innerFunction
+      type: System.Func{System.Single,System.Single}
+    - id: limit1
+      type: System.Single
+    - id: limit2
+      type: System.Single
+    - id: increment
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Sigma(innerFunction As Func(Of Single, Single), limit1 As Single, limit2 As Single, increment As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Sigma*
+  nameWithType.vb: Mathf.Sigma(Func(Of Single, Single), Single, Single, Single)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Engine.Core.Maths.Mathf.Sigma(System.Func(Of System.Single, System.Single), System.Single, System.Single, System.Single)
+  name.vb: Sigma(Func(Of Single, Single), Single, Single, Single)
+- uid: Engine.Core.Maths.Mathf.Sigma(System.Func{System.Single,System.Single},System.Int32,System.Int32)
+  commentId: M:Engine.Core.Maths.Mathf.Sigma(System.Func{System.Single,System.Single},System.Int32,System.Int32)
+  id: Sigma(System.Func{System.Single,System.Single},System.Int32,System.Int32)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Sigma(Func<Single, Single>, Int32, Int32)
+  nameWithType: Mathf.Sigma(Func<Single, Single>, Int32, Int32)
+  fullName: Engine.Core.Maths.Mathf.Sigma(System.Func<System.Single, System.Single>, System.Int32, System.Int32)
+  type: Method
+  source:
+    id: Sigma
+    path: ''
+    startLine: 1084
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Sigma(Func<float, float> innerFunction, int limit1, int limit2)
+    parameters:
+    - id: innerFunction
+      type: System.Func{System.Single,System.Single}
+    - id: limit1
+      type: System.Int32
+    - id: limit2
+      type: System.Int32
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Sigma(innerFunction As Func(Of Single, Single), limit1 As Integer, limit2 As Integer) As Single
+  overload: Engine.Core.Maths.Mathf.Sigma*
+  nameWithType.vb: Mathf.Sigma(Func(Of Single, Single), Int32, Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Engine.Core.Maths.Mathf.Sigma(System.Func(Of System.Single, System.Single), System.Int32, System.Int32)
+  name.vb: Sigma(Func(Of Single, Single), Int32, Int32)
+- uid: Engine.Core.Maths.Mathf.Approximately(System.Single,System.Single,System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Approximately(System.Single,System.Single,System.Single)
+  id: Approximately(System.Single,System.Single,System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Approximately(Single, Single, Single)
+  nameWithType: Mathf.Approximately(Single, Single, Single)
+  fullName: Engine.Core.Maths.Mathf.Approximately(System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: Approximately
+    path: ''
+    startLine: 1094
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static bool Approximately(float a, float b, float tolerance = 0.0001F)
+    parameters:
+    - id: a
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: tolerance
+      type: System.Single
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function Approximately(a As Single, b As Single, tolerance As Single = 0.0001F) As Boolean
+  overload: Engine.Core.Maths.Mathf.Approximately*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Engine.Core.Maths.Mathf.Approximately(System.Single,System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Approximately(System.Single,System.Single)
+  id: Approximately(System.Single,System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Approximately(Single, Single)
+  nameWithType: Mathf.Approximately(Single, Single)
+  fullName: Engine.Core.Maths.Mathf.Approximately(System.Single, System.Single)
+  type: Method
+  source:
+    id: Approximately
+    path: ''
+    startLine: 1099
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static bool Approximately(float a, float b)
+    parameters:
+    - id: a
+      type: System.Single
+    - id: b
+      type: System.Single
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function Approximately(a As Single, b As Single) As Boolean
+  overload: Engine.Core.Maths.Mathf.Approximately*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Engine.Core.Maths.Mathf.Deg2Rad(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Deg2Rad(System.Single)
+  id: Deg2Rad(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Deg2Rad(Single)
+  nameWithType: Mathf.Deg2Rad(Single)
+  fullName: Engine.Core.Maths.Mathf.Deg2Rad(System.Single)
+  type: Method
+  source:
+    id: Deg2Rad
+    path: ''
+    startLine: 1104
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Deg2Rad(float deg)
+    parameters:
+    - id: deg
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Deg2Rad(deg As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Deg2Rad*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Engine.Core.Maths.Mathf.Sum(System.Single[])
+  commentId: M:Engine.Core.Maths.Mathf.Sum(System.Single[])
+  id: Sum(System.Single[])
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Sum(Single[])
+  nameWithType: Mathf.Sum(Single[])
+  fullName: Engine.Core.Maths.Mathf.Sum(System.Single[])
+  type: Method
+  source:
+    id: Sum
+    path: ''
+    startLine: 1109
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Sum(params float[] floats)
+    parameters:
+    - id: floats
+      type: System.Single[]
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Sum(ParamArray floats As Single()) As Single
+  overload: Engine.Core.Maths.Mathf.Sum*
+  nameWithType.vb: Mathf.Sum(Single())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Engine.Core.Maths.Mathf.Sum(System.Single())
+  name.vb: Sum(Single())
+- uid: Engine.Core.Maths.Mathf.Sinc(System.Single,System.Boolean)
+  commentId: M:Engine.Core.Maths.Mathf.Sinc(System.Single,System.Boolean)
+  id: Sinc(System.Single,System.Boolean)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Sinc(Single, Boolean)
+  nameWithType: Mathf.Sinc(Single, Boolean)
+  fullName: Engine.Core.Maths.Mathf.Sinc(System.Single, System.Boolean)
+  type: Method
+  source:
+    id: Sinc
+    path: ''
+    startLine: 1119
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Sinc(float f, bool Pi = false)
+    parameters:
+    - id: f
+      type: System.Single
+    - id: Pi
+      type: System.Boolean
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Sinc(f As Single, Pi As Boolean = False) As Single
+  overload: Engine.Core.Maths.Mathf.Sinc*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Engine.Core.Maths
+  commentId: N:Engine.Core.Maths
+  name: Engine.Core.Maths
+  nameWithType: Engine.Core.Maths
+  fullName: Engine.Core.Maths
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Engine.Core.Maths.Mathf.Acos*
+  commentId: Overload:Engine.Core.Maths.Mathf.Acos
+  name: Acos
+  nameWithType: Mathf.Acos
+  fullName: Engine.Core.Maths.Mathf.Acos
+- uid: Engine.Core.Maths.Mathf.Asin*
+  commentId: Overload:Engine.Core.Maths.Mathf.Asin
+  name: Asin
+  nameWithType: Mathf.Asin
+  fullName: Engine.Core.Maths.Mathf.Asin
+- uid: Engine.Core.Maths.Mathf.Atan*
+  commentId: Overload:Engine.Core.Maths.Mathf.Atan
+  name: Atan
+  nameWithType: Mathf.Atan
+  fullName: Engine.Core.Maths.Mathf.Atan
+- uid: Engine.Core.Maths.Mathf.Abs*
+  commentId: Overload:Engine.Core.Maths.Mathf.Abs
+  name: Abs
+  nameWithType: Mathf.Abs
+  fullName: Engine.Core.Maths.Mathf.Abs
+- uid: Engine.Core.Maths.Mathf.Atan2*
+  commentId: Overload:Engine.Core.Maths.Mathf.Atan2
+  name: Atan2
+  nameWithType: Mathf.Atan2
+  fullName: Engine.Core.Maths.Mathf.Atan2
+- uid: Engine.Core.Maths.Mathf.Ceiling*
+  commentId: Overload:Engine.Core.Maths.Mathf.Ceiling
+  name: Ceiling
+  nameWithType: Mathf.Ceiling
+  fullName: Engine.Core.Maths.Mathf.Ceiling
+- uid: Engine.Core.Maths.Mathf.Cos*
+  commentId: Overload:Engine.Core.Maths.Mathf.Cos
+  name: Cos
+  nameWithType: Mathf.Cos
+  fullName: Engine.Core.Maths.Mathf.Cos
+- uid: Engine.Core.Maths.Mathf.Cosh*
+  commentId: Overload:Engine.Core.Maths.Mathf.Cosh
+  name: Cosh
+  nameWithType: Mathf.Cosh
+  fullName: Engine.Core.Maths.Mathf.Cosh
+- uid: Engine.Core.Maths.Mathf.Exp*
+  commentId: Overload:Engine.Core.Maths.Mathf.Exp
+  name: Exp
+  nameWithType: Mathf.Exp
+  fullName: Engine.Core.Maths.Mathf.Exp
+- uid: Engine.Core.Maths.Mathf.Floor*
+  commentId: Overload:Engine.Core.Maths.Mathf.Floor
+  name: Floor
+  nameWithType: Mathf.Floor
+  fullName: Engine.Core.Maths.Mathf.Floor
+- uid: Engine.Core.Maths.Mathf.IEEERemainder*
+  commentId: Overload:Engine.Core.Maths.Mathf.IEEERemainder
+  name: IEEERemainder
+  nameWithType: Mathf.IEEERemainder
+  fullName: Engine.Core.Maths.Mathf.IEEERemainder
+- uid: Engine.Core.Maths.Mathf.Log*
+  commentId: Overload:Engine.Core.Maths.Mathf.Log
+  name: Log
+  nameWithType: Mathf.Log
+  fullName: Engine.Core.Maths.Mathf.Log
+- uid: Engine.Core.Maths.Mathf.Log10*
+  commentId: Overload:Engine.Core.Maths.Mathf.Log10
+  name: Log10
+  nameWithType: Mathf.Log10
+  fullName: Engine.Core.Maths.Mathf.Log10
+- uid: Engine.Core.Maths.Mathf.Max*
+  commentId: Overload:Engine.Core.Maths.Mathf.Max
+  name: Max
+  nameWithType: Mathf.Max
+  fullName: Engine.Core.Maths.Mathf.Max
+- uid: Engine.Core.Maths.Mathf.Min*
+  commentId: Overload:Engine.Core.Maths.Mathf.Min
+  name: Min
+  nameWithType: Mathf.Min
+  fullName: Engine.Core.Maths.Mathf.Min
+- uid: Engine.Core.Maths.Mathf.Pow*
+  commentId: Overload:Engine.Core.Maths.Mathf.Pow
+  name: Pow
+  nameWithType: Mathf.Pow
+  fullName: Engine.Core.Maths.Mathf.Pow
+- uid: Engine.Core.Maths.Mathf.Round*
+  commentId: Overload:Engine.Core.Maths.Mathf.Round
+  name: Round
+  nameWithType: Mathf.Round
+  fullName: Engine.Core.Maths.Mathf.Round
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.MidpointRounding
+  commentId: T:System.MidpointRounding
+  parent: System
+  isExternal: true
+  name: MidpointRounding
+  nameWithType: MidpointRounding
+  fullName: System.MidpointRounding
+- uid: Engine.Core.Maths.Mathf.Sign*
+  commentId: Overload:Engine.Core.Maths.Mathf.Sign
+  name: Sign
+  nameWithType: Mathf.Sign
+  fullName: Engine.Core.Maths.Mathf.Sign
+- uid: Engine.Core.Maths.Mathf.Sin*
+  commentId: Overload:Engine.Core.Maths.Mathf.Sin
+  name: Sin
+  nameWithType: Mathf.Sin
+  fullName: Engine.Core.Maths.Mathf.Sin
+- uid: Engine.Core.Maths.Mathf.Sinh*
+  commentId: Overload:Engine.Core.Maths.Mathf.Sinh
+  name: Sinh
+  nameWithType: Mathf.Sinh
+  fullName: Engine.Core.Maths.Mathf.Sinh
+- uid: Engine.Core.Maths.Mathf.Sqrt*
+  commentId: Overload:Engine.Core.Maths.Mathf.Sqrt
+  name: Sqrt
+  nameWithType: Mathf.Sqrt
+  fullName: Engine.Core.Maths.Mathf.Sqrt
+- uid: Engine.Core.Maths.Mathf.NthSqrt*
+  commentId: Overload:Engine.Core.Maths.Mathf.NthSqrt
+  name: NthSqrt
+  nameWithType: Mathf.NthSqrt
+  fullName: Engine.Core.Maths.Mathf.NthSqrt
+- uid: Engine.Core.Maths.Mathf.Tan*
+  commentId: Overload:Engine.Core.Maths.Mathf.Tan
+  name: Tan
+  nameWithType: Mathf.Tan
+  fullName: Engine.Core.Maths.Mathf.Tan
+- uid: Engine.Core.Maths.Mathf.Tanh*
+  commentId: Overload:Engine.Core.Maths.Mathf.Tanh
+  name: Tanh
+  nameWithType: Mathf.Tanh
+  fullName: Engine.Core.Maths.Mathf.Tanh
+- uid: Engine.Core.Maths.Mathf.Truncate*
+  commentId: Overload:Engine.Core.Maths.Mathf.Truncate
+  name: Truncate
+  nameWithType: Mathf.Truncate
+  fullName: Engine.Core.Maths.Mathf.Truncate
+- uid: Engine.Core.Maths.Mathf.Pi*
+  commentId: Overload:Engine.Core.Maths.Mathf.Pi
+  name: Pi
+  nameWithType: Mathf.Pi
+  fullName: Engine.Core.Maths.Mathf.Pi
+- uid: System.Func{System.Single,System.Single}
+  commentId: T:System.Func{System.Single,System.Single}
+  parent: System
+  definition: System.Func`2
+  name: Func<Single, Single>
+  nameWithType: Func<Single, Single>
+  fullName: System.Func<System.Single, System.Single>
+  nameWithType.vb: Func(Of Single, Single)
+  fullName.vb: System.Func(Of System.Single, System.Single)
+  name.vb: Func(Of Single, Single)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Engine.Core.Maths.Mathf.Sigma*
+  commentId: Overload:Engine.Core.Maths.Mathf.Sigma
+  name: Sigma
+  nameWithType: Mathf.Sigma
+  fullName: Engine.Core.Maths.Mathf.Sigma
+- uid: Engine.Core.Maths.Mathf.Approximately*
+  commentId: Overload:Engine.Core.Maths.Mathf.Approximately
+  name: Approximately
+  nameWithType: Mathf.Approximately
+  fullName: Engine.Core.Maths.Mathf.Approximately
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Engine.Core.Maths.Mathf.Deg2Rad*
+  commentId: Overload:Engine.Core.Maths.Mathf.Deg2Rad
+  name: Deg2Rad
+  nameWithType: Mathf.Deg2Rad
+  fullName: Engine.Core.Maths.Mathf.Deg2Rad
+- uid: Engine.Core.Maths.Mathf.Sum*
+  commentId: Overload:Engine.Core.Maths.Mathf.Sum
+  name: Sum
+  nameWithType: Mathf.Sum
+  fullName: Engine.Core.Maths.Mathf.Sum
+- uid: System.Single[]
+  isExternal: true
+  name: Single[]
+  nameWithType: Single[]
+  fullName: System.Single[]
+  nameWithType.vb: Single()
+  fullName.vb: System.Single()
+  name.vb: Single()
+  spec.csharp:
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Engine.Core.Maths.Mathf.Sinc*
+  commentId: Overload:Engine.Core.Maths.Mathf.Sinc
+  name: Sinc
+  nameWithType: Mathf.Sinc
+  fullName: Engine.Core.Maths.Mathf.Sinc

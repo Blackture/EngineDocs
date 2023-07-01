@@ -1,0 +1,580 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Maths.GCS
+  commentId: T:Engine.Core.Maths.GCS
+  id: GCS
+  parent: Engine.Core.Maths
+  children:
+  - Engine.Core.Maths.GCS.#ctor
+  - Engine.Core.Maths.GCS.Add(Engine.Core.Maths.LCS)
+  - Engine.Core.Maths.GCS.Axes
+  - Engine.Core.Maths.GCS.LocalSystems
+  langs:
+  - csharp
+  - vb
+  name: GCS
+  nameWithType: GCS
+  fullName: Engine.Core.Maths.GCS
+  type: Class
+  source:
+    id: GCS
+    path: ''
+    startLine: 833
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public class GCS
+    content.vb: Public Class GCS
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Engine.Core.Maths.GCS.Axes
+  commentId: F:Engine.Core.Maths.GCS.Axes
+  id: Axes
+  parent: Engine.Core.Maths.GCS
+  langs:
+  - csharp
+  - vb
+  name: Axes
+  nameWithType: GCS.Axes
+  fullName: Engine.Core.Maths.GCS.Axes
+  type: Field
+  source:
+    id: Axes
+    path: ''
+    startLine: 835
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static Straight[] Axes
+    return:
+      type: Engine.Core.Maths.Straight[]
+    content.vb: Public Shared Axes As Straight()
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Engine.Core.Maths.GCS.LocalSystems
+  commentId: F:Engine.Core.Maths.GCS.LocalSystems
+  id: LocalSystems
+  parent: Engine.Core.Maths.GCS
+  langs:
+  - csharp
+  - vb
+  name: LocalSystems
+  nameWithType: GCS.LocalSystems
+  fullName: Engine.Core.Maths.GCS.LocalSystems
+  type: Field
+  source:
+    id: LocalSystems
+    path: ''
+    startLine: 837
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public List<LCS> LocalSystems
+    return:
+      type: System.Collections.Generic.List{Engine.Core.Maths.LCS}
+    content.vb: Public LocalSystems As List(Of LCS)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Maths.GCS.#ctor
+  commentId: M:Engine.Core.Maths.GCS.#ctor
+  id: '#ctor'
+  parent: Engine.Core.Maths.GCS
+  langs:
+  - csharp
+  - vb
+  name: GCS()
+  nameWithType: GCS.GCS()
+  fullName: Engine.Core.Maths.GCS.GCS()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 839
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public GCS()
+    content.vb: Public Sub New
+  overload: Engine.Core.Maths.GCS.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Maths.GCS.Add(Engine.Core.Maths.LCS)
+  commentId: M:Engine.Core.Maths.GCS.Add(Engine.Core.Maths.LCS)
+  id: Add(Engine.Core.Maths.LCS)
+  parent: Engine.Core.Maths.GCS
+  langs:
+  - csharp
+  - vb
+  name: Add(LCS)
+  nameWithType: GCS.Add(LCS)
+  fullName: Engine.Core.Maths.GCS.Add(Engine.Core.Maths.LCS)
+  type: Method
+  source:
+    id: Add
+    path: ''
+    startLine: 844
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public void Add(LCS system)
+    parameters:
+    - id: system
+      type: Engine.Core.Maths.LCS
+    content.vb: Public Sub Add(system As LCS)
+  overload: Engine.Core.Maths.GCS.Add*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Engine.Core.Maths
+  commentId: N:Engine.Core.Maths
+  name: Engine.Core.Maths
+  nameWithType: Engine.Core.Maths
+  fullName: Engine.Core.Maths
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Engine.Core.Maths.Straight[]
+  isExternal: true
+  name: Straight[]
+  nameWithType: Straight[]
+  fullName: Engine.Core.Maths.Straight[]
+  nameWithType.vb: Straight()
+  fullName.vb: Engine.Core.Maths.Straight()
+  name.vb: Straight()
+  spec.csharp:
+  - uid: Engine.Core.Maths.Straight
+    name: Straight
+    nameWithType: Straight
+    fullName: Engine.Core.Maths.Straight
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Engine.Core.Maths.Straight
+    name: Straight
+    nameWithType: Straight
+    fullName: Engine.Core.Maths.Straight
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Collections.Generic.List{Engine.Core.Maths.LCS}
+  commentId: T:System.Collections.Generic.List{Engine.Core.Maths.LCS}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<LCS>
+  nameWithType: List<LCS>
+  fullName: System.Collections.Generic.List<Engine.Core.Maths.LCS>
+  nameWithType.vb: List(Of LCS)
+  fullName.vb: System.Collections.Generic.List(Of Engine.Core.Maths.LCS)
+  name.vb: List(Of LCS)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Engine.Core.Maths.LCS
+    name: LCS
+    nameWithType: LCS
+    fullName: Engine.Core.Maths.LCS
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Engine.Core.Maths.LCS
+    name: LCS
+    nameWithType: LCS
+    fullName: Engine.Core.Maths.LCS
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Engine.Core.Maths.GCS.#ctor*
+  commentId: Overload:Engine.Core.Maths.GCS.#ctor
+  name: GCS
+  nameWithType: GCS.GCS
+  fullName: Engine.Core.Maths.GCS.GCS
+- uid: Engine.Core.Maths.GCS.Add*
+  commentId: Overload:Engine.Core.Maths.GCS.Add
+  name: Add
+  nameWithType: GCS.Add
+  fullName: Engine.Core.Maths.GCS.Add
+- uid: Engine.Core.Maths.LCS
+  commentId: T:Engine.Core.Maths.LCS
+  parent: Engine.Core.Maths
+  name: LCS
+  nameWithType: LCS
+  fullName: Engine.Core.Maths.LCS

@@ -1,0 +1,329 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Object3D
+  commentId: T:Engine.Core.Object3D
+  id: Object3D
+  parent: Engine.Core
+  children:
+  - Engine.Core.Object3D.#ctor
+  - Engine.Core.Object3D.AddComponent``1(``0)
+  - Engine.Core.Object3D.Components
+  - Engine.Core.Object3D.name
+  - Engine.Core.Object3D.RemoveComponent``1(``0)
+  langs:
+  - csharp
+  - vb
+  name: Object3D
+  nameWithType: Object3D
+  fullName: Engine.Core.Object3D
+  type: Class
+  source:
+    id: Object3D
+    path: ''
+    startLine: 267
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core
+  syntax:
+    content: 'public class Object3D : LCS'
+    content.vb: >-
+      Public Class Object3D
+          Inherits LCS
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Engine.Core.Object3D.name
+  commentId: F:Engine.Core.Object3D.name
+  id: name
+  parent: Engine.Core.Object3D
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: Object3D.name
+  fullName: Engine.Core.Object3D.name
+  type: Field
+  source:
+    id: name
+    path: ''
+    startLine: 269
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core
+  syntax:
+    content: public string name
+    return:
+      type: System.String
+    content.vb: Public name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Object3D.Components
+  commentId: F:Engine.Core.Object3D.Components
+  id: Components
+  parent: Engine.Core.Object3D
+  langs:
+  - csharp
+  - vb
+  name: Components
+  nameWithType: Object3D.Components
+  fullName: Engine.Core.Object3D.Components
+  type: Field
+  source:
+    id: Components
+    path: ''
+    startLine: 270
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core
+  syntax:
+    content: public List<Component> Components
+    return:
+      type: System.Collections.Generic.List{Engine.Core.Component}
+    content.vb: Public Components As List(Of Component)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Object3D.#ctor
+  commentId: M:Engine.Core.Object3D.#ctor
+  id: '#ctor'
+  parent: Engine.Core.Object3D
+  langs:
+  - csharp
+  - vb
+  name: Object3D()
+  nameWithType: Object3D.Object3D()
+  fullName: Engine.Core.Object3D.Object3D()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 272
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core
+  syntax:
+    content: public Object3D()
+    content.vb: Public Sub New
+  overload: Engine.Core.Object3D.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Object3D.AddComponent``1(``0)
+  commentId: M:Engine.Core.Object3D.AddComponent``1(``0)
+  id: AddComponent``1(``0)
+  parent: Engine.Core.Object3D
+  langs:
+  - csharp
+  - vb
+  name: AddComponent<T>(T)
+  nameWithType: Object3D.AddComponent<T>(T)
+  fullName: Engine.Core.Object3D.AddComponent<T>(T)
+  type: Method
+  source:
+    id: AddComponent
+    path: ''
+    startLine: 279
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core
+  syntax:
+    content: >-
+      public void AddComponent<T>(T component)
+          where T : Component
+    parameters:
+    - id: component
+      type: '{T}'
+    typeParameters:
+    - id: T
+    content.vb: Public Sub AddComponent(Of T As Component)(component As T)
+  overload: Engine.Core.Object3D.AddComponent*
+  nameWithType.vb: Object3D.AddComponent(Of T)(T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Engine.Core.Object3D.AddComponent(Of T)(T)
+  name.vb: AddComponent(Of T)(T)
+- uid: Engine.Core.Object3D.RemoveComponent``1(``0)
+  commentId: M:Engine.Core.Object3D.RemoveComponent``1(``0)
+  id: RemoveComponent``1(``0)
+  parent: Engine.Core.Object3D
+  langs:
+  - csharp
+  - vb
+  name: RemoveComponent<T>(T)
+  nameWithType: Object3D.RemoveComponent<T>(T)
+  fullName: Engine.Core.Object3D.RemoveComponent<T>(T)
+  type: Method
+  source:
+    id: RemoveComponent
+    path: ''
+    startLine: 285
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core
+  syntax:
+    content: >-
+      public void RemoveComponent<T>(T component)
+          where T : Component
+    parameters:
+    - id: component
+      type: '{T}'
+    typeParameters:
+    - id: T
+    content.vb: Public Sub RemoveComponent(Of T As Component)(component As T)
+  overload: Engine.Core.Object3D.RemoveComponent*
+  nameWithType.vb: Object3D.RemoveComponent(Of T)(T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Engine.Core.Object3D.RemoveComponent(Of T)(T)
+  name.vb: RemoveComponent(Of T)(T)
+references:
+- uid: Engine.Core
+  commentId: N:Engine.Core
+  name: Engine.Core
+  nameWithType: Engine.Core
+  fullName: Engine.Core
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Collections.Generic.List{Engine.Core.Component}
+  commentId: T:System.Collections.Generic.List{Engine.Core.Component}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Component>
+  nameWithType: List<Component>
+  fullName: System.Collections.Generic.List<Engine.Core.Component>
+  nameWithType.vb: List(Of Component)
+  fullName.vb: System.Collections.Generic.List(Of Engine.Core.Component)
+  name.vb: List(Of Component)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Engine.Core.Component
+    name: Component
+    nameWithType: Component
+    fullName: Engine.Core.Component
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Engine.Core.Component
+    name: Component
+    nameWithType: Component
+    fullName: Engine.Core.Component
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Engine.Core.Object3D.#ctor*
+  commentId: Overload:Engine.Core.Object3D.#ctor
+  name: Object3D
+  nameWithType: Object3D.Object3D
+  fullName: Engine.Core.Object3D.Object3D
+- uid: Engine.Core.Object3D.AddComponent*
+  commentId: Overload:Engine.Core.Object3D.AddComponent
+  name: AddComponent
+  nameWithType: Object3D.AddComponent
+  fullName: Engine.Core.Object3D.AddComponent
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Engine.Core.Object3D.RemoveComponent*
+  commentId: Overload:Engine.Core.Object3D.RemoveComponent
+  name: RemoveComponent
+  nameWithType: Object3D.RemoveComponent
+  fullName: Engine.Core.Object3D.RemoveComponent

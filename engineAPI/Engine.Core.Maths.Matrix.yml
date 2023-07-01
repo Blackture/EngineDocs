@@ -1,0 +1,1024 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Maths.Matrix
+  commentId: T:Engine.Core.Maths.Matrix
+  id: Matrix
+  parent: Engine.Core.Maths
+  children:
+  - Engine.Core.Maths.Matrix.ColumnCount
+  - Engine.Core.Maths.Matrix.GetInverse``1(``0,``0@)
+  - Engine.Core.Maths.Matrix.IdentityMatrix``1(System.Int32,``0@)
+  - Engine.Core.Maths.Matrix.Item(System.Int32,System.Int32)
+  - Engine.Core.Maths.Matrix.Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
+  - Engine.Core.Maths.Matrix.RowCount
+  - Engine.Core.Maths.Matrix.RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+  - Engine.Core.Maths.Matrix.SwapRows(System.Int32,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: Matrix
+  nameWithType: Matrix
+  fullName: Engine.Core.Maths.Matrix
+  type: Class
+  source:
+    id: Matrix
+    path: ''
+    startLine: 1134
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: 'public abstract class Matrix : IMatrix'
+    content.vb: >-
+      Public MustInherit Class Matrix
+          Implements IMatrix
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Engine.Core.Maths.Matrix3x3
+  - Engine.Core.Maths.MatrixMxN
+  implements:
+  - Engine.Core.Maths.IMatrix
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Engine.Core.Maths.Matrix.Item(System.Int32,System.Int32)
+  commentId: P:Engine.Core.Maths.Matrix.Item(System.Int32,System.Int32)
+  id: Item(System.Int32,System.Int32)
+  parent: Engine.Core.Maths.Matrix
+  langs:
+  - csharp
+  - vb
+  name: Item[Int32, Int32]
+  nameWithType: Matrix.Item[Int32, Int32]
+  fullName: Engine.Core.Maths.Matrix.Item[System.Int32, System.Int32]
+  type: Property
+  source:
+    id: this[]
+    path: ''
+    startLine: 1136
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public abstract float this[int r, int c] { get; set; }
+    parameters:
+    - id: r
+      type: System.Int32
+    - id: c
+      type: System.Int32
+    return:
+      type: System.Single
+    content.vb: Public MustOverride Property Item(r As Integer, c As Integer) As Single
+  overload: Engine.Core.Maths.Matrix.Item*
+  implements:
+  - Engine.Core.Maths.IMatrix.Item(System.Int32,System.Int32)
+  nameWithType.vb: Matrix.Item(Int32, Int32)
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - MustOverride
+  fullName.vb: Engine.Core.Maths.Matrix.Item(System.Int32, System.Int32)
+  name.vb: Item(Int32, Int32)
+- uid: Engine.Core.Maths.Matrix.RowCount
+  commentId: P:Engine.Core.Maths.Matrix.RowCount
+  id: RowCount
+  parent: Engine.Core.Maths.Matrix
+  langs:
+  - csharp
+  - vb
+  name: RowCount
+  nameWithType: Matrix.RowCount
+  fullName: Engine.Core.Maths.Matrix.RowCount
+  type: Property
+  source:
+    id: RowCount
+    path: ''
+    startLine: 1137
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public abstract int RowCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public MustOverride ReadOnly Property RowCount As Integer
+  overload: Engine.Core.Maths.Matrix.RowCount*
+  implements:
+  - Engine.Core.Maths.IMatrix.RowCount
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  modifiers.vb:
+  - Public
+  - MustOverride
+  - ReadOnly
+- uid: Engine.Core.Maths.Matrix.ColumnCount
+  commentId: P:Engine.Core.Maths.Matrix.ColumnCount
+  id: ColumnCount
+  parent: Engine.Core.Maths.Matrix
+  langs:
+  - csharp
+  - vb
+  name: ColumnCount
+  nameWithType: Matrix.ColumnCount
+  fullName: Engine.Core.Maths.Matrix.ColumnCount
+  type: Property
+  source:
+    id: ColumnCount
+    path: ''
+    startLine: 1138
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public abstract int ColumnCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public MustOverride ReadOnly Property ColumnCount As Integer
+  overload: Engine.Core.Maths.Matrix.ColumnCount*
+  implements:
+  - Engine.Core.Maths.IMatrix.ColumnCount
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  modifiers.vb:
+  - Public
+  - MustOverride
+  - ReadOnly
+- uid: Engine.Core.Maths.Matrix.Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
+  commentId: M:Engine.Core.Maths.Matrix.Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
+  id: Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
+  parent: Engine.Core.Maths.Matrix
+  langs:
+  - csharp
+  - vb
+  name: Operation(IMatrix, MatrixOperation, Single)
+  nameWithType: Matrix.Operation(IMatrix, MatrixOperation, Single)
+  fullName: Engine.Core.Maths.Matrix.Operation(Engine.Core.Maths.IMatrix, Engine.Core.Maths.MatrixOperation, System.Single)
+  type: Method
+  source:
+    id: Operation
+    path: ''
+    startLine: 1140
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public abstract IMatrix Operation(IMatrix m, MatrixOperation operation, float f = 0F)
+    parameters:
+    - id: m
+      type: Engine.Core.Maths.IMatrix
+    - id: operation
+      type: Engine.Core.Maths.MatrixOperation
+    - id: f
+      type: System.Single
+    return:
+      type: Engine.Core.Maths.IMatrix
+    content.vb: Public MustOverride Function Operation(m As IMatrix, operation As MatrixOperation, f As Single = 0F) As IMatrix
+  overload: Engine.Core.Maths.Matrix.Operation*
+  implements:
+  - Engine.Core.Maths.IMatrix.Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: Engine.Core.Maths.Matrix.RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+  commentId: M:Engine.Core.Maths.Matrix.RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+  id: RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+  parent: Engine.Core.Maths.Matrix
+  langs:
+  - csharp
+  - vb
+  name: RowOperation(Int32, Int32, MatrixOperation, Single)
+  nameWithType: Matrix.RowOperation(Int32, Int32, MatrixOperation, Single)
+  fullName: Engine.Core.Maths.Matrix.RowOperation(System.Int32, System.Int32, Engine.Core.Maths.MatrixOperation, System.Single)
+  type: Method
+  source:
+    id: RowOperation
+    path: ''
+    startLine: 1141
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public abstract void RowOperation(int target, int source, MatrixOperation operation, float f = 0F)
+    parameters:
+    - id: target
+      type: System.Int32
+    - id: source
+      type: System.Int32
+    - id: operation
+      type: Engine.Core.Maths.MatrixOperation
+    - id: f
+      type: System.Single
+    content.vb: Public MustOverride Sub RowOperation(target As Integer, source As Integer, operation As MatrixOperation, f As Single = 0F)
+  overload: Engine.Core.Maths.Matrix.RowOperation*
+  implements:
+  - Engine.Core.Maths.IMatrix.RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: Engine.Core.Maths.Matrix.SwapRows(System.Int32,System.Int32)
+  commentId: M:Engine.Core.Maths.Matrix.SwapRows(System.Int32,System.Int32)
+  id: SwapRows(System.Int32,System.Int32)
+  parent: Engine.Core.Maths.Matrix
+  langs:
+  - csharp
+  - vb
+  name: SwapRows(Int32, Int32)
+  nameWithType: Matrix.SwapRows(Int32, Int32)
+  fullName: Engine.Core.Maths.Matrix.SwapRows(System.Int32, System.Int32)
+  type: Method
+  source:
+    id: SwapRows
+    path: ''
+    startLine: 1142
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public abstract void SwapRows(int from, int to)
+    parameters:
+    - id: from
+      type: System.Int32
+    - id: to
+      type: System.Int32
+    content.vb: Public MustOverride Sub SwapRows(from As Integer, to As Integer)
+  overload: Engine.Core.Maths.Matrix.SwapRows*
+  implements:
+  - Engine.Core.Maths.IMatrix.SwapRows(System.Int32,System.Int32)
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: Engine.Core.Maths.Matrix.IdentityMatrix``1(System.Int32,``0@)
+  commentId: M:Engine.Core.Maths.Matrix.IdentityMatrix``1(System.Int32,``0@)
+  id: IdentityMatrix``1(System.Int32,``0@)
+  parent: Engine.Core.Maths.Matrix
+  langs:
+  - csharp
+  - vb
+  name: IdentityMatrix<T>(Int32, out T)
+  nameWithType: Matrix.IdentityMatrix<T>(Int32, out T)
+  fullName: Engine.Core.Maths.Matrix.IdentityMatrix<T>(System.Int32, out T)
+  type: Method
+  source:
+    id: IdentityMatrix
+    path: ''
+    startLine: 1144
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: >-
+      public static bool IdentityMatrix<T>(int n, out T identityMatrix)
+          where T : Matrix, IMatrix, new()
+    parameters:
+    - id: n
+      type: System.Int32
+    - id: identityMatrix
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IdentityMatrix(Of T As {Matrix, IMatrix, New})(n As Integer, ByRef identityMatrix As T) As Boolean
+  overload: Engine.Core.Maths.Matrix.IdentityMatrix*
+  nameWithType.vb: Matrix.IdentityMatrix(Of T)(Int32, ByRef T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Engine.Core.Maths.Matrix.IdentityMatrix(Of T)(System.Int32, ByRef T)
+  name.vb: IdentityMatrix(Of T)(Int32, ByRef T)
+- uid: Engine.Core.Maths.Matrix.GetInverse``1(``0,``0@)
+  commentId: M:Engine.Core.Maths.Matrix.GetInverse``1(``0,``0@)
+  id: GetInverse``1(``0,``0@)
+  parent: Engine.Core.Maths.Matrix
+  langs:
+  - csharp
+  - vb
+  name: GetInverse<T>(T, out T)
+  nameWithType: Matrix.GetInverse<T>(T, out T)
+  fullName: Engine.Core.Maths.Matrix.GetInverse<T>(T, out T)
+  type: Method
+  source:
+    id: GetInverse
+    path: ''
+    startLine: 1169
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: >-
+      public static bool GetInverse<T>(T matrix, out T inverseMatrix)
+          where T : Matrix, IMatrix
+    parameters:
+    - id: matrix
+      type: '{T}'
+    - id: inverseMatrix
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function GetInverse(Of T As {Matrix, IMatrix})(matrix As T, ByRef inverseMatrix As T) As Boolean
+  overload: Engine.Core.Maths.Matrix.GetInverse*
+  nameWithType.vb: Matrix.GetInverse(Of T)(T, ByRef T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Engine.Core.Maths.Matrix.GetInverse(Of T)(T, ByRef T)
+  name.vb: GetInverse(Of T)(T, ByRef T)
+references:
+- uid: Engine.Core.Maths
+  commentId: N:Engine.Core.Maths
+  name: Engine.Core.Maths
+  nameWithType: Engine.Core.Maths
+  fullName: Engine.Core.Maths
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Engine.Core.Maths.IMatrix
+  commentId: T:Engine.Core.Maths.IMatrix
+  parent: Engine.Core.Maths
+  name: IMatrix
+  nameWithType: IMatrix
+  fullName: Engine.Core.Maths.IMatrix
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Engine.Core.Maths.Matrix.Item*
+  commentId: Overload:Engine.Core.Maths.Matrix.Item
+  name: Item
+  nameWithType: Matrix.Item
+  fullName: Engine.Core.Maths.Matrix.Item
+- uid: Engine.Core.Maths.IMatrix.Item(System.Int32,System.Int32)
+  commentId: P:Engine.Core.Maths.IMatrix.Item(System.Int32,System.Int32)
+  parent: Engine.Core.Maths.IMatrix
+  isExternal: true
+  name: Item[Int32, Int32]
+  nameWithType: IMatrix.Item[Int32, Int32]
+  fullName: Engine.Core.Maths.IMatrix.Item[System.Int32, System.Int32]
+  nameWithType.vb: IMatrix.Item(Int32, Int32)
+  fullName.vb: Engine.Core.Maths.IMatrix.Item(System.Int32, System.Int32)
+  name.vb: Item(Int32, Int32)
+  spec.csharp:
+  - uid: Engine.Core.Maths.IMatrix.Item(System.Int32,System.Int32)
+    name: Item
+    nameWithType: IMatrix.Item
+    fullName: Engine.Core.Maths.IMatrix.Item
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: Engine.Core.Maths.IMatrix.Item(System.Int32,System.Int32)
+    name: Item
+    nameWithType: IMatrix.Item
+    fullName: Engine.Core.Maths.IMatrix.Item
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Engine.Core.Maths.Matrix.RowCount*
+  commentId: Overload:Engine.Core.Maths.Matrix.RowCount
+  name: RowCount
+  nameWithType: Matrix.RowCount
+  fullName: Engine.Core.Maths.Matrix.RowCount
+- uid: Engine.Core.Maths.IMatrix.RowCount
+  commentId: P:Engine.Core.Maths.IMatrix.RowCount
+  parent: Engine.Core.Maths.IMatrix
+  name: RowCount
+  nameWithType: IMatrix.RowCount
+  fullName: Engine.Core.Maths.IMatrix.RowCount
+- uid: Engine.Core.Maths.Matrix.ColumnCount*
+  commentId: Overload:Engine.Core.Maths.Matrix.ColumnCount
+  name: ColumnCount
+  nameWithType: Matrix.ColumnCount
+  fullName: Engine.Core.Maths.Matrix.ColumnCount
+- uid: Engine.Core.Maths.IMatrix.ColumnCount
+  commentId: P:Engine.Core.Maths.IMatrix.ColumnCount
+  parent: Engine.Core.Maths.IMatrix
+  name: ColumnCount
+  nameWithType: IMatrix.ColumnCount
+  fullName: Engine.Core.Maths.IMatrix.ColumnCount
+- uid: Engine.Core.Maths.Matrix.Operation*
+  commentId: Overload:Engine.Core.Maths.Matrix.Operation
+  name: Operation
+  nameWithType: Matrix.Operation
+  fullName: Engine.Core.Maths.Matrix.Operation
+- uid: Engine.Core.Maths.IMatrix.Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
+  commentId: M:Engine.Core.Maths.IMatrix.Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
+  parent: Engine.Core.Maths.IMatrix
+  isExternal: true
+  name: Operation(IMatrix, MatrixOperation, Single)
+  nameWithType: IMatrix.Operation(IMatrix, MatrixOperation, Single)
+  fullName: Engine.Core.Maths.IMatrix.Operation(Engine.Core.Maths.IMatrix, Engine.Core.Maths.MatrixOperation, System.Single)
+  spec.csharp:
+  - uid: Engine.Core.Maths.IMatrix.Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
+    name: Operation
+    nameWithType: IMatrix.Operation
+    fullName: Engine.Core.Maths.IMatrix.Operation
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Engine.Core.Maths.IMatrix
+    name: IMatrix
+    nameWithType: IMatrix
+    fullName: Engine.Core.Maths.IMatrix
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Engine.Core.Maths.MatrixOperation
+    name: MatrixOperation
+    nameWithType: MatrixOperation
+    fullName: Engine.Core.Maths.MatrixOperation
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Engine.Core.Maths.IMatrix.Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
+    name: Operation
+    nameWithType: IMatrix.Operation
+    fullName: Engine.Core.Maths.IMatrix.Operation
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Engine.Core.Maths.IMatrix
+    name: IMatrix
+    nameWithType: IMatrix
+    fullName: Engine.Core.Maths.IMatrix
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Engine.Core.Maths.MatrixOperation
+    name: MatrixOperation
+    nameWithType: MatrixOperation
+    fullName: Engine.Core.Maths.MatrixOperation
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Engine.Core.Maths.MatrixOperation
+  commentId: T:Engine.Core.Maths.MatrixOperation
+  parent: Engine.Core.Maths
+  name: MatrixOperation
+  nameWithType: MatrixOperation
+  fullName: Engine.Core.Maths.MatrixOperation
+- uid: Engine.Core.Maths.Matrix.RowOperation*
+  commentId: Overload:Engine.Core.Maths.Matrix.RowOperation
+  name: RowOperation
+  nameWithType: Matrix.RowOperation
+  fullName: Engine.Core.Maths.Matrix.RowOperation
+- uid: Engine.Core.Maths.IMatrix.RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+  commentId: M:Engine.Core.Maths.IMatrix.RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+  parent: Engine.Core.Maths.IMatrix
+  isExternal: true
+  name: RowOperation(Int32, Int32, MatrixOperation, Single)
+  nameWithType: IMatrix.RowOperation(Int32, Int32, MatrixOperation, Single)
+  fullName: Engine.Core.Maths.IMatrix.RowOperation(System.Int32, System.Int32, Engine.Core.Maths.MatrixOperation, System.Single)
+  spec.csharp:
+  - uid: Engine.Core.Maths.IMatrix.RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+    name: RowOperation
+    nameWithType: IMatrix.RowOperation
+    fullName: Engine.Core.Maths.IMatrix.RowOperation
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Engine.Core.Maths.MatrixOperation
+    name: MatrixOperation
+    nameWithType: MatrixOperation
+    fullName: Engine.Core.Maths.MatrixOperation
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Engine.Core.Maths.IMatrix.RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+    name: RowOperation
+    nameWithType: IMatrix.RowOperation
+    fullName: Engine.Core.Maths.IMatrix.RowOperation
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Engine.Core.Maths.MatrixOperation
+    name: MatrixOperation
+    nameWithType: MatrixOperation
+    fullName: Engine.Core.Maths.MatrixOperation
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Engine.Core.Maths.Matrix.SwapRows*
+  commentId: Overload:Engine.Core.Maths.Matrix.SwapRows
+  name: SwapRows
+  nameWithType: Matrix.SwapRows
+  fullName: Engine.Core.Maths.Matrix.SwapRows
+- uid: Engine.Core.Maths.IMatrix.SwapRows(System.Int32,System.Int32)
+  commentId: M:Engine.Core.Maths.IMatrix.SwapRows(System.Int32,System.Int32)
+  parent: Engine.Core.Maths.IMatrix
+  isExternal: true
+  name: SwapRows(Int32, Int32)
+  nameWithType: IMatrix.SwapRows(Int32, Int32)
+  fullName: Engine.Core.Maths.IMatrix.SwapRows(System.Int32, System.Int32)
+  spec.csharp:
+  - uid: Engine.Core.Maths.IMatrix.SwapRows(System.Int32,System.Int32)
+    name: SwapRows
+    nameWithType: IMatrix.SwapRows
+    fullName: Engine.Core.Maths.IMatrix.SwapRows
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Engine.Core.Maths.IMatrix.SwapRows(System.Int32,System.Int32)
+    name: SwapRows
+    nameWithType: IMatrix.SwapRows
+    fullName: Engine.Core.Maths.IMatrix.SwapRows
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Engine.Core.Maths.Matrix.IdentityMatrix*
+  commentId: Overload:Engine.Core.Maths.Matrix.IdentityMatrix
+  name: IdentityMatrix
+  nameWithType: Matrix.IdentityMatrix
+  fullName: Engine.Core.Maths.Matrix.IdentityMatrix
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Engine.Core.Maths.Matrix.GetInverse*
+  commentId: Overload:Engine.Core.Maths.Matrix.GetInverse
+  name: GetInverse
+  nameWithType: Matrix.GetInverse
+  fullName: Engine.Core.Maths.Matrix.GetInverse

@@ -1,0 +1,898 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Maths.Straight
+  commentId: T:Engine.Core.Maths.Straight
+  id: Straight
+  parent: Engine.Core.Maths
+  children:
+  - Engine.Core.Maths.Straight.#ctor(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3,Engine.Core.Maths.Straight.LineSetupType)
+  - Engine.Core.Maths.Straight.Dir
+  - Engine.Core.Maths.Straight.Distance(Engine.Core.Maths.Straight)
+  - Engine.Core.Maths.Straight.Distance(Engine.Core.Maths.Straight,Engine.Core.Maths.Straight,Engine.Core.Maths.Vector3@,Engine.Core.Maths.Vector3@)
+  - Engine.Core.Maths.Straight.Distance(Engine.Core.Maths.Straight,Engine.Core.Maths.Vector3@,Engine.Core.Maths.Vector3@)
+  - Engine.Core.Maths.Straight.Distance(Engine.Core.Maths.Vector3,Engine.Core.Maths.Straight,Engine.Core.Maths.Vector3@)
+  - Engine.Core.Maths.Straight.Distance(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3@)
+  - Engine.Core.Maths.Straight.GetPointAt(System.Single)
+  - Engine.Core.Maths.Straight.Intersection(Engine.Core.Maths.Straight,Engine.Core.Maths.Straight,Engine.Core.Maths.Vector3@)
+  - Engine.Core.Maths.Straight.OA
+  - Engine.Core.Maths.Straight.OB
+  - Engine.Core.Maths.Straight.x1_Axis
+  - Engine.Core.Maths.Straight.x2_Axis
+  - Engine.Core.Maths.Straight.x3_Axis
+  langs:
+  - csharp
+  - vb
+  name: Straight
+  nameWithType: Straight
+  fullName: Engine.Core.Maths.Straight
+  type: Class
+  source:
+    id: Straight
+    path: ''
+    startLine: 2541
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  summary: "\nThis code defines a class called Straight that represents a straight line in 3D space. It has properties such as OA, OB, and Dir, which represent the endpoints of the line, and the direction of the line, respectively. The class also contains methods such as GetPointAt, Intersection, Distance, and Distance with 2 output parameters, which return the point on the line at a given position, determine if the line intersects with another line, find the distance between the line and a point in 3D space, and find the distance between the line and another line in 3D space along with the closest points on both lines to the point of intersection, respectively. The class also has some static fields, such as x1_Axis, x2_Axis, and x3_Axis, which represent the x, y, and z axes in 3D space, respectively.\n"
+  example: []
+  syntax:
+    content: public class Straight
+    content.vb: Public Class Straight
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Engine.Core.Maths.Straight.x1_Axis
+  commentId: F:Engine.Core.Maths.Straight.x1_Axis
+  id: x1_Axis
+  parent: Engine.Core.Maths.Straight
+  langs:
+  - csharp
+  - vb
+  name: x1_Axis
+  nameWithType: Straight.x1_Axis
+  fullName: Engine.Core.Maths.Straight.x1_Axis
+  type: Field
+  source:
+    id: x1_Axis
+    path: ''
+    startLine: 2549
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static readonly Straight x1_Axis
+    return:
+      type: Engine.Core.Maths.Straight
+    content.vb: Public Shared ReadOnly x1_Axis As Straight
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Engine.Core.Maths.Straight.x2_Axis
+  commentId: F:Engine.Core.Maths.Straight.x2_Axis
+  id: x2_Axis
+  parent: Engine.Core.Maths.Straight
+  langs:
+  - csharp
+  - vb
+  name: x2_Axis
+  nameWithType: Straight.x2_Axis
+  fullName: Engine.Core.Maths.Straight.x2_Axis
+  type: Field
+  source:
+    id: x2_Axis
+    path: ''
+    startLine: 2550
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static readonly Straight x2_Axis
+    return:
+      type: Engine.Core.Maths.Straight
+    content.vb: Public Shared ReadOnly x2_Axis As Straight
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Engine.Core.Maths.Straight.x3_Axis
+  commentId: F:Engine.Core.Maths.Straight.x3_Axis
+  id: x3_Axis
+  parent: Engine.Core.Maths.Straight
+  langs:
+  - csharp
+  - vb
+  name: x3_Axis
+  nameWithType: Straight.x3_Axis
+  fullName: Engine.Core.Maths.Straight.x3_Axis
+  type: Field
+  source:
+    id: x3_Axis
+    path: ''
+    startLine: 2551
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static readonly Straight x3_Axis
+    return:
+      type: Engine.Core.Maths.Straight
+    content.vb: Public Shared ReadOnly x3_Axis As Straight
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Engine.Core.Maths.Straight.OA
+  commentId: P:Engine.Core.Maths.Straight.OA
+  id: OA
+  parent: Engine.Core.Maths.Straight
+  langs:
+  - csharp
+  - vb
+  name: OA
+  nameWithType: Straight.OA
+  fullName: Engine.Core.Maths.Straight.OA
+  type: Property
+  source:
+    id: OA
+    path: ''
+    startLine: 2557
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public Vector3 OA { get; set; }
+    parameters: []
+    return:
+      type: Engine.Core.Maths.Vector3
+    content.vb: Public Property OA As Vector3
+  overload: Engine.Core.Maths.Straight.OA*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Maths.Straight.OB
+  commentId: P:Engine.Core.Maths.Straight.OB
+  id: OB
+  parent: Engine.Core.Maths.Straight
+  langs:
+  - csharp
+  - vb
+  name: OB
+  nameWithType: Straight.OB
+  fullName: Engine.Core.Maths.Straight.OB
+  type: Property
+  source:
+    id: OB
+    path: ''
+    startLine: 2558
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public Vector3 OB { get; set; }
+    parameters: []
+    return:
+      type: Engine.Core.Maths.Vector3
+    content.vb: Public Property OB As Vector3
+  overload: Engine.Core.Maths.Straight.OB*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Maths.Straight.Dir
+  commentId: P:Engine.Core.Maths.Straight.Dir
+  id: Dir
+  parent: Engine.Core.Maths.Straight
+  langs:
+  - csharp
+  - vb
+  name: Dir
+  nameWithType: Straight.Dir
+  fullName: Engine.Core.Maths.Straight.Dir
+  type: Property
+  source:
+    id: Dir
+    path: ''
+    startLine: 2559
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public Vector3 Dir { get; }
+    parameters: []
+    return:
+      type: Engine.Core.Maths.Vector3
+    content.vb: Public ReadOnly Property Dir As Vector3
+  overload: Engine.Core.Maths.Straight.Dir*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Engine.Core.Maths.Straight.#ctor(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3,Engine.Core.Maths.Straight.LineSetupType)
+  commentId: M:Engine.Core.Maths.Straight.#ctor(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3,Engine.Core.Maths.Straight.LineSetupType)
+  id: '#ctor(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3,Engine.Core.Maths.Straight.LineSetupType)'
+  parent: Engine.Core.Maths.Straight
+  langs:
+  - csharp
+  - vb
+  name: Straight(Vector3, Vector3, Straight.LineSetupType)
+  nameWithType: Straight.Straight(Vector3, Vector3, Straight.LineSetupType)
+  fullName: Engine.Core.Maths.Straight.Straight(Engine.Core.Maths.Vector3, Engine.Core.Maths.Vector3, Engine.Core.Maths.Straight.LineSetupType)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 2561
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public Straight(Vector3 OA, Vector3 OB, Straight.LineSetupType setupType)
+    parameters:
+    - id: OA
+      type: Engine.Core.Maths.Vector3
+    - id: OB
+      type: Engine.Core.Maths.Vector3
+    - id: setupType
+      type: Engine.Core.Maths.Straight.LineSetupType
+    content.vb: Public Sub New(OA As Vector3, OB As Vector3, setupType As Straight.LineSetupType)
+  overload: Engine.Core.Maths.Straight.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Maths.Straight.GetPointAt(System.Single)
+  commentId: M:Engine.Core.Maths.Straight.GetPointAt(System.Single)
+  id: GetPointAt(System.Single)
+  parent: Engine.Core.Maths.Straight
+  langs:
+  - csharp
+  - vb
+  name: GetPointAt(Single)
+  nameWithType: Straight.GetPointAt(Single)
+  fullName: Engine.Core.Maths.Straight.GetPointAt(System.Single)
+  type: Method
+  source:
+    id: GetPointAt
+    path: ''
+    startLine: 2578
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public Vector3 GetPointAt(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: Engine.Core.Maths.Vector3
+    content.vb: Public Function GetPointAt(f As Single) As Vector3
+  overload: Engine.Core.Maths.Straight.GetPointAt*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Maths.Straight.Intersection(Engine.Core.Maths.Straight,Engine.Core.Maths.Straight,Engine.Core.Maths.Vector3@)
+  commentId: M:Engine.Core.Maths.Straight.Intersection(Engine.Core.Maths.Straight,Engine.Core.Maths.Straight,Engine.Core.Maths.Vector3@)
+  id: Intersection(Engine.Core.Maths.Straight,Engine.Core.Maths.Straight,Engine.Core.Maths.Vector3@)
+  parent: Engine.Core.Maths.Straight
+  langs:
+  - csharp
+  - vb
+  name: Intersection(Straight, Straight, out Vector3)
+  nameWithType: Straight.Intersection(Straight, Straight, out Vector3)
+  fullName: Engine.Core.Maths.Straight.Intersection(Engine.Core.Maths.Straight, Engine.Core.Maths.Straight, out Engine.Core.Maths.Vector3)
+  type: Method
+  source:
+    id: Intersection
+    path: ''
+    startLine: 2583
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static bool Intersection(Straight a, Straight b, out Vector3 I)
+    parameters:
+    - id: a
+      type: Engine.Core.Maths.Straight
+    - id: b
+      type: Engine.Core.Maths.Straight
+    - id: I
+      type: Engine.Core.Maths.Vector3
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function Intersection(a As Straight, b As Straight, ByRef I As Vector3) As Boolean
+  overload: Engine.Core.Maths.Straight.Intersection*
+  nameWithType.vb: Straight.Intersection(Straight, Straight, ByRef Vector3)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Engine.Core.Maths.Straight.Intersection(Engine.Core.Maths.Straight, Engine.Core.Maths.Straight, ByRef Engine.Core.Maths.Vector3)
+  name.vb: Intersection(Straight, Straight, ByRef Vector3)
+- uid: Engine.Core.Maths.Straight.Distance(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3@)
+  commentId: M:Engine.Core.Maths.Straight.Distance(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3@)
+  id: Distance(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3@)
+  parent: Engine.Core.Maths.Straight
+  langs:
+  - csharp
+  - vb
+  name: Distance(Vector3, out Vector3)
+  nameWithType: Straight.Distance(Vector3, out Vector3)
+  fullName: Engine.Core.Maths.Straight.Distance(Engine.Core.Maths.Vector3, out Engine.Core.Maths.Vector3)
+  type: Method
+  source:
+    id: Distance
+    path: ''
+    startLine: 2597
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public float Distance(Vector3 x, out Vector3 l)
+    parameters:
+    - id: x
+      type: Engine.Core.Maths.Vector3
+    - id: l
+      type: Engine.Core.Maths.Vector3
+    return:
+      type: System.Single
+    content.vb: Public Function Distance(x As Vector3, ByRef l As Vector3) As Single
+  overload: Engine.Core.Maths.Straight.Distance*
+  nameWithType.vb: Straight.Distance(Vector3, ByRef Vector3)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Engine.Core.Maths.Straight.Distance(Engine.Core.Maths.Vector3, ByRef Engine.Core.Maths.Vector3)
+  name.vb: Distance(Vector3, ByRef Vector3)
+- uid: Engine.Core.Maths.Straight.Distance(Engine.Core.Maths.Straight)
+  commentId: M:Engine.Core.Maths.Straight.Distance(Engine.Core.Maths.Straight)
+  id: Distance(Engine.Core.Maths.Straight)
+  parent: Engine.Core.Maths.Straight
+  langs:
+  - csharp
+  - vb
+  name: Distance(Straight)
+  nameWithType: Straight.Distance(Straight)
+  fullName: Engine.Core.Maths.Straight.Distance(Engine.Core.Maths.Straight)
+  type: Method
+  source:
+    id: Distance
+    path: ''
+    startLine: 2608
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public float Distance(Straight s)
+    parameters:
+    - id: s
+      type: Engine.Core.Maths.Straight
+    return:
+      type: System.Single
+    content.vb: Public Function Distance(s As Straight) As Single
+  overload: Engine.Core.Maths.Straight.Distance*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Maths.Straight.Distance(Engine.Core.Maths.Straight,Engine.Core.Maths.Vector3@,Engine.Core.Maths.Vector3@)
+  commentId: M:Engine.Core.Maths.Straight.Distance(Engine.Core.Maths.Straight,Engine.Core.Maths.Vector3@,Engine.Core.Maths.Vector3@)
+  id: Distance(Engine.Core.Maths.Straight,Engine.Core.Maths.Vector3@,Engine.Core.Maths.Vector3@)
+  parent: Engine.Core.Maths.Straight
+  langs:
+  - csharp
+  - vb
+  name: Distance(Straight, out Vector3, out Vector3)
+  nameWithType: Straight.Distance(Straight, out Vector3, out Vector3)
+  fullName: Engine.Core.Maths.Straight.Distance(Engine.Core.Maths.Straight, out Engine.Core.Maths.Vector3, out Engine.Core.Maths.Vector3)
+  type: Method
+  source:
+    id: Distance
+    path: ''
+    startLine: 2629
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public float Distance(Straight s, out Vector3 OG, out Vector3 OH)
+    parameters:
+    - id: s
+      type: Engine.Core.Maths.Straight
+    - id: OG
+      type: Engine.Core.Maths.Vector3
+    - id: OH
+      type: Engine.Core.Maths.Vector3
+    return:
+      type: System.Single
+    content.vb: Public Function Distance(s As Straight, ByRef OG As Vector3, ByRef OH As Vector3) As Single
+  overload: Engine.Core.Maths.Straight.Distance*
+  nameWithType.vb: Straight.Distance(Straight, ByRef Vector3, ByRef Vector3)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Engine.Core.Maths.Straight.Distance(Engine.Core.Maths.Straight, ByRef Engine.Core.Maths.Vector3, ByRef Engine.Core.Maths.Vector3)
+  name.vb: Distance(Straight, ByRef Vector3, ByRef Vector3)
+- uid: Engine.Core.Maths.Straight.Distance(Engine.Core.Maths.Vector3,Engine.Core.Maths.Straight,Engine.Core.Maths.Vector3@)
+  commentId: M:Engine.Core.Maths.Straight.Distance(Engine.Core.Maths.Vector3,Engine.Core.Maths.Straight,Engine.Core.Maths.Vector3@)
+  id: Distance(Engine.Core.Maths.Vector3,Engine.Core.Maths.Straight,Engine.Core.Maths.Vector3@)
+  parent: Engine.Core.Maths.Straight
+  langs:
+  - csharp
+  - vb
+  name: Distance(Vector3, Straight, out Vector3)
+  nameWithType: Straight.Distance(Vector3, Straight, out Vector3)
+  fullName: Engine.Core.Maths.Straight.Distance(Engine.Core.Maths.Vector3, Engine.Core.Maths.Straight, out Engine.Core.Maths.Vector3)
+  type: Method
+  source:
+    id: Distance
+    path: ''
+    startLine: 2662
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Distance(Vector3 a, Straight b, out Vector3 l)
+    parameters:
+    - id: a
+      type: Engine.Core.Maths.Vector3
+    - id: b
+      type: Engine.Core.Maths.Straight
+    - id: l
+      type: Engine.Core.Maths.Vector3
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Distance(a As Vector3, b As Straight, ByRef l As Vector3) As Single
+  overload: Engine.Core.Maths.Straight.Distance*
+  nameWithType.vb: Straight.Distance(Vector3, Straight, ByRef Vector3)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Engine.Core.Maths.Straight.Distance(Engine.Core.Maths.Vector3, Engine.Core.Maths.Straight, ByRef Engine.Core.Maths.Vector3)
+  name.vb: Distance(Vector3, Straight, ByRef Vector3)
+- uid: Engine.Core.Maths.Straight.Distance(Engine.Core.Maths.Straight,Engine.Core.Maths.Straight,Engine.Core.Maths.Vector3@,Engine.Core.Maths.Vector3@)
+  commentId: M:Engine.Core.Maths.Straight.Distance(Engine.Core.Maths.Straight,Engine.Core.Maths.Straight,Engine.Core.Maths.Vector3@,Engine.Core.Maths.Vector3@)
+  id: Distance(Engine.Core.Maths.Straight,Engine.Core.Maths.Straight,Engine.Core.Maths.Vector3@,Engine.Core.Maths.Vector3@)
+  parent: Engine.Core.Maths.Straight
+  langs:
+  - csharp
+  - vb
+  name: Distance(Straight, Straight, out Vector3, out Vector3)
+  nameWithType: Straight.Distance(Straight, Straight, out Vector3, out Vector3)
+  fullName: Engine.Core.Maths.Straight.Distance(Engine.Core.Maths.Straight, Engine.Core.Maths.Straight, out Engine.Core.Maths.Vector3, out Engine.Core.Maths.Vector3)
+  type: Method
+  source:
+    id: Distance
+    path: ''
+    startLine: 2667
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Distance(Straight g, Straight h, out Vector3 OG, out Vector3 OH)
+    parameters:
+    - id: g
+      type: Engine.Core.Maths.Straight
+    - id: h
+      type: Engine.Core.Maths.Straight
+    - id: OG
+      type: Engine.Core.Maths.Vector3
+    - id: OH
+      type: Engine.Core.Maths.Vector3
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Distance(g As Straight, h As Straight, ByRef OG As Vector3, ByRef OH As Vector3) As Single
+  overload: Engine.Core.Maths.Straight.Distance*
+  nameWithType.vb: Straight.Distance(Straight, Straight, ByRef Vector3, ByRef Vector3)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Engine.Core.Maths.Straight.Distance(Engine.Core.Maths.Straight, Engine.Core.Maths.Straight, ByRef Engine.Core.Maths.Vector3, ByRef Engine.Core.Maths.Vector3)
+  name.vb: Distance(Straight, Straight, ByRef Vector3, ByRef Vector3)
+references:
+- uid: Engine.Core.Maths
+  commentId: N:Engine.Core.Maths
+  name: Engine.Core.Maths
+  nameWithType: Engine.Core.Maths
+  fullName: Engine.Core.Maths
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Engine.Core.Maths.Straight
+  commentId: T:Engine.Core.Maths.Straight
+  parent: Engine.Core.Maths
+  name: Straight
+  nameWithType: Straight
+  fullName: Engine.Core.Maths.Straight
+- uid: Engine.Core.Maths.Straight.OA*
+  commentId: Overload:Engine.Core.Maths.Straight.OA
+  name: OA
+  nameWithType: Straight.OA
+  fullName: Engine.Core.Maths.Straight.OA
+- uid: Engine.Core.Maths.Vector3
+  commentId: T:Engine.Core.Maths.Vector3
+  parent: Engine.Core.Maths
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Engine.Core.Maths.Vector3
+- uid: Engine.Core.Maths.Straight.OB*
+  commentId: Overload:Engine.Core.Maths.Straight.OB
+  name: OB
+  nameWithType: Straight.OB
+  fullName: Engine.Core.Maths.Straight.OB
+- uid: Engine.Core.Maths.Straight.Dir*
+  commentId: Overload:Engine.Core.Maths.Straight.Dir
+  name: Dir
+  nameWithType: Straight.Dir
+  fullName: Engine.Core.Maths.Straight.Dir
+- uid: Engine.Core.Maths.Straight.#ctor*
+  commentId: Overload:Engine.Core.Maths.Straight.#ctor
+  name: Straight
+  nameWithType: Straight.Straight
+  fullName: Engine.Core.Maths.Straight.Straight
+- uid: Engine.Core.Maths.Straight.LineSetupType
+  commentId: T:Engine.Core.Maths.Straight.LineSetupType
+  parent: Engine.Core.Maths
+  name: Straight.LineSetupType
+  nameWithType: Straight.LineSetupType
+  fullName: Engine.Core.Maths.Straight.LineSetupType
+- uid: Engine.Core.Maths.Straight.GetPointAt*
+  commentId: Overload:Engine.Core.Maths.Straight.GetPointAt
+  name: GetPointAt
+  nameWithType: Straight.GetPointAt
+  fullName: Engine.Core.Maths.Straight.GetPointAt
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Engine.Core.Maths.Straight.Intersection*
+  commentId: Overload:Engine.Core.Maths.Straight.Intersection
+  name: Intersection
+  nameWithType: Straight.Intersection
+  fullName: Engine.Core.Maths.Straight.Intersection
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Engine.Core.Maths.Straight.Distance*
+  commentId: Overload:Engine.Core.Maths.Straight.Distance
+  name: Distance
+  nameWithType: Straight.Distance
+  fullName: Engine.Core.Maths.Straight.Distance

@@ -1,0 +1,1802 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Matrix3x3
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Matrix3x3
+   ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Engine.Core.Maths.Matrix3x3">
+  
+  
+  <h1 id="Engine_Core_Maths_Matrix3x3" data-uid="Engine.Core.Maths.Matrix3x3" class="text-break">Class Matrix3x3
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Engine.Core.Maths.Matrix.html">Matrix</a></div>
+    <div class="level2"><span class="xref">Matrix3x3</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Engine.Core.Maths.IMatrix.html">IMatrix</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_IdentityMatrix__1_System_Int32___0__">Matrix.IdentityMatrix&lt;T&gt;(Int32, T)</a>
+    </div>
+    <div>
+      <a class="xref" href="Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_GetInverse__1___0___0__">Matrix.GetInverse&lt;T&gt;(T, T)</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Engine.Core.Maths.html">Engine.Core.Maths</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="Engine_Core_Maths_Matrix3x3_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Matrix3x3 : Matrix, IMatrix</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Engine_Core_Maths_Matrix3x3__ctor_" data-uid="Engine.Core.Maths.Matrix3x3.#ctor*"></a>
+  <h4 id="Engine_Core_Maths_Matrix3x3__ctor" data-uid="Engine.Core.Maths.Matrix3x3.#ctor">Matrix3x3()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Matrix3x3()</code></pre>
+  </div>
+  
+  
+  <a id="Engine_Core_Maths_Matrix3x3__ctor_" data-uid="Engine.Core.Maths.Matrix3x3.#ctor*"></a>
+  <h4 id="Engine_Core_Maths_Matrix3x3__ctor_System_Collections_Generic_List_Engine_Core_Maths_Vector3__" data-uid="Engine.Core.Maths.Matrix3x3.#ctor(System.Collections.Generic.List{Engine.Core.Maths.Vector3})">Matrix3x3(List&lt;Vector3&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Matrix3x3(List&lt;Vector3&gt; rows)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Engine.Core.Maths.Vector3.html">Vector3</a>&gt;</td>
+        <td><span class="parametername">rows</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Engine_Core_Maths_Matrix3x3__ctor_" data-uid="Engine.Core.Maths.Matrix3x3.#ctor*"></a>
+  <h4 id="Engine_Core_Maths_Matrix3x3__ctor_System_Single___" data-uid="Engine.Core.Maths.Matrix3x3.#ctor(System.Single[])">Matrix3x3(Single[])</h4>
+  <div class="markdown level1 summary"><p>left to right and row by row</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Matrix3x3(params float[] values)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span>[]</td>
+        <td><span class="parametername">values</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Engine_Core_Maths_Matrix3x3_IdentityMatrix" data-uid="Engine.Core.Maths.Matrix3x3.IdentityMatrix">IdentityMatrix</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Matrix3x3 IdentityMatrix</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Engine_Core_Maths_Matrix3x3_ColumnCount_" data-uid="Engine.Core.Maths.Matrix3x3.ColumnCount*"></a>
+  <h4 id="Engine_Core_Maths_Matrix3x3_ColumnCount" data-uid="Engine.Core.Maths.Matrix3x3.ColumnCount">ColumnCount</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int ColumnCount { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_ColumnCount">Matrix.ColumnCount</a></div>
+  
+  
+  <a id="Engine_Core_Maths_Matrix3x3_Item_" data-uid="Engine.Core.Maths.Matrix3x3.Item*"></a>
+  <h4 id="Engine_Core_Maths_Matrix3x3_Item_System_Int32_System_Int32_" data-uid="Engine.Core.Maths.Matrix3x3.Item(System.Int32,System.Int32)">Item[Int32, Int32]</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override float this[int r, int c] { get; set; }</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">r</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">c</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_Item_System_Int32_System_Int32_">Matrix.Item[Int32, Int32]</a></div>
+  
+  
+  <a id="Engine_Core_Maths_Matrix3x3_RowCount_" data-uid="Engine.Core.Maths.Matrix3x3.RowCount*"></a>
+  <h4 id="Engine_Core_Maths_Matrix3x3_RowCount" data-uid="Engine.Core.Maths.Matrix3x3.RowCount">RowCount</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int RowCount { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_RowCount">Matrix.RowCount</a></div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Engine_Core_Maths_Matrix3x3_Addition_" data-uid="Engine.Core.Maths.Matrix3x3.Addition*"></a>
+  <h4 id="Engine_Core_Maths_Matrix3x3_Addition_Engine_Core_Maths_Matrix3x3_" data-uid="Engine.Core.Maths.Matrix3x3.Addition(Engine.Core.Maths.Matrix3x3)">Addition(Matrix3x3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Matrix3x3 Addition(Matrix3x3 m)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td><span class="parametername">m</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Engine_Core_Maths_Matrix3x3_Addition_" data-uid="Engine.Core.Maths.Matrix3x3.Addition*"></a>
+  <h4 id="Engine_Core_Maths_Matrix3x3_Addition_Engine_Core_Maths_Matrix3x3_Engine_Core_Maths_Matrix3x3_" data-uid="Engine.Core.Maths.Matrix3x3.Addition(Engine.Core.Maths.Matrix3x3,Engine.Core.Maths.Matrix3x3)">Addition(Matrix3x3, Matrix3x3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix3x3 Addition(Matrix3x3 n, Matrix3x3 m)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td><span class="parametername">n</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td><span class="parametername">m</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Engine_Core_Maths_Matrix3x3_GetColumn_" data-uid="Engine.Core.Maths.Matrix3x3.GetColumn*"></a>
+  <h4 id="Engine_Core_Maths_Matrix3x3_GetColumn_System_Int32_" data-uid="Engine.Core.Maths.Matrix3x3.GetColumn(System.Int32)">GetColumn(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 GetColumn(int c)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">c</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Engine_Core_Maths_Matrix3x3_GetDeterminant_" data-uid="Engine.Core.Maths.Matrix3x3.GetDeterminant*"></a>
+  <h4 id="Engine_Core_Maths_Matrix3x3_GetDeterminant" data-uid="Engine.Core.Maths.Matrix3x3.GetDeterminant">GetDeterminant()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetDeterminant()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Engine_Core_Maths_Matrix3x3_GetIdentityMatrix_" data-uid="Engine.Core.Maths.Matrix3x3.GetIdentityMatrix*"></a>
+  <h4 id="Engine_Core_Maths_Matrix3x3_GetIdentityMatrix" data-uid="Engine.Core.Maths.Matrix3x3.GetIdentityMatrix">GetIdentityMatrix()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix3x3 GetIdentityMatrix()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Engine_Core_Maths_Matrix3x3_GetInverse_" data-uid="Engine.Core.Maths.Matrix3x3.GetInverse*"></a>
+  <h4 id="Engine_Core_Maths_Matrix3x3_GetInverse_Engine_Core_Maths_Matrix3x3_Engine_Core_Maths_Matrix3x3__" data-uid="Engine.Core.Maths.Matrix3x3.GetInverse(Engine.Core.Maths.Matrix3x3,Engine.Core.Maths.Matrix3x3@)">GetInverse(Matrix3x3, out Matrix3x3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool GetInverse(Matrix3x3 m, out Matrix3x3 inverseMatrix)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td><span class="parametername">m</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td><span class="parametername">inverseMatrix</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Engine_Core_Maths_Matrix3x3_GetRow_" data-uid="Engine.Core.Maths.Matrix3x3.GetRow*"></a>
+  <h4 id="Engine_Core_Maths_Matrix3x3_GetRow_System_Int32_" data-uid="Engine.Core.Maths.Matrix3x3.GetRow(System.Int32)">GetRow(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 GetRow(int r)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">r</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Engine_Core_Maths_Matrix3x3_GetValue_" data-uid="Engine.Core.Maths.Matrix3x3.GetValue*"></a>
+  <h4 id="Engine_Core_Maths_Matrix3x3_GetValue_System_Int32_System_Int32_" data-uid="Engine.Core.Maths.Matrix3x3.GetValue(System.Int32,System.Int32)">GetValue(Int32, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetValue(int r, int c)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">r</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">c</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Engine_Core_Maths_Matrix3x3_Multiplication_" data-uid="Engine.Core.Maths.Matrix3x3.Multiplication*"></a>
+  <h4 id="Engine_Core_Maths_Matrix3x3_Multiplication_Engine_Core_Maths_Matrix3x3_" data-uid="Engine.Core.Maths.Matrix3x3.Multiplication(Engine.Core.Maths.Matrix3x3)">Multiplication(Matrix3x3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Matrix3x3 Multiplication(Matrix3x3 m)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td><span class="parametername">m</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Engine_Core_Maths_Matrix3x3_Multiplication_" data-uid="Engine.Core.Maths.Matrix3x3.Multiplication*"></a>
+  <h4 id="Engine_Core_Maths_Matrix3x3_Multiplication_Engine_Core_Maths_Matrix3x3_Engine_Core_Maths_Matrix3x3_" data-uid="Engine.Core.Maths.Matrix3x3.Multiplication(Engine.Core.Maths.Matrix3x3,Engine.Core.Maths.Matrix3x3)">Multiplication(Matrix3x3, Matrix3x3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix3x3 Multiplication(Matrix3x3 n, Matrix3x3 m)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td><span class="parametername">n</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td><span class="parametername">m</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Engine_Core_Maths_Matrix3x3_Operation_" data-uid="Engine.Core.Maths.Matrix3x3.Operation*"></a>
+  <h4 id="Engine_Core_Maths_Matrix3x3_Operation_Engine_Core_Maths_IMatrix_Engine_Core_Maths_MatrixOperation_System_Single_" data-uid="Engine.Core.Maths.Matrix3x3.Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)">Operation(IMatrix, MatrixOperation, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override IMatrix Operation(IMatrix m, MatrixOperation operation, float f = 0F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.IMatrix.html">IMatrix</a></td>
+        <td><span class="parametername">m</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.MatrixOperation.html">MatrixOperation</a></td>
+        <td><span class="parametername">operation</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">f</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.IMatrix.html">IMatrix</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_Operation_Engine_Core_Maths_IMatrix_Engine_Core_Maths_MatrixOperation_System_Single_">Matrix.Operation(IMatrix, MatrixOperation, Single)</a></div>
+  
+  
+  <a id="Engine_Core_Maths_Matrix3x3_Operation_" data-uid="Engine.Core.Maths.Matrix3x3.Operation*"></a>
+  <h4 id="Engine_Core_Maths_Matrix3x3_Operation_Engine_Core_Maths_Matrix3x3_Engine_Core_Maths_Matrix3x3_Engine_Core_Maths_MatrixOperation_System_Single_" data-uid="Engine.Core.Maths.Matrix3x3.Operation(Engine.Core.Maths.Matrix3x3,Engine.Core.Maths.Matrix3x3,Engine.Core.Maths.MatrixOperation,System.Single)">Operation(Matrix3x3, Matrix3x3, MatrixOperation, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix3x3 Operation(Matrix3x3 n, Matrix3x3 m, MatrixOperation operation, float f = 0F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td><span class="parametername">n</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td><span class="parametername">m</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.MatrixOperation.html">MatrixOperation</a></td>
+        <td><span class="parametername">operation</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">f</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Engine_Core_Maths_Matrix3x3_Operation_" data-uid="Engine.Core.Maths.Matrix3x3.Operation*"></a>
+  <h4 id="Engine_Core_Maths_Matrix3x3_Operation_Engine_Core_Maths_Matrix3x3_Engine_Core_Maths_MatrixOperation_System_Single_" data-uid="Engine.Core.Maths.Matrix3x3.Operation(Engine.Core.Maths.Matrix3x3,Engine.Core.Maths.MatrixOperation,System.Single)">Operation(Matrix3x3, MatrixOperation, Single)</h4>
+  <div class="markdown level1 summary"><p>Operates on the matrix (changes the target row) and outputs the row after the calculation as a vector.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Matrix3x3 Operation(Matrix3x3 m, MatrixOperation operation, float f = 0F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td><span class="parametername">m</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.MatrixOperation.html">MatrixOperation</a></td>
+        <td><span class="parametername">operation</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">f</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Engine_Core_Maths_Matrix3x3_RowAddition_" data-uid="Engine.Core.Maths.Matrix3x3.RowAddition*"></a>
+  <h4 id="Engine_Core_Maths_Matrix3x3_RowAddition_System_Int32_System_Int32_" data-uid="Engine.Core.Maths.Matrix3x3.RowAddition(System.Int32,System.Int32)">RowAddition(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Calculates l+r. Doesn's change any row in the matrix
+<code data-dev-comment-type="paramref" class="paramref">l</code> left side of the equation
+<code data-dev-comment-type="paramref" class="paramref">r</code> right side of the equation</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 RowAddition(int l, int r)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">l</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">r</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Vector3.html">Vector3</a></td>
+        <td><p>Returns a row vector of the row l+r</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Engine_Core_Maths_Matrix3x3_RowOperation_" data-uid="Engine.Core.Maths.Matrix3x3.RowOperation*"></a>
+  <h4 id="Engine_Core_Maths_Matrix3x3_RowOperation_Engine_Core_Maths_Matrix3x3_System_Int32_System_Int32_Engine_Core_Maths_MatrixOperation_System_Single_" data-uid="Engine.Core.Maths.Matrix3x3.RowOperation(Engine.Core.Maths.Matrix3x3,System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)">RowOperation(Matrix3x3, Int32, Int32, MatrixOperation, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RowOperation(Matrix3x3 n, int target, int source, MatrixOperation operation, float f = 0F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td><span class="parametername">n</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">source</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.MatrixOperation.html">MatrixOperation</a></td>
+        <td><span class="parametername">operation</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">f</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Engine_Core_Maths_Matrix3x3_RowOperation_" data-uid="Engine.Core.Maths.Matrix3x3.RowOperation*"></a>
+  <h4 id="Engine_Core_Maths_Matrix3x3_RowOperation_System_Int32_System_Int32_Engine_Core_Maths_MatrixOperation_System_Single_" data-uid="Engine.Core.Maths.Matrix3x3.RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)">RowOperation(Int32, Int32, MatrixOperation, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void RowOperation(int target, int source, MatrixOperation operation, float f = 0F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">source</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.MatrixOperation.html">MatrixOperation</a></td>
+        <td><span class="parametername">operation</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">f</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_RowOperation_System_Int32_System_Int32_Engine_Core_Maths_MatrixOperation_System_Single_">Matrix.RowOperation(Int32, Int32, MatrixOperation, Single)</a></div>
+  
+  
+  <a id="Engine_Core_Maths_Matrix3x3_RowSubstraction_" data-uid="Engine.Core.Maths.Matrix3x3.RowSubstraction*"></a>
+  <h4 id="Engine_Core_Maths_Matrix3x3_RowSubstraction_System_Int32_System_Int32_" data-uid="Engine.Core.Maths.Matrix3x3.RowSubstraction(System.Int32,System.Int32)">RowSubstraction(Int32, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 RowSubstraction(int l, int r)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">l</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">r</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Engine_Core_Maths_Matrix3x3_ScalarDivision_" data-uid="Engine.Core.Maths.Matrix3x3.ScalarDivision*"></a>
+  <h4 id="Engine_Core_Maths_Matrix3x3_ScalarDivision_Engine_Core_Maths_Matrix3x3_System_Single_" data-uid="Engine.Core.Maths.Matrix3x3.ScalarDivision(Engine.Core.Maths.Matrix3x3,System.Single)">ScalarDivision(Matrix3x3, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix3x3 ScalarDivision(Matrix3x3 n, float f)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td><span class="parametername">n</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">f</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Engine_Core_Maths_Matrix3x3_ScalarDivision_" data-uid="Engine.Core.Maths.Matrix3x3.ScalarDivision*"></a>
+  <h4 id="Engine_Core_Maths_Matrix3x3_ScalarDivision_System_Single_" data-uid="Engine.Core.Maths.Matrix3x3.ScalarDivision(System.Single)">ScalarDivision(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Matrix3x3 ScalarDivision(float f)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">f</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Engine_Core_Maths_Matrix3x3_ScalarMultiplication_" data-uid="Engine.Core.Maths.Matrix3x3.ScalarMultiplication*"></a>
+  <h4 id="Engine_Core_Maths_Matrix3x3_ScalarMultiplication_Engine_Core_Maths_Matrix3x3_System_Single_" data-uid="Engine.Core.Maths.Matrix3x3.ScalarMultiplication(Engine.Core.Maths.Matrix3x3,System.Single)">ScalarMultiplication(Matrix3x3, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix3x3 ScalarMultiplication(Matrix3x3 n, float f)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td><span class="parametername">n</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">f</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Engine_Core_Maths_Matrix3x3_ScalarMultiplication_" data-uid="Engine.Core.Maths.Matrix3x3.ScalarMultiplication*"></a>
+  <h4 id="Engine_Core_Maths_Matrix3x3_ScalarMultiplication_System_Single_" data-uid="Engine.Core.Maths.Matrix3x3.ScalarMultiplication(System.Single)">ScalarMultiplication(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Matrix3x3 ScalarMultiplication(float f)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">f</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Engine_Core_Maths_Matrix3x3_SetValue_" data-uid="Engine.Core.Maths.Matrix3x3.SetValue*"></a>
+  <h4 id="Engine_Core_Maths_Matrix3x3_SetValue_System_Int32_System_Int32_System_Single_" data-uid="Engine.Core.Maths.Matrix3x3.SetValue(System.Int32,System.Int32,System.Single)">SetValue(Int32, Int32, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetValue(int r, int c, float f)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">r</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">c</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">f</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Engine_Core_Maths_Matrix3x3_Substraction_" data-uid="Engine.Core.Maths.Matrix3x3.Substraction*"></a>
+  <h4 id="Engine_Core_Maths_Matrix3x3_Substraction_Engine_Core_Maths_Matrix3x3_" data-uid="Engine.Core.Maths.Matrix3x3.Substraction(Engine.Core.Maths.Matrix3x3)">Substraction(Matrix3x3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Matrix3x3 Substraction(Matrix3x3 m)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td><span class="parametername">m</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Engine_Core_Maths_Matrix3x3_Substraction_" data-uid="Engine.Core.Maths.Matrix3x3.Substraction*"></a>
+  <h4 id="Engine_Core_Maths_Matrix3x3_Substraction_Engine_Core_Maths_Matrix3x3_Engine_Core_Maths_Matrix3x3_" data-uid="Engine.Core.Maths.Matrix3x3.Substraction(Engine.Core.Maths.Matrix3x3,Engine.Core.Maths.Matrix3x3)">Substraction(Matrix3x3, Matrix3x3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix3x3 Substraction(Matrix3x3 n, Matrix3x3 m)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td><span class="parametername">n</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td><span class="parametername">m</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Engine_Core_Maths_Matrix3x3_SwapRows_" data-uid="Engine.Core.Maths.Matrix3x3.SwapRows*"></a>
+  <h4 id="Engine_Core_Maths_Matrix3x3_SwapRows_System_Int32_System_Int32_" data-uid="Engine.Core.Maths.Matrix3x3.SwapRows(System.Int32,System.Int32)">SwapRows(Int32, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void SwapRows(int from, int to)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">from</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">to</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_SwapRows_System_Int32_System_Int32_">Matrix.SwapRows(Int32, Int32)</a></div>
+  <h3 id="operators">Operators
+  </h3>
+  
+  
+  <a id="Engine_Core_Maths_Matrix3x3_op_Addition_" data-uid="Engine.Core.Maths.Matrix3x3.op_Addition*"></a>
+  <h4 id="Engine_Core_Maths_Matrix3x3_op_Addition_Engine_Core_Maths_Matrix3x3_Engine_Core_Maths_Matrix3x3_" data-uid="Engine.Core.Maths.Matrix3x3.op_Addition(Engine.Core.Maths.Matrix3x3,Engine.Core.Maths.Matrix3x3)">Addition(Matrix3x3, Matrix3x3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix3x3 operator +(Matrix3x3 n, Matrix3x3 m)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td><span class="parametername">n</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td><span class="parametername">m</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Engine_Core_Maths_Matrix3x3_op_Division_" data-uid="Engine.Core.Maths.Matrix3x3.op_Division*"></a>
+  <h4 id="Engine_Core_Maths_Matrix3x3_op_Division_Engine_Core_Maths_Matrix3x3_System_Single_" data-uid="Engine.Core.Maths.Matrix3x3.op_Division(Engine.Core.Maths.Matrix3x3,System.Single)">Division(Matrix3x3, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix3x3 operator /(Matrix3x3 n, float f)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td><span class="parametername">n</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">f</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Engine_Core_Maths_Matrix3x3_op_Implicit_" data-uid="Engine.Core.Maths.Matrix3x3.op_Implicit*"></a>
+  <h4 id="Engine_Core_Maths_Matrix3x3_op_Implicit_Engine_Core_Maths_Matrix3x3__Engine_Core_Maths_MatrixMxN" data-uid="Engine.Core.Maths.Matrix3x3.op_Implicit(Engine.Core.Maths.Matrix3x3)~Engine.Core.Maths.MatrixMxN">Implicit(Matrix3x3 to MatrixMxN)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator MatrixMxN(Matrix3x3 m)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td><span class="parametername">m</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.MatrixMxN.html">MatrixMxN</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Engine_Core_Maths_Matrix3x3_op_Multiply_" data-uid="Engine.Core.Maths.Matrix3x3.op_Multiply*"></a>
+  <h4 id="Engine_Core_Maths_Matrix3x3_op_Multiply_Engine_Core_Maths_Matrix3x3_Engine_Core_Maths_Matrix3x3_" data-uid="Engine.Core.Maths.Matrix3x3.op_Multiply(Engine.Core.Maths.Matrix3x3,Engine.Core.Maths.Matrix3x3)">Multiply(Matrix3x3, Matrix3x3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix3x3 operator *(Matrix3x3 n, Matrix3x3 m)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td><span class="parametername">n</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td><span class="parametername">m</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Engine_Core_Maths_Matrix3x3_op_Multiply_" data-uid="Engine.Core.Maths.Matrix3x3.op_Multiply*"></a>
+  <h4 id="Engine_Core_Maths_Matrix3x3_op_Multiply_Engine_Core_Maths_Matrix3x3_System_Single_" data-uid="Engine.Core.Maths.Matrix3x3.op_Multiply(Engine.Core.Maths.Matrix3x3,System.Single)">Multiply(Matrix3x3, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix3x3 operator *(Matrix3x3 n, float f)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td><span class="parametername">n</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">f</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Engine_Core_Maths_Matrix3x3_op_Multiply_" data-uid="Engine.Core.Maths.Matrix3x3.op_Multiply*"></a>
+  <h4 id="Engine_Core_Maths_Matrix3x3_op_Multiply_System_Single_Engine_Core_Maths_Matrix3x3_" data-uid="Engine.Core.Maths.Matrix3x3.op_Multiply(System.Single,Engine.Core.Maths.Matrix3x3)">Multiply(Single, Matrix3x3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix3x3 operator *(float f, Matrix3x3 n)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">f</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td><span class="parametername">n</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Engine_Core_Maths_Matrix3x3_op_Subtraction_" data-uid="Engine.Core.Maths.Matrix3x3.op_Subtraction*"></a>
+  <h4 id="Engine_Core_Maths_Matrix3x3_op_Subtraction_Engine_Core_Maths_Matrix3x3_Engine_Core_Maths_Matrix3x3_" data-uid="Engine.Core.Maths.Matrix3x3.op_Subtraction(Engine.Core.Maths.Matrix3x3,Engine.Core.Maths.Matrix3x3)">Subtraction(Matrix3x3, Matrix3x3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix3x3 operator -(Matrix3x3 n, Matrix3x3 m)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td><span class="parametername">n</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td><span class="parametername">m</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Engine.Core.Maths.Matrix3x3.html">Matrix3x3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Engine.Core.Maths.IMatrix.html">IMatrix</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
