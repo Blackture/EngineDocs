@@ -19,7 +19,7 @@ items:
   source:
     id: GCS
     path: ''
-    startLine: 833
+    startLine: 900
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -56,7 +56,7 @@ items:
   source:
     id: Axes
     path: ''
-    startLine: 835
+    startLine: 902
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -85,7 +85,7 @@ items:
   source:
     id: LocalSystems
     path: ''
-    startLine: 837
+    startLine: 904
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -112,7 +112,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 839
+    startLine: 906
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -138,7 +138,7 @@ items:
   source:
     id: Add
     path: ''
-    startLine: 844
+    startLine: 911
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths

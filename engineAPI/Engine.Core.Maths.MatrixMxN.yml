@@ -17,12 +17,12 @@ items:
   - Engine.Core.Maths.MatrixMxN.GetCofactorMatrix(Engine.Core.Maths.MatrixMxN@)
   - Engine.Core.Maths.MatrixMxN.GetColumn(System.Int32)
   - Engine.Core.Maths.MatrixMxN.GetDeterminant(System.Single@)
+  - Engine.Core.Maths.MatrixMxN.GetIdentityMatrix(System.Int32)
   - Engine.Core.Maths.MatrixMxN.GetInverse(Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixMxN@)
   - Engine.Core.Maths.MatrixMxN.GetMinorMatrix(Engine.Core.Maths.MatrixMxN@)
   - Engine.Core.Maths.MatrixMxN.GetRow(System.Int32)
   - Engine.Core.Maths.MatrixMxN.GetSubMatrix(System.Int32,System.Int32,Engine.Core.Maths.MatrixMxN@)
   - Engine.Core.Maths.MatrixMxN.GetValue(System.Int32,System.Int32)
-  - Engine.Core.Maths.MatrixMxN.IdentityMatrix(System.Int32)
   - Engine.Core.Maths.MatrixMxN.InsertRow(Engine.Core.Maths.Vector,System.Int32)
   - Engine.Core.Maths.MatrixMxN.Item(System.Int32,System.Int32)
   - Engine.Core.Maths.MatrixMxN.Multiplication(Engine.Core.Maths.MatrixMxN)
@@ -63,7 +63,7 @@ items:
   source:
     id: MatrixMxN
     path: ''
-    startLine: 1623
+    startLine: 1713
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -79,7 +79,10 @@ items:
   implements:
   - Engine.Core.Maths.IMatrix
   inheritedMembers:
-  - Engine.Core.Maths.Matrix.IdentityMatrix``1(System.Int32,{T}@)
+  - Engine.Core.Maths.Matrix.I2x2
+  - Engine.Core.Maths.Matrix.I3x3
+  - Engine.Core.Maths.Matrix.I4x4
+  - Engine.Core.Maths.Matrix.GetIdentityMatrix``1(System.Int32,{T}@)
   - Engine.Core.Maths.Matrix.GetInverse``1({T},{T}@)
   - System.Object.ToString
   - System.Object.Equals(System.Object)
@@ -108,7 +111,7 @@ items:
   source:
     id: RowCount
     path: ''
-    startLine: 1631
+    startLine: 1721
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -144,7 +147,7 @@ items:
   source:
     id: ColumnCount
     path: ''
-    startLine: 1632
+    startLine: 1722
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -180,7 +183,7 @@ items:
   source:
     id: this[]
     path: ''
-    startLine: 1633
+    startLine: 1723
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -223,7 +226,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1639
+    startLine: 1729
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -249,7 +252,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1640
+    startLine: 1730
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -281,7 +284,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1644
+    startLine: 1734
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -312,7 +315,7 @@ items:
   source:
     id: GetValue
     path: ''
-    startLine: 1738
+    startLine: 1828
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -345,7 +348,7 @@ items:
   source:
     id: SetValue
     path: ''
-    startLine: 1746
+    startLine: 1836
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -378,7 +381,7 @@ items:
   source:
     id: GetRow
     path: ''
-    startLine: 1754
+    startLine: 1844
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -409,7 +412,7 @@ items:
   source:
     id: GetColumn
     path: ''
-    startLine: 1767
+    startLine: 1857
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -440,7 +443,7 @@ items:
   source:
     id: AddRow
     path: ''
-    startLine: 1780
+    startLine: 1870
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -469,7 +472,7 @@ items:
   source:
     id: InsertRow
     path: ''
-    startLine: 1789
+    startLine: 1879
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -500,7 +503,7 @@ items:
   source:
     id: RemoveRow
     path: ''
-    startLine: 1798
+    startLine: 1888
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -529,7 +532,7 @@ items:
   source:
     id: RemoveColumn
     path: ''
-    startLine: 1803
+    startLine: 1893
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -558,7 +561,7 @@ items:
   source:
     id: SwapRows
     path: ''
-    startLine: 1820
+    startLine: 1910
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -594,7 +597,7 @@ items:
   source:
     id: ScalarMultiplication
     path: ''
-    startLine: 1827
+    startLine: 1917
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -625,7 +628,7 @@ items:
   source:
     id: ScalarDivision
     path: ''
-    startLine: 1841
+    startLine: 1931
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -656,7 +659,7 @@ items:
   source:
     id: Multiplication
     path: ''
-    startLine: 1846
+    startLine: 1936
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -687,7 +690,7 @@ items:
   source:
     id: Addition
     path: ''
-    startLine: 1866
+    startLine: 1956
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -718,7 +721,7 @@ items:
   source:
     id: Substraction
     path: ''
-    startLine: 1884
+    startLine: 1974
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -749,7 +752,7 @@ items:
   source:
     id: RowAddition
     path: ''
-    startLine: 1910
+    startLine: 2000
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -787,7 +790,7 @@ items:
   source:
     id: RowSubstraction
     path: ''
-    startLine: 1916
+    startLine: 2006
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -820,7 +823,7 @@ items:
   source:
     id: RowOperation
     path: ''
-    startLine: 1922
+    startLine: 2012
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -860,7 +863,7 @@ items:
   source:
     id: Operation
     path: ''
-    startLine: 1950
+    startLine: 2040
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -900,7 +903,7 @@ items:
   source:
     id: Operation
     path: ''
-    startLine: 1973
+    startLine: 2063
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -940,7 +943,7 @@ items:
   source:
     id: Transpose
     path: ''
-    startLine: 1977
+    startLine: 2067
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -966,7 +969,7 @@ items:
   source:
     id: GetSubMatrix
     path: ''
-    startLine: 1997
+    startLine: 2087
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1004,7 +1007,7 @@ items:
   source:
     id: Get2x2SubMatrices
     path: ''
-    startLine: 2017
+    startLine: 2107
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1040,7 +1043,7 @@ items:
   source:
     id: GetMinorMatrix
     path: ''
-    startLine: 2049
+    startLine: 2139
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1074,7 +1077,7 @@ items:
   source:
     id: GetCofactorMatrix
     path: ''
-    startLine: 2090
+    startLine: 2180
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1108,7 +1111,7 @@ items:
   source:
     id: GetDeterminant
     path: ''
-    startLine: 2108
+    startLine: 2198
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1142,7 +1145,7 @@ items:
   source:
     id: GetAdjointMatrix
     path: ''
-    startLine: 2151
+    startLine: 2241
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1176,7 +1179,7 @@ items:
   source:
     id: ScalarMultiplication
     path: ''
-    startLine: 2164
+    startLine: 2254
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1211,7 +1214,7 @@ items:
   source:
     id: ScalarDivision
     path: ''
-    startLine: 2168
+    startLine: 2258
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1246,7 +1249,7 @@ items:
   source:
     id: Multiplication
     path: ''
-    startLine: 2172
+    startLine: 2262
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1281,7 +1284,7 @@ items:
   source:
     id: Addition
     path: ''
-    startLine: 2176
+    startLine: 2266
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1316,7 +1319,7 @@ items:
   source:
     id: Substraction
     path: ''
-    startLine: 2180
+    startLine: 2270
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1351,7 +1354,7 @@ items:
   source:
     id: RowOperation
     path: ''
-    startLine: 2184
+    startLine: 2274
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1390,7 +1393,7 @@ items:
   source:
     id: Operation
     path: ''
-    startLine: 2188
+    startLine: 2278
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1415,28 +1418,28 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: Engine.Core.Maths.MatrixMxN.IdentityMatrix(System.Int32)
-  commentId: M:Engine.Core.Maths.MatrixMxN.IdentityMatrix(System.Int32)
-  id: IdentityMatrix(System.Int32)
+- uid: Engine.Core.Maths.MatrixMxN.GetIdentityMatrix(System.Int32)
+  commentId: M:Engine.Core.Maths.MatrixMxN.GetIdentityMatrix(System.Int32)
+  id: GetIdentityMatrix(System.Int32)
   parent: Engine.Core.Maths.MatrixMxN
   langs:
   - csharp
   - vb
-  name: IdentityMatrix(Int32)
-  nameWithType: MatrixMxN.IdentityMatrix(Int32)
-  fullName: Engine.Core.Maths.MatrixMxN.IdentityMatrix(System.Int32)
+  name: GetIdentityMatrix(Int32)
+  nameWithType: MatrixMxN.GetIdentityMatrix(Int32)
+  fullName: Engine.Core.Maths.MatrixMxN.GetIdentityMatrix(System.Int32)
   type: Method
   source:
-    id: IdentityMatrix
+    id: GetIdentityMatrix
     path: ''
-    startLine: 2197
+    startLine: 2287
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
   summary: "\nCreates a nxn identity and returns it.\n"
   example: []
   syntax:
-    content: public static MatrixMxN IdentityMatrix(int n)
+    content: public static MatrixMxN GetIdentityMatrix(int n)
     parameters:
     - id: n
       type: System.Int32
@@ -1444,8 +1447,8 @@ items:
     return:
       type: Engine.Core.Maths.MatrixMxN
       description: ''
-    content.vb: Public Shared Function IdentityMatrix(n As Integer) As MatrixMxN
-  overload: Engine.Core.Maths.MatrixMxN.IdentityMatrix*
+    content.vb: Public Shared Function GetIdentityMatrix(n As Integer) As MatrixMxN
+  overload: Engine.Core.Maths.MatrixMxN.GetIdentityMatrix*
   modifiers.csharp:
   - public
   - static
@@ -1466,7 +1469,7 @@ items:
   source:
     id: GetInverse
     path: ''
-    startLine: 2212
+    startLine: 2302
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1504,7 +1507,7 @@ items:
   source:
     id: op_Multiply
     path: ''
-    startLine: 2224
+    startLine: 2314
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1539,7 +1542,7 @@ items:
   source:
     id: op_Multiply
     path: ''
-    startLine: 2228
+    startLine: 2318
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1574,7 +1577,7 @@ items:
   source:
     id: op_Multiply
     path: ''
-    startLine: 2232
+    startLine: 2322
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1609,7 +1612,7 @@ items:
   source:
     id: op_Addition
     path: ''
-    startLine: 2236
+    startLine: 2326
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1644,7 +1647,7 @@ items:
   source:
     id: op_Subtraction
     path: ''
-    startLine: 2240
+    startLine: 2330
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1679,7 +1682,7 @@ items:
   source:
     id: op_Division
     path: ''
-    startLine: 2244
+    startLine: 2334
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1714,7 +1717,7 @@ items:
   source:
     id: op_Implicit
     path: ''
-    startLine: 2248
+    startLine: 2338
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1761,21 +1764,39 @@ references:
   name: IMatrix
   nameWithType: IMatrix
   fullName: Engine.Core.Maths.IMatrix
-- uid: Engine.Core.Maths.Matrix.IdentityMatrix``1(System.Int32,{T}@)
-  commentId: M:Engine.Core.Maths.Matrix.IdentityMatrix``1(System.Int32,``0@)
+- uid: Engine.Core.Maths.Matrix.I2x2
+  commentId: F:Engine.Core.Maths.Matrix.I2x2
   parent: Engine.Core.Maths.Matrix
-  definition: Engine.Core.Maths.Matrix.IdentityMatrix``1(System.Int32,``0@)
-  name: IdentityMatrix<T>(Int32, T)
-  nameWithType: Matrix.IdentityMatrix<T>(Int32, T)
-  fullName: Engine.Core.Maths.Matrix.IdentityMatrix<T>(System.Int32, T)
-  nameWithType.vb: Matrix.IdentityMatrix(Of T)(Int32, T)
-  fullName.vb: Engine.Core.Maths.Matrix.IdentityMatrix(Of T)(System.Int32, T)
-  name.vb: IdentityMatrix(Of T)(Int32, T)
+  name: I2x2
+  nameWithType: Matrix.I2x2
+  fullName: Engine.Core.Maths.Matrix.I2x2
+- uid: Engine.Core.Maths.Matrix.I3x3
+  commentId: F:Engine.Core.Maths.Matrix.I3x3
+  parent: Engine.Core.Maths.Matrix
+  name: I3x3
+  nameWithType: Matrix.I3x3
+  fullName: Engine.Core.Maths.Matrix.I3x3
+- uid: Engine.Core.Maths.Matrix.I4x4
+  commentId: F:Engine.Core.Maths.Matrix.I4x4
+  parent: Engine.Core.Maths.Matrix
+  name: I4x4
+  nameWithType: Matrix.I4x4
+  fullName: Engine.Core.Maths.Matrix.I4x4
+- uid: Engine.Core.Maths.Matrix.GetIdentityMatrix``1(System.Int32,{T}@)
+  commentId: M:Engine.Core.Maths.Matrix.GetIdentityMatrix``1(System.Int32,``0@)
+  parent: Engine.Core.Maths.Matrix
+  definition: Engine.Core.Maths.Matrix.GetIdentityMatrix``1(System.Int32,``0@)
+  name: GetIdentityMatrix<T>(Int32, T)
+  nameWithType: Matrix.GetIdentityMatrix<T>(Int32, T)
+  fullName: Engine.Core.Maths.Matrix.GetIdentityMatrix<T>(System.Int32, T)
+  nameWithType.vb: Matrix.GetIdentityMatrix(Of T)(Int32, T)
+  fullName.vb: Engine.Core.Maths.Matrix.GetIdentityMatrix(Of T)(System.Int32, T)
+  name.vb: GetIdentityMatrix(Of T)(Int32, T)
   spec.csharp:
-  - uid: Engine.Core.Maths.Matrix.IdentityMatrix``1(System.Int32,``0@)
-    name: IdentityMatrix<T>
-    nameWithType: Matrix.IdentityMatrix<T>
-    fullName: Engine.Core.Maths.Matrix.IdentityMatrix<T>
+  - uid: Engine.Core.Maths.Matrix.GetIdentityMatrix``1(System.Int32,``0@)
+    name: GetIdentityMatrix<T>
+    nameWithType: Matrix.GetIdentityMatrix<T>
+    fullName: Engine.Core.Maths.Matrix.GetIdentityMatrix<T>
   - name: (
     nameWithType: (
     fullName: (
@@ -1794,10 +1815,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: Engine.Core.Maths.Matrix.IdentityMatrix``1(System.Int32,``0@)
-    name: IdentityMatrix(Of T)
-    nameWithType: Matrix.IdentityMatrix(Of T)
-    fullName: Engine.Core.Maths.Matrix.IdentityMatrix(Of T)
+  - uid: Engine.Core.Maths.Matrix.GetIdentityMatrix``1(System.Int32,``0@)
+    name: GetIdentityMatrix(Of T)
+    nameWithType: Matrix.GetIdentityMatrix(Of T)
+    fullName: Engine.Core.Maths.Matrix.GetIdentityMatrix(Of T)
   - name: (
     nameWithType: (
     fullName: (
@@ -2150,20 +2171,20 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: Engine.Core.Maths.Matrix.IdentityMatrix``1(System.Int32,``0@)
-  commentId: M:Engine.Core.Maths.Matrix.IdentityMatrix``1(System.Int32,``0@)
+- uid: Engine.Core.Maths.Matrix.GetIdentityMatrix``1(System.Int32,``0@)
+  commentId: M:Engine.Core.Maths.Matrix.GetIdentityMatrix``1(System.Int32,``0@)
   isExternal: true
-  name: IdentityMatrix<T>(Int32, T)
-  nameWithType: Matrix.IdentityMatrix<T>(Int32, T)
-  fullName: Engine.Core.Maths.Matrix.IdentityMatrix<T>(System.Int32, T)
-  nameWithType.vb: Matrix.IdentityMatrix(Of T)(Int32, T)
-  fullName.vb: Engine.Core.Maths.Matrix.IdentityMatrix(Of T)(System.Int32, T)
-  name.vb: IdentityMatrix(Of T)(Int32, T)
+  name: GetIdentityMatrix<T>(Int32, T)
+  nameWithType: Matrix.GetIdentityMatrix<T>(Int32, T)
+  fullName: Engine.Core.Maths.Matrix.GetIdentityMatrix<T>(System.Int32, T)
+  nameWithType.vb: Matrix.GetIdentityMatrix(Of T)(Int32, T)
+  fullName.vb: Engine.Core.Maths.Matrix.GetIdentityMatrix(Of T)(System.Int32, T)
+  name.vb: GetIdentityMatrix(Of T)(Int32, T)
   spec.csharp:
-  - uid: Engine.Core.Maths.Matrix.IdentityMatrix``1(System.Int32,``0@)
-    name: IdentityMatrix<T>
-    nameWithType: Matrix.IdentityMatrix<T>
-    fullName: Engine.Core.Maths.Matrix.IdentityMatrix<T>
+  - uid: Engine.Core.Maths.Matrix.GetIdentityMatrix``1(System.Int32,``0@)
+    name: GetIdentityMatrix<T>
+    nameWithType: Matrix.GetIdentityMatrix<T>
+    fullName: Engine.Core.Maths.Matrix.GetIdentityMatrix<T>
   - name: (
     nameWithType: (
     fullName: (
@@ -2182,10 +2203,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: Engine.Core.Maths.Matrix.IdentityMatrix``1(System.Int32,``0@)
-    name: IdentityMatrix(Of T)
-    nameWithType: Matrix.IdentityMatrix(Of T)
-    fullName: Engine.Core.Maths.Matrix.IdentityMatrix(Of T)
+  - uid: Engine.Core.Maths.Matrix.GetIdentityMatrix``1(System.Int32,``0@)
+    name: GetIdentityMatrix(Of T)
+    nameWithType: Matrix.GetIdentityMatrix(Of T)
+    fullName: Engine.Core.Maths.Matrix.GetIdentityMatrix(Of T)
   - name: (
     nameWithType: (
     fullName: (
@@ -3118,11 +3139,11 @@ references:
   name: GetAdjointMatrix
   nameWithType: MatrixMxN.GetAdjointMatrix
   fullName: Engine.Core.Maths.MatrixMxN.GetAdjointMatrix
-- uid: Engine.Core.Maths.MatrixMxN.IdentityMatrix*
-  commentId: Overload:Engine.Core.Maths.MatrixMxN.IdentityMatrix
-  name: IdentityMatrix
-  nameWithType: MatrixMxN.IdentityMatrix
-  fullName: Engine.Core.Maths.MatrixMxN.IdentityMatrix
+- uid: Engine.Core.Maths.MatrixMxN.GetIdentityMatrix*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.GetIdentityMatrix
+  name: GetIdentityMatrix
+  nameWithType: MatrixMxN.GetIdentityMatrix
+  fullName: Engine.Core.Maths.MatrixMxN.GetIdentityMatrix
 - uid: Engine.Core.Maths.MatrixMxN.GetInverse*
   commentId: Overload:Engine.Core.Maths.MatrixMxN.GetInverse
   name: GetInverse

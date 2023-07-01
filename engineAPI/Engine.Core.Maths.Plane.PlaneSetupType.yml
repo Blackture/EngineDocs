@@ -17,7 +17,7 @@ items:
   source:
     id: PlaneSetupType
     path: ''
-    startLine: 2272
+    startLine: 2362
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -44,7 +44,7 @@ items:
   source:
     id: _3PositionVectors
     path: ''
-    startLine: 2274
+    startLine: 2364
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -72,7 +72,7 @@ items:
   source:
     id: _1PositionVector2SpanVectors
     path: ''
-    startLine: 2275
+    startLine: 2365
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths

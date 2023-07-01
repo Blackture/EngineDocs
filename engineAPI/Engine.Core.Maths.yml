@@ -4,7 +4,12 @@ items:
   commentId: N:Engine.Core.Maths
   id: Engine.Core.Maths
   children:
+  - Engine.Core.Maths.AffineTransformationMatrix
+  - Engine.Core.Maths.AffineTransformationMatrix4x4
   - Engine.Core.Maths.AugmentedMatrix
+  - Engine.Core.Maths.Axis
+  - Engine.Core.Maths.Constants
+  - Engine.Core.Maths.Convention
   - Engine.Core.Maths.FloatEnumerator
   - Engine.Core.Maths.Gauss
   - Engine.Core.Maths.Gauss.EliminationResult
@@ -18,6 +23,10 @@ items:
   - Engine.Core.Maths.MatrixOperation
   - Engine.Core.Maths.Plane
   - Engine.Core.Maths.Plane.PlaneSetupType
+  - Engine.Core.Maths.Quaternion
+  - Engine.Core.Maths.RotationMatrix2x2
+  - Engine.Core.Maths.RotationMatrix3x3
+  - Engine.Core.Maths.RotationType
   - Engine.Core.Maths.Straight
   - Engine.Core.Maths.Straight.LineSetupType
   - Engine.Core.Maths.Vector
@@ -32,18 +41,52 @@ items:
   assemblies:
   - cs.temp.dll
 references:
+- uid: Engine.Core.Maths.AffineTransformationMatrix
+  commentId: T:Engine.Core.Maths.AffineTransformationMatrix
+  parent: Engine.Core.Maths
+  name: AffineTransformationMatrix
+  nameWithType: AffineTransformationMatrix
+  fullName: Engine.Core.Maths.AffineTransformationMatrix
+- uid: Engine.Core.Maths.AffineTransformationMatrix4x4
+  commentId: T:Engine.Core.Maths.AffineTransformationMatrix4x4
+  name: AffineTransformationMatrix4x4
+  nameWithType: AffineTransformationMatrix4x4
+  fullName: Engine.Core.Maths.AffineTransformationMatrix4x4
 - uid: Engine.Core.Maths.AugmentedMatrix
   commentId: T:Engine.Core.Maths.AugmentedMatrix
   parent: Engine.Core.Maths
   name: AugmentedMatrix
   nameWithType: AugmentedMatrix
   fullName: Engine.Core.Maths.AugmentedMatrix
+- uid: Engine.Core.Maths.Constants
+  commentId: T:Engine.Core.Maths.Constants
+  name: Constants
+  nameWithType: Constants
+  fullName: Engine.Core.Maths.Constants
 - uid: Engine.Core.Maths.MatrixOperation
   commentId: T:Engine.Core.Maths.MatrixOperation
   parent: Engine.Core.Maths
   name: MatrixOperation
   nameWithType: MatrixOperation
   fullName: Engine.Core.Maths.MatrixOperation
+- uid: Engine.Core.Maths.Axis
+  commentId: T:Engine.Core.Maths.Axis
+  parent: Engine.Core.Maths
+  name: Axis
+  nameWithType: Axis
+  fullName: Engine.Core.Maths.Axis
+- uid: Engine.Core.Maths.Convention
+  commentId: T:Engine.Core.Maths.Convention
+  parent: Engine.Core.Maths
+  name: Convention
+  nameWithType: Convention
+  fullName: Engine.Core.Maths.Convention
+- uid: Engine.Core.Maths.RotationType
+  commentId: T:Engine.Core.Maths.RotationType
+  parent: Engine.Core.Maths
+  name: RotationType
+  nameWithType: RotationType
+  fullName: Engine.Core.Maths.RotationType
 - uid: Engine.Core.Maths.FloatEnumerator
   commentId: T:Engine.Core.Maths.FloatEnumerator
   name: FloatEnumerator
@@ -112,6 +155,23 @@ references:
   name: Plane.PlaneSetupType
   nameWithType: Plane.PlaneSetupType
   fullName: Engine.Core.Maths.Plane.PlaneSetupType
+- uid: Engine.Core.Maths.Quaternion
+  commentId: T:Engine.Core.Maths.Quaternion
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: Engine.Core.Maths.Quaternion
+- uid: Engine.Core.Maths.RotationMatrix2x2
+  commentId: T:Engine.Core.Maths.RotationMatrix2x2
+  parent: Engine.Core.Maths
+  name: RotationMatrix2x2
+  nameWithType: RotationMatrix2x2
+  fullName: Engine.Core.Maths.RotationMatrix2x2
+- uid: Engine.Core.Maths.RotationMatrix3x3
+  commentId: T:Engine.Core.Maths.RotationMatrix3x3
+  parent: Engine.Core.Maths
+  name: RotationMatrix3x3
+  nameWithType: RotationMatrix3x3
+  fullName: Engine.Core.Maths.RotationMatrix3x3
 - uid: Engine.Core.Maths.Straight
   commentId: T:Engine.Core.Maths.Straight
   parent: Engine.Core.Maths

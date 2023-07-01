@@ -21,7 +21,7 @@ items:
   source:
     id: LCS
     path: ''
-    startLine: 881
+    startLine: 948
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -58,7 +58,7 @@ items:
   source:
     id: axis
     path: ''
-    startLine: 883
+    startLine: 950
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -87,7 +87,7 @@ items:
   source:
     id: GlobalPosition
     path: ''
-    startLine: 885
+    startLine: 952
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -118,7 +118,7 @@ items:
   source:
     id: LocalPosition
     path: ''
-    startLine: 886
+    startLine: 953
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -149,7 +149,7 @@ items:
   source:
     id: Rotation
     path: ''
-    startLine: 887
+    startLine: 954
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -180,7 +180,7 @@ items:
   source:
     id: Scale
     path: ''
-    startLine: 888
+    startLine: 955
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -211,7 +211,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 895
+    startLine: 962
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths

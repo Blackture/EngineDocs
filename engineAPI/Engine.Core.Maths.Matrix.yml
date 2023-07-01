@@ -6,8 +6,11 @@ items:
   parent: Engine.Core.Maths
   children:
   - Engine.Core.Maths.Matrix.ColumnCount
+  - Engine.Core.Maths.Matrix.GetIdentityMatrix``1(System.Int32,``0@)
   - Engine.Core.Maths.Matrix.GetInverse``1(``0,``0@)
-  - Engine.Core.Maths.Matrix.IdentityMatrix``1(System.Int32,``0@)
+  - Engine.Core.Maths.Matrix.I2x2
+  - Engine.Core.Maths.Matrix.I3x3
+  - Engine.Core.Maths.Matrix.I4x4
   - Engine.Core.Maths.Matrix.Item(System.Int32,System.Int32)
   - Engine.Core.Maths.Matrix.Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
   - Engine.Core.Maths.Matrix.RowCount
@@ -23,7 +26,7 @@ items:
   source:
     id: Matrix
     path: ''
-    startLine: 1134
+    startLine: 1201
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -55,6 +58,105 @@ items:
   - Public
   - MustInherit
   - Class
+- uid: Engine.Core.Maths.Matrix.I2x2
+  commentId: F:Engine.Core.Maths.Matrix.I2x2
+  id: I2x2
+  parent: Engine.Core.Maths.Matrix
+  langs:
+  - csharp
+  - vb
+  name: I2x2
+  nameWithType: Matrix.I2x2
+  fullName: Engine.Core.Maths.Matrix.I2x2
+  type: Field
+  source:
+    id: I2x2
+    path: ''
+    startLine: 1206
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  summary: "\n2x2 Identity Matrix\n"
+  example: []
+  syntax:
+    content: public static readonly Matrix I2x2
+    return:
+      type: Engine.Core.Maths.Matrix
+    content.vb: Public Shared ReadOnly I2x2 As Matrix
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Engine.Core.Maths.Matrix.I3x3
+  commentId: F:Engine.Core.Maths.Matrix.I3x3
+  id: I3x3
+  parent: Engine.Core.Maths.Matrix
+  langs:
+  - csharp
+  - vb
+  name: I3x3
+  nameWithType: Matrix.I3x3
+  fullName: Engine.Core.Maths.Matrix.I3x3
+  type: Field
+  source:
+    id: I3x3
+    path: ''
+    startLine: 1210
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  summary: "\n3x3 Identity Matrix\n"
+  example: []
+  syntax:
+    content: public static readonly Matrix I3x3
+    return:
+      type: Engine.Core.Maths.Matrix
+    content.vb: Public Shared ReadOnly I3x3 As Matrix
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Engine.Core.Maths.Matrix.I4x4
+  commentId: F:Engine.Core.Maths.Matrix.I4x4
+  id: I4x4
+  parent: Engine.Core.Maths.Matrix
+  langs:
+  - csharp
+  - vb
+  name: I4x4
+  nameWithType: Matrix.I4x4
+  fullName: Engine.Core.Maths.Matrix.I4x4
+  type: Field
+  source:
+    id: I4x4
+    path: ''
+    startLine: 1214
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  summary: "\n4x4 Identity Matrix\n"
+  example: []
+  syntax:
+    content: public static readonly Matrix I4x4
+    return:
+      type: Engine.Core.Maths.Matrix
+    content.vb: Public Shared ReadOnly I4x4 As Matrix
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
 - uid: Engine.Core.Maths.Matrix.Item(System.Int32,System.Int32)
   commentId: P:Engine.Core.Maths.Matrix.Item(System.Int32,System.Int32)
   id: Item(System.Int32,System.Int32)
@@ -69,7 +171,7 @@ items:
   source:
     id: this[]
     path: ''
-    startLine: 1136
+    startLine: 1216
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -111,7 +213,7 @@ items:
   source:
     id: RowCount
     path: ''
-    startLine: 1137
+    startLine: 1217
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -146,7 +248,7 @@ items:
   source:
     id: ColumnCount
     path: ''
-    startLine: 1138
+    startLine: 1218
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -181,7 +283,7 @@ items:
   source:
     id: Operation
     path: ''
-    startLine: 1140
+    startLine: 1227
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -220,7 +322,7 @@ items:
   source:
     id: RowOperation
     path: ''
-    startLine: 1141
+    startLine: 1228
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -259,7 +361,7 @@ items:
   source:
     id: SwapRows
     path: ''
-    startLine: 1142
+    startLine: 1229
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -280,27 +382,27 @@ items:
   modifiers.vb:
   - Public
   - MustOverride
-- uid: Engine.Core.Maths.Matrix.IdentityMatrix``1(System.Int32,``0@)
-  commentId: M:Engine.Core.Maths.Matrix.IdentityMatrix``1(System.Int32,``0@)
-  id: IdentityMatrix``1(System.Int32,``0@)
+- uid: Engine.Core.Maths.Matrix.GetIdentityMatrix``1(System.Int32,``0@)
+  commentId: M:Engine.Core.Maths.Matrix.GetIdentityMatrix``1(System.Int32,``0@)
+  id: GetIdentityMatrix``1(System.Int32,``0@)
   parent: Engine.Core.Maths.Matrix
   langs:
   - csharp
   - vb
-  name: IdentityMatrix<T>(Int32, out T)
-  nameWithType: Matrix.IdentityMatrix<T>(Int32, out T)
-  fullName: Engine.Core.Maths.Matrix.IdentityMatrix<T>(System.Int32, out T)
+  name: GetIdentityMatrix<T>(Int32, out T)
+  nameWithType: Matrix.GetIdentityMatrix<T>(Int32, out T)
+  fullName: Engine.Core.Maths.Matrix.GetIdentityMatrix<T>(System.Int32, out T)
   type: Method
   source:
-    id: IdentityMatrix
+    id: GetIdentityMatrix
     path: ''
-    startLine: 1144
+    startLine: 1231
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
   syntax:
     content: >-
-      public static bool IdentityMatrix<T>(int n, out T identityMatrix)
+      public static bool GetIdentityMatrix<T>(int n, out T identityMatrix)
           where T : Matrix, IMatrix, new()
     parameters:
     - id: n
@@ -311,17 +413,17 @@ items:
     - id: T
     return:
       type: System.Boolean
-    content.vb: Public Shared Function IdentityMatrix(Of T As {Matrix, IMatrix, New})(n As Integer, ByRef identityMatrix As T) As Boolean
-  overload: Engine.Core.Maths.Matrix.IdentityMatrix*
-  nameWithType.vb: Matrix.IdentityMatrix(Of T)(Int32, ByRef T)
+    content.vb: Public Shared Function GetIdentityMatrix(Of T As {Matrix, IMatrix, New})(n As Integer, ByRef identityMatrix As T) As Boolean
+  overload: Engine.Core.Maths.Matrix.GetIdentityMatrix*
+  nameWithType.vb: Matrix.GetIdentityMatrix(Of T)(Int32, ByRef T)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: Engine.Core.Maths.Matrix.IdentityMatrix(Of T)(System.Int32, ByRef T)
-  name.vb: IdentityMatrix(Of T)(Int32, ByRef T)
+  fullName.vb: Engine.Core.Maths.Matrix.GetIdentityMatrix(Of T)(System.Int32, ByRef T)
+  name.vb: GetIdentityMatrix(Of T)(Int32, ByRef T)
 - uid: Engine.Core.Maths.Matrix.GetInverse``1(``0,``0@)
   commentId: M:Engine.Core.Maths.Matrix.GetInverse``1(``0,``0@)
   id: GetInverse``1(``0,``0@)
@@ -336,7 +438,7 @@ items:
   source:
     id: GetInverse
     path: ''
-    startLine: 1169
+    startLine: 1256
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -668,6 +770,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: Engine.Core.Maths.Matrix
+  commentId: T:Engine.Core.Maths.Matrix
+  parent: Engine.Core.Maths
+  name: Matrix
+  nameWithType: Matrix
+  fullName: Engine.Core.Maths.Matrix
 - uid: Engine.Core.Maths.Matrix.Item*
   commentId: Overload:Engine.Core.Maths.Matrix.Item
   name: Item
@@ -995,11 +1103,11 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Engine.Core.Maths.Matrix.IdentityMatrix*
-  commentId: Overload:Engine.Core.Maths.Matrix.IdentityMatrix
-  name: IdentityMatrix
-  nameWithType: Matrix.IdentityMatrix
-  fullName: Engine.Core.Maths.Matrix.IdentityMatrix
+- uid: Engine.Core.Maths.Matrix.GetIdentityMatrix*
+  commentId: Overload:Engine.Core.Maths.Matrix.GetIdentityMatrix
+  name: GetIdentityMatrix
+  nameWithType: Matrix.GetIdentityMatrix
+  fullName: Engine.Core.Maths.Matrix.GetIdentityMatrix
 - uid: '{T}'
   commentId: '!:T'
   definition: T

@@ -17,7 +17,7 @@ items:
   source:
     id: RenderImage
     path: ''
-    startLine: 3555
+    startLine: 3824
   assemblies:
   - cs.temp.dll
   namespace: Engine.Rendering
@@ -54,7 +54,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 3562
+    startLine: 3831
   assemblies:
   - cs.temp.dll
   namespace: Engine.Rendering
@@ -88,7 +88,7 @@ items:
   source:
     id: Render
     path: ''
-    startLine: 3570
+    startLine: 3839
   assemblies:
   - cs.temp.dll
   namespace: Engine.Rendering

@@ -27,8 +27,18 @@
 - uid: Engine.Core.Maths
   name: Engine.Core.Maths
   items:
+  - uid: Engine.Core.Maths.AffineTransformationMatrix
+    name: AffineTransformationMatrix
+  - uid: Engine.Core.Maths.AffineTransformationMatrix4x4
+    name: AffineTransformationMatrix4x4
   - uid: Engine.Core.Maths.AugmentedMatrix
     name: AugmentedMatrix
+  - uid: Engine.Core.Maths.Axis
+    name: Axis
+  - uid: Engine.Core.Maths.Constants
+    name: Constants
+  - uid: Engine.Core.Maths.Convention
+    name: Convention
   - uid: Engine.Core.Maths.FloatEnumerator
     name: FloatEnumerator
   - uid: Engine.Core.Maths.Gauss
@@ -55,6 +65,14 @@
     name: Plane
   - uid: Engine.Core.Maths.Plane.PlaneSetupType
     name: Plane.PlaneSetupType
+  - uid: Engine.Core.Maths.Quaternion
+    name: Quaternion
+  - uid: Engine.Core.Maths.RotationMatrix2x2
+    name: RotationMatrix2x2
+  - uid: Engine.Core.Maths.RotationMatrix3x3
+    name: RotationMatrix3x3
+  - uid: Engine.Core.Maths.RotationType
+    name: RotationType
   - uid: Engine.Core.Maths.Straight
     name: Straight
   - uid: Engine.Core.Maths.Straight.LineSetupType
