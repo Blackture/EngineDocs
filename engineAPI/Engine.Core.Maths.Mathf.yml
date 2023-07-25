@@ -15,6 +15,9 @@ items:
   - Engine.Core.Maths.Mathf.Ceiling(System.Single)
   - Engine.Core.Maths.Mathf.Cos(System.Single)
   - Engine.Core.Maths.Mathf.Cosh(System.Single)
+  - Engine.Core.Maths.Mathf.CosinePiQuarter
+  - Engine.Core.Maths.Mathf.Cot(System.Single)
+  - Engine.Core.Maths.Mathf.Csc(System.Single)
   - Engine.Core.Maths.Mathf.Deg2Rad(System.Single)
   - Engine.Core.Maths.Mathf.e
   - Engine.Core.Maths.Mathf.Exp(System.Single)
@@ -29,15 +32,21 @@ items:
   - Engine.Core.Maths.Mathf.pi
   - Engine.Core.Maths.Mathf.Pi(System.Func{System.Single,System.Single},System.Int32,System.Int32)
   - Engine.Core.Maths.Mathf.Pi(System.Func{System.Single,System.Single},System.Single,System.Single,System.Single)
+  - Engine.Core.Maths.Mathf.PiHalf
+  - Engine.Core.Maths.Mathf.PiQuarter
   - Engine.Core.Maths.Mathf.Pow(System.Single,System.Single)
+  - Engine.Core.Maths.Mathf.Rad2Deg(System.Single)
   - Engine.Core.Maths.Mathf.Round(System.Single)
   - Engine.Core.Maths.Mathf.Round(System.Single,System.Int32)
   - Engine.Core.Maths.Mathf.Round(System.Single,System.Int32,System.MidpointRounding)
+  - Engine.Core.Maths.Mathf.RoundToInt(System.Single)
+  - Engine.Core.Maths.Mathf.Sec(System.Single)
   - Engine.Core.Maths.Mathf.Sigma(System.Func{System.Single,System.Single},System.Int32,System.Int32)
   - Engine.Core.Maths.Mathf.Sigma(System.Func{System.Single,System.Single},System.Single,System.Single,System.Single)
   - Engine.Core.Maths.Mathf.Sign(System.Single)
   - Engine.Core.Maths.Mathf.Sin(System.Single)
   - Engine.Core.Maths.Mathf.Sinc(System.Single,System.Boolean)
+  - Engine.Core.Maths.Mathf.SinePiQuarter
   - Engine.Core.Maths.Mathf.Sinh(System.Single)
   - Engine.Core.Maths.Mathf.Sqrt(System.Single)
   - Engine.Core.Maths.Mathf.Sum(System.Single[])
@@ -54,7 +63,7 @@ items:
   source:
     id: Mathf
     path: ''
-    startLine: 975
+    startLine: 1725
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -78,6 +87,130 @@ items:
   modifiers.vb:
   - Public
   - Module
+- uid: Engine.Core.Maths.Mathf.PiQuarter
+  commentId: F:Engine.Core.Maths.Mathf.PiQuarter
+  id: PiQuarter
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: PiQuarter
+  nameWithType: Mathf.PiQuarter
+  fullName: Engine.Core.Maths.Mathf.PiQuarter
+  type: Field
+  source:
+    id: PiQuarter
+    path: ''
+    startLine: 1727
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static readonly float PiQuarter
+    return:
+      type: System.Single
+    content.vb: Public Shared ReadOnly PiQuarter As Single
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Engine.Core.Maths.Mathf.PiHalf
+  commentId: F:Engine.Core.Maths.Mathf.PiHalf
+  id: PiHalf
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: PiHalf
+  nameWithType: Mathf.PiHalf
+  fullName: Engine.Core.Maths.Mathf.PiHalf
+  type: Field
+  source:
+    id: PiHalf
+    path: ''
+    startLine: 1728
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static readonly float PiHalf
+    return:
+      type: System.Single
+    content.vb: Public Shared ReadOnly PiHalf As Single
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Engine.Core.Maths.Mathf.SinePiQuarter
+  commentId: F:Engine.Core.Maths.Mathf.SinePiQuarter
+  id: SinePiQuarter
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: SinePiQuarter
+  nameWithType: Mathf.SinePiQuarter
+  fullName: Engine.Core.Maths.Mathf.SinePiQuarter
+  type: Field
+  source:
+    id: SinePiQuarter
+    path: ''
+    startLine: 1730
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static readonly float SinePiQuarter
+    return:
+      type: System.Single
+    content.vb: Public Shared ReadOnly SinePiQuarter As Single
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Engine.Core.Maths.Mathf.CosinePiQuarter
+  commentId: F:Engine.Core.Maths.Mathf.CosinePiQuarter
+  id: CosinePiQuarter
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: CosinePiQuarter
+  nameWithType: Mathf.CosinePiQuarter
+  fullName: Engine.Core.Maths.Mathf.CosinePiQuarter
+  type: Field
+  source:
+    id: CosinePiQuarter
+    path: ''
+    startLine: 1731
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static readonly float CosinePiQuarter
+    return:
+      type: System.Single
+    content.vb: Public Shared ReadOnly CosinePiQuarter As Single
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
 - uid: Engine.Core.Maths.Mathf.e
   commentId: F:Engine.Core.Maths.Mathf.e
   id: e
@@ -92,7 +225,7 @@ items:
   source:
     id: e
     path: ''
-    startLine: 977
+    startLine: 1733
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -121,7 +254,7 @@ items:
   source:
     id: pi
     path: ''
-    startLine: 978
+    startLine: 1734
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -150,7 +283,7 @@ items:
   source:
     id: Acos
     path: ''
-    startLine: 980
+    startLine: 1745
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -183,7 +316,7 @@ items:
   source:
     id: Asin
     path: ''
-    startLine: 985
+    startLine: 1750
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -216,7 +349,7 @@ items:
   source:
     id: Atan
     path: ''
-    startLine: 990
+    startLine: 1755
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -249,7 +382,7 @@ items:
   source:
     id: Abs
     path: ''
-    startLine: 995
+    startLine: 1760
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -282,7 +415,7 @@ items:
   source:
     id: Atan2
     path: ''
-    startLine: 1000
+    startLine: 1765
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -317,7 +450,7 @@ items:
   source:
     id: Ceiling
     path: ''
-    startLine: 1005
+    startLine: 1770
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -350,7 +483,7 @@ items:
   source:
     id: Cos
     path: ''
-    startLine: 1010
+    startLine: 1775
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -383,7 +516,7 @@ items:
   source:
     id: Cosh
     path: ''
-    startLine: 1015
+    startLine: 1780
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -396,6 +529,105 @@ items:
       type: System.Single
     content.vb: Public Shared Function Cosh(f As Single) As Single
   overload: Engine.Core.Maths.Mathf.Cosh*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Engine.Core.Maths.Mathf.Cot(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Cot(System.Single)
+  id: Cot(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Cot(Single)
+  nameWithType: Mathf.Cot(Single)
+  fullName: Engine.Core.Maths.Mathf.Cot(System.Single)
+  type: Method
+  source:
+    id: Cot
+    path: ''
+    startLine: 1785
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Cot(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Cot(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Cot*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Engine.Core.Maths.Mathf.Sec(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Sec(System.Single)
+  id: Sec(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Sec(Single)
+  nameWithType: Mathf.Sec(Single)
+  fullName: Engine.Core.Maths.Mathf.Sec(System.Single)
+  type: Method
+  source:
+    id: Sec
+    path: ''
+    startLine: 1790
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Sec(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Sec(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Sec*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Engine.Core.Maths.Mathf.Csc(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Csc(System.Single)
+  id: Csc(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Csc(Single)
+  nameWithType: Mathf.Csc(Single)
+  fullName: Engine.Core.Maths.Mathf.Csc(System.Single)
+  type: Method
+  source:
+    id: Csc
+    path: ''
+    startLine: 1794
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Csc(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Csc(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Csc*
   modifiers.csharp:
   - public
   - static
@@ -416,7 +648,7 @@ items:
   source:
     id: Exp
     path: ''
-    startLine: 1020
+    startLine: 1799
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -449,7 +681,7 @@ items:
   source:
     id: Floor
     path: ''
-    startLine: 1025
+    startLine: 1804
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -482,7 +714,7 @@ items:
   source:
     id: IEEERemainder
     path: ''
-    startLine: 1030
+    startLine: 1809
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -517,7 +749,7 @@ items:
   source:
     id: Log
     path: ''
-    startLine: 1035
+    startLine: 1814
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -550,7 +782,7 @@ items:
   source:
     id: Log
     path: ''
-    startLine: 1040
+    startLine: 1819
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -585,7 +817,7 @@ items:
   source:
     id: Log10
     path: ''
-    startLine: 1045
+    startLine: 1824
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -618,7 +850,7 @@ items:
   source:
     id: Max
     path: ''
-    startLine: 1050
+    startLine: 1829
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -653,7 +885,7 @@ items:
   source:
     id: Min
     path: ''
-    startLine: 1055
+    startLine: 1834
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -688,7 +920,7 @@ items:
   source:
     id: Pow
     path: ''
-    startLine: 1060
+    startLine: 1839
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -723,7 +955,7 @@ items:
   source:
     id: Round
     path: ''
-    startLine: 1065
+    startLine: 1844
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -756,7 +988,7 @@ items:
   source:
     id: Round
     path: ''
-    startLine: 1070
+    startLine: 1849
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -791,7 +1023,7 @@ items:
   source:
     id: Round
     path: ''
-    startLine: 1075
+    startLine: 1854
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -814,6 +1046,39 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: Engine.Core.Maths.Mathf.RoundToInt(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.RoundToInt(System.Single)
+  id: RoundToInt(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: RoundToInt(Single)
+  nameWithType: Mathf.RoundToInt(Single)
+  fullName: Engine.Core.Maths.Mathf.RoundToInt(System.Single)
+  type: Method
+  source:
+    id: RoundToInt
+    path: ''
+    startLine: 1859
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static int RoundToInt(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function RoundToInt(f As Single) As Integer
+  overload: Engine.Core.Maths.Mathf.RoundToInt*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: Engine.Core.Maths.Mathf.Sign(System.Single)
   commentId: M:Engine.Core.Maths.Mathf.Sign(System.Single)
   id: Sign(System.Single)
@@ -828,7 +1093,7 @@ items:
   source:
     id: Sign
     path: ''
-    startLine: 1080
+    startLine: 1864
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -861,7 +1126,7 @@ items:
   source:
     id: Sin
     path: ''
-    startLine: 1085
+    startLine: 1869
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -894,7 +1159,7 @@ items:
   source:
     id: Sinh
     path: ''
-    startLine: 1090
+    startLine: 1874
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -927,7 +1192,7 @@ items:
   source:
     id: Sqrt
     path: ''
-    startLine: 1095
+    startLine: 1879
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -960,7 +1225,7 @@ items:
   source:
     id: NthSqrt
     path: ''
-    startLine: 1101
+    startLine: 1885
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -995,7 +1260,7 @@ items:
   source:
     id: Tan
     path: ''
-    startLine: 1106
+    startLine: 1890
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1028,7 +1293,7 @@ items:
   source:
     id: Tanh
     path: ''
-    startLine: 1111
+    startLine: 1895
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1061,7 +1326,7 @@ items:
   source:
     id: Truncate
     path: ''
-    startLine: 1116
+    startLine: 1900
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1094,7 +1359,7 @@ items:
   source:
     id: Pi
     path: ''
-    startLine: 1121
+    startLine: 1905
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1134,7 +1399,7 @@ items:
   source:
     id: Pi
     path: ''
-    startLine: 1131
+    startLine: 1915
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1176,7 +1441,7 @@ items:
   source:
     id: Sigma
     path: ''
-    startLine: 1141
+    startLine: 1925
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1218,7 +1483,7 @@ items:
   source:
     id: Sigma
     path: ''
-    startLine: 1151
+    startLine: 1935
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1258,7 +1523,7 @@ items:
   source:
     id: Approximately
     path: ''
-    startLine: 1161
+    startLine: 1945
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1295,7 +1560,7 @@ items:
   source:
     id: Approximately
     path: ''
-    startLine: 1166
+    startLine: 1950
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1330,7 +1595,7 @@ items:
   source:
     id: Deg2Rad
     path: ''
-    startLine: 1171
+    startLine: 1955
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1343,6 +1608,39 @@ items:
       type: System.Single
     content.vb: Public Shared Function Deg2Rad(deg As Single) As Single
   overload: Engine.Core.Maths.Mathf.Deg2Rad*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Engine.Core.Maths.Mathf.Rad2Deg(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Rad2Deg(System.Single)
+  id: Rad2Deg(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Rad2Deg(Single)
+  nameWithType: Mathf.Rad2Deg(Single)
+  fullName: Engine.Core.Maths.Mathf.Rad2Deg(System.Single)
+  type: Method
+  source:
+    id: Rad2Deg
+    path: ''
+    startLine: 1960
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Rad2Deg(float rad)
+    parameters:
+    - id: rad
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Rad2Deg(rad As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Rad2Deg*
   modifiers.csharp:
   - public
   - static
@@ -1363,7 +1661,7 @@ items:
   source:
     id: Sum
     path: ''
-    startLine: 1176
+    startLine: 1965
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1399,7 +1697,7 @@ items:
   source:
     id: Sinc
     path: ''
-    startLine: 1186
+    startLine: 1975
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1765,6 +2063,21 @@ references:
   name: Cosh
   nameWithType: Mathf.Cosh
   fullName: Engine.Core.Maths.Mathf.Cosh
+- uid: Engine.Core.Maths.Mathf.Cot*
+  commentId: Overload:Engine.Core.Maths.Mathf.Cot
+  name: Cot
+  nameWithType: Mathf.Cot
+  fullName: Engine.Core.Maths.Mathf.Cot
+- uid: Engine.Core.Maths.Mathf.Sec*
+  commentId: Overload:Engine.Core.Maths.Mathf.Sec
+  name: Sec
+  nameWithType: Mathf.Sec
+  fullName: Engine.Core.Maths.Mathf.Sec
+- uid: Engine.Core.Maths.Mathf.Csc*
+  commentId: Overload:Engine.Core.Maths.Mathf.Csc
+  name: Csc
+  nameWithType: Mathf.Csc
+  fullName: Engine.Core.Maths.Mathf.Csc
 - uid: Engine.Core.Maths.Mathf.Exp*
   commentId: Overload:Engine.Core.Maths.Mathf.Exp
   name: Exp
@@ -1824,6 +2137,11 @@ references:
   name: MidpointRounding
   nameWithType: MidpointRounding
   fullName: System.MidpointRounding
+- uid: Engine.Core.Maths.Mathf.RoundToInt*
+  commentId: Overload:Engine.Core.Maths.Mathf.RoundToInt
+  name: RoundToInt
+  nameWithType: Mathf.RoundToInt
+  fullName: Engine.Core.Maths.Mathf.RoundToInt
 - uid: Engine.Core.Maths.Mathf.Sign*
   commentId: Overload:Engine.Core.Maths.Mathf.Sign
   name: Sign
@@ -2002,6 +2320,11 @@ references:
   name: Deg2Rad
   nameWithType: Mathf.Deg2Rad
   fullName: Engine.Core.Maths.Mathf.Deg2Rad
+- uid: Engine.Core.Maths.Mathf.Rad2Deg*
+  commentId: Overload:Engine.Core.Maths.Mathf.Rad2Deg
+  name: Rad2Deg
+  nameWithType: Mathf.Rad2Deg
+  fullName: Engine.Core.Maths.Mathf.Rad2Deg
 - uid: Engine.Core.Maths.Mathf.Sum*
   commentId: Overload:Engine.Core.Maths.Mathf.Sum
   name: Sum

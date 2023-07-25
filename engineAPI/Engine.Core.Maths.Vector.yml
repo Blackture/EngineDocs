@@ -38,6 +38,7 @@ items:
   - Engine.Core.Maths.Vector.SetValue(System.Single,System.Int32)
   - Engine.Core.Maths.Vector.Substraction(Engine.Core.Maths.Vector)
   - Engine.Core.Maths.Vector.Substraction(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)
+  - Engine.Core.Maths.Vector.ToMatrix(Engine.Core.Maths.Vector,System.Boolean)
   langs:
   - csharp
   - vb
@@ -48,7 +49,7 @@ items:
   source:
     id: Vector
     path: ''
-    startLine: 2957
+    startLine: 4191
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -92,7 +93,7 @@ items:
   source:
     id: this[]
     path: ''
-    startLine: 2967
+    startLine: 4201
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -128,7 +129,7 @@ items:
   source:
     id: Length
     path: ''
-    startLine: 2972
+    startLine: 4206
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -159,7 +160,7 @@ items:
   source:
     id: Dimension
     path: ''
-    startLine: 2973
+    startLine: 4207
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -190,7 +191,7 @@ items:
   source:
     id: LengthSquared
     path: ''
-    startLine: 2974
+    startLine: 4208
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -221,7 +222,7 @@ items:
   source:
     id: Normalized
     path: ''
-    startLine: 2975
+    startLine: 4209
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -252,7 +253,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 2977
+    startLine: 4211
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -284,7 +285,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 2981
+    startLine: 4215
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -316,7 +317,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 2986
+    startLine: 4220
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -345,7 +346,7 @@ items:
   source:
     id: Normalize
     path: ''
-    startLine: 3007
+    startLine: 4241
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -373,7 +374,7 @@ items:
   source:
     id: GetLength
     path: ''
-    startLine: 3029
+    startLine: 4263
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -401,7 +402,7 @@ items:
   source:
     id: IsDimensionEqual
     path: ''
-    startLine: 3050
+    startLine: 4284
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -434,7 +435,7 @@ items:
   source:
     id: SetValue
     path: ''
-    startLine: 3053
+    startLine: 4287
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -465,7 +466,7 @@ items:
   source:
     id: GetValue
     path: ''
-    startLine: 3061
+    startLine: 4295
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -496,7 +497,7 @@ items:
   source:
     id: AddValue
     path: ''
-    startLine: 3073
+    startLine: 4307
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -528,7 +529,7 @@ items:
   source:
     id: DotProduct
     path: ''
-    startLine: 3080
+    startLine: 4314
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -559,7 +560,7 @@ items:
   source:
     id: ScalarProduct
     path: ''
-    startLine: 3093
+    startLine: 4327
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -590,7 +591,7 @@ items:
   source:
     id: CrossProduct
     path: ''
-    startLine: 3102
+    startLine: 4336
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -621,7 +622,7 @@ items:
   source:
     id: Addition
     path: ''
-    startLine: 3130
+    startLine: 4364
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -652,7 +653,7 @@ items:
   source:
     id: Substraction
     path: ''
-    startLine: 3143
+    startLine: 4377
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -683,7 +684,7 @@ items:
   source:
     id: Division
     path: ''
-    startLine: 3156
+    startLine: 4390
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -714,7 +715,7 @@ items:
   source:
     id: Dot
     path: ''
-    startLine: 3166
+    startLine: 4400
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -749,7 +750,7 @@ items:
   source:
     id: Cross
     path: ''
-    startLine: 3170
+    startLine: 4404
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -784,7 +785,7 @@ items:
   source:
     id: Scalar
     path: ''
-    startLine: 3174
+    startLine: 4408
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -819,7 +820,7 @@ items:
   source:
     id: Addition
     path: ''
-    startLine: 3178
+    startLine: 4412
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -854,7 +855,7 @@ items:
   source:
     id: Substraction
     path: ''
-    startLine: 3182
+    startLine: 4416
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -889,7 +890,7 @@ items:
   source:
     id: Division
     path: ''
-    startLine: 3186
+    startLine: 4420
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -924,7 +925,7 @@ items:
   source:
     id: op_Addition
     path: ''
-    startLine: 3191
+    startLine: 4425
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -959,7 +960,7 @@ items:
   source:
     id: op_Subtraction
     path: ''
-    startLine: 3195
+    startLine: 4429
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -994,7 +995,7 @@ items:
   source:
     id: op_Multiply
     path: ''
-    startLine: 3199
+    startLine: 4433
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1029,7 +1030,7 @@ items:
   source:
     id: op_Multiply
     path: ''
-    startLine: 3203
+    startLine: 4437
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1064,7 +1065,7 @@ items:
   source:
     id: op_Multiply
     path: ''
-    startLine: 3207
+    startLine: 4441
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1099,7 +1100,7 @@ items:
   source:
     id: op_Division
     path: ''
-    startLine: 3211
+    startLine: 4445
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1120,6 +1121,44 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: Engine.Core.Maths.Vector.ToMatrix(Engine.Core.Maths.Vector,System.Boolean)
+  commentId: M:Engine.Core.Maths.Vector.ToMatrix(Engine.Core.Maths.Vector,System.Boolean)
+  id: ToMatrix(Engine.Core.Maths.Vector,System.Boolean)
+  parent: Engine.Core.Maths.Vector
+  langs:
+  - csharp
+  - vb
+  name: ToMatrix(Vector, Boolean)
+  nameWithType: Vector.ToMatrix(Vector, Boolean)
+  fullName: Engine.Core.Maths.Vector.ToMatrix(Engine.Core.Maths.Vector, System.Boolean)
+  type: Method
+  source:
+    id: ToMatrix
+    path: ''
+    startLine: 4454
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  summary: "\nTurns the vector into single-row matrix, as long as <code data-dev-comment-type=\"paramref\" class=\"paramref\">isColumn</code> is false.\nOtherwise it turns the vector into a single-column matrix\n"
+  example: []
+  syntax:
+    content: public static MatrixMxN ToMatrix(Vector v, bool isColumn = false)
+    parameters:
+    - id: v
+      type: Engine.Core.Maths.Vector
+      description: ''
+    - id: isColumn
+      type: System.Boolean
+    return:
+      type: Engine.Core.Maths.MatrixMxN
+    content.vb: Public Shared Function ToMatrix(v As Vector, isColumn As Boolean = False) As MatrixMxN
+  overload: Engine.Core.Maths.Vector.ToMatrix*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: Engine.Core.Maths.Vector.GetEnumerator
   commentId: M:Engine.Core.Maths.Vector.GetEnumerator
   id: GetEnumerator
@@ -1134,7 +1173,7 @@ items:
   source:
     id: GetEnumerator
     path: ''
-    startLine: 3216
+    startLine: 4474
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1811,6 +1850,17 @@ references:
   name: Division
   nameWithType: Vector.Division
   fullName: Engine.Core.Maths.Vector.Division
+- uid: Engine.Core.Maths.Vector.ToMatrix*
+  commentId: Overload:Engine.Core.Maths.Vector.ToMatrix
+  name: ToMatrix
+  nameWithType: Vector.ToMatrix
+  fullName: Engine.Core.Maths.Vector.ToMatrix
+- uid: Engine.Core.Maths.MatrixMxN
+  commentId: T:Engine.Core.Maths.MatrixMxN
+  parent: Engine.Core.Maths
+  name: MatrixMxN
+  nameWithType: MatrixMxN
+  fullName: Engine.Core.Maths.MatrixMxN
 - uid: Engine.Core.Maths.Vector.GetEnumerator*
   commentId: Overload:Engine.Core.Maths.Vector.GetEnumerator
   name: GetEnumerator

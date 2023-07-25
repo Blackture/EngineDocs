@@ -18,7 +18,7 @@ items:
   source:
     id: EliminationResult
     path: ''
-    startLine: 882
+    startLine: 1639
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -55,7 +55,7 @@ items:
   source:
     id: Floats
     path: ''
-    startLine: 884
+    startLine: 1641
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -82,7 +82,7 @@ items:
   source:
     id: Straight
     path: ''
-    startLine: 885
+    startLine: 1642
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -109,7 +109,7 @@ items:
   source:
     id: Plane
     path: ''
-    startLine: 886
+    startLine: 1643
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths

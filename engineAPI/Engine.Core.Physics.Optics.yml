@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Physics.Optics
+  commentId: N:Engine.Core.Physics.Optics
+  id: Engine.Core.Physics.Optics
+  children:
+  - Engine.Core.Physics.Optics.Lens
+  - Engine.Core.Physics.Optics.LensType
+  - Engine.Core.Physics.Optics.LightRay
+  - Engine.Core.Physics.Optics.LightSource
+  langs:
+  - csharp
+  - vb
+  name: Engine.Core.Physics.Optics
+  nameWithType: Engine.Core.Physics.Optics
+  fullName: Engine.Core.Physics.Optics
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Engine.Core.Physics.Optics.LensType
+  commentId: T:Engine.Core.Physics.Optics.LensType
+  parent: Engine.Core.Physics.Optics
+  name: LensType
+  nameWithType: LensType
+  fullName: Engine.Core.Physics.Optics.LensType
+- uid: Engine.Core.Physics.Optics.Lens
+  commentId: T:Engine.Core.Physics.Optics.Lens
+  name: Lens
+  nameWithType: Lens
+  fullName: Engine.Core.Physics.Optics.Lens
+- uid: Engine.Core.Physics.Optics.LightRay
+  commentId: T:Engine.Core.Physics.Optics.LightRay
+  name: LightRay
+  nameWithType: LightRay
+  fullName: Engine.Core.Physics.Optics.LightRay
+- uid: Engine.Core.Physics.Optics.LightSource
+  commentId: T:Engine.Core.Physics.Optics.LightSource
+  name: LightSource
+  nameWithType: LightSource
+  fullName: Engine.Core.Physics.Optics.LightSource
+- uid: Engine.Core.Physics.Optics
+  commentId: N:Engine.Core.Physics.Optics
+  name: Engine.Core.Physics.Optics
+  nameWithType: Engine.Core.Physics.Optics
+  fullName: Engine.Core.Physics.Optics

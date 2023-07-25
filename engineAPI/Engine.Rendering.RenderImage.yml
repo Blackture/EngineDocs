@@ -17,7 +17,7 @@ items:
   source:
     id: RenderImage
     path: ''
-    startLine: 3824
+    startLine: 5570
   assemblies:
   - cs.temp.dll
   namespace: Engine.Rendering
@@ -54,7 +54,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 3831
+    startLine: 5577
   assemblies:
   - cs.temp.dll
   namespace: Engine.Rendering
@@ -88,7 +88,7 @@ items:
   source:
     id: Render
     path: ''
-    startLine: 3839
+    startLine: 5585
   assemblies:
   - cs.temp.dll
   namespace: Engine.Rendering
@@ -410,7 +410,6 @@ references:
   nameWithType: Projection
   fullName: Engine.Rendering.Projection
 - uid: PictureBox
-  commentId: '!:PictureBox'
   isExternal: true
   name: PictureBox
   nameWithType: PictureBox

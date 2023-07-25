@@ -33,7 +33,7 @@ items:
   source:
     id: Matrix
     path: ''
-    startLine: 3602
+    startLine: 5143
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths.Obsolete
@@ -82,7 +82,7 @@ items:
   source:
     id: Values
     path: ''
-    startLine: 3605
+    startLine: 5146
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths.Obsolete
@@ -113,7 +113,7 @@ items:
   source:
     id: RowCount
     path: ''
-    startLine: 3606
+    startLine: 5147
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths.Obsolete
@@ -144,7 +144,7 @@ items:
   source:
     id: ColumnCount
     path: ''
-    startLine: 3607
+    startLine: 5148
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths.Obsolete
@@ -175,7 +175,7 @@ items:
   source:
     id: this[]
     path: ''
-    startLine: 3609
+    startLine: 5150
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths.Obsolete
@@ -213,7 +213,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 3621
+    startLine: 5162
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths.Obsolete
@@ -244,7 +244,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 3634
+    startLine: 5175
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths.Obsolete
@@ -276,7 +276,7 @@ items:
   source:
     id: op_Multiply
     path: ''
-    startLine: 3639
+    startLine: 5180
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths.Obsolete
@@ -311,7 +311,7 @@ items:
   source:
     id: op_Multiply
     path: ''
-    startLine: 3660
+    startLine: 5201
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths.Obsolete
@@ -346,7 +346,7 @@ items:
   source:
     id: op_Multiply
     path: ''
-    startLine: 3673
+    startLine: 5214
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths.Obsolete
@@ -381,7 +381,7 @@ items:
   source:
     id: op_Addition
     path: ''
-    startLine: 3686
+    startLine: 5227
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths.Obsolete
@@ -416,7 +416,7 @@ items:
   source:
     id: op_Subtraction
     path: ''
-    startLine: 3708
+    startLine: 5249
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths.Obsolete
@@ -451,7 +451,7 @@ items:
   source:
     id: ConvertTo
     path: ''
-    startLine: 3728
+    startLine: 5269
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths.Obsolete
@@ -487,7 +487,7 @@ items:
   source:
     id: GetRow
     path: ''
-    startLine: 3733
+    startLine: 5274
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths.Obsolete
@@ -518,7 +518,7 @@ items:
   source:
     id: GetColumn
     path: ''
-    startLine: 3739
+    startLine: 5280
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths.Obsolete
@@ -549,7 +549,7 @@ items:
   source:
     id: ScaleRow
     path: ''
-    startLine: 3750
+    startLine: 5291
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths.Obsolete
@@ -580,7 +580,7 @@ items:
   source:
     id: SwapRows
     path: ''
-    startLine: 3758
+    startLine: 5299
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths.Obsolete
@@ -611,7 +611,7 @@ items:
   source:
     id: AddRow
     path: ''
-    startLine: 3765
+    startLine: 5306
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths.Obsolete
@@ -643,7 +643,7 @@ items:
   source:
     id: AddRow
     path: ''
-    startLine: 3770
+    startLine: 5311
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths.Obsolete

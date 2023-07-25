@@ -17,7 +17,7 @@ items:
   source:
     id: Projection
     path: ''
-    startLine: 3809
+    startLine: 5555
   assemblies:
   - cs.temp.dll
   namespace: Engine.Rendering
@@ -44,7 +44,7 @@ items:
   source:
     id: Orthographic
     path: ''
-    startLine: 3810
+    startLine: 5556
   assemblies:
   - cs.temp.dll
   namespace: Engine.Rendering
@@ -72,7 +72,7 @@ items:
   source:
     id: Perspective
     path: ''
-    startLine: 3811
+    startLine: 5557
   assemblies:
   - cs.temp.dll
   namespace: Engine.Rendering

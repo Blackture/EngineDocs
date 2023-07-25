@@ -16,7 +16,7 @@ items:
   source:
     id: ColorExtension
     path: ''
-    startLine: 3789
+    startLine: 5535
   assemblies:
   - cs.temp.dll
   namespace: Engine.Rendering
@@ -55,7 +55,7 @@ items:
   source:
     id: Interpolate
     path: ''
-    startLine: 3791
+    startLine: 5537
   assemblies:
   - cs.temp.dll
   namespace: Engine.Rendering

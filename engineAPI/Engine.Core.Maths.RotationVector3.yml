@@ -1,0 +1,1702 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Maths.RotationVector3
+  commentId: T:Engine.Core.Maths.RotationVector3
+  id: RotationVector3
+  parent: Engine.Core.Maths
+  children:
+  - Engine.Core.Maths.RotationVector3.#ctor(System.Single,System.Single,System.Single,Engine.Core.Maths.RotationMeasure)
+  - Engine.Core.Maths.RotationVector3.GetDegreeRotation
+  - Engine.Core.Maths.RotationVector3.op_Addition(Engine.Core.Maths.RotationVector3,Engine.Core.Maths.RotationVector3)
+  - Engine.Core.Maths.RotationVector3.op_Implicit(Engine.Core.Maths.RotationVector3)~Engine.Core.Maths.MatrixMxN
+  - Engine.Core.Maths.RotationVector3.op_Implicit(Engine.Core.Maths.RotationVector3)~Engine.Core.Maths.RotationMatrix3x3
+  - Engine.Core.Maths.RotationVector3.SetRotation(System.Single,Engine.Core.Maths.Axis,Engine.Core.Maths.RotationMeasure)
+  - Engine.Core.Maths.RotationVector3.SetRotation(System.Single,System.Single,System.Single,Engine.Core.Maths.RotationMeasure)
+  - Engine.Core.Maths.RotationVector3.X1
+  - Engine.Core.Maths.RotationVector3.X2
+  - Engine.Core.Maths.RotationVector3.X3
+  langs:
+  - csharp
+  - vb
+  name: RotationVector3
+  nameWithType: RotationVector3
+  fullName: Engine.Core.Maths.RotationVector3
+  type: Class
+  source:
+    id: RotationVector3
+    path: ''
+    startLine: 3748
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  summary: "\nSaves a globalRotation in RAD, allows input in degree or rad measure.\n"
+  example: []
+  syntax:
+    content: 'public class RotationVector3 : Vector3'
+    content.vb: >-
+      Public Class RotationVector3
+          Inherits Vector3
+  inheritance:
+  - System.Object
+  - Engine.Core.Maths.Vector3
+  inheritedMembers:
+  - Engine.Core.Maths.Vector3.Zero
+  - Engine.Core.Maths.Vector3.One
+  - Engine.Core.Maths.Vector3.Length
+  - Engine.Core.Maths.Vector3.LengthSquared
+  - Engine.Core.Maths.Vector3.Normalized
+  - Engine.Core.Maths.Vector3.Dimension
+  - Engine.Core.Maths.Vector3.Item(System.Int32)
+  - Engine.Core.Maths.Vector3.ToMatrix(Engine.Core.Maths.Vector3,System.Boolean)
+  - Engine.Core.Maths.Vector3.CrossProduct(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3)
+  - Engine.Core.Maths.Vector3.DotProduct(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3)
+  - Engine.Core.Maths.Vector3.Normalize(Engine.Core.Maths.Vector3)
+  - Engine.Core.Maths.Vector3.GetLength(Engine.Core.Maths.Vector3)
+  - Engine.Core.Maths.Vector3.AngleBetween(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3)
+  - Engine.Core.Maths.Vector3.OrthogonalityCheck(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3)
+  - Engine.Core.Maths.Vector3.Normalize
+  - Engine.Core.Maths.Vector3.GetLength
+  - Engine.Core.Maths.Vector3.CrossProduct(Engine.Core.Maths.Vector3)
+  - Engine.Core.Maths.Vector3.DotProduct(Engine.Core.Maths.Vector3)
+  - Engine.Core.Maths.Vector3.ScalarProduct(System.Single)
+  - Engine.Core.Maths.Vector3.Addition(Engine.Core.Maths.Vector3)
+  - Engine.Core.Maths.Vector3.Substraction(Engine.Core.Maths.Vector3)
+  - Engine.Core.Maths.Vector3.Division(System.Single)
+  - Engine.Core.Maths.Vector3.IsPerpendicularTo(Engine.Core.Maths.Vector3)
+  - Engine.Core.Maths.Vector3.GetNormalVector(System.Int32)
+  - Engine.Core.Maths.Vector3.IsZero
+  - Engine.Core.Maths.Vector3.ToMatrix(System.Boolean)
+  - Engine.Core.Maths.Vector3.Project(Engine.Core.Maths.Vector3)
+  - Engine.Core.Maths.Vector3.Project(Engine.Core.Maths.Plane)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Engine.Core.Maths.RotationVector3.X1
+  commentId: P:Engine.Core.Maths.RotationVector3.X1
+  id: X1
+  parent: Engine.Core.Maths.RotationVector3
+  langs:
+  - csharp
+  - vb
+  name: X1
+  nameWithType: RotationVector3.X1
+  fullName: Engine.Core.Maths.RotationVector3.X1
+  type: Property
+  source:
+    id: X1
+    path: ''
+    startLine: 3753
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  summary: "\nX1 in RAD\n"
+  example: []
+  syntax:
+    content: public float X1 { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property X1 As Single
+  overload: Engine.Core.Maths.RotationVector3.X1*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Maths.RotationVector3.X2
+  commentId: P:Engine.Core.Maths.RotationVector3.X2
+  id: X2
+  parent: Engine.Core.Maths.RotationVector3
+  langs:
+  - csharp
+  - vb
+  name: X2
+  nameWithType: RotationVector3.X2
+  fullName: Engine.Core.Maths.RotationVector3.X2
+  type: Property
+  source:
+    id: X2
+    path: ''
+    startLine: 3761
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  summary: "\nX2 in RAD\n"
+  example: []
+  syntax:
+    content: public float X2 { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property X2 As Single
+  overload: Engine.Core.Maths.RotationVector3.X2*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Maths.RotationVector3.X3
+  commentId: P:Engine.Core.Maths.RotationVector3.X3
+  id: X3
+  parent: Engine.Core.Maths.RotationVector3
+  langs:
+  - csharp
+  - vb
+  name: X3
+  nameWithType: RotationVector3.X3
+  fullName: Engine.Core.Maths.RotationVector3.X3
+  type: Property
+  source:
+    id: X3
+    path: ''
+    startLine: 3769
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  summary: "\nX3 in RAD\n"
+  example: []
+  syntax:
+    content: public float X3 { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property X3 As Single
+  overload: Engine.Core.Maths.RotationVector3.X3*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Maths.RotationVector3.#ctor(System.Single,System.Single,System.Single,Engine.Core.Maths.RotationMeasure)
+  commentId: M:Engine.Core.Maths.RotationVector3.#ctor(System.Single,System.Single,System.Single,Engine.Core.Maths.RotationMeasure)
+  id: '#ctor(System.Single,System.Single,System.Single,Engine.Core.Maths.RotationMeasure)'
+  parent: Engine.Core.Maths.RotationVector3
+  langs:
+  - csharp
+  - vb
+  name: RotationVector3(Single, Single, Single, RotationMeasure)
+  nameWithType: RotationVector3.RotationVector3(Single, Single, Single, RotationMeasure)
+  fullName: Engine.Core.Maths.RotationVector3.RotationVector3(System.Single, System.Single, System.Single, Engine.Core.Maths.RotationMeasure)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 3775
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public RotationVector3(float x1, float x2, float x3, RotationMeasure measure)
+    parameters:
+    - id: x1
+      type: System.Single
+    - id: x2
+      type: System.Single
+    - id: x3
+      type: System.Single
+    - id: measure
+      type: Engine.Core.Maths.RotationMeasure
+    content.vb: Public Sub New(x1 As Single, x2 As Single, x3 As Single, measure As RotationMeasure)
+  overload: Engine.Core.Maths.RotationVector3.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Maths.RotationVector3.GetDegreeRotation
+  commentId: M:Engine.Core.Maths.RotationVector3.GetDegreeRotation
+  id: GetDegreeRotation
+  parent: Engine.Core.Maths.RotationVector3
+  langs:
+  - csharp
+  - vb
+  name: GetDegreeRotation()
+  nameWithType: RotationVector3.GetDegreeRotation()
+  fullName: Engine.Core.Maths.RotationVector3.GetDegreeRotation()
+  type: Method
+  source:
+    id: GetDegreeRotation
+    path: ''
+    startLine: 3780
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public Vector3 GetDegreeRotation()
+    return:
+      type: Engine.Core.Maths.Vector3
+    content.vb: Public Function GetDegreeRotation As Vector3
+  overload: Engine.Core.Maths.RotationVector3.GetDegreeRotation*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Maths.RotationVector3.SetRotation(System.Single,Engine.Core.Maths.Axis,Engine.Core.Maths.RotationMeasure)
+  commentId: M:Engine.Core.Maths.RotationVector3.SetRotation(System.Single,Engine.Core.Maths.Axis,Engine.Core.Maths.RotationMeasure)
+  id: SetRotation(System.Single,Engine.Core.Maths.Axis,Engine.Core.Maths.RotationMeasure)
+  parent: Engine.Core.Maths.RotationVector3
+  langs:
+  - csharp
+  - vb
+  name: SetRotation(Single, Axis, RotationMeasure)
+  nameWithType: RotationVector3.SetRotation(Single, Axis, RotationMeasure)
+  fullName: Engine.Core.Maths.RotationVector3.SetRotation(System.Single, Engine.Core.Maths.Axis, Engine.Core.Maths.RotationMeasure)
+  type: Method
+  source:
+    id: SetRotation
+    path: ''
+    startLine: 3785
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public void SetRotation(float f, Axis axis, RotationMeasure measure)
+    parameters:
+    - id: f
+      type: System.Single
+    - id: axis
+      type: Engine.Core.Maths.Axis
+    - id: measure
+      type: Engine.Core.Maths.RotationMeasure
+    content.vb: Public Sub SetRotation(f As Single, axis As Axis, measure As RotationMeasure)
+  overload: Engine.Core.Maths.RotationVector3.SetRotation*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Maths.RotationVector3.SetRotation(System.Single,System.Single,System.Single,Engine.Core.Maths.RotationMeasure)
+  commentId: M:Engine.Core.Maths.RotationVector3.SetRotation(System.Single,System.Single,System.Single,Engine.Core.Maths.RotationMeasure)
+  id: SetRotation(System.Single,System.Single,System.Single,Engine.Core.Maths.RotationMeasure)
+  parent: Engine.Core.Maths.RotationVector3
+  langs:
+  - csharp
+  - vb
+  name: SetRotation(Single, Single, Single, RotationMeasure)
+  nameWithType: RotationVector3.SetRotation(Single, Single, Single, RotationMeasure)
+  fullName: Engine.Core.Maths.RotationVector3.SetRotation(System.Single, System.Single, System.Single, Engine.Core.Maths.RotationMeasure)
+  type: Method
+  source:
+    id: SetRotation
+    path: ''
+    startLine: 3811
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public void SetRotation(float x1, float x2, float x3, RotationMeasure measure)
+    parameters:
+    - id: x1
+      type: System.Single
+    - id: x2
+      type: System.Single
+    - id: x3
+      type: System.Single
+    - id: measure
+      type: Engine.Core.Maths.RotationMeasure
+    content.vb: Public Sub SetRotation(x1 As Single, x2 As Single, x3 As Single, measure As RotationMeasure)
+  overload: Engine.Core.Maths.RotationVector3.SetRotation*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Maths.RotationVector3.op_Addition(Engine.Core.Maths.RotationVector3,Engine.Core.Maths.RotationVector3)
+  commentId: M:Engine.Core.Maths.RotationVector3.op_Addition(Engine.Core.Maths.RotationVector3,Engine.Core.Maths.RotationVector3)
+  id: op_Addition(Engine.Core.Maths.RotationVector3,Engine.Core.Maths.RotationVector3)
+  parent: Engine.Core.Maths.RotationVector3
+  langs:
+  - csharp
+  - vb
+  name: Addition(RotationVector3, RotationVector3)
+  nameWithType: RotationVector3.Addition(RotationVector3, RotationVector3)
+  fullName: Engine.Core.Maths.RotationVector3.Addition(Engine.Core.Maths.RotationVector3, Engine.Core.Maths.RotationVector3)
+  type: Operator
+  source:
+    id: op_Addition
+    path: ''
+    startLine: 3828
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static RotationVector3 operator +(RotationVector3 v1, RotationVector3 v2)
+    parameters:
+    - id: v1
+      type: Engine.Core.Maths.RotationVector3
+    - id: v2
+      type: Engine.Core.Maths.RotationVector3
+    return:
+      type: Engine.Core.Maths.RotationVector3
+    content.vb: Public Shared Operator +(v1 As RotationVector3, v2 As RotationVector3) As RotationVector3
+  overload: Engine.Core.Maths.RotationVector3.op_Addition*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Engine.Core.Maths.RotationVector3.op_Implicit(Engine.Core.Maths.RotationVector3)~Engine.Core.Maths.RotationMatrix3x3
+  commentId: M:Engine.Core.Maths.RotationVector3.op_Implicit(Engine.Core.Maths.RotationVector3)~Engine.Core.Maths.RotationMatrix3x3
+  id: op_Implicit(Engine.Core.Maths.RotationVector3)~Engine.Core.Maths.RotationMatrix3x3
+  parent: Engine.Core.Maths.RotationVector3
+  langs:
+  - csharp
+  - vb
+  name: Implicit(RotationVector3 to RotationMatrix3x3)
+  nameWithType: RotationVector3.Implicit(RotationVector3 to RotationMatrix3x3)
+  fullName: Engine.Core.Maths.RotationVector3.Implicit(Engine.Core.Maths.RotationVector3 to Engine.Core.Maths.RotationMatrix3x3)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: ''
+    startLine: 3836
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  summary: "\nCreates a <xref href=\"Engine.Core.Maths.RotationMatrix3x3\" data-throw-if-not-resolved=\"false\"></xref> if the given vector using the X1X2X3 convention.\n"
+  example: []
+  syntax:
+    content: public static implicit operator RotationMatrix3x3(RotationVector3 v)
+    parameters:
+    - id: v
+      type: Engine.Core.Maths.RotationVector3
+      description: ''
+    return:
+      type: Engine.Core.Maths.RotationMatrix3x3
+    content.vb: Public Shared Widening Operator CType(v As RotationVector3) As RotationMatrix3x3
+  overload: Engine.Core.Maths.RotationVector3.op_Implicit*
+  nameWithType.vb: RotationVector3.Widening(RotationVector3 to RotationMatrix3x3)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Engine.Core.Maths.RotationVector3.Widening(Engine.Core.Maths.RotationVector3 to Engine.Core.Maths.RotationMatrix3x3)
+  name.vb: Widening(RotationVector3 to RotationMatrix3x3)
+- uid: Engine.Core.Maths.RotationVector3.op_Implicit(Engine.Core.Maths.RotationVector3)~Engine.Core.Maths.MatrixMxN
+  commentId: M:Engine.Core.Maths.RotationVector3.op_Implicit(Engine.Core.Maths.RotationVector3)~Engine.Core.Maths.MatrixMxN
+  id: op_Implicit(Engine.Core.Maths.RotationVector3)~Engine.Core.Maths.MatrixMxN
+  parent: Engine.Core.Maths.RotationVector3
+  langs:
+  - csharp
+  - vb
+  name: Implicit(RotationVector3 to MatrixMxN)
+  nameWithType: RotationVector3.Implicit(RotationVector3 to MatrixMxN)
+  fullName: Engine.Core.Maths.RotationVector3.Implicit(Engine.Core.Maths.RotationVector3 to Engine.Core.Maths.MatrixMxN)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: ''
+    startLine: 3840
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static implicit operator MatrixMxN(RotationVector3 v)
+    parameters:
+    - id: v
+      type: Engine.Core.Maths.RotationVector3
+    return:
+      type: Engine.Core.Maths.MatrixMxN
+    content.vb: Public Shared Widening Operator CType(v As RotationVector3) As MatrixMxN
+  overload: Engine.Core.Maths.RotationVector3.op_Implicit*
+  nameWithType.vb: RotationVector3.Widening(RotationVector3 to MatrixMxN)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Engine.Core.Maths.RotationVector3.Widening(Engine.Core.Maths.RotationVector3 to Engine.Core.Maths.MatrixMxN)
+  name.vb: Widening(RotationVector3 to MatrixMxN)
+references:
+- uid: Engine.Core.Maths
+  commentId: N:Engine.Core.Maths
+  name: Engine.Core.Maths
+  nameWithType: Engine.Core.Maths
+  fullName: Engine.Core.Maths
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Engine.Core.Maths.Vector3
+  commentId: T:Engine.Core.Maths.Vector3
+  parent: Engine.Core.Maths
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Engine.Core.Maths.Vector3
+- uid: Engine.Core.Maths.Vector3.Zero
+  commentId: F:Engine.Core.Maths.Vector3.Zero
+  parent: Engine.Core.Maths.Vector3
+  name: Zero
+  nameWithType: Vector3.Zero
+  fullName: Engine.Core.Maths.Vector3.Zero
+- uid: Engine.Core.Maths.Vector3.One
+  commentId: F:Engine.Core.Maths.Vector3.One
+  parent: Engine.Core.Maths.Vector3
+  name: One
+  nameWithType: Vector3.One
+  fullName: Engine.Core.Maths.Vector3.One
+- uid: Engine.Core.Maths.Vector3.Length
+  commentId: P:Engine.Core.Maths.Vector3.Length
+  parent: Engine.Core.Maths.Vector3
+  name: Length
+  nameWithType: Vector3.Length
+  fullName: Engine.Core.Maths.Vector3.Length
+- uid: Engine.Core.Maths.Vector3.LengthSquared
+  commentId: P:Engine.Core.Maths.Vector3.LengthSquared
+  parent: Engine.Core.Maths.Vector3
+  name: LengthSquared
+  nameWithType: Vector3.LengthSquared
+  fullName: Engine.Core.Maths.Vector3.LengthSquared
+- uid: Engine.Core.Maths.Vector3.Normalized
+  commentId: P:Engine.Core.Maths.Vector3.Normalized
+  parent: Engine.Core.Maths.Vector3
+  name: Normalized
+  nameWithType: Vector3.Normalized
+  fullName: Engine.Core.Maths.Vector3.Normalized
+- uid: Engine.Core.Maths.Vector3.Dimension
+  commentId: P:Engine.Core.Maths.Vector3.Dimension
+  parent: Engine.Core.Maths.Vector3
+  name: Dimension
+  nameWithType: Vector3.Dimension
+  fullName: Engine.Core.Maths.Vector3.Dimension
+- uid: Engine.Core.Maths.Vector3.Item(System.Int32)
+  commentId: P:Engine.Core.Maths.Vector3.Item(System.Int32)
+  parent: Engine.Core.Maths.Vector3
+  isExternal: true
+  name: Item[Int32]
+  nameWithType: Vector3.Item[Int32]
+  fullName: Engine.Core.Maths.Vector3.Item[System.Int32]
+  nameWithType.vb: Vector3.Item(Int32)
+  fullName.vb: Engine.Core.Maths.Vector3.Item(System.Int32)
+  name.vb: Item(Int32)
+  spec.csharp:
+  - uid: Engine.Core.Maths.Vector3.Item(System.Int32)
+    name: Item
+    nameWithType: Vector3.Item
+    fullName: Engine.Core.Maths.Vector3.Item
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: Engine.Core.Maths.Vector3.Item(System.Int32)
+    name: Item
+    nameWithType: Vector3.Item
+    fullName: Engine.Core.Maths.Vector3.Item
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Engine.Core.Maths.Vector3.ToMatrix(Engine.Core.Maths.Vector3,System.Boolean)
+  commentId: M:Engine.Core.Maths.Vector3.ToMatrix(Engine.Core.Maths.Vector3,System.Boolean)
+  parent: Engine.Core.Maths.Vector3
+  isExternal: true
+  name: ToMatrix(Vector3, Boolean)
+  nameWithType: Vector3.ToMatrix(Vector3, Boolean)
+  fullName: Engine.Core.Maths.Vector3.ToMatrix(Engine.Core.Maths.Vector3, System.Boolean)
+  spec.csharp:
+  - uid: Engine.Core.Maths.Vector3.ToMatrix(Engine.Core.Maths.Vector3,System.Boolean)
+    name: ToMatrix
+    nameWithType: Vector3.ToMatrix
+    fullName: Engine.Core.Maths.Vector3.ToMatrix
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Engine.Core.Maths.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Engine.Core.Maths.Vector3
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Engine.Core.Maths.Vector3.ToMatrix(Engine.Core.Maths.Vector3,System.Boolean)
+    name: ToMatrix
+    nameWithType: Vector3.ToMatrix
+    fullName: Engine.Core.Maths.Vector3.ToMatrix
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Engine.Core.Maths.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Engine.Core.Maths.Vector3
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Engine.Core.Maths.Vector3.CrossProduct(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3)
+  commentId: M:Engine.Core.Maths.Vector3.CrossProduct(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3)
+  parent: Engine.Core.Maths.Vector3
+  name: CrossProduct(Vector3, Vector3)
+  nameWithType: Vector3.CrossProduct(Vector3, Vector3)
+  fullName: Engine.Core.Maths.Vector3.CrossProduct(Engine.Core.Maths.Vector3, Engine.Core.Maths.Vector3)
+  spec.csharp:
+  - uid: Engine.Core.Maths.Vector3.CrossProduct(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3)
+    name: CrossProduct
+    nameWithType: Vector3.CrossProduct
+    fullName: Engine.Core.Maths.Vector3.CrossProduct
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Engine.Core.Maths.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Engine.Core.Maths.Vector3
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Engine.Core.Maths.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Engine.Core.Maths.Vector3
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Engine.Core.Maths.Vector3.CrossProduct(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3)
+    name: CrossProduct
+    nameWithType: Vector3.CrossProduct
+    fullName: Engine.Core.Maths.Vector3.CrossProduct
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Engine.Core.Maths.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Engine.Core.Maths.Vector3
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Engine.Core.Maths.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Engine.Core.Maths.Vector3
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Engine.Core.Maths.Vector3.DotProduct(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3)
+  commentId: M:Engine.Core.Maths.Vector3.DotProduct(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3)
+  parent: Engine.Core.Maths.Vector3
+  name: DotProduct(Vector3, Vector3)
+  nameWithType: Vector3.DotProduct(Vector3, Vector3)
+  fullName: Engine.Core.Maths.Vector3.DotProduct(Engine.Core.Maths.Vector3, Engine.Core.Maths.Vector3)
+  spec.csharp:
+  - uid: Engine.Core.Maths.Vector3.DotProduct(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3)
+    name: DotProduct
+    nameWithType: Vector3.DotProduct
+    fullName: Engine.Core.Maths.Vector3.DotProduct
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Engine.Core.Maths.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Engine.Core.Maths.Vector3
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Engine.Core.Maths.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Engine.Core.Maths.Vector3
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Engine.Core.Maths.Vector3.DotProduct(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3)
+    name: DotProduct
+    nameWithType: Vector3.DotProduct
+    fullName: Engine.Core.Maths.Vector3.DotProduct
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Engine.Core.Maths.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Engine.Core.Maths.Vector3
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Engine.Core.Maths.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Engine.Core.Maths.Vector3
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Engine.Core.Maths.Vector3.Normalize(Engine.Core.Maths.Vector3)
+  commentId: M:Engine.Core.Maths.Vector3.Normalize(Engine.Core.Maths.Vector3)
+  parent: Engine.Core.Maths.Vector3
+  name: Normalize(Vector3)
+  nameWithType: Vector3.Normalize(Vector3)
+  fullName: Engine.Core.Maths.Vector3.Normalize(Engine.Core.Maths.Vector3)
+  spec.csharp:
+  - uid: Engine.Core.Maths.Vector3.Normalize(Engine.Core.Maths.Vector3)
+    name: Normalize
+    nameWithType: Vector3.Normalize
+    fullName: Engine.Core.Maths.Vector3.Normalize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Engine.Core.Maths.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Engine.Core.Maths.Vector3
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Engine.Core.Maths.Vector3.Normalize(Engine.Core.Maths.Vector3)
+    name: Normalize
+    nameWithType: Vector3.Normalize
+    fullName: Engine.Core.Maths.Vector3.Normalize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Engine.Core.Maths.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Engine.Core.Maths.Vector3
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Engine.Core.Maths.Vector3.GetLength(Engine.Core.Maths.Vector3)
+  commentId: M:Engine.Core.Maths.Vector3.GetLength(Engine.Core.Maths.Vector3)
+  parent: Engine.Core.Maths.Vector3
+  name: GetLength(Vector3)
+  nameWithType: Vector3.GetLength(Vector3)
+  fullName: Engine.Core.Maths.Vector3.GetLength(Engine.Core.Maths.Vector3)
+  spec.csharp:
+  - uid: Engine.Core.Maths.Vector3.GetLength(Engine.Core.Maths.Vector3)
+    name: GetLength
+    nameWithType: Vector3.GetLength
+    fullName: Engine.Core.Maths.Vector3.GetLength
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Engine.Core.Maths.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Engine.Core.Maths.Vector3
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Engine.Core.Maths.Vector3.GetLength(Engine.Core.Maths.Vector3)
+    name: GetLength
+    nameWithType: Vector3.GetLength
+    fullName: Engine.Core.Maths.Vector3.GetLength
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Engine.Core.Maths.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Engine.Core.Maths.Vector3
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Engine.Core.Maths.Vector3.AngleBetween(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3)
+  commentId: M:Engine.Core.Maths.Vector3.AngleBetween(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3)
+  parent: Engine.Core.Maths.Vector3
+  name: AngleBetween(Vector3, Vector3)
+  nameWithType: Vector3.AngleBetween(Vector3, Vector3)
+  fullName: Engine.Core.Maths.Vector3.AngleBetween(Engine.Core.Maths.Vector3, Engine.Core.Maths.Vector3)
+  spec.csharp:
+  - uid: Engine.Core.Maths.Vector3.AngleBetween(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3)
+    name: AngleBetween
+    nameWithType: Vector3.AngleBetween
+    fullName: Engine.Core.Maths.Vector3.AngleBetween
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Engine.Core.Maths.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Engine.Core.Maths.Vector3
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Engine.Core.Maths.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Engine.Core.Maths.Vector3
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Engine.Core.Maths.Vector3.AngleBetween(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3)
+    name: AngleBetween
+    nameWithType: Vector3.AngleBetween
+    fullName: Engine.Core.Maths.Vector3.AngleBetween
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Engine.Core.Maths.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Engine.Core.Maths.Vector3
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Engine.Core.Maths.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Engine.Core.Maths.Vector3
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Engine.Core.Maths.Vector3.OrthogonalityCheck(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3)
+  commentId: M:Engine.Core.Maths.Vector3.OrthogonalityCheck(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3)
+  parent: Engine.Core.Maths.Vector3
+  name: OrthogonalityCheck(Vector3, Vector3)
+  nameWithType: Vector3.OrthogonalityCheck(Vector3, Vector3)
+  fullName: Engine.Core.Maths.Vector3.OrthogonalityCheck(Engine.Core.Maths.Vector3, Engine.Core.Maths.Vector3)
+  spec.csharp:
+  - uid: Engine.Core.Maths.Vector3.OrthogonalityCheck(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3)
+    name: OrthogonalityCheck
+    nameWithType: Vector3.OrthogonalityCheck
+    fullName: Engine.Core.Maths.Vector3.OrthogonalityCheck
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Engine.Core.Maths.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Engine.Core.Maths.Vector3
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Engine.Core.Maths.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Engine.Core.Maths.Vector3
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Engine.Core.Maths.Vector3.OrthogonalityCheck(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3)
+    name: OrthogonalityCheck
+    nameWithType: Vector3.OrthogonalityCheck
+    fullName: Engine.Core.Maths.Vector3.OrthogonalityCheck
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Engine.Core.Maths.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Engine.Core.Maths.Vector3
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Engine.Core.Maths.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Engine.Core.Maths.Vector3
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Engine.Core.Maths.Vector3.Normalize
+  commentId: M:Engine.Core.Maths.Vector3.Normalize
+  parent: Engine.Core.Maths.Vector3
+  name: Normalize()
+  nameWithType: Vector3.Normalize()
+  fullName: Engine.Core.Maths.Vector3.Normalize()
+  spec.csharp:
+  - uid: Engine.Core.Maths.Vector3.Normalize
+    name: Normalize
+    nameWithType: Vector3.Normalize
+    fullName: Engine.Core.Maths.Vector3.Normalize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Engine.Core.Maths.Vector3.Normalize
+    name: Normalize
+    nameWithType: Vector3.Normalize
+    fullName: Engine.Core.Maths.Vector3.Normalize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Engine.Core.Maths.Vector3.GetLength
+  commentId: M:Engine.Core.Maths.Vector3.GetLength
+  parent: Engine.Core.Maths.Vector3
+  name: GetLength()
+  nameWithType: Vector3.GetLength()
+  fullName: Engine.Core.Maths.Vector3.GetLength()
+  spec.csharp:
+  - uid: Engine.Core.Maths.Vector3.GetLength
+    name: GetLength
+    nameWithType: Vector3.GetLength
+    fullName: Engine.Core.Maths.Vector3.GetLength
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Engine.Core.Maths.Vector3.GetLength
+    name: GetLength
+    nameWithType: Vector3.GetLength
+    fullName: Engine.Core.Maths.Vector3.GetLength
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Engine.Core.Maths.Vector3.CrossProduct(Engine.Core.Maths.Vector3)
+  commentId: M:Engine.Core.Maths.Vector3.CrossProduct(Engine.Core.Maths.Vector3)
+  parent: Engine.Core.Maths.Vector3
+  name: CrossProduct(Vector3)
+  nameWithType: Vector3.CrossProduct(Vector3)
+  fullName: Engine.Core.Maths.Vector3.CrossProduct(Engine.Core.Maths.Vector3)
+  spec.csharp:
+  - uid: Engine.Core.Maths.Vector3.CrossProduct(Engine.Core.Maths.Vector3)
+    name: CrossProduct
+    nameWithType: Vector3.CrossProduct
+    fullName: Engine.Core.Maths.Vector3.CrossProduct
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Engine.Core.Maths.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Engine.Core.Maths.Vector3
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Engine.Core.Maths.Vector3.CrossProduct(Engine.Core.Maths.Vector3)
+    name: CrossProduct
+    nameWithType: Vector3.CrossProduct
+    fullName: Engine.Core.Maths.Vector3.CrossProduct
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Engine.Core.Maths.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Engine.Core.Maths.Vector3
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Engine.Core.Maths.Vector3.DotProduct(Engine.Core.Maths.Vector3)
+  commentId: M:Engine.Core.Maths.Vector3.DotProduct(Engine.Core.Maths.Vector3)
+  parent: Engine.Core.Maths.Vector3
+  name: DotProduct(Vector3)
+  nameWithType: Vector3.DotProduct(Vector3)
+  fullName: Engine.Core.Maths.Vector3.DotProduct(Engine.Core.Maths.Vector3)
+  spec.csharp:
+  - uid: Engine.Core.Maths.Vector3.DotProduct(Engine.Core.Maths.Vector3)
+    name: DotProduct
+    nameWithType: Vector3.DotProduct
+    fullName: Engine.Core.Maths.Vector3.DotProduct
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Engine.Core.Maths.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Engine.Core.Maths.Vector3
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Engine.Core.Maths.Vector3.DotProduct(Engine.Core.Maths.Vector3)
+    name: DotProduct
+    nameWithType: Vector3.DotProduct
+    fullName: Engine.Core.Maths.Vector3.DotProduct
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Engine.Core.Maths.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Engine.Core.Maths.Vector3
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Engine.Core.Maths.Vector3.ScalarProduct(System.Single)
+  commentId: M:Engine.Core.Maths.Vector3.ScalarProduct(System.Single)
+  parent: Engine.Core.Maths.Vector3
+  isExternal: true
+  name: ScalarProduct(Single)
+  nameWithType: Vector3.ScalarProduct(Single)
+  fullName: Engine.Core.Maths.Vector3.ScalarProduct(System.Single)
+  spec.csharp:
+  - uid: Engine.Core.Maths.Vector3.ScalarProduct(System.Single)
+    name: ScalarProduct
+    nameWithType: Vector3.ScalarProduct
+    fullName: Engine.Core.Maths.Vector3.ScalarProduct
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Engine.Core.Maths.Vector3.ScalarProduct(System.Single)
+    name: ScalarProduct
+    nameWithType: Vector3.ScalarProduct
+    fullName: Engine.Core.Maths.Vector3.ScalarProduct
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Engine.Core.Maths.Vector3.Addition(Engine.Core.Maths.Vector3)
+  commentId: M:Engine.Core.Maths.Vector3.Addition(Engine.Core.Maths.Vector3)
+  parent: Engine.Core.Maths.Vector3
+  name: Addition(Vector3)
+  nameWithType: Vector3.Addition(Vector3)
+  fullName: Engine.Core.Maths.Vector3.Addition(Engine.Core.Maths.Vector3)
+  spec.csharp:
+  - uid: Engine.Core.Maths.Vector3.Addition(Engine.Core.Maths.Vector3)
+    name: Addition
+    nameWithType: Vector3.Addition
+    fullName: Engine.Core.Maths.Vector3.Addition
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Engine.Core.Maths.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Engine.Core.Maths.Vector3
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Engine.Core.Maths.Vector3.Addition(Engine.Core.Maths.Vector3)
+    name: Addition
+    nameWithType: Vector3.Addition
+    fullName: Engine.Core.Maths.Vector3.Addition
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Engine.Core.Maths.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Engine.Core.Maths.Vector3
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Engine.Core.Maths.Vector3.Substraction(Engine.Core.Maths.Vector3)
+  commentId: M:Engine.Core.Maths.Vector3.Substraction(Engine.Core.Maths.Vector3)
+  parent: Engine.Core.Maths.Vector3
+  name: Substraction(Vector3)
+  nameWithType: Vector3.Substraction(Vector3)
+  fullName: Engine.Core.Maths.Vector3.Substraction(Engine.Core.Maths.Vector3)
+  spec.csharp:
+  - uid: Engine.Core.Maths.Vector3.Substraction(Engine.Core.Maths.Vector3)
+    name: Substraction
+    nameWithType: Vector3.Substraction
+    fullName: Engine.Core.Maths.Vector3.Substraction
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Engine.Core.Maths.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Engine.Core.Maths.Vector3
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Engine.Core.Maths.Vector3.Substraction(Engine.Core.Maths.Vector3)
+    name: Substraction
+    nameWithType: Vector3.Substraction
+    fullName: Engine.Core.Maths.Vector3.Substraction
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Engine.Core.Maths.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Engine.Core.Maths.Vector3
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Engine.Core.Maths.Vector3.Division(System.Single)
+  commentId: M:Engine.Core.Maths.Vector3.Division(System.Single)
+  parent: Engine.Core.Maths.Vector3
+  isExternal: true
+  name: Division(Single)
+  nameWithType: Vector3.Division(Single)
+  fullName: Engine.Core.Maths.Vector3.Division(System.Single)
+  spec.csharp:
+  - uid: Engine.Core.Maths.Vector3.Division(System.Single)
+    name: Division
+    nameWithType: Vector3.Division
+    fullName: Engine.Core.Maths.Vector3.Division
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Engine.Core.Maths.Vector3.Division(System.Single)
+    name: Division
+    nameWithType: Vector3.Division
+    fullName: Engine.Core.Maths.Vector3.Division
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Engine.Core.Maths.Vector3.IsPerpendicularTo(Engine.Core.Maths.Vector3)
+  commentId: M:Engine.Core.Maths.Vector3.IsPerpendicularTo(Engine.Core.Maths.Vector3)
+  parent: Engine.Core.Maths.Vector3
+  name: IsPerpendicularTo(Vector3)
+  nameWithType: Vector3.IsPerpendicularTo(Vector3)
+  fullName: Engine.Core.Maths.Vector3.IsPerpendicularTo(Engine.Core.Maths.Vector3)
+  spec.csharp:
+  - uid: Engine.Core.Maths.Vector3.IsPerpendicularTo(Engine.Core.Maths.Vector3)
+    name: IsPerpendicularTo
+    nameWithType: Vector3.IsPerpendicularTo
+    fullName: Engine.Core.Maths.Vector3.IsPerpendicularTo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Engine.Core.Maths.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Engine.Core.Maths.Vector3
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Engine.Core.Maths.Vector3.IsPerpendicularTo(Engine.Core.Maths.Vector3)
+    name: IsPerpendicularTo
+    nameWithType: Vector3.IsPerpendicularTo
+    fullName: Engine.Core.Maths.Vector3.IsPerpendicularTo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Engine.Core.Maths.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Engine.Core.Maths.Vector3
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Engine.Core.Maths.Vector3.GetNormalVector(System.Int32)
+  commentId: M:Engine.Core.Maths.Vector3.GetNormalVector(System.Int32)
+  parent: Engine.Core.Maths.Vector3
+  isExternal: true
+  name: GetNormalVector(Int32)
+  nameWithType: Vector3.GetNormalVector(Int32)
+  fullName: Engine.Core.Maths.Vector3.GetNormalVector(System.Int32)
+  spec.csharp:
+  - uid: Engine.Core.Maths.Vector3.GetNormalVector(System.Int32)
+    name: GetNormalVector
+    nameWithType: Vector3.GetNormalVector
+    fullName: Engine.Core.Maths.Vector3.GetNormalVector
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Engine.Core.Maths.Vector3.GetNormalVector(System.Int32)
+    name: GetNormalVector
+    nameWithType: Vector3.GetNormalVector
+    fullName: Engine.Core.Maths.Vector3.GetNormalVector
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Engine.Core.Maths.Vector3.IsZero
+  commentId: M:Engine.Core.Maths.Vector3.IsZero
+  parent: Engine.Core.Maths.Vector3
+  name: IsZero()
+  nameWithType: Vector3.IsZero()
+  fullName: Engine.Core.Maths.Vector3.IsZero()
+  spec.csharp:
+  - uid: Engine.Core.Maths.Vector3.IsZero
+    name: IsZero
+    nameWithType: Vector3.IsZero
+    fullName: Engine.Core.Maths.Vector3.IsZero
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Engine.Core.Maths.Vector3.IsZero
+    name: IsZero
+    nameWithType: Vector3.IsZero
+    fullName: Engine.Core.Maths.Vector3.IsZero
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Engine.Core.Maths.Vector3.ToMatrix(System.Boolean)
+  commentId: M:Engine.Core.Maths.Vector3.ToMatrix(System.Boolean)
+  parent: Engine.Core.Maths.Vector3
+  isExternal: true
+  name: ToMatrix(Boolean)
+  nameWithType: Vector3.ToMatrix(Boolean)
+  fullName: Engine.Core.Maths.Vector3.ToMatrix(System.Boolean)
+  spec.csharp:
+  - uid: Engine.Core.Maths.Vector3.ToMatrix(System.Boolean)
+    name: ToMatrix
+    nameWithType: Vector3.ToMatrix
+    fullName: Engine.Core.Maths.Vector3.ToMatrix
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Engine.Core.Maths.Vector3.ToMatrix(System.Boolean)
+    name: ToMatrix
+    nameWithType: Vector3.ToMatrix
+    fullName: Engine.Core.Maths.Vector3.ToMatrix
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Engine.Core.Maths.Vector3.Project(Engine.Core.Maths.Vector3)
+  commentId: M:Engine.Core.Maths.Vector3.Project(Engine.Core.Maths.Vector3)
+  parent: Engine.Core.Maths.Vector3
+  name: Project(Vector3)
+  nameWithType: Vector3.Project(Vector3)
+  fullName: Engine.Core.Maths.Vector3.Project(Engine.Core.Maths.Vector3)
+  spec.csharp:
+  - uid: Engine.Core.Maths.Vector3.Project(Engine.Core.Maths.Vector3)
+    name: Project
+    nameWithType: Vector3.Project
+    fullName: Engine.Core.Maths.Vector3.Project
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Engine.Core.Maths.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Engine.Core.Maths.Vector3
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Engine.Core.Maths.Vector3.Project(Engine.Core.Maths.Vector3)
+    name: Project
+    nameWithType: Vector3.Project
+    fullName: Engine.Core.Maths.Vector3.Project
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Engine.Core.Maths.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Engine.Core.Maths.Vector3
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Engine.Core.Maths.Vector3.Project(Engine.Core.Maths.Plane)
+  commentId: M:Engine.Core.Maths.Vector3.Project(Engine.Core.Maths.Plane)
+  parent: Engine.Core.Maths.Vector3
+  name: Project(Plane)
+  nameWithType: Vector3.Project(Plane)
+  fullName: Engine.Core.Maths.Vector3.Project(Engine.Core.Maths.Plane)
+  spec.csharp:
+  - uid: Engine.Core.Maths.Vector3.Project(Engine.Core.Maths.Plane)
+    name: Project
+    nameWithType: Vector3.Project
+    fullName: Engine.Core.Maths.Vector3.Project
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Engine.Core.Maths.Plane
+    name: Plane
+    nameWithType: Plane
+    fullName: Engine.Core.Maths.Plane
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Engine.Core.Maths.Vector3.Project(Engine.Core.Maths.Plane)
+    name: Project
+    nameWithType: Vector3.Project
+    fullName: Engine.Core.Maths.Vector3.Project
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Engine.Core.Maths.Plane
+    name: Plane
+    nameWithType: Plane
+    fullName: Engine.Core.Maths.Plane
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Engine.Core.Maths.RotationVector3.X1*
+  commentId: Overload:Engine.Core.Maths.RotationVector3.X1
+  name: X1
+  nameWithType: RotationVector3.X1
+  fullName: Engine.Core.Maths.RotationVector3.X1
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Engine.Core.Maths.RotationVector3.X2*
+  commentId: Overload:Engine.Core.Maths.RotationVector3.X2
+  name: X2
+  nameWithType: RotationVector3.X2
+  fullName: Engine.Core.Maths.RotationVector3.X2
+- uid: Engine.Core.Maths.RotationVector3.X3*
+  commentId: Overload:Engine.Core.Maths.RotationVector3.X3
+  name: X3
+  nameWithType: RotationVector3.X3
+  fullName: Engine.Core.Maths.RotationVector3.X3
+- uid: Engine.Core.Maths.RotationVector3.#ctor*
+  commentId: Overload:Engine.Core.Maths.RotationVector3.#ctor
+  name: RotationVector3
+  nameWithType: RotationVector3.RotationVector3
+  fullName: Engine.Core.Maths.RotationVector3.RotationVector3
+- uid: Engine.Core.Maths.RotationMeasure
+  commentId: T:Engine.Core.Maths.RotationMeasure
+  parent: Engine.Core.Maths
+  name: RotationMeasure
+  nameWithType: RotationMeasure
+  fullName: Engine.Core.Maths.RotationMeasure
+- uid: Engine.Core.Maths.RotationVector3.GetDegreeRotation*
+  commentId: Overload:Engine.Core.Maths.RotationVector3.GetDegreeRotation
+  name: GetDegreeRotation
+  nameWithType: RotationVector3.GetDegreeRotation
+  fullName: Engine.Core.Maths.RotationVector3.GetDegreeRotation
+- uid: Engine.Core.Maths.RotationVector3.SetRotation*
+  commentId: Overload:Engine.Core.Maths.RotationVector3.SetRotation
+  name: SetRotation
+  nameWithType: RotationVector3.SetRotation
+  fullName: Engine.Core.Maths.RotationVector3.SetRotation
+- uid: Engine.Core.Maths.Axis
+  commentId: T:Engine.Core.Maths.Axis
+  parent: Engine.Core.Maths
+  name: Axis
+  nameWithType: Axis
+  fullName: Engine.Core.Maths.Axis
+- uid: Engine.Core.Maths.RotationVector3.op_Addition*
+  commentId: Overload:Engine.Core.Maths.RotationVector3.op_Addition
+  name: Addition
+  nameWithType: RotationVector3.Addition
+  fullName: Engine.Core.Maths.RotationVector3.Addition
+- uid: Engine.Core.Maths.RotationVector3
+  commentId: T:Engine.Core.Maths.RotationVector3
+  parent: Engine.Core.Maths
+  name: RotationVector3
+  nameWithType: RotationVector3
+  fullName: Engine.Core.Maths.RotationVector3
+- uid: Engine.Core.Maths.RotationMatrix3x3
+  commentId: T:Engine.Core.Maths.RotationMatrix3x3
+  parent: Engine.Core.Maths
+  name: RotationMatrix3x3
+  nameWithType: RotationMatrix3x3
+  fullName: Engine.Core.Maths.RotationMatrix3x3
+- uid: Engine.Core.Maths.RotationVector3.op_Implicit*
+  commentId: Overload:Engine.Core.Maths.RotationVector3.op_Implicit
+  name: Implicit
+  nameWithType: RotationVector3.Implicit
+  fullName: Engine.Core.Maths.RotationVector3.Implicit
+  nameWithType.vb: RotationVector3.Widening
+  fullName.vb: Engine.Core.Maths.RotationVector3.Widening
+  name.vb: Widening
+- uid: Engine.Core.Maths.MatrixMxN
+  commentId: T:Engine.Core.Maths.MatrixMxN
+  parent: Engine.Core.Maths
+  name: MatrixMxN
+  nameWithType: MatrixMxN
+  fullName: Engine.Core.Maths.MatrixMxN

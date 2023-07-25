@@ -9,6 +9,7 @@ items:
   - Engine.Rendering.RenderImage
   - Engine.Rendering.RenderingConstants
   - Engine.Rendering.RenderPoint
+  - Engine.Rendering.RenderTexture
   langs:
   - csharp
   - vb
@@ -45,6 +46,11 @@ references:
   name: RenderPoint
   nameWithType: RenderPoint
   fullName: Engine.Rendering.RenderPoint
+- uid: Engine.Rendering.RenderTexture
+  commentId: T:Engine.Rendering.RenderTexture
+  name: RenderTexture
+  nameWithType: RenderTexture
+  fullName: Engine.Rendering.RenderTexture
 - uid: Engine.Rendering
   commentId: N:Engine.Rendering
   name: Engine.Rendering

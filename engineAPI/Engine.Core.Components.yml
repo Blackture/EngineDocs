@@ -4,8 +4,11 @@ items:
   commentId: N:Engine.Core.Components
   id: Engine.Core.Components
   children:
+  - Engine.Core.Components.Camera
+  - Engine.Core.Components.Camera.CameraPlane
   - Engine.Core.Components.Edge
   - Engine.Core.Components.Face
+  - Engine.Core.Components.LCS3
   - Engine.Core.Components.Mesh
   - Engine.Core.Components.Vertex
   langs:
@@ -18,6 +21,17 @@ items:
   assemblies:
   - cs.temp.dll
 references:
+- uid: Engine.Core.Components.Camera
+  commentId: T:Engine.Core.Components.Camera
+  name: Camera
+  nameWithType: Camera
+  fullName: Engine.Core.Components.Camera
+- uid: Engine.Core.Components.Camera.CameraPlane
+  commentId: T:Engine.Core.Components.Camera.CameraPlane
+  parent: Engine.Core.Components
+  name: Camera.CameraPlane
+  nameWithType: Camera.CameraPlane
+  fullName: Engine.Core.Components.Camera.CameraPlane
 - uid: Engine.Core.Components.Edge
   commentId: T:Engine.Core.Components.Edge
   parent: Engine.Core.Components
@@ -30,6 +44,12 @@ references:
   name: Face
   nameWithType: Face
   fullName: Engine.Core.Components.Face
+- uid: Engine.Core.Components.LCS3
+  commentId: T:Engine.Core.Components.LCS3
+  parent: Engine.Core.Components
+  name: LCS3
+  nameWithType: LCS3
+  fullName: Engine.Core.Components.LCS3
 - uid: Engine.Core.Components.Mesh
   commentId: T:Engine.Core.Components.Mesh
   name: Mesh

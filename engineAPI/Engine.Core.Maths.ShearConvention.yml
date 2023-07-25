@@ -1,0 +1,158 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Maths.ShearConvention
+  commentId: T:Engine.Core.Maths.ShearConvention
+  id: ShearConvention
+  parent: Engine.Core.Maths
+  children:
+  - Engine.Core.Maths.ShearConvention.AsymmetricCot
+  - Engine.Core.Maths.ShearConvention.AsymmetricTan
+  - Engine.Core.Maths.ShearConvention.SymmetricCot
+  - Engine.Core.Maths.ShearConvention.SymmetricTan
+  langs:
+  - csharp
+  - vb
+  name: ShearConvention
+  nameWithType: ShearConvention
+  fullName: Engine.Core.Maths.ShearConvention
+  type: Enum
+  source:
+    id: ShearConvention
+    path: ''
+    startLine: 1372
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public enum ShearConvention
+    content.vb: Public Enum ShearConvention
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Engine.Core.Maths.ShearConvention.SymmetricTan
+  commentId: F:Engine.Core.Maths.ShearConvention.SymmetricTan
+  id: SymmetricTan
+  parent: Engine.Core.Maths.ShearConvention
+  langs:
+  - csharp
+  - vb
+  name: SymmetricTan
+  nameWithType: ShearConvention.SymmetricTan
+  fullName: Engine.Core.Maths.ShearConvention.SymmetricTan
+  type: Field
+  source:
+    id: SymmetricTan
+    path: ''
+    startLine: 1374
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: SymmetricTan = 0
+    return:
+      type: Engine.Core.Maths.ShearConvention
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Engine.Core.Maths.ShearConvention.SymmetricCot
+  commentId: F:Engine.Core.Maths.ShearConvention.SymmetricCot
+  id: SymmetricCot
+  parent: Engine.Core.Maths.ShearConvention
+  langs:
+  - csharp
+  - vb
+  name: SymmetricCot
+  nameWithType: ShearConvention.SymmetricCot
+  fullName: Engine.Core.Maths.ShearConvention.SymmetricCot
+  type: Field
+  source:
+    id: SymmetricCot
+    path: ''
+    startLine: 1375
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: SymmetricCot = 1
+    return:
+      type: Engine.Core.Maths.ShearConvention
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Engine.Core.Maths.ShearConvention.AsymmetricTan
+  commentId: F:Engine.Core.Maths.ShearConvention.AsymmetricTan
+  id: AsymmetricTan
+  parent: Engine.Core.Maths.ShearConvention
+  langs:
+  - csharp
+  - vb
+  name: AsymmetricTan
+  nameWithType: ShearConvention.AsymmetricTan
+  fullName: Engine.Core.Maths.ShearConvention.AsymmetricTan
+  type: Field
+  source:
+    id: AsymmetricTan
+    path: ''
+    startLine: 1376
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: AsymmetricTan = 2
+    return:
+      type: Engine.Core.Maths.ShearConvention
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Engine.Core.Maths.ShearConvention.AsymmetricCot
+  commentId: F:Engine.Core.Maths.ShearConvention.AsymmetricCot
+  id: AsymmetricCot
+  parent: Engine.Core.Maths.ShearConvention
+  langs:
+  - csharp
+  - vb
+  name: AsymmetricCot
+  nameWithType: ShearConvention.AsymmetricCot
+  fullName: Engine.Core.Maths.ShearConvention.AsymmetricCot
+  type: Field
+  source:
+    id: AsymmetricCot
+    path: ''
+    startLine: 1377
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: AsymmetricCot = 3
+    return:
+      type: Engine.Core.Maths.ShearConvention
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Engine.Core.Maths
+  commentId: N:Engine.Core.Maths
+  name: Engine.Core.Maths
+  nameWithType: Engine.Core.Maths
+  fullName: Engine.Core.Maths
+- uid: Engine.Core.Maths.ShearConvention
+  commentId: T:Engine.Core.Maths.ShearConvention
+  parent: Engine.Core.Maths
+  name: ShearConvention
+  nameWithType: ShearConvention
+  fullName: Engine.Core.Maths.ShearConvention

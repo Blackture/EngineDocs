@@ -26,7 +26,7 @@ items:
   source:
     id: RenderingConstants
     path: ''
-    startLine: 3903
+    startLine: 5649
   assemblies:
   - cs.temp.dll
   namespace: Engine.Rendering
@@ -64,7 +64,7 @@ items:
   source:
     id: Unit
     path: ''
-    startLine: 3908
+    startLine: 5654
   assemblies:
   - cs.temp.dll
   namespace: Engine.Rendering
@@ -95,7 +95,7 @@ items:
   source:
     id: Sin135
     path: ''
-    startLine: 3909
+    startLine: 5655
   assemblies:
   - cs.temp.dll
   namespace: Engine.Rendering
@@ -126,7 +126,7 @@ items:
   source:
     id: _screenHeight
     path: ''
-    startLine: 3915
+    startLine: 5661
   assemblies:
   - cs.temp.dll
   namespace: Engine.Rendering
@@ -157,7 +157,7 @@ items:
   source:
     id: _screenWidth
     path: ''
-    startLine: 3916
+    startLine: 5662
   assemblies:
   - cs.temp.dll
   namespace: Engine.Rendering
@@ -186,7 +186,7 @@ items:
   source:
     id: _halfScreenHeight
     path: ''
-    startLine: 3917
+    startLine: 5663
   assemblies:
   - cs.temp.dll
   namespace: Engine.Rendering
@@ -215,7 +215,7 @@ items:
   source:
     id: _halfScreenWidth
     path: ''
-    startLine: 3918
+    startLine: 5664
   assemblies:
   - cs.temp.dll
   namespace: Engine.Rendering
@@ -244,7 +244,7 @@ items:
   source:
     id: FoV
     path: ''
-    startLine: 3919
+    startLine: 5665
   assemblies:
   - cs.temp.dll
   namespace: Engine.Rendering
@@ -273,7 +273,7 @@ items:
   source:
     id: ScreenHeight
     path: ''
-    startLine: 3921
+    startLine: 5667
   assemblies:
   - cs.temp.dll
   namespace: Engine.Rendering
@@ -306,7 +306,7 @@ items:
   source:
     id: ScreenWidth
     path: ''
-    startLine: 3922
+    startLine: 5668
   assemblies:
   - cs.temp.dll
   namespace: Engine.Rendering
@@ -339,7 +339,7 @@ items:
   source:
     id: HalfScreenHeight
     path: ''
-    startLine: 3923
+    startLine: 5669
   assemblies:
   - cs.temp.dll
   namespace: Engine.Rendering
@@ -372,7 +372,7 @@ items:
   source:
     id: HalfScreenWidth
     path: ''
-    startLine: 3924
+    startLine: 5670
   assemblies:
   - cs.temp.dll
   namespace: Engine.Rendering

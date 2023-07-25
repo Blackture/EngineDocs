@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Maths.BaseDirections2D
+  commentId: T:Engine.Core.Maths.BaseDirections2D
+  id: BaseDirections2D
+  parent: Engine.Core.Maths
+  children:
+  - Engine.Core.Maths.BaseDirections2D.Horizontal
+  - Engine.Core.Maths.BaseDirections2D.Vertical
+  langs:
+  - csharp
+  - vb
+  name: BaseDirections2D
+  nameWithType: BaseDirections2D
+  fullName: Engine.Core.Maths.BaseDirections2D
+  type: Enum
+  source:
+    id: BaseDirections2D
+    path: ''
+    startLine: 1393
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public enum BaseDirections2D
+    content.vb: Public Enum BaseDirections2D
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Engine.Core.Maths.BaseDirections2D.Horizontal
+  commentId: F:Engine.Core.Maths.BaseDirections2D.Horizontal
+  id: Horizontal
+  parent: Engine.Core.Maths.BaseDirections2D
+  langs:
+  - csharp
+  - vb
+  name: Horizontal
+  nameWithType: BaseDirections2D.Horizontal
+  fullName: Engine.Core.Maths.BaseDirections2D.Horizontal
+  type: Field
+  source:
+    id: Horizontal
+    path: ''
+    startLine: 1395
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: Horizontal = 0
+    return:
+      type: Engine.Core.Maths.BaseDirections2D
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Engine.Core.Maths.BaseDirections2D.Vertical
+  commentId: F:Engine.Core.Maths.BaseDirections2D.Vertical
+  id: Vertical
+  parent: Engine.Core.Maths.BaseDirections2D
+  langs:
+  - csharp
+  - vb
+  name: Vertical
+  nameWithType: BaseDirections2D.Vertical
+  fullName: Engine.Core.Maths.BaseDirections2D.Vertical
+  type: Field
+  source:
+    id: Vertical
+    path: ''
+    startLine: 1396
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: Vertical = 1
+    return:
+      type: Engine.Core.Maths.BaseDirections2D
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Engine.Core.Maths
+  commentId: N:Engine.Core.Maths
+  name: Engine.Core.Maths
+  nameWithType: Engine.Core.Maths
+  fullName: Engine.Core.Maths
+- uid: Engine.Core.Maths.BaseDirections2D
+  commentId: T:Engine.Core.Maths.BaseDirections2D
+  parent: Engine.Core.Maths
+  name: BaseDirections2D
+  nameWithType: BaseDirections2D
+  fullName: Engine.Core.Maths.BaseDirections2D

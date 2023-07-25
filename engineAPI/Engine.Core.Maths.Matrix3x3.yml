@@ -28,6 +28,7 @@ items:
   - Engine.Core.Maths.Matrix3x3.op_Multiply(Engine.Core.Maths.Matrix3x3,System.Single)
   - Engine.Core.Maths.Matrix3x3.op_Multiply(System.Single,Engine.Core.Maths.Matrix3x3)
   - Engine.Core.Maths.Matrix3x3.op_Subtraction(Engine.Core.Maths.Matrix3x3,Engine.Core.Maths.Matrix3x3)
+  - Engine.Core.Maths.Matrix3x3.op_UnaryNegation(Engine.Core.Maths.Matrix3x3)
   - Engine.Core.Maths.Matrix3x3.Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
   - Engine.Core.Maths.Matrix3x3.Operation(Engine.Core.Maths.Matrix3x3,Engine.Core.Maths.Matrix3x3,Engine.Core.Maths.MatrixOperation,System.Single)
   - Engine.Core.Maths.Matrix3x3.Operation(Engine.Core.Maths.Matrix3x3,Engine.Core.Maths.MatrixOperation,System.Single)
@@ -54,7 +55,7 @@ items:
   source:
     id: Matrix3x3
     path: ''
-    startLine: 1326
+    startLine: 2115
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -101,7 +102,7 @@ items:
   source:
     id: I3x3
     path: ''
-    startLine: 1328
+    startLine: 2117
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -132,7 +133,7 @@ items:
   source:
     id: RowCount
     path: ''
-    startLine: 1338
+    startLine: 2127
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -168,7 +169,7 @@ items:
   source:
     id: ColumnCount
     path: ''
-    startLine: 1339
+    startLine: 2128
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -204,7 +205,7 @@ items:
   source:
     id: this[]
     path: ''
-    startLine: 1340
+    startLine: 2129
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -247,7 +248,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1349
+    startLine: 2138
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -273,7 +274,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1353
+    startLine: 2142
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -305,7 +306,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1363
+    startLine: 2152
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -343,7 +344,7 @@ items:
   source:
     id: GetValue
     path: ''
-    startLine: 1428
+    startLine: 2217
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -376,7 +377,7 @@ items:
   source:
     id: SetValue
     path: ''
-    startLine: 1436
+    startLine: 2225
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -409,7 +410,7 @@ items:
   source:
     id: GetRow
     path: ''
-    startLine: 1444
+    startLine: 2233
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -440,7 +441,7 @@ items:
   source:
     id: GetColumn
     path: ''
-    startLine: 1452
+    startLine: 2241
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -471,7 +472,7 @@ items:
   source:
     id: SwapRows
     path: ''
-    startLine: 1468
+    startLine: 2257
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -507,7 +508,7 @@ items:
   source:
     id: ScalarMultiplication
     path: ''
-    startLine: 1475
+    startLine: 2264
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -538,7 +539,7 @@ items:
   source:
     id: ScalarDivision
     path: ''
-    startLine: 1488
+    startLine: 2277
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -569,7 +570,7 @@ items:
   source:
     id: Multiplication
     path: ''
-    startLine: 1493
+    startLine: 2282
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -600,7 +601,7 @@ items:
   source:
     id: Addition
     path: ''
-    startLine: 1506
+    startLine: 2295
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -631,7 +632,7 @@ items:
   source:
     id: Substraction
     path: ''
-    startLine: 1519
+    startLine: 2308
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -662,7 +663,7 @@ items:
   source:
     id: RowAddition
     path: ''
-    startLine: 1540
+    startLine: 2329
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -700,7 +701,7 @@ items:
   source:
     id: RowSubstraction
     path: ''
-    startLine: 1545
+    startLine: 2334
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -733,7 +734,7 @@ items:
   source:
     id: RowOperation
     path: ''
-    startLine: 1550
+    startLine: 2339
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -773,7 +774,7 @@ items:
   source:
     id: Operation
     path: ''
-    startLine: 1578
+    startLine: 2367
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -813,7 +814,7 @@ items:
   source:
     id: Operation
     path: ''
-    startLine: 1601
+    startLine: 2390
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -853,7 +854,7 @@ items:
   source:
     id: GetDeterminant
     path: ''
-    startLine: 1605
+    startLine: 2394
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -881,7 +882,7 @@ items:
   source:
     id: ScalarMultiplication
     path: ''
-    startLine: 1620
+    startLine: 2409
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -916,7 +917,7 @@ items:
   source:
     id: ScalarDivision
     path: ''
-    startLine: 1624
+    startLine: 2413
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -951,7 +952,7 @@ items:
   source:
     id: Multiplication
     path: ''
-    startLine: 1628
+    startLine: 2417
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -986,7 +987,7 @@ items:
   source:
     id: Addition
     path: ''
-    startLine: 1632
+    startLine: 2421
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1021,7 +1022,7 @@ items:
   source:
     id: Substraction
     path: ''
-    startLine: 1636
+    startLine: 2425
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1056,7 +1057,7 @@ items:
   source:
     id: RowOperation
     path: ''
-    startLine: 1640
+    startLine: 2429
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1095,7 +1096,7 @@ items:
   source:
     id: Operation
     path: ''
-    startLine: 1644
+    startLine: 2433
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1134,7 +1135,7 @@ items:
   source:
     id: GetIdentityMatrix
     path: ''
-    startLine: 1648
+    startLine: 2437
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1164,7 +1165,7 @@ items:
   source:
     id: GetInverse
     path: ''
-    startLine: 1652
+    startLine: 2441
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1202,7 +1203,7 @@ items:
   source:
     id: op_Multiply
     path: ''
-    startLine: 1664
+    startLine: 2453
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1237,7 +1238,7 @@ items:
   source:
     id: op_Multiply
     path: ''
-    startLine: 1668
+    startLine: 2457
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1272,7 +1273,7 @@ items:
   source:
     id: op_Multiply
     path: ''
-    startLine: 1672
+    startLine: 2461
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1307,7 +1308,7 @@ items:
   source:
     id: op_Addition
     path: ''
-    startLine: 1676
+    startLine: 2465
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1342,7 +1343,7 @@ items:
   source:
     id: op_Subtraction
     path: ''
-    startLine: 1680
+    startLine: 2469
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1363,6 +1364,39 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: Engine.Core.Maths.Matrix3x3.op_UnaryNegation(Engine.Core.Maths.Matrix3x3)
+  commentId: M:Engine.Core.Maths.Matrix3x3.op_UnaryNegation(Engine.Core.Maths.Matrix3x3)
+  id: op_UnaryNegation(Engine.Core.Maths.Matrix3x3)
+  parent: Engine.Core.Maths.Matrix3x3
+  langs:
+  - csharp
+  - vb
+  name: UnaryNegation(Matrix3x3)
+  nameWithType: Matrix3x3.UnaryNegation(Matrix3x3)
+  fullName: Engine.Core.Maths.Matrix3x3.UnaryNegation(Engine.Core.Maths.Matrix3x3)
+  type: Operator
+  source:
+    id: op_UnaryNegation
+    path: ''
+    startLine: 2473
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static Matrix3x3 operator -(Matrix3x3 n)
+    parameters:
+    - id: n
+      type: Engine.Core.Maths.Matrix3x3
+    return:
+      type: Engine.Core.Maths.Matrix3x3
+    content.vb: Public Shared Operator -(n As Matrix3x3) As Matrix3x3
+  overload: Engine.Core.Maths.Matrix3x3.op_UnaryNegation*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: Engine.Core.Maths.Matrix3x3.op_Division(Engine.Core.Maths.Matrix3x3,System.Single)
   commentId: M:Engine.Core.Maths.Matrix3x3.op_Division(Engine.Core.Maths.Matrix3x3,System.Single)
   id: op_Division(Engine.Core.Maths.Matrix3x3,System.Single)
@@ -1377,7 +1411,7 @@ items:
   source:
     id: op_Division
     path: ''
-    startLine: 1684
+    startLine: 2477
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1412,7 +1446,7 @@ items:
   source:
     id: op_Implicit
     path: ''
-    startLine: 1688
+    startLine: 2481
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -2790,6 +2824,11 @@ references:
   name: Subtraction
   nameWithType: Matrix3x3.Subtraction
   fullName: Engine.Core.Maths.Matrix3x3.Subtraction
+- uid: Engine.Core.Maths.Matrix3x3.op_UnaryNegation*
+  commentId: Overload:Engine.Core.Maths.Matrix3x3.op_UnaryNegation
+  name: UnaryNegation
+  nameWithType: Matrix3x3.UnaryNegation
+  fullName: Engine.Core.Maths.Matrix3x3.UnaryNegation
 - uid: Engine.Core.Maths.Matrix3x3.op_Division*
   commentId: Overload:Engine.Core.Maths.Matrix3x3.op_Division
   name: Division

@@ -6,7 +6,7 @@ items:
   parent: Engine.Core
   children:
   - Engine.Core.Component.#ctor(Engine.Core.Object3D)
-  - Engine.Core.Component.dependency
+  - Engine.Core.Component.Dependency
   langs:
   - csharp
   - vb
@@ -17,7 +17,7 @@ items:
   source:
     id: Component
     path: ''
-    startLine: 131
+    startLine: 135
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core
@@ -27,8 +27,10 @@ items:
   inheritance:
   - System.Object
   derivedClasses:
+  - Engine.Core.Components.Camera
   - Engine.Core.Components.Edge
   - Engine.Core.Components.Face
+  - Engine.Core.Components.LCS3
   - Engine.Core.Components.Mesh
   - Engine.Core.Components.Vertex
   inheritedMembers:
@@ -45,31 +47,35 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: Engine.Core.Component.dependency
-  commentId: F:Engine.Core.Component.dependency
-  id: dependency
+- uid: Engine.Core.Component.Dependency
+  commentId: P:Engine.Core.Component.Dependency
+  id: Dependency
   parent: Engine.Core.Component
   langs:
   - csharp
   - vb
-  name: dependency
-  nameWithType: Component.dependency
-  fullName: Engine.Core.Component.dependency
-  type: Field
+  name: Dependency
+  nameWithType: Component.Dependency
+  fullName: Engine.Core.Component.Dependency
+  type: Property
   source:
-    id: dependency
+    id: Dependency
     path: ''
-    startLine: 133
+    startLine: 138
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core
   syntax:
-    content: public Object3D dependency
+    content: public Object3D Dependency { get; set; }
+    parameters: []
     return:
       type: Engine.Core.Object3D
-    content.vb: Public dependency As Object3D
+    content.vb: Public Property Dependency As Object3D
+  overload: Engine.Core.Component.Dependency*
   modifiers.csharp:
   - public
+  - get
+  - set
   modifiers.vb:
   - Public
 - uid: Engine.Core.Component.#ctor(Engine.Core.Object3D)
@@ -86,7 +92,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 135
+    startLine: 140
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core
@@ -399,6 +405,11 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: Engine.Core.Component.Dependency*
+  commentId: Overload:Engine.Core.Component.Dependency
+  name: Dependency
+  nameWithType: Component.Dependency
+  fullName: Engine.Core.Component.Dependency
 - uid: Engine.Core.Object3D
   commentId: T:Engine.Core.Object3D
   parent: Engine.Core

@@ -1,0 +1,479 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Maths.ShearMatrix2x2
+  commentId: T:Engine.Core.Maths.ShearMatrix2x2
+  id: ShearMatrix2x2
+  parent: Engine.Core.Maths
+  children:
+  - Engine.Core.Maths.ShearMatrix2x2.#ctor(System.Single,System.Single,Engine.Core.Maths.ShearConvention)
+  - Engine.Core.Maths.ShearMatrix2x2.op_Implicit(Engine.Core.Maths.ShearMatrix2x2)~Engine.Core.Maths.MatrixMxN
+  - Engine.Core.Maths.ShearMatrix2x2.S2x2
+  langs:
+  - csharp
+  - vb
+  name: ShearMatrix2x2
+  nameWithType: ShearMatrix2x2
+  fullName: Engine.Core.Maths.ShearMatrix2x2
+  type: Class
+  source:
+    id: ShearMatrix2x2
+    path: ''
+    startLine: 3857
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public class ShearMatrix2x2
+    content.vb: Public Class ShearMatrix2x2
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Engine.Core.Maths.ShearMatrix2x2.S2x2
+  commentId: F:Engine.Core.Maths.ShearMatrix2x2.S2x2
+  id: S2x2
+  parent: Engine.Core.Maths.ShearMatrix2x2
+  langs:
+  - csharp
+  - vb
+  name: S2x2
+  nameWithType: ShearMatrix2x2.S2x2
+  fullName: Engine.Core.Maths.ShearMatrix2x2.S2x2
+  type: Field
+  source:
+    id: S2x2
+    path: ''
+    startLine: 3859
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public readonly MatrixMxN S2x2
+    return:
+      type: Engine.Core.Maths.MatrixMxN
+    content.vb: Public ReadOnly S2x2 As MatrixMxN
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Engine.Core.Maths.ShearMatrix2x2.#ctor(System.Single,System.Single,Engine.Core.Maths.ShearConvention)
+  commentId: M:Engine.Core.Maths.ShearMatrix2x2.#ctor(System.Single,System.Single,Engine.Core.Maths.ShearConvention)
+  id: '#ctor(System.Single,System.Single,Engine.Core.Maths.ShearConvention)'
+  parent: Engine.Core.Maths.ShearMatrix2x2
+  langs:
+  - csharp
+  - vb
+  name: ShearMatrix2x2(Single, Single, ShearConvention)
+  nameWithType: ShearMatrix2x2.ShearMatrix2x2(Single, Single, ShearConvention)
+  fullName: Engine.Core.Maths.ShearMatrix2x2.ShearMatrix2x2(System.Single, System.Single, Engine.Core.Maths.ShearConvention)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 3866
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  summary: "\n<code data-dev-comment-type=\"paramref\" class=\"paramref\">X</code> and <code data-dev-comment-type=\"paramref\" class=\"paramref\">Y</code> in radians for (the) tan or cot convention.\n"
+  example: []
+  syntax:
+    content: public ShearMatrix2x2(float X, float Y, ShearConvention convention)
+    parameters:
+    - id: X
+      type: System.Single
+    - id: Y
+      type: System.Single
+    - id: convention
+      type: Engine.Core.Maths.ShearConvention
+    content.vb: Public Sub New(X As Single, Y As Single, convention As ShearConvention)
+  overload: Engine.Core.Maths.ShearMatrix2x2.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Maths.ShearMatrix2x2.op_Implicit(Engine.Core.Maths.ShearMatrix2x2)~Engine.Core.Maths.MatrixMxN
+  commentId: M:Engine.Core.Maths.ShearMatrix2x2.op_Implicit(Engine.Core.Maths.ShearMatrix2x2)~Engine.Core.Maths.MatrixMxN
+  id: op_Implicit(Engine.Core.Maths.ShearMatrix2x2)~Engine.Core.Maths.MatrixMxN
+  parent: Engine.Core.Maths.ShearMatrix2x2
+  langs:
+  - csharp
+  - vb
+  name: Implicit(ShearMatrix2x2 to MatrixMxN)
+  nameWithType: ShearMatrix2x2.Implicit(ShearMatrix2x2 to MatrixMxN)
+  fullName: Engine.Core.Maths.ShearMatrix2x2.Implicit(Engine.Core.Maths.ShearMatrix2x2 to Engine.Core.Maths.MatrixMxN)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: ''
+    startLine: 3896
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static implicit operator MatrixMxN(ShearMatrix2x2 sm)
+    parameters:
+    - id: sm
+      type: Engine.Core.Maths.ShearMatrix2x2
+    return:
+      type: Engine.Core.Maths.MatrixMxN
+    content.vb: Public Shared Widening Operator CType(sm As ShearMatrix2x2) As MatrixMxN
+  overload: Engine.Core.Maths.ShearMatrix2x2.op_Implicit*
+  nameWithType.vb: ShearMatrix2x2.Widening(ShearMatrix2x2 to MatrixMxN)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Engine.Core.Maths.ShearMatrix2x2.Widening(Engine.Core.Maths.ShearMatrix2x2 to Engine.Core.Maths.MatrixMxN)
+  name.vb: Widening(ShearMatrix2x2 to MatrixMxN)
+references:
+- uid: Engine.Core.Maths
+  commentId: N:Engine.Core.Maths
+  name: Engine.Core.Maths
+  nameWithType: Engine.Core.Maths
+  fullName: Engine.Core.Maths
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Engine.Core.Maths.MatrixMxN
+  commentId: T:Engine.Core.Maths.MatrixMxN
+  parent: Engine.Core.Maths
+  name: MatrixMxN
+  nameWithType: MatrixMxN
+  fullName: Engine.Core.Maths.MatrixMxN
+- uid: Engine.Core.Maths.ShearMatrix2x2.#ctor*
+  commentId: Overload:Engine.Core.Maths.ShearMatrix2x2.#ctor
+  name: ShearMatrix2x2
+  nameWithType: ShearMatrix2x2.ShearMatrix2x2
+  fullName: Engine.Core.Maths.ShearMatrix2x2.ShearMatrix2x2
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Engine.Core.Maths.ShearConvention
+  commentId: T:Engine.Core.Maths.ShearConvention
+  parent: Engine.Core.Maths
+  name: ShearConvention
+  nameWithType: ShearConvention
+  fullName: Engine.Core.Maths.ShearConvention
+- uid: Engine.Core.Maths.ShearMatrix2x2.op_Implicit*
+  commentId: Overload:Engine.Core.Maths.ShearMatrix2x2.op_Implicit
+  name: Implicit
+  nameWithType: ShearMatrix2x2.Implicit
+  fullName: Engine.Core.Maths.ShearMatrix2x2.Implicit
+  nameWithType.vb: ShearMatrix2x2.Widening
+  fullName.vb: Engine.Core.Maths.ShearMatrix2x2.Widening
+  name.vb: Widening
+- uid: Engine.Core.Maths.ShearMatrix2x2
+  commentId: T:Engine.Core.Maths.ShearMatrix2x2
+  parent: Engine.Core.Maths
+  name: ShearMatrix2x2
+  nameWithType: ShearMatrix2x2
+  fullName: Engine.Core.Maths.ShearMatrix2x2

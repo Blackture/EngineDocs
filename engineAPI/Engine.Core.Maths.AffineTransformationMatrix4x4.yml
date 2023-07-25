@@ -4,7 +4,16 @@ items:
   commentId: T:Engine.Core.Maths.AffineTransformationMatrix4x4
   id: AffineTransformationMatrix4x4
   parent: Engine.Core.Maths
-  children: []
+  children:
+  - Engine.Core.Maths.AffineTransformationMatrix4x4.#ctor
+  - Engine.Core.Maths.AffineTransformationMatrix4x4.#ctor(Engine.Core.Maths.TransformationConvention,Engine.Core.Maths.RotationConvention)
+  - Engine.Core.Maths.AffineTransformationMatrix4x4.ATM4x4
+  - Engine.Core.Maths.AffineTransformationMatrix4x4.dilationSub
+  - Engine.Core.Maths.AffineTransformationMatrix4x4.rotationQ
+  - Engine.Core.Maths.AffineTransformationMatrix4x4.rotationSub
+  - Engine.Core.Maths.AffineTransformationMatrix4x4.shearSub
+  - Engine.Core.Maths.AffineTransformationMatrix4x4.TConvention
+  - Engine.Core.Maths.AffineTransformationMatrix4x4.translationVector
   langs:
   - csharp
   - vb
@@ -15,7 +24,7 @@ items:
   source:
     id: AffineTransformationMatrix4x4
     path: ''
-    startLine: 566
+    startLine: 1174
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -41,6 +50,252 @@ items:
   modifiers.vb:
   - Public
   - Class
+- uid: Engine.Core.Maths.AffineTransformationMatrix4x4.translationVector
+  commentId: F:Engine.Core.Maths.AffineTransformationMatrix4x4.translationVector
+  id: translationVector
+  parent: Engine.Core.Maths.AffineTransformationMatrix4x4
+  langs:
+  - csharp
+  - vb
+  name: translationVector
+  nameWithType: AffineTransformationMatrix4x4.translationVector
+  fullName: Engine.Core.Maths.AffineTransformationMatrix4x4.translationVector
+  type: Field
+  source:
+    id: translationVector
+    path: ''
+    startLine: 1176
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public Vector3 translationVector
+    return:
+      type: Engine.Core.Maths.Vector3
+    content.vb: Public translationVector As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Maths.AffineTransformationMatrix4x4.rotationSub
+  commentId: F:Engine.Core.Maths.AffineTransformationMatrix4x4.rotationSub
+  id: rotationSub
+  parent: Engine.Core.Maths.AffineTransformationMatrix4x4
+  langs:
+  - csharp
+  - vb
+  name: rotationSub
+  nameWithType: AffineTransformationMatrix4x4.rotationSub
+  fullName: Engine.Core.Maths.AffineTransformationMatrix4x4.rotationSub
+  type: Field
+  source:
+    id: rotationSub
+    path: ''
+    startLine: 1178
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public RotationMatrix3x3 rotationSub
+    return:
+      type: Engine.Core.Maths.RotationMatrix3x3
+    content.vb: Public rotationSub As RotationMatrix3x3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Maths.AffineTransformationMatrix4x4.rotationQ
+  commentId: F:Engine.Core.Maths.AffineTransformationMatrix4x4.rotationQ
+  id: rotationQ
+  parent: Engine.Core.Maths.AffineTransformationMatrix4x4
+  langs:
+  - csharp
+  - vb
+  name: rotationQ
+  nameWithType: AffineTransformationMatrix4x4.rotationQ
+  fullName: Engine.Core.Maths.AffineTransformationMatrix4x4.rotationQ
+  type: Field
+  source:
+    id: rotationQ
+    path: ''
+    startLine: 1179
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public Quaternion rotationQ
+    return:
+      type: Engine.Core.Maths.Quaternion
+    content.vb: Public rotationQ As Quaternion
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Maths.AffineTransformationMatrix4x4.dilationSub
+  commentId: F:Engine.Core.Maths.AffineTransformationMatrix4x4.dilationSub
+  id: dilationSub
+  parent: Engine.Core.Maths.AffineTransformationMatrix4x4
+  langs:
+  - csharp
+  - vb
+  name: dilationSub
+  nameWithType: AffineTransformationMatrix4x4.dilationSub
+  fullName: Engine.Core.Maths.AffineTransformationMatrix4x4.dilationSub
+  type: Field
+  source:
+    id: dilationSub
+    path: ''
+    startLine: 1180
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public DilationMatrix3x3 dilationSub
+    return:
+      type: Engine.Core.Maths.DilationMatrix3x3
+    content.vb: Public dilationSub As DilationMatrix3x3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Maths.AffineTransformationMatrix4x4.shearSub
+  commentId: F:Engine.Core.Maths.AffineTransformationMatrix4x4.shearSub
+  id: shearSub
+  parent: Engine.Core.Maths.AffineTransformationMatrix4x4
+  langs:
+  - csharp
+  - vb
+  name: shearSub
+  nameWithType: AffineTransformationMatrix4x4.shearSub
+  fullName: Engine.Core.Maths.AffineTransformationMatrix4x4.shearSub
+  type: Field
+  source:
+    id: shearSub
+    path: ''
+    startLine: 1181
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public ShearMatrix3D shearSub
+    return:
+      type: Engine.Core.Maths.ShearMatrix3D
+    content.vb: Public shearSub As ShearMatrix3D
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Maths.AffineTransformationMatrix4x4.TConvention
+  commentId: F:Engine.Core.Maths.AffineTransformationMatrix4x4.TConvention
+  id: TConvention
+  parent: Engine.Core.Maths.AffineTransformationMatrix4x4
+  langs:
+  - csharp
+  - vb
+  name: TConvention
+  nameWithType: AffineTransformationMatrix4x4.TConvention
+  fullName: Engine.Core.Maths.AffineTransformationMatrix4x4.TConvention
+  type: Field
+  source:
+    id: TConvention
+    path: ''
+    startLine: 1183
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public TransformationConvention TConvention
+    return:
+      type: Engine.Core.Maths.TransformationConvention
+    content.vb: Public TConvention As TransformationConvention
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Maths.AffineTransformationMatrix4x4.ATM4x4
+  commentId: F:Engine.Core.Maths.AffineTransformationMatrix4x4.ATM4x4
+  id: ATM4x4
+  parent: Engine.Core.Maths.AffineTransformationMatrix4x4
+  langs:
+  - csharp
+  - vb
+  name: ATM4x4
+  nameWithType: AffineTransformationMatrix4x4.ATM4x4
+  fullName: Engine.Core.Maths.AffineTransformationMatrix4x4.ATM4x4
+  type: Field
+  source:
+    id: ATM4x4
+    path: ''
+    startLine: 1184
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public MatrixMxN ATM4x4
+    return:
+      type: Engine.Core.Maths.MatrixMxN
+    content.vb: Public ATM4x4 As MatrixMxN
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Maths.AffineTransformationMatrix4x4.#ctor
+  commentId: M:Engine.Core.Maths.AffineTransformationMatrix4x4.#ctor
+  id: '#ctor'
+  parent: Engine.Core.Maths.AffineTransformationMatrix4x4
+  langs:
+  - csharp
+  - vb
+  name: AffineTransformationMatrix4x4()
+  nameWithType: AffineTransformationMatrix4x4.AffineTransformationMatrix4x4()
+  fullName: Engine.Core.Maths.AffineTransformationMatrix4x4.AffineTransformationMatrix4x4()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1186
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public AffineTransformationMatrix4x4()
+    content.vb: Public Sub New
+  overload: Engine.Core.Maths.AffineTransformationMatrix4x4.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Maths.AffineTransformationMatrix4x4.#ctor(Engine.Core.Maths.TransformationConvention,Engine.Core.Maths.RotationConvention)
+  commentId: M:Engine.Core.Maths.AffineTransformationMatrix4x4.#ctor(Engine.Core.Maths.TransformationConvention,Engine.Core.Maths.RotationConvention)
+  id: '#ctor(Engine.Core.Maths.TransformationConvention,Engine.Core.Maths.RotationConvention)'
+  parent: Engine.Core.Maths.AffineTransformationMatrix4x4
+  langs:
+  - csharp
+  - vb
+  name: AffineTransformationMatrix4x4(TransformationConvention, RotationConvention)
+  nameWithType: AffineTransformationMatrix4x4.AffineTransformationMatrix4x4(TransformationConvention, RotationConvention)
+  fullName: Engine.Core.Maths.AffineTransformationMatrix4x4.AffineTransformationMatrix4x4(Engine.Core.Maths.TransformationConvention, Engine.Core.Maths.RotationConvention)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1191
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public AffineTransformationMatrix4x4(TransformationConvention TConvention, RotationConvention RConvention)
+    parameters:
+    - id: TConvention
+      type: Engine.Core.Maths.TransformationConvention
+    - id: RConvention
+      type: Engine.Core.Maths.RotationConvention
+    content.vb: Public Sub New(TConvention As TransformationConvention, RConvention As RotationConvention)
+  overload: Engine.Core.Maths.AffineTransformationMatrix4x4.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: Engine.Core.Maths
   commentId: N:Engine.Core.Maths
@@ -345,3 +600,56 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: Engine.Core.Maths.Vector3
+  commentId: T:Engine.Core.Maths.Vector3
+  parent: Engine.Core.Maths
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Engine.Core.Maths.Vector3
+- uid: Engine.Core.Maths.RotationMatrix3x3
+  commentId: T:Engine.Core.Maths.RotationMatrix3x3
+  parent: Engine.Core.Maths
+  name: RotationMatrix3x3
+  nameWithType: RotationMatrix3x3
+  fullName: Engine.Core.Maths.RotationMatrix3x3
+- uid: Engine.Core.Maths.Quaternion
+  commentId: T:Engine.Core.Maths.Quaternion
+  parent: Engine.Core.Maths
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: Engine.Core.Maths.Quaternion
+- uid: Engine.Core.Maths.DilationMatrix3x3
+  commentId: T:Engine.Core.Maths.DilationMatrix3x3
+  parent: Engine.Core.Maths
+  name: DilationMatrix3x3
+  nameWithType: DilationMatrix3x3
+  fullName: Engine.Core.Maths.DilationMatrix3x3
+- uid: Engine.Core.Maths.ShearMatrix3D
+  commentId: T:Engine.Core.Maths.ShearMatrix3D
+  parent: Engine.Core.Maths
+  name: ShearMatrix3D
+  nameWithType: ShearMatrix3D
+  fullName: Engine.Core.Maths.ShearMatrix3D
+- uid: Engine.Core.Maths.TransformationConvention
+  commentId: T:Engine.Core.Maths.TransformationConvention
+  parent: Engine.Core.Maths
+  name: TransformationConvention
+  nameWithType: TransformationConvention
+  fullName: Engine.Core.Maths.TransformationConvention
+- uid: Engine.Core.Maths.MatrixMxN
+  commentId: T:Engine.Core.Maths.MatrixMxN
+  parent: Engine.Core.Maths
+  name: MatrixMxN
+  nameWithType: MatrixMxN
+  fullName: Engine.Core.Maths.MatrixMxN
+- uid: Engine.Core.Maths.AffineTransformationMatrix4x4.#ctor*
+  commentId: Overload:Engine.Core.Maths.AffineTransformationMatrix4x4.#ctor
+  name: AffineTransformationMatrix4x4
+  nameWithType: AffineTransformationMatrix4x4.AffineTransformationMatrix4x4
+  fullName: Engine.Core.Maths.AffineTransformationMatrix4x4.AffineTransformationMatrix4x4
+- uid: Engine.Core.Maths.RotationConvention
+  commentId: T:Engine.Core.Maths.RotationConvention
+  parent: Engine.Core.Maths
+  name: RotationConvention
+  nameWithType: RotationConvention
+  fullName: Engine.Core.Maths.RotationConvention

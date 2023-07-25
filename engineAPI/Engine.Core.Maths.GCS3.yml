@@ -1,0 +1,755 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Maths.GCS3
+  commentId: T:Engine.Core.Maths.GCS3
+  id: GCS3
+  parent: Engine.Core.Maths
+  children:
+  - Engine.Core.Maths.GCS3.#ctor
+  - Engine.Core.Maths.GCS3.Add(LCS3)
+  - Engine.Core.Maths.GCS3.Add(LightSource)
+  - Engine.Core.Maths.GCS3.Axes
+  - Engine.Core.Maths.GCS3.LightSources
+  - Engine.Core.Maths.GCS3.LocalSystems
+  - Engine.Core.Maths.GCS3.Remove(LCS3)
+  - Engine.Core.Maths.GCS3.Remove(LightSource)
+  langs:
+  - csharp
+  - vb
+  name: GCS3
+  nameWithType: GCS3
+  fullName: Engine.Core.Maths.GCS3
+  type: Class
+  source:
+    id: GCS3
+    path: ''
+    startLine: 1660
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public class GCS3
+    content.vb: Public Class GCS3
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Engine.Core.Maths.GCS3.Axes
+  commentId: F:Engine.Core.Maths.GCS3.Axes
+  id: Axes
+  parent: Engine.Core.Maths.GCS3
+  langs:
+  - csharp
+  - vb
+  name: Axes
+  nameWithType: GCS3.Axes
+  fullName: Engine.Core.Maths.GCS3.Axes
+  type: Field
+  source:
+    id: Axes
+    path: ''
+    startLine: 1662
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static readonly Straight[] Axes
+    return:
+      type: Engine.Core.Maths.Straight[]
+    content.vb: Public Shared ReadOnly Axes As Straight()
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Engine.Core.Maths.GCS3.LocalSystems
+  commentId: F:Engine.Core.Maths.GCS3.LocalSystems
+  id: LocalSystems
+  parent: Engine.Core.Maths.GCS3
+  langs:
+  - csharp
+  - vb
+  name: LocalSystems
+  nameWithType: GCS3.LocalSystems
+  fullName: Engine.Core.Maths.GCS3.LocalSystems
+  type: Field
+  source:
+    id: LocalSystems
+    path: ''
+    startLine: 1664
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public List<LCS3> LocalSystems
+    return:
+      type: System.Collections.Generic.List{LCS3}
+    content.vb: Public LocalSystems As List(Of LCS3)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Maths.GCS3.LightSources
+  commentId: F:Engine.Core.Maths.GCS3.LightSources
+  id: LightSources
+  parent: Engine.Core.Maths.GCS3
+  langs:
+  - csharp
+  - vb
+  name: LightSources
+  nameWithType: GCS3.LightSources
+  fullName: Engine.Core.Maths.GCS3.LightSources
+  type: Field
+  source:
+    id: LightSources
+    path: ''
+    startLine: 1665
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public List<LightSource> LightSources
+    return:
+      type: System.Collections.Generic.List{LightSource}
+    content.vb: Public LightSources As List(Of LightSource)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Maths.GCS3.#ctor
+  commentId: M:Engine.Core.Maths.GCS3.#ctor
+  id: '#ctor'
+  parent: Engine.Core.Maths.GCS3
+  langs:
+  - csharp
+  - vb
+  name: GCS3()
+  nameWithType: GCS3.GCS3()
+  fullName: Engine.Core.Maths.GCS3.GCS3()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1667
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public GCS3()
+    content.vb: Public Sub New
+  overload: Engine.Core.Maths.GCS3.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Maths.GCS3.Add(LCS3)
+  commentId: M:Engine.Core.Maths.GCS3.Add(LCS3)
+  id: Add(LCS3)
+  parent: Engine.Core.Maths.GCS3
+  langs:
+  - csharp
+  - vb
+  name: Add(LCS3)
+  nameWithType: GCS3.Add(LCS3)
+  fullName: Engine.Core.Maths.GCS3.Add(LCS3)
+  type: Method
+  source:
+    id: Add
+    path: ''
+    startLine: 1672
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public void Add(LCS3 system)
+    parameters:
+    - id: system
+      type: LCS3
+    content.vb: Public Sub Add(system As LCS3)
+  overload: Engine.Core.Maths.GCS3.Add*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Maths.GCS3.Remove(LCS3)
+  commentId: M:Engine.Core.Maths.GCS3.Remove(LCS3)
+  id: Remove(LCS3)
+  parent: Engine.Core.Maths.GCS3
+  langs:
+  - csharp
+  - vb
+  name: Remove(LCS3)
+  nameWithType: GCS3.Remove(LCS3)
+  fullName: Engine.Core.Maths.GCS3.Remove(LCS3)
+  type: Method
+  source:
+    id: Remove
+    path: ''
+    startLine: 1677
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public void Remove(LCS3 system)
+    parameters:
+    - id: system
+      type: LCS3
+    content.vb: Public Sub Remove(system As LCS3)
+  overload: Engine.Core.Maths.GCS3.Remove*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Maths.GCS3.Add(LightSource)
+  commentId: M:Engine.Core.Maths.GCS3.Add(LightSource)
+  id: Add(LightSource)
+  parent: Engine.Core.Maths.GCS3
+  langs:
+  - csharp
+  - vb
+  name: Add(LightSource)
+  nameWithType: GCS3.Add(LightSource)
+  fullName: Engine.Core.Maths.GCS3.Add(LightSource)
+  type: Method
+  source:
+    id: Add
+    path: ''
+    startLine: 1682
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public void Add(LightSource light)
+    parameters:
+    - id: light
+      type: LightSource
+    content.vb: Public Sub Add(light As LightSource)
+  overload: Engine.Core.Maths.GCS3.Add*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Maths.GCS3.Remove(LightSource)
+  commentId: M:Engine.Core.Maths.GCS3.Remove(LightSource)
+  id: Remove(LightSource)
+  parent: Engine.Core.Maths.GCS3
+  langs:
+  - csharp
+  - vb
+  name: Remove(LightSource)
+  nameWithType: GCS3.Remove(LightSource)
+  fullName: Engine.Core.Maths.GCS3.Remove(LightSource)
+  type: Method
+  source:
+    id: Remove
+    path: ''
+    startLine: 1687
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public void Remove(LightSource light)
+    parameters:
+    - id: light
+      type: LightSource
+    content.vb: Public Sub Remove(light As LightSource)
+  overload: Engine.Core.Maths.GCS3.Remove*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Engine.Core.Maths
+  commentId: N:Engine.Core.Maths
+  name: Engine.Core.Maths
+  nameWithType: Engine.Core.Maths
+  fullName: Engine.Core.Maths
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Engine.Core.Maths.Straight[]
+  isExternal: true
+  name: Straight[]
+  nameWithType: Straight[]
+  fullName: Engine.Core.Maths.Straight[]
+  nameWithType.vb: Straight()
+  fullName.vb: Engine.Core.Maths.Straight()
+  name.vb: Straight()
+  spec.csharp:
+  - uid: Engine.Core.Maths.Straight
+    name: Straight
+    nameWithType: Straight
+    fullName: Engine.Core.Maths.Straight
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Engine.Core.Maths.Straight
+    name: Straight
+    nameWithType: Straight
+    fullName: Engine.Core.Maths.Straight
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Collections.Generic.List{LCS3}
+  commentId: T:System.Collections.Generic.List{LCS3}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<LCS3>
+  nameWithType: List<LCS3>
+  fullName: System.Collections.Generic.List<LCS3>
+  nameWithType.vb: List(Of LCS3)
+  fullName.vb: System.Collections.Generic.List(Of LCS3)
+  name.vb: List(Of LCS3)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: LCS3
+    name: LCS3
+    nameWithType: LCS3
+    fullName: LCS3
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: LCS3
+    name: LCS3
+    nameWithType: LCS3
+    fullName: LCS3
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections.Generic.List{LightSource}
+  commentId: T:System.Collections.Generic.List{LightSource}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<LightSource>
+  nameWithType: List<LightSource>
+  fullName: System.Collections.Generic.List<LightSource>
+  nameWithType.vb: List(Of LightSource)
+  fullName.vb: System.Collections.Generic.List(Of LightSource)
+  name.vb: List(Of LightSource)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: LightSource
+    name: LightSource
+    nameWithType: LightSource
+    fullName: LightSource
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: LightSource
+    name: LightSource
+    nameWithType: LightSource
+    fullName: LightSource
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Engine.Core.Maths.GCS3.#ctor*
+  commentId: Overload:Engine.Core.Maths.GCS3.#ctor
+  name: GCS3
+  nameWithType: GCS3.GCS3
+  fullName: Engine.Core.Maths.GCS3.GCS3
+- uid: Engine.Core.Maths.GCS3.Add*
+  commentId: Overload:Engine.Core.Maths.GCS3.Add
+  name: Add
+  nameWithType: GCS3.Add
+  fullName: Engine.Core.Maths.GCS3.Add
+- uid: LCS3
+  isExternal: true
+  name: LCS3
+  nameWithType: LCS3
+  fullName: LCS3
+- uid: Engine.Core.Maths.GCS3.Remove*
+  commentId: Overload:Engine.Core.Maths.GCS3.Remove
+  name: Remove
+  nameWithType: GCS3.Remove
+  fullName: Engine.Core.Maths.GCS3.Remove
+- uid: LightSource
+  isExternal: true
+  name: LightSource
+  nameWithType: LightSource
+  fullName: LightSource

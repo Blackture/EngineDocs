@@ -32,18 +32,248 @@ references:
   isSpec: "True"
   fullName: Engine.Core.Component.Component
   nameWithType: Component.Component
-- uid: Engine.Core.Component.dependency
-  name: dependency
-  href: engineAPI/Engine.Core.Component.html#Engine_Core_Component_dependency
-  commentId: F:Engine.Core.Component.dependency
-  fullName: Engine.Core.Component.dependency
-  nameWithType: Component.dependency
+- uid: Engine.Core.Component.Dependency
+  name: Dependency
+  href: engineAPI/Engine.Core.Component.html#Engine_Core_Component_Dependency
+  commentId: P:Engine.Core.Component.Dependency
+  fullName: Engine.Core.Component.Dependency
+  nameWithType: Component.Dependency
+- uid: Engine.Core.Component.Dependency*
+  name: Dependency
+  href: engineAPI/Engine.Core.Component.html#Engine_Core_Component_Dependency_
+  commentId: Overload:Engine.Core.Component.Dependency
+  isSpec: "True"
+  fullName: Engine.Core.Component.Dependency
+  nameWithType: Component.Dependency
 - uid: Engine.Core.Components
   name: Engine.Core.Components
   href: engineAPI/Engine.Core.Components.html
   commentId: N:Engine.Core.Components
   fullName: Engine.Core.Components
   nameWithType: Engine.Core.Components
+- uid: Engine.Core.Components.Camera
+  name: Camera
+  href: engineAPI/Engine.Core.Components.Camera.html
+  commentId: T:Engine.Core.Components.Camera
+  fullName: Engine.Core.Components.Camera
+  nameWithType: Camera
+- uid: Engine.Core.Components.Camera.#ctor(Engine.Core.Object3D,System.Single,System.Single)
+  name: Camera(Object3D, Single, Single)
+  href: engineAPI/Engine.Core.Components.Camera.html#Engine_Core_Components_Camera__ctor_Engine_Core_Object3D_System_Single_System_Single_
+  commentId: M:Engine.Core.Components.Camera.#ctor(Engine.Core.Object3D,System.Single,System.Single)
+  fullName: Engine.Core.Components.Camera.Camera(Engine.Core.Object3D, System.Single, System.Single)
+  nameWithType: Camera.Camera(Object3D, Single, Single)
+- uid: Engine.Core.Components.Camera.#ctor*
+  name: Camera
+  href: engineAPI/Engine.Core.Components.Camera.html#Engine_Core_Components_Camera__ctor_
+  commentId: Overload:Engine.Core.Components.Camera.#ctor
+  isSpec: "True"
+  fullName: Engine.Core.Components.Camera.Camera
+  nameWithType: Camera.Camera
+- uid: Engine.Core.Components.Camera.AnyLightSource(System.Collections.Generic.List{LightSource}@)
+  name: AnyLightSource(out List<LightSource>)
+  href: engineAPI/Engine.Core.Components.Camera.html#Engine_Core_Components_Camera_AnyLightSource_System_Collections_Generic_List_LightSource___
+  commentId: M:Engine.Core.Components.Camera.AnyLightSource(System.Collections.Generic.List{LightSource}@)
+  name.vb: AnyLightSource(ByRef List(Of LightSource))
+  fullName: Engine.Core.Components.Camera.AnyLightSource(out System.Collections.Generic.List<LightSource>)
+  fullName.vb: Engine.Core.Components.Camera.AnyLightSource(ByRef System.Collections.Generic.List(Of LightSource))
+  nameWithType: Camera.AnyLightSource(out List<LightSource>)
+  nameWithType.vb: Camera.AnyLightSource(ByRef List(Of LightSource))
+- uid: Engine.Core.Components.Camera.AnyLightSource*
+  name: AnyLightSource
+  href: engineAPI/Engine.Core.Components.Camera.html#Engine_Core_Components_Camera_AnyLightSource_
+  commentId: Overload:Engine.Core.Components.Camera.AnyLightSource
+  isSpec: "True"
+  fullName: Engine.Core.Components.Camera.AnyLightSource
+  nameWithType: Camera.AnyLightSource
+- uid: Engine.Core.Components.Camera.CameraPlane
+  name: Camera.CameraPlane
+  href: engineAPI/Engine.Core.Components.Camera.CameraPlane.html
+  commentId: T:Engine.Core.Components.Camera.CameraPlane
+  fullName: Engine.Core.Components.Camera.CameraPlane
+  nameWithType: Camera.CameraPlane
+- uid: Engine.Core.Components.Camera.CameraPlane.#ctor(System.Single,Engine.Core.Object3D)
+  name: CameraPlane(Single, Object3D)
+  href: engineAPI/Engine.Core.Components.Camera.CameraPlane.html#Engine_Core_Components_Camera_CameraPlane__ctor_System_Single_Engine_Core_Object3D_
+  commentId: M:Engine.Core.Components.Camera.CameraPlane.#ctor(System.Single,Engine.Core.Object3D)
+  fullName: Engine.Core.Components.Camera.CameraPlane.CameraPlane(System.Single, Engine.Core.Object3D)
+  nameWithType: Camera.CameraPlane.CameraPlane(Single, Object3D)
+- uid: Engine.Core.Components.Camera.CameraPlane.#ctor*
+  name: CameraPlane
+  href: engineAPI/Engine.Core.Components.Camera.CameraPlane.html#Engine_Core_Components_Camera_CameraPlane__ctor_
+  commentId: Overload:Engine.Core.Components.Camera.CameraPlane.#ctor
+  isSpec: "True"
+  fullName: Engine.Core.Components.Camera.CameraPlane.CameraPlane
+  nameWithType: Camera.CameraPlane.CameraPlane
+- uid: Engine.Core.Components.Camera.CameraPlane.BoundaryS
+  name: BoundaryS
+  href: engineAPI/Engine.Core.Components.Camera.CameraPlane.html#Engine_Core_Components_Camera_CameraPlane_BoundaryS
+  commentId: P:Engine.Core.Components.Camera.CameraPlane.BoundaryS
+  fullName: Engine.Core.Components.Camera.CameraPlane.BoundaryS
+  nameWithType: Camera.CameraPlane.BoundaryS
+- uid: Engine.Core.Components.Camera.CameraPlane.BoundaryS*
+  name: BoundaryS
+  href: engineAPI/Engine.Core.Components.Camera.CameraPlane.html#Engine_Core_Components_Camera_CameraPlane_BoundaryS_
+  commentId: Overload:Engine.Core.Components.Camera.CameraPlane.BoundaryS
+  isSpec: "True"
+  fullName: Engine.Core.Components.Camera.CameraPlane.BoundaryS
+  nameWithType: Camera.CameraPlane.BoundaryS
+- uid: Engine.Core.Components.Camera.CameraPlane.BoundaryT
+  name: BoundaryT
+  href: engineAPI/Engine.Core.Components.Camera.CameraPlane.html#Engine_Core_Components_Camera_CameraPlane_BoundaryT
+  commentId: P:Engine.Core.Components.Camera.CameraPlane.BoundaryT
+  fullName: Engine.Core.Components.Camera.CameraPlane.BoundaryT
+  nameWithType: Camera.CameraPlane.BoundaryT
+- uid: Engine.Core.Components.Camera.CameraPlane.BoundaryT*
+  name: BoundaryT
+  href: engineAPI/Engine.Core.Components.Camera.CameraPlane.html#Engine_Core_Components_Camera_CameraPlane_BoundaryT_
+  commentId: Overload:Engine.Core.Components.Camera.CameraPlane.BoundaryT
+  isSpec: "True"
+  fullName: Engine.Core.Components.Camera.CameraPlane.BoundaryT
+  nameWithType: Camera.CameraPlane.BoundaryT
+- uid: Engine.Core.Components.Camera.CameraPlane.GetPoint(System.Single,System.Single)
+  name: GetPoint(Single, Single)
+  href: engineAPI/Engine.Core.Components.Camera.CameraPlane.html#Engine_Core_Components_Camera_CameraPlane_GetPoint_System_Single_System_Single_
+  commentId: M:Engine.Core.Components.Camera.CameraPlane.GetPoint(System.Single,System.Single)
+  fullName: Engine.Core.Components.Camera.CameraPlane.GetPoint(System.Single, System.Single)
+  nameWithType: Camera.CameraPlane.GetPoint(Single, Single)
+- uid: Engine.Core.Components.Camera.CameraPlane.GetPoint*
+  name: GetPoint
+  href: engineAPI/Engine.Core.Components.Camera.CameraPlane.html#Engine_Core_Components_Camera_CameraPlane_GetPoint_
+  commentId: Overload:Engine.Core.Components.Camera.CameraPlane.GetPoint
+  isSpec: "True"
+  fullName: Engine.Core.Components.Camera.CameraPlane.GetPoint
+  nameWithType: Camera.CameraPlane.GetPoint
+- uid: Engine.Core.Components.Camera.CameraPlane.GlobalHorizontal
+  name: GlobalHorizontal
+  href: engineAPI/Engine.Core.Components.Camera.CameraPlane.html#Engine_Core_Components_Camera_CameraPlane_GlobalHorizontal
+  commentId: P:Engine.Core.Components.Camera.CameraPlane.GlobalHorizontal
+  fullName: Engine.Core.Components.Camera.CameraPlane.GlobalHorizontal
+  nameWithType: Camera.CameraPlane.GlobalHorizontal
+- uid: Engine.Core.Components.Camera.CameraPlane.GlobalHorizontal*
+  name: GlobalHorizontal
+  href: engineAPI/Engine.Core.Components.Camera.CameraPlane.html#Engine_Core_Components_Camera_CameraPlane_GlobalHorizontal_
+  commentId: Overload:Engine.Core.Components.Camera.CameraPlane.GlobalHorizontal
+  isSpec: "True"
+  fullName: Engine.Core.Components.Camera.CameraPlane.GlobalHorizontal
+  nameWithType: Camera.CameraPlane.GlobalHorizontal
+- uid: Engine.Core.Components.Camera.CameraPlane.GlobalVertical
+  name: GlobalVertical
+  href: engineAPI/Engine.Core.Components.Camera.CameraPlane.html#Engine_Core_Components_Camera_CameraPlane_GlobalVertical
+  commentId: P:Engine.Core.Components.Camera.CameraPlane.GlobalVertical
+  fullName: Engine.Core.Components.Camera.CameraPlane.GlobalVertical
+  nameWithType: Camera.CameraPlane.GlobalVertical
+- uid: Engine.Core.Components.Camera.CameraPlane.GlobalVertical*
+  name: GlobalVertical
+  href: engineAPI/Engine.Core.Components.Camera.CameraPlane.html#Engine_Core_Components_Camera_CameraPlane_GlobalVertical_
+  commentId: Overload:Engine.Core.Components.Camera.CameraPlane.GlobalVertical
+  isSpec: "True"
+  fullName: Engine.Core.Components.Camera.CameraPlane.GlobalVertical
+  nameWithType: Camera.CameraPlane.GlobalVertical
+- uid: Engine.Core.Components.Camera.CameraPlane.Normal
+  name: Normal
+  href: engineAPI/Engine.Core.Components.Camera.CameraPlane.html#Engine_Core_Components_Camera_CameraPlane_Normal
+  commentId: P:Engine.Core.Components.Camera.CameraPlane.Normal
+  fullName: Engine.Core.Components.Camera.CameraPlane.Normal
+  nameWithType: Camera.CameraPlane.Normal
+- uid: Engine.Core.Components.Camera.CameraPlane.Normal*
+  name: Normal
+  href: engineAPI/Engine.Core.Components.Camera.CameraPlane.html#Engine_Core_Components_Camera_CameraPlane_Normal_
+  commentId: Overload:Engine.Core.Components.Camera.CameraPlane.Normal
+  isSpec: "True"
+  fullName: Engine.Core.Components.Camera.CameraPlane.Normal
+  nameWithType: Camera.CameraPlane.Normal
+- uid: Engine.Core.Components.Camera.CameraPlane.plane
+  name: plane
+  href: engineAPI/Engine.Core.Components.Camera.CameraPlane.html#Engine_Core_Components_Camera_CameraPlane_plane
+  commentId: P:Engine.Core.Components.Camera.CameraPlane.plane
+  fullName: Engine.Core.Components.Camera.CameraPlane.plane
+  nameWithType: Camera.CameraPlane.plane
+- uid: Engine.Core.Components.Camera.CameraPlane.plane*
+  name: plane
+  href: engineAPI/Engine.Core.Components.Camera.CameraPlane.html#Engine_Core_Components_Camera_CameraPlane_plane_
+  commentId: Overload:Engine.Core.Components.Camera.CameraPlane.plane
+  isSpec: "True"
+  fullName: Engine.Core.Components.Camera.CameraPlane.plane
+  nameWithType: Camera.CameraPlane.plane
+- uid: Engine.Core.Components.Camera.FarPlane
+  name: FarPlane
+  href: engineAPI/Engine.Core.Components.Camera.html#Engine_Core_Components_Camera_FarPlane
+  commentId: P:Engine.Core.Components.Camera.FarPlane
+  fullName: Engine.Core.Components.Camera.FarPlane
+  nameWithType: Camera.FarPlane
+- uid: Engine.Core.Components.Camera.FarPlane*
+  name: FarPlane
+  href: engineAPI/Engine.Core.Components.Camera.html#Engine_Core_Components_Camera_FarPlane_
+  commentId: Overload:Engine.Core.Components.Camera.FarPlane
+  isSpec: "True"
+  fullName: Engine.Core.Components.Camera.FarPlane
+  nameWithType: Camera.FarPlane
+- uid: Engine.Core.Components.Camera.FarPlaneDistance
+  name: FarPlaneDistance
+  href: engineAPI/Engine.Core.Components.Camera.html#Engine_Core_Components_Camera_FarPlaneDistance
+  commentId: P:Engine.Core.Components.Camera.FarPlaneDistance
+  fullName: Engine.Core.Components.Camera.FarPlaneDistance
+  nameWithType: Camera.FarPlaneDistance
+- uid: Engine.Core.Components.Camera.FarPlaneDistance*
+  name: FarPlaneDistance
+  href: engineAPI/Engine.Core.Components.Camera.html#Engine_Core_Components_Camera_FarPlaneDistance_
+  commentId: Overload:Engine.Core.Components.Camera.FarPlaneDistance
+  isSpec: "True"
+  fullName: Engine.Core.Components.Camera.FarPlaneDistance
+  nameWithType: Camera.FarPlaneDistance
+- uid: Engine.Core.Components.Camera.ImagePlane
+  name: ImagePlane
+  href: engineAPI/Engine.Core.Components.Camera.html#Engine_Core_Components_Camera_ImagePlane
+  commentId: P:Engine.Core.Components.Camera.ImagePlane
+  fullName: Engine.Core.Components.Camera.ImagePlane
+  nameWithType: Camera.ImagePlane
+- uid: Engine.Core.Components.Camera.ImagePlane*
+  name: ImagePlane
+  href: engineAPI/Engine.Core.Components.Camera.html#Engine_Core_Components_Camera_ImagePlane_
+  commentId: Overload:Engine.Core.Components.Camera.ImagePlane
+  isSpec: "True"
+  fullName: Engine.Core.Components.Camera.ImagePlane
+  nameWithType: Camera.ImagePlane
+- uid: Engine.Core.Components.Camera.NearPlane
+  name: NearPlane
+  href: engineAPI/Engine.Core.Components.Camera.html#Engine_Core_Components_Camera_NearPlane
+  commentId: P:Engine.Core.Components.Camera.NearPlane
+  fullName: Engine.Core.Components.Camera.NearPlane
+  nameWithType: Camera.NearPlane
+- uid: Engine.Core.Components.Camera.NearPlane*
+  name: NearPlane
+  href: engineAPI/Engine.Core.Components.Camera.html#Engine_Core_Components_Camera_NearPlane_
+  commentId: Overload:Engine.Core.Components.Camera.NearPlane
+  isSpec: "True"
+  fullName: Engine.Core.Components.Camera.NearPlane
+  nameWithType: Camera.NearPlane
+- uid: Engine.Core.Components.Camera.NearPlaneDistance
+  name: NearPlaneDistance
+  href: engineAPI/Engine.Core.Components.Camera.html#Engine_Core_Components_Camera_NearPlaneDistance
+  commentId: P:Engine.Core.Components.Camera.NearPlaneDistance
+  fullName: Engine.Core.Components.Camera.NearPlaneDistance
+  nameWithType: Camera.NearPlaneDistance
+- uid: Engine.Core.Components.Camera.NearPlaneDistance*
+  name: NearPlaneDistance
+  href: engineAPI/Engine.Core.Components.Camera.html#Engine_Core_Components_Camera_NearPlaneDistance_
+  commentId: Overload:Engine.Core.Components.Camera.NearPlaneDistance
+  isSpec: "True"
+  fullName: Engine.Core.Components.Camera.NearPlaneDistance
+  nameWithType: Camera.NearPlaneDistance
+- uid: Engine.Core.Components.Camera.RenderPoint(System.Single,System.Single)
+  name: RenderPoint(Single, Single)
+  href: engineAPI/Engine.Core.Components.Camera.html#Engine_Core_Components_Camera_RenderPoint_System_Single_System_Single_
+  commentId: M:Engine.Core.Components.Camera.RenderPoint(System.Single,System.Single)
+  fullName: Engine.Core.Components.Camera.RenderPoint(System.Single, System.Single)
+  nameWithType: Camera.RenderPoint(Single, Single)
+- uid: Engine.Core.Components.Camera.RenderPoint*
+  name: RenderPoint
+  href: engineAPI/Engine.Core.Components.Camera.html#Engine_Core_Components_Camera_RenderPoint_
+  commentId: Overload:Engine.Core.Components.Camera.RenderPoint
+  isSpec: "True"
+  fullName: Engine.Core.Components.Camera.RenderPoint
+  nameWithType: Camera.RenderPoint
 - uid: Engine.Core.Components.Edge
   name: Edge
   href: engineAPI/Engine.Core.Components.Edge.html
@@ -152,6 +382,238 @@ references:
   isSpec: "True"
   fullName: Engine.Core.Components.Face.SetFace
   nameWithType: Face.SetFace
+- uid: Engine.Core.Components.LCS3
+  name: LCS3
+  href: engineAPI/Engine.Core.Components.LCS3.html
+  commentId: T:Engine.Core.Components.LCS3
+  fullName: Engine.Core.Components.LCS3
+  nameWithType: LCS3
+- uid: Engine.Core.Components.LCS3.#ctor(Engine.Core.Object3D)
+  name: LCS3(Object3D)
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3__ctor_Engine_Core_Object3D_
+  commentId: M:Engine.Core.Components.LCS3.#ctor(Engine.Core.Object3D)
+  fullName: Engine.Core.Components.LCS3.LCS3(Engine.Core.Object3D)
+  nameWithType: LCS3.LCS3(Object3D)
+- uid: Engine.Core.Components.LCS3.#ctor*
+  name: LCS3
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3__ctor_
+  commentId: Overload:Engine.Core.Components.LCS3.#ctor
+  isSpec: "True"
+  fullName: Engine.Core.Components.LCS3.LCS3
+  nameWithType: LCS3.LCS3
+- uid: Engine.Core.Components.LCS3.axis
+  name: axis
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_axis
+  commentId: F:Engine.Core.Components.LCS3.axis
+  fullName: Engine.Core.Components.LCS3.axis
+  nameWithType: LCS3.axis
+- uid: Engine.Core.Components.LCS3.AxisToGlobalUnitVectors
+  name: AxisToGlobalUnitVectors()
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_AxisToGlobalUnitVectors
+  commentId: M:Engine.Core.Components.LCS3.AxisToGlobalUnitVectors
+  fullName: Engine.Core.Components.LCS3.AxisToGlobalUnitVectors()
+  nameWithType: LCS3.AxisToGlobalUnitVectors()
+- uid: Engine.Core.Components.LCS3.AxisToGlobalUnitVectors*
+  name: AxisToGlobalUnitVectors
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_AxisToGlobalUnitVectors_
+  commentId: Overload:Engine.Core.Components.LCS3.AxisToGlobalUnitVectors
+  isSpec: "True"
+  fullName: Engine.Core.Components.LCS3.AxisToGlobalUnitVectors
+  nameWithType: LCS3.AxisToGlobalUnitVectors
+- uid: Engine.Core.Components.LCS3.CalculateGlobals
+  name: CalculateGlobals()
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_CalculateGlobals
+  commentId: M:Engine.Core.Components.LCS3.CalculateGlobals
+  fullName: Engine.Core.Components.LCS3.CalculateGlobals()
+  nameWithType: LCS3.CalculateGlobals()
+- uid: Engine.Core.Components.LCS3.CalculateGlobals*
+  name: CalculateGlobals
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_CalculateGlobals_
+  commentId: Overload:Engine.Core.Components.LCS3.CalculateGlobals
+  isSpec: "True"
+  fullName: Engine.Core.Components.LCS3.CalculateGlobals
+  nameWithType: LCS3.CalculateGlobals
+- uid: Engine.Core.Components.LCS3.children
+  name: children
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_children
+  commentId: F:Engine.Core.Components.LCS3.children
+  fullName: Engine.Core.Components.LCS3.children
+  nameWithType: LCS3.children
+- uid: Engine.Core.Components.LCS3.Current
+  name: Current
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_Current
+  commentId: P:Engine.Core.Components.LCS3.Current
+  fullName: Engine.Core.Components.LCS3.Current
+  nameWithType: LCS3.Current
+- uid: Engine.Core.Components.LCS3.Current*
+  name: Current
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_Current_
+  commentId: Overload:Engine.Core.Components.LCS3.Current
+  isSpec: "True"
+  fullName: Engine.Core.Components.LCS3.Current
+  nameWithType: LCS3.Current
+- uid: Engine.Core.Components.LCS3.Dispose
+  name: Dispose()
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_Dispose
+  commentId: M:Engine.Core.Components.LCS3.Dispose
+  fullName: Engine.Core.Components.LCS3.Dispose()
+  nameWithType: LCS3.Dispose()
+- uid: Engine.Core.Components.LCS3.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_Dispose_System_Boolean_
+  commentId: M:Engine.Core.Components.LCS3.Dispose(System.Boolean)
+  fullName: Engine.Core.Components.LCS3.Dispose(System.Boolean)
+  nameWithType: LCS3.Dispose(Boolean)
+- uid: Engine.Core.Components.LCS3.Dispose*
+  name: Dispose
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_Dispose_
+  commentId: Overload:Engine.Core.Components.LCS3.Dispose
+  isSpec: "True"
+  fullName: Engine.Core.Components.LCS3.Dispose
+  nameWithType: LCS3.Dispose
+- uid: Engine.Core.Components.LCS3.Finalize
+  name: Finalize()
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_Finalize
+  commentId: M:Engine.Core.Components.LCS3.Finalize
+  fullName: Engine.Core.Components.LCS3.Finalize()
+  nameWithType: LCS3.Finalize()
+- uid: Engine.Core.Components.LCS3.Finalize*
+  name: Finalize
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_Finalize_
+  commentId: Overload:Engine.Core.Components.LCS3.Finalize
+  isSpec: "True"
+  fullName: Engine.Core.Components.LCS3.Finalize
+  nameWithType: LCS3.Finalize
+- uid: Engine.Core.Components.LCS3.GetChilds
+  name: GetChilds()
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_GetChilds
+  commentId: M:Engine.Core.Components.LCS3.GetChilds
+  fullName: Engine.Core.Components.LCS3.GetChilds()
+  nameWithType: LCS3.GetChilds()
+- uid: Engine.Core.Components.LCS3.GetChilds*
+  name: GetChilds
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_GetChilds_
+  commentId: Overload:Engine.Core.Components.LCS3.GetChilds
+  isSpec: "True"
+  fullName: Engine.Core.Components.LCS3.GetChilds
+  nameWithType: LCS3.GetChilds
+- uid: Engine.Core.Components.LCS3.GetEnumerator
+  name: GetEnumerator()
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_GetEnumerator
+  commentId: M:Engine.Core.Components.LCS3.GetEnumerator
+  fullName: Engine.Core.Components.LCS3.GetEnumerator()
+  nameWithType: LCS3.GetEnumerator()
+- uid: Engine.Core.Components.LCS3.GetEnumerator*
+  name: GetEnumerator
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_GetEnumerator_
+  commentId: Overload:Engine.Core.Components.LCS3.GetEnumerator
+  isSpec: "True"
+  fullName: Engine.Core.Components.LCS3.GetEnumerator
+  nameWithType: LCS3.GetEnumerator
+- uid: Engine.Core.Components.LCS3.GlobalPosition
+  name: GlobalPosition
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_GlobalPosition
+  commentId: P:Engine.Core.Components.LCS3.GlobalPosition
+  fullName: Engine.Core.Components.LCS3.GlobalPosition
+  nameWithType: LCS3.GlobalPosition
+- uid: Engine.Core.Components.LCS3.GlobalPosition*
+  name: GlobalPosition
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_GlobalPosition_
+  commentId: Overload:Engine.Core.Components.LCS3.GlobalPosition
+  isSpec: "True"
+  fullName: Engine.Core.Components.LCS3.GlobalPosition
+  nameWithType: LCS3.GlobalPosition
+- uid: Engine.Core.Components.LCS3.GlobalRotation
+  name: GlobalRotation
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_GlobalRotation
+  commentId: P:Engine.Core.Components.LCS3.GlobalRotation
+  fullName: Engine.Core.Components.LCS3.GlobalRotation
+  nameWithType: LCS3.GlobalRotation
+- uid: Engine.Core.Components.LCS3.GlobalRotation*
+  name: GlobalRotation
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_GlobalRotation_
+  commentId: Overload:Engine.Core.Components.LCS3.GlobalRotation
+  isSpec: "True"
+  fullName: Engine.Core.Components.LCS3.GlobalRotation
+  nameWithType: LCS3.GlobalRotation
+- uid: Engine.Core.Components.LCS3.GlobalScale
+  name: GlobalScale
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_GlobalScale
+  commentId: P:Engine.Core.Components.LCS3.GlobalScale
+  fullName: Engine.Core.Components.LCS3.GlobalScale
+  nameWithType: LCS3.GlobalScale
+- uid: Engine.Core.Components.LCS3.GlobalScale*
+  name: GlobalScale
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_GlobalScale_
+  commentId: Overload:Engine.Core.Components.LCS3.GlobalScale
+  isSpec: "True"
+  fullName: Engine.Core.Components.LCS3.GlobalScale
+  nameWithType: LCS3.GlobalScale
+- uid: Engine.Core.Components.LCS3.LocalPosition
+  name: LocalPosition
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_LocalPosition
+  commentId: P:Engine.Core.Components.LCS3.LocalPosition
+  fullName: Engine.Core.Components.LCS3.LocalPosition
+  nameWithType: LCS3.LocalPosition
+- uid: Engine.Core.Components.LCS3.LocalPosition*
+  name: LocalPosition
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_LocalPosition_
+  commentId: Overload:Engine.Core.Components.LCS3.LocalPosition
+  isSpec: "True"
+  fullName: Engine.Core.Components.LCS3.LocalPosition
+  nameWithType: LCS3.LocalPosition
+- uid: Engine.Core.Components.LCS3.LocalRotation
+  name: LocalRotation
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_LocalRotation
+  commentId: P:Engine.Core.Components.LCS3.LocalRotation
+  fullName: Engine.Core.Components.LCS3.LocalRotation
+  nameWithType: LCS3.LocalRotation
+- uid: Engine.Core.Components.LCS3.LocalRotation*
+  name: LocalRotation
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_LocalRotation_
+  commentId: Overload:Engine.Core.Components.LCS3.LocalRotation
+  isSpec: "True"
+  fullName: Engine.Core.Components.LCS3.LocalRotation
+  nameWithType: LCS3.LocalRotation
+- uid: Engine.Core.Components.LCS3.LocalScale
+  name: LocalScale
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_LocalScale
+  commentId: P:Engine.Core.Components.LCS3.LocalScale
+  fullName: Engine.Core.Components.LCS3.LocalScale
+  nameWithType: LCS3.LocalScale
+- uid: Engine.Core.Components.LCS3.LocalScale*
+  name: LocalScale
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_LocalScale_
+  commentId: Overload:Engine.Core.Components.LCS3.LocalScale
+  isSpec: "True"
+  fullName: Engine.Core.Components.LCS3.LocalScale
+  nameWithType: LCS3.LocalScale
+- uid: Engine.Core.Components.LCS3.MoveNext
+  name: MoveNext()
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_MoveNext
+  commentId: M:Engine.Core.Components.LCS3.MoveNext
+  fullName: Engine.Core.Components.LCS3.MoveNext()
+  nameWithType: LCS3.MoveNext()
+- uid: Engine.Core.Components.LCS3.MoveNext*
+  name: MoveNext
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_MoveNext_
+  commentId: Overload:Engine.Core.Components.LCS3.MoveNext
+  isSpec: "True"
+  fullName: Engine.Core.Components.LCS3.MoveNext
+  nameWithType: LCS3.MoveNext
+- uid: Engine.Core.Components.LCS3.Reset
+  name: Reset()
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_Reset
+  commentId: M:Engine.Core.Components.LCS3.Reset
+  fullName: Engine.Core.Components.LCS3.Reset()
+  nameWithType: LCS3.Reset()
+- uid: Engine.Core.Components.LCS3.Reset*
+  name: Reset
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_Reset_
+  commentId: Overload:Engine.Core.Components.LCS3.Reset
+  isSpec: "True"
+  fullName: Engine.Core.Components.LCS3.Reset
+  nameWithType: LCS3.Reset
 - uid: Engine.Core.Components.Mesh
   name: Mesh
   href: engineAPI/Engine.Core.Components.Mesh.html
@@ -572,6 +1034,67 @@ references:
   commentId: T:Engine.Core.Maths.AffineTransformationMatrix4x4
   fullName: Engine.Core.Maths.AffineTransformationMatrix4x4
   nameWithType: AffineTransformationMatrix4x4
+- uid: Engine.Core.Maths.AffineTransformationMatrix4x4.#ctor
+  name: AffineTransformationMatrix4x4()
+  href: engineAPI/Engine.Core.Maths.AffineTransformationMatrix4x4.html#Engine_Core_Maths_AffineTransformationMatrix4x4__ctor
+  commentId: M:Engine.Core.Maths.AffineTransformationMatrix4x4.#ctor
+  fullName: Engine.Core.Maths.AffineTransformationMatrix4x4.AffineTransformationMatrix4x4()
+  nameWithType: AffineTransformationMatrix4x4.AffineTransformationMatrix4x4()
+- uid: Engine.Core.Maths.AffineTransformationMatrix4x4.#ctor(Engine.Core.Maths.TransformationConvention,Engine.Core.Maths.RotationConvention)
+  name: AffineTransformationMatrix4x4(TransformationConvention, RotationConvention)
+  href: engineAPI/Engine.Core.Maths.AffineTransformationMatrix4x4.html#Engine_Core_Maths_AffineTransformationMatrix4x4__ctor_Engine_Core_Maths_TransformationConvention_Engine_Core_Maths_RotationConvention_
+  commentId: M:Engine.Core.Maths.AffineTransformationMatrix4x4.#ctor(Engine.Core.Maths.TransformationConvention,Engine.Core.Maths.RotationConvention)
+  fullName: Engine.Core.Maths.AffineTransformationMatrix4x4.AffineTransformationMatrix4x4(Engine.Core.Maths.TransformationConvention, Engine.Core.Maths.RotationConvention)
+  nameWithType: AffineTransformationMatrix4x4.AffineTransformationMatrix4x4(TransformationConvention, RotationConvention)
+- uid: Engine.Core.Maths.AffineTransformationMatrix4x4.#ctor*
+  name: AffineTransformationMatrix4x4
+  href: engineAPI/Engine.Core.Maths.AffineTransformationMatrix4x4.html#Engine_Core_Maths_AffineTransformationMatrix4x4__ctor_
+  commentId: Overload:Engine.Core.Maths.AffineTransformationMatrix4x4.#ctor
+  isSpec: "True"
+  fullName: Engine.Core.Maths.AffineTransformationMatrix4x4.AffineTransformationMatrix4x4
+  nameWithType: AffineTransformationMatrix4x4.AffineTransformationMatrix4x4
+- uid: Engine.Core.Maths.AffineTransformationMatrix4x4.ATM4x4
+  name: ATM4x4
+  href: engineAPI/Engine.Core.Maths.AffineTransformationMatrix4x4.html#Engine_Core_Maths_AffineTransformationMatrix4x4_ATM4x4
+  commentId: F:Engine.Core.Maths.AffineTransformationMatrix4x4.ATM4x4
+  fullName: Engine.Core.Maths.AffineTransformationMatrix4x4.ATM4x4
+  nameWithType: AffineTransformationMatrix4x4.ATM4x4
+- uid: Engine.Core.Maths.AffineTransformationMatrix4x4.dilationSub
+  name: dilationSub
+  href: engineAPI/Engine.Core.Maths.AffineTransformationMatrix4x4.html#Engine_Core_Maths_AffineTransformationMatrix4x4_dilationSub
+  commentId: F:Engine.Core.Maths.AffineTransformationMatrix4x4.dilationSub
+  fullName: Engine.Core.Maths.AffineTransformationMatrix4x4.dilationSub
+  nameWithType: AffineTransformationMatrix4x4.dilationSub
+- uid: Engine.Core.Maths.AffineTransformationMatrix4x4.rotationQ
+  name: rotationQ
+  href: engineAPI/Engine.Core.Maths.AffineTransformationMatrix4x4.html#Engine_Core_Maths_AffineTransformationMatrix4x4_rotationQ
+  commentId: F:Engine.Core.Maths.AffineTransformationMatrix4x4.rotationQ
+  fullName: Engine.Core.Maths.AffineTransformationMatrix4x4.rotationQ
+  nameWithType: AffineTransformationMatrix4x4.rotationQ
+- uid: Engine.Core.Maths.AffineTransformationMatrix4x4.rotationSub
+  name: rotationSub
+  href: engineAPI/Engine.Core.Maths.AffineTransformationMatrix4x4.html#Engine_Core_Maths_AffineTransformationMatrix4x4_rotationSub
+  commentId: F:Engine.Core.Maths.AffineTransformationMatrix4x4.rotationSub
+  fullName: Engine.Core.Maths.AffineTransformationMatrix4x4.rotationSub
+  nameWithType: AffineTransformationMatrix4x4.rotationSub
+- uid: Engine.Core.Maths.AffineTransformationMatrix4x4.shearSub
+  name: shearSub
+  href: engineAPI/Engine.Core.Maths.AffineTransformationMatrix4x4.html#Engine_Core_Maths_AffineTransformationMatrix4x4_shearSub
+  commentId: F:Engine.Core.Maths.AffineTransformationMatrix4x4.shearSub
+  fullName: Engine.Core.Maths.AffineTransformationMatrix4x4.shearSub
+  nameWithType: AffineTransformationMatrix4x4.shearSub
+- uid: Engine.Core.Maths.AffineTransformationMatrix4x4.TConvention
+  name: TConvention
+  href: engineAPI/Engine.Core.Maths.AffineTransformationMatrix4x4.html#Engine_Core_Maths_AffineTransformationMatrix4x4_TConvention
+  commentId: F:Engine.Core.Maths.AffineTransformationMatrix4x4.TConvention
+  fullName: Engine.Core.Maths.AffineTransformationMatrix4x4.TConvention
+  nameWithType: AffineTransformationMatrix4x4.TConvention
+- uid: Engine.Core.Maths.AffineTransformationMatrix4x4.translationVector
+  name: translationVector
+  href: engineAPI/Engine.Core.Maths.AffineTransformationMatrix4x4.html#Engine_Core_Maths_AffineTransformationMatrix4x4_translationVector
+  commentId: F:Engine.Core.Maths.AffineTransformationMatrix4x4.translationVector
+  fullName: Engine.Core.Maths.AffineTransformationMatrix4x4.translationVector
+  nameWithType: AffineTransformationMatrix4x4.translationVector
 - uid: Engine.Core.Maths.AugmentedMatrix
   name: AugmentedMatrix
   href: engineAPI/Engine.Core.Maths.AugmentedMatrix.html
@@ -667,36 +1190,149 @@ references:
   commentId: F:Engine.Core.Maths.Axis.X3
   fullName: Engine.Core.Maths.Axis.X3
   nameWithType: Axis.X3
-- uid: Engine.Core.Maths.Constants
-  name: Constants
-  href: engineAPI/Engine.Core.Maths.Constants.html
-  commentId: T:Engine.Core.Maths.Constants
-  fullName: Engine.Core.Maths.Constants
-  nameWithType: Constants
-- uid: Engine.Core.Maths.Constants.PiQuarter
-  name: PiQuarter
-  href: engineAPI/Engine.Core.Maths.Constants.html#Engine_Core_Maths_Constants_PiQuarter
-  commentId: F:Engine.Core.Maths.Constants.PiQuarter
-  fullName: Engine.Core.Maths.Constants.PiQuarter
-  nameWithType: Constants.PiQuarter
-- uid: Engine.Core.Maths.Convention
-  name: Convention
-  href: engineAPI/Engine.Core.Maths.Convention.html
-  commentId: T:Engine.Core.Maths.Convention
-  fullName: Engine.Core.Maths.Convention
-  nameWithType: Convention
-- uid: Engine.Core.Maths.Convention.X1X2X3
-  name: X1X2X3
-  href: engineAPI/Engine.Core.Maths.Convention.html#Engine_Core_Maths_Convention_X1X2X3
-  commentId: F:Engine.Core.Maths.Convention.X1X2X3
-  fullName: Engine.Core.Maths.Convention.X1X2X3
-  nameWithType: Convention.X1X2X3
-- uid: Engine.Core.Maths.Convention.X3X2X1
-  name: X3X2X1
-  href: engineAPI/Engine.Core.Maths.Convention.html#Engine_Core_Maths_Convention_X3X2X1
-  commentId: F:Engine.Core.Maths.Convention.X3X2X1
-  fullName: Engine.Core.Maths.Convention.X3X2X1
-  nameWithType: Convention.X3X2X1
+- uid: Engine.Core.Maths.BaseDirections2D
+  name: BaseDirections2D
+  href: engineAPI/Engine.Core.Maths.BaseDirections2D.html
+  commentId: T:Engine.Core.Maths.BaseDirections2D
+  fullName: Engine.Core.Maths.BaseDirections2D
+  nameWithType: BaseDirections2D
+- uid: Engine.Core.Maths.BaseDirections2D.Horizontal
+  name: Horizontal
+  href: engineAPI/Engine.Core.Maths.BaseDirections2D.html#Engine_Core_Maths_BaseDirections2D_Horizontal
+  commentId: F:Engine.Core.Maths.BaseDirections2D.Horizontal
+  fullName: Engine.Core.Maths.BaseDirections2D.Horizontal
+  nameWithType: BaseDirections2D.Horizontal
+- uid: Engine.Core.Maths.BaseDirections2D.Vertical
+  name: Vertical
+  href: engineAPI/Engine.Core.Maths.BaseDirections2D.html#Engine_Core_Maths_BaseDirections2D_Vertical
+  commentId: F:Engine.Core.Maths.BaseDirections2D.Vertical
+  fullName: Engine.Core.Maths.BaseDirections2D.Vertical
+  nameWithType: BaseDirections2D.Vertical
+- uid: Engine.Core.Maths.BasePlane
+  name: BasePlane
+  href: engineAPI/Engine.Core.Maths.BasePlane.html
+  commentId: T:Engine.Core.Maths.BasePlane
+  fullName: Engine.Core.Maths.BasePlane
+  nameWithType: BasePlane
+- uid: Engine.Core.Maths.BasePlane.X1X2
+  name: X1X2
+  href: engineAPI/Engine.Core.Maths.BasePlane.html#Engine_Core_Maths_BasePlane_X1X2
+  commentId: F:Engine.Core.Maths.BasePlane.X1X2
+  fullName: Engine.Core.Maths.BasePlane.X1X2
+  nameWithType: BasePlane.X1X2
+- uid: Engine.Core.Maths.BasePlane.X1X3
+  name: X1X3
+  href: engineAPI/Engine.Core.Maths.BasePlane.html#Engine_Core_Maths_BasePlane_X1X3
+  commentId: F:Engine.Core.Maths.BasePlane.X1X3
+  fullName: Engine.Core.Maths.BasePlane.X1X3
+  nameWithType: BasePlane.X1X3
+- uid: Engine.Core.Maths.BasePlane.X2X3
+  name: X2X3
+  href: engineAPI/Engine.Core.Maths.BasePlane.html#Engine_Core_Maths_BasePlane_X2X3
+  commentId: F:Engine.Core.Maths.BasePlane.X2X3
+  fullName: Engine.Core.Maths.BasePlane.X2X3
+  nameWithType: BasePlane.X2X3
+- uid: Engine.Core.Maths.DilationMatrix2x2
+  name: DilationMatrix2x2
+  href: engineAPI/Engine.Core.Maths.DilationMatrix2x2.html
+  commentId: T:Engine.Core.Maths.DilationMatrix2x2
+  fullName: Engine.Core.Maths.DilationMatrix2x2
+  nameWithType: DilationMatrix2x2
+- uid: Engine.Core.Maths.DilationMatrix2x2.#ctor(System.Single,System.Single)
+  name: DilationMatrix2x2(Single, Single)
+  href: engineAPI/Engine.Core.Maths.DilationMatrix2x2.html#Engine_Core_Maths_DilationMatrix2x2__ctor_System_Single_System_Single_
+  commentId: M:Engine.Core.Maths.DilationMatrix2x2.#ctor(System.Single,System.Single)
+  fullName: Engine.Core.Maths.DilationMatrix2x2.DilationMatrix2x2(System.Single, System.Single)
+  nameWithType: DilationMatrix2x2.DilationMatrix2x2(Single, Single)
+- uid: Engine.Core.Maths.DilationMatrix2x2.#ctor*
+  name: DilationMatrix2x2
+  href: engineAPI/Engine.Core.Maths.DilationMatrix2x2.html#Engine_Core_Maths_DilationMatrix2x2__ctor_
+  commentId: Overload:Engine.Core.Maths.DilationMatrix2x2.#ctor
+  isSpec: "True"
+  fullName: Engine.Core.Maths.DilationMatrix2x2.DilationMatrix2x2
+  nameWithType: DilationMatrix2x2.DilationMatrix2x2
+- uid: Engine.Core.Maths.DilationMatrix2x2.D2x2
+  name: D2x2
+  href: engineAPI/Engine.Core.Maths.DilationMatrix2x2.html#Engine_Core_Maths_DilationMatrix2x2_D2x2
+  commentId: F:Engine.Core.Maths.DilationMatrix2x2.D2x2
+  fullName: Engine.Core.Maths.DilationMatrix2x2.D2x2
+  nameWithType: DilationMatrix2x2.D2x2
+- uid: Engine.Core.Maths.DilationMatrix2x2.op_Implicit(Engine.Core.Maths.DilationMatrix2x2)~Engine.Core.Maths.MatrixMxN
+  name: Implicit(DilationMatrix2x2 to MatrixMxN)
+  href: engineAPI/Engine.Core.Maths.DilationMatrix2x2.html#Engine_Core_Maths_DilationMatrix2x2_op_Implicit_Engine_Core_Maths_DilationMatrix2x2__Engine_Core_Maths_MatrixMxN
+  commentId: M:Engine.Core.Maths.DilationMatrix2x2.op_Implicit(Engine.Core.Maths.DilationMatrix2x2)~Engine.Core.Maths.MatrixMxN
+  name.vb: Widening(DilationMatrix2x2 to MatrixMxN)
+  fullName: Engine.Core.Maths.DilationMatrix2x2.Implicit(Engine.Core.Maths.DilationMatrix2x2 to Engine.Core.Maths.MatrixMxN)
+  fullName.vb: Engine.Core.Maths.DilationMatrix2x2.Widening(Engine.Core.Maths.DilationMatrix2x2 to Engine.Core.Maths.MatrixMxN)
+  nameWithType: DilationMatrix2x2.Implicit(DilationMatrix2x2 to MatrixMxN)
+  nameWithType.vb: DilationMatrix2x2.Widening(DilationMatrix2x2 to MatrixMxN)
+- uid: Engine.Core.Maths.DilationMatrix2x2.op_Implicit*
+  name: Implicit
+  href: engineAPI/Engine.Core.Maths.DilationMatrix2x2.html#Engine_Core_Maths_DilationMatrix2x2_op_Implicit_
+  commentId: Overload:Engine.Core.Maths.DilationMatrix2x2.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: Engine.Core.Maths.DilationMatrix2x2.Implicit
+  fullName.vb: Engine.Core.Maths.DilationMatrix2x2.Widening
+  nameWithType: DilationMatrix2x2.Implicit
+  nameWithType.vb: DilationMatrix2x2.Widening
+- uid: Engine.Core.Maths.DilationMatrix3x3
+  name: DilationMatrix3x3
+  href: engineAPI/Engine.Core.Maths.DilationMatrix3x3.html
+  commentId: T:Engine.Core.Maths.DilationMatrix3x3
+  fullName: Engine.Core.Maths.DilationMatrix3x3
+  nameWithType: DilationMatrix3x3
+- uid: Engine.Core.Maths.DilationMatrix3x3.#ctor(System.Single,System.Single,System.Single)
+  name: DilationMatrix3x3(Single, Single, Single)
+  href: engineAPI/Engine.Core.Maths.DilationMatrix3x3.html#Engine_Core_Maths_DilationMatrix3x3__ctor_System_Single_System_Single_System_Single_
+  commentId: M:Engine.Core.Maths.DilationMatrix3x3.#ctor(System.Single,System.Single,System.Single)
+  fullName: Engine.Core.Maths.DilationMatrix3x3.DilationMatrix3x3(System.Single, System.Single, System.Single)
+  nameWithType: DilationMatrix3x3.DilationMatrix3x3(Single, Single, Single)
+- uid: Engine.Core.Maths.DilationMatrix3x3.#ctor*
+  name: DilationMatrix3x3
+  href: engineAPI/Engine.Core.Maths.DilationMatrix3x3.html#Engine_Core_Maths_DilationMatrix3x3__ctor_
+  commentId: Overload:Engine.Core.Maths.DilationMatrix3x3.#ctor
+  isSpec: "True"
+  fullName: Engine.Core.Maths.DilationMatrix3x3.DilationMatrix3x3
+  nameWithType: DilationMatrix3x3.DilationMatrix3x3
+- uid: Engine.Core.Maths.DilationMatrix3x3.D3x3
+  name: D3x3
+  href: engineAPI/Engine.Core.Maths.DilationMatrix3x3.html#Engine_Core_Maths_DilationMatrix3x3_D3x3
+  commentId: F:Engine.Core.Maths.DilationMatrix3x3.D3x3
+  fullName: Engine.Core.Maths.DilationMatrix3x3.D3x3
+  nameWithType: DilationMatrix3x3.D3x3
+- uid: Engine.Core.Maths.DilationMatrix3x3.op_Implicit(Engine.Core.Maths.DilationMatrix3x3)~Engine.Core.Maths.Matrix3x3
+  name: Implicit(DilationMatrix3x3 to Matrix3x3)
+  href: engineAPI/Engine.Core.Maths.DilationMatrix3x3.html#Engine_Core_Maths_DilationMatrix3x3_op_Implicit_Engine_Core_Maths_DilationMatrix3x3__Engine_Core_Maths_Matrix3x3
+  commentId: M:Engine.Core.Maths.DilationMatrix3x3.op_Implicit(Engine.Core.Maths.DilationMatrix3x3)~Engine.Core.Maths.Matrix3x3
+  name.vb: Widening(DilationMatrix3x3 to Matrix3x3)
+  fullName: Engine.Core.Maths.DilationMatrix3x3.Implicit(Engine.Core.Maths.DilationMatrix3x3 to Engine.Core.Maths.Matrix3x3)
+  fullName.vb: Engine.Core.Maths.DilationMatrix3x3.Widening(Engine.Core.Maths.DilationMatrix3x3 to Engine.Core.Maths.Matrix3x3)
+  nameWithType: DilationMatrix3x3.Implicit(DilationMatrix3x3 to Matrix3x3)
+  nameWithType.vb: DilationMatrix3x3.Widening(DilationMatrix3x3 to Matrix3x3)
+- uid: Engine.Core.Maths.DilationMatrix3x3.op_Implicit*
+  name: Implicit
+  href: engineAPI/Engine.Core.Maths.DilationMatrix3x3.html#Engine_Core_Maths_DilationMatrix3x3_op_Implicit_
+  commentId: Overload:Engine.Core.Maths.DilationMatrix3x3.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: Engine.Core.Maths.DilationMatrix3x3.Implicit
+  fullName.vb: Engine.Core.Maths.DilationMatrix3x3.Widening
+  nameWithType: DilationMatrix3x3.Implicit
+  nameWithType.vb: DilationMatrix3x3.Widening
+- uid: Engine.Core.Maths.DilationMatrix3x3.ToMatrix4x4
+  name: ToMatrix4x4()
+  href: engineAPI/Engine.Core.Maths.DilationMatrix3x3.html#Engine_Core_Maths_DilationMatrix3x3_ToMatrix4x4
+  commentId: M:Engine.Core.Maths.DilationMatrix3x3.ToMatrix4x4
+  fullName: Engine.Core.Maths.DilationMatrix3x3.ToMatrix4x4()
+  nameWithType: DilationMatrix3x3.ToMatrix4x4()
+- uid: Engine.Core.Maths.DilationMatrix3x3.ToMatrix4x4*
+  name: ToMatrix4x4
+  href: engineAPI/Engine.Core.Maths.DilationMatrix3x3.html#Engine_Core_Maths_DilationMatrix3x3_ToMatrix4x4_
+  commentId: Overload:Engine.Core.Maths.DilationMatrix3x3.ToMatrix4x4
+  isSpec: "True"
+  fullName: Engine.Core.Maths.DilationMatrix3x3.ToMatrix4x4
+  nameWithType: DilationMatrix3x3.ToMatrix4x4
 - uid: Engine.Core.Maths.FloatEnumerator
   name: FloatEnumerator
   href: engineAPI/Engine.Core.Maths.FloatEnumerator.html
@@ -836,50 +1472,81 @@ references:
   isSpec: "True"
   fullName: Engine.Core.Maths.Gauss.GaussianElimination
   nameWithType: Gauss.GaussianElimination
-- uid: Engine.Core.Maths.GCS
-  name: GCS
-  href: engineAPI/Engine.Core.Maths.GCS.html
-  commentId: T:Engine.Core.Maths.GCS
-  fullName: Engine.Core.Maths.GCS
-  nameWithType: GCS
-- uid: Engine.Core.Maths.GCS.#ctor
-  name: GCS()
-  href: engineAPI/Engine.Core.Maths.GCS.html#Engine_Core_Maths_GCS__ctor
-  commentId: M:Engine.Core.Maths.GCS.#ctor
-  fullName: Engine.Core.Maths.GCS.GCS()
-  nameWithType: GCS.GCS()
-- uid: Engine.Core.Maths.GCS.#ctor*
-  name: GCS
-  href: engineAPI/Engine.Core.Maths.GCS.html#Engine_Core_Maths_GCS__ctor_
-  commentId: Overload:Engine.Core.Maths.GCS.#ctor
+- uid: Engine.Core.Maths.GCS3
+  name: GCS3
+  href: engineAPI/Engine.Core.Maths.GCS3.html
+  commentId: T:Engine.Core.Maths.GCS3
+  fullName: Engine.Core.Maths.GCS3
+  nameWithType: GCS3
+- uid: Engine.Core.Maths.GCS3.#ctor
+  name: GCS3()
+  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3__ctor
+  commentId: M:Engine.Core.Maths.GCS3.#ctor
+  fullName: Engine.Core.Maths.GCS3.GCS3()
+  nameWithType: GCS3.GCS3()
+- uid: Engine.Core.Maths.GCS3.#ctor*
+  name: GCS3
+  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3__ctor_
+  commentId: Overload:Engine.Core.Maths.GCS3.#ctor
   isSpec: "True"
-  fullName: Engine.Core.Maths.GCS.GCS
-  nameWithType: GCS.GCS
-- uid: Engine.Core.Maths.GCS.Add(Engine.Core.Maths.LCS)
-  name: Add(LCS)
-  href: engineAPI/Engine.Core.Maths.GCS.html#Engine_Core_Maths_GCS_Add_Engine_Core_Maths_LCS_
-  commentId: M:Engine.Core.Maths.GCS.Add(Engine.Core.Maths.LCS)
-  fullName: Engine.Core.Maths.GCS.Add(Engine.Core.Maths.LCS)
-  nameWithType: GCS.Add(LCS)
-- uid: Engine.Core.Maths.GCS.Add*
+  fullName: Engine.Core.Maths.GCS3.GCS3
+  nameWithType: GCS3.GCS3
+- uid: Engine.Core.Maths.GCS3.Add(LCS3)
+  name: Add(LCS3)
+  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_Add_LCS3_
+  commentId: M:Engine.Core.Maths.GCS3.Add(LCS3)
+  fullName: Engine.Core.Maths.GCS3.Add(LCS3)
+  nameWithType: GCS3.Add(LCS3)
+- uid: Engine.Core.Maths.GCS3.Add(LightSource)
+  name: Add(LightSource)
+  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_Add_LightSource_
+  commentId: M:Engine.Core.Maths.GCS3.Add(LightSource)
+  fullName: Engine.Core.Maths.GCS3.Add(LightSource)
+  nameWithType: GCS3.Add(LightSource)
+- uid: Engine.Core.Maths.GCS3.Add*
   name: Add
-  href: engineAPI/Engine.Core.Maths.GCS.html#Engine_Core_Maths_GCS_Add_
-  commentId: Overload:Engine.Core.Maths.GCS.Add
+  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_Add_
+  commentId: Overload:Engine.Core.Maths.GCS3.Add
   isSpec: "True"
-  fullName: Engine.Core.Maths.GCS.Add
-  nameWithType: GCS.Add
-- uid: Engine.Core.Maths.GCS.Axes
+  fullName: Engine.Core.Maths.GCS3.Add
+  nameWithType: GCS3.Add
+- uid: Engine.Core.Maths.GCS3.Axes
   name: Axes
-  href: engineAPI/Engine.Core.Maths.GCS.html#Engine_Core_Maths_GCS_Axes
-  commentId: F:Engine.Core.Maths.GCS.Axes
-  fullName: Engine.Core.Maths.GCS.Axes
-  nameWithType: GCS.Axes
-- uid: Engine.Core.Maths.GCS.LocalSystems
+  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_Axes
+  commentId: F:Engine.Core.Maths.GCS3.Axes
+  fullName: Engine.Core.Maths.GCS3.Axes
+  nameWithType: GCS3.Axes
+- uid: Engine.Core.Maths.GCS3.LightSources
+  name: LightSources
+  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_LightSources
+  commentId: F:Engine.Core.Maths.GCS3.LightSources
+  fullName: Engine.Core.Maths.GCS3.LightSources
+  nameWithType: GCS3.LightSources
+- uid: Engine.Core.Maths.GCS3.LocalSystems
   name: LocalSystems
-  href: engineAPI/Engine.Core.Maths.GCS.html#Engine_Core_Maths_GCS_LocalSystems
-  commentId: F:Engine.Core.Maths.GCS.LocalSystems
-  fullName: Engine.Core.Maths.GCS.LocalSystems
-  nameWithType: GCS.LocalSystems
+  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_LocalSystems
+  commentId: F:Engine.Core.Maths.GCS3.LocalSystems
+  fullName: Engine.Core.Maths.GCS3.LocalSystems
+  nameWithType: GCS3.LocalSystems
+- uid: Engine.Core.Maths.GCS3.Remove(LCS3)
+  name: Remove(LCS3)
+  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_Remove_LCS3_
+  commentId: M:Engine.Core.Maths.GCS3.Remove(LCS3)
+  fullName: Engine.Core.Maths.GCS3.Remove(LCS3)
+  nameWithType: GCS3.Remove(LCS3)
+- uid: Engine.Core.Maths.GCS3.Remove(LightSource)
+  name: Remove(LightSource)
+  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_Remove_LightSource_
+  commentId: M:Engine.Core.Maths.GCS3.Remove(LightSource)
+  fullName: Engine.Core.Maths.GCS3.Remove(LightSource)
+  nameWithType: GCS3.Remove(LightSource)
+- uid: Engine.Core.Maths.GCS3.Remove*
+  name: Remove
+  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_Remove_
+  commentId: Overload:Engine.Core.Maths.GCS3.Remove
+  isSpec: "True"
+  fullName: Engine.Core.Maths.GCS3.Remove
+  nameWithType: GCS3.Remove
 - uid: Engine.Core.Maths.IMatrix
   name: IMatrix
   href: engineAPI/Engine.Core.Maths.IMatrix.html
@@ -967,83 +1634,6 @@ references:
   isSpec: "True"
   fullName: Engine.Core.Maths.IMatrix.SwapRows
   nameWithType: IMatrix.SwapRows
-- uid: Engine.Core.Maths.LCS
-  name: LCS
-  href: engineAPI/Engine.Core.Maths.LCS.html
-  commentId: T:Engine.Core.Maths.LCS
-  fullName: Engine.Core.Maths.LCS
-  nameWithType: LCS
-- uid: Engine.Core.Maths.LCS.#ctor
-  name: LCS()
-  href: engineAPI/Engine.Core.Maths.LCS.html#Engine_Core_Maths_LCS__ctor
-  commentId: M:Engine.Core.Maths.LCS.#ctor
-  fullName: Engine.Core.Maths.LCS.LCS()
-  nameWithType: LCS.LCS()
-- uid: Engine.Core.Maths.LCS.#ctor*
-  name: LCS
-  href: engineAPI/Engine.Core.Maths.LCS.html#Engine_Core_Maths_LCS__ctor_
-  commentId: Overload:Engine.Core.Maths.LCS.#ctor
-  isSpec: "True"
-  fullName: Engine.Core.Maths.LCS.LCS
-  nameWithType: LCS.LCS
-- uid: Engine.Core.Maths.LCS.axis
-  name: axis
-  href: engineAPI/Engine.Core.Maths.LCS.html#Engine_Core_Maths_LCS_axis
-  commentId: F:Engine.Core.Maths.LCS.axis
-  fullName: Engine.Core.Maths.LCS.axis
-  nameWithType: LCS.axis
-- uid: Engine.Core.Maths.LCS.GlobalPosition
-  name: GlobalPosition
-  href: engineAPI/Engine.Core.Maths.LCS.html#Engine_Core_Maths_LCS_GlobalPosition
-  commentId: P:Engine.Core.Maths.LCS.GlobalPosition
-  fullName: Engine.Core.Maths.LCS.GlobalPosition
-  nameWithType: LCS.GlobalPosition
-- uid: Engine.Core.Maths.LCS.GlobalPosition*
-  name: GlobalPosition
-  href: engineAPI/Engine.Core.Maths.LCS.html#Engine_Core_Maths_LCS_GlobalPosition_
-  commentId: Overload:Engine.Core.Maths.LCS.GlobalPosition
-  isSpec: "True"
-  fullName: Engine.Core.Maths.LCS.GlobalPosition
-  nameWithType: LCS.GlobalPosition
-- uid: Engine.Core.Maths.LCS.LocalPosition
-  name: LocalPosition
-  href: engineAPI/Engine.Core.Maths.LCS.html#Engine_Core_Maths_LCS_LocalPosition
-  commentId: P:Engine.Core.Maths.LCS.LocalPosition
-  fullName: Engine.Core.Maths.LCS.LocalPosition
-  nameWithType: LCS.LocalPosition
-- uid: Engine.Core.Maths.LCS.LocalPosition*
-  name: LocalPosition
-  href: engineAPI/Engine.Core.Maths.LCS.html#Engine_Core_Maths_LCS_LocalPosition_
-  commentId: Overload:Engine.Core.Maths.LCS.LocalPosition
-  isSpec: "True"
-  fullName: Engine.Core.Maths.LCS.LocalPosition
-  nameWithType: LCS.LocalPosition
-- uid: Engine.Core.Maths.LCS.Rotation
-  name: Rotation
-  href: engineAPI/Engine.Core.Maths.LCS.html#Engine_Core_Maths_LCS_Rotation
-  commentId: P:Engine.Core.Maths.LCS.Rotation
-  fullName: Engine.Core.Maths.LCS.Rotation
-  nameWithType: LCS.Rotation
-- uid: Engine.Core.Maths.LCS.Rotation*
-  name: Rotation
-  href: engineAPI/Engine.Core.Maths.LCS.html#Engine_Core_Maths_LCS_Rotation_
-  commentId: Overload:Engine.Core.Maths.LCS.Rotation
-  isSpec: "True"
-  fullName: Engine.Core.Maths.LCS.Rotation
-  nameWithType: LCS.Rotation
-- uid: Engine.Core.Maths.LCS.Scale
-  name: Scale
-  href: engineAPI/Engine.Core.Maths.LCS.html#Engine_Core_Maths_LCS_Scale
-  commentId: P:Engine.Core.Maths.LCS.Scale
-  fullName: Engine.Core.Maths.LCS.Scale
-  nameWithType: LCS.Scale
-- uid: Engine.Core.Maths.LCS.Scale*
-  name: Scale
-  href: engineAPI/Engine.Core.Maths.LCS.html#Engine_Core_Maths_LCS_Scale_
-  commentId: Overload:Engine.Core.Maths.LCS.Scale
-  isSpec: "True"
-  fullName: Engine.Core.Maths.LCS.Scale
-  nameWithType: LCS.Scale
 - uid: Engine.Core.Maths.Mathf
   name: Mathf
   href: engineAPI/Engine.Core.Maths.Mathf.html
@@ -1173,6 +1763,38 @@ references:
   isSpec: "True"
   fullName: Engine.Core.Maths.Mathf.Cosh
   nameWithType: Mathf.Cosh
+- uid: Engine.Core.Maths.Mathf.CosinePiQuarter
+  name: CosinePiQuarter
+  href: engineAPI/Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_CosinePiQuarter
+  commentId: F:Engine.Core.Maths.Mathf.CosinePiQuarter
+  fullName: Engine.Core.Maths.Mathf.CosinePiQuarter
+  nameWithType: Mathf.CosinePiQuarter
+- uid: Engine.Core.Maths.Mathf.Cot(System.Single)
+  name: Cot(Single)
+  href: engineAPI/Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Cot_System_Single_
+  commentId: M:Engine.Core.Maths.Mathf.Cot(System.Single)
+  fullName: Engine.Core.Maths.Mathf.Cot(System.Single)
+  nameWithType: Mathf.Cot(Single)
+- uid: Engine.Core.Maths.Mathf.Cot*
+  name: Cot
+  href: engineAPI/Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Cot_
+  commentId: Overload:Engine.Core.Maths.Mathf.Cot
+  isSpec: "True"
+  fullName: Engine.Core.Maths.Mathf.Cot
+  nameWithType: Mathf.Cot
+- uid: Engine.Core.Maths.Mathf.Csc(System.Single)
+  name: Csc(Single)
+  href: engineAPI/Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Csc_System_Single_
+  commentId: M:Engine.Core.Maths.Mathf.Csc(System.Single)
+  fullName: Engine.Core.Maths.Mathf.Csc(System.Single)
+  nameWithType: Mathf.Csc(Single)
+- uid: Engine.Core.Maths.Mathf.Csc*
+  name: Csc
+  href: engineAPI/Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Csc_
+  commentId: Overload:Engine.Core.Maths.Mathf.Csc
+  isSpec: "True"
+  fullName: Engine.Core.Maths.Mathf.Csc
+  nameWithType: Mathf.Csc
 - uid: Engine.Core.Maths.Mathf.Deg2Rad(System.Single)
   name: Deg2Rad(Single)
   href: engineAPI/Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Deg2Rad_System_Single_
@@ -1333,6 +1955,18 @@ references:
   isSpec: "True"
   fullName: Engine.Core.Maths.Mathf.Pi
   nameWithType: Mathf.Pi
+- uid: Engine.Core.Maths.Mathf.PiHalf
+  name: PiHalf
+  href: engineAPI/Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_PiHalf
+  commentId: F:Engine.Core.Maths.Mathf.PiHalf
+  fullName: Engine.Core.Maths.Mathf.PiHalf
+  nameWithType: Mathf.PiHalf
+- uid: Engine.Core.Maths.Mathf.PiQuarter
+  name: PiQuarter
+  href: engineAPI/Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_PiQuarter
+  commentId: F:Engine.Core.Maths.Mathf.PiQuarter
+  fullName: Engine.Core.Maths.Mathf.PiQuarter
+  nameWithType: Mathf.PiQuarter
 - uid: Engine.Core.Maths.Mathf.Pow(System.Single,System.Single)
   name: Pow(Single, Single)
   href: engineAPI/Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Pow_System_Single_System_Single_
@@ -1346,6 +1980,19 @@ references:
   isSpec: "True"
   fullName: Engine.Core.Maths.Mathf.Pow
   nameWithType: Mathf.Pow
+- uid: Engine.Core.Maths.Mathf.Rad2Deg(System.Single)
+  name: Rad2Deg(Single)
+  href: engineAPI/Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Rad2Deg_System_Single_
+  commentId: M:Engine.Core.Maths.Mathf.Rad2Deg(System.Single)
+  fullName: Engine.Core.Maths.Mathf.Rad2Deg(System.Single)
+  nameWithType: Mathf.Rad2Deg(Single)
+- uid: Engine.Core.Maths.Mathf.Rad2Deg*
+  name: Rad2Deg
+  href: engineAPI/Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Rad2Deg_
+  commentId: Overload:Engine.Core.Maths.Mathf.Rad2Deg
+  isSpec: "True"
+  fullName: Engine.Core.Maths.Mathf.Rad2Deg
+  nameWithType: Mathf.Rad2Deg
 - uid: Engine.Core.Maths.Mathf.Round(System.Single)
   name: Round(Single)
   href: engineAPI/Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Round_System_Single_
@@ -1371,6 +2018,32 @@ references:
   isSpec: "True"
   fullName: Engine.Core.Maths.Mathf.Round
   nameWithType: Mathf.Round
+- uid: Engine.Core.Maths.Mathf.RoundToInt(System.Single)
+  name: RoundToInt(Single)
+  href: engineAPI/Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_RoundToInt_System_Single_
+  commentId: M:Engine.Core.Maths.Mathf.RoundToInt(System.Single)
+  fullName: Engine.Core.Maths.Mathf.RoundToInt(System.Single)
+  nameWithType: Mathf.RoundToInt(Single)
+- uid: Engine.Core.Maths.Mathf.RoundToInt*
+  name: RoundToInt
+  href: engineAPI/Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_RoundToInt_
+  commentId: Overload:Engine.Core.Maths.Mathf.RoundToInt
+  isSpec: "True"
+  fullName: Engine.Core.Maths.Mathf.RoundToInt
+  nameWithType: Mathf.RoundToInt
+- uid: Engine.Core.Maths.Mathf.Sec(System.Single)
+  name: Sec(Single)
+  href: engineAPI/Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Sec_System_Single_
+  commentId: M:Engine.Core.Maths.Mathf.Sec(System.Single)
+  fullName: Engine.Core.Maths.Mathf.Sec(System.Single)
+  nameWithType: Mathf.Sec(Single)
+- uid: Engine.Core.Maths.Mathf.Sec*
+  name: Sec
+  href: engineAPI/Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Sec_
+  commentId: Overload:Engine.Core.Maths.Mathf.Sec
+  isSpec: "True"
+  fullName: Engine.Core.Maths.Mathf.Sec
+  nameWithType: Mathf.Sec
 - uid: Engine.Core.Maths.Mathf.Sigma(System.Func{System.Single,System.Single},System.Int32,System.Int32)
   name: Sigma(Func<Single, Single>, Int32, Int32)
   href: engineAPI/Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Sigma_System_Func_System_Single_System_Single__System_Int32_System_Int32_
@@ -1435,6 +2108,12 @@ references:
   isSpec: "True"
   fullName: Engine.Core.Maths.Mathf.Sinc
   nameWithType: Mathf.Sinc
+- uid: Engine.Core.Maths.Mathf.SinePiQuarter
+  name: SinePiQuarter
+  href: engineAPI/Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_SinePiQuarter
+  commentId: F:Engine.Core.Maths.Mathf.SinePiQuarter
+  fullName: Engine.Core.Maths.Mathf.SinePiQuarter
+  nameWithType: Mathf.SinePiQuarter
 - uid: Engine.Core.Maths.Mathf.Sinh(System.Single)
   name: Sinh(Single)
   href: engineAPI/Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Sinh_System_Single_
@@ -1927,6 +2606,19 @@ references:
   isSpec: "True"
   fullName: Engine.Core.Maths.Matrix3x3.Subtraction
   nameWithType: Matrix3x3.Subtraction
+- uid: Engine.Core.Maths.Matrix3x3.op_UnaryNegation(Engine.Core.Maths.Matrix3x3)
+  name: UnaryNegation(Matrix3x3)
+  href: engineAPI/Engine.Core.Maths.Matrix3x3.html#Engine_Core_Maths_Matrix3x3_op_UnaryNegation_Engine_Core_Maths_Matrix3x3_
+  commentId: M:Engine.Core.Maths.Matrix3x3.op_UnaryNegation(Engine.Core.Maths.Matrix3x3)
+  fullName: Engine.Core.Maths.Matrix3x3.UnaryNegation(Engine.Core.Maths.Matrix3x3)
+  nameWithType: Matrix3x3.UnaryNegation(Matrix3x3)
+- uid: Engine.Core.Maths.Matrix3x3.op_UnaryNegation*
+  name: UnaryNegation
+  href: engineAPI/Engine.Core.Maths.Matrix3x3.html#Engine_Core_Maths_Matrix3x3_op_UnaryNegation_
+  commentId: Overload:Engine.Core.Maths.Matrix3x3.op_UnaryNegation
+  isSpec: "True"
+  fullName: Engine.Core.Maths.Matrix3x3.UnaryNegation
+  nameWithType: Matrix3x3.UnaryNegation
 - uid: Engine.Core.Maths.Matrix3x3.Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
   name: Operation(IMatrix, MatrixOperation, Single)
   href: engineAPI/Engine.Core.Maths.Matrix3x3.html#Engine_Core_Maths_Matrix3x3_Operation_Engine_Core_Maths_IMatrix_Engine_Core_Maths_MatrixOperation_System_Single_
@@ -2467,6 +3159,19 @@ references:
   isSpec: "True"
   fullName: Engine.Core.Maths.MatrixMxN.Subtraction
   nameWithType: MatrixMxN.Subtraction
+- uid: Engine.Core.Maths.MatrixMxN.op_UnaryNegation(Engine.Core.Maths.MatrixMxN)
+  name: UnaryNegation(MatrixMxN)
+  href: engineAPI/Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_op_UnaryNegation_Engine_Core_Maths_MatrixMxN_
+  commentId: M:Engine.Core.Maths.MatrixMxN.op_UnaryNegation(Engine.Core.Maths.MatrixMxN)
+  fullName: Engine.Core.Maths.MatrixMxN.UnaryNegation(Engine.Core.Maths.MatrixMxN)
+  nameWithType: MatrixMxN.UnaryNegation(MatrixMxN)
+- uid: Engine.Core.Maths.MatrixMxN.op_UnaryNegation*
+  name: UnaryNegation
+  href: engineAPI/Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_op_UnaryNegation_
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.op_UnaryNegation
+  isSpec: "True"
+  fullName: Engine.Core.Maths.MatrixMxN.UnaryNegation
+  nameWithType: MatrixMxN.UnaryNegation
 - uid: Engine.Core.Maths.MatrixMxN.Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
   name: Operation(IMatrix, MatrixOperation, Single)
   href: engineAPI/Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_Operation_Engine_Core_Maths_IMatrix_Engine_Core_Maths_MatrixOperation_System_Single_
@@ -2659,6 +3364,38 @@ references:
   isSpec: "True"
   fullName: Engine.Core.Maths.MatrixMxN.SwapRows
   nameWithType: MatrixMxN.SwapRows
+- uid: Engine.Core.Maths.MatrixMxN.ToVector(Engine.Core.Maths.Vector@)
+  name: ToVector(out Vector)
+  href: engineAPI/Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_ToVector_Engine_Core_Maths_Vector__
+  commentId: M:Engine.Core.Maths.MatrixMxN.ToVector(Engine.Core.Maths.Vector@)
+  name.vb: ToVector(ByRef Vector)
+  fullName: Engine.Core.Maths.MatrixMxN.ToVector(out Engine.Core.Maths.Vector)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.ToVector(ByRef Engine.Core.Maths.Vector)
+  nameWithType: MatrixMxN.ToVector(out Vector)
+  nameWithType.vb: MatrixMxN.ToVector(ByRef Vector)
+- uid: Engine.Core.Maths.MatrixMxN.ToVector*
+  name: ToVector
+  href: engineAPI/Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_ToVector_
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.ToVector
+  isSpec: "True"
+  fullName: Engine.Core.Maths.MatrixMxN.ToVector
+  nameWithType: MatrixMxN.ToVector
+- uid: Engine.Core.Maths.MatrixMxN.ToVector3(Engine.Core.Maths.Vector3@)
+  name: ToVector3(out Vector3)
+  href: engineAPI/Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_ToVector3_Engine_Core_Maths_Vector3__
+  commentId: M:Engine.Core.Maths.MatrixMxN.ToVector3(Engine.Core.Maths.Vector3@)
+  name.vb: ToVector3(ByRef Vector3)
+  fullName: Engine.Core.Maths.MatrixMxN.ToVector3(out Engine.Core.Maths.Vector3)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.ToVector3(ByRef Engine.Core.Maths.Vector3)
+  nameWithType: MatrixMxN.ToVector3(out Vector3)
+  nameWithType.vb: MatrixMxN.ToVector3(ByRef Vector3)
+- uid: Engine.Core.Maths.MatrixMxN.ToVector3*
+  name: ToVector3
+  href: engineAPI/Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_ToVector3_
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.ToVector3
+  isSpec: "True"
+  fullName: Engine.Core.Maths.MatrixMxN.ToVector3
+  nameWithType: MatrixMxN.ToVector3
 - uid: Engine.Core.Maths.MatrixMxN.Transpose
   name: Transpose()
   href: engineAPI/Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_Transpose
@@ -2708,6 +3445,98 @@ references:
   commentId: F:Engine.Core.Maths.MatrixOperation.Substraction
   fullName: Engine.Core.Maths.MatrixOperation.Substraction
   nameWithType: MatrixOperation.Substraction
+- uid: Engine.Core.Maths.MirrorMatrix3x3
+  name: MirrorMatrix3x3
+  href: engineAPI/Engine.Core.Maths.MirrorMatrix3x3.html
+  commentId: T:Engine.Core.Maths.MirrorMatrix3x3
+  fullName: Engine.Core.Maths.MirrorMatrix3x3
+  nameWithType: MirrorMatrix3x3
+- uid: Engine.Core.Maths.MirrorMatrix3x3.#ctor(Engine.Core.Maths.Vector3)
+  name: MirrorMatrix3x3(Vector3)
+  href: engineAPI/Engine.Core.Maths.MirrorMatrix3x3.html#Engine_Core_Maths_MirrorMatrix3x3__ctor_Engine_Core_Maths_Vector3_
+  commentId: M:Engine.Core.Maths.MirrorMatrix3x3.#ctor(Engine.Core.Maths.Vector3)
+  fullName: Engine.Core.Maths.MirrorMatrix3x3.MirrorMatrix3x3(Engine.Core.Maths.Vector3)
+  nameWithType: MirrorMatrix3x3.MirrorMatrix3x3(Vector3)
+- uid: Engine.Core.Maths.MirrorMatrix3x3.#ctor*
+  name: MirrorMatrix3x3
+  href: engineAPI/Engine.Core.Maths.MirrorMatrix3x3.html#Engine_Core_Maths_MirrorMatrix3x3__ctor_
+  commentId: Overload:Engine.Core.Maths.MirrorMatrix3x3.#ctor
+  isSpec: "True"
+  fullName: Engine.Core.Maths.MirrorMatrix3x3.MirrorMatrix3x3
+  nameWithType: MirrorMatrix3x3.MirrorMatrix3x3
+- uid: Engine.Core.Maths.MirrorMatrix3x3.M3x3
+  name: M3x3
+  href: engineAPI/Engine.Core.Maths.MirrorMatrix3x3.html#Engine_Core_Maths_MirrorMatrix3x3_M3x3
+  commentId: F:Engine.Core.Maths.MirrorMatrix3x3.M3x3
+  fullName: Engine.Core.Maths.MirrorMatrix3x3.M3x3
+  nameWithType: MirrorMatrix3x3.M3x3
+- uid: Engine.Core.Maths.MirrorMatrix3x3.Mirror_45Degree_X1_Roof
+  name: Mirror_45Degree_X1_Roof
+  href: engineAPI/Engine.Core.Maths.MirrorMatrix3x3.html#Engine_Core_Maths_MirrorMatrix3x3_Mirror_45Degree_X1_Roof
+  commentId: F:Engine.Core.Maths.MirrorMatrix3x3.Mirror_45Degree_X1_Roof
+  fullName: Engine.Core.Maths.MirrorMatrix3x3.Mirror_45Degree_X1_Roof
+  nameWithType: MirrorMatrix3x3.Mirror_45Degree_X1_Roof
+- uid: Engine.Core.Maths.MirrorMatrix3x3.Mirror_90Degree_X1_Roof
+  name: Mirror_90Degree_X1_Roof
+  href: engineAPI/Engine.Core.Maths.MirrorMatrix3x3.html#Engine_Core_Maths_MirrorMatrix3x3_Mirror_90Degree_X1_Roof
+  commentId: F:Engine.Core.Maths.MirrorMatrix3x3.Mirror_90Degree_X1_Roof
+  fullName: Engine.Core.Maths.MirrorMatrix3x3.Mirror_90Degree_X1_Roof
+  nameWithType: MirrorMatrix3x3.Mirror_90Degree_X1_Roof
+- uid: Engine.Core.Maths.MirrorMatrix3x3.Mirror_90Degree_X2_Roof
+  name: Mirror_90Degree_X2_Roof
+  href: engineAPI/Engine.Core.Maths.MirrorMatrix3x3.html#Engine_Core_Maths_MirrorMatrix3x3_Mirror_90Degree_X2_Roof
+  commentId: F:Engine.Core.Maths.MirrorMatrix3x3.Mirror_90Degree_X2_Roof
+  fullName: Engine.Core.Maths.MirrorMatrix3x3.Mirror_90Degree_X2_Roof
+  nameWithType: MirrorMatrix3x3.Mirror_90Degree_X2_Roof
+- uid: Engine.Core.Maths.MirrorMatrix3x3.Mirror_90Degree_X3_Roof
+  name: Mirror_90Degree_X3_Roof
+  href: engineAPI/Engine.Core.Maths.MirrorMatrix3x3.html#Engine_Core_Maths_MirrorMatrix3x3_Mirror_90Degree_X3_Roof
+  commentId: F:Engine.Core.Maths.MirrorMatrix3x3.Mirror_90Degree_X3_Roof
+  fullName: Engine.Core.Maths.MirrorMatrix3x3.Mirror_90Degree_X3_Roof
+  nameWithType: MirrorMatrix3x3.Mirror_90Degree_X3_Roof
+- uid: Engine.Core.Maths.MirrorMatrix3x3.Mirror_Cube_Corner
+  name: Mirror_Cube_Corner
+  href: engineAPI/Engine.Core.Maths.MirrorMatrix3x3.html#Engine_Core_Maths_MirrorMatrix3x3_Mirror_Cube_Corner
+  commentId: F:Engine.Core.Maths.MirrorMatrix3x3.Mirror_Cube_Corner
+  fullName: Engine.Core.Maths.MirrorMatrix3x3.Mirror_Cube_Corner
+  nameWithType: MirrorMatrix3x3.Mirror_Cube_Corner
+- uid: Engine.Core.Maths.MirrorMatrix3x3.Mirror_FreeSpace
+  name: Mirror_FreeSpace
+  href: engineAPI/Engine.Core.Maths.MirrorMatrix3x3.html#Engine_Core_Maths_MirrorMatrix3x3_Mirror_FreeSpace
+  commentId: F:Engine.Core.Maths.MirrorMatrix3x3.Mirror_FreeSpace
+  fullName: Engine.Core.Maths.MirrorMatrix3x3.Mirror_FreeSpace
+  nameWithType: MirrorMatrix3x3.Mirror_FreeSpace
+- uid: Engine.Core.Maths.MirrorMatrix3x3.Mirror_X1
+  name: Mirror_X1
+  href: engineAPI/Engine.Core.Maths.MirrorMatrix3x3.html#Engine_Core_Maths_MirrorMatrix3x3_Mirror_X1
+  commentId: F:Engine.Core.Maths.MirrorMatrix3x3.Mirror_X1
+  fullName: Engine.Core.Maths.MirrorMatrix3x3.Mirror_X1
+  nameWithType: MirrorMatrix3x3.Mirror_X1
+- uid: Engine.Core.Maths.MirrorMatrix3x3.Mirror_X2
+  name: Mirror_X2
+  href: engineAPI/Engine.Core.Maths.MirrorMatrix3x3.html#Engine_Core_Maths_MirrorMatrix3x3_Mirror_X2
+  commentId: F:Engine.Core.Maths.MirrorMatrix3x3.Mirror_X2
+  fullName: Engine.Core.Maths.MirrorMatrix3x3.Mirror_X2
+  nameWithType: MirrorMatrix3x3.Mirror_X2
+- uid: Engine.Core.Maths.MirrorMatrix3x3.Mirror_X3
+  name: Mirror_X3
+  href: engineAPI/Engine.Core.Maths.MirrorMatrix3x3.html#Engine_Core_Maths_MirrorMatrix3x3_Mirror_X3
+  commentId: F:Engine.Core.Maths.MirrorMatrix3x3.Mirror_X3
+  fullName: Engine.Core.Maths.MirrorMatrix3x3.Mirror_X3
+  nameWithType: MirrorMatrix3x3.Mirror_X3
+- uid: Engine.Core.Maths.MirrorMatrix3x3.ToMatrix4x4
+  name: ToMatrix4x4()
+  href: engineAPI/Engine.Core.Maths.MirrorMatrix3x3.html#Engine_Core_Maths_MirrorMatrix3x3_ToMatrix4x4
+  commentId: M:Engine.Core.Maths.MirrorMatrix3x3.ToMatrix4x4
+  fullName: Engine.Core.Maths.MirrorMatrix3x3.ToMatrix4x4()
+  nameWithType: MirrorMatrix3x3.ToMatrix4x4()
+- uid: Engine.Core.Maths.MirrorMatrix3x3.ToMatrix4x4*
+  name: ToMatrix4x4
+  href: engineAPI/Engine.Core.Maths.MirrorMatrix3x3.html#Engine_Core_Maths_MirrorMatrix3x3_ToMatrix4x4_
+  commentId: Overload:Engine.Core.Maths.MirrorMatrix3x3.ToMatrix4x4
+  isSpec: "True"
+  fullName: Engine.Core.Maths.MirrorMatrix3x3.ToMatrix4x4
+  nameWithType: MirrorMatrix3x3.ToMatrix4x4
 - uid: Engine.Core.Maths.Obsolete
   name: Engine.Core.Maths.Obsolete
   href: engineAPI/Engine.Core.Maths.Obsolete.html
@@ -3183,6 +4012,32 @@ references:
   commentId: F:Engine.Core.Maths.Plane.PlaneSetupType._3PositionVectors
   fullName: Engine.Core.Maths.Plane.PlaneSetupType._3PositionVectors
   nameWithType: Plane.PlaneSetupType._3PositionVectors
+- uid: Engine.Core.Maths.Plane.S1
+  name: S1
+  href: engineAPI/Engine.Core.Maths.Plane.html#Engine_Core_Maths_Plane_S1
+  commentId: P:Engine.Core.Maths.Plane.S1
+  fullName: Engine.Core.Maths.Plane.S1
+  nameWithType: Plane.S1
+- uid: Engine.Core.Maths.Plane.S1*
+  name: S1
+  href: engineAPI/Engine.Core.Maths.Plane.html#Engine_Core_Maths_Plane_S1_
+  commentId: Overload:Engine.Core.Maths.Plane.S1
+  isSpec: "True"
+  fullName: Engine.Core.Maths.Plane.S1
+  nameWithType: Plane.S1
+- uid: Engine.Core.Maths.Plane.S2
+  name: S2
+  href: engineAPI/Engine.Core.Maths.Plane.html#Engine_Core_Maths_Plane_S2
+  commentId: P:Engine.Core.Maths.Plane.S2
+  fullName: Engine.Core.Maths.Plane.S2
+  nameWithType: Plane.S2
+- uid: Engine.Core.Maths.Plane.S2*
+  name: S2
+  href: engineAPI/Engine.Core.Maths.Plane.html#Engine_Core_Maths_Plane_S2_
+  commentId: Overload:Engine.Core.Maths.Plane.S2
+  isSpec: "True"
+  fullName: Engine.Core.Maths.Plane.S2
+  nameWithType: Plane.S2
 - uid: Engine.Core.Maths.Quaternion
   name: Quaternion
   href: engineAPI/Engine.Core.Maths.Quaternion.html
@@ -3234,6 +4089,48 @@ references:
   isSpec: "True"
   fullName: Engine.Core.Maths.Quaternion.SetValue
   nameWithType: Quaternion.SetValue
+- uid: Engine.Core.Maths.RotationConvention
+  name: RotationConvention
+  href: engineAPI/Engine.Core.Maths.RotationConvention.html
+  commentId: T:Engine.Core.Maths.RotationConvention
+  fullName: Engine.Core.Maths.RotationConvention
+  nameWithType: RotationConvention
+- uid: Engine.Core.Maths.RotationConvention.X1X2X3
+  name: X1X2X3
+  href: engineAPI/Engine.Core.Maths.RotationConvention.html#Engine_Core_Maths_RotationConvention_X1X2X3
+  commentId: F:Engine.Core.Maths.RotationConvention.X1X2X3
+  fullName: Engine.Core.Maths.RotationConvention.X1X2X3
+  nameWithType: RotationConvention.X1X2X3
+- uid: Engine.Core.Maths.RotationConvention.X1X3X2
+  name: X1X3X2
+  href: engineAPI/Engine.Core.Maths.RotationConvention.html#Engine_Core_Maths_RotationConvention_X1X3X2
+  commentId: F:Engine.Core.Maths.RotationConvention.X1X3X2
+  fullName: Engine.Core.Maths.RotationConvention.X1X3X2
+  nameWithType: RotationConvention.X1X3X2
+- uid: Engine.Core.Maths.RotationConvention.X2X1X3
+  name: X2X1X3
+  href: engineAPI/Engine.Core.Maths.RotationConvention.html#Engine_Core_Maths_RotationConvention_X2X1X3
+  commentId: F:Engine.Core.Maths.RotationConvention.X2X1X3
+  fullName: Engine.Core.Maths.RotationConvention.X2X1X3
+  nameWithType: RotationConvention.X2X1X3
+- uid: Engine.Core.Maths.RotationConvention.X2X3X1
+  name: X2X3X1
+  href: engineAPI/Engine.Core.Maths.RotationConvention.html#Engine_Core_Maths_RotationConvention_X2X3X1
+  commentId: F:Engine.Core.Maths.RotationConvention.X2X3X1
+  fullName: Engine.Core.Maths.RotationConvention.X2X3X1
+  nameWithType: RotationConvention.X2X3X1
+- uid: Engine.Core.Maths.RotationConvention.X3X1X2
+  name: X3X1X2
+  href: engineAPI/Engine.Core.Maths.RotationConvention.html#Engine_Core_Maths_RotationConvention_X3X1X2
+  commentId: F:Engine.Core.Maths.RotationConvention.X3X1X2
+  fullName: Engine.Core.Maths.RotationConvention.X3X1X2
+  nameWithType: RotationConvention.X3X1X2
+- uid: Engine.Core.Maths.RotationConvention.X3X2X1
+  name: X3X2X1
+  href: engineAPI/Engine.Core.Maths.RotationConvention.html#Engine_Core_Maths_RotationConvention_X3X2X1
+  commentId: F:Engine.Core.Maths.RotationConvention.X3X2X1
+  fullName: Engine.Core.Maths.RotationConvention.X3X2X1
+  nameWithType: RotationConvention.X3X2X1
 - uid: Engine.Core.Maths.RotationMatrix2x2
   name: RotationMatrix2x2
   href: engineAPI/Engine.Core.Maths.RotationMatrix2x2.html
@@ -3296,12 +4193,12 @@ references:
   commentId: M:Engine.Core.Maths.RotationMatrix3x3.#ctor(System.Single,Engine.Core.Maths.Axis)
   fullName: Engine.Core.Maths.RotationMatrix3x3.RotationMatrix3x3(System.Single, Engine.Core.Maths.Axis)
   nameWithType: RotationMatrix3x3.RotationMatrix3x3(Single, Axis)
-- uid: Engine.Core.Maths.RotationMatrix3x3.#ctor(System.Single,System.Single,System.Single,Engine.Core.Maths.Convention)
-  name: RotationMatrix3x3(Single, Single, Single, Convention)
-  href: engineAPI/Engine.Core.Maths.RotationMatrix3x3.html#Engine_Core_Maths_RotationMatrix3x3__ctor_System_Single_System_Single_System_Single_Engine_Core_Maths_Convention_
-  commentId: M:Engine.Core.Maths.RotationMatrix3x3.#ctor(System.Single,System.Single,System.Single,Engine.Core.Maths.Convention)
-  fullName: Engine.Core.Maths.RotationMatrix3x3.RotationMatrix3x3(System.Single, System.Single, System.Single, Engine.Core.Maths.Convention)
-  nameWithType: RotationMatrix3x3.RotationMatrix3x3(Single, Single, Single, Convention)
+- uid: Engine.Core.Maths.RotationMatrix3x3.#ctor(System.Single,System.Single,System.Single,Engine.Core.Maths.RotationConvention)
+  name: RotationMatrix3x3(Single, Single, Single, RotationConvention)
+  href: engineAPI/Engine.Core.Maths.RotationMatrix3x3.html#Engine_Core_Maths_RotationMatrix3x3__ctor_System_Single_System_Single_System_Single_Engine_Core_Maths_RotationConvention_
+  commentId: M:Engine.Core.Maths.RotationMatrix3x3.#ctor(System.Single,System.Single,System.Single,Engine.Core.Maths.RotationConvention)
+  fullName: Engine.Core.Maths.RotationMatrix3x3.RotationMatrix3x3(System.Single, System.Single, System.Single, Engine.Core.Maths.RotationConvention)
+  nameWithType: RotationMatrix3x3.RotationMatrix3x3(Single, Single, Single, RotationConvention)
 - uid: Engine.Core.Maths.RotationMatrix3x3.#ctor*
   name: RotationMatrix3x3
   href: engineAPI/Engine.Core.Maths.RotationMatrix3x3.html#Engine_Core_Maths_RotationMatrix3x3__ctor_
@@ -3309,6 +4206,24 @@ references:
   isSpec: "True"
   fullName: Engine.Core.Maths.RotationMatrix3x3.RotationMatrix3x3
   nameWithType: RotationMatrix3x3.RotationMatrix3x3
+- uid: Engine.Core.Maths.RotationMatrix3x3.MirrorX1
+  name: MirrorX1
+  href: engineAPI/Engine.Core.Maths.RotationMatrix3x3.html#Engine_Core_Maths_RotationMatrix3x3_MirrorX1
+  commentId: F:Engine.Core.Maths.RotationMatrix3x3.MirrorX1
+  fullName: Engine.Core.Maths.RotationMatrix3x3.MirrorX1
+  nameWithType: RotationMatrix3x3.MirrorX1
+- uid: Engine.Core.Maths.RotationMatrix3x3.MirrorX2
+  name: MirrorX2
+  href: engineAPI/Engine.Core.Maths.RotationMatrix3x3.html#Engine_Core_Maths_RotationMatrix3x3_MirrorX2
+  commentId: F:Engine.Core.Maths.RotationMatrix3x3.MirrorX2
+  fullName: Engine.Core.Maths.RotationMatrix3x3.MirrorX2
+  nameWithType: RotationMatrix3x3.MirrorX2
+- uid: Engine.Core.Maths.RotationMatrix3x3.MirrorX3
+  name: MirrorX3
+  href: engineAPI/Engine.Core.Maths.RotationMatrix3x3.html#Engine_Core_Maths_RotationMatrix3x3_MirrorX3
+  commentId: F:Engine.Core.Maths.RotationMatrix3x3.MirrorX3
+  fullName: Engine.Core.Maths.RotationMatrix3x3.MirrorX3
+  nameWithType: RotationMatrix3x3.MirrorX3
 - uid: Engine.Core.Maths.RotationMatrix3x3.op_Implicit(Engine.Core.Maths.RotationMatrix3x3)~Engine.Core.Maths.Matrix3x3
   name: Implicit(RotationMatrix3x3 to Matrix3x3)
   href: engineAPI/Engine.Core.Maths.RotationMatrix3x3.html#Engine_Core_Maths_RotationMatrix3x3_op_Implicit_Engine_Core_Maths_RotationMatrix3x3__Engine_Core_Maths_Matrix3x3
@@ -3318,6 +4233,15 @@ references:
   fullName.vb: Engine.Core.Maths.RotationMatrix3x3.Widening(Engine.Core.Maths.RotationMatrix3x3 to Engine.Core.Maths.Matrix3x3)
   nameWithType: RotationMatrix3x3.Implicit(RotationMatrix3x3 to Matrix3x3)
   nameWithType.vb: RotationMatrix3x3.Widening(RotationMatrix3x3 to Matrix3x3)
+- uid: Engine.Core.Maths.RotationMatrix3x3.op_Implicit(Engine.Core.Maths.RotationMatrix3x3)~Engine.Core.Maths.MatrixMxN
+  name: Implicit(RotationMatrix3x3 to MatrixMxN)
+  href: engineAPI/Engine.Core.Maths.RotationMatrix3x3.html#Engine_Core_Maths_RotationMatrix3x3_op_Implicit_Engine_Core_Maths_RotationMatrix3x3__Engine_Core_Maths_MatrixMxN
+  commentId: M:Engine.Core.Maths.RotationMatrix3x3.op_Implicit(Engine.Core.Maths.RotationMatrix3x3)~Engine.Core.Maths.MatrixMxN
+  name.vb: Widening(RotationMatrix3x3 to MatrixMxN)
+  fullName: Engine.Core.Maths.RotationMatrix3x3.Implicit(Engine.Core.Maths.RotationMatrix3x3 to Engine.Core.Maths.MatrixMxN)
+  fullName.vb: Engine.Core.Maths.RotationMatrix3x3.Widening(Engine.Core.Maths.RotationMatrix3x3 to Engine.Core.Maths.MatrixMxN)
+  nameWithType: RotationMatrix3x3.Implicit(RotationMatrix3x3 to MatrixMxN)
+  nameWithType.vb: RotationMatrix3x3.Widening(RotationMatrix3x3 to MatrixMxN)
 - uid: Engine.Core.Maths.RotationMatrix3x3.op_Implicit*
   name: Implicit
   href: engineAPI/Engine.Core.Maths.RotationMatrix3x3.html#Engine_Core_Maths_RotationMatrix3x3_op_Implicit_
@@ -3334,6 +4258,37 @@ references:
   commentId: F:Engine.Core.Maths.RotationMatrix3x3.R3x3
   fullName: Engine.Core.Maths.RotationMatrix3x3.R3x3
   nameWithType: RotationMatrix3x3.R3x3
+- uid: Engine.Core.Maths.RotationMatrix3x3.ToMatrix4x4
+  name: ToMatrix4x4()
+  href: engineAPI/Engine.Core.Maths.RotationMatrix3x3.html#Engine_Core_Maths_RotationMatrix3x3_ToMatrix4x4
+  commentId: M:Engine.Core.Maths.RotationMatrix3x3.ToMatrix4x4
+  fullName: Engine.Core.Maths.RotationMatrix3x3.ToMatrix4x4()
+  nameWithType: RotationMatrix3x3.ToMatrix4x4()
+- uid: Engine.Core.Maths.RotationMatrix3x3.ToMatrix4x4*
+  name: ToMatrix4x4
+  href: engineAPI/Engine.Core.Maths.RotationMatrix3x3.html#Engine_Core_Maths_RotationMatrix3x3_ToMatrix4x4_
+  commentId: Overload:Engine.Core.Maths.RotationMatrix3x3.ToMatrix4x4
+  isSpec: "True"
+  fullName: Engine.Core.Maths.RotationMatrix3x3.ToMatrix4x4
+  nameWithType: RotationMatrix3x3.ToMatrix4x4
+- uid: Engine.Core.Maths.RotationMeasure
+  name: RotationMeasure
+  href: engineAPI/Engine.Core.Maths.RotationMeasure.html
+  commentId: T:Engine.Core.Maths.RotationMeasure
+  fullName: Engine.Core.Maths.RotationMeasure
+  nameWithType: RotationMeasure
+- uid: Engine.Core.Maths.RotationMeasure.DEG
+  name: DEG
+  href: engineAPI/Engine.Core.Maths.RotationMeasure.html#Engine_Core_Maths_RotationMeasure_DEG
+  commentId: F:Engine.Core.Maths.RotationMeasure.DEG
+  fullName: Engine.Core.Maths.RotationMeasure.DEG
+  nameWithType: RotationMeasure.DEG
+- uid: Engine.Core.Maths.RotationMeasure.RAD
+  name: RAD
+  href: engineAPI/Engine.Core.Maths.RotationMeasure.html#Engine_Core_Maths_RotationMeasure_RAD
+  commentId: F:Engine.Core.Maths.RotationMeasure.RAD
+  fullName: Engine.Core.Maths.RotationMeasure.RAD
+  nameWithType: RotationMeasure.RAD
 - uid: Engine.Core.Maths.RotationType
   name: RotationType
   href: engineAPI/Engine.Core.Maths.RotationType.html
@@ -3352,6 +4307,303 @@ references:
   commentId: F:Engine.Core.Maths.RotationType.RotationMatrix
   fullName: Engine.Core.Maths.RotationType.RotationMatrix
   nameWithType: RotationType.RotationMatrix
+- uid: Engine.Core.Maths.RotationVector3
+  name: RotationVector3
+  href: engineAPI/Engine.Core.Maths.RotationVector3.html
+  commentId: T:Engine.Core.Maths.RotationVector3
+  fullName: Engine.Core.Maths.RotationVector3
+  nameWithType: RotationVector3
+- uid: Engine.Core.Maths.RotationVector3.#ctor(System.Single,System.Single,System.Single,Engine.Core.Maths.RotationMeasure)
+  name: RotationVector3(Single, Single, Single, RotationMeasure)
+  href: engineAPI/Engine.Core.Maths.RotationVector3.html#Engine_Core_Maths_RotationVector3__ctor_System_Single_System_Single_System_Single_Engine_Core_Maths_RotationMeasure_
+  commentId: M:Engine.Core.Maths.RotationVector3.#ctor(System.Single,System.Single,System.Single,Engine.Core.Maths.RotationMeasure)
+  fullName: Engine.Core.Maths.RotationVector3.RotationVector3(System.Single, System.Single, System.Single, Engine.Core.Maths.RotationMeasure)
+  nameWithType: RotationVector3.RotationVector3(Single, Single, Single, RotationMeasure)
+- uid: Engine.Core.Maths.RotationVector3.#ctor*
+  name: RotationVector3
+  href: engineAPI/Engine.Core.Maths.RotationVector3.html#Engine_Core_Maths_RotationVector3__ctor_
+  commentId: Overload:Engine.Core.Maths.RotationVector3.#ctor
+  isSpec: "True"
+  fullName: Engine.Core.Maths.RotationVector3.RotationVector3
+  nameWithType: RotationVector3.RotationVector3
+- uid: Engine.Core.Maths.RotationVector3.GetDegreeRotation
+  name: GetDegreeRotation()
+  href: engineAPI/Engine.Core.Maths.RotationVector3.html#Engine_Core_Maths_RotationVector3_GetDegreeRotation
+  commentId: M:Engine.Core.Maths.RotationVector3.GetDegreeRotation
+  fullName: Engine.Core.Maths.RotationVector3.GetDegreeRotation()
+  nameWithType: RotationVector3.GetDegreeRotation()
+- uid: Engine.Core.Maths.RotationVector3.GetDegreeRotation*
+  name: GetDegreeRotation
+  href: engineAPI/Engine.Core.Maths.RotationVector3.html#Engine_Core_Maths_RotationVector3_GetDegreeRotation_
+  commentId: Overload:Engine.Core.Maths.RotationVector3.GetDegreeRotation
+  isSpec: "True"
+  fullName: Engine.Core.Maths.RotationVector3.GetDegreeRotation
+  nameWithType: RotationVector3.GetDegreeRotation
+- uid: Engine.Core.Maths.RotationVector3.op_Addition(Engine.Core.Maths.RotationVector3,Engine.Core.Maths.RotationVector3)
+  name: Addition(RotationVector3, RotationVector3)
+  href: engineAPI/Engine.Core.Maths.RotationVector3.html#Engine_Core_Maths_RotationVector3_op_Addition_Engine_Core_Maths_RotationVector3_Engine_Core_Maths_RotationVector3_
+  commentId: M:Engine.Core.Maths.RotationVector3.op_Addition(Engine.Core.Maths.RotationVector3,Engine.Core.Maths.RotationVector3)
+  fullName: Engine.Core.Maths.RotationVector3.Addition(Engine.Core.Maths.RotationVector3, Engine.Core.Maths.RotationVector3)
+  nameWithType: RotationVector3.Addition(RotationVector3, RotationVector3)
+- uid: Engine.Core.Maths.RotationVector3.op_Addition*
+  name: Addition
+  href: engineAPI/Engine.Core.Maths.RotationVector3.html#Engine_Core_Maths_RotationVector3_op_Addition_
+  commentId: Overload:Engine.Core.Maths.RotationVector3.op_Addition
+  isSpec: "True"
+  fullName: Engine.Core.Maths.RotationVector3.Addition
+  nameWithType: RotationVector3.Addition
+- uid: Engine.Core.Maths.RotationVector3.op_Implicit(Engine.Core.Maths.RotationVector3)~Engine.Core.Maths.MatrixMxN
+  name: Implicit(RotationVector3 to MatrixMxN)
+  href: engineAPI/Engine.Core.Maths.RotationVector3.html#Engine_Core_Maths_RotationVector3_op_Implicit_Engine_Core_Maths_RotationVector3__Engine_Core_Maths_MatrixMxN
+  commentId: M:Engine.Core.Maths.RotationVector3.op_Implicit(Engine.Core.Maths.RotationVector3)~Engine.Core.Maths.MatrixMxN
+  name.vb: Widening(RotationVector3 to MatrixMxN)
+  fullName: Engine.Core.Maths.RotationVector3.Implicit(Engine.Core.Maths.RotationVector3 to Engine.Core.Maths.MatrixMxN)
+  fullName.vb: Engine.Core.Maths.RotationVector3.Widening(Engine.Core.Maths.RotationVector3 to Engine.Core.Maths.MatrixMxN)
+  nameWithType: RotationVector3.Implicit(RotationVector3 to MatrixMxN)
+  nameWithType.vb: RotationVector3.Widening(RotationVector3 to MatrixMxN)
+- uid: Engine.Core.Maths.RotationVector3.op_Implicit(Engine.Core.Maths.RotationVector3)~Engine.Core.Maths.RotationMatrix3x3
+  name: Implicit(RotationVector3 to RotationMatrix3x3)
+  href: engineAPI/Engine.Core.Maths.RotationVector3.html#Engine_Core_Maths_RotationVector3_op_Implicit_Engine_Core_Maths_RotationVector3__Engine_Core_Maths_RotationMatrix3x3
+  commentId: M:Engine.Core.Maths.RotationVector3.op_Implicit(Engine.Core.Maths.RotationVector3)~Engine.Core.Maths.RotationMatrix3x3
+  name.vb: Widening(RotationVector3 to RotationMatrix3x3)
+  fullName: Engine.Core.Maths.RotationVector3.Implicit(Engine.Core.Maths.RotationVector3 to Engine.Core.Maths.RotationMatrix3x3)
+  fullName.vb: Engine.Core.Maths.RotationVector3.Widening(Engine.Core.Maths.RotationVector3 to Engine.Core.Maths.RotationMatrix3x3)
+  nameWithType: RotationVector3.Implicit(RotationVector3 to RotationMatrix3x3)
+  nameWithType.vb: RotationVector3.Widening(RotationVector3 to RotationMatrix3x3)
+- uid: Engine.Core.Maths.RotationVector3.op_Implicit*
+  name: Implicit
+  href: engineAPI/Engine.Core.Maths.RotationVector3.html#Engine_Core_Maths_RotationVector3_op_Implicit_
+  commentId: Overload:Engine.Core.Maths.RotationVector3.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: Engine.Core.Maths.RotationVector3.Implicit
+  fullName.vb: Engine.Core.Maths.RotationVector3.Widening
+  nameWithType: RotationVector3.Implicit
+  nameWithType.vb: RotationVector3.Widening
+- uid: Engine.Core.Maths.RotationVector3.SetRotation(System.Single,Engine.Core.Maths.Axis,Engine.Core.Maths.RotationMeasure)
+  name: SetRotation(Single, Axis, RotationMeasure)
+  href: engineAPI/Engine.Core.Maths.RotationVector3.html#Engine_Core_Maths_RotationVector3_SetRotation_System_Single_Engine_Core_Maths_Axis_Engine_Core_Maths_RotationMeasure_
+  commentId: M:Engine.Core.Maths.RotationVector3.SetRotation(System.Single,Engine.Core.Maths.Axis,Engine.Core.Maths.RotationMeasure)
+  fullName: Engine.Core.Maths.RotationVector3.SetRotation(System.Single, Engine.Core.Maths.Axis, Engine.Core.Maths.RotationMeasure)
+  nameWithType: RotationVector3.SetRotation(Single, Axis, RotationMeasure)
+- uid: Engine.Core.Maths.RotationVector3.SetRotation(System.Single,System.Single,System.Single,Engine.Core.Maths.RotationMeasure)
+  name: SetRotation(Single, Single, Single, RotationMeasure)
+  href: engineAPI/Engine.Core.Maths.RotationVector3.html#Engine_Core_Maths_RotationVector3_SetRotation_System_Single_System_Single_System_Single_Engine_Core_Maths_RotationMeasure_
+  commentId: M:Engine.Core.Maths.RotationVector3.SetRotation(System.Single,System.Single,System.Single,Engine.Core.Maths.RotationMeasure)
+  fullName: Engine.Core.Maths.RotationVector3.SetRotation(System.Single, System.Single, System.Single, Engine.Core.Maths.RotationMeasure)
+  nameWithType: RotationVector3.SetRotation(Single, Single, Single, RotationMeasure)
+- uid: Engine.Core.Maths.RotationVector3.SetRotation*
+  name: SetRotation
+  href: engineAPI/Engine.Core.Maths.RotationVector3.html#Engine_Core_Maths_RotationVector3_SetRotation_
+  commentId: Overload:Engine.Core.Maths.RotationVector3.SetRotation
+  isSpec: "True"
+  fullName: Engine.Core.Maths.RotationVector3.SetRotation
+  nameWithType: RotationVector3.SetRotation
+- uid: Engine.Core.Maths.RotationVector3.X1
+  name: X1
+  href: engineAPI/Engine.Core.Maths.RotationVector3.html#Engine_Core_Maths_RotationVector3_X1
+  commentId: P:Engine.Core.Maths.RotationVector3.X1
+  fullName: Engine.Core.Maths.RotationVector3.X1
+  nameWithType: RotationVector3.X1
+- uid: Engine.Core.Maths.RotationVector3.X1*
+  name: X1
+  href: engineAPI/Engine.Core.Maths.RotationVector3.html#Engine_Core_Maths_RotationVector3_X1_
+  commentId: Overload:Engine.Core.Maths.RotationVector3.X1
+  isSpec: "True"
+  fullName: Engine.Core.Maths.RotationVector3.X1
+  nameWithType: RotationVector3.X1
+- uid: Engine.Core.Maths.RotationVector3.X2
+  name: X2
+  href: engineAPI/Engine.Core.Maths.RotationVector3.html#Engine_Core_Maths_RotationVector3_X2
+  commentId: P:Engine.Core.Maths.RotationVector3.X2
+  fullName: Engine.Core.Maths.RotationVector3.X2
+  nameWithType: RotationVector3.X2
+- uid: Engine.Core.Maths.RotationVector3.X2*
+  name: X2
+  href: engineAPI/Engine.Core.Maths.RotationVector3.html#Engine_Core_Maths_RotationVector3_X2_
+  commentId: Overload:Engine.Core.Maths.RotationVector3.X2
+  isSpec: "True"
+  fullName: Engine.Core.Maths.RotationVector3.X2
+  nameWithType: RotationVector3.X2
+- uid: Engine.Core.Maths.RotationVector3.X3
+  name: X3
+  href: engineAPI/Engine.Core.Maths.RotationVector3.html#Engine_Core_Maths_RotationVector3_X3
+  commentId: P:Engine.Core.Maths.RotationVector3.X3
+  fullName: Engine.Core.Maths.RotationVector3.X3
+  nameWithType: RotationVector3.X3
+- uid: Engine.Core.Maths.RotationVector3.X3*
+  name: X3
+  href: engineAPI/Engine.Core.Maths.RotationVector3.html#Engine_Core_Maths_RotationVector3_X3_
+  commentId: Overload:Engine.Core.Maths.RotationVector3.X3
+  isSpec: "True"
+  fullName: Engine.Core.Maths.RotationVector3.X3
+  nameWithType: RotationVector3.X3
+- uid: Engine.Core.Maths.ShearConvention
+  name: ShearConvention
+  href: engineAPI/Engine.Core.Maths.ShearConvention.html
+  commentId: T:Engine.Core.Maths.ShearConvention
+  fullName: Engine.Core.Maths.ShearConvention
+  nameWithType: ShearConvention
+- uid: Engine.Core.Maths.ShearConvention.AsymmetricCot
+  name: AsymmetricCot
+  href: engineAPI/Engine.Core.Maths.ShearConvention.html#Engine_Core_Maths_ShearConvention_AsymmetricCot
+  commentId: F:Engine.Core.Maths.ShearConvention.AsymmetricCot
+  fullName: Engine.Core.Maths.ShearConvention.AsymmetricCot
+  nameWithType: ShearConvention.AsymmetricCot
+- uid: Engine.Core.Maths.ShearConvention.AsymmetricTan
+  name: AsymmetricTan
+  href: engineAPI/Engine.Core.Maths.ShearConvention.html#Engine_Core_Maths_ShearConvention_AsymmetricTan
+  commentId: F:Engine.Core.Maths.ShearConvention.AsymmetricTan
+  fullName: Engine.Core.Maths.ShearConvention.AsymmetricTan
+  nameWithType: ShearConvention.AsymmetricTan
+- uid: Engine.Core.Maths.ShearConvention.SymmetricCot
+  name: SymmetricCot
+  href: engineAPI/Engine.Core.Maths.ShearConvention.html#Engine_Core_Maths_ShearConvention_SymmetricCot
+  commentId: F:Engine.Core.Maths.ShearConvention.SymmetricCot
+  fullName: Engine.Core.Maths.ShearConvention.SymmetricCot
+  nameWithType: ShearConvention.SymmetricCot
+- uid: Engine.Core.Maths.ShearConvention.SymmetricTan
+  name: SymmetricTan
+  href: engineAPI/Engine.Core.Maths.ShearConvention.html#Engine_Core_Maths_ShearConvention_SymmetricTan
+  commentId: F:Engine.Core.Maths.ShearConvention.SymmetricTan
+  fullName: Engine.Core.Maths.ShearConvention.SymmetricTan
+  nameWithType: ShearConvention.SymmetricTan
+- uid: Engine.Core.Maths.ShearMatrix2x2
+  name: ShearMatrix2x2
+  href: engineAPI/Engine.Core.Maths.ShearMatrix2x2.html
+  commentId: T:Engine.Core.Maths.ShearMatrix2x2
+  fullName: Engine.Core.Maths.ShearMatrix2x2
+  nameWithType: ShearMatrix2x2
+- uid: Engine.Core.Maths.ShearMatrix2x2.#ctor(System.Single,System.Single,Engine.Core.Maths.ShearConvention)
+  name: ShearMatrix2x2(Single, Single, ShearConvention)
+  href: engineAPI/Engine.Core.Maths.ShearMatrix2x2.html#Engine_Core_Maths_ShearMatrix2x2__ctor_System_Single_System_Single_Engine_Core_Maths_ShearConvention_
+  commentId: M:Engine.Core.Maths.ShearMatrix2x2.#ctor(System.Single,System.Single,Engine.Core.Maths.ShearConvention)
+  fullName: Engine.Core.Maths.ShearMatrix2x2.ShearMatrix2x2(System.Single, System.Single, Engine.Core.Maths.ShearConvention)
+  nameWithType: ShearMatrix2x2.ShearMatrix2x2(Single, Single, ShearConvention)
+- uid: Engine.Core.Maths.ShearMatrix2x2.#ctor*
+  name: ShearMatrix2x2
+  href: engineAPI/Engine.Core.Maths.ShearMatrix2x2.html#Engine_Core_Maths_ShearMatrix2x2__ctor_
+  commentId: Overload:Engine.Core.Maths.ShearMatrix2x2.#ctor
+  isSpec: "True"
+  fullName: Engine.Core.Maths.ShearMatrix2x2.ShearMatrix2x2
+  nameWithType: ShearMatrix2x2.ShearMatrix2x2
+- uid: Engine.Core.Maths.ShearMatrix2x2.op_Implicit(Engine.Core.Maths.ShearMatrix2x2)~Engine.Core.Maths.MatrixMxN
+  name: Implicit(ShearMatrix2x2 to MatrixMxN)
+  href: engineAPI/Engine.Core.Maths.ShearMatrix2x2.html#Engine_Core_Maths_ShearMatrix2x2_op_Implicit_Engine_Core_Maths_ShearMatrix2x2__Engine_Core_Maths_MatrixMxN
+  commentId: M:Engine.Core.Maths.ShearMatrix2x2.op_Implicit(Engine.Core.Maths.ShearMatrix2x2)~Engine.Core.Maths.MatrixMxN
+  name.vb: Widening(ShearMatrix2x2 to MatrixMxN)
+  fullName: Engine.Core.Maths.ShearMatrix2x2.Implicit(Engine.Core.Maths.ShearMatrix2x2 to Engine.Core.Maths.MatrixMxN)
+  fullName.vb: Engine.Core.Maths.ShearMatrix2x2.Widening(Engine.Core.Maths.ShearMatrix2x2 to Engine.Core.Maths.MatrixMxN)
+  nameWithType: ShearMatrix2x2.Implicit(ShearMatrix2x2 to MatrixMxN)
+  nameWithType.vb: ShearMatrix2x2.Widening(ShearMatrix2x2 to MatrixMxN)
+- uid: Engine.Core.Maths.ShearMatrix2x2.op_Implicit*
+  name: Implicit
+  href: engineAPI/Engine.Core.Maths.ShearMatrix2x2.html#Engine_Core_Maths_ShearMatrix2x2_op_Implicit_
+  commentId: Overload:Engine.Core.Maths.ShearMatrix2x2.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: Engine.Core.Maths.ShearMatrix2x2.Implicit
+  fullName.vb: Engine.Core.Maths.ShearMatrix2x2.Widening
+  nameWithType: ShearMatrix2x2.Implicit
+  nameWithType.vb: ShearMatrix2x2.Widening
+- uid: Engine.Core.Maths.ShearMatrix2x2.S2x2
+  name: S2x2
+  href: engineAPI/Engine.Core.Maths.ShearMatrix2x2.html#Engine_Core_Maths_ShearMatrix2x2_S2x2
+  commentId: F:Engine.Core.Maths.ShearMatrix2x2.S2x2
+  fullName: Engine.Core.Maths.ShearMatrix2x2.S2x2
+  nameWithType: ShearMatrix2x2.S2x2
+- uid: Engine.Core.Maths.ShearMatrix3D
+  name: ShearMatrix3D
+  href: engineAPI/Engine.Core.Maths.ShearMatrix3D.html
+  commentId: T:Engine.Core.Maths.ShearMatrix3D
+  fullName: Engine.Core.Maths.ShearMatrix3D
+  nameWithType: ShearMatrix3D
+- uid: Engine.Core.Maths.ShearMatrix3D.#ctor(Engine.Core.Maths.ShearConvention,System.Single[])
+  name: ShearMatrix3D(ShearConvention, Single[])
+  href: engineAPI/Engine.Core.Maths.ShearMatrix3D.html#Engine_Core_Maths_ShearMatrix3D__ctor_Engine_Core_Maths_ShearConvention_System_Single___
+  commentId: M:Engine.Core.Maths.ShearMatrix3D.#ctor(Engine.Core.Maths.ShearConvention,System.Single[])
+  name.vb: ShearMatrix3D(ShearConvention, Single())
+  fullName: Engine.Core.Maths.ShearMatrix3D.ShearMatrix3D(Engine.Core.Maths.ShearConvention, System.Single[])
+  fullName.vb: Engine.Core.Maths.ShearMatrix3D.ShearMatrix3D(Engine.Core.Maths.ShearConvention, System.Single())
+  nameWithType: ShearMatrix3D.ShearMatrix3D(ShearConvention, Single[])
+  nameWithType.vb: ShearMatrix3D.ShearMatrix3D(ShearConvention, Single())
+- uid: Engine.Core.Maths.ShearMatrix3D.#ctor*
+  name: ShearMatrix3D
+  href: engineAPI/Engine.Core.Maths.ShearMatrix3D.html#Engine_Core_Maths_ShearMatrix3D__ctor_
+  commentId: Overload:Engine.Core.Maths.ShearMatrix3D.#ctor
+  isSpec: "True"
+  fullName: Engine.Core.Maths.ShearMatrix3D.ShearMatrix3D
+  nameWithType: ShearMatrix3D.ShearMatrix3D
+- uid: Engine.Core.Maths.ShearMatrix3D.Multiply(Engine.Core.Maths.ShearMatrix3D,Engine.Core.Maths.Vector3)
+  name: Multiply(ShearMatrix3D, Vector3)
+  href: engineAPI/Engine.Core.Maths.ShearMatrix3D.html#Engine_Core_Maths_ShearMatrix3D_Multiply_Engine_Core_Maths_ShearMatrix3D_Engine_Core_Maths_Vector3_
+  commentId: M:Engine.Core.Maths.ShearMatrix3D.Multiply(Engine.Core.Maths.ShearMatrix3D,Engine.Core.Maths.Vector3)
+  fullName: Engine.Core.Maths.ShearMatrix3D.Multiply(Engine.Core.Maths.ShearMatrix3D, Engine.Core.Maths.Vector3)
+  nameWithType: ShearMatrix3D.Multiply(ShearMatrix3D, Vector3)
+- uid: Engine.Core.Maths.ShearMatrix3D.Multiply*
+  name: Multiply
+  href: engineAPI/Engine.Core.Maths.ShearMatrix3D.html#Engine_Core_Maths_ShearMatrix3D_Multiply_
+  commentId: Overload:Engine.Core.Maths.ShearMatrix3D.Multiply
+  isSpec: "True"
+  fullName: Engine.Core.Maths.ShearMatrix3D.Multiply
+  nameWithType: ShearMatrix3D.Multiply
+- uid: Engine.Core.Maths.ShearMatrix3D.op_Implicit(Engine.Core.Maths.ShearMatrix3D)~Engine.Core.Maths.MatrixMxN
+  name: Implicit(ShearMatrix3D to MatrixMxN)
+  href: engineAPI/Engine.Core.Maths.ShearMatrix3D.html#Engine_Core_Maths_ShearMatrix3D_op_Implicit_Engine_Core_Maths_ShearMatrix3D__Engine_Core_Maths_MatrixMxN
+  commentId: M:Engine.Core.Maths.ShearMatrix3D.op_Implicit(Engine.Core.Maths.ShearMatrix3D)~Engine.Core.Maths.MatrixMxN
+  name.vb: Widening(ShearMatrix3D to MatrixMxN)
+  fullName: Engine.Core.Maths.ShearMatrix3D.Implicit(Engine.Core.Maths.ShearMatrix3D to Engine.Core.Maths.MatrixMxN)
+  fullName.vb: Engine.Core.Maths.ShearMatrix3D.Widening(Engine.Core.Maths.ShearMatrix3D to Engine.Core.Maths.MatrixMxN)
+  nameWithType: ShearMatrix3D.Implicit(ShearMatrix3D to MatrixMxN)
+  nameWithType.vb: ShearMatrix3D.Widening(ShearMatrix3D to MatrixMxN)
+- uid: Engine.Core.Maths.ShearMatrix3D.op_Implicit*
+  name: Implicit
+  href: engineAPI/Engine.Core.Maths.ShearMatrix3D.html#Engine_Core_Maths_ShearMatrix3D_op_Implicit_
+  commentId: Overload:Engine.Core.Maths.ShearMatrix3D.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: Engine.Core.Maths.ShearMatrix3D.Implicit
+  fullName.vb: Engine.Core.Maths.ShearMatrix3D.Widening
+  nameWithType: ShearMatrix3D.Implicit
+  nameWithType.vb: ShearMatrix3D.Widening
+- uid: Engine.Core.Maths.ShearMatrix3D.op_Multiply(Engine.Core.Maths.ShearMatrix3D,Engine.Core.Maths.Vector3)
+  name: Multiply(ShearMatrix3D, Vector3)
+  href: engineAPI/Engine.Core.Maths.ShearMatrix3D.html#Engine_Core_Maths_ShearMatrix3D_op_Multiply_Engine_Core_Maths_ShearMatrix3D_Engine_Core_Maths_Vector3_
+  commentId: M:Engine.Core.Maths.ShearMatrix3D.op_Multiply(Engine.Core.Maths.ShearMatrix3D,Engine.Core.Maths.Vector3)
+  fullName: Engine.Core.Maths.ShearMatrix3D.Multiply(Engine.Core.Maths.ShearMatrix3D, Engine.Core.Maths.Vector3)
+  nameWithType: ShearMatrix3D.Multiply(ShearMatrix3D, Vector3)
+- uid: Engine.Core.Maths.ShearMatrix3D.op_Multiply*
+  name: Multiply
+  href: engineAPI/Engine.Core.Maths.ShearMatrix3D.html#Engine_Core_Maths_ShearMatrix3D_op_Multiply_
+  commentId: Overload:Engine.Core.Maths.ShearMatrix3D.op_Multiply
+  isSpec: "True"
+  fullName: Engine.Core.Maths.ShearMatrix3D.Multiply
+  nameWithType: ShearMatrix3D.Multiply
+- uid: Engine.Core.Maths.ShearMatrix3D.S3x3
+  name: S3x3
+  href: engineAPI/Engine.Core.Maths.ShearMatrix3D.html#Engine_Core_Maths_ShearMatrix3D_S3x3
+  commentId: F:Engine.Core.Maths.ShearMatrix3D.S3x3
+  fullName: Engine.Core.Maths.ShearMatrix3D.S3x3
+  nameWithType: ShearMatrix3D.S3x3
+- uid: Engine.Core.Maths.ShearMatrix3D.S4x4
+  name: S4x4
+  href: engineAPI/Engine.Core.Maths.ShearMatrix3D.html#Engine_Core_Maths_ShearMatrix3D_S4x4
+  commentId: F:Engine.Core.Maths.ShearMatrix3D.S4x4
+  fullName: Engine.Core.Maths.ShearMatrix3D.S4x4
+  nameWithType: ShearMatrix3D.S4x4
+- uid: Engine.Core.Maths.ShearMatrix3D.ToMatrix4x4
+  name: ToMatrix4x4()
+  href: engineAPI/Engine.Core.Maths.ShearMatrix3D.html#Engine_Core_Maths_ShearMatrix3D_ToMatrix4x4
+  commentId: M:Engine.Core.Maths.ShearMatrix3D.ToMatrix4x4
+  fullName: Engine.Core.Maths.ShearMatrix3D.ToMatrix4x4()
+  nameWithType: ShearMatrix3D.ToMatrix4x4()
+- uid: Engine.Core.Maths.ShearMatrix3D.ToMatrix4x4*
+  name: ToMatrix4x4
+  href: engineAPI/Engine.Core.Maths.ShearMatrix3D.html#Engine_Core_Maths_ShearMatrix3D_ToMatrix4x4_
+  commentId: Overload:Engine.Core.Maths.ShearMatrix3D.ToMatrix4x4
+  isSpec: "True"
+  fullName: Engine.Core.Maths.ShearMatrix3D.ToMatrix4x4
+  nameWithType: ShearMatrix3D.ToMatrix4x4
 - uid: Engine.Core.Maths.Straight
   name: Straight
   href: engineAPI/Engine.Core.Maths.Straight.html
@@ -3524,6 +4776,156 @@ references:
   commentId: F:Engine.Core.Maths.Straight.x3_Axis
   fullName: Engine.Core.Maths.Straight.x3_Axis
   nameWithType: Straight.x3_Axis
+- uid: Engine.Core.Maths.TransformationConvention
+  name: TransformationConvention
+  href: engineAPI/Engine.Core.Maths.TransformationConvention.html
+  commentId: T:Engine.Core.Maths.TransformationConvention
+  fullName: Engine.Core.Maths.TransformationConvention
+  nameWithType: TransformationConvention
+- uid: Engine.Core.Maths.TransformationConvention.DRST
+  name: DRST
+  href: engineAPI/Engine.Core.Maths.TransformationConvention.html#Engine_Core_Maths_TransformationConvention_DRST
+  commentId: F:Engine.Core.Maths.TransformationConvention.DRST
+  fullName: Engine.Core.Maths.TransformationConvention.DRST
+  nameWithType: TransformationConvention.DRST
+- uid: Engine.Core.Maths.TransformationConvention.DRTS
+  name: DRTS
+  href: engineAPI/Engine.Core.Maths.TransformationConvention.html#Engine_Core_Maths_TransformationConvention_DRTS
+  commentId: F:Engine.Core.Maths.TransformationConvention.DRTS
+  fullName: Engine.Core.Maths.TransformationConvention.DRTS
+  nameWithType: TransformationConvention.DRTS
+- uid: Engine.Core.Maths.TransformationConvention.DSRT
+  name: DSRT
+  href: engineAPI/Engine.Core.Maths.TransformationConvention.html#Engine_Core_Maths_TransformationConvention_DSRT
+  commentId: F:Engine.Core.Maths.TransformationConvention.DSRT
+  fullName: Engine.Core.Maths.TransformationConvention.DSRT
+  nameWithType: TransformationConvention.DSRT
+- uid: Engine.Core.Maths.TransformationConvention.DSTR
+  name: DSTR
+  href: engineAPI/Engine.Core.Maths.TransformationConvention.html#Engine_Core_Maths_TransformationConvention_DSTR
+  commentId: F:Engine.Core.Maths.TransformationConvention.DSTR
+  fullName: Engine.Core.Maths.TransformationConvention.DSTR
+  nameWithType: TransformationConvention.DSTR
+- uid: Engine.Core.Maths.TransformationConvention.DTRS
+  name: DTRS
+  href: engineAPI/Engine.Core.Maths.TransformationConvention.html#Engine_Core_Maths_TransformationConvention_DTRS
+  commentId: F:Engine.Core.Maths.TransformationConvention.DTRS
+  fullName: Engine.Core.Maths.TransformationConvention.DTRS
+  nameWithType: TransformationConvention.DTRS
+- uid: Engine.Core.Maths.TransformationConvention.DTSR
+  name: DTSR
+  href: engineAPI/Engine.Core.Maths.TransformationConvention.html#Engine_Core_Maths_TransformationConvention_DTSR
+  commentId: F:Engine.Core.Maths.TransformationConvention.DTSR
+  fullName: Engine.Core.Maths.TransformationConvention.DTSR
+  nameWithType: TransformationConvention.DTSR
+- uid: Engine.Core.Maths.TransformationConvention.RDST
+  name: RDST
+  href: engineAPI/Engine.Core.Maths.TransformationConvention.html#Engine_Core_Maths_TransformationConvention_RDST
+  commentId: F:Engine.Core.Maths.TransformationConvention.RDST
+  fullName: Engine.Core.Maths.TransformationConvention.RDST
+  nameWithType: TransformationConvention.RDST
+- uid: Engine.Core.Maths.TransformationConvention.RDTS
+  name: RDTS
+  href: engineAPI/Engine.Core.Maths.TransformationConvention.html#Engine_Core_Maths_TransformationConvention_RDTS
+  commentId: F:Engine.Core.Maths.TransformationConvention.RDTS
+  fullName: Engine.Core.Maths.TransformationConvention.RDTS
+  nameWithType: TransformationConvention.RDTS
+- uid: Engine.Core.Maths.TransformationConvention.RSDT
+  name: RSDT
+  href: engineAPI/Engine.Core.Maths.TransformationConvention.html#Engine_Core_Maths_TransformationConvention_RSDT
+  commentId: F:Engine.Core.Maths.TransformationConvention.RSDT
+  fullName: Engine.Core.Maths.TransformationConvention.RSDT
+  nameWithType: TransformationConvention.RSDT
+- uid: Engine.Core.Maths.TransformationConvention.RSTD
+  name: RSTD
+  href: engineAPI/Engine.Core.Maths.TransformationConvention.html#Engine_Core_Maths_TransformationConvention_RSTD
+  commentId: F:Engine.Core.Maths.TransformationConvention.RSTD
+  fullName: Engine.Core.Maths.TransformationConvention.RSTD
+  nameWithType: TransformationConvention.RSTD
+- uid: Engine.Core.Maths.TransformationConvention.RTDS
+  name: RTDS
+  href: engineAPI/Engine.Core.Maths.TransformationConvention.html#Engine_Core_Maths_TransformationConvention_RTDS
+  commentId: F:Engine.Core.Maths.TransformationConvention.RTDS
+  fullName: Engine.Core.Maths.TransformationConvention.RTDS
+  nameWithType: TransformationConvention.RTDS
+- uid: Engine.Core.Maths.TransformationConvention.RTSD
+  name: RTSD
+  href: engineAPI/Engine.Core.Maths.TransformationConvention.html#Engine_Core_Maths_TransformationConvention_RTSD
+  commentId: F:Engine.Core.Maths.TransformationConvention.RTSD
+  fullName: Engine.Core.Maths.TransformationConvention.RTSD
+  nameWithType: TransformationConvention.RTSD
+- uid: Engine.Core.Maths.TransformationConvention.SDRT
+  name: SDRT
+  href: engineAPI/Engine.Core.Maths.TransformationConvention.html#Engine_Core_Maths_TransformationConvention_SDRT
+  commentId: F:Engine.Core.Maths.TransformationConvention.SDRT
+  fullName: Engine.Core.Maths.TransformationConvention.SDRT
+  nameWithType: TransformationConvention.SDRT
+- uid: Engine.Core.Maths.TransformationConvention.SDTR
+  name: SDTR
+  href: engineAPI/Engine.Core.Maths.TransformationConvention.html#Engine_Core_Maths_TransformationConvention_SDTR
+  commentId: F:Engine.Core.Maths.TransformationConvention.SDTR
+  fullName: Engine.Core.Maths.TransformationConvention.SDTR
+  nameWithType: TransformationConvention.SDTR
+- uid: Engine.Core.Maths.TransformationConvention.SRDT
+  name: SRDT
+  href: engineAPI/Engine.Core.Maths.TransformationConvention.html#Engine_Core_Maths_TransformationConvention_SRDT
+  commentId: F:Engine.Core.Maths.TransformationConvention.SRDT
+  fullName: Engine.Core.Maths.TransformationConvention.SRDT
+  nameWithType: TransformationConvention.SRDT
+- uid: Engine.Core.Maths.TransformationConvention.SRTD
+  name: SRTD
+  href: engineAPI/Engine.Core.Maths.TransformationConvention.html#Engine_Core_Maths_TransformationConvention_SRTD
+  commentId: F:Engine.Core.Maths.TransformationConvention.SRTD
+  fullName: Engine.Core.Maths.TransformationConvention.SRTD
+  nameWithType: TransformationConvention.SRTD
+- uid: Engine.Core.Maths.TransformationConvention.STDR
+  name: STDR
+  href: engineAPI/Engine.Core.Maths.TransformationConvention.html#Engine_Core_Maths_TransformationConvention_STDR
+  commentId: F:Engine.Core.Maths.TransformationConvention.STDR
+  fullName: Engine.Core.Maths.TransformationConvention.STDR
+  nameWithType: TransformationConvention.STDR
+- uid: Engine.Core.Maths.TransformationConvention.STRD
+  name: STRD
+  href: engineAPI/Engine.Core.Maths.TransformationConvention.html#Engine_Core_Maths_TransformationConvention_STRD
+  commentId: F:Engine.Core.Maths.TransformationConvention.STRD
+  fullName: Engine.Core.Maths.TransformationConvention.STRD
+  nameWithType: TransformationConvention.STRD
+- uid: Engine.Core.Maths.TransformationConvention.TDRS
+  name: TDRS
+  href: engineAPI/Engine.Core.Maths.TransformationConvention.html#Engine_Core_Maths_TransformationConvention_TDRS
+  commentId: F:Engine.Core.Maths.TransformationConvention.TDRS
+  fullName: Engine.Core.Maths.TransformationConvention.TDRS
+  nameWithType: TransformationConvention.TDRS
+- uid: Engine.Core.Maths.TransformationConvention.TDSR
+  name: TDSR
+  href: engineAPI/Engine.Core.Maths.TransformationConvention.html#Engine_Core_Maths_TransformationConvention_TDSR
+  commentId: F:Engine.Core.Maths.TransformationConvention.TDSR
+  fullName: Engine.Core.Maths.TransformationConvention.TDSR
+  nameWithType: TransformationConvention.TDSR
+- uid: Engine.Core.Maths.TransformationConvention.TRDS
+  name: TRDS
+  href: engineAPI/Engine.Core.Maths.TransformationConvention.html#Engine_Core_Maths_TransformationConvention_TRDS
+  commentId: F:Engine.Core.Maths.TransformationConvention.TRDS
+  fullName: Engine.Core.Maths.TransformationConvention.TRDS
+  nameWithType: TransformationConvention.TRDS
+- uid: Engine.Core.Maths.TransformationConvention.TRSD
+  name: TRSD
+  href: engineAPI/Engine.Core.Maths.TransformationConvention.html#Engine_Core_Maths_TransformationConvention_TRSD
+  commentId: F:Engine.Core.Maths.TransformationConvention.TRSD
+  fullName: Engine.Core.Maths.TransformationConvention.TRSD
+  nameWithType: TransformationConvention.TRSD
+- uid: Engine.Core.Maths.TransformationConvention.TSDR
+  name: TSDR
+  href: engineAPI/Engine.Core.Maths.TransformationConvention.html#Engine_Core_Maths_TransformationConvention_TSDR
+  commentId: F:Engine.Core.Maths.TransformationConvention.TSDR
+  fullName: Engine.Core.Maths.TransformationConvention.TSDR
+  nameWithType: TransformationConvention.TSDR
+- uid: Engine.Core.Maths.TransformationConvention.TSRD
+  name: TSRD
+  href: engineAPI/Engine.Core.Maths.TransformationConvention.html#Engine_Core_Maths_TransformationConvention_TSRD
+  commentId: F:Engine.Core.Maths.TransformationConvention.TSRD
+  fullName: Engine.Core.Maths.TransformationConvention.TSRD
+  nameWithType: TransformationConvention.TSRD
 - uid: Engine.Core.Maths.Vector
   name: Vector
   href: engineAPI/Engine.Core.Maths.Vector.html
@@ -3919,6 +5321,451 @@ references:
   isSpec: "True"
   fullName: Engine.Core.Maths.Vector.Substraction
   nameWithType: Vector.Substraction
+- uid: Engine.Core.Maths.Vector.ToMatrix(Engine.Core.Maths.Vector,System.Boolean)
+  name: ToMatrix(Vector, Boolean)
+  href: engineAPI/Engine.Core.Maths.Vector.html#Engine_Core_Maths_Vector_ToMatrix_Engine_Core_Maths_Vector_System_Boolean_
+  commentId: M:Engine.Core.Maths.Vector.ToMatrix(Engine.Core.Maths.Vector,System.Boolean)
+  fullName: Engine.Core.Maths.Vector.ToMatrix(Engine.Core.Maths.Vector, System.Boolean)
+  nameWithType: Vector.ToMatrix(Vector, Boolean)
+- uid: Engine.Core.Maths.Vector.ToMatrix*
+  name: ToMatrix
+  href: engineAPI/Engine.Core.Maths.Vector.html#Engine_Core_Maths_Vector_ToMatrix_
+  commentId: Overload:Engine.Core.Maths.Vector.ToMatrix
+  isSpec: "True"
+  fullName: Engine.Core.Maths.Vector.ToMatrix
+  nameWithType: Vector.ToMatrix
+- uid: Engine.Core.Maths.Vector2
+  name: Vector2
+  href: engineAPI/Engine.Core.Maths.Vector2.html
+  commentId: T:Engine.Core.Maths.Vector2
+  fullName: Engine.Core.Maths.Vector2
+  nameWithType: Vector2
+- uid: Engine.Core.Maths.Vector2.#ctor(Engine.Core.Maths.Vector2)
+  name: Vector2(Vector2)
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2__ctor_Engine_Core_Maths_Vector2_
+  commentId: M:Engine.Core.Maths.Vector2.#ctor(Engine.Core.Maths.Vector2)
+  fullName: Engine.Core.Maths.Vector2.Vector2(Engine.Core.Maths.Vector2)
+  nameWithType: Vector2.Vector2(Vector2)
+- uid: Engine.Core.Maths.Vector2.#ctor(System.Single,System.Single)
+  name: Vector2(Single, Single)
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2__ctor_System_Single_System_Single_
+  commentId: M:Engine.Core.Maths.Vector2.#ctor(System.Single,System.Single)
+  fullName: Engine.Core.Maths.Vector2.Vector2(System.Single, System.Single)
+  nameWithType: Vector2.Vector2(Single, Single)
+- uid: Engine.Core.Maths.Vector2.#ctor*
+  name: Vector2
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2__ctor_
+  commentId: Overload:Engine.Core.Maths.Vector2.#ctor
+  isSpec: "True"
+  fullName: Engine.Core.Maths.Vector2.Vector2
+  nameWithType: Vector2.Vector2
+- uid: Engine.Core.Maths.Vector2.Addition(Engine.Core.Maths.Vector2)
+  name: Addition(Vector2)
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_Addition_Engine_Core_Maths_Vector2_
+  commentId: M:Engine.Core.Maths.Vector2.Addition(Engine.Core.Maths.Vector2)
+  fullName: Engine.Core.Maths.Vector2.Addition(Engine.Core.Maths.Vector2)
+  nameWithType: Vector2.Addition(Vector2)
+- uid: Engine.Core.Maths.Vector2.Addition*
+  name: Addition
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_Addition_
+  commentId: Overload:Engine.Core.Maths.Vector2.Addition
+  isSpec: "True"
+  fullName: Engine.Core.Maths.Vector2.Addition
+  nameWithType: Vector2.Addition
+- uid: Engine.Core.Maths.Vector2.AngleBetween(Engine.Core.Maths.Vector2,Engine.Core.Maths.Vector2)
+  name: AngleBetween(Vector2, Vector2)
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_AngleBetween_Engine_Core_Maths_Vector2_Engine_Core_Maths_Vector2_
+  commentId: M:Engine.Core.Maths.Vector2.AngleBetween(Engine.Core.Maths.Vector2,Engine.Core.Maths.Vector2)
+  fullName: Engine.Core.Maths.Vector2.AngleBetween(Engine.Core.Maths.Vector2, Engine.Core.Maths.Vector2)
+  nameWithType: Vector2.AngleBetween(Vector2, Vector2)
+- uid: Engine.Core.Maths.Vector2.AngleBetween*
+  name: AngleBetween
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_AngleBetween_
+  commentId: Overload:Engine.Core.Maths.Vector2.AngleBetween
+  isSpec: "True"
+  fullName: Engine.Core.Maths.Vector2.AngleBetween
+  nameWithType: Vector2.AngleBetween
+- uid: Engine.Core.Maths.Vector2.CrossProduct(Engine.Core.Maths.Vector2,Engine.Core.Maths.Vector2,Engine.Core.Maths.Vector3@)
+  name: CrossProduct(Vector2, Vector2, out Vector3)
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_CrossProduct_Engine_Core_Maths_Vector2_Engine_Core_Maths_Vector2_Engine_Core_Maths_Vector3__
+  commentId: M:Engine.Core.Maths.Vector2.CrossProduct(Engine.Core.Maths.Vector2,Engine.Core.Maths.Vector2,Engine.Core.Maths.Vector3@)
+  name.vb: CrossProduct(Vector2, Vector2, ByRef Vector3)
+  fullName: Engine.Core.Maths.Vector2.CrossProduct(Engine.Core.Maths.Vector2, Engine.Core.Maths.Vector2, out Engine.Core.Maths.Vector3)
+  fullName.vb: Engine.Core.Maths.Vector2.CrossProduct(Engine.Core.Maths.Vector2, Engine.Core.Maths.Vector2, ByRef Engine.Core.Maths.Vector3)
+  nameWithType: Vector2.CrossProduct(Vector2, Vector2, out Vector3)
+  nameWithType.vb: Vector2.CrossProduct(Vector2, Vector2, ByRef Vector3)
+- uid: Engine.Core.Maths.Vector2.CrossProduct(Engine.Core.Maths.Vector2,Engine.Core.Maths.Vector3@)
+  name: CrossProduct(Vector2, out Vector3)
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_CrossProduct_Engine_Core_Maths_Vector2_Engine_Core_Maths_Vector3__
+  commentId: M:Engine.Core.Maths.Vector2.CrossProduct(Engine.Core.Maths.Vector2,Engine.Core.Maths.Vector3@)
+  name.vb: CrossProduct(Vector2, ByRef Vector3)
+  fullName: Engine.Core.Maths.Vector2.CrossProduct(Engine.Core.Maths.Vector2, out Engine.Core.Maths.Vector3)
+  fullName.vb: Engine.Core.Maths.Vector2.CrossProduct(Engine.Core.Maths.Vector2, ByRef Engine.Core.Maths.Vector3)
+  nameWithType: Vector2.CrossProduct(Vector2, out Vector3)
+  nameWithType.vb: Vector2.CrossProduct(Vector2, ByRef Vector3)
+- uid: Engine.Core.Maths.Vector2.CrossProduct*
+  name: CrossProduct
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_CrossProduct_
+  commentId: Overload:Engine.Core.Maths.Vector2.CrossProduct
+  isSpec: "True"
+  fullName: Engine.Core.Maths.Vector2.CrossProduct
+  nameWithType: Vector2.CrossProduct
+- uid: Engine.Core.Maths.Vector2.Dimension
+  name: Dimension
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_Dimension
+  commentId: P:Engine.Core.Maths.Vector2.Dimension
+  fullName: Engine.Core.Maths.Vector2.Dimension
+  nameWithType: Vector2.Dimension
+- uid: Engine.Core.Maths.Vector2.Dimension*
+  name: Dimension
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_Dimension_
+  commentId: Overload:Engine.Core.Maths.Vector2.Dimension
+  isSpec: "True"
+  fullName: Engine.Core.Maths.Vector2.Dimension
+  nameWithType: Vector2.Dimension
+- uid: Engine.Core.Maths.Vector2.Division(System.Single)
+  name: Division(Single)
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_Division_System_Single_
+  commentId: M:Engine.Core.Maths.Vector2.Division(System.Single)
+  fullName: Engine.Core.Maths.Vector2.Division(System.Single)
+  nameWithType: Vector2.Division(Single)
+- uid: Engine.Core.Maths.Vector2.Division*
+  name: Division
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_Division_
+  commentId: Overload:Engine.Core.Maths.Vector2.Division
+  isSpec: "True"
+  fullName: Engine.Core.Maths.Vector2.Division
+  nameWithType: Vector2.Division
+- uid: Engine.Core.Maths.Vector2.DotProduct(Engine.Core.Maths.Vector2)
+  name: DotProduct(Vector2)
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_DotProduct_Engine_Core_Maths_Vector2_
+  commentId: M:Engine.Core.Maths.Vector2.DotProduct(Engine.Core.Maths.Vector2)
+  fullName: Engine.Core.Maths.Vector2.DotProduct(Engine.Core.Maths.Vector2)
+  nameWithType: Vector2.DotProduct(Vector2)
+- uid: Engine.Core.Maths.Vector2.DotProduct(Engine.Core.Maths.Vector2,Engine.Core.Maths.Vector2)
+  name: DotProduct(Vector2, Vector2)
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_DotProduct_Engine_Core_Maths_Vector2_Engine_Core_Maths_Vector2_
+  commentId: M:Engine.Core.Maths.Vector2.DotProduct(Engine.Core.Maths.Vector2,Engine.Core.Maths.Vector2)
+  fullName: Engine.Core.Maths.Vector2.DotProduct(Engine.Core.Maths.Vector2, Engine.Core.Maths.Vector2)
+  nameWithType: Vector2.DotProduct(Vector2, Vector2)
+- uid: Engine.Core.Maths.Vector2.DotProduct*
+  name: DotProduct
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_DotProduct_
+  commentId: Overload:Engine.Core.Maths.Vector2.DotProduct
+  isSpec: "True"
+  fullName: Engine.Core.Maths.Vector2.DotProduct
+  nameWithType: Vector2.DotProduct
+- uid: Engine.Core.Maths.Vector2.GetLength
+  name: GetLength()
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_GetLength
+  commentId: M:Engine.Core.Maths.Vector2.GetLength
+  fullName: Engine.Core.Maths.Vector2.GetLength()
+  nameWithType: Vector2.GetLength()
+- uid: Engine.Core.Maths.Vector2.GetLength(Engine.Core.Maths.Vector2)
+  name: GetLength(Vector2)
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_GetLength_Engine_Core_Maths_Vector2_
+  commentId: M:Engine.Core.Maths.Vector2.GetLength(Engine.Core.Maths.Vector2)
+  fullName: Engine.Core.Maths.Vector2.GetLength(Engine.Core.Maths.Vector2)
+  nameWithType: Vector2.GetLength(Vector2)
+- uid: Engine.Core.Maths.Vector2.GetLength*
+  name: GetLength
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_GetLength_
+  commentId: Overload:Engine.Core.Maths.Vector2.GetLength
+  isSpec: "True"
+  fullName: Engine.Core.Maths.Vector2.GetLength
+  nameWithType: Vector2.GetLength
+- uid: Engine.Core.Maths.Vector2.GetNormalVector(System.Boolean)
+  name: GetNormalVector(Boolean)
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_GetNormalVector_System_Boolean_
+  commentId: M:Engine.Core.Maths.Vector2.GetNormalVector(System.Boolean)
+  fullName: Engine.Core.Maths.Vector2.GetNormalVector(System.Boolean)
+  nameWithType: Vector2.GetNormalVector(Boolean)
+- uid: Engine.Core.Maths.Vector2.GetNormalVector*
+  name: GetNormalVector
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_GetNormalVector_
+  commentId: Overload:Engine.Core.Maths.Vector2.GetNormalVector
+  isSpec: "True"
+  fullName: Engine.Core.Maths.Vector2.GetNormalVector
+  nameWithType: Vector2.GetNormalVector
+- uid: Engine.Core.Maths.Vector2.IsPerpendicularTo(Engine.Core.Maths.Vector2)
+  name: IsPerpendicularTo(Vector2)
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_IsPerpendicularTo_Engine_Core_Maths_Vector2_
+  commentId: M:Engine.Core.Maths.Vector2.IsPerpendicularTo(Engine.Core.Maths.Vector2)
+  fullName: Engine.Core.Maths.Vector2.IsPerpendicularTo(Engine.Core.Maths.Vector2)
+  nameWithType: Vector2.IsPerpendicularTo(Vector2)
+- uid: Engine.Core.Maths.Vector2.IsPerpendicularTo*
+  name: IsPerpendicularTo
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_IsPerpendicularTo_
+  commentId: Overload:Engine.Core.Maths.Vector2.IsPerpendicularTo
+  isSpec: "True"
+  fullName: Engine.Core.Maths.Vector2.IsPerpendicularTo
+  nameWithType: Vector2.IsPerpendicularTo
+- uid: Engine.Core.Maths.Vector2.IsZero
+  name: IsZero()
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_IsZero
+  commentId: M:Engine.Core.Maths.Vector2.IsZero
+  fullName: Engine.Core.Maths.Vector2.IsZero()
+  nameWithType: Vector2.IsZero()
+- uid: Engine.Core.Maths.Vector2.IsZero*
+  name: IsZero
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_IsZero_
+  commentId: Overload:Engine.Core.Maths.Vector2.IsZero
+  isSpec: "True"
+  fullName: Engine.Core.Maths.Vector2.IsZero
+  nameWithType: Vector2.IsZero
+- uid: Engine.Core.Maths.Vector2.Item(System.Int32)
+  name: Item[Int32]
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_Item_System_Int32_
+  commentId: P:Engine.Core.Maths.Vector2.Item(System.Int32)
+  name.vb: Item(Int32)
+  fullName: Engine.Core.Maths.Vector2.Item[System.Int32]
+  fullName.vb: Engine.Core.Maths.Vector2.Item(System.Int32)
+  nameWithType: Vector2.Item[Int32]
+  nameWithType.vb: Vector2.Item(Int32)
+- uid: Engine.Core.Maths.Vector2.Item*
+  name: Item
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_Item_
+  commentId: Overload:Engine.Core.Maths.Vector2.Item
+  isSpec: "True"
+  fullName: Engine.Core.Maths.Vector2.Item
+  nameWithType: Vector2.Item
+- uid: Engine.Core.Maths.Vector2.Length
+  name: Length
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_Length
+  commentId: P:Engine.Core.Maths.Vector2.Length
+  fullName: Engine.Core.Maths.Vector2.Length
+  nameWithType: Vector2.Length
+- uid: Engine.Core.Maths.Vector2.Length*
+  name: Length
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_Length_
+  commentId: Overload:Engine.Core.Maths.Vector2.Length
+  isSpec: "True"
+  fullName: Engine.Core.Maths.Vector2.Length
+  nameWithType: Vector2.Length
+- uid: Engine.Core.Maths.Vector2.LengthSquared
+  name: LengthSquared
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_LengthSquared
+  commentId: P:Engine.Core.Maths.Vector2.LengthSquared
+  fullName: Engine.Core.Maths.Vector2.LengthSquared
+  nameWithType: Vector2.LengthSquared
+- uid: Engine.Core.Maths.Vector2.LengthSquared*
+  name: LengthSquared
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_LengthSquared_
+  commentId: Overload:Engine.Core.Maths.Vector2.LengthSquared
+  isSpec: "True"
+  fullName: Engine.Core.Maths.Vector2.LengthSquared
+  nameWithType: Vector2.LengthSquared
+- uid: Engine.Core.Maths.Vector2.Normalize
+  name: Normalize()
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_Normalize
+  commentId: M:Engine.Core.Maths.Vector2.Normalize
+  fullName: Engine.Core.Maths.Vector2.Normalize()
+  nameWithType: Vector2.Normalize()
+- uid: Engine.Core.Maths.Vector2.Normalize(Engine.Core.Maths.Vector2)
+  name: Normalize(Vector2)
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_Normalize_Engine_Core_Maths_Vector2_
+  commentId: M:Engine.Core.Maths.Vector2.Normalize(Engine.Core.Maths.Vector2)
+  fullName: Engine.Core.Maths.Vector2.Normalize(Engine.Core.Maths.Vector2)
+  nameWithType: Vector2.Normalize(Vector2)
+- uid: Engine.Core.Maths.Vector2.Normalize*
+  name: Normalize
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_Normalize_
+  commentId: Overload:Engine.Core.Maths.Vector2.Normalize
+  isSpec: "True"
+  fullName: Engine.Core.Maths.Vector2.Normalize
+  nameWithType: Vector2.Normalize
+- uid: Engine.Core.Maths.Vector2.Normalized
+  name: Normalized
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_Normalized
+  commentId: P:Engine.Core.Maths.Vector2.Normalized
+  fullName: Engine.Core.Maths.Vector2.Normalized
+  nameWithType: Vector2.Normalized
+- uid: Engine.Core.Maths.Vector2.Normalized*
+  name: Normalized
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_Normalized_
+  commentId: Overload:Engine.Core.Maths.Vector2.Normalized
+  isSpec: "True"
+  fullName: Engine.Core.Maths.Vector2.Normalized
+  nameWithType: Vector2.Normalized
+- uid: Engine.Core.Maths.Vector2.One
+  name: One
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_One
+  commentId: F:Engine.Core.Maths.Vector2.One
+  fullName: Engine.Core.Maths.Vector2.One
+  nameWithType: Vector2.One
+- uid: Engine.Core.Maths.Vector2.op_Addition(Engine.Core.Maths.Vector2,Engine.Core.Maths.Vector2)
+  name: Addition(Vector2, Vector2)
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_op_Addition_Engine_Core_Maths_Vector2_Engine_Core_Maths_Vector2_
+  commentId: M:Engine.Core.Maths.Vector2.op_Addition(Engine.Core.Maths.Vector2,Engine.Core.Maths.Vector2)
+  fullName: Engine.Core.Maths.Vector2.Addition(Engine.Core.Maths.Vector2, Engine.Core.Maths.Vector2)
+  nameWithType: Vector2.Addition(Vector2, Vector2)
+- uid: Engine.Core.Maths.Vector2.op_Addition*
+  name: Addition
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_op_Addition_
+  commentId: Overload:Engine.Core.Maths.Vector2.op_Addition
+  isSpec: "True"
+  fullName: Engine.Core.Maths.Vector2.Addition
+  nameWithType: Vector2.Addition
+- uid: Engine.Core.Maths.Vector2.op_Division(Engine.Core.Maths.Vector2,System.Single)
+  name: Division(Vector2, Single)
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_op_Division_Engine_Core_Maths_Vector2_System_Single_
+  commentId: M:Engine.Core.Maths.Vector2.op_Division(Engine.Core.Maths.Vector2,System.Single)
+  fullName: Engine.Core.Maths.Vector2.Division(Engine.Core.Maths.Vector2, System.Single)
+  nameWithType: Vector2.Division(Vector2, Single)
+- uid: Engine.Core.Maths.Vector2.op_Division*
+  name: Division
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_op_Division_
+  commentId: Overload:Engine.Core.Maths.Vector2.op_Division
+  isSpec: "True"
+  fullName: Engine.Core.Maths.Vector2.Division
+  nameWithType: Vector2.Division
+- uid: Engine.Core.Maths.Vector2.op_Implicit(Engine.Core.Maths.Vector2)~Engine.Core.Maths.Vector
+  name: Implicit(Vector2 to Vector)
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_op_Implicit_Engine_Core_Maths_Vector2__Engine_Core_Maths_Vector
+  commentId: M:Engine.Core.Maths.Vector2.op_Implicit(Engine.Core.Maths.Vector2)~Engine.Core.Maths.Vector
+  name.vb: Widening(Vector2 to Vector)
+  fullName: Engine.Core.Maths.Vector2.Implicit(Engine.Core.Maths.Vector2 to Engine.Core.Maths.Vector)
+  fullName.vb: Engine.Core.Maths.Vector2.Widening(Engine.Core.Maths.Vector2 to Engine.Core.Maths.Vector)
+  nameWithType: Vector2.Implicit(Vector2 to Vector)
+  nameWithType.vb: Vector2.Widening(Vector2 to Vector)
+- uid: Engine.Core.Maths.Vector2.op_Implicit*
+  name: Implicit
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_op_Implicit_
+  commentId: Overload:Engine.Core.Maths.Vector2.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: Engine.Core.Maths.Vector2.Implicit
+  fullName.vb: Engine.Core.Maths.Vector2.Widening
+  nameWithType: Vector2.Implicit
+  nameWithType.vb: Vector2.Widening
+- uid: Engine.Core.Maths.Vector2.op_Multiply(Engine.Core.Maths.Vector2,Engine.Core.Maths.Vector2)
+  name: Multiply(Vector2, Vector2)
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_op_Multiply_Engine_Core_Maths_Vector2_Engine_Core_Maths_Vector2_
+  commentId: M:Engine.Core.Maths.Vector2.op_Multiply(Engine.Core.Maths.Vector2,Engine.Core.Maths.Vector2)
+  fullName: Engine.Core.Maths.Vector2.Multiply(Engine.Core.Maths.Vector2, Engine.Core.Maths.Vector2)
+  nameWithType: Vector2.Multiply(Vector2, Vector2)
+- uid: Engine.Core.Maths.Vector2.op_Multiply(Engine.Core.Maths.Vector2,System.Single)
+  name: Multiply(Vector2, Single)
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_op_Multiply_Engine_Core_Maths_Vector2_System_Single_
+  commentId: M:Engine.Core.Maths.Vector2.op_Multiply(Engine.Core.Maths.Vector2,System.Single)
+  fullName: Engine.Core.Maths.Vector2.Multiply(Engine.Core.Maths.Vector2, System.Single)
+  nameWithType: Vector2.Multiply(Vector2, Single)
+- uid: Engine.Core.Maths.Vector2.op_Multiply(System.Single,Engine.Core.Maths.Vector2)
+  name: Multiply(Single, Vector2)
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_op_Multiply_System_Single_Engine_Core_Maths_Vector2_
+  commentId: M:Engine.Core.Maths.Vector2.op_Multiply(System.Single,Engine.Core.Maths.Vector2)
+  fullName: Engine.Core.Maths.Vector2.Multiply(System.Single, Engine.Core.Maths.Vector2)
+  nameWithType: Vector2.Multiply(Single, Vector2)
+- uid: Engine.Core.Maths.Vector2.op_Multiply*
+  name: Multiply
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_op_Multiply_
+  commentId: Overload:Engine.Core.Maths.Vector2.op_Multiply
+  isSpec: "True"
+  fullName: Engine.Core.Maths.Vector2.Multiply
+  nameWithType: Vector2.Multiply
+- uid: Engine.Core.Maths.Vector2.op_Subtraction(Engine.Core.Maths.Vector2,Engine.Core.Maths.Vector2)
+  name: Subtraction(Vector2, Vector2)
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_op_Subtraction_Engine_Core_Maths_Vector2_Engine_Core_Maths_Vector2_
+  commentId: M:Engine.Core.Maths.Vector2.op_Subtraction(Engine.Core.Maths.Vector2,Engine.Core.Maths.Vector2)
+  fullName: Engine.Core.Maths.Vector2.Subtraction(Engine.Core.Maths.Vector2, Engine.Core.Maths.Vector2)
+  nameWithType: Vector2.Subtraction(Vector2, Vector2)
+- uid: Engine.Core.Maths.Vector2.op_Subtraction*
+  name: Subtraction
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_op_Subtraction_
+  commentId: Overload:Engine.Core.Maths.Vector2.op_Subtraction
+  isSpec: "True"
+  fullName: Engine.Core.Maths.Vector2.Subtraction
+  nameWithType: Vector2.Subtraction
+- uid: Engine.Core.Maths.Vector2.OrthogonalityCheck(Engine.Core.Maths.Vector2,Engine.Core.Maths.Vector2)
+  name: OrthogonalityCheck(Vector2, Vector2)
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_OrthogonalityCheck_Engine_Core_Maths_Vector2_Engine_Core_Maths_Vector2_
+  commentId: M:Engine.Core.Maths.Vector2.OrthogonalityCheck(Engine.Core.Maths.Vector2,Engine.Core.Maths.Vector2)
+  fullName: Engine.Core.Maths.Vector2.OrthogonalityCheck(Engine.Core.Maths.Vector2, Engine.Core.Maths.Vector2)
+  nameWithType: Vector2.OrthogonalityCheck(Vector2, Vector2)
+- uid: Engine.Core.Maths.Vector2.OrthogonalityCheck*
+  name: OrthogonalityCheck
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_OrthogonalityCheck_
+  commentId: Overload:Engine.Core.Maths.Vector2.OrthogonalityCheck
+  isSpec: "True"
+  fullName: Engine.Core.Maths.Vector2.OrthogonalityCheck
+  nameWithType: Vector2.OrthogonalityCheck
+- uid: Engine.Core.Maths.Vector2.ScalarProduct(System.Single)
+  name: ScalarProduct(Single)
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_ScalarProduct_System_Single_
+  commentId: M:Engine.Core.Maths.Vector2.ScalarProduct(System.Single)
+  fullName: Engine.Core.Maths.Vector2.ScalarProduct(System.Single)
+  nameWithType: Vector2.ScalarProduct(Single)
+- uid: Engine.Core.Maths.Vector2.ScalarProduct*
+  name: ScalarProduct
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_ScalarProduct_
+  commentId: Overload:Engine.Core.Maths.Vector2.ScalarProduct
+  isSpec: "True"
+  fullName: Engine.Core.Maths.Vector2.ScalarProduct
+  nameWithType: Vector2.ScalarProduct
+- uid: Engine.Core.Maths.Vector2.Substraction(Engine.Core.Maths.Vector2)
+  name: Substraction(Vector2)
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_Substraction_Engine_Core_Maths_Vector2_
+  commentId: M:Engine.Core.Maths.Vector2.Substraction(Engine.Core.Maths.Vector2)
+  fullName: Engine.Core.Maths.Vector2.Substraction(Engine.Core.Maths.Vector2)
+  nameWithType: Vector2.Substraction(Vector2)
+- uid: Engine.Core.Maths.Vector2.Substraction*
+  name: Substraction
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_Substraction_
+  commentId: Overload:Engine.Core.Maths.Vector2.Substraction
+  isSpec: "True"
+  fullName: Engine.Core.Maths.Vector2.Substraction
+  nameWithType: Vector2.Substraction
+- uid: Engine.Core.Maths.Vector2.ToMatrix(Engine.Core.Maths.Vector2,System.Boolean)
+  name: ToMatrix(Vector2, Boolean)
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_ToMatrix_Engine_Core_Maths_Vector2_System_Boolean_
+  commentId: M:Engine.Core.Maths.Vector2.ToMatrix(Engine.Core.Maths.Vector2,System.Boolean)
+  fullName: Engine.Core.Maths.Vector2.ToMatrix(Engine.Core.Maths.Vector2, System.Boolean)
+  nameWithType: Vector2.ToMatrix(Vector2, Boolean)
+- uid: Engine.Core.Maths.Vector2.ToMatrix(System.Boolean)
+  name: ToMatrix(Boolean)
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_ToMatrix_System_Boolean_
+  commentId: M:Engine.Core.Maths.Vector2.ToMatrix(System.Boolean)
+  fullName: Engine.Core.Maths.Vector2.ToMatrix(System.Boolean)
+  nameWithType: Vector2.ToMatrix(Boolean)
+- uid: Engine.Core.Maths.Vector2.ToMatrix*
+  name: ToMatrix
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_ToMatrix_
+  commentId: Overload:Engine.Core.Maths.Vector2.ToMatrix
+  isSpec: "True"
+  fullName: Engine.Core.Maths.Vector2.ToMatrix
+  nameWithType: Vector2.ToMatrix
+- uid: Engine.Core.Maths.Vector2.X
+  name: X
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_X
+  commentId: P:Engine.Core.Maths.Vector2.X
+  fullName: Engine.Core.Maths.Vector2.X
+  nameWithType: Vector2.X
+- uid: Engine.Core.Maths.Vector2.X*
+  name: X
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_X_
+  commentId: Overload:Engine.Core.Maths.Vector2.X
+  isSpec: "True"
+  fullName: Engine.Core.Maths.Vector2.X
+  nameWithType: Vector2.X
+- uid: Engine.Core.Maths.Vector2.Y
+  name: Y
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_Y
+  commentId: P:Engine.Core.Maths.Vector2.Y
+  fullName: Engine.Core.Maths.Vector2.Y
+  nameWithType: Vector2.Y
+- uid: Engine.Core.Maths.Vector2.Y*
+  name: Y
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_Y_
+  commentId: Overload:Engine.Core.Maths.Vector2.Y
+  isSpec: "True"
+  fullName: Engine.Core.Maths.Vector2.Y
+  nameWithType: Vector2.Y
+- uid: Engine.Core.Maths.Vector2.Zero
+  name: Zero
+  href: engineAPI/Engine.Core.Maths.Vector2.html#Engine_Core_Maths_Vector2_Zero
+  commentId: F:Engine.Core.Maths.Vector2.Zero
+  fullName: Engine.Core.Maths.Vector2.Zero
+  nameWithType: Vector2.Zero
 - uid: Engine.Core.Maths.Vector3
   name: Vector3
   href: engineAPI/Engine.Core.Maths.Vector3.html
@@ -4198,6 +6045,25 @@ references:
   isSpec: "True"
   fullName: Engine.Core.Maths.Vector3.Division
   nameWithType: Vector3.Division
+- uid: Engine.Core.Maths.Vector3.op_Implicit(Engine.Core.Maths.Vector3)~Engine.Core.Maths.Vector
+  name: Implicit(Vector3 to Vector)
+  href: engineAPI/Engine.Core.Maths.Vector3.html#Engine_Core_Maths_Vector3_op_Implicit_Engine_Core_Maths_Vector3__Engine_Core_Maths_Vector
+  commentId: M:Engine.Core.Maths.Vector3.op_Implicit(Engine.Core.Maths.Vector3)~Engine.Core.Maths.Vector
+  name.vb: Widening(Vector3 to Vector)
+  fullName: Engine.Core.Maths.Vector3.Implicit(Engine.Core.Maths.Vector3 to Engine.Core.Maths.Vector)
+  fullName.vb: Engine.Core.Maths.Vector3.Widening(Engine.Core.Maths.Vector3 to Engine.Core.Maths.Vector)
+  nameWithType: Vector3.Implicit(Vector3 to Vector)
+  nameWithType.vb: Vector3.Widening(Vector3 to Vector)
+- uid: Engine.Core.Maths.Vector3.op_Implicit*
+  name: Implicit
+  href: engineAPI/Engine.Core.Maths.Vector3.html#Engine_Core_Maths_Vector3_op_Implicit_
+  commentId: Overload:Engine.Core.Maths.Vector3.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: Engine.Core.Maths.Vector3.Implicit
+  fullName.vb: Engine.Core.Maths.Vector3.Widening
+  nameWithType: Vector3.Implicit
+  nameWithType.vb: Vector3.Widening
 - uid: Engine.Core.Maths.Vector3.op_Multiply(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3)
   name: Multiply(Vector3, Vector3)
   href: engineAPI/Engine.Core.Maths.Vector3.html#Engine_Core_Maths_Vector3_op_Multiply_Engine_Core_Maths_Vector3_Engine_Core_Maths_Vector3_
@@ -4249,6 +6115,25 @@ references:
   isSpec: "True"
   fullName: Engine.Core.Maths.Vector3.OrthogonalityCheck
   nameWithType: Vector3.OrthogonalityCheck
+- uid: Engine.Core.Maths.Vector3.Project(Engine.Core.Maths.Plane)
+  name: Project(Plane)
+  href: engineAPI/Engine.Core.Maths.Vector3.html#Engine_Core_Maths_Vector3_Project_Engine_Core_Maths_Plane_
+  commentId: M:Engine.Core.Maths.Vector3.Project(Engine.Core.Maths.Plane)
+  fullName: Engine.Core.Maths.Vector3.Project(Engine.Core.Maths.Plane)
+  nameWithType: Vector3.Project(Plane)
+- uid: Engine.Core.Maths.Vector3.Project(Engine.Core.Maths.Vector3)
+  name: Project(Vector3)
+  href: engineAPI/Engine.Core.Maths.Vector3.html#Engine_Core_Maths_Vector3_Project_Engine_Core_Maths_Vector3_
+  commentId: M:Engine.Core.Maths.Vector3.Project(Engine.Core.Maths.Vector3)
+  fullName: Engine.Core.Maths.Vector3.Project(Engine.Core.Maths.Vector3)
+  nameWithType: Vector3.Project(Vector3)
+- uid: Engine.Core.Maths.Vector3.Project*
+  name: Project
+  href: engineAPI/Engine.Core.Maths.Vector3.html#Engine_Core_Maths_Vector3_Project_
+  commentId: Overload:Engine.Core.Maths.Vector3.Project
+  isSpec: "True"
+  fullName: Engine.Core.Maths.Vector3.Project
+  nameWithType: Vector3.Project
 - uid: Engine.Core.Maths.Vector3.ScalarProduct(System.Single)
   name: ScalarProduct(Single)
   href: engineAPI/Engine.Core.Maths.Vector3.html#Engine_Core_Maths_Vector3_ScalarProduct_System_Single_
@@ -4275,6 +6160,25 @@ references:
   isSpec: "True"
   fullName: Engine.Core.Maths.Vector3.Substraction
   nameWithType: Vector3.Substraction
+- uid: Engine.Core.Maths.Vector3.ToMatrix(Engine.Core.Maths.Vector3,System.Boolean)
+  name: ToMatrix(Vector3, Boolean)
+  href: engineAPI/Engine.Core.Maths.Vector3.html#Engine_Core_Maths_Vector3_ToMatrix_Engine_Core_Maths_Vector3_System_Boolean_
+  commentId: M:Engine.Core.Maths.Vector3.ToMatrix(Engine.Core.Maths.Vector3,System.Boolean)
+  fullName: Engine.Core.Maths.Vector3.ToMatrix(Engine.Core.Maths.Vector3, System.Boolean)
+  nameWithType: Vector3.ToMatrix(Vector3, Boolean)
+- uid: Engine.Core.Maths.Vector3.ToMatrix(System.Boolean)
+  name: ToMatrix(Boolean)
+  href: engineAPI/Engine.Core.Maths.Vector3.html#Engine_Core_Maths_Vector3_ToMatrix_System_Boolean_
+  commentId: M:Engine.Core.Maths.Vector3.ToMatrix(System.Boolean)
+  fullName: Engine.Core.Maths.Vector3.ToMatrix(System.Boolean)
+  nameWithType: Vector3.ToMatrix(Boolean)
+- uid: Engine.Core.Maths.Vector3.ToMatrix*
+  name: ToMatrix
+  href: engineAPI/Engine.Core.Maths.Vector3.html#Engine_Core_Maths_Vector3_ToMatrix_
+  commentId: Overload:Engine.Core.Maths.Vector3.ToMatrix
+  isSpec: "True"
+  fullName: Engine.Core.Maths.Vector3.ToMatrix
+  nameWithType: Vector3.ToMatrix
 - uid: Engine.Core.Maths.Vector3.X1
   name: X1
   href: engineAPI/Engine.Core.Maths.Vector3.html#Engine_Core_Maths_Vector3_X1
@@ -4326,12 +6230,30 @@ references:
   commentId: T:Engine.Core.Object3D
   fullName: Engine.Core.Object3D
   nameWithType: Object3D
-- uid: Engine.Core.Object3D.#ctor
-  name: Object3D()
-  href: engineAPI/Engine.Core.Object3D.html#Engine_Core_Object3D__ctor
-  commentId: M:Engine.Core.Object3D.#ctor
-  fullName: Engine.Core.Object3D.Object3D()
-  nameWithType: Object3D.Object3D()
+- uid: Engine.Core.Object3D.#ctor(System.Boolean)
+  name: Object3D(Boolean)
+  href: engineAPI/Engine.Core.Object3D.html#Engine_Core_Object3D__ctor_System_Boolean_
+  commentId: M:Engine.Core.Object3D.#ctor(System.Boolean)
+  fullName: Engine.Core.Object3D.Object3D(System.Boolean)
+  nameWithType: Object3D.Object3D(Boolean)
+- uid: Engine.Core.Object3D.#ctor(Vector3,RotationVector3,System.Boolean)
+  name: Object3D(Vector3, RotationVector3, Boolean)
+  href: engineAPI/Engine.Core.Object3D.html#Engine_Core_Object3D__ctor_Vector3_RotationVector3_System_Boolean_
+  commentId: M:Engine.Core.Object3D.#ctor(Vector3,RotationVector3,System.Boolean)
+  fullName: Engine.Core.Object3D.Object3D(Vector3, RotationVector3, System.Boolean)
+  nameWithType: Object3D.Object3D(Vector3, RotationVector3, Boolean)
+- uid: Engine.Core.Object3D.#ctor(Vector3,RotationVector3,Vector3,System.Boolean)
+  name: Object3D(Vector3, RotationVector3, Vector3, Boolean)
+  href: engineAPI/Engine.Core.Object3D.html#Engine_Core_Object3D__ctor_Vector3_RotationVector3_Vector3_System_Boolean_
+  commentId: M:Engine.Core.Object3D.#ctor(Vector3,RotationVector3,Vector3,System.Boolean)
+  fullName: Engine.Core.Object3D.Object3D(Vector3, RotationVector3, Vector3, System.Boolean)
+  nameWithType: Object3D.Object3D(Vector3, RotationVector3, Vector3, Boolean)
+- uid: Engine.Core.Object3D.#ctor(Vector3,System.Boolean)
+  name: Object3D(Vector3, Boolean)
+  href: engineAPI/Engine.Core.Object3D.html#Engine_Core_Object3D__ctor_Vector3_System_Boolean_
+  commentId: M:Engine.Core.Object3D.#ctor(Vector3,System.Boolean)
+  fullName: Engine.Core.Object3D.Object3D(Vector3, System.Boolean)
+  nameWithType: Object3D.Object3D(Vector3, Boolean)
 - uid: Engine.Core.Object3D.#ctor*
   name: Object3D
   href: engineAPI/Engine.Core.Object3D.html#Engine_Core_Object3D__ctor_
@@ -4361,12 +6283,120 @@ references:
   commentId: F:Engine.Core.Object3D.Components
   fullName: Engine.Core.Object3D.Components
   nameWithType: Object3D.Components
-- uid: Engine.Core.Object3D.name
-  name: name
-  href: engineAPI/Engine.Core.Object3D.html#Engine_Core_Object3D_name
-  commentId: F:Engine.Core.Object3D.name
-  fullName: Engine.Core.Object3D.name
-  nameWithType: Object3D.name
+- uid: Engine.Core.Object3D.FindChild(System.String)
+  name: FindChild(String)
+  href: engineAPI/Engine.Core.Object3D.html#Engine_Core_Object3D_FindChild_System_String_
+  commentId: M:Engine.Core.Object3D.FindChild(System.String)
+  fullName: Engine.Core.Object3D.FindChild(System.String)
+  nameWithType: Object3D.FindChild(String)
+- uid: Engine.Core.Object3D.FindChild*
+  name: FindChild
+  href: engineAPI/Engine.Core.Object3D.html#Engine_Core_Object3D_FindChild_
+  commentId: Overload:Engine.Core.Object3D.FindChild
+  isSpec: "True"
+  fullName: Engine.Core.Object3D.FindChild
+  nameWithType: Object3D.FindChild
+- uid: Engine.Core.Object3D.GetComponent*
+  name: GetComponent
+  href: engineAPI/Engine.Core.Object3D.html#Engine_Core_Object3D_GetComponent_
+  commentId: Overload:Engine.Core.Object3D.GetComponent
+  isSpec: "True"
+  fullName: Engine.Core.Object3D.GetComponent
+  nameWithType: Object3D.GetComponent
+- uid: Engine.Core.Object3D.GetComponent``1
+  name: GetComponent<T>()
+  href: engineAPI/Engine.Core.Object3D.html#Engine_Core_Object3D_GetComponent__1
+  commentId: M:Engine.Core.Object3D.GetComponent``1
+  name.vb: GetComponent(Of T)()
+  fullName: Engine.Core.Object3D.GetComponent<T>()
+  fullName.vb: Engine.Core.Object3D.GetComponent(Of T)()
+  nameWithType: Object3D.GetComponent<T>()
+  nameWithType.vb: Object3D.GetComponent(Of T)()
+- uid: Engine.Core.Object3D.GetComponent``1(``0)
+  name: GetComponent<T>(T)
+  href: engineAPI/Engine.Core.Object3D.html#Engine_Core_Object3D_GetComponent__1___0_
+  commentId: M:Engine.Core.Object3D.GetComponent``1(``0)
+  name.vb: GetComponent(Of T)(T)
+  fullName: Engine.Core.Object3D.GetComponent<T>(T)
+  fullName.vb: Engine.Core.Object3D.GetComponent(Of T)(T)
+  nameWithType: Object3D.GetComponent<T>(T)
+  nameWithType.vb: Object3D.GetComponent(Of T)(T)
+- uid: Engine.Core.Object3D.GetComponents*
+  name: GetComponents
+  href: engineAPI/Engine.Core.Object3D.html#Engine_Core_Object3D_GetComponents_
+  commentId: Overload:Engine.Core.Object3D.GetComponents
+  isSpec: "True"
+  fullName: Engine.Core.Object3D.GetComponents
+  nameWithType: Object3D.GetComponents
+- uid: Engine.Core.Object3D.GetComponents``1
+  name: GetComponents<T>()
+  href: engineAPI/Engine.Core.Object3D.html#Engine_Core_Object3D_GetComponents__1
+  commentId: M:Engine.Core.Object3D.GetComponents``1
+  name.vb: GetComponents(Of T)()
+  fullName: Engine.Core.Object3D.GetComponents<T>()
+  fullName.vb: Engine.Core.Object3D.GetComponents(Of T)()
+  nameWithType: Object3D.GetComponents<T>()
+  nameWithType.vb: Object3D.GetComponents(Of T)()
+- uid: Engine.Core.Object3D.GetComponents``1(``0)
+  name: GetComponents<T>(T)
+  href: engineAPI/Engine.Core.Object3D.html#Engine_Core_Object3D_GetComponents__1___0_
+  commentId: M:Engine.Core.Object3D.GetComponents``1(``0)
+  name.vb: GetComponents(Of T)(T)
+  fullName: Engine.Core.Object3D.GetComponents<T>(T)
+  fullName.vb: Engine.Core.Object3D.GetComponents(Of T)(T)
+  nameWithType: Object3D.GetComponents<T>(T)
+  nameWithType.vb: Object3D.GetComponents(Of T)(T)
+- uid: Engine.Core.Object3D.Local
+  name: Local
+  href: engineAPI/Engine.Core.Object3D.html#Engine_Core_Object3D_Local
+  commentId: P:Engine.Core.Object3D.Local
+  fullName: Engine.Core.Object3D.Local
+  nameWithType: Object3D.Local
+- uid: Engine.Core.Object3D.Local*
+  name: Local
+  href: engineAPI/Engine.Core.Object3D.html#Engine_Core_Object3D_Local_
+  commentId: Overload:Engine.Core.Object3D.Local
+  isSpec: "True"
+  fullName: Engine.Core.Object3D.Local
+  nameWithType: Object3D.Local
+- uid: Engine.Core.Object3D.Name
+  name: Name
+  href: engineAPI/Engine.Core.Object3D.html#Engine_Core_Object3D_Name
+  commentId: F:Engine.Core.Object3D.Name
+  fullName: Engine.Core.Object3D.Name
+  nameWithType: Object3D.Name
+- uid: Engine.Core.Object3D.op_Implicit(Engine.Core.Object3D)~LCS3
+  name: Implicit(Object3D to LCS3)
+  href: engineAPI/Engine.Core.Object3D.html#Engine_Core_Object3D_op_Implicit_Engine_Core_Object3D__LCS3
+  commentId: M:Engine.Core.Object3D.op_Implicit(Engine.Core.Object3D)~LCS3
+  name.vb: Widening(Object3D to LCS3)
+  fullName: Engine.Core.Object3D.Implicit(Engine.Core.Object3D to LCS3)
+  fullName.vb: Engine.Core.Object3D.Widening(Engine.Core.Object3D to LCS3)
+  nameWithType: Object3D.Implicit(Object3D to LCS3)
+  nameWithType.vb: Object3D.Widening(Object3D to LCS3)
+- uid: Engine.Core.Object3D.op_Implicit*
+  name: Implicit
+  href: engineAPI/Engine.Core.Object3D.html#Engine_Core_Object3D_op_Implicit_
+  commentId: Overload:Engine.Core.Object3D.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: Engine.Core.Object3D.Implicit
+  fullName.vb: Engine.Core.Object3D.Widening
+  nameWithType: Object3D.Implicit
+  nameWithType.vb: Object3D.Widening
+- uid: Engine.Core.Object3D.Parent
+  name: Parent
+  href: engineAPI/Engine.Core.Object3D.html#Engine_Core_Object3D_Parent
+  commentId: P:Engine.Core.Object3D.Parent
+  fullName: Engine.Core.Object3D.Parent
+  nameWithType: Object3D.Parent
+- uid: Engine.Core.Object3D.Parent*
+  name: Parent
+  href: engineAPI/Engine.Core.Object3D.html#Engine_Core_Object3D_Parent_
+  commentId: Overload:Engine.Core.Object3D.Parent
+  isSpec: "True"
+  fullName: Engine.Core.Object3D.Parent
+  nameWithType: Object3D.Parent
 - uid: Engine.Core.Object3D.RemoveComponent*
   name: RemoveComponent
   href: engineAPI/Engine.Core.Object3D.html#Engine_Core_Object3D_RemoveComponent_
@@ -4383,6 +6413,400 @@ references:
   fullName.vb: Engine.Core.Object3D.RemoveComponent(Of T)(T)
   nameWithType: Object3D.RemoveComponent<T>(T)
   nameWithType.vb: Object3D.RemoveComponent(Of T)(T)
+- uid: Engine.Core.Object3D.SetParent(Engine.Core.Object3D,System.Boolean)
+  name: SetParent(Object3D, Boolean)
+  href: engineAPI/Engine.Core.Object3D.html#Engine_Core_Object3D_SetParent_Engine_Core_Object3D_System_Boolean_
+  commentId: M:Engine.Core.Object3D.SetParent(Engine.Core.Object3D,System.Boolean)
+  fullName: Engine.Core.Object3D.SetParent(Engine.Core.Object3D, System.Boolean)
+  nameWithType: Object3D.SetParent(Object3D, Boolean)
+- uid: Engine.Core.Object3D.SetParent*
+  name: SetParent
+  href: engineAPI/Engine.Core.Object3D.html#Engine_Core_Object3D_SetParent_
+  commentId: Overload:Engine.Core.Object3D.SetParent
+  isSpec: "True"
+  fullName: Engine.Core.Object3D.SetParent
+  nameWithType: Object3D.SetParent
+- uid: Engine.Core.Particle
+  name: Particle
+  href: engineAPI/Engine.Core.Particle.html
+  commentId: T:Engine.Core.Particle
+  fullName: Engine.Core.Particle
+  nameWithType: Particle
+- uid: Engine.Core.Particle.#ctor(System.Boolean)
+  name: Particle(Boolean)
+  href: engineAPI/Engine.Core.Particle.html#Engine_Core_Particle__ctor_System_Boolean_
+  commentId: M:Engine.Core.Particle.#ctor(System.Boolean)
+  fullName: Engine.Core.Particle.Particle(System.Boolean)
+  nameWithType: Particle.Particle(Boolean)
+- uid: Engine.Core.Particle.#ctor*
+  name: Particle
+  href: engineAPI/Engine.Core.Particle.html#Engine_Core_Particle__ctor_
+  commentId: Overload:Engine.Core.Particle.#ctor
+  isSpec: "True"
+  fullName: Engine.Core.Particle.Particle
+  nameWithType: Particle.Particle
+- uid: Engine.Core.Particle.CheckPosition
+  name: CheckPosition()
+  href: engineAPI/Engine.Core.Particle.html#Engine_Core_Particle_CheckPosition
+  commentId: M:Engine.Core.Particle.CheckPosition
+  fullName: Engine.Core.Particle.CheckPosition()
+  nameWithType: Particle.CheckPosition()
+- uid: Engine.Core.Particle.CheckPosition*
+  name: CheckPosition
+  href: engineAPI/Engine.Core.Particle.html#Engine_Core_Particle_CheckPosition_
+  commentId: Overload:Engine.Core.Particle.CheckPosition
+  isSpec: "True"
+  fullName: Engine.Core.Particle.CheckPosition
+  nameWithType: Particle.CheckPosition
+- uid: Engine.Core.Particle.SetPosition(Vector3)
+  name: SetPosition(Vector3)
+  href: engineAPI/Engine.Core.Particle.html#Engine_Core_Particle_SetPosition_Vector3_
+  commentId: M:Engine.Core.Particle.SetPosition(Vector3)
+  fullName: Engine.Core.Particle.SetPosition(Vector3)
+  nameWithType: Particle.SetPosition(Vector3)
+- uid: Engine.Core.Particle.SetPosition*
+  name: SetPosition
+  href: engineAPI/Engine.Core.Particle.html#Engine_Core_Particle_SetPosition_
+  commentId: Overload:Engine.Core.Particle.SetPosition
+  isSpec: "True"
+  fullName: Engine.Core.Particle.SetPosition
+  nameWithType: Particle.SetPosition
+- uid: Engine.Core.Physics.Optics
+  name: Engine.Core.Physics.Optics
+  href: engineAPI/Engine.Core.Physics.Optics.html
+  commentId: N:Engine.Core.Physics.Optics
+  fullName: Engine.Core.Physics.Optics
+  nameWithType: Engine.Core.Physics.Optics
+- uid: Engine.Core.Physics.Optics.Lens
+  name: Lens
+  href: engineAPI/Engine.Core.Physics.Optics.Lens.html
+  commentId: T:Engine.Core.Physics.Optics.Lens
+  fullName: Engine.Core.Physics.Optics.Lens
+  nameWithType: Lens
+- uid: Engine.Core.Physics.Optics.Lens.#ctor
+  name: Lens()
+  href: engineAPI/Engine.Core.Physics.Optics.Lens.html#Engine_Core_Physics_Optics_Lens__ctor
+  commentId: M:Engine.Core.Physics.Optics.Lens.#ctor
+  fullName: Engine.Core.Physics.Optics.Lens.Lens()
+  nameWithType: Lens.Lens()
+- uid: Engine.Core.Physics.Optics.Lens.#ctor*
+  name: Lens
+  href: engineAPI/Engine.Core.Physics.Optics.Lens.html#Engine_Core_Physics_Optics_Lens__ctor_
+  commentId: Overload:Engine.Core.Physics.Optics.Lens.#ctor
+  isSpec: "True"
+  fullName: Engine.Core.Physics.Optics.Lens.Lens
+  nameWithType: Lens.Lens
+- uid: Engine.Core.Physics.Optics.Lens.CreateRay(System.Single,System.Single,Camera,System.Single@)
+  name: CreateRay(Single, Single, Camera, out Single)
+  href: engineAPI/Engine.Core.Physics.Optics.Lens.html#Engine_Core_Physics_Optics_Lens_CreateRay_System_Single_System_Single_Camera_System_Single__
+  commentId: M:Engine.Core.Physics.Optics.Lens.CreateRay(System.Single,System.Single,Camera,System.Single@)
+  name.vb: CreateRay(Single, Single, Camera, ByRef Single)
+  fullName: Engine.Core.Physics.Optics.Lens.CreateRay(System.Single, System.Single, Camera, out System.Single)
+  fullName.vb: Engine.Core.Physics.Optics.Lens.CreateRay(System.Single, System.Single, Camera, ByRef System.Single)
+  nameWithType: Lens.CreateRay(Single, Single, Camera, out Single)
+  nameWithType.vb: Lens.CreateRay(Single, Single, Camera, ByRef Single)
+- uid: Engine.Core.Physics.Optics.Lens.CreateRay*
+  name: CreateRay
+  href: engineAPI/Engine.Core.Physics.Optics.Lens.html#Engine_Core_Physics_Optics_Lens_CreateRay_
+  commentId: Overload:Engine.Core.Physics.Optics.Lens.CreateRay
+  isSpec: "True"
+  fullName: Engine.Core.Physics.Optics.Lens.CreateRay
+  nameWithType: Lens.CreateRay
+- uid: Engine.Core.Physics.Optics.Lens.FovX
+  name: FovX
+  href: engineAPI/Engine.Core.Physics.Optics.Lens.html#Engine_Core_Physics_Optics_Lens_FovX
+  commentId: P:Engine.Core.Physics.Optics.Lens.FovX
+  fullName: Engine.Core.Physics.Optics.Lens.FovX
+  nameWithType: Lens.FovX
+- uid: Engine.Core.Physics.Optics.Lens.FovX*
+  name: FovX
+  href: engineAPI/Engine.Core.Physics.Optics.Lens.html#Engine_Core_Physics_Optics_Lens_FovX_
+  commentId: Overload:Engine.Core.Physics.Optics.Lens.FovX
+  isSpec: "True"
+  fullName: Engine.Core.Physics.Optics.Lens.FovX
+  nameWithType: Lens.FovX
+- uid: Engine.Core.Physics.Optics.Lens.FovXRad
+  name: FovXRad
+  href: engineAPI/Engine.Core.Physics.Optics.Lens.html#Engine_Core_Physics_Optics_Lens_FovXRad
+  commentId: P:Engine.Core.Physics.Optics.Lens.FovXRad
+  fullName: Engine.Core.Physics.Optics.Lens.FovXRad
+  nameWithType: Lens.FovXRad
+- uid: Engine.Core.Physics.Optics.Lens.FovXRad*
+  name: FovXRad
+  href: engineAPI/Engine.Core.Physics.Optics.Lens.html#Engine_Core_Physics_Optics_Lens_FovXRad_
+  commentId: Overload:Engine.Core.Physics.Optics.Lens.FovXRad
+  isSpec: "True"
+  fullName: Engine.Core.Physics.Optics.Lens.FovXRad
+  nameWithType: Lens.FovXRad
+- uid: Engine.Core.Physics.Optics.Lens.FovY
+  name: FovY
+  href: engineAPI/Engine.Core.Physics.Optics.Lens.html#Engine_Core_Physics_Optics_Lens_FovY
+  commentId: P:Engine.Core.Physics.Optics.Lens.FovY
+  fullName: Engine.Core.Physics.Optics.Lens.FovY
+  nameWithType: Lens.FovY
+- uid: Engine.Core.Physics.Optics.Lens.FovY*
+  name: FovY
+  href: engineAPI/Engine.Core.Physics.Optics.Lens.html#Engine_Core_Physics_Optics_Lens_FovY_
+  commentId: Overload:Engine.Core.Physics.Optics.Lens.FovY
+  isSpec: "True"
+  fullName: Engine.Core.Physics.Optics.Lens.FovY
+  nameWithType: Lens.FovY
+- uid: Engine.Core.Physics.Optics.Lens.FovYRad
+  name: FovYRad
+  href: engineAPI/Engine.Core.Physics.Optics.Lens.html#Engine_Core_Physics_Optics_Lens_FovYRad
+  commentId: P:Engine.Core.Physics.Optics.Lens.FovYRad
+  fullName: Engine.Core.Physics.Optics.Lens.FovYRad
+  nameWithType: Lens.FovYRad
+- uid: Engine.Core.Physics.Optics.Lens.FovYRad*
+  name: FovYRad
+  href: engineAPI/Engine.Core.Physics.Optics.Lens.html#Engine_Core_Physics_Optics_Lens_FovYRad_
+  commentId: Overload:Engine.Core.Physics.Optics.Lens.FovYRad
+  isSpec: "True"
+  fullName: Engine.Core.Physics.Optics.Lens.FovYRad
+  nameWithType: Lens.FovYRad
+- uid: Engine.Core.Physics.Optics.Lens.Type
+  name: Type
+  href: engineAPI/Engine.Core.Physics.Optics.Lens.html#Engine_Core_Physics_Optics_Lens_Type
+  commentId: P:Engine.Core.Physics.Optics.Lens.Type
+  fullName: Engine.Core.Physics.Optics.Lens.Type
+  nameWithType: Lens.Type
+- uid: Engine.Core.Physics.Optics.Lens.Type*
+  name: Type
+  href: engineAPI/Engine.Core.Physics.Optics.Lens.html#Engine_Core_Physics_Optics_Lens_Type_
+  commentId: Overload:Engine.Core.Physics.Optics.Lens.Type
+  isSpec: "True"
+  fullName: Engine.Core.Physics.Optics.Lens.Type
+  nameWithType: Lens.Type
+- uid: Engine.Core.Physics.Optics.LensType
+  name: LensType
+  href: engineAPI/Engine.Core.Physics.Optics.LensType.html
+  commentId: T:Engine.Core.Physics.Optics.LensType
+  fullName: Engine.Core.Physics.Optics.LensType
+  nameWithType: LensType
+- uid: Engine.Core.Physics.Optics.LensType.BackSided
+  name: BackSided
+  href: engineAPI/Engine.Core.Physics.Optics.LensType.html#Engine_Core_Physics_Optics_LensType_BackSided
+  commentId: F:Engine.Core.Physics.Optics.LensType.BackSided
+  fullName: Engine.Core.Physics.Optics.LensType.BackSided
+  nameWithType: LensType.BackSided
+- uid: Engine.Core.Physics.Optics.LensType.FrontSided
+  name: FrontSided
+  href: engineAPI/Engine.Core.Physics.Optics.LensType.html#Engine_Core_Physics_Optics_LensType_FrontSided
+  commentId: F:Engine.Core.Physics.Optics.LensType.FrontSided
+  fullName: Engine.Core.Physics.Optics.LensType.FrontSided
+  nameWithType: LensType.FrontSided
+- uid: Engine.Core.Physics.Optics.LensType.None
+  name: None
+  href: engineAPI/Engine.Core.Physics.Optics.LensType.html#Engine_Core_Physics_Optics_LensType_None
+  commentId: F:Engine.Core.Physics.Optics.LensType.None
+  fullName: Engine.Core.Physics.Optics.LensType.None
+  nameWithType: LensType.None
+- uid: Engine.Core.Physics.Optics.LensType.Prismatic
+  name: Prismatic
+  href: engineAPI/Engine.Core.Physics.Optics.LensType.html#Engine_Core_Physics_Optics_LensType_Prismatic
+  commentId: F:Engine.Core.Physics.Optics.LensType.Prismatic
+  fullName: Engine.Core.Physics.Optics.LensType.Prismatic
+  nameWithType: LensType.Prismatic
+- uid: Engine.Core.Physics.Optics.LensType.TwoSided
+  name: TwoSided
+  href: engineAPI/Engine.Core.Physics.Optics.LensType.html#Engine_Core_Physics_Optics_LensType_TwoSided
+  commentId: F:Engine.Core.Physics.Optics.LensType.TwoSided
+  fullName: Engine.Core.Physics.Optics.LensType.TwoSided
+  nameWithType: LensType.TwoSided
+- uid: Engine.Core.Physics.Optics.LightRay
+  name: LightRay
+  href: engineAPI/Engine.Core.Physics.Optics.LightRay.html
+  commentId: T:Engine.Core.Physics.Optics.LightRay
+  fullName: Engine.Core.Physics.Optics.LightRay
+  nameWithType: LightRay
+- uid: Engine.Core.Physics.Optics.LightSource
+  name: LightSource
+  href: engineAPI/Engine.Core.Physics.Optics.LightSource.html
+  commentId: T:Engine.Core.Physics.Optics.LightSource
+  fullName: Engine.Core.Physics.Optics.LightSource
+  nameWithType: LightSource
+- uid: Engine.Core.Pixel
+  name: Pixel
+  href: engineAPI/Engine.Core.Pixel.html
+  commentId: T:Engine.Core.Pixel
+  fullName: Engine.Core.Pixel
+  nameWithType: Pixel
+- uid: Engine.Core.Pixel.color
+  name: color
+  href: engineAPI/Engine.Core.Pixel.html#Engine_Core_Pixel_color
+  commentId: F:Engine.Core.Pixel.color
+  fullName: Engine.Core.Pixel.color
+  nameWithType: Pixel.color
+- uid: Engine.Core.Pixel.x
+  name: x
+  href: engineAPI/Engine.Core.Pixel.html#Engine_Core_Pixel_x
+  commentId: F:Engine.Core.Pixel.x
+  fullName: Engine.Core.Pixel.x
+  nameWithType: Pixel.x
+- uid: Engine.Core.Pixel.y
+  name: y
+  href: engineAPI/Engine.Core.Pixel.html#Engine_Core_Pixel_y
+  commentId: F:Engine.Core.Pixel.y
+  fullName: Engine.Core.Pixel.y
+  nameWithType: Pixel.y
+- uid: Engine.Core.Ray
+  name: Ray
+  href: engineAPI/Engine.Core.Ray.html
+  commentId: T:Engine.Core.Ray
+  fullName: Engine.Core.Ray
+  nameWithType: Ray
+- uid: Engine.Core.Ray.#ctor(Straight,System.Single)
+  name: Ray(Straight, Single)
+  href: engineAPI/Engine.Core.Ray.html#Engine_Core_Ray__ctor_Straight_System_Single_
+  commentId: M:Engine.Core.Ray.#ctor(Straight,System.Single)
+  fullName: Engine.Core.Ray.Ray(Straight, System.Single)
+  nameWithType: Ray.Ray(Straight, Single)
+- uid: Engine.Core.Ray.#ctor(Straight,System.Single,System.Single)
+  name: Ray(Straight, Single, Single)
+  href: engineAPI/Engine.Core.Ray.html#Engine_Core_Ray__ctor_Straight_System_Single_System_Single_
+  commentId: M:Engine.Core.Ray.#ctor(Straight,System.Single,System.Single)
+  fullName: Engine.Core.Ray.Ray(Straight, System.Single, System.Single)
+  nameWithType: Ray.Ray(Straight, Single, Single)
+- uid: Engine.Core.Ray.#ctor*
+  name: Ray
+  href: engineAPI/Engine.Core.Ray.html#Engine_Core_Ray__ctor_
+  commentId: Overload:Engine.Core.Ray.#ctor
+  isSpec: "True"
+  fullName: Engine.Core.Ray.Ray
+  nameWithType: Ray.Ray
+- uid: Engine.Core.Ray.Emit(System.Single)
+  name: Emit(Single)
+  href: engineAPI/Engine.Core.Ray.html#Engine_Core_Ray_Emit_System_Single_
+  commentId: M:Engine.Core.Ray.Emit(System.Single)
+  fullName: Engine.Core.Ray.Emit(System.Single)
+  nameWithType: Ray.Emit(Single)
+- uid: Engine.Core.Ray.Emit*
+  name: Emit
+  href: engineAPI/Engine.Core.Ray.html#Engine_Core_Ray_Emit_
+  commentId: Overload:Engine.Core.Ray.Emit
+  isSpec: "True"
+  fullName: Engine.Core.Ray.Emit
+  nameWithType: Ray.Emit
+- uid: Engine.Core.SceneManagement
+  name: Engine.Core.SceneManagement
+  href: engineAPI/Engine.Core.SceneManagement.html
+  commentId: N:Engine.Core.SceneManagement
+  fullName: Engine.Core.SceneManagement
+  nameWithType: Engine.Core.SceneManagement
+- uid: Engine.Core.SceneManagement.Scene
+  name: Scene
+  href: engineAPI/Engine.Core.SceneManagement.Scene.html
+  commentId: T:Engine.Core.SceneManagement.Scene
+  fullName: Engine.Core.SceneManagement.Scene
+  nameWithType: Scene
+- uid: Engine.Core.SceneManagement.Scene.#ctor(System.Int32)
+  name: Scene(Int32)
+  href: engineAPI/Engine.Core.SceneManagement.Scene.html#Engine_Core_SceneManagement_Scene__ctor_System_Int32_
+  commentId: M:Engine.Core.SceneManagement.Scene.#ctor(System.Int32)
+  fullName: Engine.Core.SceneManagement.Scene.Scene(System.Int32)
+  nameWithType: Scene.Scene(Int32)
+- uid: Engine.Core.SceneManagement.Scene.#ctor*
+  name: Scene
+  href: engineAPI/Engine.Core.SceneManagement.Scene.html#Engine_Core_SceneManagement_Scene__ctor_
+  commentId: Overload:Engine.Core.SceneManagement.Scene.#ctor
+  isSpec: "True"
+  fullName: Engine.Core.SceneManagement.Scene.Scene
+  nameWithType: Scene.Scene
+- uid: Engine.Core.SceneManagement.Scene.Name
+  name: Name
+  href: engineAPI/Engine.Core.SceneManagement.Scene.html#Engine_Core_SceneManagement_Scene_Name
+  commentId: F:Engine.Core.SceneManagement.Scene.Name
+  fullName: Engine.Core.SceneManagement.Scene.Name
+  nameWithType: Scene.Name
+- uid: Engine.Core.SceneManagement.Scene.SceneId
+  name: SceneId
+  href: engineAPI/Engine.Core.SceneManagement.Scene.html#Engine_Core_SceneManagement_Scene_SceneId
+  commentId: P:Engine.Core.SceneManagement.Scene.SceneId
+  fullName: Engine.Core.SceneManagement.Scene.SceneId
+  nameWithType: Scene.SceneId
+- uid: Engine.Core.SceneManagement.Scene.SceneId*
+  name: SceneId
+  href: engineAPI/Engine.Core.SceneManagement.Scene.html#Engine_Core_SceneManagement_Scene_SceneId_
+  commentId: Overload:Engine.Core.SceneManagement.Scene.SceneId
+  isSpec: "True"
+  fullName: Engine.Core.SceneManagement.Scene.SceneId
+  nameWithType: Scene.SceneId
+- uid: Engine.Core.SceneManagement.Scene3D
+  name: Scene3D
+  href: engineAPI/Engine.Core.SceneManagement.Scene3D.html
+  commentId: T:Engine.Core.SceneManagement.Scene3D
+  fullName: Engine.Core.SceneManagement.Scene3D
+  nameWithType: Scene3D
+- uid: Engine.Core.SceneManagement.Scene3D.#ctor(System.Int32)
+  name: Scene3D(Int32)
+  href: engineAPI/Engine.Core.SceneManagement.Scene3D.html#Engine_Core_SceneManagement_Scene3D__ctor_System_Int32_
+  commentId: M:Engine.Core.SceneManagement.Scene3D.#ctor(System.Int32)
+  fullName: Engine.Core.SceneManagement.Scene3D.Scene3D(System.Int32)
+  nameWithType: Scene3D.Scene3D(Int32)
+- uid: Engine.Core.SceneManagement.Scene3D.#ctor*
+  name: Scene3D
+  href: engineAPI/Engine.Core.SceneManagement.Scene3D.html#Engine_Core_SceneManagement_Scene3D__ctor_
+  commentId: Overload:Engine.Core.SceneManagement.Scene3D.#ctor
+  isSpec: "True"
+  fullName: Engine.Core.SceneManagement.Scene3D.Scene3D
+  nameWithType: Scene3D.Scene3D
+- uid: Engine.Core.SceneManagement.Scene3D.GlobalCoordinateSystem
+  name: GlobalCoordinateSystem
+  href: engineAPI/Engine.Core.SceneManagement.Scene3D.html#Engine_Core_SceneManagement_Scene3D_GlobalCoordinateSystem
+  commentId: P:Engine.Core.SceneManagement.Scene3D.GlobalCoordinateSystem
+  fullName: Engine.Core.SceneManagement.Scene3D.GlobalCoordinateSystem
+  nameWithType: Scene3D.GlobalCoordinateSystem
+- uid: Engine.Core.SceneManagement.Scene3D.GlobalCoordinateSystem*
+  name: GlobalCoordinateSystem
+  href: engineAPI/Engine.Core.SceneManagement.Scene3D.html#Engine_Core_SceneManagement_Scene3D_GlobalCoordinateSystem_
+  commentId: Overload:Engine.Core.SceneManagement.Scene3D.GlobalCoordinateSystem
+  isSpec: "True"
+  fullName: Engine.Core.SceneManagement.Scene3D.GlobalCoordinateSystem
+  nameWithType: Scene3D.GlobalCoordinateSystem
+- uid: Engine.Core.SceneManagement.SceneManager
+  name: SceneManager
+  href: engineAPI/Engine.Core.SceneManagement.SceneManager.html
+  commentId: T:Engine.Core.SceneManagement.SceneManager
+  fullName: Engine.Core.SceneManagement.SceneManager
+  nameWithType: SceneManager
+- uid: Engine.Core.SceneManagement.SceneManager.#ctor
+  name: SceneManager()
+  href: engineAPI/Engine.Core.SceneManagement.SceneManager.html#Engine_Core_SceneManagement_SceneManager__ctor
+  commentId: M:Engine.Core.SceneManagement.SceneManager.#ctor
+  fullName: Engine.Core.SceneManagement.SceneManager.SceneManager()
+  nameWithType: SceneManager.SceneManager()
+- uid: Engine.Core.SceneManagement.SceneManager.#ctor*
+  name: SceneManager
+  href: engineAPI/Engine.Core.SceneManagement.SceneManager.html#Engine_Core_SceneManagement_SceneManager__ctor_
+  commentId: Overload:Engine.Core.SceneManagement.SceneManager.#ctor
+  isSpec: "True"
+  fullName: Engine.Core.SceneManagement.SceneManager.SceneManager
+  nameWithType: SceneManager.SceneManager
+- uid: Engine.Core.SceneManagement.SceneManager.ActiveScene
+  name: ActiveScene
+  href: engineAPI/Engine.Core.SceneManagement.SceneManager.html#Engine_Core_SceneManagement_SceneManager_ActiveScene
+  commentId: F:Engine.Core.SceneManagement.SceneManager.ActiveScene
+  fullName: Engine.Core.SceneManagement.SceneManager.ActiveScene
+  nameWithType: SceneManager.ActiveScene
+- uid: Engine.Core.SceneManagement.SceneManager.AddScene(Engine.Core.SceneManagement.Scene)
+  name: AddScene(Scene)
+  href: engineAPI/Engine.Core.SceneManagement.SceneManager.html#Engine_Core_SceneManagement_SceneManager_AddScene_Engine_Core_SceneManagement_Scene_
+  commentId: M:Engine.Core.SceneManagement.SceneManager.AddScene(Engine.Core.SceneManagement.Scene)
+  fullName: Engine.Core.SceneManagement.SceneManager.AddScene(Engine.Core.SceneManagement.Scene)
+  nameWithType: SceneManager.AddScene(Scene)
+- uid: Engine.Core.SceneManagement.SceneManager.AddScene*
+  name: AddScene
+  href: engineAPI/Engine.Core.SceneManagement.SceneManager.html#Engine_Core_SceneManagement_SceneManager_AddScene_
+  commentId: Overload:Engine.Core.SceneManagement.SceneManager.AddScene
+  isSpec: "True"
+  fullName: Engine.Core.SceneManagement.SceneManager.AddScene
+  nameWithType: SceneManager.AddScene
+- uid: Engine.Core.SceneManagement.SceneManager.Instance
+  name: Instance
+  href: engineAPI/Engine.Core.SceneManagement.SceneManager.html#Engine_Core_SceneManagement_SceneManager_Instance
+  commentId: F:Engine.Core.SceneManagement.SceneManager.Instance
+  fullName: Engine.Core.SceneManagement.SceneManager.Instance
+  nameWithType: SceneManager.Instance
 - uid: Engine.Main
   name: Main
   href: engineAPI/Engine.Main.html
@@ -4643,3 +7067,35 @@ references:
   commentId: F:Engine.Rendering.RenderPoint.Y
   fullName: Engine.Rendering.RenderPoint.Y
   nameWithType: RenderPoint.Y
+- uid: Engine.Rendering.RenderTexture
+  name: RenderTexture
+  href: engineAPI/Engine.Rendering.RenderTexture.html
+  commentId: T:Engine.Rendering.RenderTexture
+  fullName: Engine.Rendering.RenderTexture
+  nameWithType: RenderTexture
+- uid: Engine.Rendering.RenderTexture.#ctor(PictureBox,System.Single)
+  name: RenderTexture(PictureBox, Single)
+  href: engineAPI/Engine.Rendering.RenderTexture.html#Engine_Rendering_RenderTexture__ctor_PictureBox_System_Single_
+  commentId: M:Engine.Rendering.RenderTexture.#ctor(PictureBox,System.Single)
+  fullName: Engine.Rendering.RenderTexture.RenderTexture(PictureBox, System.Single)
+  nameWithType: RenderTexture.RenderTexture(PictureBox, Single)
+- uid: Engine.Rendering.RenderTexture.#ctor*
+  name: RenderTexture
+  href: engineAPI/Engine.Rendering.RenderTexture.html#Engine_Rendering_RenderTexture__ctor_
+  commentId: Overload:Engine.Rendering.RenderTexture.#ctor
+  isSpec: "True"
+  fullName: Engine.Rendering.RenderTexture.RenderTexture
+  nameWithType: RenderTexture.RenderTexture
+- uid: Engine.Rendering.RenderTexture.RenderPixel(System.Single,System.Single,Camera)
+  name: RenderPixel(Single, Single, Camera)
+  href: engineAPI/Engine.Rendering.RenderTexture.html#Engine_Rendering_RenderTexture_RenderPixel_System_Single_System_Single_Camera_
+  commentId: M:Engine.Rendering.RenderTexture.RenderPixel(System.Single,System.Single,Camera)
+  fullName: Engine.Rendering.RenderTexture.RenderPixel(System.Single, System.Single, Camera)
+  nameWithType: RenderTexture.RenderPixel(Single, Single, Camera)
+- uid: Engine.Rendering.RenderTexture.RenderPixel*
+  name: RenderPixel
+  href: engineAPI/Engine.Rendering.RenderTexture.html#Engine_Rendering_RenderTexture_RenderPixel_
+  commentId: Overload:Engine.Rendering.RenderTexture.RenderPixel
+  isSpec: "True"
+  fullName: Engine.Rendering.RenderTexture.RenderPixel
+  nameWithType: RenderTexture.RenderPixel

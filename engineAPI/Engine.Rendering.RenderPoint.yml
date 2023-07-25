@@ -20,7 +20,7 @@ items:
   source:
     id: RenderPoint
     path: ''
-    startLine: 3939
+    startLine: 5685
   assemblies:
   - cs.temp.dll
   namespace: Engine.Rendering
@@ -57,7 +57,7 @@ items:
   source:
     id: X
     path: ''
-    startLine: 3941
+    startLine: 5687
   assemblies:
   - cs.temp.dll
   namespace: Engine.Rendering
@@ -84,7 +84,7 @@ items:
   source:
     id: Y
     path: ''
-    startLine: 3942
+    startLine: 5688
   assemblies:
   - cs.temp.dll
   namespace: Engine.Rendering
@@ -111,7 +111,7 @@ items:
   source:
     id: Color
     path: ''
-    startLine: 3943
+    startLine: 5689
   assemblies:
   - cs.temp.dll
   namespace: Engine.Rendering
@@ -138,7 +138,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 3945
+    startLine: 5691
   assemblies:
   - cs.temp.dll
   namespace: Engine.Rendering
@@ -171,7 +171,7 @@ items:
   source:
     id: LerpColor
     path: ''
-    startLine: 3952
+    startLine: 5698
   assemblies:
   - cs.temp.dll
   namespace: Engine.Rendering

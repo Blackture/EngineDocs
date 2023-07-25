@@ -7,6 +7,9 @@ items:
   - Engine.Core.Component
   - Engine.Core.Layer
   - Engine.Core.Object3D
+  - Engine.Core.Particle
+  - Engine.Core.Pixel
+  - Engine.Core.Ray
   langs:
   - csharp
   - vb
@@ -35,6 +38,23 @@ references:
   name: Object3D
   nameWithType: Object3D
   fullName: Engine.Core.Object3D
+- uid: Engine.Core.Particle
+  commentId: T:Engine.Core.Particle
+  parent: Engine.Core
+  name: Particle
+  nameWithType: Particle
+  fullName: Engine.Core.Particle
+- uid: Engine.Core.Pixel
+  commentId: T:Engine.Core.Pixel
+  parent: Engine.Core
+  name: Pixel
+  nameWithType: Pixel
+  fullName: Engine.Core.Pixel
+- uid: Engine.Core.Ray
+  commentId: T:Engine.Core.Ray
+  name: Ray
+  nameWithType: Ray
+  fullName: Engine.Core.Ray
 - uid: Engine.Core
   commentId: N:Engine.Core
   name: Engine.Core

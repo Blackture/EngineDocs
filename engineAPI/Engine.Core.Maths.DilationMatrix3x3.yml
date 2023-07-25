@@ -1,0 +1,511 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Maths.DilationMatrix3x3
+  commentId: T:Engine.Core.Maths.DilationMatrix3x3
+  id: DilationMatrix3x3
+  parent: Engine.Core.Maths
+  children:
+  - Engine.Core.Maths.DilationMatrix3x3.#ctor(System.Single,System.Single,System.Single)
+  - Engine.Core.Maths.DilationMatrix3x3.D3x3
+  - Engine.Core.Maths.DilationMatrix3x3.op_Implicit(Engine.Core.Maths.DilationMatrix3x3)~Engine.Core.Maths.Matrix3x3
+  - Engine.Core.Maths.DilationMatrix3x3.ToMatrix4x4
+  langs:
+  - csharp
+  - vb
+  name: DilationMatrix3x3
+  nameWithType: DilationMatrix3x3
+  fullName: Engine.Core.Maths.DilationMatrix3x3
+  type: Class
+  source:
+    id: DilationMatrix3x3
+    path: ''
+    startLine: 1307
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public class DilationMatrix3x3
+    content.vb: Public Class DilationMatrix3x3
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Engine.Core.Maths.DilationMatrix3x3.D3x3
+  commentId: F:Engine.Core.Maths.DilationMatrix3x3.D3x3
+  id: D3x3
+  parent: Engine.Core.Maths.DilationMatrix3x3
+  langs:
+  - csharp
+  - vb
+  name: D3x3
+  nameWithType: DilationMatrix3x3.D3x3
+  fullName: Engine.Core.Maths.DilationMatrix3x3.D3x3
+  type: Field
+  source:
+    id: D3x3
+    path: ''
+    startLine: 1309
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public readonly Matrix3x3 D3x3
+    return:
+      type: Engine.Core.Maths.Matrix3x3
+    content.vb: Public ReadOnly D3x3 As Matrix3x3
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Engine.Core.Maths.DilationMatrix3x3.#ctor(System.Single,System.Single,System.Single)
+  commentId: M:Engine.Core.Maths.DilationMatrix3x3.#ctor(System.Single,System.Single,System.Single)
+  id: '#ctor(System.Single,System.Single,System.Single)'
+  parent: Engine.Core.Maths.DilationMatrix3x3
+  langs:
+  - csharp
+  - vb
+  name: DilationMatrix3x3(Single, Single, Single)
+  nameWithType: DilationMatrix3x3.DilationMatrix3x3(Single, Single, Single)
+  fullName: Engine.Core.Maths.DilationMatrix3x3.DilationMatrix3x3(System.Single, System.Single, System.Single)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1310
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public DilationMatrix3x3(float x1, float x2, float x3)
+    parameters:
+    - id: x1
+      type: System.Single
+    - id: x2
+      type: System.Single
+    - id: x3
+      type: System.Single
+    content.vb: Public Sub New(x1 As Single, x2 As Single, x3 As Single)
+  overload: Engine.Core.Maths.DilationMatrix3x3.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Maths.DilationMatrix3x3.ToMatrix4x4
+  commentId: M:Engine.Core.Maths.DilationMatrix3x3.ToMatrix4x4
+  id: ToMatrix4x4
+  parent: Engine.Core.Maths.DilationMatrix3x3
+  langs:
+  - csharp
+  - vb
+  name: ToMatrix4x4()
+  nameWithType: DilationMatrix3x3.ToMatrix4x4()
+  fullName: Engine.Core.Maths.DilationMatrix3x3.ToMatrix4x4()
+  type: Method
+  source:
+    id: ToMatrix4x4
+    path: ''
+    startLine: 1315
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public MatrixMxN ToMatrix4x4()
+    return:
+      type: Engine.Core.Maths.MatrixMxN
+    content.vb: Public Function ToMatrix4x4 As MatrixMxN
+  overload: Engine.Core.Maths.DilationMatrix3x3.ToMatrix4x4*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Maths.DilationMatrix3x3.op_Implicit(Engine.Core.Maths.DilationMatrix3x3)~Engine.Core.Maths.Matrix3x3
+  commentId: M:Engine.Core.Maths.DilationMatrix3x3.op_Implicit(Engine.Core.Maths.DilationMatrix3x3)~Engine.Core.Maths.Matrix3x3
+  id: op_Implicit(Engine.Core.Maths.DilationMatrix3x3)~Engine.Core.Maths.Matrix3x3
+  parent: Engine.Core.Maths.DilationMatrix3x3
+  langs:
+  - csharp
+  - vb
+  name: Implicit(DilationMatrix3x3 to Matrix3x3)
+  nameWithType: DilationMatrix3x3.Implicit(DilationMatrix3x3 to Matrix3x3)
+  fullName: Engine.Core.Maths.DilationMatrix3x3.Implicit(Engine.Core.Maths.DilationMatrix3x3 to Engine.Core.Maths.Matrix3x3)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: ''
+    startLine: 1331
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static implicit operator Matrix3x3(DilationMatrix3x3 d)
+    parameters:
+    - id: d
+      type: Engine.Core.Maths.DilationMatrix3x3
+    return:
+      type: Engine.Core.Maths.Matrix3x3
+    content.vb: Public Shared Widening Operator CType(d As DilationMatrix3x3) As Matrix3x3
+  overload: Engine.Core.Maths.DilationMatrix3x3.op_Implicit*
+  nameWithType.vb: DilationMatrix3x3.Widening(DilationMatrix3x3 to Matrix3x3)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Engine.Core.Maths.DilationMatrix3x3.Widening(Engine.Core.Maths.DilationMatrix3x3 to Engine.Core.Maths.Matrix3x3)
+  name.vb: Widening(DilationMatrix3x3 to Matrix3x3)
+references:
+- uid: Engine.Core.Maths
+  commentId: N:Engine.Core.Maths
+  name: Engine.Core.Maths
+  nameWithType: Engine.Core.Maths
+  fullName: Engine.Core.Maths
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Engine.Core.Maths.Matrix3x3
+  commentId: T:Engine.Core.Maths.Matrix3x3
+  parent: Engine.Core.Maths
+  name: Matrix3x3
+  nameWithType: Matrix3x3
+  fullName: Engine.Core.Maths.Matrix3x3
+- uid: Engine.Core.Maths.DilationMatrix3x3.#ctor*
+  commentId: Overload:Engine.Core.Maths.DilationMatrix3x3.#ctor
+  name: DilationMatrix3x3
+  nameWithType: DilationMatrix3x3.DilationMatrix3x3
+  fullName: Engine.Core.Maths.DilationMatrix3x3.DilationMatrix3x3
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Engine.Core.Maths.DilationMatrix3x3.ToMatrix4x4*
+  commentId: Overload:Engine.Core.Maths.DilationMatrix3x3.ToMatrix4x4
+  name: ToMatrix4x4
+  nameWithType: DilationMatrix3x3.ToMatrix4x4
+  fullName: Engine.Core.Maths.DilationMatrix3x3.ToMatrix4x4
+- uid: Engine.Core.Maths.MatrixMxN
+  commentId: T:Engine.Core.Maths.MatrixMxN
+  parent: Engine.Core.Maths
+  name: MatrixMxN
+  nameWithType: MatrixMxN
+  fullName: Engine.Core.Maths.MatrixMxN
+- uid: Engine.Core.Maths.DilationMatrix3x3.op_Implicit*
+  commentId: Overload:Engine.Core.Maths.DilationMatrix3x3.op_Implicit
+  name: Implicit
+  nameWithType: DilationMatrix3x3.Implicit
+  fullName: Engine.Core.Maths.DilationMatrix3x3.Implicit
+  nameWithType.vb: DilationMatrix3x3.Widening
+  fullName.vb: Engine.Core.Maths.DilationMatrix3x3.Widening
+  name.vb: Widening
+- uid: Engine.Core.Maths.DilationMatrix3x3
+  commentId: T:Engine.Core.Maths.DilationMatrix3x3
+  parent: Engine.Core.Maths
+  name: DilationMatrix3x3
+  nameWithType: DilationMatrix3x3
+  fullName: Engine.Core.Maths.DilationMatrix3x3

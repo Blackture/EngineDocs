@@ -1,0 +1,464 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Ray
+  commentId: T:Engine.Core.Ray
+  id: Ray
+  parent: Engine.Core
+  children:
+  - Engine.Core.Ray.#ctor(Straight,System.Single)
+  - Engine.Core.Ray.#ctor(Straight,System.Single,System.Single)
+  - Engine.Core.Ray.Emit(System.Single)
+  langs:
+  - csharp
+  - vb
+  name: Ray
+  nameWithType: Ray
+  fullName: Engine.Core.Ray
+  type: Class
+  source:
+    id: Ray
+    path: ''
+    startLine: 482
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core
+  syntax:
+    content: public class Ray
+    content.vb: Public Class Ray
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Engine.Core.Ray.#ctor(Straight,System.Single)
+  commentId: M:Engine.Core.Ray.#ctor(Straight,System.Single)
+  id: '#ctor(Straight,System.Single)'
+  parent: Engine.Core.Ray
+  langs:
+  - csharp
+  - vb
+  name: Ray(Straight, Single)
+  nameWithType: Ray.Ray(Straight, Single)
+  fullName: Engine.Core.Ray.Ray(Straight, System.Single)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 489
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core
+  syntax:
+    content: public Ray(Straight ray, float rayStart)
+    parameters:
+    - id: ray
+      type: Straight
+    - id: rayStart
+      type: System.Single
+    content.vb: Public Sub New(ray As Straight, rayStart As Single)
+  overload: Engine.Core.Ray.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Ray.#ctor(Straight,System.Single,System.Single)
+  commentId: M:Engine.Core.Ray.#ctor(Straight,System.Single,System.Single)
+  id: '#ctor(Straight,System.Single,System.Single)'
+  parent: Engine.Core.Ray
+  langs:
+  - csharp
+  - vb
+  name: Ray(Straight, Single, Single)
+  nameWithType: Ray.Ray(Straight, Single, Single)
+  fullName: Engine.Core.Ray.Ray(Straight, System.Single, System.Single)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 495
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core
+  syntax:
+    content: public Ray(Straight ray, float rayStart, float samplingRate)
+    parameters:
+    - id: ray
+      type: Straight
+    - id: rayStart
+      type: System.Single
+    - id: samplingRate
+      type: System.Single
+    content.vb: Public Sub New(ray As Straight, rayStart As Single, samplingRate As Single)
+  overload: Engine.Core.Ray.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Ray.Emit(System.Single)
+  commentId: M:Engine.Core.Ray.Emit(System.Single)
+  id: Emit(System.Single)
+  parent: Engine.Core.Ray
+  langs:
+  - csharp
+  - vb
+  name: Emit(Single)
+  nameWithType: Ray.Emit(Single)
+  fullName: Engine.Core.Ray.Emit(System.Single)
+  type: Method
+  source:
+    id: Emit
+    path: ''
+    startLine: 502
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core
+  syntax:
+    content: public Particle Emit(float distance)
+    parameters:
+    - id: distance
+      type: System.Single
+    return:
+      type: Engine.Core.Particle
+    content.vb: Public Function Emit(distance As Single) As Particle
+  overload: Engine.Core.Ray.Emit*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Engine.Core
+  commentId: N:Engine.Core
+  name: Engine.Core
+  nameWithType: Engine.Core
+  fullName: Engine.Core
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Engine.Core.Ray.#ctor*
+  commentId: Overload:Engine.Core.Ray.#ctor
+  name: Ray
+  nameWithType: Ray.Ray
+  fullName: Engine.Core.Ray.Ray
+- uid: Straight
+  isExternal: true
+  name: Straight
+  nameWithType: Straight
+  fullName: Straight
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Engine.Core.Ray.Emit*
+  commentId: Overload:Engine.Core.Ray.Emit
+  name: Emit
+  nameWithType: Ray.Emit
+  fullName: Engine.Core.Ray.Emit
+- uid: Engine.Core.Particle
+  commentId: T:Engine.Core.Particle
+  parent: Engine.Core
+  name: Particle
+  nameWithType: Particle
+  fullName: Engine.Core.Particle

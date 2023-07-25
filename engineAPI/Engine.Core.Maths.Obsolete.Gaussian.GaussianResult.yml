@@ -18,7 +18,7 @@ items:
   source:
     id: GaussianResult
     path: ''
-    startLine: 3472
+    startLine: 5013
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths.Obsolete
@@ -65,7 +65,7 @@ items:
   source:
     id: results
     path: ''
-    startLine: 3475
+    startLine: 5016
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths.Obsolete
@@ -92,7 +92,7 @@ items:
   source:
     id: straight
     path: ''
-    startLine: 3476
+    startLine: 5017
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths.Obsolete
@@ -119,7 +119,7 @@ items:
   source:
     id: plane
     path: ''
-    startLine: 3477
+    startLine: 5018
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths.Obsolete

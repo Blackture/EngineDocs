@@ -6,9 +6,14 @@ items:
   parent: Engine.Core.Maths
   children:
   - Engine.Core.Maths.RotationMatrix3x3.#ctor(System.Single,Engine.Core.Maths.Axis)
-  - Engine.Core.Maths.RotationMatrix3x3.#ctor(System.Single,System.Single,System.Single,Engine.Core.Maths.Convention)
+  - Engine.Core.Maths.RotationMatrix3x3.#ctor(System.Single,System.Single,System.Single,Engine.Core.Maths.RotationConvention)
+  - Engine.Core.Maths.RotationMatrix3x3.MirrorX1
+  - Engine.Core.Maths.RotationMatrix3x3.MirrorX2
+  - Engine.Core.Maths.RotationMatrix3x3.MirrorX3
   - Engine.Core.Maths.RotationMatrix3x3.op_Implicit(Engine.Core.Maths.RotationMatrix3x3)~Engine.Core.Maths.Matrix3x3
+  - Engine.Core.Maths.RotationMatrix3x3.op_Implicit(Engine.Core.Maths.RotationMatrix3x3)~Engine.Core.Maths.MatrixMxN
   - Engine.Core.Maths.RotationMatrix3x3.R3x3
+  - Engine.Core.Maths.RotationMatrix3x3.ToMatrix4x4
   langs:
   - csharp
   - vb
@@ -19,7 +24,7 @@ items:
   source:
     id: RotationMatrix3x3
     path: ''
-    startLine: 2730
+    startLine: 3619
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -42,6 +47,99 @@ items:
   modifiers.vb:
   - Public
   - Class
+- uid: Engine.Core.Maths.RotationMatrix3x3.MirrorX1
+  commentId: F:Engine.Core.Maths.RotationMatrix3x3.MirrorX1
+  id: MirrorX1
+  parent: Engine.Core.Maths.RotationMatrix3x3
+  langs:
+  - csharp
+  - vb
+  name: MirrorX1
+  nameWithType: RotationMatrix3x3.MirrorX1
+  fullName: Engine.Core.Maths.RotationMatrix3x3.MirrorX1
+  type: Field
+  source:
+    id: MirrorX1
+    path: ''
+    startLine: 3621
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static readonly Matrix3x3 MirrorX1
+    return:
+      type: Engine.Core.Maths.Matrix3x3
+    content.vb: Public Shared ReadOnly MirrorX1 As Matrix3x3
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Engine.Core.Maths.RotationMatrix3x3.MirrorX2
+  commentId: F:Engine.Core.Maths.RotationMatrix3x3.MirrorX2
+  id: MirrorX2
+  parent: Engine.Core.Maths.RotationMatrix3x3
+  langs:
+  - csharp
+  - vb
+  name: MirrorX2
+  nameWithType: RotationMatrix3x3.MirrorX2
+  fullName: Engine.Core.Maths.RotationMatrix3x3.MirrorX2
+  type: Field
+  source:
+    id: MirrorX2
+    path: ''
+    startLine: 3622
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static readonly Matrix3x3 MirrorX2
+    return:
+      type: Engine.Core.Maths.Matrix3x3
+    content.vb: Public Shared ReadOnly MirrorX2 As Matrix3x3
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Engine.Core.Maths.RotationMatrix3x3.MirrorX3
+  commentId: F:Engine.Core.Maths.RotationMatrix3x3.MirrorX3
+  id: MirrorX3
+  parent: Engine.Core.Maths.RotationMatrix3x3
+  langs:
+  - csharp
+  - vb
+  name: MirrorX3
+  nameWithType: RotationMatrix3x3.MirrorX3
+  fullName: Engine.Core.Maths.RotationMatrix3x3.MirrorX3
+  type: Field
+  source:
+    id: MirrorX3
+    path: ''
+    startLine: 3623
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static readonly Matrix3x3 MirrorX3
+    return:
+      type: Engine.Core.Maths.Matrix3x3
+    content.vb: Public Shared ReadOnly MirrorX3 As Matrix3x3
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
 - uid: Engine.Core.Maths.RotationMatrix3x3.R3x3
   commentId: F:Engine.Core.Maths.RotationMatrix3x3.R3x3
   id: R3x3
@@ -56,7 +154,7 @@ items:
   source:
     id: R3x3
     path: ''
-    startLine: 2732
+    startLine: 3625
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -85,11 +183,11 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 2740
+    startLine: 3633
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
-  summary: "\nCreates a rotation matrix for the angle around the specific axis. Uses angles that are measured in radians.\n"
+  summary: "\nCreates a globalRotation matrix for the angle around the specific axis. Uses angles that are measured in radians.\n"
   example: []
   syntax:
     content: public RotationMatrix3x3(float phi, Axis axis)
@@ -104,28 +202,28 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: Engine.Core.Maths.RotationMatrix3x3.#ctor(System.Single,System.Single,System.Single,Engine.Core.Maths.Convention)
-  commentId: M:Engine.Core.Maths.RotationMatrix3x3.#ctor(System.Single,System.Single,System.Single,Engine.Core.Maths.Convention)
-  id: '#ctor(System.Single,System.Single,System.Single,Engine.Core.Maths.Convention)'
+- uid: Engine.Core.Maths.RotationMatrix3x3.#ctor(System.Single,System.Single,System.Single,Engine.Core.Maths.RotationConvention)
+  commentId: M:Engine.Core.Maths.RotationMatrix3x3.#ctor(System.Single,System.Single,System.Single,Engine.Core.Maths.RotationConvention)
+  id: '#ctor(System.Single,System.Single,System.Single,Engine.Core.Maths.RotationConvention)'
   parent: Engine.Core.Maths.RotationMatrix3x3
   langs:
   - csharp
   - vb
-  name: RotationMatrix3x3(Single, Single, Single, Convention)
-  nameWithType: RotationMatrix3x3.RotationMatrix3x3(Single, Single, Single, Convention)
-  fullName: Engine.Core.Maths.RotationMatrix3x3.RotationMatrix3x3(System.Single, System.Single, System.Single, Engine.Core.Maths.Convention)
+  name: RotationMatrix3x3(Single, Single, Single, RotationConvention)
+  nameWithType: RotationMatrix3x3.RotationMatrix3x3(Single, Single, Single, RotationConvention)
+  fullName: Engine.Core.Maths.RotationMatrix3x3.RotationMatrix3x3(System.Single, System.Single, System.Single, Engine.Core.Maths.RotationConvention)
   type: Constructor
   source:
     id: .ctor
     path: ''
-    startLine: 2777
+    startLine: 3670
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
-  summary: "\nCreates a combined rotation matrix. Uses angles that are measured in radians.\n"
+  summary: "\nCreates a combined globalRotation matrix. Uses angles that are measured in radians.\n"
   example: []
   syntax:
-    content: public RotationMatrix3x3(float alpha, float beta, float gamma, Convention convention = Convention.X1X2X3)
+    content: public RotationMatrix3x3(float alpha, float beta, float gamma, RotationConvention convention = RotationConvention.X1X2X3)
     parameters:
     - id: alpha
       type: System.Single
@@ -137,9 +235,37 @@ items:
       type: System.Single
       description: ''
     - id: convention
-      type: Engine.Core.Maths.Convention
-    content.vb: Public Sub New(alpha As Single, beta As Single, gamma As Single, convention As Convention = Convention.X1X2X3)
+      type: Engine.Core.Maths.RotationConvention
+    content.vb: Public Sub New(alpha As Single, beta As Single, gamma As Single, convention As RotationConvention = RotationConvention.X1X2X3)
   overload: Engine.Core.Maths.RotationMatrix3x3.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Maths.RotationMatrix3x3.ToMatrix4x4
+  commentId: M:Engine.Core.Maths.RotationMatrix3x3.ToMatrix4x4
+  id: ToMatrix4x4
+  parent: Engine.Core.Maths.RotationMatrix3x3
+  langs:
+  - csharp
+  - vb
+  name: ToMatrix4x4()
+  nameWithType: RotationMatrix3x3.ToMatrix4x4()
+  fullName: Engine.Core.Maths.RotationMatrix3x3.ToMatrix4x4()
+  type: Method
+  source:
+    id: ToMatrix4x4
+    path: ''
+    startLine: 3706
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public MatrixMxN ToMatrix4x4()
+    return:
+      type: Engine.Core.Maths.MatrixMxN
+    content.vb: Public Function ToMatrix4x4 As MatrixMxN
+  overload: Engine.Core.Maths.RotationMatrix3x3.ToMatrix4x4*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -158,7 +284,7 @@ items:
   source:
     id: op_Implicit
     path: ''
-    startLine: 2791
+    startLine: 3722
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -180,6 +306,42 @@ items:
   - Shared
   fullName.vb: Engine.Core.Maths.RotationMatrix3x3.Widening(Engine.Core.Maths.RotationMatrix3x3 to Engine.Core.Maths.Matrix3x3)
   name.vb: Widening(RotationMatrix3x3 to Matrix3x3)
+- uid: Engine.Core.Maths.RotationMatrix3x3.op_Implicit(Engine.Core.Maths.RotationMatrix3x3)~Engine.Core.Maths.MatrixMxN
+  commentId: M:Engine.Core.Maths.RotationMatrix3x3.op_Implicit(Engine.Core.Maths.RotationMatrix3x3)~Engine.Core.Maths.MatrixMxN
+  id: op_Implicit(Engine.Core.Maths.RotationMatrix3x3)~Engine.Core.Maths.MatrixMxN
+  parent: Engine.Core.Maths.RotationMatrix3x3
+  langs:
+  - csharp
+  - vb
+  name: Implicit(RotationMatrix3x3 to MatrixMxN)
+  nameWithType: RotationMatrix3x3.Implicit(RotationMatrix3x3 to MatrixMxN)
+  fullName: Engine.Core.Maths.RotationMatrix3x3.Implicit(Engine.Core.Maths.RotationMatrix3x3 to Engine.Core.Maths.MatrixMxN)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: ''
+    startLine: 3727
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static implicit operator MatrixMxN(RotationMatrix3x3 r)
+    parameters:
+    - id: r
+      type: Engine.Core.Maths.RotationMatrix3x3
+    return:
+      type: Engine.Core.Maths.MatrixMxN
+    content.vb: Public Shared Widening Operator CType(r As RotationMatrix3x3) As MatrixMxN
+  overload: Engine.Core.Maths.RotationMatrix3x3.op_Implicit*
+  nameWithType.vb: RotationMatrix3x3.Widening(RotationMatrix3x3 to MatrixMxN)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Engine.Core.Maths.RotationMatrix3x3.Widening(Engine.Core.Maths.RotationMatrix3x3 to Engine.Core.Maths.MatrixMxN)
+  name.vb: Widening(RotationMatrix3x3 to MatrixMxN)
 references:
 - uid: Engine.Core.Maths
   commentId: N:Engine.Core.Maths
@@ -502,12 +664,23 @@ references:
   name: Axis
   nameWithType: Axis
   fullName: Engine.Core.Maths.Axis
-- uid: Engine.Core.Maths.Convention
-  commentId: T:Engine.Core.Maths.Convention
+- uid: Engine.Core.Maths.RotationConvention
+  commentId: T:Engine.Core.Maths.RotationConvention
   parent: Engine.Core.Maths
-  name: Convention
-  nameWithType: Convention
-  fullName: Engine.Core.Maths.Convention
+  name: RotationConvention
+  nameWithType: RotationConvention
+  fullName: Engine.Core.Maths.RotationConvention
+- uid: Engine.Core.Maths.RotationMatrix3x3.ToMatrix4x4*
+  commentId: Overload:Engine.Core.Maths.RotationMatrix3x3.ToMatrix4x4
+  name: ToMatrix4x4
+  nameWithType: RotationMatrix3x3.ToMatrix4x4
+  fullName: Engine.Core.Maths.RotationMatrix3x3.ToMatrix4x4
+- uid: Engine.Core.Maths.MatrixMxN
+  commentId: T:Engine.Core.Maths.MatrixMxN
+  parent: Engine.Core.Maths
+  name: MatrixMxN
+  nameWithType: MatrixMxN
+  fullName: Engine.Core.Maths.MatrixMxN
 - uid: Engine.Core.Maths.RotationMatrix3x3.op_Implicit*
   commentId: Overload:Engine.Core.Maths.RotationMatrix3x3.op_Implicit
   name: Implicit

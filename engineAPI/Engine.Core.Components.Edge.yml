@@ -19,7 +19,7 @@ items:
   source:
     id: Edge
     path: ''
-    startLine: 303
+    startLine: 758
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -32,7 +32,7 @@ items:
   - System.Object
   - Engine.Core.Component
   inheritedMembers:
-  - Engine.Core.Component.dependency
+  - Engine.Core.Component.Dependency
   - System.Object.ToString
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -60,7 +60,7 @@ items:
   source:
     id: A
     path: ''
-    startLine: 305
+    startLine: 760
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -87,7 +87,7 @@ items:
   source:
     id: B
     path: ''
-    startLine: 306
+    startLine: 761
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -114,7 +114,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 310
+    startLine: 765
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -147,7 +147,7 @@ items:
   source:
     id: GetVertexOnEdge
     path: ''
-    startLine: 322
+    startLine: 777
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -190,12 +190,12 @@ references:
   name: Component
   nameWithType: Component
   fullName: Engine.Core.Component
-- uid: Engine.Core.Component.dependency
-  commentId: F:Engine.Core.Component.dependency
+- uid: Engine.Core.Component.Dependency
+  commentId: P:Engine.Core.Component.Dependency
   parent: Engine.Core.Component
-  name: dependency
-  nameWithType: Component.dependency
-  fullName: Engine.Core.Component.dependency
+  name: Dependency
+  nameWithType: Component.Dependency
+  fullName: Engine.Core.Component.Dependency
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object

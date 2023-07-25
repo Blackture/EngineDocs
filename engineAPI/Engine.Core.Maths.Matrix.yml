@@ -26,7 +26,7 @@ items:
   source:
     id: Matrix
     path: ''
-    startLine: 1201
+    startLine: 1990
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -72,7 +72,7 @@ items:
   source:
     id: I2x2
     path: ''
-    startLine: 1206
+    startLine: 1995
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -105,7 +105,7 @@ items:
   source:
     id: I3x3
     path: ''
-    startLine: 1210
+    startLine: 1999
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -138,7 +138,7 @@ items:
   source:
     id: I4x4
     path: ''
-    startLine: 1214
+    startLine: 2003
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -171,7 +171,7 @@ items:
   source:
     id: this[]
     path: ''
-    startLine: 1216
+    startLine: 2005
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -213,7 +213,7 @@ items:
   source:
     id: RowCount
     path: ''
-    startLine: 1217
+    startLine: 2006
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -248,7 +248,7 @@ items:
   source:
     id: ColumnCount
     path: ''
-    startLine: 1218
+    startLine: 2007
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -283,7 +283,7 @@ items:
   source:
     id: Operation
     path: ''
-    startLine: 1227
+    startLine: 2016
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -322,7 +322,7 @@ items:
   source:
     id: RowOperation
     path: ''
-    startLine: 1228
+    startLine: 2017
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -361,7 +361,7 @@ items:
   source:
     id: SwapRows
     path: ''
-    startLine: 1229
+    startLine: 2018
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -396,7 +396,7 @@ items:
   source:
     id: GetIdentityMatrix
     path: ''
-    startLine: 1231
+    startLine: 2020
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -438,7 +438,7 @@ items:
   source:
     id: GetInverse
     path: ''
-    startLine: 1256
+    startLine: 2045
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths

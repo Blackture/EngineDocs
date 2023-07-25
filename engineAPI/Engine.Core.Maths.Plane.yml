@@ -21,6 +21,8 @@ items:
   - Engine.Core.Maths.Plane.Intersects(Engine.Core.Maths.Plane,Engine.Core.Maths.Straight)
   - Engine.Core.Maths.Plane.N
   - Engine.Core.Maths.Plane.P
+  - Engine.Core.Maths.Plane.S1
+  - Engine.Core.Maths.Plane.S2
   langs:
   - csharp
   - vb
@@ -31,7 +33,7 @@ items:
   source:
     id: Plane
     path: ''
-    startLine: 2360
+    startLine: 3245
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -68,10 +70,12 @@ items:
   source:
     id: N
     path: ''
-    startLine: 2389
+    startLine: 3262
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
+  summary: "\nThe normal vector of the plane\n"
+  example: []
   syntax:
     content: public Vector3 N { get; set; }
     parameters: []
@@ -99,10 +103,12 @@ items:
   source:
     id: P
     path: ''
-    startLine: 2390
+    startLine: 3266
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
+  summary: "\nA position vector on the plane\n"
+  example: []
   syntax:
     content: public Vector3 P { get; }
     parameters: []
@@ -130,10 +136,12 @@ items:
   source:
     id: B
     path: ''
-    startLine: 2391
+    startLine: 3270
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
+  summary: "\nThe &quot;b&quot; value of the coordinate-form &quot;n1x1+n2x2+n3a3-b&quot;\n"
+  example: []
   syntax:
     content: public float B { get; }
     parameters: []
@@ -141,6 +149,72 @@ items:
       type: System.Single
     content.vb: Public ReadOnly Property B As Single
   overload: Engine.Core.Maths.Plane.B*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Engine.Core.Maths.Plane.S1
+  commentId: P:Engine.Core.Maths.Plane.S1
+  id: S1
+  parent: Engine.Core.Maths.Plane
+  langs:
+  - csharp
+  - vb
+  name: S1
+  nameWithType: Plane.S1
+  fullName: Engine.Core.Maths.Plane.S1
+  type: Property
+  source:
+    id: S1
+    path: ''
+    startLine: 3274
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  summary: "\nSpan Vector3 1\n"
+  example: []
+  syntax:
+    content: public Vector3 S1 { get; }
+    parameters: []
+    return:
+      type: Engine.Core.Maths.Vector3
+    content.vb: Public ReadOnly Property S1 As Vector3
+  overload: Engine.Core.Maths.Plane.S1*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Engine.Core.Maths.Plane.S2
+  commentId: P:Engine.Core.Maths.Plane.S2
+  id: S2
+  parent: Engine.Core.Maths.Plane
+  langs:
+  - csharp
+  - vb
+  name: S2
+  nameWithType: Plane.S2
+  fullName: Engine.Core.Maths.Plane.S2
+  type: Property
+  source:
+    id: S2
+    path: ''
+    startLine: 3278
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Maths
+  summary: "\nSpan Vector3 2\n"
+  example: []
+  syntax:
+    content: public Vector3 S2 { get; }
+    parameters: []
+    return:
+      type: Engine.Core.Maths.Vector3
+    content.vb: Public ReadOnly Property S2 As Vector3
+  overload: Engine.Core.Maths.Plane.S2*
   modifiers.csharp:
   - public
   - get
@@ -161,7 +235,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 2393
+    startLine: 3280
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -192,7 +266,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 2400
+    startLine: 3287
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -227,7 +301,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 2421
+    startLine: 3308
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -258,7 +332,7 @@ items:
   source:
     id: GetPoint_00X
     path: ''
-    startLine: 2432
+    startLine: 3321
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -289,7 +363,7 @@ items:
   source:
     id: Contains
     path: ''
-    startLine: 2437
+    startLine: 3326
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -320,7 +394,7 @@ items:
   source:
     id: Contains
     path: ''
-    startLine: 2442
+    startLine: 3331
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -351,7 +425,7 @@ items:
   source:
     id: GetPositionVectorAt
     path: ''
-    startLine: 2452
+    startLine: 3341
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -384,7 +458,7 @@ items:
   source:
     id: Intersects
     path: ''
-    startLine: 2460
+    startLine: 3349
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -417,7 +491,7 @@ items:
   source:
     id: Intersection
     path: ''
-    startLine: 2487
+    startLine: 3376
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -464,7 +538,7 @@ items:
   source:
     id: Intersection
     path: ''
-    startLine: 2524
+    startLine: 3413
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -513,7 +587,7 @@ items:
   source:
     id: Distance
     path: ''
-    startLine: 2563
+    startLine: 3452
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -544,7 +618,7 @@ items:
   source:
     id: Distance
     path: ''
-    startLine: 2580
+    startLine: 3469
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -575,7 +649,7 @@ items:
   source:
     id: Distance
     path: ''
-    startLine: 2585
+    startLine: 3474
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -923,6 +997,16 @@ references:
   name: Single
   nameWithType: Single
   fullName: System.Single
+- uid: Engine.Core.Maths.Plane.S1*
+  commentId: Overload:Engine.Core.Maths.Plane.S1
+  name: S1
+  nameWithType: Plane.S1
+  fullName: Engine.Core.Maths.Plane.S1
+- uid: Engine.Core.Maths.Plane.S2*
+  commentId: Overload:Engine.Core.Maths.Plane.S2
+  name: S2
+  nameWithType: Plane.S2
+  fullName: Engine.Core.Maths.Plane.S2
 - uid: Engine.Core.Maths.Plane.#ctor*
   commentId: Overload:Engine.Core.Maths.Plane.#ctor
   name: Plane

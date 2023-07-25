@@ -19,7 +19,7 @@ items:
   source:
     id: Face
     path: ''
-    startLine: 342
+    startLine: 797
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -32,7 +32,7 @@ items:
   - System.Object
   - Engine.Core.Component
   inheritedMembers:
-  - Engine.Core.Component.dependency
+  - Engine.Core.Component.Dependency
   - System.Object.ToString
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -60,7 +60,7 @@ items:
   source:
     id: NormalVector
     path: ''
-    startLine: 349
+    startLine: 804
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -91,7 +91,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 351
+    startLine: 806
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -127,7 +127,7 @@ items:
   source:
     id: GetVertexOnFace
     path: ''
-    startLine: 359
+    startLine: 814
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -160,7 +160,7 @@ items:
   source:
     id: SetFace
     path: ''
-    startLine: 375
+    startLine: 830
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -206,12 +206,12 @@ references:
   name: Component
   nameWithType: Component
   fullName: Engine.Core.Component
-- uid: Engine.Core.Component.dependency
-  commentId: F:Engine.Core.Component.dependency
+- uid: Engine.Core.Component.Dependency
+  commentId: P:Engine.Core.Component.Dependency
   parent: Engine.Core.Component
-  name: dependency
-  nameWithType: Component.dependency
-  fullName: Engine.Core.Component.dependency
+  name: Dependency
+  nameWithType: Component.Dependency
+  fullName: Engine.Core.Component.Dependency
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
