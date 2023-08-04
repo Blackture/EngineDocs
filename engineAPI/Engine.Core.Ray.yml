@@ -7,7 +7,11 @@ items:
   children:
   - Engine.Core.Ray.#ctor(Straight,System.Single)
   - Engine.Core.Ray.#ctor(Straight,System.Single,System.Single)
+  - Engine.Core.Ray.EliminateAllParticles
+  - Engine.Core.Ray.EliminateParticle(Engine.Core.Particle@)
   - Engine.Core.Ray.Emit(System.Single)
+  - Engine.Core.Ray.OnRayCollision(System.Collections.Generic.List{ParticleCollision3D})
+  - Engine.Core.Ray.Particle
   langs:
   - csharp
   - vb
@@ -18,15 +22,22 @@ items:
   source:
     id: Ray
     path: ''
-    startLine: 482
+    startLine: 843
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core
   syntax:
-    content: public class Ray
-    content.vb: Public Class Ray
+    content: 'public class Ray : IParticleHandler, IRay'
+    content.vb: >-
+      Public Class Ray
+          Implements IParticleHandler, IRay
   inheritance:
   - System.Object
+  derivedClasses:
+  - Engine.Core.Physics.Optics.LightRay
+  implements:
+  - Engine.Core.IParticleHandler
+  - Engine.Core.IRay
   inheritedMembers:
   - System.Object.ToString
   - System.Object.Equals(System.Object)
@@ -41,6 +52,37 @@ items:
   modifiers.vb:
   - Public
   - Class
+- uid: Engine.Core.Ray.Particle
+  commentId: P:Engine.Core.Ray.Particle
+  id: Particle
+  parent: Engine.Core.Ray
+  langs:
+  - csharp
+  - vb
+  name: Particle
+  nameWithType: Ray.Particle
+  fullName: Engine.Core.Ray.Particle
+  type: Property
+  source:
+    id: Particle
+    path: ''
+    startLine: 850
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core
+  syntax:
+    content: public Particle Particle { get; }
+    parameters: []
+    return:
+      type: Engine.Core.Particle
+    content.vb: Public ReadOnly Property Particle As Particle
+  overload: Engine.Core.Ray.Particle*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: Engine.Core.Ray.#ctor(Straight,System.Single)
   commentId: M:Engine.Core.Ray.#ctor(Straight,System.Single)
   id: '#ctor(Straight,System.Single)'
@@ -55,7 +97,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 489
+    startLine: 852
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core
@@ -86,7 +128,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 495
+    startLine: 858
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core
@@ -119,23 +161,124 @@ items:
   source:
     id: Emit
     path: ''
-    startLine: 502
+    startLine: 865
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core
   syntax:
-    content: public Particle Emit(float distance)
+    content: public async Task<List<ParticleCollision3D>> Emit(float distance)
     parameters:
     - id: distance
       type: System.Single
     return:
-      type: Engine.Core.Particle
-    content.vb: Public Function Emit(distance As Single) As Particle
+      type: System.Threading.Tasks.Task{System.Collections.Generic.List{ParticleCollision3D}}
+    content.vb: Public Function Emit(distance As Single) As Task(Of List(Of ParticleCollision3D))
   overload: Engine.Core.Ray.Emit*
+  modifiers.csharp:
+  - public
+  - async
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Ray.EliminateParticle(Engine.Core.Particle@)
+  commentId: M:Engine.Core.Ray.EliminateParticle(Engine.Core.Particle@)
+  id: EliminateParticle(Engine.Core.Particle@)
+  parent: Engine.Core.Ray
+  langs:
+  - csharp
+  - vb
+  name: EliminateParticle(ref Particle)
+  nameWithType: Ray.EliminateParticle(ref Particle)
+  fullName: Engine.Core.Ray.EliminateParticle(ref Engine.Core.Particle)
+  type: Method
+  source:
+    id: EliminateParticle
+    path: ''
+    startLine: 881
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core
+  syntax:
+    content: public virtual void EliminateParticle(ref Particle particle)
+    parameters:
+    - id: particle
+      type: Engine.Core.Particle
+    content.vb: Public Overridable Sub EliminateParticle(ByRef particle As Particle)
+  overload: Engine.Core.Ray.EliminateParticle*
+  implements:
+  - Engine.Core.IParticleHandler.EliminateParticle(Engine.Core.Particle@)
+  nameWithType.vb: Ray.EliminateParticle(ByRef Particle)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Engine.Core.Ray.EliminateParticle(ByRef Engine.Core.Particle)
+  name.vb: EliminateParticle(ByRef Particle)
+- uid: Engine.Core.Ray.EliminateAllParticles
+  commentId: M:Engine.Core.Ray.EliminateAllParticles
+  id: EliminateAllParticles
+  parent: Engine.Core.Ray
+  langs:
+  - csharp
+  - vb
+  name: EliminateAllParticles()
+  nameWithType: Ray.EliminateAllParticles()
+  fullName: Engine.Core.Ray.EliminateAllParticles()
+  type: Method
+  source:
+    id: EliminateAllParticles
+    path: ''
+    startLine: 885
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core
+  syntax:
+    content: public virtual void EliminateAllParticles()
+    content.vb: Public Overridable Sub EliminateAllParticles
+  overload: Engine.Core.Ray.EliminateAllParticles*
+  implements:
+  - Engine.Core.IParticleHandler.EliminateAllParticles
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Engine.Core.Ray.OnRayCollision(System.Collections.Generic.List{ParticleCollision3D})
+  commentId: M:Engine.Core.Ray.OnRayCollision(System.Collections.Generic.List{ParticleCollision3D})
+  id: OnRayCollision(System.Collections.Generic.List{ParticleCollision3D})
+  parent: Engine.Core.Ray
+  langs:
+  - csharp
+  - vb
+  name: OnRayCollision(List<ParticleCollision3D>)
+  nameWithType: Ray.OnRayCollision(List<ParticleCollision3D>)
+  fullName: Engine.Core.Ray.OnRayCollision(System.Collections.Generic.List<ParticleCollision3D>)
+  type: Method
+  source:
+    id: OnRayCollision
+    path: ''
+    startLine: 890
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core
+  syntax:
+    content: public void OnRayCollision(List<ParticleCollision3D> collisions)
+    parameters:
+    - id: collisions
+      type: System.Collections.Generic.List{ParticleCollision3D}
+    content.vb: Public Sub OnRayCollision(collisions As List(Of ParticleCollision3D))
+  overload: Engine.Core.Ray.OnRayCollision*
+  implements:
+  - Engine.Core.IRay.OnRayCollision(System.Collections.Generic.List{ParticleCollision3D})
+  nameWithType.vb: Ray.OnRayCollision(List(Of ParticleCollision3D))
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
+  fullName.vb: Engine.Core.Ray.OnRayCollision(System.Collections.Generic.List(Of ParticleCollision3D))
+  name.vb: OnRayCollision(List(Of ParticleCollision3D))
 references:
 - uid: Engine.Core
   commentId: N:Engine.Core
@@ -149,6 +292,18 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: Engine.Core.IParticleHandler
+  commentId: T:Engine.Core.IParticleHandler
+  parent: Engine.Core
+  name: IParticleHandler
+  nameWithType: IParticleHandler
+  fullName: Engine.Core.IParticleHandler
+- uid: Engine.Core.IRay
+  commentId: T:Engine.Core.IRay
+  parent: Engine.Core
+  name: IRay
+  nameWithType: IRay
+  fullName: Engine.Core.IRay
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
@@ -434,6 +589,17 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: Engine.Core.Ray.Particle*
+  commentId: Overload:Engine.Core.Ray.Particle
+  name: Particle
+  nameWithType: Ray.Particle
+  fullName: Engine.Core.Ray.Particle
+- uid: Engine.Core.Particle
+  commentId: T:Engine.Core.Particle
+  parent: Engine.Core
+  name: Particle
+  nameWithType: Particle
+  fullName: Engine.Core.Particle
 - uid: Engine.Core.Ray.#ctor*
   commentId: Overload:Engine.Core.Ray.#ctor
   name: Ray
@@ -456,9 +622,346 @@ references:
   name: Emit
   nameWithType: Ray.Emit
   fullName: Engine.Core.Ray.Emit
-- uid: Engine.Core.Particle
-  commentId: T:Engine.Core.Particle
-  parent: Engine.Core
-  name: Particle
-  nameWithType: Particle
-  fullName: Engine.Core.Particle
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.List{ParticleCollision3D}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.List{ParticleCollision3D}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<List<ParticleCollision3D>>
+  nameWithType: Task<List<ParticleCollision3D>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.List<ParticleCollision3D>>
+  nameWithType.vb: Task(Of List(Of ParticleCollision3D))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.List(Of ParticleCollision3D))
+  name.vb: Task(Of List(Of ParticleCollision3D))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: ParticleCollision3D
+    name: ParticleCollision3D
+    nameWithType: ParticleCollision3D
+    fullName: ParticleCollision3D
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: ParticleCollision3D
+    name: ParticleCollision3D
+    nameWithType: ParticleCollision3D
+    fullName: ParticleCollision3D
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: Engine.Core.Ray.EliminateParticle*
+  commentId: Overload:Engine.Core.Ray.EliminateParticle
+  name: EliminateParticle
+  nameWithType: Ray.EliminateParticle
+  fullName: Engine.Core.Ray.EliminateParticle
+- uid: Engine.Core.IParticleHandler.EliminateParticle(Engine.Core.Particle@)
+  commentId: M:Engine.Core.IParticleHandler.EliminateParticle(Engine.Core.Particle@)
+  parent: Engine.Core.IParticleHandler
+  name: EliminateParticle(Particle)
+  nameWithType: IParticleHandler.EliminateParticle(Particle)
+  fullName: Engine.Core.IParticleHandler.EliminateParticle(Engine.Core.Particle)
+  spec.csharp:
+  - uid: Engine.Core.IParticleHandler.EliminateParticle(Engine.Core.Particle@)
+    name: EliminateParticle
+    nameWithType: IParticleHandler.EliminateParticle
+    fullName: Engine.Core.IParticleHandler.EliminateParticle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Engine.Core.Particle
+    name: Particle
+    nameWithType: Particle
+    fullName: Engine.Core.Particle
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Engine.Core.IParticleHandler.EliminateParticle(Engine.Core.Particle@)
+    name: EliminateParticle
+    nameWithType: IParticleHandler.EliminateParticle
+    fullName: Engine.Core.IParticleHandler.EliminateParticle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Engine.Core.Particle
+    name: Particle
+    nameWithType: Particle
+    fullName: Engine.Core.Particle
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Engine.Core.Ray.EliminateAllParticles*
+  commentId: Overload:Engine.Core.Ray.EliminateAllParticles
+  name: EliminateAllParticles
+  nameWithType: Ray.EliminateAllParticles
+  fullName: Engine.Core.Ray.EliminateAllParticles
+- uid: Engine.Core.IParticleHandler.EliminateAllParticles
+  commentId: M:Engine.Core.IParticleHandler.EliminateAllParticles
+  parent: Engine.Core.IParticleHandler
+  name: EliminateAllParticles()
+  nameWithType: IParticleHandler.EliminateAllParticles()
+  fullName: Engine.Core.IParticleHandler.EliminateAllParticles()
+  spec.csharp:
+  - uid: Engine.Core.IParticleHandler.EliminateAllParticles
+    name: EliminateAllParticles
+    nameWithType: IParticleHandler.EliminateAllParticles
+    fullName: Engine.Core.IParticleHandler.EliminateAllParticles
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Engine.Core.IParticleHandler.EliminateAllParticles
+    name: EliminateAllParticles
+    nameWithType: IParticleHandler.EliminateAllParticles
+    fullName: Engine.Core.IParticleHandler.EliminateAllParticles
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Engine.Core.Ray.OnRayCollision*
+  commentId: Overload:Engine.Core.Ray.OnRayCollision
+  name: OnRayCollision
+  nameWithType: Ray.OnRayCollision
+  fullName: Engine.Core.Ray.OnRayCollision
+- uid: Engine.Core.IRay.OnRayCollision(System.Collections.Generic.List{ParticleCollision3D})
+  commentId: M:Engine.Core.IRay.OnRayCollision(System.Collections.Generic.List{ParticleCollision3D})
+  parent: Engine.Core.IRay
+  isExternal: true
+  name: OnRayCollision(List<ParticleCollision3D>)
+  nameWithType: IRay.OnRayCollision(List<ParticleCollision3D>)
+  fullName: Engine.Core.IRay.OnRayCollision(System.Collections.Generic.List<ParticleCollision3D>)
+  nameWithType.vb: IRay.OnRayCollision(List(Of ParticleCollision3D))
+  fullName.vb: Engine.Core.IRay.OnRayCollision(System.Collections.Generic.List(Of ParticleCollision3D))
+  name.vb: OnRayCollision(List(Of ParticleCollision3D))
+  spec.csharp:
+  - uid: Engine.Core.IRay.OnRayCollision(System.Collections.Generic.List{ParticleCollision3D})
+    name: OnRayCollision
+    nameWithType: IRay.OnRayCollision
+    fullName: Engine.Core.IRay.OnRayCollision
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: ParticleCollision3D
+    name: ParticleCollision3D
+    nameWithType: ParticleCollision3D
+    fullName: ParticleCollision3D
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Engine.Core.IRay.OnRayCollision(System.Collections.Generic.List{ParticleCollision3D})
+    name: OnRayCollision
+    nameWithType: IRay.OnRayCollision
+    fullName: Engine.Core.IRay.OnRayCollision
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: ParticleCollision3D
+    name: ParticleCollision3D
+    nameWithType: ParticleCollision3D
+    fullName: ParticleCollision3D
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List{ParticleCollision3D}
+  commentId: T:System.Collections.Generic.List{ParticleCollision3D}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ParticleCollision3D>
+  nameWithType: List<ParticleCollision3D>
+  fullName: System.Collections.Generic.List<ParticleCollision3D>
+  nameWithType.vb: List(Of ParticleCollision3D)
+  fullName.vb: System.Collections.Generic.List(Of ParticleCollision3D)
+  name.vb: List(Of ParticleCollision3D)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: ParticleCollision3D
+    name: ParticleCollision3D
+    nameWithType: ParticleCollision3D
+    fullName: ParticleCollision3D
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: ParticleCollision3D
+    name: ParticleCollision3D
+    nameWithType: ParticleCollision3D
+    fullName: ParticleCollision3D
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

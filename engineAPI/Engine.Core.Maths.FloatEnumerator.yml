@@ -22,7 +22,7 @@ items:
   source:
     id: FloatEnumerator
     path: ''
-    startLine: 1446
+    startLine: 2104
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -65,7 +65,7 @@ items:
   source:
     id: Current
     path: ''
-    startLine: 1452
+    startLine: 2110
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -98,7 +98,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1469
+    startLine: 2127
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -130,7 +130,7 @@ items:
   source:
     id: MoveNext
     path: ''
-    startLine: 1474
+    startLine: 2132
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -160,7 +160,7 @@ items:
   source:
     id: Reset
     path: ''
-    startLine: 1480
+    startLine: 2138
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -188,7 +188,7 @@ items:
   source:
     id: Dispose
     path: ''
-    startLine: 1486
+    startLine: 2144
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -219,7 +219,7 @@ items:
   source:
     id: Dispose
     path: ''
-    startLine: 1502
+    startLine: 2160
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -247,7 +247,7 @@ items:
   source:
     id: Finalize
     path: ''
-    startLine: 1509
+    startLine: 2167
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths

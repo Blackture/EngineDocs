@@ -1,0 +1,659 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Physics.CollisionDetection.SpatialPartitioning
+  commentId: T:Engine.Core.Physics.CollisionDetection.SpatialPartitioning
+  id: SpatialPartitioning
+  parent: Engine.Core.Physics.CollisionDetection
+  children:
+  - Engine.Core.Physics.CollisionDetection.SpatialPartitioning.#ctor
+  - Engine.Core.Physics.CollisionDetection.SpatialPartitioning.CellSize
+  - Engine.Core.Physics.CollisionDetection.SpatialPartitioning.GetMeshesAt(Vector3)
+  - Engine.Core.Physics.CollisionDetection.SpatialPartitioning.MapMesh(Mesh3D)
+  - Engine.Core.Physics.CollisionDetection.SpatialPartitioning.RemoveMesh(Mesh3D)
+  - Engine.Core.Physics.CollisionDetection.SpatialPartitioning.UpdateMesh(Mesh3D)
+  langs:
+  - csharp
+  - vb
+  name: SpatialPartitioning
+  nameWithType: SpatialPartitioning
+  fullName: Engine.Core.Physics.CollisionDetection.SpatialPartitioning
+  type: Class
+  source:
+    id: SpatialPartitioning
+    path: ''
+    startLine: 6458
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Physics.CollisionDetection
+  syntax:
+    content: public class SpatialPartitioning
+    content.vb: Public Class SpatialPartitioning
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.CellSize
+  commentId: P:Engine.Core.Physics.CollisionDetection.SpatialPartitioning.CellSize
+  id: CellSize
+  parent: Engine.Core.Physics.CollisionDetection.SpatialPartitioning
+  langs:
+  - csharp
+  - vb
+  name: CellSize
+  nameWithType: SpatialPartitioning.CellSize
+  fullName: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.CellSize
+  type: Property
+  source:
+    id: CellSize
+    path: ''
+    startLine: 6470
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Physics.CollisionDetection
+  syntax:
+    content: public float CellSize { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property CellSize As Single
+  overload: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.CellSize*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.#ctor
+  commentId: M:Engine.Core.Physics.CollisionDetection.SpatialPartitioning.#ctor
+  id: '#ctor'
+  parent: Engine.Core.Physics.CollisionDetection.SpatialPartitioning
+  langs:
+  - csharp
+  - vb
+  name: SpatialPartitioning()
+  nameWithType: SpatialPartitioning.SpatialPartitioning()
+  fullName: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.SpatialPartitioning()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 6476
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Physics.CollisionDetection
+  syntax:
+    content: public SpatialPartitioning()
+    content.vb: Public Sub New
+  overload: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.GetMeshesAt(Vector3)
+  commentId: M:Engine.Core.Physics.CollisionDetection.SpatialPartitioning.GetMeshesAt(Vector3)
+  id: GetMeshesAt(Vector3)
+  parent: Engine.Core.Physics.CollisionDetection.SpatialPartitioning
+  langs:
+  - csharp
+  - vb
+  name: GetMeshesAt(Vector3)
+  nameWithType: SpatialPartitioning.GetMeshesAt(Vector3)
+  fullName: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.GetMeshesAt(Vector3)
+  type: Method
+  source:
+    id: GetMeshesAt
+    path: ''
+    startLine: 6487
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Physics.CollisionDetection
+  summary: "\nProjects <code data-dev-comment-type=\"paramref\" class=\"paramref\">point</code> onto the partitioning grid.\n"
+  example: []
+  syntax:
+    content: public List<Mesh3D> GetMeshesAt(Vector3 point)
+    parameters:
+    - id: point
+      type: Vector3
+      description: ''
+    return:
+      type: System.Collections.Generic.List{Mesh3D}
+      description: Return all meshes within the cell, the point&apos;s in
+    content.vb: Public Function GetMeshesAt(point As Vector3) As List(Of Mesh3D)
+  overload: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.GetMeshesAt*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.MapMesh(Mesh3D)
+  commentId: M:Engine.Core.Physics.CollisionDetection.SpatialPartitioning.MapMesh(Mesh3D)
+  id: MapMesh(Mesh3D)
+  parent: Engine.Core.Physics.CollisionDetection.SpatialPartitioning
+  langs:
+  - csharp
+  - vb
+  name: MapMesh(Mesh3D)
+  nameWithType: SpatialPartitioning.MapMesh(Mesh3D)
+  fullName: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.MapMesh(Mesh3D)
+  type: Method
+  source:
+    id: MapMesh
+    path: ''
+    startLine: 6494
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Physics.CollisionDetection
+  syntax:
+    content: public void MapMesh(Mesh3D mesh)
+    parameters:
+    - id: mesh
+      type: Mesh3D
+    content.vb: Public Sub MapMesh(mesh As Mesh3D)
+  overload: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.MapMesh*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.RemoveMesh(Mesh3D)
+  commentId: M:Engine.Core.Physics.CollisionDetection.SpatialPartitioning.RemoveMesh(Mesh3D)
+  id: RemoveMesh(Mesh3D)
+  parent: Engine.Core.Physics.CollisionDetection.SpatialPartitioning
+  langs:
+  - csharp
+  - vb
+  name: RemoveMesh(Mesh3D)
+  nameWithType: SpatialPartitioning.RemoveMesh(Mesh3D)
+  fullName: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.RemoveMesh(Mesh3D)
+  type: Method
+  source:
+    id: RemoveMesh
+    path: ''
+    startLine: 6507
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Physics.CollisionDetection
+  syntax:
+    content: public void RemoveMesh(Mesh3D mesh)
+    parameters:
+    - id: mesh
+      type: Mesh3D
+    content.vb: Public Sub RemoveMesh(mesh As Mesh3D)
+  overload: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.RemoveMesh*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.UpdateMesh(Mesh3D)
+  commentId: M:Engine.Core.Physics.CollisionDetection.SpatialPartitioning.UpdateMesh(Mesh3D)
+  id: UpdateMesh(Mesh3D)
+  parent: Engine.Core.Physics.CollisionDetection.SpatialPartitioning
+  langs:
+  - csharp
+  - vb
+  name: UpdateMesh(Mesh3D)
+  nameWithType: SpatialPartitioning.UpdateMesh(Mesh3D)
+  fullName: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.UpdateMesh(Mesh3D)
+  type: Method
+  source:
+    id: UpdateMesh
+    path: ''
+    startLine: 6511
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Physics.CollisionDetection
+  syntax:
+    content: public void UpdateMesh(Mesh3D mesh)
+    parameters:
+    - id: mesh
+      type: Mesh3D
+    content.vb: Public Sub UpdateMesh(mesh As Mesh3D)
+  overload: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.UpdateMesh*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Engine.Core.Physics.CollisionDetection
+  commentId: N:Engine.Core.Physics.CollisionDetection
+  name: Engine.Core.Physics.CollisionDetection
+  nameWithType: Engine.Core.Physics.CollisionDetection
+  fullName: Engine.Core.Physics.CollisionDetection
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.CellSize*
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.SpatialPartitioning.CellSize
+  name: CellSize
+  nameWithType: SpatialPartitioning.CellSize
+  fullName: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.CellSize
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.#ctor*
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.SpatialPartitioning.#ctor
+  name: SpatialPartitioning
+  nameWithType: SpatialPartitioning.SpatialPartitioning
+  fullName: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.SpatialPartitioning
+- uid: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.GetMeshesAt*
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.SpatialPartitioning.GetMeshesAt
+  name: GetMeshesAt
+  nameWithType: SpatialPartitioning.GetMeshesAt
+  fullName: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.GetMeshesAt
+- uid: Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: System.Collections.Generic.List{Mesh3D}
+  commentId: T:System.Collections.Generic.List{Mesh3D}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Mesh3D>
+  nameWithType: List<Mesh3D>
+  fullName: System.Collections.Generic.List<Mesh3D>
+  nameWithType.vb: List(Of Mesh3D)
+  fullName.vb: System.Collections.Generic.List(Of Mesh3D)
+  name.vb: List(Of Mesh3D)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Mesh3D
+    name: Mesh3D
+    nameWithType: Mesh3D
+    fullName: Mesh3D
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Mesh3D
+    name: Mesh3D
+    nameWithType: Mesh3D
+    fullName: Mesh3D
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.MapMesh*
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.SpatialPartitioning.MapMesh
+  name: MapMesh
+  nameWithType: SpatialPartitioning.MapMesh
+  fullName: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.MapMesh
+- uid: Mesh3D
+  isExternal: true
+  name: Mesh3D
+  nameWithType: Mesh3D
+  fullName: Mesh3D
+- uid: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.RemoveMesh*
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.SpatialPartitioning.RemoveMesh
+  name: RemoveMesh
+  nameWithType: SpatialPartitioning.RemoveMesh
+  fullName: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.RemoveMesh
+- uid: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.UpdateMesh*
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.SpatialPartitioning.UpdateMesh
+  name: UpdateMesh
+  nameWithType: SpatialPartitioning.UpdateMesh
+  fullName: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.UpdateMesh

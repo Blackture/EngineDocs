@@ -33,7 +33,7 @@ items:
   source:
     id: Plane
     path: ''
-    startLine: 3245
+    startLine: 4011
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -70,7 +70,7 @@ items:
   source:
     id: N
     path: ''
-    startLine: 3262
+    startLine: 4028
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -103,7 +103,7 @@ items:
   source:
     id: P
     path: ''
-    startLine: 3266
+    startLine: 4032
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -136,7 +136,7 @@ items:
   source:
     id: B
     path: ''
-    startLine: 3270
+    startLine: 4036
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -169,7 +169,7 @@ items:
   source:
     id: S1
     path: ''
-    startLine: 3274
+    startLine: 4040
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -202,7 +202,7 @@ items:
   source:
     id: S2
     path: ''
-    startLine: 3278
+    startLine: 4044
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -235,7 +235,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 3280
+    startLine: 4046
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -266,7 +266,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 3287
+    startLine: 4053
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -301,7 +301,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 3308
+    startLine: 4074
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -332,7 +332,7 @@ items:
   source:
     id: GetPoint_00X
     path: ''
-    startLine: 3321
+    startLine: 4087
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -363,7 +363,7 @@ items:
   source:
     id: Contains
     path: ''
-    startLine: 3326
+    startLine: 4092
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -394,7 +394,7 @@ items:
   source:
     id: Contains
     path: ''
-    startLine: 3331
+    startLine: 4097
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -425,7 +425,7 @@ items:
   source:
     id: GetPositionVectorAt
     path: ''
-    startLine: 3341
+    startLine: 4107
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -458,7 +458,7 @@ items:
   source:
     id: Intersects
     path: ''
-    startLine: 3349
+    startLine: 4115
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -491,7 +491,7 @@ items:
   source:
     id: Intersection
     path: ''
-    startLine: 3376
+    startLine: 4142
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -538,7 +538,7 @@ items:
   source:
     id: Intersection
     path: ''
-    startLine: 3413
+    startLine: 4179
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -587,7 +587,7 @@ items:
   source:
     id: Distance
     path: ''
-    startLine: 3452
+    startLine: 4218
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -618,7 +618,7 @@ items:
   source:
     id: Distance
     path: ''
-    startLine: 3469
+    startLine: 4235
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -649,7 +649,7 @@ items:
   source:
     id: Distance
     path: ''
-    startLine: 3474
+    startLine: 4240
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths

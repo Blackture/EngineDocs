@@ -23,7 +23,7 @@ items:
   source:
     id: Camera
     path: ''
-    startLine: 528
+    startLine: 998
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -64,7 +64,7 @@ items:
   source:
     id: NearPlaneDistance
     path: ''
-    startLine: 539
+    startLine: 1009
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -95,7 +95,7 @@ items:
   source:
     id: FarPlaneDistance
     path: ''
-    startLine: 544
+    startLine: 1014
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -126,7 +126,7 @@ items:
   source:
     id: NearPlane
     path: ''
-    startLine: 549
+    startLine: 1019
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -157,7 +157,7 @@ items:
   source:
     id: FarPlane
     path: ''
-    startLine: 550
+    startLine: 1020
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -188,7 +188,7 @@ items:
   source:
     id: ImagePlane
     path: ''
-    startLine: 551
+    startLine: 1021
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -219,7 +219,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 553
+    startLine: 1023
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -252,7 +252,7 @@ items:
   source:
     id: RenderPoint
     path: ''
-    startLine: 564
+    startLine: 1034
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -264,7 +264,7 @@ items:
     - id: dt
       type: System.Single
     return:
-      type: Engine.Core.Pixel
+      type: Pixel
     content.vb: Public Function RenderPoint(ds As Single, dt As Single) As Pixel
   overload: Engine.Core.Components.Camera.RenderPoint*
   modifiers.csharp:
@@ -285,7 +285,7 @@ items:
   source:
     id: AnyLightSource
     path: ''
-    startLine: 739
+    startLine: 1211
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -689,12 +689,11 @@ references:
   name: RenderPoint
   nameWithType: Camera.RenderPoint
   fullName: Engine.Core.Components.Camera.RenderPoint
-- uid: Engine.Core.Pixel
-  commentId: T:Engine.Core.Pixel
-  parent: Engine.Core
+- uid: Pixel
+  isExternal: true
   name: Pixel
   nameWithType: Pixel
-  fullName: Engine.Core.Pixel
+  fullName: Pixel
 - uid: Engine.Core.Components.Camera.AnyLightSource*
   commentId: Overload:Engine.Core.Components.Camera.AnyLightSource
   name: AnyLightSource

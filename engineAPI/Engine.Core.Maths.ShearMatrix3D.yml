@@ -22,7 +22,7 @@ items:
   source:
     id: ShearMatrix3D
     path: ''
-    startLine: 3913
+    startLine: 4679
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -59,7 +59,7 @@ items:
   source:
     id: S4x4
     path: ''
-    startLine: 3915
+    startLine: 4681
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -86,7 +86,7 @@ items:
   source:
     id: S3x3
     path: ''
-    startLine: 3919
+    startLine: 4685
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -115,7 +115,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 3931
+    startLine: 4697
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -152,7 +152,7 @@ items:
   source:
     id: op_Implicit
     path: ''
-    startLine: 3994
+    startLine: 4760
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -188,7 +188,7 @@ items:
   source:
     id: ToMatrix4x4
     path: ''
-    startLine: 3999
+    startLine: 4765
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -216,7 +216,7 @@ items:
   source:
     id: op_Multiply
     path: ''
-    startLine: 4015
+    startLine: 4781
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -251,7 +251,7 @@ items:
   source:
     id: Multiply
     path: ''
-    startLine: 4024
+    startLine: 4790
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths

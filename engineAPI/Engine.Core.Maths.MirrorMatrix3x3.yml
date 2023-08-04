@@ -27,7 +27,7 @@ items:
   source:
     id: MirrorMatrix3x3
     path: ''
-    startLine: 3182
+    startLine: 3948
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -64,7 +64,7 @@ items:
   source:
     id: M3x3
     path: ''
-    startLine: 3184
+    startLine: 3950
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -93,7 +93,7 @@ items:
   source:
     id: Mirror_FreeSpace
     path: ''
-    startLine: 3186
+    startLine: 3952
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -124,7 +124,7 @@ items:
   source:
     id: Mirror_X1
     path: ''
-    startLine: 3187
+    startLine: 3953
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -155,7 +155,7 @@ items:
   source:
     id: Mirror_X2
     path: ''
-    startLine: 3188
+    startLine: 3954
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -186,7 +186,7 @@ items:
   source:
     id: Mirror_X3
     path: ''
-    startLine: 3189
+    startLine: 3955
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -217,7 +217,7 @@ items:
   source:
     id: Mirror_90Degree_X1_Roof
     path: ''
-    startLine: 3190
+    startLine: 3956
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -248,7 +248,7 @@ items:
   source:
     id: Mirror_90Degree_X2_Roof
     path: ''
-    startLine: 3191
+    startLine: 3957
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -279,7 +279,7 @@ items:
   source:
     id: Mirror_90Degree_X3_Roof
     path: ''
-    startLine: 3192
+    startLine: 3958
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -310,7 +310,7 @@ items:
   source:
     id: Mirror_45Degree_X1_Roof
     path: ''
-    startLine: 3193
+    startLine: 3959
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -341,7 +341,7 @@ items:
   source:
     id: Mirror_Cube_Corner
     path: ''
-    startLine: 3194
+    startLine: 3960
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -372,7 +372,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 3209
+    startLine: 3975
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -401,7 +401,7 @@ items:
   source:
     id: ToMatrix4x4
     path: ''
-    startLine: 3216
+    startLine: 3982
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths

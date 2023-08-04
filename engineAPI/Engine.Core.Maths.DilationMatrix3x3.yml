@@ -19,7 +19,7 @@ items:
   source:
     id: DilationMatrix3x3
     path: ''
-    startLine: 1307
+    startLine: 1965
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -56,7 +56,7 @@ items:
   source:
     id: D3x3
     path: ''
-    startLine: 1309
+    startLine: 1967
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -85,7 +85,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1310
+    startLine: 1968
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -118,7 +118,7 @@ items:
   source:
     id: ToMatrix4x4
     path: ''
-    startLine: 1315
+    startLine: 1973
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -146,7 +146,7 @@ items:
   source:
     id: op_Implicit
     path: ''
-    startLine: 1331
+    startLine: 1989
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths

@@ -25,7 +25,7 @@ items:
   source:
     id: RotationVector3
     path: ''
-    startLine: 3748
+    startLine: 4514
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -95,7 +95,7 @@ items:
   source:
     id: X1
     path: ''
-    startLine: 3753
+    startLine: 4519
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -128,7 +128,7 @@ items:
   source:
     id: X2
     path: ''
-    startLine: 3761
+    startLine: 4527
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -161,7 +161,7 @@ items:
   source:
     id: X3
     path: ''
-    startLine: 3769
+    startLine: 4535
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -194,7 +194,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 3775
+    startLine: 4541
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -229,7 +229,7 @@ items:
   source:
     id: GetDegreeRotation
     path: ''
-    startLine: 3780
+    startLine: 4546
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -257,7 +257,7 @@ items:
   source:
     id: SetRotation
     path: ''
-    startLine: 3785
+    startLine: 4551
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -290,7 +290,7 @@ items:
   source:
     id: SetRotation
     path: ''
-    startLine: 3811
+    startLine: 4577
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -325,7 +325,7 @@ items:
   source:
     id: op_Addition
     path: ''
-    startLine: 3828
+    startLine: 4594
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -360,7 +360,7 @@ items:
   source:
     id: op_Implicit
     path: ''
-    startLine: 3836
+    startLine: 4602
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -399,7 +399,7 @@ items:
   source:
     id: op_Implicit
     path: ''
-    startLine: 3840
+    startLine: 4606
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths

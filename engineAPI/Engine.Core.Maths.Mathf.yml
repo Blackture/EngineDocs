@@ -63,7 +63,7 @@ items:
   source:
     id: Mathf
     path: ''
-    startLine: 1725
+    startLine: 2491
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -101,7 +101,7 @@ items:
   source:
     id: PiQuarter
     path: ''
-    startLine: 1727
+    startLine: 2493
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -132,7 +132,7 @@ items:
   source:
     id: PiHalf
     path: ''
-    startLine: 1728
+    startLine: 2494
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -163,7 +163,7 @@ items:
   source:
     id: SinePiQuarter
     path: ''
-    startLine: 1730
+    startLine: 2496
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -194,7 +194,7 @@ items:
   source:
     id: CosinePiQuarter
     path: ''
-    startLine: 1731
+    startLine: 2497
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -225,7 +225,7 @@ items:
   source:
     id: e
     path: ''
-    startLine: 1733
+    startLine: 2499
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -254,7 +254,7 @@ items:
   source:
     id: pi
     path: ''
-    startLine: 1734
+    startLine: 2500
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -283,7 +283,7 @@ items:
   source:
     id: Acos
     path: ''
-    startLine: 1745
+    startLine: 2511
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -316,7 +316,7 @@ items:
   source:
     id: Asin
     path: ''
-    startLine: 1750
+    startLine: 2516
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -349,7 +349,7 @@ items:
   source:
     id: Atan
     path: ''
-    startLine: 1755
+    startLine: 2521
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -382,7 +382,7 @@ items:
   source:
     id: Abs
     path: ''
-    startLine: 1760
+    startLine: 2526
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -415,7 +415,7 @@ items:
   source:
     id: Atan2
     path: ''
-    startLine: 1765
+    startLine: 2531
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -450,7 +450,7 @@ items:
   source:
     id: Ceiling
     path: ''
-    startLine: 1770
+    startLine: 2536
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -483,7 +483,7 @@ items:
   source:
     id: Cos
     path: ''
-    startLine: 1775
+    startLine: 2541
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -516,7 +516,7 @@ items:
   source:
     id: Cosh
     path: ''
-    startLine: 1780
+    startLine: 2546
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -549,7 +549,7 @@ items:
   source:
     id: Cot
     path: ''
-    startLine: 1785
+    startLine: 2551
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -582,7 +582,7 @@ items:
   source:
     id: Sec
     path: ''
-    startLine: 1790
+    startLine: 2556
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -615,7 +615,7 @@ items:
   source:
     id: Csc
     path: ''
-    startLine: 1794
+    startLine: 2560
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -648,7 +648,7 @@ items:
   source:
     id: Exp
     path: ''
-    startLine: 1799
+    startLine: 2565
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -681,7 +681,7 @@ items:
   source:
     id: Floor
     path: ''
-    startLine: 1804
+    startLine: 2570
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -714,7 +714,7 @@ items:
   source:
     id: IEEERemainder
     path: ''
-    startLine: 1809
+    startLine: 2575
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -749,7 +749,7 @@ items:
   source:
     id: Log
     path: ''
-    startLine: 1814
+    startLine: 2580
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -782,7 +782,7 @@ items:
   source:
     id: Log
     path: ''
-    startLine: 1819
+    startLine: 2585
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -817,7 +817,7 @@ items:
   source:
     id: Log10
     path: ''
-    startLine: 1824
+    startLine: 2590
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -850,7 +850,7 @@ items:
   source:
     id: Max
     path: ''
-    startLine: 1829
+    startLine: 2595
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -885,7 +885,7 @@ items:
   source:
     id: Min
     path: ''
-    startLine: 1834
+    startLine: 2600
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -920,7 +920,7 @@ items:
   source:
     id: Pow
     path: ''
-    startLine: 1839
+    startLine: 2605
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -955,7 +955,7 @@ items:
   source:
     id: Round
     path: ''
-    startLine: 1844
+    startLine: 2610
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -988,7 +988,7 @@ items:
   source:
     id: Round
     path: ''
-    startLine: 1849
+    startLine: 2615
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1023,7 +1023,7 @@ items:
   source:
     id: Round
     path: ''
-    startLine: 1854
+    startLine: 2620
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1060,7 +1060,7 @@ items:
   source:
     id: RoundToInt
     path: ''
-    startLine: 1859
+    startLine: 2625
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1093,7 +1093,7 @@ items:
   source:
     id: Sign
     path: ''
-    startLine: 1864
+    startLine: 2630
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1126,7 +1126,7 @@ items:
   source:
     id: Sin
     path: ''
-    startLine: 1869
+    startLine: 2635
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1159,7 +1159,7 @@ items:
   source:
     id: Sinh
     path: ''
-    startLine: 1874
+    startLine: 2640
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1192,7 +1192,7 @@ items:
   source:
     id: Sqrt
     path: ''
-    startLine: 1879
+    startLine: 2645
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1225,7 +1225,7 @@ items:
   source:
     id: NthSqrt
     path: ''
-    startLine: 1885
+    startLine: 2651
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1260,7 +1260,7 @@ items:
   source:
     id: Tan
     path: ''
-    startLine: 1890
+    startLine: 2656
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1293,7 +1293,7 @@ items:
   source:
     id: Tanh
     path: ''
-    startLine: 1895
+    startLine: 2661
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1326,7 +1326,7 @@ items:
   source:
     id: Truncate
     path: ''
-    startLine: 1900
+    startLine: 2666
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1359,7 +1359,7 @@ items:
   source:
     id: Pi
     path: ''
-    startLine: 1905
+    startLine: 2671
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1399,7 +1399,7 @@ items:
   source:
     id: Pi
     path: ''
-    startLine: 1915
+    startLine: 2681
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1441,7 +1441,7 @@ items:
   source:
     id: Sigma
     path: ''
-    startLine: 1925
+    startLine: 2691
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1483,7 +1483,7 @@ items:
   source:
     id: Sigma
     path: ''
-    startLine: 1935
+    startLine: 2701
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1523,7 +1523,7 @@ items:
   source:
     id: Approximately
     path: ''
-    startLine: 1945
+    startLine: 2711
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1560,7 +1560,7 @@ items:
   source:
     id: Approximately
     path: ''
-    startLine: 1950
+    startLine: 2716
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1595,7 +1595,7 @@ items:
   source:
     id: Deg2Rad
     path: ''
-    startLine: 1955
+    startLine: 2721
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1628,7 +1628,7 @@ items:
   source:
     id: Rad2Deg
     path: ''
-    startLine: 1960
+    startLine: 2726
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1661,7 +1661,7 @@ items:
   source:
     id: Sum
     path: ''
-    startLine: 1965
+    startLine: 2731
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1697,7 +1697,7 @@ items:
   source:
     id: Sinc
     path: ''
-    startLine: 1975
+    startLine: 2741
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths

@@ -19,7 +19,7 @@ items:
   source:
     id: SceneManager
     path: ''
-    startLine: 5506
+    startLine: 6798
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.SceneManagement
@@ -56,7 +56,7 @@ items:
   source:
     id: Instance
     path: ''
-    startLine: 5508
+    startLine: 6800
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.SceneManagement
@@ -85,7 +85,7 @@ items:
   source:
     id: ActiveScene
     path: ''
-    startLine: 5510
+    startLine: 6802
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.SceneManagement
@@ -112,7 +112,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 5512
+    startLine: 6804
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.SceneManagement
@@ -138,7 +138,7 @@ items:
   source:
     id: AddScene
     path: ''
-    startLine: 5518
+    startLine: 6810
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.SceneManagement

@@ -5,9 +5,12 @@ items:
   id: Particle
   parent: Engine.Core
   children:
-  - Engine.Core.Particle.#ctor(System.Boolean)
-  - Engine.Core.Particle.CheckPosition
+  - Engine.Core.Particle.#ctor(Vector3,System.Boolean)
+  - Engine.Core.Particle.Finalize
+  - Engine.Core.Particle.GetCollisions
+  - Engine.Core.Particle.Position
   - Engine.Core.Particle.SetPosition(Vector3)
+  - Engine.Core.Particle.Update
   langs:
   - csharp
   - vb
@@ -18,7 +21,7 @@ items:
   source:
     id: Particle
     path: ''
-    startLine: 433
+    startLine: 747
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core
@@ -27,6 +30,8 @@ items:
     content.vb: Public Class Particle
   inheritance:
   - System.Object
+  derivedClasses:
+  - Engine.Core.Physics.Optics.Photon
   inheritedMembers:
   - System.Object.ToString
   - System.Object.Equals(System.Object)
@@ -41,35 +46,94 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: Engine.Core.Particle.#ctor(System.Boolean)
-  commentId: M:Engine.Core.Particle.#ctor(System.Boolean)
-  id: '#ctor(System.Boolean)'
+- uid: Engine.Core.Particle.Position
+  commentId: P:Engine.Core.Particle.Position
+  id: Position
   parent: Engine.Core.Particle
   langs:
   - csharp
   - vb
-  name: Particle(Boolean)
-  nameWithType: Particle.Particle(Boolean)
-  fullName: Engine.Core.Particle.Particle(System.Boolean)
-  type: Constructor
+  name: Position
+  nameWithType: Particle.Position
+  fullName: Engine.Core.Particle.Position
+  type: Property
   source:
-    id: .ctor
+    id: Position
     path: ''
-    startLine: 437
+    startLine: 751
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core
   syntax:
-    content: public Particle(bool destroyOnHit = false)
+    content: public Vector3 Position { get; }
+    parameters: []
+    return:
+      type: Vector3
+    content.vb: Public ReadOnly Property Position As Vector3
+  overload: Engine.Core.Particle.Position*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Engine.Core.Particle.#ctor(Vector3,System.Boolean)
+  commentId: M:Engine.Core.Particle.#ctor(Vector3,System.Boolean)
+  id: '#ctor(Vector3,System.Boolean)'
+  parent: Engine.Core.Particle
+  langs:
+  - csharp
+  - vb
+  name: Particle(Vector3, Boolean)
+  nameWithType: Particle.Particle(Vector3, Boolean)
+  fullName: Engine.Core.Particle.Particle(Vector3, System.Boolean)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 755
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core
+  syntax:
+    content: public Particle(Vector3 position, bool eliminateOnHit = false)
     parameters:
-    - id: destroyOnHit
+    - id: position
+      type: Vector3
+    - id: eliminateOnHit
       type: System.Boolean
-    content.vb: Public Sub New(destroyOnHit As Boolean = False)
+    content.vb: Public Sub New(position As Vector3, eliminateOnHit As Boolean = False)
   overload: Engine.Core.Particle.#ctor*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
+- uid: Engine.Core.Particle.Finalize
+  commentId: M:Engine.Core.Particle.Finalize
+  id: Finalize
+  parent: Engine.Core.Particle
+  langs:
+  - csharp
+  - vb
+  name: Finalize()
+  nameWithType: Particle.Finalize()
+  fullName: Engine.Core.Particle.Finalize()
+  type: Method
+  source:
+    id: Finalize
+    path: ''
+    startLine: 763
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core
+  syntax:
+    content: protected void Finalize()
+    content.vb: Protected Sub Finalize
+  overload: Engine.Core.Particle.Finalize*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: Engine.Core.Particle.SetPosition(Vector3)
   commentId: M:Engine.Core.Particle.SetPosition(Vector3)
   id: SetPosition(Vector3)
@@ -84,7 +148,7 @@ items:
   source:
     id: SetPosition
     path: ''
-    startLine: 442
+    startLine: 768
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core
@@ -99,28 +163,56 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: Engine.Core.Particle.CheckPosition
-  commentId: M:Engine.Core.Particle.CheckPosition
-  id: CheckPosition
+- uid: Engine.Core.Particle.Update
+  commentId: M:Engine.Core.Particle.Update
+  id: Update
   parent: Engine.Core.Particle
   langs:
   - csharp
   - vb
-  name: CheckPosition()
-  nameWithType: Particle.CheckPosition()
-  fullName: Engine.Core.Particle.CheckPosition()
+  name: Update()
+  nameWithType: Particle.Update()
+  fullName: Engine.Core.Particle.Update()
   type: Method
   source:
-    id: CheckPosition
+    id: Update
     path: ''
-    startLine: 448
+    startLine: 774
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core
   syntax:
-    content: public void CheckPosition()
-    content.vb: Public Sub CheckPosition
-  overload: Engine.Core.Particle.CheckPosition*
+    content: public void Update()
+    content.vb: Public Sub Update
+  overload: Engine.Core.Particle.Update*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Particle.GetCollisions
+  commentId: M:Engine.Core.Particle.GetCollisions
+  id: GetCollisions
+  parent: Engine.Core.Particle
+  langs:
+  - csharp
+  - vb
+  name: GetCollisions()
+  nameWithType: Particle.GetCollisions()
+  fullName: Engine.Core.Particle.GetCollisions()
+  type: Method
+  source:
+    id: GetCollisions
+    path: ''
+    startLine: 817
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core
+  syntax:
+    content: public List<ParticleCollision3D> GetCollisions()
+    return:
+      type: System.Collections.Generic.List{ParticleCollision3D}
+    content.vb: Public Function GetCollisions As List(Of ParticleCollision3D)
+  overload: Engine.Core.Particle.GetCollisions*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -423,6 +515,16 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: Engine.Core.Particle.Position*
+  commentId: Overload:Engine.Core.Particle.Position
+  name: Position
+  nameWithType: Particle.Position
+  fullName: Engine.Core.Particle.Position
+- uid: Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
 - uid: Engine.Core.Particle.#ctor*
   commentId: Overload:Engine.Core.Particle.#ctor
   name: Particle
@@ -435,18 +537,112 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: Engine.Core.Particle.Finalize*
+  commentId: Overload:Engine.Core.Particle.Finalize
+  name: Finalize
+  nameWithType: Particle.Finalize
+  fullName: Engine.Core.Particle.Finalize
 - uid: Engine.Core.Particle.SetPosition*
   commentId: Overload:Engine.Core.Particle.SetPosition
   name: SetPosition
   nameWithType: Particle.SetPosition
   fullName: Engine.Core.Particle.SetPosition
-- uid: Vector3
+- uid: Engine.Core.Particle.Update*
+  commentId: Overload:Engine.Core.Particle.Update
+  name: Update
+  nameWithType: Particle.Update
+  fullName: Engine.Core.Particle.Update
+- uid: Engine.Core.Particle.GetCollisions*
+  commentId: Overload:Engine.Core.Particle.GetCollisions
+  name: GetCollisions
+  nameWithType: Particle.GetCollisions
+  fullName: Engine.Core.Particle.GetCollisions
+- uid: System.Collections.Generic.List{ParticleCollision3D}
+  commentId: T:System.Collections.Generic.List{ParticleCollision3D}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ParticleCollision3D>
+  nameWithType: List<ParticleCollision3D>
+  fullName: System.Collections.Generic.List<ParticleCollision3D>
+  nameWithType.vb: List(Of ParticleCollision3D)
+  fullName.vb: System.Collections.Generic.List(Of ParticleCollision3D)
+  name.vb: List(Of ParticleCollision3D)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: ParticleCollision3D
+    name: ParticleCollision3D
+    nameWithType: ParticleCollision3D
+    fullName: ParticleCollision3D
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: ParticleCollision3D
+    name: ParticleCollision3D
+    nameWithType: ParticleCollision3D
+    fullName: ParticleCollision3D
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  name: Vector3
-  nameWithType: Vector3
-  fullName: Vector3
-- uid: Engine.Core.Particle.CheckPosition*
-  commentId: Overload:Engine.Core.Particle.CheckPosition
-  name: CheckPosition
-  nameWithType: Particle.CheckPosition
-  fullName: Engine.Core.Particle.CheckPosition
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

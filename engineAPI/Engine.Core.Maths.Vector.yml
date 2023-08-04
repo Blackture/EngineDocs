@@ -49,7 +49,7 @@ items:
   source:
     id: Vector
     path: ''
-    startLine: 4191
+    startLine: 4957
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -93,7 +93,7 @@ items:
   source:
     id: this[]
     path: ''
-    startLine: 4201
+    startLine: 4967
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -129,7 +129,7 @@ items:
   source:
     id: Length
     path: ''
-    startLine: 4206
+    startLine: 4972
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -160,7 +160,7 @@ items:
   source:
     id: Dimension
     path: ''
-    startLine: 4207
+    startLine: 4973
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -191,7 +191,7 @@ items:
   source:
     id: LengthSquared
     path: ''
-    startLine: 4208
+    startLine: 4974
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -222,7 +222,7 @@ items:
   source:
     id: Normalized
     path: ''
-    startLine: 4209
+    startLine: 4975
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -253,7 +253,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 4211
+    startLine: 4977
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -285,7 +285,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 4215
+    startLine: 4981
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -317,7 +317,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 4220
+    startLine: 4986
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -346,7 +346,7 @@ items:
   source:
     id: Normalize
     path: ''
-    startLine: 4241
+    startLine: 5007
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -374,7 +374,7 @@ items:
   source:
     id: GetLength
     path: ''
-    startLine: 4263
+    startLine: 5029
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -402,7 +402,7 @@ items:
   source:
     id: IsDimensionEqual
     path: ''
-    startLine: 4284
+    startLine: 5050
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -435,7 +435,7 @@ items:
   source:
     id: SetValue
     path: ''
-    startLine: 4287
+    startLine: 5053
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -466,7 +466,7 @@ items:
   source:
     id: GetValue
     path: ''
-    startLine: 4295
+    startLine: 5061
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -497,7 +497,7 @@ items:
   source:
     id: AddValue
     path: ''
-    startLine: 4307
+    startLine: 5073
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -529,7 +529,7 @@ items:
   source:
     id: DotProduct
     path: ''
-    startLine: 4314
+    startLine: 5080
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -560,7 +560,7 @@ items:
   source:
     id: ScalarProduct
     path: ''
-    startLine: 4327
+    startLine: 5093
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -591,7 +591,7 @@ items:
   source:
     id: CrossProduct
     path: ''
-    startLine: 4336
+    startLine: 5102
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -622,7 +622,7 @@ items:
   source:
     id: Addition
     path: ''
-    startLine: 4364
+    startLine: 5130
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -653,7 +653,7 @@ items:
   source:
     id: Substraction
     path: ''
-    startLine: 4377
+    startLine: 5143
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -684,7 +684,7 @@ items:
   source:
     id: Division
     path: ''
-    startLine: 4390
+    startLine: 5156
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -715,7 +715,7 @@ items:
   source:
     id: Dot
     path: ''
-    startLine: 4400
+    startLine: 5166
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -750,7 +750,7 @@ items:
   source:
     id: Cross
     path: ''
-    startLine: 4404
+    startLine: 5170
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -785,7 +785,7 @@ items:
   source:
     id: Scalar
     path: ''
-    startLine: 4408
+    startLine: 5174
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -820,7 +820,7 @@ items:
   source:
     id: Addition
     path: ''
-    startLine: 4412
+    startLine: 5178
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -855,7 +855,7 @@ items:
   source:
     id: Substraction
     path: ''
-    startLine: 4416
+    startLine: 5182
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -890,7 +890,7 @@ items:
   source:
     id: Division
     path: ''
-    startLine: 4420
+    startLine: 5186
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -925,7 +925,7 @@ items:
   source:
     id: op_Addition
     path: ''
-    startLine: 4425
+    startLine: 5191
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -960,7 +960,7 @@ items:
   source:
     id: op_Subtraction
     path: ''
-    startLine: 4429
+    startLine: 5195
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -995,7 +995,7 @@ items:
   source:
     id: op_Multiply
     path: ''
-    startLine: 4433
+    startLine: 5199
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1030,7 +1030,7 @@ items:
   source:
     id: op_Multiply
     path: ''
-    startLine: 4437
+    startLine: 5203
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1065,7 +1065,7 @@ items:
   source:
     id: op_Multiply
     path: ''
-    startLine: 4441
+    startLine: 5207
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1100,7 +1100,7 @@ items:
   source:
     id: op_Division
     path: ''
-    startLine: 4445
+    startLine: 5211
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1135,7 +1135,7 @@ items:
   source:
     id: ToMatrix
     path: ''
-    startLine: 4454
+    startLine: 5220
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1173,7 +1173,7 @@ items:
   source:
     id: GetEnumerator
     path: ''
-    startLine: 4474
+    startLine: 5240
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths

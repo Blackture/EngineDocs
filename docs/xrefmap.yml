@@ -274,114 +274,127 @@ references:
   isSpec: "True"
   fullName: Engine.Core.Components.Camera.RenderPoint
   nameWithType: Camera.RenderPoint
-- uid: Engine.Core.Components.Edge
-  name: Edge
-  href: engineAPI/Engine.Core.Components.Edge.html
-  commentId: T:Engine.Core.Components.Edge
-  fullName: Engine.Core.Components.Edge
-  nameWithType: Edge
-- uid: Engine.Core.Components.Edge.#ctor(Engine.Core.Components.Vertex,Engine.Core.Components.Vertex,Engine.Core.Object3D)
-  name: Edge(Vertex, Vertex, Object3D)
-  href: engineAPI/Engine.Core.Components.Edge.html#Engine_Core_Components_Edge__ctor_Engine_Core_Components_Vertex_Engine_Core_Components_Vertex_Engine_Core_Object3D_
-  commentId: M:Engine.Core.Components.Edge.#ctor(Engine.Core.Components.Vertex,Engine.Core.Components.Vertex,Engine.Core.Object3D)
-  fullName: Engine.Core.Components.Edge.Edge(Engine.Core.Components.Vertex, Engine.Core.Components.Vertex, Engine.Core.Object3D)
-  nameWithType: Edge.Edge(Vertex, Vertex, Object3D)
-- uid: Engine.Core.Components.Edge.#ctor*
-  name: Edge
-  href: engineAPI/Engine.Core.Components.Edge.html#Engine_Core_Components_Edge__ctor_
-  commentId: Overload:Engine.Core.Components.Edge.#ctor
+- uid: Engine.Core.Components.Edge3D
+  name: Edge3D
+  href: engineAPI/Engine.Core.Components.Edge3D.html
+  commentId: T:Engine.Core.Components.Edge3D
+  fullName: Engine.Core.Components.Edge3D
+  nameWithType: Edge3D
+- uid: Engine.Core.Components.Edge3D.#ctor(Engine.Core.Components.Vertex3D,Engine.Core.Components.Vertex3D,Engine.Core.Object3D)
+  name: Edge3D(Vertex3D, Vertex3D, Object3D)
+  href: engineAPI/Engine.Core.Components.Edge3D.html#Engine_Core_Components_Edge3D__ctor_Engine_Core_Components_Vertex3D_Engine_Core_Components_Vertex3D_Engine_Core_Object3D_
+  commentId: M:Engine.Core.Components.Edge3D.#ctor(Engine.Core.Components.Vertex3D,Engine.Core.Components.Vertex3D,Engine.Core.Object3D)
+  fullName: Engine.Core.Components.Edge3D.Edge3D(Engine.Core.Components.Vertex3D, Engine.Core.Components.Vertex3D, Engine.Core.Object3D)
+  nameWithType: Edge3D.Edge3D(Vertex3D, Vertex3D, Object3D)
+- uid: Engine.Core.Components.Edge3D.#ctor*
+  name: Edge3D
+  href: engineAPI/Engine.Core.Components.Edge3D.html#Engine_Core_Components_Edge3D__ctor_
+  commentId: Overload:Engine.Core.Components.Edge3D.#ctor
   isSpec: "True"
-  fullName: Engine.Core.Components.Edge.Edge
-  nameWithType: Edge.Edge
-- uid: Engine.Core.Components.Edge.A
+  fullName: Engine.Core.Components.Edge3D.Edge3D
+  nameWithType: Edge3D.Edge3D
+- uid: Engine.Core.Components.Edge3D.A
   name: A
-  href: engineAPI/Engine.Core.Components.Edge.html#Engine_Core_Components_Edge_A
-  commentId: F:Engine.Core.Components.Edge.A
-  fullName: Engine.Core.Components.Edge.A
-  nameWithType: Edge.A
-- uid: Engine.Core.Components.Edge.B
+  href: engineAPI/Engine.Core.Components.Edge3D.html#Engine_Core_Components_Edge3D_A
+  commentId: F:Engine.Core.Components.Edge3D.A
+  fullName: Engine.Core.Components.Edge3D.A
+  nameWithType: Edge3D.A
+- uid: Engine.Core.Components.Edge3D.B
   name: B
-  href: engineAPI/Engine.Core.Components.Edge.html#Engine_Core_Components_Edge_B
-  commentId: F:Engine.Core.Components.Edge.B
-  fullName: Engine.Core.Components.Edge.B
-  nameWithType: Edge.B
-- uid: Engine.Core.Components.Edge.GetVertexOnEdge(System.Single)
+  href: engineAPI/Engine.Core.Components.Edge3D.html#Engine_Core_Components_Edge3D_B
+  commentId: F:Engine.Core.Components.Edge3D.B
+  fullName: Engine.Core.Components.Edge3D.B
+  nameWithType: Edge3D.B
+- uid: Engine.Core.Components.Edge3D.GetVertexOnEdge(System.Single)
   name: GetVertexOnEdge(Single)
-  href: engineAPI/Engine.Core.Components.Edge.html#Engine_Core_Components_Edge_GetVertexOnEdge_System_Single_
-  commentId: M:Engine.Core.Components.Edge.GetVertexOnEdge(System.Single)
-  fullName: Engine.Core.Components.Edge.GetVertexOnEdge(System.Single)
-  nameWithType: Edge.GetVertexOnEdge(Single)
-- uid: Engine.Core.Components.Edge.GetVertexOnEdge*
+  href: engineAPI/Engine.Core.Components.Edge3D.html#Engine_Core_Components_Edge3D_GetVertexOnEdge_System_Single_
+  commentId: M:Engine.Core.Components.Edge3D.GetVertexOnEdge(System.Single)
+  fullName: Engine.Core.Components.Edge3D.GetVertexOnEdge(System.Single)
+  nameWithType: Edge3D.GetVertexOnEdge(Single)
+- uid: Engine.Core.Components.Edge3D.GetVertexOnEdge*
   name: GetVertexOnEdge
-  href: engineAPI/Engine.Core.Components.Edge.html#Engine_Core_Components_Edge_GetVertexOnEdge_
-  commentId: Overload:Engine.Core.Components.Edge.GetVertexOnEdge
+  href: engineAPI/Engine.Core.Components.Edge3D.html#Engine_Core_Components_Edge3D_GetVertexOnEdge_
+  commentId: Overload:Engine.Core.Components.Edge3D.GetVertexOnEdge
   isSpec: "True"
-  fullName: Engine.Core.Components.Edge.GetVertexOnEdge
-  nameWithType: Edge.GetVertexOnEdge
-- uid: Engine.Core.Components.Face
-  name: Face
-  href: engineAPI/Engine.Core.Components.Face.html
-  commentId: T:Engine.Core.Components.Face
-  fullName: Engine.Core.Components.Face
-  nameWithType: Face
-- uid: Engine.Core.Components.Face.#ctor(Engine.Core.Components.Vertex[],Engine.Core.Components.Edge[],Engine.Core.Object3D)
-  name: Face(Vertex[], Edge[], Object3D)
-  href: engineAPI/Engine.Core.Components.Face.html#Engine_Core_Components_Face__ctor_Engine_Core_Components_Vertex___Engine_Core_Components_Edge___Engine_Core_Object3D_
-  commentId: M:Engine.Core.Components.Face.#ctor(Engine.Core.Components.Vertex[],Engine.Core.Components.Edge[],Engine.Core.Object3D)
-  name.vb: Face(Vertex(), Edge(), Object3D)
-  fullName: Engine.Core.Components.Face.Face(Engine.Core.Components.Vertex[], Engine.Core.Components.Edge[], Engine.Core.Object3D)
-  fullName.vb: Engine.Core.Components.Face.Face(Engine.Core.Components.Vertex(), Engine.Core.Components.Edge(), Engine.Core.Object3D)
-  nameWithType: Face.Face(Vertex[], Edge[], Object3D)
-  nameWithType.vb: Face.Face(Vertex(), Edge(), Object3D)
-- uid: Engine.Core.Components.Face.#ctor*
-  name: Face
-  href: engineAPI/Engine.Core.Components.Face.html#Engine_Core_Components_Face__ctor_
-  commentId: Overload:Engine.Core.Components.Face.#ctor
+  fullName: Engine.Core.Components.Edge3D.GetVertexOnEdge
+  nameWithType: Edge3D.GetVertexOnEdge
+- uid: Engine.Core.Components.Face3D
+  name: Face3D
+  href: engineAPI/Engine.Core.Components.Face3D.html
+  commentId: T:Engine.Core.Components.Face3D
+  fullName: Engine.Core.Components.Face3D
+  nameWithType: Face3D
+- uid: Engine.Core.Components.Face3D.#ctor(Engine.Core.Components.Vertex3D[],Engine.Core.Components.Edge3D[],Engine.Core.Object3D)
+  name: Face3D(Vertex3D[], Edge3D[], Object3D)
+  href: engineAPI/Engine.Core.Components.Face3D.html#Engine_Core_Components_Face3D__ctor_Engine_Core_Components_Vertex3D___Engine_Core_Components_Edge3D___Engine_Core_Object3D_
+  commentId: M:Engine.Core.Components.Face3D.#ctor(Engine.Core.Components.Vertex3D[],Engine.Core.Components.Edge3D[],Engine.Core.Object3D)
+  name.vb: Face3D(Vertex3D(), Edge3D(), Object3D)
+  fullName: Engine.Core.Components.Face3D.Face3D(Engine.Core.Components.Vertex3D[], Engine.Core.Components.Edge3D[], Engine.Core.Object3D)
+  fullName.vb: Engine.Core.Components.Face3D.Face3D(Engine.Core.Components.Vertex3D(), Engine.Core.Components.Edge3D(), Engine.Core.Object3D)
+  nameWithType: Face3D.Face3D(Vertex3D[], Edge3D[], Object3D)
+  nameWithType.vb: Face3D.Face3D(Vertex3D(), Edge3D(), Object3D)
+- uid: Engine.Core.Components.Face3D.#ctor*
+  name: Face3D
+  href: engineAPI/Engine.Core.Components.Face3D.html#Engine_Core_Components_Face3D__ctor_
+  commentId: Overload:Engine.Core.Components.Face3D.#ctor
   isSpec: "True"
-  fullName: Engine.Core.Components.Face.Face
-  nameWithType: Face.Face
-- uid: Engine.Core.Components.Face.GetVertexOnFace(System.Single,System.Single)
+  fullName: Engine.Core.Components.Face3D.Face3D
+  nameWithType: Face3D.Face3D
+- uid: Engine.Core.Components.Face3D.Contains(Vector3)
+  name: Contains(Vector3)
+  href: engineAPI/Engine.Core.Components.Face3D.html#Engine_Core_Components_Face3D_Contains_Vector3_
+  commentId: M:Engine.Core.Components.Face3D.Contains(Vector3)
+  fullName: Engine.Core.Components.Face3D.Contains(Vector3)
+  nameWithType: Face3D.Contains(Vector3)
+- uid: Engine.Core.Components.Face3D.Contains*
+  name: Contains
+  href: engineAPI/Engine.Core.Components.Face3D.html#Engine_Core_Components_Face3D_Contains_
+  commentId: Overload:Engine.Core.Components.Face3D.Contains
+  isSpec: "True"
+  fullName: Engine.Core.Components.Face3D.Contains
+  nameWithType: Face3D.Contains
+- uid: Engine.Core.Components.Face3D.GetVertexOnFace(System.Single,System.Single)
   name: GetVertexOnFace(Single, Single)
-  href: engineAPI/Engine.Core.Components.Face.html#Engine_Core_Components_Face_GetVertexOnFace_System_Single_System_Single_
-  commentId: M:Engine.Core.Components.Face.GetVertexOnFace(System.Single,System.Single)
-  fullName: Engine.Core.Components.Face.GetVertexOnFace(System.Single, System.Single)
-  nameWithType: Face.GetVertexOnFace(Single, Single)
-- uid: Engine.Core.Components.Face.GetVertexOnFace*
+  href: engineAPI/Engine.Core.Components.Face3D.html#Engine_Core_Components_Face3D_GetVertexOnFace_System_Single_System_Single_
+  commentId: M:Engine.Core.Components.Face3D.GetVertexOnFace(System.Single,System.Single)
+  fullName: Engine.Core.Components.Face3D.GetVertexOnFace(System.Single, System.Single)
+  nameWithType: Face3D.GetVertexOnFace(Single, Single)
+- uid: Engine.Core.Components.Face3D.GetVertexOnFace*
   name: GetVertexOnFace
-  href: engineAPI/Engine.Core.Components.Face.html#Engine_Core_Components_Face_GetVertexOnFace_
-  commentId: Overload:Engine.Core.Components.Face.GetVertexOnFace
+  href: engineAPI/Engine.Core.Components.Face3D.html#Engine_Core_Components_Face3D_GetVertexOnFace_
+  commentId: Overload:Engine.Core.Components.Face3D.GetVertexOnFace
   isSpec: "True"
-  fullName: Engine.Core.Components.Face.GetVertexOnFace
-  nameWithType: Face.GetVertexOnFace
-- uid: Engine.Core.Components.Face.NormalVector
+  fullName: Engine.Core.Components.Face3D.GetVertexOnFace
+  nameWithType: Face3D.GetVertexOnFace
+- uid: Engine.Core.Components.Face3D.NormalVector
   name: NormalVector
-  href: engineAPI/Engine.Core.Components.Face.html#Engine_Core_Components_Face_NormalVector
-  commentId: P:Engine.Core.Components.Face.NormalVector
-  fullName: Engine.Core.Components.Face.NormalVector
-  nameWithType: Face.NormalVector
-- uid: Engine.Core.Components.Face.NormalVector*
+  href: engineAPI/Engine.Core.Components.Face3D.html#Engine_Core_Components_Face3D_NormalVector
+  commentId: P:Engine.Core.Components.Face3D.NormalVector
+  fullName: Engine.Core.Components.Face3D.NormalVector
+  nameWithType: Face3D.NormalVector
+- uid: Engine.Core.Components.Face3D.NormalVector*
   name: NormalVector
-  href: engineAPI/Engine.Core.Components.Face.html#Engine_Core_Components_Face_NormalVector_
-  commentId: Overload:Engine.Core.Components.Face.NormalVector
+  href: engineAPI/Engine.Core.Components.Face3D.html#Engine_Core_Components_Face3D_NormalVector_
+  commentId: Overload:Engine.Core.Components.Face3D.NormalVector
   isSpec: "True"
-  fullName: Engine.Core.Components.Face.NormalVector
-  nameWithType: Face.NormalVector
-- uid: Engine.Core.Components.Face.SetFace(Engine.Core.Components.Vertex[],Engine.Core.Components.Edge[])
-  name: SetFace(Vertex[], Edge[])
-  href: engineAPI/Engine.Core.Components.Face.html#Engine_Core_Components_Face_SetFace_Engine_Core_Components_Vertex___Engine_Core_Components_Edge___
-  commentId: M:Engine.Core.Components.Face.SetFace(Engine.Core.Components.Vertex[],Engine.Core.Components.Edge[])
-  name.vb: SetFace(Vertex(), Edge())
-  fullName: Engine.Core.Components.Face.SetFace(Engine.Core.Components.Vertex[], Engine.Core.Components.Edge[])
-  fullName.vb: Engine.Core.Components.Face.SetFace(Engine.Core.Components.Vertex(), Engine.Core.Components.Edge())
-  nameWithType: Face.SetFace(Vertex[], Edge[])
-  nameWithType.vb: Face.SetFace(Vertex(), Edge())
-- uid: Engine.Core.Components.Face.SetFace*
+  fullName: Engine.Core.Components.Face3D.NormalVector
+  nameWithType: Face3D.NormalVector
+- uid: Engine.Core.Components.Face3D.SetFace(Engine.Core.Components.Vertex3D[],Engine.Core.Components.Edge3D[])
+  name: SetFace(Vertex3D[], Edge3D[])
+  href: engineAPI/Engine.Core.Components.Face3D.html#Engine_Core_Components_Face3D_SetFace_Engine_Core_Components_Vertex3D___Engine_Core_Components_Edge3D___
+  commentId: M:Engine.Core.Components.Face3D.SetFace(Engine.Core.Components.Vertex3D[],Engine.Core.Components.Edge3D[])
+  name.vb: SetFace(Vertex3D(), Edge3D())
+  fullName: Engine.Core.Components.Face3D.SetFace(Engine.Core.Components.Vertex3D[], Engine.Core.Components.Edge3D[])
+  fullName.vb: Engine.Core.Components.Face3D.SetFace(Engine.Core.Components.Vertex3D(), Engine.Core.Components.Edge3D())
+  nameWithType: Face3D.SetFace(Vertex3D[], Edge3D[])
+  nameWithType.vb: Face3D.SetFace(Vertex3D(), Edge3D())
+- uid: Engine.Core.Components.Face3D.SetFace*
   name: SetFace
-  href: engineAPI/Engine.Core.Components.Face.html#Engine_Core_Components_Face_SetFace_
-  commentId: Overload:Engine.Core.Components.Face.SetFace
+  href: engineAPI/Engine.Core.Components.Face3D.html#Engine_Core_Components_Face3D_SetFace_
+  commentId: Overload:Engine.Core.Components.Face3D.SetFace
   isSpec: "True"
-  fullName: Engine.Core.Components.Face.SetFace
-  nameWithType: Face.SetFace
+  fullName: Engine.Core.Components.Face3D.SetFace
+  nameWithType: Face3D.SetFace
 - uid: Engine.Core.Components.LCS3
   name: LCS3
   href: engineAPI/Engine.Core.Components.LCS3.html
@@ -420,19 +433,19 @@ references:
   isSpec: "True"
   fullName: Engine.Core.Components.LCS3.AxisToGlobalUnitVectors
   nameWithType: LCS3.AxisToGlobalUnitVectors
-- uid: Engine.Core.Components.LCS3.CalculateGlobals
-  name: CalculateGlobals()
-  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_CalculateGlobals
-  commentId: M:Engine.Core.Components.LCS3.CalculateGlobals
-  fullName: Engine.Core.Components.LCS3.CalculateGlobals()
-  nameWithType: LCS3.CalculateGlobals()
-- uid: Engine.Core.Components.LCS3.CalculateGlobals*
-  name: CalculateGlobals
-  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_CalculateGlobals_
-  commentId: Overload:Engine.Core.Components.LCS3.CalculateGlobals
+- uid: Engine.Core.Components.LCS3.ChildCount
+  name: ChildCount
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_ChildCount
+  commentId: P:Engine.Core.Components.LCS3.ChildCount
+  fullName: Engine.Core.Components.LCS3.ChildCount
+  nameWithType: LCS3.ChildCount
+- uid: Engine.Core.Components.LCS3.ChildCount*
+  name: ChildCount
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_ChildCount_
+  commentId: Overload:Engine.Core.Components.LCS3.ChildCount
   isSpec: "True"
-  fullName: Engine.Core.Components.LCS3.CalculateGlobals
-  nameWithType: LCS3.CalculateGlobals
+  fullName: Engine.Core.Components.LCS3.ChildCount
+  nameWithType: LCS3.ChildCount
 - uid: Engine.Core.Components.LCS3.children
   name: children
   href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_children
@@ -549,6 +562,19 @@ references:
   isSpec: "True"
   fullName: Engine.Core.Components.LCS3.GlobalScale
   nameWithType: LCS3.GlobalScale
+- uid: Engine.Core.Components.LCS3.HasChild
+  name: HasChild
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_HasChild
+  commentId: P:Engine.Core.Components.LCS3.HasChild
+  fullName: Engine.Core.Components.LCS3.HasChild
+  nameWithType: LCS3.HasChild
+- uid: Engine.Core.Components.LCS3.HasChild*
+  name: HasChild
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_HasChild_
+  commentId: Overload:Engine.Core.Components.LCS3.HasChild
+  isSpec: "True"
+  fullName: Engine.Core.Components.LCS3.HasChild
+  nameWithType: LCS3.HasChild
 - uid: Engine.Core.Components.LCS3.LocalPosition
   name: LocalPosition
   href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_LocalPosition
@@ -601,6 +627,19 @@ references:
   isSpec: "True"
   fullName: Engine.Core.Components.LCS3.MoveNext
   nameWithType: LCS3.MoveNext
+- uid: Engine.Core.Components.LCS3.Parent
+  name: Parent
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_Parent
+  commentId: P:Engine.Core.Components.LCS3.Parent
+  fullName: Engine.Core.Components.LCS3.Parent
+  nameWithType: LCS3.Parent
+- uid: Engine.Core.Components.LCS3.Parent*
+  name: Parent
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_Parent_
+  commentId: Overload:Engine.Core.Components.LCS3.Parent
+  isSpec: "True"
+  fullName: Engine.Core.Components.LCS3.Parent
+  nameWithType: LCS3.Parent
 - uid: Engine.Core.Components.LCS3.Reset
   name: Reset()
   href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_Reset
@@ -614,306 +653,754 @@ references:
   isSpec: "True"
   fullName: Engine.Core.Components.LCS3.Reset
   nameWithType: LCS3.Reset
-- uid: Engine.Core.Components.Mesh
-  name: Mesh
-  href: engineAPI/Engine.Core.Components.Mesh.html
-  commentId: T:Engine.Core.Components.Mesh
-  fullName: Engine.Core.Components.Mesh
-  nameWithType: Mesh
-- uid: Engine.Core.Components.Mesh.#ctor(Engine.Core.Object3D)
-  name: Mesh(Object3D)
-  href: engineAPI/Engine.Core.Components.Mesh.html#Engine_Core_Components_Mesh__ctor_Engine_Core_Object3D_
-  commentId: M:Engine.Core.Components.Mesh.#ctor(Engine.Core.Object3D)
-  fullName: Engine.Core.Components.Mesh.Mesh(Engine.Core.Object3D)
-  nameWithType: Mesh.Mesh(Object3D)
-- uid: Engine.Core.Components.Mesh.#ctor(System.Collections.Generic.List{Engine.Core.Components.Vertex},System.Collections.Generic.List{Engine.Core.Components.Edge},System.Collections.Generic.List{Engine.Core.Components.Face},Engine.Core.Object3D)
-  name: Mesh(List<Vertex>, List<Edge>, List<Face>, Object3D)
-  href: engineAPI/Engine.Core.Components.Mesh.html#Engine_Core_Components_Mesh__ctor_System_Collections_Generic_List_Engine_Core_Components_Vertex__System_Collections_Generic_List_Engine_Core_Components_Edge__System_Collections_Generic_List_Engine_Core_Components_Face__Engine_Core_Object3D_
-  commentId: M:Engine.Core.Components.Mesh.#ctor(System.Collections.Generic.List{Engine.Core.Components.Vertex},System.Collections.Generic.List{Engine.Core.Components.Edge},System.Collections.Generic.List{Engine.Core.Components.Face},Engine.Core.Object3D)
-  name.vb: Mesh(List(Of Vertex), List(Of Edge), List(Of Face), Object3D)
-  fullName: Engine.Core.Components.Mesh.Mesh(System.Collections.Generic.List<Engine.Core.Components.Vertex>, System.Collections.Generic.List<Engine.Core.Components.Edge>, System.Collections.Generic.List<Engine.Core.Components.Face>, Engine.Core.Object3D)
-  fullName.vb: Engine.Core.Components.Mesh.Mesh(System.Collections.Generic.List(Of Engine.Core.Components.Vertex), System.Collections.Generic.List(Of Engine.Core.Components.Edge), System.Collections.Generic.List(Of Engine.Core.Components.Face), Engine.Core.Object3D)
-  nameWithType: Mesh.Mesh(List<Vertex>, List<Edge>, List<Face>, Object3D)
-  nameWithType.vb: Mesh.Mesh(List(Of Vertex), List(Of Edge), List(Of Face), Object3D)
-- uid: Engine.Core.Components.Mesh.#ctor*
-  name: Mesh
-  href: engineAPI/Engine.Core.Components.Mesh.html#Engine_Core_Components_Mesh__ctor_
-  commentId: Overload:Engine.Core.Components.Mesh.#ctor
+- uid: Engine.Core.Components.LCS3.ToLocalPositionVector(Vector3)
+  name: ToLocalPositionVector(Vector3)
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_ToLocalPositionVector_Vector3_
+  commentId: M:Engine.Core.Components.LCS3.ToLocalPositionVector(Vector3)
+  fullName: Engine.Core.Components.LCS3.ToLocalPositionVector(Vector3)
+  nameWithType: LCS3.ToLocalPositionVector(Vector3)
+- uid: Engine.Core.Components.LCS3.ToLocalPositionVector*
+  name: ToLocalPositionVector
+  href: engineAPI/Engine.Core.Components.LCS3.html#Engine_Core_Components_LCS3_ToLocalPositionVector_
+  commentId: Overload:Engine.Core.Components.LCS3.ToLocalPositionVector
   isSpec: "True"
-  fullName: Engine.Core.Components.Mesh.Mesh
-  nameWithType: Mesh.Mesh
-- uid: Engine.Core.Components.Mesh.AddEdge(Engine.Core.Components.Edge)
-  name: AddEdge(Edge)
-  href: engineAPI/Engine.Core.Components.Mesh.html#Engine_Core_Components_Mesh_AddEdge_Engine_Core_Components_Edge_
-  commentId: M:Engine.Core.Components.Mesh.AddEdge(Engine.Core.Components.Edge)
-  fullName: Engine.Core.Components.Mesh.AddEdge(Engine.Core.Components.Edge)
-  nameWithType: Mesh.AddEdge(Edge)
-- uid: Engine.Core.Components.Mesh.AddEdge(Engine.Core.Components.Vertex,Engine.Core.Components.Vertex)
-  name: AddEdge(Vertex, Vertex)
-  href: engineAPI/Engine.Core.Components.Mesh.html#Engine_Core_Components_Mesh_AddEdge_Engine_Core_Components_Vertex_Engine_Core_Components_Vertex_
-  commentId: M:Engine.Core.Components.Mesh.AddEdge(Engine.Core.Components.Vertex,Engine.Core.Components.Vertex)
-  fullName: Engine.Core.Components.Mesh.AddEdge(Engine.Core.Components.Vertex, Engine.Core.Components.Vertex)
-  nameWithType: Mesh.AddEdge(Vertex, Vertex)
-- uid: Engine.Core.Components.Mesh.AddEdge(Engine.Core.Components.Vertex[])
-  name: AddEdge(Vertex[])
-  href: engineAPI/Engine.Core.Components.Mesh.html#Engine_Core_Components_Mesh_AddEdge_Engine_Core_Components_Vertex___
-  commentId: M:Engine.Core.Components.Mesh.AddEdge(Engine.Core.Components.Vertex[])
-  name.vb: AddEdge(Vertex())
-  fullName: Engine.Core.Components.Mesh.AddEdge(Engine.Core.Components.Vertex[])
-  fullName.vb: Engine.Core.Components.Mesh.AddEdge(Engine.Core.Components.Vertex())
-  nameWithType: Mesh.AddEdge(Vertex[])
-  nameWithType.vb: Mesh.AddEdge(Vertex())
-- uid: Engine.Core.Components.Mesh.AddEdge*
+  fullName: Engine.Core.Components.LCS3.ToLocalPositionVector
+  nameWithType: LCS3.ToLocalPositionVector
+- uid: Engine.Core.Components.Mesh3D
+  name: Mesh3D
+  href: engineAPI/Engine.Core.Components.Mesh3D.html
+  commentId: T:Engine.Core.Components.Mesh3D
+  fullName: Engine.Core.Components.Mesh3D
+  nameWithType: Mesh3D
+- uid: Engine.Core.Components.Mesh3D.#ctor(Engine.Core.Object3D)
+  name: Mesh3D(Object3D)
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D__ctor_Engine_Core_Object3D_
+  commentId: M:Engine.Core.Components.Mesh3D.#ctor(Engine.Core.Object3D)
+  fullName: Engine.Core.Components.Mesh3D.Mesh3D(Engine.Core.Object3D)
+  nameWithType: Mesh3D.Mesh3D(Object3D)
+- uid: Engine.Core.Components.Mesh3D.#ctor(System.Collections.Generic.List{Engine.Core.Components.Vertex3D},System.Collections.Generic.List{Engine.Core.Components.Edge3D},System.Collections.Generic.List{Engine.Core.Components.Face3D},Engine.Core.Object3D)
+  name: Mesh3D(List<Vertex3D>, List<Edge3D>, List<Face3D>, Object3D)
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D__ctor_System_Collections_Generic_List_Engine_Core_Components_Vertex3D__System_Collections_Generic_List_Engine_Core_Components_Edge3D__System_Collections_Generic_List_Engine_Core_Components_Face3D__Engine_Core_Object3D_
+  commentId: M:Engine.Core.Components.Mesh3D.#ctor(System.Collections.Generic.List{Engine.Core.Components.Vertex3D},System.Collections.Generic.List{Engine.Core.Components.Edge3D},System.Collections.Generic.List{Engine.Core.Components.Face3D},Engine.Core.Object3D)
+  name.vb: Mesh3D(List(Of Vertex3D), List(Of Edge3D), List(Of Face3D), Object3D)
+  fullName: Engine.Core.Components.Mesh3D.Mesh3D(System.Collections.Generic.List<Engine.Core.Components.Vertex3D>, System.Collections.Generic.List<Engine.Core.Components.Edge3D>, System.Collections.Generic.List<Engine.Core.Components.Face3D>, Engine.Core.Object3D)
+  fullName.vb: Engine.Core.Components.Mesh3D.Mesh3D(System.Collections.Generic.List(Of Engine.Core.Components.Vertex3D), System.Collections.Generic.List(Of Engine.Core.Components.Edge3D), System.Collections.Generic.List(Of Engine.Core.Components.Face3D), Engine.Core.Object3D)
+  nameWithType: Mesh3D.Mesh3D(List<Vertex3D>, List<Edge3D>, List<Face3D>, Object3D)
+  nameWithType.vb: Mesh3D.Mesh3D(List(Of Vertex3D), List(Of Edge3D), List(Of Face3D), Object3D)
+- uid: Engine.Core.Components.Mesh3D.#ctor*
+  name: Mesh3D
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D__ctor_
+  commentId: Overload:Engine.Core.Components.Mesh3D.#ctor
+  isSpec: "True"
+  fullName: Engine.Core.Components.Mesh3D.Mesh3D
+  nameWithType: Mesh3D.Mesh3D
+- uid: Engine.Core.Components.Mesh3D.AddEdge(Engine.Core.Components.Edge3D)
+  name: AddEdge(Edge3D)
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D_AddEdge_Engine_Core_Components_Edge3D_
+  commentId: M:Engine.Core.Components.Mesh3D.AddEdge(Engine.Core.Components.Edge3D)
+  fullName: Engine.Core.Components.Mesh3D.AddEdge(Engine.Core.Components.Edge3D)
+  nameWithType: Mesh3D.AddEdge(Edge3D)
+- uid: Engine.Core.Components.Mesh3D.AddEdge(Engine.Core.Components.Vertex3D,Engine.Core.Components.Vertex3D)
+  name: AddEdge(Vertex3D, Vertex3D)
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D_AddEdge_Engine_Core_Components_Vertex3D_Engine_Core_Components_Vertex3D_
+  commentId: M:Engine.Core.Components.Mesh3D.AddEdge(Engine.Core.Components.Vertex3D,Engine.Core.Components.Vertex3D)
+  fullName: Engine.Core.Components.Mesh3D.AddEdge(Engine.Core.Components.Vertex3D, Engine.Core.Components.Vertex3D)
+  nameWithType: Mesh3D.AddEdge(Vertex3D, Vertex3D)
+- uid: Engine.Core.Components.Mesh3D.AddEdge(Engine.Core.Components.Vertex3D[])
+  name: AddEdge(Vertex3D[])
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D_AddEdge_Engine_Core_Components_Vertex3D___
+  commentId: M:Engine.Core.Components.Mesh3D.AddEdge(Engine.Core.Components.Vertex3D[])
+  name.vb: AddEdge(Vertex3D())
+  fullName: Engine.Core.Components.Mesh3D.AddEdge(Engine.Core.Components.Vertex3D[])
+  fullName.vb: Engine.Core.Components.Mesh3D.AddEdge(Engine.Core.Components.Vertex3D())
+  nameWithType: Mesh3D.AddEdge(Vertex3D[])
+  nameWithType.vb: Mesh3D.AddEdge(Vertex3D())
+- uid: Engine.Core.Components.Mesh3D.AddEdge*
   name: AddEdge
-  href: engineAPI/Engine.Core.Components.Mesh.html#Engine_Core_Components_Mesh_AddEdge_
-  commentId: Overload:Engine.Core.Components.Mesh.AddEdge
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D_AddEdge_
+  commentId: Overload:Engine.Core.Components.Mesh3D.AddEdge
   isSpec: "True"
-  fullName: Engine.Core.Components.Mesh.AddEdge
-  nameWithType: Mesh.AddEdge
-- uid: Engine.Core.Components.Mesh.AddFace(Engine.Core.Components.Face)
-  name: AddFace(Face)
-  href: engineAPI/Engine.Core.Components.Mesh.html#Engine_Core_Components_Mesh_AddFace_Engine_Core_Components_Face_
-  commentId: M:Engine.Core.Components.Mesh.AddFace(Engine.Core.Components.Face)
-  fullName: Engine.Core.Components.Mesh.AddFace(Engine.Core.Components.Face)
-  nameWithType: Mesh.AddFace(Face)
-- uid: Engine.Core.Components.Mesh.AddFace(Engine.Core.Components.Vertex[])
-  name: AddFace(Vertex[])
-  href: engineAPI/Engine.Core.Components.Mesh.html#Engine_Core_Components_Mesh_AddFace_Engine_Core_Components_Vertex___
-  commentId: M:Engine.Core.Components.Mesh.AddFace(Engine.Core.Components.Vertex[])
-  name.vb: AddFace(Vertex())
-  fullName: Engine.Core.Components.Mesh.AddFace(Engine.Core.Components.Vertex[])
-  fullName.vb: Engine.Core.Components.Mesh.AddFace(Engine.Core.Components.Vertex())
-  nameWithType: Mesh.AddFace(Vertex[])
-  nameWithType.vb: Mesh.AddFace(Vertex())
-- uid: Engine.Core.Components.Mesh.AddFace(Engine.Core.Components.Vertex[],Engine.Core.Components.Edge[])
-  name: AddFace(Vertex[], Edge[])
-  href: engineAPI/Engine.Core.Components.Mesh.html#Engine_Core_Components_Mesh_AddFace_Engine_Core_Components_Vertex___Engine_Core_Components_Edge___
-  commentId: M:Engine.Core.Components.Mesh.AddFace(Engine.Core.Components.Vertex[],Engine.Core.Components.Edge[])
-  name.vb: AddFace(Vertex(), Edge())
-  fullName: Engine.Core.Components.Mesh.AddFace(Engine.Core.Components.Vertex[], Engine.Core.Components.Edge[])
-  fullName.vb: Engine.Core.Components.Mesh.AddFace(Engine.Core.Components.Vertex(), Engine.Core.Components.Edge())
-  nameWithType: Mesh.AddFace(Vertex[], Edge[])
-  nameWithType.vb: Mesh.AddFace(Vertex(), Edge())
-- uid: Engine.Core.Components.Mesh.AddFace*
+  fullName: Engine.Core.Components.Mesh3D.AddEdge
+  nameWithType: Mesh3D.AddEdge
+- uid: Engine.Core.Components.Mesh3D.AddFace(Engine.Core.Components.Face3D)
+  name: AddFace(Face3D)
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D_AddFace_Engine_Core_Components_Face3D_
+  commentId: M:Engine.Core.Components.Mesh3D.AddFace(Engine.Core.Components.Face3D)
+  fullName: Engine.Core.Components.Mesh3D.AddFace(Engine.Core.Components.Face3D)
+  nameWithType: Mesh3D.AddFace(Face3D)
+- uid: Engine.Core.Components.Mesh3D.AddFace(Engine.Core.Components.Vertex3D[])
+  name: AddFace(Vertex3D[])
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D_AddFace_Engine_Core_Components_Vertex3D___
+  commentId: M:Engine.Core.Components.Mesh3D.AddFace(Engine.Core.Components.Vertex3D[])
+  name.vb: AddFace(Vertex3D())
+  fullName: Engine.Core.Components.Mesh3D.AddFace(Engine.Core.Components.Vertex3D[])
+  fullName.vb: Engine.Core.Components.Mesh3D.AddFace(Engine.Core.Components.Vertex3D())
+  nameWithType: Mesh3D.AddFace(Vertex3D[])
+  nameWithType.vb: Mesh3D.AddFace(Vertex3D())
+- uid: Engine.Core.Components.Mesh3D.AddFace(Engine.Core.Components.Vertex3D[],Engine.Core.Components.Edge3D[])
+  name: AddFace(Vertex3D[], Edge3D[])
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D_AddFace_Engine_Core_Components_Vertex3D___Engine_Core_Components_Edge3D___
+  commentId: M:Engine.Core.Components.Mesh3D.AddFace(Engine.Core.Components.Vertex3D[],Engine.Core.Components.Edge3D[])
+  name.vb: AddFace(Vertex3D(), Edge3D())
+  fullName: Engine.Core.Components.Mesh3D.AddFace(Engine.Core.Components.Vertex3D[], Engine.Core.Components.Edge3D[])
+  fullName.vb: Engine.Core.Components.Mesh3D.AddFace(Engine.Core.Components.Vertex3D(), Engine.Core.Components.Edge3D())
+  nameWithType: Mesh3D.AddFace(Vertex3D[], Edge3D[])
+  nameWithType.vb: Mesh3D.AddFace(Vertex3D(), Edge3D())
+- uid: Engine.Core.Components.Mesh3D.AddFace*
   name: AddFace
-  href: engineAPI/Engine.Core.Components.Mesh.html#Engine_Core_Components_Mesh_AddFace_
-  commentId: Overload:Engine.Core.Components.Mesh.AddFace
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D_AddFace_
+  commentId: Overload:Engine.Core.Components.Mesh3D.AddFace
   isSpec: "True"
-  fullName: Engine.Core.Components.Mesh.AddFace
-  nameWithType: Mesh.AddFace
-- uid: Engine.Core.Components.Mesh.AddVertex(Engine.Core.Components.Vertex)
-  name: AddVertex(Vertex)
-  href: engineAPI/Engine.Core.Components.Mesh.html#Engine_Core_Components_Mesh_AddVertex_Engine_Core_Components_Vertex_
-  commentId: M:Engine.Core.Components.Mesh.AddVertex(Engine.Core.Components.Vertex)
-  fullName: Engine.Core.Components.Mesh.AddVertex(Engine.Core.Components.Vertex)
-  nameWithType: Mesh.AddVertex(Vertex)
-- uid: Engine.Core.Components.Mesh.AddVertex*
+  fullName: Engine.Core.Components.Mesh3D.AddFace
+  nameWithType: Mesh3D.AddFace
+- uid: Engine.Core.Components.Mesh3D.AddVertex(Engine.Core.Components.Vertex3D)
+  name: AddVertex(Vertex3D)
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D_AddVertex_Engine_Core_Components_Vertex3D_
+  commentId: M:Engine.Core.Components.Mesh3D.AddVertex(Engine.Core.Components.Vertex3D)
+  fullName: Engine.Core.Components.Mesh3D.AddVertex(Engine.Core.Components.Vertex3D)
+  nameWithType: Mesh3D.AddVertex(Vertex3D)
+- uid: Engine.Core.Components.Mesh3D.AddVertex*
   name: AddVertex
-  href: engineAPI/Engine.Core.Components.Mesh.html#Engine_Core_Components_Mesh_AddVertex_
-  commentId: Overload:Engine.Core.Components.Mesh.AddVertex
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D_AddVertex_
+  commentId: Overload:Engine.Core.Components.Mesh3D.AddVertex
   isSpec: "True"
-  fullName: Engine.Core.Components.Mesh.AddVertex
-  nameWithType: Mesh.AddVertex
-- uid: Engine.Core.Components.Mesh.EdgesCount
+  fullName: Engine.Core.Components.Mesh3D.AddVertex
+  nameWithType: Mesh3D.AddVertex
+- uid: Engine.Core.Components.Mesh3D.EdgesCount
   name: EdgesCount
-  href: engineAPI/Engine.Core.Components.Mesh.html#Engine_Core_Components_Mesh_EdgesCount
-  commentId: P:Engine.Core.Components.Mesh.EdgesCount
-  fullName: Engine.Core.Components.Mesh.EdgesCount
-  nameWithType: Mesh.EdgesCount
-- uid: Engine.Core.Components.Mesh.EdgesCount*
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D_EdgesCount
+  commentId: P:Engine.Core.Components.Mesh3D.EdgesCount
+  fullName: Engine.Core.Components.Mesh3D.EdgesCount
+  nameWithType: Mesh3D.EdgesCount
+- uid: Engine.Core.Components.Mesh3D.EdgesCount*
   name: EdgesCount
-  href: engineAPI/Engine.Core.Components.Mesh.html#Engine_Core_Components_Mesh_EdgesCount_
-  commentId: Overload:Engine.Core.Components.Mesh.EdgesCount
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D_EdgesCount_
+  commentId: Overload:Engine.Core.Components.Mesh3D.EdgesCount
   isSpec: "True"
-  fullName: Engine.Core.Components.Mesh.EdgesCount
-  nameWithType: Mesh.EdgesCount
-- uid: Engine.Core.Components.Mesh.FacesCount
+  fullName: Engine.Core.Components.Mesh3D.EdgesCount
+  nameWithType: Mesh3D.EdgesCount
+- uid: Engine.Core.Components.Mesh3D.FacesCount
   name: FacesCount
-  href: engineAPI/Engine.Core.Components.Mesh.html#Engine_Core_Components_Mesh_FacesCount
-  commentId: P:Engine.Core.Components.Mesh.FacesCount
-  fullName: Engine.Core.Components.Mesh.FacesCount
-  nameWithType: Mesh.FacesCount
-- uid: Engine.Core.Components.Mesh.FacesCount*
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D_FacesCount
+  commentId: P:Engine.Core.Components.Mesh3D.FacesCount
+  fullName: Engine.Core.Components.Mesh3D.FacesCount
+  nameWithType: Mesh3D.FacesCount
+- uid: Engine.Core.Components.Mesh3D.FacesCount*
   name: FacesCount
-  href: engineAPI/Engine.Core.Components.Mesh.html#Engine_Core_Components_Mesh_FacesCount_
-  commentId: Overload:Engine.Core.Components.Mesh.FacesCount
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D_FacesCount_
+  commentId: Overload:Engine.Core.Components.Mesh3D.FacesCount
   isSpec: "True"
-  fullName: Engine.Core.Components.Mesh.FacesCount
-  nameWithType: Mesh.FacesCount
-- uid: Engine.Core.Components.Mesh.FindEdge(Engine.Core.Components.Edge)
-  name: FindEdge(Edge)
-  href: engineAPI/Engine.Core.Components.Mesh.html#Engine_Core_Components_Mesh_FindEdge_Engine_Core_Components_Edge_
-  commentId: M:Engine.Core.Components.Mesh.FindEdge(Engine.Core.Components.Edge)
-  fullName: Engine.Core.Components.Mesh.FindEdge(Engine.Core.Components.Edge)
-  nameWithType: Mesh.FindEdge(Edge)
-- uid: Engine.Core.Components.Mesh.FindEdge*
+  fullName: Engine.Core.Components.Mesh3D.FacesCount
+  nameWithType: Mesh3D.FacesCount
+- uid: Engine.Core.Components.Mesh3D.FindEdge(Engine.Core.Components.Edge3D)
+  name: FindEdge(Edge3D)
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D_FindEdge_Engine_Core_Components_Edge3D_
+  commentId: M:Engine.Core.Components.Mesh3D.FindEdge(Engine.Core.Components.Edge3D)
+  fullName: Engine.Core.Components.Mesh3D.FindEdge(Engine.Core.Components.Edge3D)
+  nameWithType: Mesh3D.FindEdge(Edge3D)
+- uid: Engine.Core.Components.Mesh3D.FindEdge*
   name: FindEdge
-  href: engineAPI/Engine.Core.Components.Mesh.html#Engine_Core_Components_Mesh_FindEdge_
-  commentId: Overload:Engine.Core.Components.Mesh.FindEdge
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D_FindEdge_
+  commentId: Overload:Engine.Core.Components.Mesh3D.FindEdge
   isSpec: "True"
-  fullName: Engine.Core.Components.Mesh.FindEdge
-  nameWithType: Mesh.FindEdge
-- uid: Engine.Core.Components.Mesh.FindFace(Engine.Core.Components.Face)
-  name: FindFace(Face)
-  href: engineAPI/Engine.Core.Components.Mesh.html#Engine_Core_Components_Mesh_FindFace_Engine_Core_Components_Face_
-  commentId: M:Engine.Core.Components.Mesh.FindFace(Engine.Core.Components.Face)
-  fullName: Engine.Core.Components.Mesh.FindFace(Engine.Core.Components.Face)
-  nameWithType: Mesh.FindFace(Face)
-- uid: Engine.Core.Components.Mesh.FindFace*
+  fullName: Engine.Core.Components.Mesh3D.FindEdge
+  nameWithType: Mesh3D.FindEdge
+- uid: Engine.Core.Components.Mesh3D.FindFace(Engine.Core.Components.Face3D)
+  name: FindFace(Face3D)
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D_FindFace_Engine_Core_Components_Face3D_
+  commentId: M:Engine.Core.Components.Mesh3D.FindFace(Engine.Core.Components.Face3D)
+  fullName: Engine.Core.Components.Mesh3D.FindFace(Engine.Core.Components.Face3D)
+  nameWithType: Mesh3D.FindFace(Face3D)
+- uid: Engine.Core.Components.Mesh3D.FindFace*
   name: FindFace
-  href: engineAPI/Engine.Core.Components.Mesh.html#Engine_Core_Components_Mesh_FindFace_
-  commentId: Overload:Engine.Core.Components.Mesh.FindFace
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D_FindFace_
+  commentId: Overload:Engine.Core.Components.Mesh3D.FindFace
   isSpec: "True"
-  fullName: Engine.Core.Components.Mesh.FindFace
-  nameWithType: Mesh.FindFace
-- uid: Engine.Core.Components.Mesh.FindIndex(Engine.Core.Components.Edge)
-  name: FindIndex(Edge)
-  href: engineAPI/Engine.Core.Components.Mesh.html#Engine_Core_Components_Mesh_FindIndex_Engine_Core_Components_Edge_
-  commentId: M:Engine.Core.Components.Mesh.FindIndex(Engine.Core.Components.Edge)
-  fullName: Engine.Core.Components.Mesh.FindIndex(Engine.Core.Components.Edge)
-  nameWithType: Mesh.FindIndex(Edge)
-- uid: Engine.Core.Components.Mesh.FindIndex(Engine.Core.Components.Face)
-  name: FindIndex(Face)
-  href: engineAPI/Engine.Core.Components.Mesh.html#Engine_Core_Components_Mesh_FindIndex_Engine_Core_Components_Face_
-  commentId: M:Engine.Core.Components.Mesh.FindIndex(Engine.Core.Components.Face)
-  fullName: Engine.Core.Components.Mesh.FindIndex(Engine.Core.Components.Face)
-  nameWithType: Mesh.FindIndex(Face)
-- uid: Engine.Core.Components.Mesh.FindIndex(Engine.Core.Components.Vertex)
-  name: FindIndex(Vertex)
-  href: engineAPI/Engine.Core.Components.Mesh.html#Engine_Core_Components_Mesh_FindIndex_Engine_Core_Components_Vertex_
-  commentId: M:Engine.Core.Components.Mesh.FindIndex(Engine.Core.Components.Vertex)
-  fullName: Engine.Core.Components.Mesh.FindIndex(Engine.Core.Components.Vertex)
-  nameWithType: Mesh.FindIndex(Vertex)
-- uid: Engine.Core.Components.Mesh.FindIndex*
+  fullName: Engine.Core.Components.Mesh3D.FindFace
+  nameWithType: Mesh3D.FindFace
+- uid: Engine.Core.Components.Mesh3D.FindIndex(Engine.Core.Components.Edge3D)
+  name: FindIndex(Edge3D)
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D_FindIndex_Engine_Core_Components_Edge3D_
+  commentId: M:Engine.Core.Components.Mesh3D.FindIndex(Engine.Core.Components.Edge3D)
+  fullName: Engine.Core.Components.Mesh3D.FindIndex(Engine.Core.Components.Edge3D)
+  nameWithType: Mesh3D.FindIndex(Edge3D)
+- uid: Engine.Core.Components.Mesh3D.FindIndex(Engine.Core.Components.Face3D)
+  name: FindIndex(Face3D)
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D_FindIndex_Engine_Core_Components_Face3D_
+  commentId: M:Engine.Core.Components.Mesh3D.FindIndex(Engine.Core.Components.Face3D)
+  fullName: Engine.Core.Components.Mesh3D.FindIndex(Engine.Core.Components.Face3D)
+  nameWithType: Mesh3D.FindIndex(Face3D)
+- uid: Engine.Core.Components.Mesh3D.FindIndex(Engine.Core.Components.Vertex3D)
+  name: FindIndex(Vertex3D)
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D_FindIndex_Engine_Core_Components_Vertex3D_
+  commentId: M:Engine.Core.Components.Mesh3D.FindIndex(Engine.Core.Components.Vertex3D)
+  fullName: Engine.Core.Components.Mesh3D.FindIndex(Engine.Core.Components.Vertex3D)
+  nameWithType: Mesh3D.FindIndex(Vertex3D)
+- uid: Engine.Core.Components.Mesh3D.FindIndex*
   name: FindIndex
-  href: engineAPI/Engine.Core.Components.Mesh.html#Engine_Core_Components_Mesh_FindIndex_
-  commentId: Overload:Engine.Core.Components.Mesh.FindIndex
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D_FindIndex_
+  commentId: Overload:Engine.Core.Components.Mesh3D.FindIndex
   isSpec: "True"
-  fullName: Engine.Core.Components.Mesh.FindIndex
-  nameWithType: Mesh.FindIndex
-- uid: Engine.Core.Components.Mesh.FindVertex(Engine.Core.Components.Vertex)
-  name: FindVertex(Vertex)
-  href: engineAPI/Engine.Core.Components.Mesh.html#Engine_Core_Components_Mesh_FindVertex_Engine_Core_Components_Vertex_
-  commentId: M:Engine.Core.Components.Mesh.FindVertex(Engine.Core.Components.Vertex)
-  fullName: Engine.Core.Components.Mesh.FindVertex(Engine.Core.Components.Vertex)
-  nameWithType: Mesh.FindVertex(Vertex)
-- uid: Engine.Core.Components.Mesh.FindVertex*
+  fullName: Engine.Core.Components.Mesh3D.FindIndex
+  nameWithType: Mesh3D.FindIndex
+- uid: Engine.Core.Components.Mesh3D.FindVertex(Engine.Core.Components.Vertex3D)
+  name: FindVertex(Vertex3D)
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D_FindVertex_Engine_Core_Components_Vertex3D_
+  commentId: M:Engine.Core.Components.Mesh3D.FindVertex(Engine.Core.Components.Vertex3D)
+  fullName: Engine.Core.Components.Mesh3D.FindVertex(Engine.Core.Components.Vertex3D)
+  nameWithType: Mesh3D.FindVertex(Vertex3D)
+- uid: Engine.Core.Components.Mesh3D.FindVertex*
   name: FindVertex
-  href: engineAPI/Engine.Core.Components.Mesh.html#Engine_Core_Components_Mesh_FindVertex_
-  commentId: Overload:Engine.Core.Components.Mesh.FindVertex
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D_FindVertex_
+  commentId: Overload:Engine.Core.Components.Mesh3D.FindVertex
   isSpec: "True"
-  fullName: Engine.Core.Components.Mesh.FindVertex
-  nameWithType: Mesh.FindVertex
-- uid: Engine.Core.Components.Mesh.GetEdge(System.Int32)
+  fullName: Engine.Core.Components.Mesh3D.FindVertex
+  nameWithType: Mesh3D.FindVertex
+- uid: Engine.Core.Components.Mesh3D.GetAllFaces
+  name: GetAllFaces()
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D_GetAllFaces
+  commentId: M:Engine.Core.Components.Mesh3D.GetAllFaces
+  fullName: Engine.Core.Components.Mesh3D.GetAllFaces()
+  nameWithType: Mesh3D.GetAllFaces()
+- uid: Engine.Core.Components.Mesh3D.GetAllFaces*
+  name: GetAllFaces
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D_GetAllFaces_
+  commentId: Overload:Engine.Core.Components.Mesh3D.GetAllFaces
+  isSpec: "True"
+  fullName: Engine.Core.Components.Mesh3D.GetAllFaces
+  nameWithType: Mesh3D.GetAllFaces
+- uid: Engine.Core.Components.Mesh3D.GetAllVertices
+  name: GetAllVertices()
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D_GetAllVertices
+  commentId: M:Engine.Core.Components.Mesh3D.GetAllVertices
+  fullName: Engine.Core.Components.Mesh3D.GetAllVertices()
+  nameWithType: Mesh3D.GetAllVertices()
+- uid: Engine.Core.Components.Mesh3D.GetAllVertices*
+  name: GetAllVertices
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D_GetAllVertices_
+  commentId: Overload:Engine.Core.Components.Mesh3D.GetAllVertices
+  isSpec: "True"
+  fullName: Engine.Core.Components.Mesh3D.GetAllVertices
+  nameWithType: Mesh3D.GetAllVertices
+- uid: Engine.Core.Components.Mesh3D.GetBoundingBox
+  name: GetBoundingBox()
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D_GetBoundingBox
+  commentId: M:Engine.Core.Components.Mesh3D.GetBoundingBox
+  fullName: Engine.Core.Components.Mesh3D.GetBoundingBox()
+  nameWithType: Mesh3D.GetBoundingBox()
+- uid: Engine.Core.Components.Mesh3D.GetBoundingBox*
+  name: GetBoundingBox
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D_GetBoundingBox_
+  commentId: Overload:Engine.Core.Components.Mesh3D.GetBoundingBox
+  isSpec: "True"
+  fullName: Engine.Core.Components.Mesh3D.GetBoundingBox
+  nameWithType: Mesh3D.GetBoundingBox
+- uid: Engine.Core.Components.Mesh3D.GetEdge(System.Int32)
   name: GetEdge(Int32)
-  href: engineAPI/Engine.Core.Components.Mesh.html#Engine_Core_Components_Mesh_GetEdge_System_Int32_
-  commentId: M:Engine.Core.Components.Mesh.GetEdge(System.Int32)
-  fullName: Engine.Core.Components.Mesh.GetEdge(System.Int32)
-  nameWithType: Mesh.GetEdge(Int32)
-- uid: Engine.Core.Components.Mesh.GetEdge*
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D_GetEdge_System_Int32_
+  commentId: M:Engine.Core.Components.Mesh3D.GetEdge(System.Int32)
+  fullName: Engine.Core.Components.Mesh3D.GetEdge(System.Int32)
+  nameWithType: Mesh3D.GetEdge(Int32)
+- uid: Engine.Core.Components.Mesh3D.GetEdge*
   name: GetEdge
-  href: engineAPI/Engine.Core.Components.Mesh.html#Engine_Core_Components_Mesh_GetEdge_
-  commentId: Overload:Engine.Core.Components.Mesh.GetEdge
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D_GetEdge_
+  commentId: Overload:Engine.Core.Components.Mesh3D.GetEdge
   isSpec: "True"
-  fullName: Engine.Core.Components.Mesh.GetEdge
-  nameWithType: Mesh.GetEdge
-- uid: Engine.Core.Components.Mesh.GetFace(System.Int32)
+  fullName: Engine.Core.Components.Mesh3D.GetEdge
+  nameWithType: Mesh3D.GetEdge
+- uid: Engine.Core.Components.Mesh3D.GetFace(System.Int32)
   name: GetFace(Int32)
-  href: engineAPI/Engine.Core.Components.Mesh.html#Engine_Core_Components_Mesh_GetFace_System_Int32_
-  commentId: M:Engine.Core.Components.Mesh.GetFace(System.Int32)
-  fullName: Engine.Core.Components.Mesh.GetFace(System.Int32)
-  nameWithType: Mesh.GetFace(Int32)
-- uid: Engine.Core.Components.Mesh.GetFace*
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D_GetFace_System_Int32_
+  commentId: M:Engine.Core.Components.Mesh3D.GetFace(System.Int32)
+  fullName: Engine.Core.Components.Mesh3D.GetFace(System.Int32)
+  nameWithType: Mesh3D.GetFace(Int32)
+- uid: Engine.Core.Components.Mesh3D.GetFace*
   name: GetFace
-  href: engineAPI/Engine.Core.Components.Mesh.html#Engine_Core_Components_Mesh_GetFace_
-  commentId: Overload:Engine.Core.Components.Mesh.GetFace
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D_GetFace_
+  commentId: Overload:Engine.Core.Components.Mesh3D.GetFace
   isSpec: "True"
-  fullName: Engine.Core.Components.Mesh.GetFace
-  nameWithType: Mesh.GetFace
-- uid: Engine.Core.Components.Mesh.GetVertex(System.Int32)
+  fullName: Engine.Core.Components.Mesh3D.GetFace
+  nameWithType: Mesh3D.GetFace
+- uid: Engine.Core.Components.Mesh3D.GetVertex(System.Int32)
   name: GetVertex(Int32)
-  href: engineAPI/Engine.Core.Components.Mesh.html#Engine_Core_Components_Mesh_GetVertex_System_Int32_
-  commentId: M:Engine.Core.Components.Mesh.GetVertex(System.Int32)
-  fullName: Engine.Core.Components.Mesh.GetVertex(System.Int32)
-  nameWithType: Mesh.GetVertex(Int32)
-- uid: Engine.Core.Components.Mesh.GetVertex*
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D_GetVertex_System_Int32_
+  commentId: M:Engine.Core.Components.Mesh3D.GetVertex(System.Int32)
+  fullName: Engine.Core.Components.Mesh3D.GetVertex(System.Int32)
+  nameWithType: Mesh3D.GetVertex(Int32)
+- uid: Engine.Core.Components.Mesh3D.GetVertex*
   name: GetVertex
-  href: engineAPI/Engine.Core.Components.Mesh.html#Engine_Core_Components_Mesh_GetVertex_
-  commentId: Overload:Engine.Core.Components.Mesh.GetVertex
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D_GetVertex_
+  commentId: Overload:Engine.Core.Components.Mesh3D.GetVertex
   isSpec: "True"
-  fullName: Engine.Core.Components.Mesh.GetVertex
-  nameWithType: Mesh.GetVertex
-- uid: Engine.Core.Components.Mesh.VerticesCount
+  fullName: Engine.Core.Components.Mesh3D.GetVertex
+  nameWithType: Mesh3D.GetVertex
+- uid: Engine.Core.Components.Mesh3D.VerticesCount
   name: VerticesCount
-  href: engineAPI/Engine.Core.Components.Mesh.html#Engine_Core_Components_Mesh_VerticesCount
-  commentId: P:Engine.Core.Components.Mesh.VerticesCount
-  fullName: Engine.Core.Components.Mesh.VerticesCount
-  nameWithType: Mesh.VerticesCount
-- uid: Engine.Core.Components.Mesh.VerticesCount*
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D_VerticesCount
+  commentId: P:Engine.Core.Components.Mesh3D.VerticesCount
+  fullName: Engine.Core.Components.Mesh3D.VerticesCount
+  nameWithType: Mesh3D.VerticesCount
+- uid: Engine.Core.Components.Mesh3D.VerticesCount*
   name: VerticesCount
-  href: engineAPI/Engine.Core.Components.Mesh.html#Engine_Core_Components_Mesh_VerticesCount_
-  commentId: Overload:Engine.Core.Components.Mesh.VerticesCount
+  href: engineAPI/Engine.Core.Components.Mesh3D.html#Engine_Core_Components_Mesh3D_VerticesCount_
+  commentId: Overload:Engine.Core.Components.Mesh3D.VerticesCount
   isSpec: "True"
-  fullName: Engine.Core.Components.Mesh.VerticesCount
-  nameWithType: Mesh.VerticesCount
-- uid: Engine.Core.Components.Vertex
-  name: Vertex
-  href: engineAPI/Engine.Core.Components.Vertex.html
-  commentId: T:Engine.Core.Components.Vertex
-  fullName: Engine.Core.Components.Vertex
-  nameWithType: Vertex
-- uid: Engine.Core.Components.Vertex.#ctor(Vector3,Engine.Core.Object3D)
-  name: Vertex(Vector3, Object3D)
-  href: engineAPI/Engine.Core.Components.Vertex.html#Engine_Core_Components_Vertex__ctor_Vector3_Engine_Core_Object3D_
-  commentId: M:Engine.Core.Components.Vertex.#ctor(Vector3,Engine.Core.Object3D)
-  fullName: Engine.Core.Components.Vertex.Vertex(Vector3, Engine.Core.Object3D)
-  nameWithType: Vertex.Vertex(Vector3, Object3D)
-- uid: Engine.Core.Components.Vertex.#ctor*
-  name: Vertex
-  href: engineAPI/Engine.Core.Components.Vertex.html#Engine_Core_Components_Vertex__ctor_
-  commentId: Overload:Engine.Core.Components.Vertex.#ctor
+  fullName: Engine.Core.Components.Mesh3D.VerticesCount
+  nameWithType: Mesh3D.VerticesCount
+- uid: Engine.Core.Components.Vertex3D
+  name: Vertex3D
+  href: engineAPI/Engine.Core.Components.Vertex3D.html
+  commentId: T:Engine.Core.Components.Vertex3D
+  fullName: Engine.Core.Components.Vertex3D
+  nameWithType: Vertex3D
+- uid: Engine.Core.Components.Vertex3D.#ctor(Vector3,Engine.Core.Object3D)
+  name: Vertex3D(Vector3, Object3D)
+  href: engineAPI/Engine.Core.Components.Vertex3D.html#Engine_Core_Components_Vertex3D__ctor_Vector3_Engine_Core_Object3D_
+  commentId: M:Engine.Core.Components.Vertex3D.#ctor(Vector3,Engine.Core.Object3D)
+  fullName: Engine.Core.Components.Vertex3D.Vertex3D(Vector3, Engine.Core.Object3D)
+  nameWithType: Vertex3D.Vertex3D(Vector3, Object3D)
+- uid: Engine.Core.Components.Vertex3D.#ctor*
+  name: Vertex3D
+  href: engineAPI/Engine.Core.Components.Vertex3D.html#Engine_Core_Components_Vertex3D__ctor_
+  commentId: Overload:Engine.Core.Components.Vertex3D.#ctor
   isSpec: "True"
-  fullName: Engine.Core.Components.Vertex.Vertex
-  nameWithType: Vertex.Vertex
-- uid: Engine.Core.Components.Vertex.GlobalPosition
+  fullName: Engine.Core.Components.Vertex3D.Vertex3D
+  nameWithType: Vertex3D.Vertex3D
+- uid: Engine.Core.Components.Vertex3D.GlobalPosition
   name: GlobalPosition
-  href: engineAPI/Engine.Core.Components.Vertex.html#Engine_Core_Components_Vertex_GlobalPosition
-  commentId: P:Engine.Core.Components.Vertex.GlobalPosition
-  fullName: Engine.Core.Components.Vertex.GlobalPosition
-  nameWithType: Vertex.GlobalPosition
-- uid: Engine.Core.Components.Vertex.GlobalPosition*
+  href: engineAPI/Engine.Core.Components.Vertex3D.html#Engine_Core_Components_Vertex3D_GlobalPosition
+  commentId: P:Engine.Core.Components.Vertex3D.GlobalPosition
+  fullName: Engine.Core.Components.Vertex3D.GlobalPosition
+  nameWithType: Vertex3D.GlobalPosition
+- uid: Engine.Core.Components.Vertex3D.GlobalPosition*
   name: GlobalPosition
-  href: engineAPI/Engine.Core.Components.Vertex.html#Engine_Core_Components_Vertex_GlobalPosition_
-  commentId: Overload:Engine.Core.Components.Vertex.GlobalPosition
+  href: engineAPI/Engine.Core.Components.Vertex3D.html#Engine_Core_Components_Vertex3D_GlobalPosition_
+  commentId: Overload:Engine.Core.Components.Vertex3D.GlobalPosition
   isSpec: "True"
-  fullName: Engine.Core.Components.Vertex.GlobalPosition
-  nameWithType: Vertex.GlobalPosition
-- uid: Engine.Core.Components.Vertex.LocalPosition
+  fullName: Engine.Core.Components.Vertex3D.GlobalPosition
+  nameWithType: Vertex3D.GlobalPosition
+- uid: Engine.Core.Components.Vertex3D.LocalPosition
   name: LocalPosition
-  href: engineAPI/Engine.Core.Components.Vertex.html#Engine_Core_Components_Vertex_LocalPosition
-  commentId: P:Engine.Core.Components.Vertex.LocalPosition
-  fullName: Engine.Core.Components.Vertex.LocalPosition
-  nameWithType: Vertex.LocalPosition
-- uid: Engine.Core.Components.Vertex.LocalPosition*
+  href: engineAPI/Engine.Core.Components.Vertex3D.html#Engine_Core_Components_Vertex3D_LocalPosition
+  commentId: P:Engine.Core.Components.Vertex3D.LocalPosition
+  fullName: Engine.Core.Components.Vertex3D.LocalPosition
+  nameWithType: Vertex3D.LocalPosition
+- uid: Engine.Core.Components.Vertex3D.LocalPosition*
   name: LocalPosition
-  href: engineAPI/Engine.Core.Components.Vertex.html#Engine_Core_Components_Vertex_LocalPosition_
-  commentId: Overload:Engine.Core.Components.Vertex.LocalPosition
+  href: engineAPI/Engine.Core.Components.Vertex3D.html#Engine_Core_Components_Vertex3D_LocalPosition_
+  commentId: Overload:Engine.Core.Components.Vertex3D.LocalPosition
   isSpec: "True"
-  fullName: Engine.Core.Components.Vertex.LocalPosition
-  nameWithType: Vertex.LocalPosition
-- uid: Engine.Core.Components.Vertex.SetPosition(Vector3)
+  fullName: Engine.Core.Components.Vertex3D.LocalPosition
+  nameWithType: Vertex3D.LocalPosition
+- uid: Engine.Core.Components.Vertex3D.SetPosition(Vector3)
   name: SetPosition(Vector3)
-  href: engineAPI/Engine.Core.Components.Vertex.html#Engine_Core_Components_Vertex_SetPosition_Vector3_
-  commentId: M:Engine.Core.Components.Vertex.SetPosition(Vector3)
-  fullName: Engine.Core.Components.Vertex.SetPosition(Vector3)
-  nameWithType: Vertex.SetPosition(Vector3)
-- uid: Engine.Core.Components.Vertex.SetPosition*
+  href: engineAPI/Engine.Core.Components.Vertex3D.html#Engine_Core_Components_Vertex3D_SetPosition_Vector3_
+  commentId: M:Engine.Core.Components.Vertex3D.SetPosition(Vector3)
+  fullName: Engine.Core.Components.Vertex3D.SetPosition(Vector3)
+  nameWithType: Vertex3D.SetPosition(Vector3)
+- uid: Engine.Core.Components.Vertex3D.SetPosition*
   name: SetPosition
-  href: engineAPI/Engine.Core.Components.Vertex.html#Engine_Core_Components_Vertex_SetPosition_
-  commentId: Overload:Engine.Core.Components.Vertex.SetPosition
+  href: engineAPI/Engine.Core.Components.Vertex3D.html#Engine_Core_Components_Vertex3D_SetPosition_
+  commentId: Overload:Engine.Core.Components.Vertex3D.SetPosition
   isSpec: "True"
-  fullName: Engine.Core.Components.Vertex.SetPosition
-  nameWithType: Vertex.SetPosition
+  fullName: Engine.Core.Components.Vertex3D.SetPosition
+  nameWithType: Vertex3D.SetPosition
+- uid: Engine.Core.Events
+  name: Engine.Core.Events
+  href: engineAPI/Engine.Core.Events.html
+  commentId: N:Engine.Core.Events
+  fullName: Engine.Core.Events
+  nameWithType: Engine.Core.Events
+- uid: Engine.Core.Events.Event
+  name: Event
+  href: engineAPI/Engine.Core.Events.Event.html
+  commentId: T:Engine.Core.Events.Event
+  fullName: Engine.Core.Events.Event
+  nameWithType: Event
+- uid: Engine.Core.Events.Event.AddListener(System.Action)
+  name: AddListener(Action)
+  href: engineAPI/Engine.Core.Events.Event.html#Engine_Core_Events_Event_AddListener_System_Action_
+  commentId: M:Engine.Core.Events.Event.AddListener(System.Action)
+  fullName: Engine.Core.Events.Event.AddListener(System.Action)
+  nameWithType: Event.AddListener(Action)
+- uid: Engine.Core.Events.Event.AddListener*
+  name: AddListener
+  href: engineAPI/Engine.Core.Events.Event.html#Engine_Core_Events_Event_AddListener_
+  commentId: Overload:Engine.Core.Events.Event.AddListener
+  isSpec: "True"
+  fullName: Engine.Core.Events.Event.AddListener
+  nameWithType: Event.AddListener
+- uid: Engine.Core.Events.Event.Invoke
+  name: Invoke()
+  href: engineAPI/Engine.Core.Events.Event.html#Engine_Core_Events_Event_Invoke
+  commentId: M:Engine.Core.Events.Event.Invoke
+  fullName: Engine.Core.Events.Event.Invoke()
+  nameWithType: Event.Invoke()
+- uid: Engine.Core.Events.Event.Invoke*
+  name: Invoke
+  href: engineAPI/Engine.Core.Events.Event.html#Engine_Core_Events_Event_Invoke_
+  commentId: Overload:Engine.Core.Events.Event.Invoke
+  isSpec: "True"
+  fullName: Engine.Core.Events.Event.Invoke
+  nameWithType: Event.Invoke
+- uid: Engine.Core.Events.Event.op_Addition(Engine.Core.Events.Event,System.Action)
+  name: Addition(Event, Action)
+  href: engineAPI/Engine.Core.Events.Event.html#Engine_Core_Events_Event_op_Addition_Engine_Core_Events_Event_System_Action_
+  commentId: M:Engine.Core.Events.Event.op_Addition(Engine.Core.Events.Event,System.Action)
+  fullName: Engine.Core.Events.Event.Addition(Engine.Core.Events.Event, System.Action)
+  nameWithType: Event.Addition(Event, Action)
+- uid: Engine.Core.Events.Event.op_Addition*
+  name: Addition
+  href: engineAPI/Engine.Core.Events.Event.html#Engine_Core_Events_Event_op_Addition_
+  commentId: Overload:Engine.Core.Events.Event.op_Addition
+  isSpec: "True"
+  fullName: Engine.Core.Events.Event.Addition
+  nameWithType: Event.Addition
+- uid: Engine.Core.Events.Event.op_Subtraction(Engine.Core.Events.Event,System.Action)
+  name: Subtraction(Event, Action)
+  href: engineAPI/Engine.Core.Events.Event.html#Engine_Core_Events_Event_op_Subtraction_Engine_Core_Events_Event_System_Action_
+  commentId: M:Engine.Core.Events.Event.op_Subtraction(Engine.Core.Events.Event,System.Action)
+  fullName: Engine.Core.Events.Event.Subtraction(Engine.Core.Events.Event, System.Action)
+  nameWithType: Event.Subtraction(Event, Action)
+- uid: Engine.Core.Events.Event.op_Subtraction*
+  name: Subtraction
+  href: engineAPI/Engine.Core.Events.Event.html#Engine_Core_Events_Event_op_Subtraction_
+  commentId: Overload:Engine.Core.Events.Event.op_Subtraction
+  isSpec: "True"
+  fullName: Engine.Core.Events.Event.Subtraction
+  nameWithType: Event.Subtraction
+- uid: Engine.Core.Events.Event.RemoveAllListeners
+  name: RemoveAllListeners()
+  href: engineAPI/Engine.Core.Events.Event.html#Engine_Core_Events_Event_RemoveAllListeners
+  commentId: M:Engine.Core.Events.Event.RemoveAllListeners
+  fullName: Engine.Core.Events.Event.RemoveAllListeners()
+  nameWithType: Event.RemoveAllListeners()
+- uid: Engine.Core.Events.Event.RemoveAllListeners*
+  name: RemoveAllListeners
+  href: engineAPI/Engine.Core.Events.Event.html#Engine_Core_Events_Event_RemoveAllListeners_
+  commentId: Overload:Engine.Core.Events.Event.RemoveAllListeners
+  isSpec: "True"
+  fullName: Engine.Core.Events.Event.RemoveAllListeners
+  nameWithType: Event.RemoveAllListeners
+- uid: Engine.Core.Events.Event.RemoveListener(System.Action)
+  name: RemoveListener(Action)
+  href: engineAPI/Engine.Core.Events.Event.html#Engine_Core_Events_Event_RemoveListener_System_Action_
+  commentId: M:Engine.Core.Events.Event.RemoveListener(System.Action)
+  fullName: Engine.Core.Events.Event.RemoveListener(System.Action)
+  nameWithType: Event.RemoveListener(Action)
+- uid: Engine.Core.Events.Event.RemoveListener*
+  name: RemoveListener
+  href: engineAPI/Engine.Core.Events.Event.html#Engine_Core_Events_Event_RemoveListener_
+  commentId: Overload:Engine.Core.Events.Event.RemoveListener
+  isSpec: "True"
+  fullName: Engine.Core.Events.Event.RemoveListener
+  nameWithType: Event.RemoveListener
+- uid: Engine.Core.Events.Event`1
+  name: Event<T>
+  href: engineAPI/Engine.Core.Events.Event-1.html
+  commentId: T:Engine.Core.Events.Event`1
+  name.vb: Event(Of T)
+  fullName: Engine.Core.Events.Event<T>
+  fullName.vb: Engine.Core.Events.Event(Of T)
+  nameWithType: Event<T>
+  nameWithType.vb: Event(Of T)
+- uid: Engine.Core.Events.Event`1.AddListener(System.Action{`0})
+  name: AddListener(Action<T>)
+  href: engineAPI/Engine.Core.Events.Event-1.html#Engine_Core_Events_Event_1_AddListener_System_Action__0__
+  commentId: M:Engine.Core.Events.Event`1.AddListener(System.Action{`0})
+  name.vb: AddListener(Action(Of T))
+  fullName: Engine.Core.Events.Event<T>.AddListener(System.Action<T>)
+  fullName.vb: Engine.Core.Events.Event(Of T).AddListener(System.Action(Of T))
+  nameWithType: Event<T>.AddListener(Action<T>)
+  nameWithType.vb: Event(Of T).AddListener(Action(Of T))
+- uid: Engine.Core.Events.Event`1.AddListener*
+  name: AddListener
+  href: engineAPI/Engine.Core.Events.Event-1.html#Engine_Core_Events_Event_1_AddListener_
+  commentId: Overload:Engine.Core.Events.Event`1.AddListener
+  isSpec: "True"
+  fullName: Engine.Core.Events.Event<T>.AddListener
+  fullName.vb: Engine.Core.Events.Event(Of T).AddListener
+  nameWithType: Event<T>.AddListener
+  nameWithType.vb: Event(Of T).AddListener
+- uid: Engine.Core.Events.Event`1.Invoke(`0)
+  name: Invoke(T)
+  href: engineAPI/Engine.Core.Events.Event-1.html#Engine_Core_Events_Event_1_Invoke__0_
+  commentId: M:Engine.Core.Events.Event`1.Invoke(`0)
+  fullName: Engine.Core.Events.Event<T>.Invoke(T)
+  fullName.vb: Engine.Core.Events.Event(Of T).Invoke(T)
+  nameWithType: Event<T>.Invoke(T)
+  nameWithType.vb: Event(Of T).Invoke(T)
+- uid: Engine.Core.Events.Event`1.Invoke*
+  name: Invoke
+  href: engineAPI/Engine.Core.Events.Event-1.html#Engine_Core_Events_Event_1_Invoke_
+  commentId: Overload:Engine.Core.Events.Event`1.Invoke
+  isSpec: "True"
+  fullName: Engine.Core.Events.Event<T>.Invoke
+  fullName.vb: Engine.Core.Events.Event(Of T).Invoke
+  nameWithType: Event<T>.Invoke
+  nameWithType.vb: Event(Of T).Invoke
+- uid: Engine.Core.Events.Event`1.op_Addition(Engine.Core.Events.Event{`0},System.Action{`0})
+  name: Addition(Event<T>, Action<T>)
+  href: engineAPI/Engine.Core.Events.Event-1.html#Engine_Core_Events_Event_1_op_Addition_Engine_Core_Events_Event__0__System_Action__0__
+  commentId: M:Engine.Core.Events.Event`1.op_Addition(Engine.Core.Events.Event{`0},System.Action{`0})
+  name.vb: Addition(Event(Of T), Action(Of T))
+  fullName: Engine.Core.Events.Event<T>.Addition(Engine.Core.Events.Event<T>, System.Action<T>)
+  fullName.vb: Engine.Core.Events.Event(Of T).Addition(Engine.Core.Events.Event(Of T), System.Action(Of T))
+  nameWithType: Event<T>.Addition(Event<T>, Action<T>)
+  nameWithType.vb: Event(Of T).Addition(Event(Of T), Action(Of T))
+- uid: Engine.Core.Events.Event`1.op_Addition*
+  name: Addition
+  href: engineAPI/Engine.Core.Events.Event-1.html#Engine_Core_Events_Event_1_op_Addition_
+  commentId: Overload:Engine.Core.Events.Event`1.op_Addition
+  isSpec: "True"
+  fullName: Engine.Core.Events.Event<T>.Addition
+  fullName.vb: Engine.Core.Events.Event(Of T).Addition
+  nameWithType: Event<T>.Addition
+  nameWithType.vb: Event(Of T).Addition
+- uid: Engine.Core.Events.Event`1.op_Subtraction(Engine.Core.Events.Event{`0},System.Action{`0})
+  name: Subtraction(Event<T>, Action<T>)
+  href: engineAPI/Engine.Core.Events.Event-1.html#Engine_Core_Events_Event_1_op_Subtraction_Engine_Core_Events_Event__0__System_Action__0__
+  commentId: M:Engine.Core.Events.Event`1.op_Subtraction(Engine.Core.Events.Event{`0},System.Action{`0})
+  name.vb: Subtraction(Event(Of T), Action(Of T))
+  fullName: Engine.Core.Events.Event<T>.Subtraction(Engine.Core.Events.Event<T>, System.Action<T>)
+  fullName.vb: Engine.Core.Events.Event(Of T).Subtraction(Engine.Core.Events.Event(Of T), System.Action(Of T))
+  nameWithType: Event<T>.Subtraction(Event<T>, Action<T>)
+  nameWithType.vb: Event(Of T).Subtraction(Event(Of T), Action(Of T))
+- uid: Engine.Core.Events.Event`1.op_Subtraction*
+  name: Subtraction
+  href: engineAPI/Engine.Core.Events.Event-1.html#Engine_Core_Events_Event_1_op_Subtraction_
+  commentId: Overload:Engine.Core.Events.Event`1.op_Subtraction
+  isSpec: "True"
+  fullName: Engine.Core.Events.Event<T>.Subtraction
+  fullName.vb: Engine.Core.Events.Event(Of T).Subtraction
+  nameWithType: Event<T>.Subtraction
+  nameWithType.vb: Event(Of T).Subtraction
+- uid: Engine.Core.Events.Event`1.RemoveAllListeners
+  name: RemoveAllListeners()
+  href: engineAPI/Engine.Core.Events.Event-1.html#Engine_Core_Events_Event_1_RemoveAllListeners
+  commentId: M:Engine.Core.Events.Event`1.RemoveAllListeners
+  fullName: Engine.Core.Events.Event<T>.RemoveAllListeners()
+  fullName.vb: Engine.Core.Events.Event(Of T).RemoveAllListeners()
+  nameWithType: Event<T>.RemoveAllListeners()
+  nameWithType.vb: Event(Of T).RemoveAllListeners()
+- uid: Engine.Core.Events.Event`1.RemoveAllListeners*
+  name: RemoveAllListeners
+  href: engineAPI/Engine.Core.Events.Event-1.html#Engine_Core_Events_Event_1_RemoveAllListeners_
+  commentId: Overload:Engine.Core.Events.Event`1.RemoveAllListeners
+  isSpec: "True"
+  fullName: Engine.Core.Events.Event<T>.RemoveAllListeners
+  fullName.vb: Engine.Core.Events.Event(Of T).RemoveAllListeners
+  nameWithType: Event<T>.RemoveAllListeners
+  nameWithType.vb: Event(Of T).RemoveAllListeners
+- uid: Engine.Core.Events.Event`1.RemoveListener(System.Action{`0})
+  name: RemoveListener(Action<T>)
+  href: engineAPI/Engine.Core.Events.Event-1.html#Engine_Core_Events_Event_1_RemoveListener_System_Action__0__
+  commentId: M:Engine.Core.Events.Event`1.RemoveListener(System.Action{`0})
+  name.vb: RemoveListener(Action(Of T))
+  fullName: Engine.Core.Events.Event<T>.RemoveListener(System.Action<T>)
+  fullName.vb: Engine.Core.Events.Event(Of T).RemoveListener(System.Action(Of T))
+  nameWithType: Event<T>.RemoveListener(Action<T>)
+  nameWithType.vb: Event(Of T).RemoveListener(Action(Of T))
+- uid: Engine.Core.Events.Event`1.RemoveListener*
+  name: RemoveListener
+  href: engineAPI/Engine.Core.Events.Event-1.html#Engine_Core_Events_Event_1_RemoveListener_
+  commentId: Overload:Engine.Core.Events.Event`1.RemoveListener
+  isSpec: "True"
+  fullName: Engine.Core.Events.Event<T>.RemoveListener
+  fullName.vb: Engine.Core.Events.Event(Of T).RemoveListener
+  nameWithType: Event<T>.RemoveListener
+  nameWithType.vb: Event(Of T).RemoveListener
+- uid: Engine.Core.Events.Event`2
+  name: Event<T0, T1>
+  href: engineAPI/Engine.Core.Events.Event-2.html
+  commentId: T:Engine.Core.Events.Event`2
+  name.vb: Event(Of T0, T1)
+  fullName: Engine.Core.Events.Event<T0, T1>
+  fullName.vb: Engine.Core.Events.Event(Of T0, T1)
+  nameWithType: Event<T0, T1>
+  nameWithType.vb: Event(Of T0, T1)
+- uid: Engine.Core.Events.Event`2.AddListener(System.Action{`0,`1})
+  name: AddListener(Action<T0, T1>)
+  href: engineAPI/Engine.Core.Events.Event-2.html#Engine_Core_Events_Event_2_AddListener_System_Action__0__1__
+  commentId: M:Engine.Core.Events.Event`2.AddListener(System.Action{`0,`1})
+  name.vb: AddListener(Action(Of T0, T1))
+  fullName: Engine.Core.Events.Event<T0, T1>.AddListener(System.Action<T0, T1>)
+  fullName.vb: Engine.Core.Events.Event(Of T0, T1).AddListener(System.Action(Of T0, T1))
+  nameWithType: Event<T0, T1>.AddListener(Action<T0, T1>)
+  nameWithType.vb: Event(Of T0, T1).AddListener(Action(Of T0, T1))
+- uid: Engine.Core.Events.Event`2.AddListener*
+  name: AddListener
+  href: engineAPI/Engine.Core.Events.Event-2.html#Engine_Core_Events_Event_2_AddListener_
+  commentId: Overload:Engine.Core.Events.Event`2.AddListener
+  isSpec: "True"
+  fullName: Engine.Core.Events.Event<T0, T1>.AddListener
+  fullName.vb: Engine.Core.Events.Event(Of T0, T1).AddListener
+  nameWithType: Event<T0, T1>.AddListener
+  nameWithType.vb: Event(Of T0, T1).AddListener
+- uid: Engine.Core.Events.Event`2.Invoke(`0,`1)
+  name: Invoke(T0, T1)
+  href: engineAPI/Engine.Core.Events.Event-2.html#Engine_Core_Events_Event_2_Invoke__0__1_
+  commentId: M:Engine.Core.Events.Event`2.Invoke(`0,`1)
+  fullName: Engine.Core.Events.Event<T0, T1>.Invoke(T0, T1)
+  fullName.vb: Engine.Core.Events.Event(Of T0, T1).Invoke(T0, T1)
+  nameWithType: Event<T0, T1>.Invoke(T0, T1)
+  nameWithType.vb: Event(Of T0, T1).Invoke(T0, T1)
+- uid: Engine.Core.Events.Event`2.Invoke*
+  name: Invoke
+  href: engineAPI/Engine.Core.Events.Event-2.html#Engine_Core_Events_Event_2_Invoke_
+  commentId: Overload:Engine.Core.Events.Event`2.Invoke
+  isSpec: "True"
+  fullName: Engine.Core.Events.Event<T0, T1>.Invoke
+  fullName.vb: Engine.Core.Events.Event(Of T0, T1).Invoke
+  nameWithType: Event<T0, T1>.Invoke
+  nameWithType.vb: Event(Of T0, T1).Invoke
+- uid: Engine.Core.Events.Event`2.op_Addition(Engine.Core.Events.Event{`0,`1},System.Action{`0,`1})
+  name: Addition(Event<T0, T1>, Action<T0, T1>)
+  href: engineAPI/Engine.Core.Events.Event-2.html#Engine_Core_Events_Event_2_op_Addition_Engine_Core_Events_Event__0__1__System_Action__0__1__
+  commentId: M:Engine.Core.Events.Event`2.op_Addition(Engine.Core.Events.Event{`0,`1},System.Action{`0,`1})
+  name.vb: Addition(Event(Of T0, T1), Action(Of T0, T1))
+  fullName: Engine.Core.Events.Event<T0, T1>.Addition(Engine.Core.Events.Event<T0, T1>, System.Action<T0, T1>)
+  fullName.vb: Engine.Core.Events.Event(Of T0, T1).Addition(Engine.Core.Events.Event(Of T0, T1), System.Action(Of T0, T1))
+  nameWithType: Event<T0, T1>.Addition(Event<T0, T1>, Action<T0, T1>)
+  nameWithType.vb: Event(Of T0, T1).Addition(Event(Of T0, T1), Action(Of T0, T1))
+- uid: Engine.Core.Events.Event`2.op_Addition*
+  name: Addition
+  href: engineAPI/Engine.Core.Events.Event-2.html#Engine_Core_Events_Event_2_op_Addition_
+  commentId: Overload:Engine.Core.Events.Event`2.op_Addition
+  isSpec: "True"
+  fullName: Engine.Core.Events.Event<T0, T1>.Addition
+  fullName.vb: Engine.Core.Events.Event(Of T0, T1).Addition
+  nameWithType: Event<T0, T1>.Addition
+  nameWithType.vb: Event(Of T0, T1).Addition
+- uid: Engine.Core.Events.Event`2.op_Subtraction(Engine.Core.Events.Event{`0,`1},System.Action{`0,`1})
+  name: Subtraction(Event<T0, T1>, Action<T0, T1>)
+  href: engineAPI/Engine.Core.Events.Event-2.html#Engine_Core_Events_Event_2_op_Subtraction_Engine_Core_Events_Event__0__1__System_Action__0__1__
+  commentId: M:Engine.Core.Events.Event`2.op_Subtraction(Engine.Core.Events.Event{`0,`1},System.Action{`0,`1})
+  name.vb: Subtraction(Event(Of T0, T1), Action(Of T0, T1))
+  fullName: Engine.Core.Events.Event<T0, T1>.Subtraction(Engine.Core.Events.Event<T0, T1>, System.Action<T0, T1>)
+  fullName.vb: Engine.Core.Events.Event(Of T0, T1).Subtraction(Engine.Core.Events.Event(Of T0, T1), System.Action(Of T0, T1))
+  nameWithType: Event<T0, T1>.Subtraction(Event<T0, T1>, Action<T0, T1>)
+  nameWithType.vb: Event(Of T0, T1).Subtraction(Event(Of T0, T1), Action(Of T0, T1))
+- uid: Engine.Core.Events.Event`2.op_Subtraction*
+  name: Subtraction
+  href: engineAPI/Engine.Core.Events.Event-2.html#Engine_Core_Events_Event_2_op_Subtraction_
+  commentId: Overload:Engine.Core.Events.Event`2.op_Subtraction
+  isSpec: "True"
+  fullName: Engine.Core.Events.Event<T0, T1>.Subtraction
+  fullName.vb: Engine.Core.Events.Event(Of T0, T1).Subtraction
+  nameWithType: Event<T0, T1>.Subtraction
+  nameWithType.vb: Event(Of T0, T1).Subtraction
+- uid: Engine.Core.Events.Event`2.RemoveAllListeners
+  name: RemoveAllListeners()
+  href: engineAPI/Engine.Core.Events.Event-2.html#Engine_Core_Events_Event_2_RemoveAllListeners
+  commentId: M:Engine.Core.Events.Event`2.RemoveAllListeners
+  fullName: Engine.Core.Events.Event<T0, T1>.RemoveAllListeners()
+  fullName.vb: Engine.Core.Events.Event(Of T0, T1).RemoveAllListeners()
+  nameWithType: Event<T0, T1>.RemoveAllListeners()
+  nameWithType.vb: Event(Of T0, T1).RemoveAllListeners()
+- uid: Engine.Core.Events.Event`2.RemoveAllListeners*
+  name: RemoveAllListeners
+  href: engineAPI/Engine.Core.Events.Event-2.html#Engine_Core_Events_Event_2_RemoveAllListeners_
+  commentId: Overload:Engine.Core.Events.Event`2.RemoveAllListeners
+  isSpec: "True"
+  fullName: Engine.Core.Events.Event<T0, T1>.RemoveAllListeners
+  fullName.vb: Engine.Core.Events.Event(Of T0, T1).RemoveAllListeners
+  nameWithType: Event<T0, T1>.RemoveAllListeners
+  nameWithType.vb: Event(Of T0, T1).RemoveAllListeners
+- uid: Engine.Core.Events.Event`2.RemoveListener(System.Action{`0,`1})
+  name: RemoveListener(Action<T0, T1>)
+  href: engineAPI/Engine.Core.Events.Event-2.html#Engine_Core_Events_Event_2_RemoveListener_System_Action__0__1__
+  commentId: M:Engine.Core.Events.Event`2.RemoveListener(System.Action{`0,`1})
+  name.vb: RemoveListener(Action(Of T0, T1))
+  fullName: Engine.Core.Events.Event<T0, T1>.RemoveListener(System.Action<T0, T1>)
+  fullName.vb: Engine.Core.Events.Event(Of T0, T1).RemoveListener(System.Action(Of T0, T1))
+  nameWithType: Event<T0, T1>.RemoveListener(Action<T0, T1>)
+  nameWithType.vb: Event(Of T0, T1).RemoveListener(Action(Of T0, T1))
+- uid: Engine.Core.Events.Event`2.RemoveListener*
+  name: RemoveListener
+  href: engineAPI/Engine.Core.Events.Event-2.html#Engine_Core_Events_Event_2_RemoveListener_
+  commentId: Overload:Engine.Core.Events.Event`2.RemoveListener
+  isSpec: "True"
+  fullName: Engine.Core.Events.Event<T0, T1>.RemoveListener
+  fullName.vb: Engine.Core.Events.Event(Of T0, T1).RemoveListener
+  nameWithType: Event<T0, T1>.RemoveListener
+  nameWithType.vb: Event(Of T0, T1).RemoveListener
+- uid: Engine.Core.IParticle
+  name: IParticle
+  href: engineAPI/Engine.Core.IParticle.html
+  commentId: T:Engine.Core.IParticle
+  fullName: Engine.Core.IParticle
+  nameWithType: IParticle
+- uid: Engine.Core.IParticle.EliminateParticle
+  name: EliminateParticle()
+  href: engineAPI/Engine.Core.IParticle.html#Engine_Core_IParticle_EliminateParticle
+  commentId: M:Engine.Core.IParticle.EliminateParticle
+  fullName: Engine.Core.IParticle.EliminateParticle()
+  nameWithType: IParticle.EliminateParticle()
+- uid: Engine.Core.IParticle.EliminateParticle*
+  name: EliminateParticle
+  href: engineAPI/Engine.Core.IParticle.html#Engine_Core_IParticle_EliminateParticle_
+  commentId: Overload:Engine.Core.IParticle.EliminateParticle
+  isSpec: "True"
+  fullName: Engine.Core.IParticle.EliminateParticle
+  nameWithType: IParticle.EliminateParticle
+- uid: Engine.Core.IParticleHandler
+  name: IParticleHandler
+  href: engineAPI/Engine.Core.IParticleHandler.html
+  commentId: T:Engine.Core.IParticleHandler
+  fullName: Engine.Core.IParticleHandler
+  nameWithType: IParticleHandler
+- uid: Engine.Core.IParticleHandler.EliminateAllParticles
+  name: EliminateAllParticles()
+  href: engineAPI/Engine.Core.IParticleHandler.html#Engine_Core_IParticleHandler_EliminateAllParticles
+  commentId: M:Engine.Core.IParticleHandler.EliminateAllParticles
+  fullName: Engine.Core.IParticleHandler.EliminateAllParticles()
+  nameWithType: IParticleHandler.EliminateAllParticles()
+- uid: Engine.Core.IParticleHandler.EliminateAllParticles*
+  name: EliminateAllParticles
+  href: engineAPI/Engine.Core.IParticleHandler.html#Engine_Core_IParticleHandler_EliminateAllParticles_
+  commentId: Overload:Engine.Core.IParticleHandler.EliminateAllParticles
+  isSpec: "True"
+  fullName: Engine.Core.IParticleHandler.EliminateAllParticles
+  nameWithType: IParticleHandler.EliminateAllParticles
+- uid: Engine.Core.IParticleHandler.EliminateParticle(Engine.Core.Particle@)
+  name: EliminateParticle(ref Particle)
+  href: engineAPI/Engine.Core.IParticleHandler.html#Engine_Core_IParticleHandler_EliminateParticle_Engine_Core_Particle__
+  commentId: M:Engine.Core.IParticleHandler.EliminateParticle(Engine.Core.Particle@)
+  name.vb: EliminateParticle(ByRef Particle)
+  fullName: Engine.Core.IParticleHandler.EliminateParticle(ref Engine.Core.Particle)
+  fullName.vb: Engine.Core.IParticleHandler.EliminateParticle(ByRef Engine.Core.Particle)
+  nameWithType: IParticleHandler.EliminateParticle(ref Particle)
+  nameWithType.vb: IParticleHandler.EliminateParticle(ByRef Particle)
+- uid: Engine.Core.IParticleHandler.EliminateParticle*
+  name: EliminateParticle
+  href: engineAPI/Engine.Core.IParticleHandler.html#Engine_Core_IParticleHandler_EliminateParticle_
+  commentId: Overload:Engine.Core.IParticleHandler.EliminateParticle
+  isSpec: "True"
+  fullName: Engine.Core.IParticleHandler.EliminateParticle
+  nameWithType: IParticleHandler.EliminateParticle
+- uid: Engine.Core.IRay
+  name: IRay
+  href: engineAPI/Engine.Core.IRay.html
+  commentId: T:Engine.Core.IRay
+  fullName: Engine.Core.IRay
+  nameWithType: IRay
+- uid: Engine.Core.IRay.OnRayCollision(System.Collections.Generic.List{ParticleCollision3D})
+  name: OnRayCollision(List<ParticleCollision3D>)
+  href: engineAPI/Engine.Core.IRay.html#Engine_Core_IRay_OnRayCollision_System_Collections_Generic_List_ParticleCollision3D__
+  commentId: M:Engine.Core.IRay.OnRayCollision(System.Collections.Generic.List{ParticleCollision3D})
+  name.vb: OnRayCollision(List(Of ParticleCollision3D))
+  fullName: Engine.Core.IRay.OnRayCollision(System.Collections.Generic.List<ParticleCollision3D>)
+  fullName.vb: Engine.Core.IRay.OnRayCollision(System.Collections.Generic.List(Of ParticleCollision3D))
+  nameWithType: IRay.OnRayCollision(List<ParticleCollision3D>)
+  nameWithType.vb: IRay.OnRayCollision(List(Of ParticleCollision3D))
+- uid: Engine.Core.IRay.OnRayCollision*
+  name: OnRayCollision
+  href: engineAPI/Engine.Core.IRay.html#Engine_Core_IRay_OnRayCollision_
+  commentId: Overload:Engine.Core.IRay.OnRayCollision
+  isSpec: "True"
+  fullName: Engine.Core.IRay.OnRayCollision
+  nameWithType: IRay.OnRayCollision
 - uid: Engine.Core.Layer
   name: Layer
   href: engineAPI/Engine.Core.Layer.html
@@ -1016,6 +1503,266 @@ references:
   isSpec: "True"
   fullName: Engine.Core.Layer.Name
   nameWithType: Layer.Name
+- uid: Engine.Core.LCS3Element
+  name: LCS3Element
+  href: engineAPI/Engine.Core.LCS3Element.html
+  commentId: T:Engine.Core.LCS3Element
+  fullName: Engine.Core.LCS3Element
+  nameWithType: LCS3Element
+- uid: Engine.Core.LCS3Element.#ctor(System.Int32,LCS3,LCS3,System.Guid)
+  name: LCS3Element(Int32, LCS3, LCS3, Guid)
+  href: engineAPI/Engine.Core.LCS3Element.html#Engine_Core_LCS3Element__ctor_System_Int32_LCS3_LCS3_System_Guid_
+  commentId: M:Engine.Core.LCS3Element.#ctor(System.Int32,LCS3,LCS3,System.Guid)
+  fullName: Engine.Core.LCS3Element.LCS3Element(System.Int32, LCS3, LCS3, System.Guid)
+  nameWithType: LCS3Element.LCS3Element(Int32, LCS3, LCS3, Guid)
+- uid: Engine.Core.LCS3Element.#ctor*
+  name: LCS3Element
+  href: engineAPI/Engine.Core.LCS3Element.html#Engine_Core_LCS3Element__ctor_
+  commentId: Overload:Engine.Core.LCS3Element.#ctor
+  isSpec: "True"
+  fullName: Engine.Core.LCS3Element.LCS3Element
+  nameWithType: LCS3Element.LCS3Element
+- uid: Engine.Core.LCS3Element.Depth
+  name: Depth
+  href: engineAPI/Engine.Core.LCS3Element.html#Engine_Core_LCS3Element_Depth
+  commentId: P:Engine.Core.LCS3Element.Depth
+  fullName: Engine.Core.LCS3Element.Depth
+  nameWithType: LCS3Element.Depth
+- uid: Engine.Core.LCS3Element.Depth*
+  name: Depth
+  href: engineAPI/Engine.Core.LCS3Element.html#Engine_Core_LCS3Element_Depth_
+  commentId: Overload:Engine.Core.LCS3Element.Depth
+  isSpec: "True"
+  fullName: Engine.Core.LCS3Element.Depth
+  nameWithType: LCS3Element.Depth
+- uid: Engine.Core.LCS3Element.GroupID
+  name: GroupID
+  href: engineAPI/Engine.Core.LCS3Element.html#Engine_Core_LCS3Element_GroupID
+  commentId: F:Engine.Core.LCS3Element.GroupID
+  fullName: Engine.Core.LCS3Element.GroupID
+  nameWithType: LCS3Element.GroupID
+- uid: Engine.Core.LCS3Element.Lcs
+  name: Lcs
+  href: engineAPI/Engine.Core.LCS3Element.html#Engine_Core_LCS3Element_Lcs
+  commentId: P:Engine.Core.LCS3Element.Lcs
+  fullName: Engine.Core.LCS3Element.Lcs
+  nameWithType: LCS3Element.Lcs
+- uid: Engine.Core.LCS3Element.Lcs*
+  name: Lcs
+  href: engineAPI/Engine.Core.LCS3Element.html#Engine_Core_LCS3Element_Lcs_
+  commentId: Overload:Engine.Core.LCS3Element.Lcs
+  isSpec: "True"
+  fullName: Engine.Core.LCS3Element.Lcs
+  nameWithType: LCS3Element.Lcs
+- uid: Engine.Core.LCS3Element.op_Implicit(Engine.Core.LCS3Element)~LCS3
+  name: Implicit(LCS3Element to LCS3)
+  href: engineAPI/Engine.Core.LCS3Element.html#Engine_Core_LCS3Element_op_Implicit_Engine_Core_LCS3Element__LCS3
+  commentId: M:Engine.Core.LCS3Element.op_Implicit(Engine.Core.LCS3Element)~LCS3
+  name.vb: Widening(LCS3Element to LCS3)
+  fullName: Engine.Core.LCS3Element.Implicit(Engine.Core.LCS3Element to LCS3)
+  fullName.vb: Engine.Core.LCS3Element.Widening(Engine.Core.LCS3Element to LCS3)
+  nameWithType: LCS3Element.Implicit(LCS3Element to LCS3)
+  nameWithType.vb: LCS3Element.Widening(LCS3Element to LCS3)
+- uid: Engine.Core.LCS3Element.op_Implicit*
+  name: Implicit
+  href: engineAPI/Engine.Core.LCS3Element.html#Engine_Core_LCS3Element_op_Implicit_
+  commentId: Overload:Engine.Core.LCS3Element.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: Engine.Core.LCS3Element.Implicit
+  fullName.vb: Engine.Core.LCS3Element.Widening
+  nameWithType: LCS3Element.Implicit
+  nameWithType.vb: LCS3Element.Widening
+- uid: Engine.Core.LCS3Element.Parent
+  name: Parent
+  href: engineAPI/Engine.Core.LCS3Element.html#Engine_Core_LCS3Element_Parent
+  commentId: P:Engine.Core.LCS3Element.Parent
+  fullName: Engine.Core.LCS3Element.Parent
+  nameWithType: LCS3Element.Parent
+- uid: Engine.Core.LCS3Element.Parent*
+  name: Parent
+  href: engineAPI/Engine.Core.LCS3Element.html#Engine_Core_LCS3Element_Parent_
+  commentId: Overload:Engine.Core.LCS3Element.Parent
+  isSpec: "True"
+  fullName: Engine.Core.LCS3Element.Parent
+  nameWithType: LCS3Element.Parent
+- uid: Engine.Core.LCS3ElementGroup
+  name: LCS3ElementGroup
+  href: engineAPI/Engine.Core.LCS3ElementGroup.html
+  commentId: T:Engine.Core.LCS3ElementGroup
+  fullName: Engine.Core.LCS3ElementGroup
+  nameWithType: LCS3ElementGroup
+- uid: Engine.Core.LCS3ElementGroup.#ctor(System.Guid,GCS3)
+  name: LCS3ElementGroup(Guid, GCS3)
+  href: engineAPI/Engine.Core.LCS3ElementGroup.html#Engine_Core_LCS3ElementGroup__ctor_System_Guid_GCS3_
+  commentId: M:Engine.Core.LCS3ElementGroup.#ctor(System.Guid,GCS3)
+  fullName: Engine.Core.LCS3ElementGroup.LCS3ElementGroup(System.Guid, GCS3)
+  nameWithType: LCS3ElementGroup.LCS3ElementGroup(Guid, GCS3)
+- uid: Engine.Core.LCS3ElementGroup.#ctor(System.Guid,System.Collections.Generic.List{Engine.Core.LCS3Element},GCS3)
+  name: LCS3ElementGroup(Guid, List<LCS3Element>, GCS3)
+  href: engineAPI/Engine.Core.LCS3ElementGroup.html#Engine_Core_LCS3ElementGroup__ctor_System_Guid_System_Collections_Generic_List_Engine_Core_LCS3Element__GCS3_
+  commentId: M:Engine.Core.LCS3ElementGroup.#ctor(System.Guid,System.Collections.Generic.List{Engine.Core.LCS3Element},GCS3)
+  name.vb: LCS3ElementGroup(Guid, List(Of LCS3Element), GCS3)
+  fullName: Engine.Core.LCS3ElementGroup.LCS3ElementGroup(System.Guid, System.Collections.Generic.List<Engine.Core.LCS3Element>, GCS3)
+  fullName.vb: Engine.Core.LCS3ElementGroup.LCS3ElementGroup(System.Guid, System.Collections.Generic.List(Of Engine.Core.LCS3Element), GCS3)
+  nameWithType: LCS3ElementGroup.LCS3ElementGroup(Guid, List<LCS3Element>, GCS3)
+  nameWithType.vb: LCS3ElementGroup.LCS3ElementGroup(Guid, List(Of LCS3Element), GCS3)
+- uid: Engine.Core.LCS3ElementGroup.#ctor*
+  name: LCS3ElementGroup
+  href: engineAPI/Engine.Core.LCS3ElementGroup.html#Engine_Core_LCS3ElementGroup__ctor_
+  commentId: Overload:Engine.Core.LCS3ElementGroup.#ctor
+  isSpec: "True"
+  fullName: Engine.Core.LCS3ElementGroup.LCS3ElementGroup
+  nameWithType: LCS3ElementGroup.LCS3ElementGroup
+- uid: Engine.Core.LCS3ElementGroup.Add(Engine.Core.LCS3Element)
+  name: Add(LCS3Element)
+  href: engineAPI/Engine.Core.LCS3ElementGroup.html#Engine_Core_LCS3ElementGroup_Add_Engine_Core_LCS3Element_
+  commentId: M:Engine.Core.LCS3ElementGroup.Add(Engine.Core.LCS3Element)
+  fullName: Engine.Core.LCS3ElementGroup.Add(Engine.Core.LCS3Element)
+  nameWithType: LCS3ElementGroup.Add(LCS3Element)
+- uid: Engine.Core.LCS3ElementGroup.Add*
+  name: Add
+  href: engineAPI/Engine.Core.LCS3ElementGroup.html#Engine_Core_LCS3ElementGroup_Add_
+  commentId: Overload:Engine.Core.LCS3ElementGroup.Add
+  isSpec: "True"
+  fullName: Engine.Core.LCS3ElementGroup.Add
+  nameWithType: LCS3ElementGroup.Add
+- uid: Engine.Core.LCS3ElementGroup.Bounding
+  name: Bounding
+  href: engineAPI/Engine.Core.LCS3ElementGroup.html#Engine_Core_LCS3ElementGroup_Bounding
+  commentId: P:Engine.Core.LCS3ElementGroup.Bounding
+  fullName: Engine.Core.LCS3ElementGroup.Bounding
+  nameWithType: LCS3ElementGroup.Bounding
+- uid: Engine.Core.LCS3ElementGroup.Bounding*
+  name: Bounding
+  href: engineAPI/Engine.Core.LCS3ElementGroup.html#Engine_Core_LCS3ElementGroup_Bounding_
+  commentId: Overload:Engine.Core.LCS3ElementGroup.Bounding
+  isSpec: "True"
+  fullName: Engine.Core.LCS3ElementGroup.Bounding
+  nameWithType: LCS3ElementGroup.Bounding
+- uid: Engine.Core.LCS3ElementGroup.Contains(Engine.Core.LCS3Element)
+  name: Contains(LCS3Element)
+  href: engineAPI/Engine.Core.LCS3ElementGroup.html#Engine_Core_LCS3ElementGroup_Contains_Engine_Core_LCS3Element_
+  commentId: M:Engine.Core.LCS3ElementGroup.Contains(Engine.Core.LCS3Element)
+  fullName: Engine.Core.LCS3ElementGroup.Contains(Engine.Core.LCS3Element)
+  nameWithType: LCS3ElementGroup.Contains(LCS3Element)
+- uid: Engine.Core.LCS3ElementGroup.Contains*
+  name: Contains
+  href: engineAPI/Engine.Core.LCS3ElementGroup.html#Engine_Core_LCS3ElementGroup_Contains_
+  commentId: Overload:Engine.Core.LCS3ElementGroup.Contains
+  isSpec: "True"
+  fullName: Engine.Core.LCS3ElementGroup.Contains
+  nameWithType: LCS3ElementGroup.Contains
+- uid: Engine.Core.LCS3ElementGroup.ContainsMesh(System.Int32,System.Collections.Generic.List{Mesh3D}@)
+  name: ContainsMesh(Int32, out List<Mesh3D>)
+  href: engineAPI/Engine.Core.LCS3ElementGroup.html#Engine_Core_LCS3ElementGroup_ContainsMesh_System_Int32_System_Collections_Generic_List_Mesh3D___
+  commentId: M:Engine.Core.LCS3ElementGroup.ContainsMesh(System.Int32,System.Collections.Generic.List{Mesh3D}@)
+  name.vb: ContainsMesh(Int32, ByRef List(Of Mesh3D))
+  fullName: Engine.Core.LCS3ElementGroup.ContainsMesh(System.Int32, out System.Collections.Generic.List<Mesh3D>)
+  fullName.vb: Engine.Core.LCS3ElementGroup.ContainsMesh(System.Int32, ByRef System.Collections.Generic.List(Of Mesh3D))
+  nameWithType: LCS3ElementGroup.ContainsMesh(Int32, out List<Mesh3D>)
+  nameWithType.vb: LCS3ElementGroup.ContainsMesh(Int32, ByRef List(Of Mesh3D))
+- uid: Engine.Core.LCS3ElementGroup.ContainsMesh*
+  name: ContainsMesh
+  href: engineAPI/Engine.Core.LCS3ElementGroup.html#Engine_Core_LCS3ElementGroup_ContainsMesh_
+  commentId: Overload:Engine.Core.LCS3ElementGroup.ContainsMesh
+  isSpec: "True"
+  fullName: Engine.Core.LCS3ElementGroup.ContainsMesh
+  nameWithType: LCS3ElementGroup.ContainsMesh
+- uid: Engine.Core.LCS3ElementGroup.GetAllByDepth(System.Int32)
+  name: GetAllByDepth(Int32)
+  href: engineAPI/Engine.Core.LCS3ElementGroup.html#Engine_Core_LCS3ElementGroup_GetAllByDepth_System_Int32_
+  commentId: M:Engine.Core.LCS3ElementGroup.GetAllByDepth(System.Int32)
+  fullName: Engine.Core.LCS3ElementGroup.GetAllByDepth(System.Int32)
+  nameWithType: LCS3ElementGroup.GetAllByDepth(Int32)
+- uid: Engine.Core.LCS3ElementGroup.GetAllByDepth*
+  name: GetAllByDepth
+  href: engineAPI/Engine.Core.LCS3ElementGroup.html#Engine_Core_LCS3ElementGroup_GetAllByDepth_
+  commentId: Overload:Engine.Core.LCS3ElementGroup.GetAllByDepth
+  isSpec: "True"
+  fullName: Engine.Core.LCS3ElementGroup.GetAllByDepth
+  nameWithType: LCS3ElementGroup.GetAllByDepth
+- uid: Engine.Core.LCS3ElementGroup.GetAllLCS3sByDepth(System.Int32)
+  name: GetAllLCS3sByDepth(Int32)
+  href: engineAPI/Engine.Core.LCS3ElementGroup.html#Engine_Core_LCS3ElementGroup_GetAllLCS3sByDepth_System_Int32_
+  commentId: M:Engine.Core.LCS3ElementGroup.GetAllLCS3sByDepth(System.Int32)
+  fullName: Engine.Core.LCS3ElementGroup.GetAllLCS3sByDepth(System.Int32)
+  nameWithType: LCS3ElementGroup.GetAllLCS3sByDepth(Int32)
+- uid: Engine.Core.LCS3ElementGroup.GetAllLCS3sByDepth*
+  name: GetAllLCS3sByDepth
+  href: engineAPI/Engine.Core.LCS3ElementGroup.html#Engine_Core_LCS3ElementGroup_GetAllLCS3sByDepth_
+  commentId: Overload:Engine.Core.LCS3ElementGroup.GetAllLCS3sByDepth
+  isSpec: "True"
+  fullName: Engine.Core.LCS3ElementGroup.GetAllLCS3sByDepth
+  nameWithType: LCS3ElementGroup.GetAllLCS3sByDepth
+- uid: Engine.Core.LCS3ElementGroup.GetBounding(System.Int32)
+  name: GetBounding(Int32)
+  href: engineAPI/Engine.Core.LCS3ElementGroup.html#Engine_Core_LCS3ElementGroup_GetBounding_System_Int32_
+  commentId: M:Engine.Core.LCS3ElementGroup.GetBounding(System.Int32)
+  fullName: Engine.Core.LCS3ElementGroup.GetBounding(System.Int32)
+  nameWithType: LCS3ElementGroup.GetBounding(Int32)
+- uid: Engine.Core.LCS3ElementGroup.GetBounding*
+  name: GetBounding
+  href: engineAPI/Engine.Core.LCS3ElementGroup.html#Engine_Core_LCS3ElementGroup_GetBounding_
+  commentId: Overload:Engine.Core.LCS3ElementGroup.GetBounding
+  isSpec: "True"
+  fullName: Engine.Core.LCS3ElementGroup.GetBounding
+  nameWithType: LCS3ElementGroup.GetBounding
+- uid: Engine.Core.LCS3ElementGroup.GroupID
+  name: GroupID
+  href: engineAPI/Engine.Core.LCS3ElementGroup.html#Engine_Core_LCS3ElementGroup_GroupID
+  commentId: P:Engine.Core.LCS3ElementGroup.GroupID
+  fullName: Engine.Core.LCS3ElementGroup.GroupID
+  nameWithType: LCS3ElementGroup.GroupID
+- uid: Engine.Core.LCS3ElementGroup.GroupID*
+  name: GroupID
+  href: engineAPI/Engine.Core.LCS3ElementGroup.html#Engine_Core_LCS3ElementGroup_GroupID_
+  commentId: Overload:Engine.Core.LCS3ElementGroup.GroupID
+  isSpec: "True"
+  fullName: Engine.Core.LCS3ElementGroup.GroupID
+  nameWithType: LCS3ElementGroup.GroupID
+- uid: Engine.Core.LCS3ElementGroup.InBoundingsMesh(System.Int32,Vector3,Mesh3D[]@)
+  name: InBoundingsMesh(Int32, Vector3, out Mesh3D[])
+  href: engineAPI/Engine.Core.LCS3ElementGroup.html#Engine_Core_LCS3ElementGroup_InBoundingsMesh_System_Int32_Vector3_Mesh3D____
+  commentId: M:Engine.Core.LCS3ElementGroup.InBoundingsMesh(System.Int32,Vector3,Mesh3D[]@)
+  name.vb: InBoundingsMesh(Int32, Vector3, ByRef Mesh3D())
+  fullName: Engine.Core.LCS3ElementGroup.InBoundingsMesh(System.Int32, Vector3, out Mesh3D[])
+  fullName.vb: Engine.Core.LCS3ElementGroup.InBoundingsMesh(System.Int32, Vector3, ByRef Mesh3D())
+  nameWithType: LCS3ElementGroup.InBoundingsMesh(Int32, Vector3, out Mesh3D[])
+  nameWithType.vb: LCS3ElementGroup.InBoundingsMesh(Int32, Vector3, ByRef Mesh3D())
+- uid: Engine.Core.LCS3ElementGroup.InBoundingsMesh*
+  name: InBoundingsMesh
+  href: engineAPI/Engine.Core.LCS3ElementGroup.html#Engine_Core_LCS3ElementGroup_InBoundingsMesh_
+  commentId: Overload:Engine.Core.LCS3ElementGroup.InBoundingsMesh
+  isSpec: "True"
+  fullName: Engine.Core.LCS3ElementGroup.InBoundingsMesh
+  nameWithType: LCS3ElementGroup.InBoundingsMesh
+- uid: Engine.Core.LCS3ElementGroup.MaxDepth
+  name: MaxDepth
+  href: engineAPI/Engine.Core.LCS3ElementGroup.html#Engine_Core_LCS3ElementGroup_MaxDepth
+  commentId: P:Engine.Core.LCS3ElementGroup.MaxDepth
+  fullName: Engine.Core.LCS3ElementGroup.MaxDepth
+  nameWithType: LCS3ElementGroup.MaxDepth
+- uid: Engine.Core.LCS3ElementGroup.MaxDepth*
+  name: MaxDepth
+  href: engineAPI/Engine.Core.LCS3ElementGroup.html#Engine_Core_LCS3ElementGroup_MaxDepth_
+  commentId: Overload:Engine.Core.LCS3ElementGroup.MaxDepth
+  isSpec: "True"
+  fullName: Engine.Core.LCS3ElementGroup.MaxDepth
+  nameWithType: LCS3ElementGroup.MaxDepth
+- uid: Engine.Core.LCS3ElementGroup.Remove(Engine.Core.LCS3Element)
+  name: Remove(LCS3Element)
+  href: engineAPI/Engine.Core.LCS3ElementGroup.html#Engine_Core_LCS3ElementGroup_Remove_Engine_Core_LCS3Element_
+  commentId: M:Engine.Core.LCS3ElementGroup.Remove(Engine.Core.LCS3Element)
+  fullName: Engine.Core.LCS3ElementGroup.Remove(Engine.Core.LCS3Element)
+  nameWithType: LCS3ElementGroup.Remove(LCS3Element)
+- uid: Engine.Core.LCS3ElementGroup.Remove*
+  name: Remove
+  href: engineAPI/Engine.Core.LCS3ElementGroup.html#Engine_Core_LCS3ElementGroup_Remove_
+  commentId: Overload:Engine.Core.LCS3ElementGroup.Remove
+  isSpec: "True"
+  fullName: Engine.Core.LCS3ElementGroup.Remove
+  nameWithType: LCS3ElementGroup.Remove
 - uid: Engine.Core.Maths
   name: Engine.Core.Maths
   href: engineAPI/Engine.Core.Maths.html
@@ -1491,12 +2238,6 @@ references:
   isSpec: "True"
   fullName: Engine.Core.Maths.GCS3.GCS3
   nameWithType: GCS3.GCS3
-- uid: Engine.Core.Maths.GCS3.Add(LCS3)
-  name: Add(LCS3)
-  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_Add_LCS3_
-  commentId: M:Engine.Core.Maths.GCS3.Add(LCS3)
-  fullName: Engine.Core.Maths.GCS3.Add(LCS3)
-  nameWithType: GCS3.Add(LCS3)
 - uid: Engine.Core.Maths.GCS3.Add(LightSource)
   name: Add(LightSource)
   href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_Add_LightSource_
@@ -1510,30 +2251,116 @@ references:
   isSpec: "True"
   fullName: Engine.Core.Maths.GCS3.Add
   nameWithType: GCS3.Add
+- uid: Engine.Core.Maths.GCS3.AddLCSToBase(LCS3)
+  name: AddLCSToBase(LCS3)
+  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_AddLCSToBase_LCS3_
+  commentId: M:Engine.Core.Maths.GCS3.AddLCSToBase(LCS3)
+  fullName: Engine.Core.Maths.GCS3.AddLCSToBase(LCS3)
+  nameWithType: GCS3.AddLCSToBase(LCS3)
+- uid: Engine.Core.Maths.GCS3.AddLCSToBase*
+  name: AddLCSToBase
+  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_AddLCSToBase_
+  commentId: Overload:Engine.Core.Maths.GCS3.AddLCSToBase
+  isSpec: "True"
+  fullName: Engine.Core.Maths.GCS3.AddLCSToBase
+  nameWithType: GCS3.AddLCSToBase
 - uid: Engine.Core.Maths.GCS3.Axes
   name: Axes
   href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_Axes
   commentId: F:Engine.Core.Maths.GCS3.Axes
   fullName: Engine.Core.Maths.GCS3.Axes
   nameWithType: GCS3.Axes
+- uid: Engine.Core.Maths.GCS3.GetGroup(System.Guid)
+  name: GetGroup(Guid)
+  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_GetGroup_System_Guid_
+  commentId: M:Engine.Core.Maths.GCS3.GetGroup(System.Guid)
+  fullName: Engine.Core.Maths.GCS3.GetGroup(System.Guid)
+  nameWithType: GCS3.GetGroup(Guid)
+- uid: Engine.Core.Maths.GCS3.GetGroup*
+  name: GetGroup
+  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_GetGroup_
+  commentId: Overload:Engine.Core.Maths.GCS3.GetGroup
+  isSpec: "True"
+  fullName: Engine.Core.Maths.GCS3.GetGroup
+  nameWithType: GCS3.GetGroup
+- uid: Engine.Core.Maths.GCS3.GetGroupContaining(LCS3)
+  name: GetGroupContaining(LCS3)
+  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_GetGroupContaining_LCS3_
+  commentId: M:Engine.Core.Maths.GCS3.GetGroupContaining(LCS3)
+  fullName: Engine.Core.Maths.GCS3.GetGroupContaining(LCS3)
+  nameWithType: GCS3.GetGroupContaining(LCS3)
+- uid: Engine.Core.Maths.GCS3.GetGroupContaining*
+  name: GetGroupContaining
+  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_GetGroupContaining_
+  commentId: Overload:Engine.Core.Maths.GCS3.GetGroupContaining
+  isSpec: "True"
+  fullName: Engine.Core.Maths.GCS3.GetGroupContaining
+  nameWithType: GCS3.GetGroupContaining
+- uid: Engine.Core.Maths.GCS3.GetLCS3Element(LCS3)
+  name: GetLCS3Element(LCS3)
+  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_GetLCS3Element_LCS3_
+  commentId: M:Engine.Core.Maths.GCS3.GetLCS3Element(LCS3)
+  fullName: Engine.Core.Maths.GCS3.GetLCS3Element(LCS3)
+  nameWithType: GCS3.GetLCS3Element(LCS3)
+- uid: Engine.Core.Maths.GCS3.GetLCS3Element*
+  name: GetLCS3Element
+  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_GetLCS3Element_
+  commentId: Overload:Engine.Core.Maths.GCS3.GetLCS3Element
+  isSpec: "True"
+  fullName: Engine.Core.Maths.GCS3.GetLCS3Element
+  nameWithType: GCS3.GetLCS3Element
+- uid: Engine.Core.Maths.GCS3.GetLCS3ElementIndex(LCS3)
+  name: GetLCS3ElementIndex(LCS3)
+  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_GetLCS3ElementIndex_LCS3_
+  commentId: M:Engine.Core.Maths.GCS3.GetLCS3ElementIndex(LCS3)
+  fullName: Engine.Core.Maths.GCS3.GetLCS3ElementIndex(LCS3)
+  nameWithType: GCS3.GetLCS3ElementIndex(LCS3)
+- uid: Engine.Core.Maths.GCS3.GetLCS3ElementIndex*
+  name: GetLCS3ElementIndex
+  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_GetLCS3ElementIndex_
+  commentId: Overload:Engine.Core.Maths.GCS3.GetLCS3ElementIndex
+  isSpec: "True"
+  fullName: Engine.Core.Maths.GCS3.GetLCS3ElementIndex
+  nameWithType: GCS3.GetLCS3ElementIndex
+- uid: Engine.Core.Maths.GCS3.GroupExists(System.Guid)
+  name: GroupExists(Guid)
+  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_GroupExists_System_Guid_
+  commentId: M:Engine.Core.Maths.GCS3.GroupExists(System.Guid)
+  fullName: Engine.Core.Maths.GCS3.GroupExists(System.Guid)
+  nameWithType: GCS3.GroupExists(Guid)
+- uid: Engine.Core.Maths.GCS3.GroupExists*
+  name: GroupExists
+  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_GroupExists_
+  commentId: Overload:Engine.Core.Maths.GCS3.GroupExists
+  isSpec: "True"
+  fullName: Engine.Core.Maths.GCS3.GroupExists
+  nameWithType: GCS3.GroupExists
 - uid: Engine.Core.Maths.GCS3.LightSources
   name: LightSources
   href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_LightSources
-  commentId: F:Engine.Core.Maths.GCS3.LightSources
+  commentId: P:Engine.Core.Maths.GCS3.LightSources
   fullName: Engine.Core.Maths.GCS3.LightSources
   nameWithType: GCS3.LightSources
-- uid: Engine.Core.Maths.GCS3.LocalSystems
-  name: LocalSystems
-  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_LocalSystems
-  commentId: F:Engine.Core.Maths.GCS3.LocalSystems
-  fullName: Engine.Core.Maths.GCS3.LocalSystems
-  nameWithType: GCS3.LocalSystems
-- uid: Engine.Core.Maths.GCS3.Remove(LCS3)
-  name: Remove(LCS3)
-  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_Remove_LCS3_
-  commentId: M:Engine.Core.Maths.GCS3.Remove(LCS3)
-  fullName: Engine.Core.Maths.GCS3.Remove(LCS3)
-  nameWithType: GCS3.Remove(LCS3)
+- uid: Engine.Core.Maths.GCS3.LightSources*
+  name: LightSources
+  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_LightSources_
+  commentId: Overload:Engine.Core.Maths.GCS3.LightSources
+  isSpec: "True"
+  fullName: Engine.Core.Maths.GCS3.LightSources
+  nameWithType: GCS3.LightSources
+- uid: Engine.Core.Maths.GCS3.RegisterLCS(LCS3)
+  name: RegisterLCS(LCS3)
+  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_RegisterLCS_LCS3_
+  commentId: M:Engine.Core.Maths.GCS3.RegisterLCS(LCS3)
+  fullName: Engine.Core.Maths.GCS3.RegisterLCS(LCS3)
+  nameWithType: GCS3.RegisterLCS(LCS3)
+- uid: Engine.Core.Maths.GCS3.RegisterLCS*
+  name: RegisterLCS
+  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_RegisterLCS_
+  commentId: Overload:Engine.Core.Maths.GCS3.RegisterLCS
+  isSpec: "True"
+  fullName: Engine.Core.Maths.GCS3.RegisterLCS
+  nameWithType: GCS3.RegisterLCS
 - uid: Engine.Core.Maths.GCS3.Remove(LightSource)
   name: Remove(LightSource)
   href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_Remove_LightSource_
@@ -1547,6 +2374,71 @@ references:
   isSpec: "True"
   fullName: Engine.Core.Maths.GCS3.Remove
   nameWithType: GCS3.Remove
+- uid: Engine.Core.Maths.GCS3.RemoveFromBase(LCS3)
+  name: RemoveFromBase(LCS3)
+  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_RemoveFromBase_LCS3_
+  commentId: M:Engine.Core.Maths.GCS3.RemoveFromBase(LCS3)
+  fullName: Engine.Core.Maths.GCS3.RemoveFromBase(LCS3)
+  nameWithType: GCS3.RemoveFromBase(LCS3)
+- uid: Engine.Core.Maths.GCS3.RemoveFromBase*
+  name: RemoveFromBase
+  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_RemoveFromBase_
+  commentId: Overload:Engine.Core.Maths.GCS3.RemoveFromBase
+  isSpec: "True"
+  fullName: Engine.Core.Maths.GCS3.RemoveFromBase
+  nameWithType: GCS3.RemoveFromBase
+- uid: Engine.Core.Maths.GCS3.ReregisterAllLCS
+  name: ReregisterAllLCS()
+  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_ReregisterAllLCS
+  commentId: M:Engine.Core.Maths.GCS3.ReregisterAllLCS
+  fullName: Engine.Core.Maths.GCS3.ReregisterAllLCS()
+  nameWithType: GCS3.ReregisterAllLCS()
+- uid: Engine.Core.Maths.GCS3.ReregisterAllLCS*
+  name: ReregisterAllLCS
+  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_ReregisterAllLCS_
+  commentId: Overload:Engine.Core.Maths.GCS3.ReregisterAllLCS
+  isSpec: "True"
+  fullName: Engine.Core.Maths.GCS3.ReregisterAllLCS
+  nameWithType: GCS3.ReregisterAllLCS
+- uid: Engine.Core.Maths.GCS3.ReregisterLCS(LCS3)
+  name: ReregisterLCS(LCS3)
+  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_ReregisterLCS_LCS3_
+  commentId: M:Engine.Core.Maths.GCS3.ReregisterLCS(LCS3)
+  fullName: Engine.Core.Maths.GCS3.ReregisterLCS(LCS3)
+  nameWithType: GCS3.ReregisterLCS(LCS3)
+- uid: Engine.Core.Maths.GCS3.ReregisterLCS*
+  name: ReregisterLCS
+  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_ReregisterLCS_
+  commentId: Overload:Engine.Core.Maths.GCS3.ReregisterLCS
+  isSpec: "True"
+  fullName: Engine.Core.Maths.GCS3.ReregisterLCS
+  nameWithType: GCS3.ReregisterLCS
+- uid: Engine.Core.Maths.GCS3.SpatialPartitioning
+  name: SpatialPartitioning
+  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_SpatialPartitioning
+  commentId: P:Engine.Core.Maths.GCS3.SpatialPartitioning
+  fullName: Engine.Core.Maths.GCS3.SpatialPartitioning
+  nameWithType: GCS3.SpatialPartitioning
+- uid: Engine.Core.Maths.GCS3.SpatialPartitioning*
+  name: SpatialPartitioning
+  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_SpatialPartitioning_
+  commentId: Overload:Engine.Core.Maths.GCS3.SpatialPartitioning
+  isSpec: "True"
+  fullName: Engine.Core.Maths.GCS3.SpatialPartitioning
+  nameWithType: GCS3.SpatialPartitioning
+- uid: Engine.Core.Maths.GCS3.UnregisterLCS(LCS3)
+  name: UnregisterLCS(LCS3)
+  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_UnregisterLCS_LCS3_
+  commentId: M:Engine.Core.Maths.GCS3.UnregisterLCS(LCS3)
+  fullName: Engine.Core.Maths.GCS3.UnregisterLCS(LCS3)
+  nameWithType: GCS3.UnregisterLCS(LCS3)
+- uid: Engine.Core.Maths.GCS3.UnregisterLCS*
+  name: UnregisterLCS
+  href: engineAPI/Engine.Core.Maths.GCS3.html#Engine_Core_Maths_GCS3_UnregisterLCS_
+  commentId: Overload:Engine.Core.Maths.GCS3.UnregisterLCS
+  isSpec: "True"
+  fullName: Engine.Core.Maths.GCS3.UnregisterLCS
+  nameWithType: GCS3.UnregisterLCS
 - uid: Engine.Core.Maths.IMatrix
   name: IMatrix
   href: engineAPI/Engine.Core.Maths.IMatrix.html
@@ -6283,6 +7175,12 @@ references:
   commentId: F:Engine.Core.Object3D.Components
   fullName: Engine.Core.Object3D.Components
   nameWithType: Object3D.Components
+- uid: Engine.Core.Object3D.customTags
+  name: customTags
+  href: engineAPI/Engine.Core.Object3D.html#Engine_Core_Object3D_customTags
+  commentId: F:Engine.Core.Object3D.customTags
+  fullName: Engine.Core.Object3D.customTags
+  nameWithType: Object3D.customTags
 - uid: Engine.Core.Object3D.FindChild(System.String)
   name: FindChild(String)
   href: engineAPI/Engine.Core.Object3D.html#Engine_Core_Object3D_FindChild_System_String_
@@ -6346,6 +7244,19 @@ references:
   fullName.vb: Engine.Core.Object3D.GetComponents(Of T)(T)
   nameWithType: Object3D.GetComponents<T>(T)
   nameWithType.vb: Object3D.GetComponents(Of T)(T)
+- uid: Engine.Core.Object3D.InternalTag
+  name: InternalTag
+  href: engineAPI/Engine.Core.Object3D.html#Engine_Core_Object3D_InternalTag
+  commentId: P:Engine.Core.Object3D.InternalTag
+  fullName: Engine.Core.Object3D.InternalTag
+  nameWithType: Object3D.InternalTag
+- uid: Engine.Core.Object3D.InternalTag*
+  name: InternalTag
+  href: engineAPI/Engine.Core.Object3D.html#Engine_Core_Object3D_InternalTag_
+  commentId: Overload:Engine.Core.Object3D.InternalTag
+  isSpec: "True"
+  fullName: Engine.Core.Object3D.InternalTag
+  nameWithType: Object3D.InternalTag
 - uid: Engine.Core.Object3D.Local
   name: Local
   href: engineAPI/Engine.Core.Object3D.html#Engine_Core_Object3D_Local
@@ -6432,12 +7343,12 @@ references:
   commentId: T:Engine.Core.Particle
   fullName: Engine.Core.Particle
   nameWithType: Particle
-- uid: Engine.Core.Particle.#ctor(System.Boolean)
-  name: Particle(Boolean)
-  href: engineAPI/Engine.Core.Particle.html#Engine_Core_Particle__ctor_System_Boolean_
-  commentId: M:Engine.Core.Particle.#ctor(System.Boolean)
-  fullName: Engine.Core.Particle.Particle(System.Boolean)
-  nameWithType: Particle.Particle(Boolean)
+- uid: Engine.Core.Particle.#ctor(Vector3,System.Boolean)
+  name: Particle(Vector3, Boolean)
+  href: engineAPI/Engine.Core.Particle.html#Engine_Core_Particle__ctor_Vector3_System_Boolean_
+  commentId: M:Engine.Core.Particle.#ctor(Vector3,System.Boolean)
+  fullName: Engine.Core.Particle.Particle(Vector3, System.Boolean)
+  nameWithType: Particle.Particle(Vector3, Boolean)
 - uid: Engine.Core.Particle.#ctor*
   name: Particle
   href: engineAPI/Engine.Core.Particle.html#Engine_Core_Particle__ctor_
@@ -6445,19 +7356,45 @@ references:
   isSpec: "True"
   fullName: Engine.Core.Particle.Particle
   nameWithType: Particle.Particle
-- uid: Engine.Core.Particle.CheckPosition
-  name: CheckPosition()
-  href: engineAPI/Engine.Core.Particle.html#Engine_Core_Particle_CheckPosition
-  commentId: M:Engine.Core.Particle.CheckPosition
-  fullName: Engine.Core.Particle.CheckPosition()
-  nameWithType: Particle.CheckPosition()
-- uid: Engine.Core.Particle.CheckPosition*
-  name: CheckPosition
-  href: engineAPI/Engine.Core.Particle.html#Engine_Core_Particle_CheckPosition_
-  commentId: Overload:Engine.Core.Particle.CheckPosition
+- uid: Engine.Core.Particle.Finalize
+  name: Finalize()
+  href: engineAPI/Engine.Core.Particle.html#Engine_Core_Particle_Finalize
+  commentId: M:Engine.Core.Particle.Finalize
+  fullName: Engine.Core.Particle.Finalize()
+  nameWithType: Particle.Finalize()
+- uid: Engine.Core.Particle.Finalize*
+  name: Finalize
+  href: engineAPI/Engine.Core.Particle.html#Engine_Core_Particle_Finalize_
+  commentId: Overload:Engine.Core.Particle.Finalize
   isSpec: "True"
-  fullName: Engine.Core.Particle.CheckPosition
-  nameWithType: Particle.CheckPosition
+  fullName: Engine.Core.Particle.Finalize
+  nameWithType: Particle.Finalize
+- uid: Engine.Core.Particle.GetCollisions
+  name: GetCollisions()
+  href: engineAPI/Engine.Core.Particle.html#Engine_Core_Particle_GetCollisions
+  commentId: M:Engine.Core.Particle.GetCollisions
+  fullName: Engine.Core.Particle.GetCollisions()
+  nameWithType: Particle.GetCollisions()
+- uid: Engine.Core.Particle.GetCollisions*
+  name: GetCollisions
+  href: engineAPI/Engine.Core.Particle.html#Engine_Core_Particle_GetCollisions_
+  commentId: Overload:Engine.Core.Particle.GetCollisions
+  isSpec: "True"
+  fullName: Engine.Core.Particle.GetCollisions
+  nameWithType: Particle.GetCollisions
+- uid: Engine.Core.Particle.Position
+  name: Position
+  href: engineAPI/Engine.Core.Particle.html#Engine_Core_Particle_Position
+  commentId: P:Engine.Core.Particle.Position
+  fullName: Engine.Core.Particle.Position
+  nameWithType: Particle.Position
+- uid: Engine.Core.Particle.Position*
+  name: Position
+  href: engineAPI/Engine.Core.Particle.html#Engine_Core_Particle_Position_
+  commentId: Overload:Engine.Core.Particle.Position
+  isSpec: "True"
+  fullName: Engine.Core.Particle.Position
+  nameWithType: Particle.Position
 - uid: Engine.Core.Particle.SetPosition(Vector3)
   name: SetPosition(Vector3)
   href: engineAPI/Engine.Core.Particle.html#Engine_Core_Particle_SetPosition_Vector3_
@@ -6471,6 +7408,589 @@ references:
   isSpec: "True"
   fullName: Engine.Core.Particle.SetPosition
   nameWithType: Particle.SetPosition
+- uid: Engine.Core.Particle.Update
+  name: Update()
+  href: engineAPI/Engine.Core.Particle.html#Engine_Core_Particle_Update
+  commentId: M:Engine.Core.Particle.Update
+  fullName: Engine.Core.Particle.Update()
+  nameWithType: Particle.Update()
+- uid: Engine.Core.Particle.Update*
+  name: Update
+  href: engineAPI/Engine.Core.Particle.html#Engine_Core_Particle_Update_
+  commentId: Overload:Engine.Core.Particle.Update
+  isSpec: "True"
+  fullName: Engine.Core.Particle.Update
+  nameWithType: Particle.Update
+- uid: Engine.Core.Physics.CollisionDetection
+  name: Engine.Core.Physics.CollisionDetection
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.html
+  commentId: N:Engine.Core.Physics.CollisionDetection
+  fullName: Engine.Core.Physics.CollisionDetection
+  nameWithType: Engine.Core.Physics.CollisionDetection
+- uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D
+  name: BoundingBox3D
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.BoundingBox3D.html
+  commentId: T:Engine.Core.Physics.CollisionDetection.BoundingBox3D
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingBox3D
+  nameWithType: BoundingBox3D
+- uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D.#ctor(Engine.Core.Physics.CollisionDetection.BoundingBox3D)
+  name: BoundingBox3D(BoundingBox3D)
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.BoundingBox3D.html#Engine_Core_Physics_CollisionDetection_BoundingBox3D__ctor_Engine_Core_Physics_CollisionDetection_BoundingBox3D_
+  commentId: M:Engine.Core.Physics.CollisionDetection.BoundingBox3D.#ctor(Engine.Core.Physics.CollisionDetection.BoundingBox3D)
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingBox3D.BoundingBox3D(Engine.Core.Physics.CollisionDetection.BoundingBox3D)
+  nameWithType: BoundingBox3D.BoundingBox3D(BoundingBox3D)
+- uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D.#ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  name: BoundingBox3D(Single, Single, Single, Single, Single, Single)
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.BoundingBox3D.html#Engine_Core_Physics_CollisionDetection_BoundingBox3D__ctor_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_
+  commentId: M:Engine.Core.Physics.CollisionDetection.BoundingBox3D.#ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingBox3D.BoundingBox3D(System.Single, System.Single, System.Single, System.Single, System.Single, System.Single)
+  nameWithType: BoundingBox3D.BoundingBox3D(Single, Single, Single, Single, Single, Single)
+- uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D.#ctor*
+  name: BoundingBox3D
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.BoundingBox3D.html#Engine_Core_Physics_CollisionDetection_BoundingBox3D__ctor_
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.BoundingBox3D.#ctor
+  isSpec: "True"
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingBox3D.BoundingBox3D
+  nameWithType: BoundingBox3D.BoundingBox3D
+- uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D.BoundingDepth
+  name: BoundingDepth
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.BoundingBox3D.html#Engine_Core_Physics_CollisionDetection_BoundingBox3D_BoundingDepth
+  commentId: P:Engine.Core.Physics.CollisionDetection.BoundingBox3D.BoundingDepth
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingBox3D.BoundingDepth
+  nameWithType: BoundingBox3D.BoundingDepth
+- uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D.BoundingDepth*
+  name: BoundingDepth
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.BoundingBox3D.html#Engine_Core_Physics_CollisionDetection_BoundingBox3D_BoundingDepth_
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.BoundingBox3D.BoundingDepth
+  isSpec: "True"
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingBox3D.BoundingDepth
+  nameWithType: BoundingBox3D.BoundingDepth
+- uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D.Contains(Vector3)
+  name: Contains(Vector3)
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.BoundingBox3D.html#Engine_Core_Physics_CollisionDetection_BoundingBox3D_Contains_Vector3_
+  commentId: M:Engine.Core.Physics.CollisionDetection.BoundingBox3D.Contains(Vector3)
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingBox3D.Contains(Vector3)
+  nameWithType: BoundingBox3D.Contains(Vector3)
+- uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D.Contains*
+  name: Contains
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.BoundingBox3D.html#Engine_Core_Physics_CollisionDetection_BoundingBox3D_Contains_
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.BoundingBox3D.Contains
+  isSpec: "True"
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingBox3D.Contains
+  nameWithType: BoundingBox3D.Contains
+- uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D.GetBoundingBox(Mesh3D)
+  name: GetBoundingBox(Mesh3D)
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.BoundingBox3D.html#Engine_Core_Physics_CollisionDetection_BoundingBox3D_GetBoundingBox_Mesh3D_
+  commentId: M:Engine.Core.Physics.CollisionDetection.BoundingBox3D.GetBoundingBox(Mesh3D)
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingBox3D.GetBoundingBox(Mesh3D)
+  nameWithType: BoundingBox3D.GetBoundingBox(Mesh3D)
+- uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D.GetBoundingBox*
+  name: GetBoundingBox
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.BoundingBox3D.html#Engine_Core_Physics_CollisionDetection_BoundingBox3D_GetBoundingBox_
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.BoundingBox3D.GetBoundingBox
+  isSpec: "True"
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingBox3D.GetBoundingBox
+  nameWithType: BoundingBox3D.GetBoundingBox
+- uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D.maxX1
+  name: maxX1
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.BoundingBox3D.html#Engine_Core_Physics_CollisionDetection_BoundingBox3D_maxX1
+  commentId: F:Engine.Core.Physics.CollisionDetection.BoundingBox3D.maxX1
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingBox3D.maxX1
+  nameWithType: BoundingBox3D.maxX1
+- uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D.maxX2
+  name: maxX2
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.BoundingBox3D.html#Engine_Core_Physics_CollisionDetection_BoundingBox3D_maxX2
+  commentId: F:Engine.Core.Physics.CollisionDetection.BoundingBox3D.maxX2
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingBox3D.maxX2
+  nameWithType: BoundingBox3D.maxX2
+- uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D.maxX3
+  name: maxX3
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.BoundingBox3D.html#Engine_Core_Physics_CollisionDetection_BoundingBox3D_maxX3
+  commentId: F:Engine.Core.Physics.CollisionDetection.BoundingBox3D.maxX3
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingBox3D.maxX3
+  nameWithType: BoundingBox3D.maxX3
+- uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D.minX1
+  name: minX1
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.BoundingBox3D.html#Engine_Core_Physics_CollisionDetection_BoundingBox3D_minX1
+  commentId: F:Engine.Core.Physics.CollisionDetection.BoundingBox3D.minX1
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingBox3D.minX1
+  nameWithType: BoundingBox3D.minX1
+- uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D.minX2
+  name: minX2
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.BoundingBox3D.html#Engine_Core_Physics_CollisionDetection_BoundingBox3D_minX2
+  commentId: F:Engine.Core.Physics.CollisionDetection.BoundingBox3D.minX2
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingBox3D.minX2
+  nameWithType: BoundingBox3D.minX2
+- uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D.minX3
+  name: minX3
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.BoundingBox3D.html#Engine_Core_Physics_CollisionDetection_BoundingBox3D_minX3
+  commentId: F:Engine.Core.Physics.CollisionDetection.BoundingBox3D.minX3
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingBox3D.minX3
+  nameWithType: BoundingBox3D.minX3
+- uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D.op_Implicit(Mesh3D)~Engine.Core.Physics.CollisionDetection.BoundingBox3D
+  name: Implicit(Mesh3D to BoundingBox3D)
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.BoundingBox3D.html#Engine_Core_Physics_CollisionDetection_BoundingBox3D_op_Implicit_Mesh3D__Engine_Core_Physics_CollisionDetection_BoundingBox3D
+  commentId: M:Engine.Core.Physics.CollisionDetection.BoundingBox3D.op_Implicit(Mesh3D)~Engine.Core.Physics.CollisionDetection.BoundingBox3D
+  name.vb: Widening(Mesh3D to BoundingBox3D)
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingBox3D.Implicit(Mesh3D to Engine.Core.Physics.CollisionDetection.BoundingBox3D)
+  fullName.vb: Engine.Core.Physics.CollisionDetection.BoundingBox3D.Widening(Mesh3D to Engine.Core.Physics.CollisionDetection.BoundingBox3D)
+  nameWithType: BoundingBox3D.Implicit(Mesh3D to BoundingBox3D)
+  nameWithType.vb: BoundingBox3D.Widening(Mesh3D to BoundingBox3D)
+- uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D.op_Implicit*
+  name: Implicit
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.BoundingBox3D.html#Engine_Core_Physics_CollisionDetection_BoundingBox3D_op_Implicit_
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.BoundingBox3D.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingBox3D.Implicit
+  fullName.vb: Engine.Core.Physics.CollisionDetection.BoundingBox3D.Widening
+  nameWithType: BoundingBox3D.Implicit
+  nameWithType.vb: BoundingBox3D.Widening
+- uid: Engine.Core.Physics.CollisionDetection.BoundingVolume3D
+  name: BoundingVolume3D
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.BoundingVolume3D.html
+  commentId: T:Engine.Core.Physics.CollisionDetection.BoundingVolume3D
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingVolume3D
+  nameWithType: BoundingVolume3D
+- uid: Engine.Core.Physics.CollisionDetection.BoundingVolume3D.#ctor(System.Collections.Generic.List{Engine.Core.Physics.CollisionDetection.BoundingBox3D})
+  name: BoundingVolume3D(List<BoundingBox3D>)
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.BoundingVolume3D.html#Engine_Core_Physics_CollisionDetection_BoundingVolume3D__ctor_System_Collections_Generic_List_Engine_Core_Physics_CollisionDetection_BoundingBox3D__
+  commentId: M:Engine.Core.Physics.CollisionDetection.BoundingVolume3D.#ctor(System.Collections.Generic.List{Engine.Core.Physics.CollisionDetection.BoundingBox3D})
+  name.vb: BoundingVolume3D(List(Of BoundingBox3D))
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingVolume3D.BoundingVolume3D(System.Collections.Generic.List<Engine.Core.Physics.CollisionDetection.BoundingBox3D>)
+  fullName.vb: Engine.Core.Physics.CollisionDetection.BoundingVolume3D.BoundingVolume3D(System.Collections.Generic.List(Of Engine.Core.Physics.CollisionDetection.BoundingBox3D))
+  nameWithType: BoundingVolume3D.BoundingVolume3D(List<BoundingBox3D>)
+  nameWithType.vb: BoundingVolume3D.BoundingVolume3D(List(Of BoundingBox3D))
+- uid: Engine.Core.Physics.CollisionDetection.BoundingVolume3D.#ctor(System.Collections.Generic.List{Engine.Core.Physics.CollisionDetection.BoundingVolume3D})
+  name: BoundingVolume3D(List<BoundingVolume3D>)
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.BoundingVolume3D.html#Engine_Core_Physics_CollisionDetection_BoundingVolume3D__ctor_System_Collections_Generic_List_Engine_Core_Physics_CollisionDetection_BoundingVolume3D__
+  commentId: M:Engine.Core.Physics.CollisionDetection.BoundingVolume3D.#ctor(System.Collections.Generic.List{Engine.Core.Physics.CollisionDetection.BoundingVolume3D})
+  name.vb: BoundingVolume3D(List(Of BoundingVolume3D))
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingVolume3D.BoundingVolume3D(System.Collections.Generic.List<Engine.Core.Physics.CollisionDetection.BoundingVolume3D>)
+  fullName.vb: Engine.Core.Physics.CollisionDetection.BoundingVolume3D.BoundingVolume3D(System.Collections.Generic.List(Of Engine.Core.Physics.CollisionDetection.BoundingVolume3D))
+  nameWithType: BoundingVolume3D.BoundingVolume3D(List<BoundingVolume3D>)
+  nameWithType.vb: BoundingVolume3D.BoundingVolume3D(List(Of BoundingVolume3D))
+- uid: Engine.Core.Physics.CollisionDetection.BoundingVolume3D.#ctor(System.Collections.Generic.List{Engine.Core.Physics.CollisionDetection.BoundingVolume3D},System.Collections.Generic.List{Engine.Core.Physics.CollisionDetection.BoundingBox3D})
+  name: BoundingVolume3D(List<BoundingVolume3D>, List<BoundingBox3D>)
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.BoundingVolume3D.html#Engine_Core_Physics_CollisionDetection_BoundingVolume3D__ctor_System_Collections_Generic_List_Engine_Core_Physics_CollisionDetection_BoundingVolume3D__System_Collections_Generic_List_Engine_Core_Physics_CollisionDetection_BoundingBox3D__
+  commentId: M:Engine.Core.Physics.CollisionDetection.BoundingVolume3D.#ctor(System.Collections.Generic.List{Engine.Core.Physics.CollisionDetection.BoundingVolume3D},System.Collections.Generic.List{Engine.Core.Physics.CollisionDetection.BoundingBox3D})
+  name.vb: BoundingVolume3D(List(Of BoundingVolume3D), List(Of BoundingBox3D))
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingVolume3D.BoundingVolume3D(System.Collections.Generic.List<Engine.Core.Physics.CollisionDetection.BoundingVolume3D>, System.Collections.Generic.List<Engine.Core.Physics.CollisionDetection.BoundingBox3D>)
+  fullName.vb: Engine.Core.Physics.CollisionDetection.BoundingVolume3D.BoundingVolume3D(System.Collections.Generic.List(Of Engine.Core.Physics.CollisionDetection.BoundingVolume3D), System.Collections.Generic.List(Of Engine.Core.Physics.CollisionDetection.BoundingBox3D))
+  nameWithType: BoundingVolume3D.BoundingVolume3D(List<BoundingVolume3D>, List<BoundingBox3D>)
+  nameWithType.vb: BoundingVolume3D.BoundingVolume3D(List(Of BoundingVolume3D), List(Of BoundingBox3D))
+- uid: Engine.Core.Physics.CollisionDetection.BoundingVolume3D.#ctor*
+  name: BoundingVolume3D
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.BoundingVolume3D.html#Engine_Core_Physics_CollisionDetection_BoundingVolume3D__ctor_
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.BoundingVolume3D.#ctor
+  isSpec: "True"
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingVolume3D.BoundingVolume3D
+  nameWithType: BoundingVolume3D.BoundingVolume3D
+- uid: Engine.Core.Physics.CollisionDetection.BoundingVolume3D.BoundingDepth
+  name: BoundingDepth
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.BoundingVolume3D.html#Engine_Core_Physics_CollisionDetection_BoundingVolume3D_BoundingDepth
+  commentId: P:Engine.Core.Physics.CollisionDetection.BoundingVolume3D.BoundingDepth
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingVolume3D.BoundingDepth
+  nameWithType: BoundingVolume3D.BoundingDepth
+- uid: Engine.Core.Physics.CollisionDetection.BoundingVolume3D.BoundingDepth*
+  name: BoundingDepth
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.BoundingVolume3D.html#Engine_Core_Physics_CollisionDetection_BoundingVolume3D_BoundingDepth_
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.BoundingVolume3D.BoundingDepth
+  isSpec: "True"
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingVolume3D.BoundingDepth
+  nameWithType: BoundingVolume3D.BoundingDepth
+- uid: Engine.Core.Physics.CollisionDetection.BoundingVolume3D.Boundings
+  name: Boundings
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.BoundingVolume3D.html#Engine_Core_Physics_CollisionDetection_BoundingVolume3D_Boundings
+  commentId: P:Engine.Core.Physics.CollisionDetection.BoundingVolume3D.Boundings
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingVolume3D.Boundings
+  nameWithType: BoundingVolume3D.Boundings
+- uid: Engine.Core.Physics.CollisionDetection.BoundingVolume3D.Boundings*
+  name: Boundings
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.BoundingVolume3D.html#Engine_Core_Physics_CollisionDetection_BoundingVolume3D_Boundings_
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.BoundingVolume3D.Boundings
+  isSpec: "True"
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingVolume3D.Boundings
+  nameWithType: BoundingVolume3D.Boundings
+- uid: Engine.Core.Physics.CollisionDetection.BoundingVolume3D.boxes
+  name: boxes
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.BoundingVolume3D.html#Engine_Core_Physics_CollisionDetection_BoundingVolume3D_boxes
+  commentId: F:Engine.Core.Physics.CollisionDetection.BoundingVolume3D.boxes
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingVolume3D.boxes
+  nameWithType: BoundingVolume3D.boxes
+- uid: Engine.Core.Physics.CollisionDetection.BoundingVolume3D.volumes
+  name: volumes
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.BoundingVolume3D.html#Engine_Core_Physics_CollisionDetection_BoundingVolume3D_volumes
+  commentId: F:Engine.Core.Physics.CollisionDetection.BoundingVolume3D.volumes
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingVolume3D.volumes
+  nameWithType: BoundingVolume3D.volumes
+- uid: Engine.Core.Physics.CollisionDetection.Cell
+  name: Cell
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.Cell.html
+  commentId: T:Engine.Core.Physics.CollisionDetection.Cell
+  fullName: Engine.Core.Physics.CollisionDetection.Cell
+  nameWithType: Cell
+- uid: Engine.Core.Physics.CollisionDetection.Cell.#ctor(Vector2)
+  name: Cell(Vector2)
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.Cell.html#Engine_Core_Physics_CollisionDetection_Cell__ctor_Vector2_
+  commentId: M:Engine.Core.Physics.CollisionDetection.Cell.#ctor(Vector2)
+  fullName: Engine.Core.Physics.CollisionDetection.Cell.Cell(Vector2)
+  nameWithType: Cell.Cell(Vector2)
+- uid: Engine.Core.Physics.CollisionDetection.Cell.#ctor(Vector2,Engine.Core.Physics.CollisionDetection.Cell)
+  name: Cell(Vector2, Cell)
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.Cell.html#Engine_Core_Physics_CollisionDetection_Cell__ctor_Vector2_Engine_Core_Physics_CollisionDetection_Cell_
+  commentId: M:Engine.Core.Physics.CollisionDetection.Cell.#ctor(Vector2,Engine.Core.Physics.CollisionDetection.Cell)
+  fullName: Engine.Core.Physics.CollisionDetection.Cell.Cell(Vector2, Engine.Core.Physics.CollisionDetection.Cell)
+  nameWithType: Cell.Cell(Vector2, Cell)
+- uid: Engine.Core.Physics.CollisionDetection.Cell.#ctor*
+  name: Cell
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.Cell.html#Engine_Core_Physics_CollisionDetection_Cell__ctor_
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.Cell.#ctor
+  isSpec: "True"
+  fullName: Engine.Core.Physics.CollisionDetection.Cell.Cell
+  nameWithType: Cell.Cell
+- uid: Engine.Core.Physics.CollisionDetection.Cell.Contains(Mesh3D)
+  name: Contains(Mesh3D)
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.Cell.html#Engine_Core_Physics_CollisionDetection_Cell_Contains_Mesh3D_
+  commentId: M:Engine.Core.Physics.CollisionDetection.Cell.Contains(Mesh3D)
+  fullName: Engine.Core.Physics.CollisionDetection.Cell.Contains(Mesh3D)
+  nameWithType: Cell.Contains(Mesh3D)
+- uid: Engine.Core.Physics.CollisionDetection.Cell.Contains*
+  name: Contains
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.Cell.html#Engine_Core_Physics_CollisionDetection_Cell_Contains_
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.Cell.Contains
+  isSpec: "True"
+  fullName: Engine.Core.Physics.CollisionDetection.Cell.Contains
+  nameWithType: Cell.Contains
+- uid: Engine.Core.Physics.CollisionDetection.Cell.Index
+  name: Index
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.Cell.html#Engine_Core_Physics_CollisionDetection_Cell_Index
+  commentId: P:Engine.Core.Physics.CollisionDetection.Cell.Index
+  fullName: Engine.Core.Physics.CollisionDetection.Cell.Index
+  nameWithType: Cell.Index
+- uid: Engine.Core.Physics.CollisionDetection.Cell.Index*
+  name: Index
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.Cell.html#Engine_Core_Physics_CollisionDetection_Cell_Index_
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.Cell.Index
+  isSpec: "True"
+  fullName: Engine.Core.Physics.CollisionDetection.Cell.Index
+  nameWithType: Cell.Index
+- uid: Engine.Core.Physics.CollisionDetection.Cell.meshes
+  name: meshes
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.Cell.html#Engine_Core_Physics_CollisionDetection_Cell_meshes
+  commentId: F:Engine.Core.Physics.CollisionDetection.Cell.meshes
+  fullName: Engine.Core.Physics.CollisionDetection.Cell.meshes
+  nameWithType: Cell.meshes
+- uid: Engine.Core.Physics.CollisionDetection.Grid
+  name: Grid
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.Grid.html
+  commentId: T:Engine.Core.Physics.CollisionDetection.Grid
+  fullName: Engine.Core.Physics.CollisionDetection.Grid
+  nameWithType: Grid
+- uid: Engine.Core.Physics.CollisionDetection.Grid.#ctor
+  name: Grid()
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.Grid.html#Engine_Core_Physics_CollisionDetection_Grid__ctor
+  commentId: M:Engine.Core.Physics.CollisionDetection.Grid.#ctor
+  fullName: Engine.Core.Physics.CollisionDetection.Grid.Grid()
+  nameWithType: Grid.Grid()
+- uid: Engine.Core.Physics.CollisionDetection.Grid.#ctor*
+  name: Grid
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.Grid.html#Engine_Core_Physics_CollisionDetection_Grid__ctor_
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.Grid.#ctor
+  isSpec: "True"
+  fullName: Engine.Core.Physics.CollisionDetection.Grid.Grid
+  nameWithType: Grid.Grid
+- uid: Engine.Core.Physics.CollisionDetection.Grid.AddMeshToCell(Vector2,Mesh3D)
+  name: AddMeshToCell(Vector2, Mesh3D)
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.Grid.html#Engine_Core_Physics_CollisionDetection_Grid_AddMeshToCell_Vector2_Mesh3D_
+  commentId: M:Engine.Core.Physics.CollisionDetection.Grid.AddMeshToCell(Vector2,Mesh3D)
+  fullName: Engine.Core.Physics.CollisionDetection.Grid.AddMeshToCell(Vector2, Mesh3D)
+  nameWithType: Grid.AddMeshToCell(Vector2, Mesh3D)
+- uid: Engine.Core.Physics.CollisionDetection.Grid.AddMeshToCell*
+  name: AddMeshToCell
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.Grid.html#Engine_Core_Physics_CollisionDetection_Grid_AddMeshToCell_
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.Grid.AddMeshToCell
+  isSpec: "True"
+  fullName: Engine.Core.Physics.CollisionDetection.Grid.AddMeshToCell
+  nameWithType: Grid.AddMeshToCell
+- uid: Engine.Core.Physics.CollisionDetection.Grid.CellContains(Vector2,Mesh3D)
+  name: CellContains(Vector2, Mesh3D)
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.Grid.html#Engine_Core_Physics_CollisionDetection_Grid_CellContains_Vector2_Mesh3D_
+  commentId: M:Engine.Core.Physics.CollisionDetection.Grid.CellContains(Vector2,Mesh3D)
+  fullName: Engine.Core.Physics.CollisionDetection.Grid.CellContains(Vector2, Mesh3D)
+  nameWithType: Grid.CellContains(Vector2, Mesh3D)
+- uid: Engine.Core.Physics.CollisionDetection.Grid.CellContains*
+  name: CellContains
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.Grid.html#Engine_Core_Physics_CollisionDetection_Grid_CellContains_
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.Grid.CellContains
+  isSpec: "True"
+  fullName: Engine.Core.Physics.CollisionDetection.Grid.CellContains
+  nameWithType: Grid.CellContains
+- uid: Engine.Core.Physics.CollisionDetection.Grid.Contains(Vector2)
+  name: Contains(Vector2)
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.Grid.html#Engine_Core_Physics_CollisionDetection_Grid_Contains_Vector2_
+  commentId: M:Engine.Core.Physics.CollisionDetection.Grid.Contains(Vector2)
+  fullName: Engine.Core.Physics.CollisionDetection.Grid.Contains(Vector2)
+  nameWithType: Grid.Contains(Vector2)
+- uid: Engine.Core.Physics.CollisionDetection.Grid.Contains*
+  name: Contains
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.Grid.html#Engine_Core_Physics_CollisionDetection_Grid_Contains_
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.Grid.Contains
+  isSpec: "True"
+  fullName: Engine.Core.Physics.CollisionDetection.Grid.Contains
+  nameWithType: Grid.Contains
+- uid: Engine.Core.Physics.CollisionDetection.Grid.GetCell(Vector2)
+  name: GetCell(Vector2)
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.Grid.html#Engine_Core_Physics_CollisionDetection_Grid_GetCell_Vector2_
+  commentId: M:Engine.Core.Physics.CollisionDetection.Grid.GetCell(Vector2)
+  fullName: Engine.Core.Physics.CollisionDetection.Grid.GetCell(Vector2)
+  nameWithType: Grid.GetCell(Vector2)
+- uid: Engine.Core.Physics.CollisionDetection.Grid.GetCell*
+  name: GetCell
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.Grid.html#Engine_Core_Physics_CollisionDetection_Grid_GetCell_
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.Grid.GetCell
+  isSpec: "True"
+  fullName: Engine.Core.Physics.CollisionDetection.Grid.GetCell
+  nameWithType: Grid.GetCell
+- uid: Engine.Core.Physics.CollisionDetection.Grid.GetMeshesInCell(Vector2)
+  name: GetMeshesInCell(Vector2)
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.Grid.html#Engine_Core_Physics_CollisionDetection_Grid_GetMeshesInCell_Vector2_
+  commentId: M:Engine.Core.Physics.CollisionDetection.Grid.GetMeshesInCell(Vector2)
+  fullName: Engine.Core.Physics.CollisionDetection.Grid.GetMeshesInCell(Vector2)
+  nameWithType: Grid.GetMeshesInCell(Vector2)
+- uid: Engine.Core.Physics.CollisionDetection.Grid.GetMeshesInCell*
+  name: GetMeshesInCell
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.Grid.html#Engine_Core_Physics_CollisionDetection_Grid_GetMeshesInCell_
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.Grid.GetMeshesInCell
+  isSpec: "True"
+  fullName: Engine.Core.Physics.CollisionDetection.Grid.GetMeshesInCell
+  nameWithType: Grid.GetMeshesInCell
+- uid: Engine.Core.Physics.CollisionDetection.Grid.GetMeshesInCells(Vector2[])
+  name: GetMeshesInCells(Vector2[])
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.Grid.html#Engine_Core_Physics_CollisionDetection_Grid_GetMeshesInCells_Vector2___
+  commentId: M:Engine.Core.Physics.CollisionDetection.Grid.GetMeshesInCells(Vector2[])
+  name.vb: GetMeshesInCells(Vector2())
+  fullName: Engine.Core.Physics.CollisionDetection.Grid.GetMeshesInCells(Vector2[])
+  fullName.vb: Engine.Core.Physics.CollisionDetection.Grid.GetMeshesInCells(Vector2())
+  nameWithType: Grid.GetMeshesInCells(Vector2[])
+  nameWithType.vb: Grid.GetMeshesInCells(Vector2())
+- uid: Engine.Core.Physics.CollisionDetection.Grid.GetMeshesInCells*
+  name: GetMeshesInCells
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.Grid.html#Engine_Core_Physics_CollisionDetection_Grid_GetMeshesInCells_
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.Grid.GetMeshesInCells
+  isSpec: "True"
+  fullName: Engine.Core.Physics.CollisionDetection.Grid.GetMeshesInCells
+  nameWithType: Grid.GetMeshesInCells
+- uid: Engine.Core.Physics.CollisionDetection.Grid.Item(Vector2)
+  name: Item[Vector2]
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.Grid.html#Engine_Core_Physics_CollisionDetection_Grid_Item_Vector2_
+  commentId: P:Engine.Core.Physics.CollisionDetection.Grid.Item(Vector2)
+  name.vb: Item(Vector2)
+  fullName: Engine.Core.Physics.CollisionDetection.Grid.Item[Vector2]
+  fullName.vb: Engine.Core.Physics.CollisionDetection.Grid.Item(Vector2)
+  nameWithType: Grid.Item[Vector2]
+  nameWithType.vb: Grid.Item(Vector2)
+- uid: Engine.Core.Physics.CollisionDetection.Grid.Item*
+  name: Item
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.Grid.html#Engine_Core_Physics_CollisionDetection_Grid_Item_
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.Grid.Item
+  isSpec: "True"
+  fullName: Engine.Core.Physics.CollisionDetection.Grid.Item
+  nameWithType: Grid.Item
+- uid: Engine.Core.Physics.CollisionDetection.Grid.RemoveMeshFromAllCells(Mesh3D)
+  name: RemoveMeshFromAllCells(Mesh3D)
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.Grid.html#Engine_Core_Physics_CollisionDetection_Grid_RemoveMeshFromAllCells_Mesh3D_
+  commentId: M:Engine.Core.Physics.CollisionDetection.Grid.RemoveMeshFromAllCells(Mesh3D)
+  fullName: Engine.Core.Physics.CollisionDetection.Grid.RemoveMeshFromAllCells(Mesh3D)
+  nameWithType: Grid.RemoveMeshFromAllCells(Mesh3D)
+- uid: Engine.Core.Physics.CollisionDetection.Grid.RemoveMeshFromAllCells*
+  name: RemoveMeshFromAllCells
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.Grid.html#Engine_Core_Physics_CollisionDetection_Grid_RemoveMeshFromAllCells_
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.Grid.RemoveMeshFromAllCells
+  isSpec: "True"
+  fullName: Engine.Core.Physics.CollisionDetection.Grid.RemoveMeshFromAllCells
+  nameWithType: Grid.RemoveMeshFromAllCells
+- uid: Engine.Core.Physics.CollisionDetection.Grid.RemoveMeshFromCell(Vector2,Mesh3D)
+  name: RemoveMeshFromCell(Vector2, Mesh3D)
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.Grid.html#Engine_Core_Physics_CollisionDetection_Grid_RemoveMeshFromCell_Vector2_Mesh3D_
+  commentId: M:Engine.Core.Physics.CollisionDetection.Grid.RemoveMeshFromCell(Vector2,Mesh3D)
+  fullName: Engine.Core.Physics.CollisionDetection.Grid.RemoveMeshFromCell(Vector2, Mesh3D)
+  nameWithType: Grid.RemoveMeshFromCell(Vector2, Mesh3D)
+- uid: Engine.Core.Physics.CollisionDetection.Grid.RemoveMeshFromCell*
+  name: RemoveMeshFromCell
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.Grid.html#Engine_Core_Physics_CollisionDetection_Grid_RemoveMeshFromCell_
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.Grid.RemoveMeshFromCell
+  isSpec: "True"
+  fullName: Engine.Core.Physics.CollisionDetection.Grid.RemoveMeshFromCell
+  nameWithType: Grid.RemoveMeshFromCell
+- uid: Engine.Core.Physics.CollisionDetection.Grid.SetCell(Vector2,Engine.Core.Physics.CollisionDetection.Cell)
+  name: SetCell(Vector2, Cell)
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.Grid.html#Engine_Core_Physics_CollisionDetection_Grid_SetCell_Vector2_Engine_Core_Physics_CollisionDetection_Cell_
+  commentId: M:Engine.Core.Physics.CollisionDetection.Grid.SetCell(Vector2,Engine.Core.Physics.CollisionDetection.Cell)
+  fullName: Engine.Core.Physics.CollisionDetection.Grid.SetCell(Vector2, Engine.Core.Physics.CollisionDetection.Cell)
+  nameWithType: Grid.SetCell(Vector2, Cell)
+- uid: Engine.Core.Physics.CollisionDetection.Grid.SetCell*
+  name: SetCell
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.Grid.html#Engine_Core_Physics_CollisionDetection_Grid_SetCell_
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.Grid.SetCell
+  isSpec: "True"
+  fullName: Engine.Core.Physics.CollisionDetection.Grid.SetCell
+  nameWithType: Grid.SetCell
+- uid: Engine.Core.Physics.CollisionDetection.ParticleCollision3D
+  name: ParticleCollision3D
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.ParticleCollision3D.html
+  commentId: T:Engine.Core.Physics.CollisionDetection.ParticleCollision3D
+  fullName: Engine.Core.Physics.CollisionDetection.ParticleCollision3D
+  nameWithType: ParticleCollision3D
+- uid: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.#ctor(Vector3,Engine.Core.Object3D,Mesh3D,Face3D)
+  name: ParticleCollision3D(Vector3, Object3D, Mesh3D, Face3D)
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.ParticleCollision3D.html#Engine_Core_Physics_CollisionDetection_ParticleCollision3D__ctor_Vector3_Engine_Core_Object3D_Mesh3D_Face3D_
+  commentId: M:Engine.Core.Physics.CollisionDetection.ParticleCollision3D.#ctor(Vector3,Engine.Core.Object3D,Mesh3D,Face3D)
+  fullName: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.ParticleCollision3D(Vector3, Engine.Core.Object3D, Mesh3D, Face3D)
+  nameWithType: ParticleCollision3D.ParticleCollision3D(Vector3, Object3D, Mesh3D, Face3D)
+- uid: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.#ctor*
+  name: ParticleCollision3D
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.ParticleCollision3D.html#Engine_Core_Physics_CollisionDetection_ParticleCollision3D__ctor_
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.ParticleCollision3D.#ctor
+  isSpec: "True"
+  fullName: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.ParticleCollision3D
+  nameWithType: ParticleCollision3D.ParticleCollision3D
+- uid: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.At
+  name: At
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.ParticleCollision3D.html#Engine_Core_Physics_CollisionDetection_ParticleCollision3D_At
+  commentId: P:Engine.Core.Physics.CollisionDetection.ParticleCollision3D.At
+  fullName: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.At
+  nameWithType: ParticleCollision3D.At
+- uid: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.At*
+  name: At
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.ParticleCollision3D.html#Engine_Core_Physics_CollisionDetection_ParticleCollision3D_At_
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.ParticleCollision3D.At
+  isSpec: "True"
+  fullName: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.At
+  nameWithType: ParticleCollision3D.At
+- uid: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.Face
+  name: Face
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.ParticleCollision3D.html#Engine_Core_Physics_CollisionDetection_ParticleCollision3D_Face
+  commentId: P:Engine.Core.Physics.CollisionDetection.ParticleCollision3D.Face
+  fullName: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.Face
+  nameWithType: ParticleCollision3D.Face
+- uid: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.Face*
+  name: Face
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.ParticleCollision3D.html#Engine_Core_Physics_CollisionDetection_ParticleCollision3D_Face_
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.ParticleCollision3D.Face
+  isSpec: "True"
+  fullName: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.Face
+  nameWithType: ParticleCollision3D.Face
+- uid: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.MeshHit
+  name: MeshHit
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.ParticleCollision3D.html#Engine_Core_Physics_CollisionDetection_ParticleCollision3D_MeshHit
+  commentId: P:Engine.Core.Physics.CollisionDetection.ParticleCollision3D.MeshHit
+  fullName: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.MeshHit
+  nameWithType: ParticleCollision3D.MeshHit
+- uid: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.MeshHit*
+  name: MeshHit
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.ParticleCollision3D.html#Engine_Core_Physics_CollisionDetection_ParticleCollision3D_MeshHit_
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.ParticleCollision3D.MeshHit
+  isSpec: "True"
+  fullName: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.MeshHit
+  nameWithType: ParticleCollision3D.MeshHit
+- uid: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.Object
+  name: Object
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.ParticleCollision3D.html#Engine_Core_Physics_CollisionDetection_ParticleCollision3D_Object
+  commentId: P:Engine.Core.Physics.CollisionDetection.ParticleCollision3D.Object
+  fullName: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.Object
+  nameWithType: ParticleCollision3D.Object
+- uid: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.Object*
+  name: Object
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.ParticleCollision3D.html#Engine_Core_Physics_CollisionDetection_ParticleCollision3D_Object_
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.ParticleCollision3D.Object
+  isSpec: "True"
+  fullName: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.Object
+  nameWithType: ParticleCollision3D.Object
+- uid: Engine.Core.Physics.CollisionDetection.SpatialPartitioning
+  name: SpatialPartitioning
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.SpatialPartitioning.html
+  commentId: T:Engine.Core.Physics.CollisionDetection.SpatialPartitioning
+  fullName: Engine.Core.Physics.CollisionDetection.SpatialPartitioning
+  nameWithType: SpatialPartitioning
+- uid: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.#ctor
+  name: SpatialPartitioning()
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.SpatialPartitioning.html#Engine_Core_Physics_CollisionDetection_SpatialPartitioning__ctor
+  commentId: M:Engine.Core.Physics.CollisionDetection.SpatialPartitioning.#ctor
+  fullName: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.SpatialPartitioning()
+  nameWithType: SpatialPartitioning.SpatialPartitioning()
+- uid: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.#ctor*
+  name: SpatialPartitioning
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.SpatialPartitioning.html#Engine_Core_Physics_CollisionDetection_SpatialPartitioning__ctor_
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.SpatialPartitioning.#ctor
+  isSpec: "True"
+  fullName: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.SpatialPartitioning
+  nameWithType: SpatialPartitioning.SpatialPartitioning
+- uid: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.CellSize
+  name: CellSize
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.SpatialPartitioning.html#Engine_Core_Physics_CollisionDetection_SpatialPartitioning_CellSize
+  commentId: P:Engine.Core.Physics.CollisionDetection.SpatialPartitioning.CellSize
+  fullName: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.CellSize
+  nameWithType: SpatialPartitioning.CellSize
+- uid: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.CellSize*
+  name: CellSize
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.SpatialPartitioning.html#Engine_Core_Physics_CollisionDetection_SpatialPartitioning_CellSize_
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.SpatialPartitioning.CellSize
+  isSpec: "True"
+  fullName: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.CellSize
+  nameWithType: SpatialPartitioning.CellSize
+- uid: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.GetMeshesAt(Vector3)
+  name: GetMeshesAt(Vector3)
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.SpatialPartitioning.html#Engine_Core_Physics_CollisionDetection_SpatialPartitioning_GetMeshesAt_Vector3_
+  commentId: M:Engine.Core.Physics.CollisionDetection.SpatialPartitioning.GetMeshesAt(Vector3)
+  fullName: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.GetMeshesAt(Vector3)
+  nameWithType: SpatialPartitioning.GetMeshesAt(Vector3)
+- uid: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.GetMeshesAt*
+  name: GetMeshesAt
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.SpatialPartitioning.html#Engine_Core_Physics_CollisionDetection_SpatialPartitioning_GetMeshesAt_
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.SpatialPartitioning.GetMeshesAt
+  isSpec: "True"
+  fullName: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.GetMeshesAt
+  nameWithType: SpatialPartitioning.GetMeshesAt
+- uid: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.MapMesh(Mesh3D)
+  name: MapMesh(Mesh3D)
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.SpatialPartitioning.html#Engine_Core_Physics_CollisionDetection_SpatialPartitioning_MapMesh_Mesh3D_
+  commentId: M:Engine.Core.Physics.CollisionDetection.SpatialPartitioning.MapMesh(Mesh3D)
+  fullName: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.MapMesh(Mesh3D)
+  nameWithType: SpatialPartitioning.MapMesh(Mesh3D)
+- uid: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.MapMesh*
+  name: MapMesh
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.SpatialPartitioning.html#Engine_Core_Physics_CollisionDetection_SpatialPartitioning_MapMesh_
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.SpatialPartitioning.MapMesh
+  isSpec: "True"
+  fullName: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.MapMesh
+  nameWithType: SpatialPartitioning.MapMesh
+- uid: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.RemoveMesh(Mesh3D)
+  name: RemoveMesh(Mesh3D)
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.SpatialPartitioning.html#Engine_Core_Physics_CollisionDetection_SpatialPartitioning_RemoveMesh_Mesh3D_
+  commentId: M:Engine.Core.Physics.CollisionDetection.SpatialPartitioning.RemoveMesh(Mesh3D)
+  fullName: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.RemoveMesh(Mesh3D)
+  nameWithType: SpatialPartitioning.RemoveMesh(Mesh3D)
+- uid: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.RemoveMesh*
+  name: RemoveMesh
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.SpatialPartitioning.html#Engine_Core_Physics_CollisionDetection_SpatialPartitioning_RemoveMesh_
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.SpatialPartitioning.RemoveMesh
+  isSpec: "True"
+  fullName: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.RemoveMesh
+  nameWithType: SpatialPartitioning.RemoveMesh
+- uid: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.UpdateMesh(Mesh3D)
+  name: UpdateMesh(Mesh3D)
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.SpatialPartitioning.html#Engine_Core_Physics_CollisionDetection_SpatialPartitioning_UpdateMesh_Mesh3D_
+  commentId: M:Engine.Core.Physics.CollisionDetection.SpatialPartitioning.UpdateMesh(Mesh3D)
+  fullName: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.UpdateMesh(Mesh3D)
+  nameWithType: SpatialPartitioning.UpdateMesh(Mesh3D)
+- uid: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.UpdateMesh*
+  name: UpdateMesh
+  href: engineAPI/Engine.Core.Physics.CollisionDetection.SpatialPartitioning.html#Engine_Core_Physics_CollisionDetection_SpatialPartitioning_UpdateMesh_
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.SpatialPartitioning.UpdateMesh
+  isSpec: "True"
+  fullName: Engine.Core.Physics.CollisionDetection.SpatialPartitioning.UpdateMesh
+  nameWithType: SpatialPartitioning.UpdateMesh
 - uid: Engine.Core.Physics.Optics
   name: Engine.Core.Physics.Optics
   href: engineAPI/Engine.Core.Physics.Optics.html
@@ -6619,36 +8139,50 @@ references:
   commentId: T:Engine.Core.Physics.Optics.LightRay
   fullName: Engine.Core.Physics.Optics.LightRay
   nameWithType: LightRay
+- uid: Engine.Core.Physics.Optics.LightRay.#ctor(Straight,System.Single)
+  name: LightRay(Straight, Single)
+  href: engineAPI/Engine.Core.Physics.Optics.LightRay.html#Engine_Core_Physics_Optics_LightRay__ctor_Straight_System_Single_
+  commentId: M:Engine.Core.Physics.Optics.LightRay.#ctor(Straight,System.Single)
+  fullName: Engine.Core.Physics.Optics.LightRay.LightRay(Straight, System.Single)
+  nameWithType: LightRay.LightRay(Straight, Single)
+- uid: Engine.Core.Physics.Optics.LightRay.#ctor(Straight,System.Single,System.Single)
+  name: LightRay(Straight, Single, Single)
+  href: engineAPI/Engine.Core.Physics.Optics.LightRay.html#Engine_Core_Physics_Optics_LightRay__ctor_Straight_System_Single_System_Single_
+  commentId: M:Engine.Core.Physics.Optics.LightRay.#ctor(Straight,System.Single,System.Single)
+  fullName: Engine.Core.Physics.Optics.LightRay.LightRay(Straight, System.Single, System.Single)
+  nameWithType: LightRay.LightRay(Straight, Single, Single)
+- uid: Engine.Core.Physics.Optics.LightRay.#ctor*
+  name: LightRay
+  href: engineAPI/Engine.Core.Physics.Optics.LightRay.html#Engine_Core_Physics_Optics_LightRay__ctor_
+  commentId: Overload:Engine.Core.Physics.Optics.LightRay.#ctor
+  isSpec: "True"
+  fullName: Engine.Core.Physics.Optics.LightRay.LightRay
+  nameWithType: LightRay.LightRay
 - uid: Engine.Core.Physics.Optics.LightSource
   name: LightSource
   href: engineAPI/Engine.Core.Physics.Optics.LightSource.html
   commentId: T:Engine.Core.Physics.Optics.LightSource
   fullName: Engine.Core.Physics.Optics.LightSource
   nameWithType: LightSource
-- uid: Engine.Core.Pixel
-  name: Pixel
-  href: engineAPI/Engine.Core.Pixel.html
-  commentId: T:Engine.Core.Pixel
-  fullName: Engine.Core.Pixel
-  nameWithType: Pixel
-- uid: Engine.Core.Pixel.color
-  name: color
-  href: engineAPI/Engine.Core.Pixel.html#Engine_Core_Pixel_color
-  commentId: F:Engine.Core.Pixel.color
-  fullName: Engine.Core.Pixel.color
-  nameWithType: Pixel.color
-- uid: Engine.Core.Pixel.x
-  name: x
-  href: engineAPI/Engine.Core.Pixel.html#Engine_Core_Pixel_x
-  commentId: F:Engine.Core.Pixel.x
-  fullName: Engine.Core.Pixel.x
-  nameWithType: Pixel.x
-- uid: Engine.Core.Pixel.y
-  name: y
-  href: engineAPI/Engine.Core.Pixel.html#Engine_Core_Pixel_y
-  commentId: F:Engine.Core.Pixel.y
-  fullName: Engine.Core.Pixel.y
-  nameWithType: Pixel.y
+- uid: Engine.Core.Physics.Optics.Photon
+  name: Photon
+  href: engineAPI/Engine.Core.Physics.Optics.Photon.html
+  commentId: T:Engine.Core.Physics.Optics.Photon
+  fullName: Engine.Core.Physics.Optics.Photon
+  nameWithType: Photon
+- uid: Engine.Core.Physics.Optics.Photon.#ctor(Vector3)
+  name: Photon(Vector3)
+  href: engineAPI/Engine.Core.Physics.Optics.Photon.html#Engine_Core_Physics_Optics_Photon__ctor_Vector3_
+  commentId: M:Engine.Core.Physics.Optics.Photon.#ctor(Vector3)
+  fullName: Engine.Core.Physics.Optics.Photon.Photon(Vector3)
+  nameWithType: Photon.Photon(Vector3)
+- uid: Engine.Core.Physics.Optics.Photon.#ctor*
+  name: Photon
+  href: engineAPI/Engine.Core.Physics.Optics.Photon.html#Engine_Core_Physics_Optics_Photon__ctor_
+  commentId: Overload:Engine.Core.Physics.Optics.Photon.#ctor
+  isSpec: "True"
+  fullName: Engine.Core.Physics.Optics.Photon.Photon
+  nameWithType: Photon.Photon
 - uid: Engine.Core.Ray
   name: Ray
   href: engineAPI/Engine.Core.Ray.html
@@ -6674,6 +8208,35 @@ references:
   isSpec: "True"
   fullName: Engine.Core.Ray.Ray
   nameWithType: Ray.Ray
+- uid: Engine.Core.Ray.EliminateAllParticles
+  name: EliminateAllParticles()
+  href: engineAPI/Engine.Core.Ray.html#Engine_Core_Ray_EliminateAllParticles
+  commentId: M:Engine.Core.Ray.EliminateAllParticles
+  fullName: Engine.Core.Ray.EliminateAllParticles()
+  nameWithType: Ray.EliminateAllParticles()
+- uid: Engine.Core.Ray.EliminateAllParticles*
+  name: EliminateAllParticles
+  href: engineAPI/Engine.Core.Ray.html#Engine_Core_Ray_EliminateAllParticles_
+  commentId: Overload:Engine.Core.Ray.EliminateAllParticles
+  isSpec: "True"
+  fullName: Engine.Core.Ray.EliminateAllParticles
+  nameWithType: Ray.EliminateAllParticles
+- uid: Engine.Core.Ray.EliminateParticle(Engine.Core.Particle@)
+  name: EliminateParticle(ref Particle)
+  href: engineAPI/Engine.Core.Ray.html#Engine_Core_Ray_EliminateParticle_Engine_Core_Particle__
+  commentId: M:Engine.Core.Ray.EliminateParticle(Engine.Core.Particle@)
+  name.vb: EliminateParticle(ByRef Particle)
+  fullName: Engine.Core.Ray.EliminateParticle(ref Engine.Core.Particle)
+  fullName.vb: Engine.Core.Ray.EliminateParticle(ByRef Engine.Core.Particle)
+  nameWithType: Ray.EliminateParticle(ref Particle)
+  nameWithType.vb: Ray.EliminateParticle(ByRef Particle)
+- uid: Engine.Core.Ray.EliminateParticle*
+  name: EliminateParticle
+  href: engineAPI/Engine.Core.Ray.html#Engine_Core_Ray_EliminateParticle_
+  commentId: Overload:Engine.Core.Ray.EliminateParticle
+  isSpec: "True"
+  fullName: Engine.Core.Ray.EliminateParticle
+  nameWithType: Ray.EliminateParticle
 - uid: Engine.Core.Ray.Emit(System.Single)
   name: Emit(Single)
   href: engineAPI/Engine.Core.Ray.html#Engine_Core_Ray_Emit_System_Single_
@@ -6687,6 +8250,71 @@ references:
   isSpec: "True"
   fullName: Engine.Core.Ray.Emit
   nameWithType: Ray.Emit
+- uid: Engine.Core.Ray.OnRayCollision(System.Collections.Generic.List{ParticleCollision3D})
+  name: OnRayCollision(List<ParticleCollision3D>)
+  href: engineAPI/Engine.Core.Ray.html#Engine_Core_Ray_OnRayCollision_System_Collections_Generic_List_ParticleCollision3D__
+  commentId: M:Engine.Core.Ray.OnRayCollision(System.Collections.Generic.List{ParticleCollision3D})
+  name.vb: OnRayCollision(List(Of ParticleCollision3D))
+  fullName: Engine.Core.Ray.OnRayCollision(System.Collections.Generic.List<ParticleCollision3D>)
+  fullName.vb: Engine.Core.Ray.OnRayCollision(System.Collections.Generic.List(Of ParticleCollision3D))
+  nameWithType: Ray.OnRayCollision(List<ParticleCollision3D>)
+  nameWithType.vb: Ray.OnRayCollision(List(Of ParticleCollision3D))
+- uid: Engine.Core.Ray.OnRayCollision*
+  name: OnRayCollision
+  href: engineAPI/Engine.Core.Ray.html#Engine_Core_Ray_OnRayCollision_
+  commentId: Overload:Engine.Core.Ray.OnRayCollision
+  isSpec: "True"
+  fullName: Engine.Core.Ray.OnRayCollision
+  nameWithType: Ray.OnRayCollision
+- uid: Engine.Core.Ray.Particle
+  name: Particle
+  href: engineAPI/Engine.Core.Ray.html#Engine_Core_Ray_Particle
+  commentId: P:Engine.Core.Ray.Particle
+  fullName: Engine.Core.Ray.Particle
+  nameWithType: Ray.Particle
+- uid: Engine.Core.Ray.Particle*
+  name: Particle
+  href: engineAPI/Engine.Core.Ray.html#Engine_Core_Ray_Particle_
+  commentId: Overload:Engine.Core.Ray.Particle
+  isSpec: "True"
+  fullName: Engine.Core.Ray.Particle
+  nameWithType: Ray.Particle
+- uid: Engine.Core.Rendering
+  name: Engine.Core.Rendering
+  href: engineAPI/Engine.Core.Rendering.html
+  commentId: N:Engine.Core.Rendering
+  fullName: Engine.Core.Rendering
+  nameWithType: Engine.Core.Rendering
+- uid: Engine.Core.Rendering.CameraRay
+  name: CameraRay
+  href: engineAPI/Engine.Core.Rendering.CameraRay.html
+  commentId: T:Engine.Core.Rendering.CameraRay
+  fullName: Engine.Core.Rendering.CameraRay
+  nameWithType: CameraRay
+- uid: Engine.Core.Rendering.Pixel
+  name: Pixel
+  href: engineAPI/Engine.Core.Rendering.Pixel.html
+  commentId: T:Engine.Core.Rendering.Pixel
+  fullName: Engine.Core.Rendering.Pixel
+  nameWithType: Pixel
+- uid: Engine.Core.Rendering.Pixel.color
+  name: color
+  href: engineAPI/Engine.Core.Rendering.Pixel.html#Engine_Core_Rendering_Pixel_color
+  commentId: F:Engine.Core.Rendering.Pixel.color
+  fullName: Engine.Core.Rendering.Pixel.color
+  nameWithType: Pixel.color
+- uid: Engine.Core.Rendering.Pixel.x
+  name: x
+  href: engineAPI/Engine.Core.Rendering.Pixel.html#Engine_Core_Rendering_Pixel_x
+  commentId: F:Engine.Core.Rendering.Pixel.x
+  fullName: Engine.Core.Rendering.Pixel.x
+  nameWithType: Pixel.x
+- uid: Engine.Core.Rendering.Pixel.y
+  name: y
+  href: engineAPI/Engine.Core.Rendering.Pixel.html#Engine_Core_Rendering_Pixel_y
+  commentId: F:Engine.Core.Rendering.Pixel.y
+  fullName: Engine.Core.Rendering.Pixel.y
+  nameWithType: Pixel.y
 - uid: Engine.Core.SceneManagement
   name: Engine.Core.SceneManagement
   href: engineAPI/Engine.Core.SceneManagement.html
@@ -6699,12 +8327,12 @@ references:
   commentId: T:Engine.Core.SceneManagement.Scene
   fullName: Engine.Core.SceneManagement.Scene
   nameWithType: Scene
-- uid: Engine.Core.SceneManagement.Scene.#ctor(System.Int32)
-  name: Scene(Int32)
-  href: engineAPI/Engine.Core.SceneManagement.Scene.html#Engine_Core_SceneManagement_Scene__ctor_System_Int32_
-  commentId: M:Engine.Core.SceneManagement.Scene.#ctor(System.Int32)
-  fullName: Engine.Core.SceneManagement.Scene.Scene(System.Int32)
-  nameWithType: Scene.Scene(Int32)
+- uid: Engine.Core.SceneManagement.Scene.#ctor(System.Int32,Engine.Core.SceneManagement.SceneType)
+  name: Scene(Int32, SceneType)
+  href: engineAPI/Engine.Core.SceneManagement.Scene.html#Engine_Core_SceneManagement_Scene__ctor_System_Int32_Engine_Core_SceneManagement_SceneType_
+  commentId: M:Engine.Core.SceneManagement.Scene.#ctor(System.Int32,Engine.Core.SceneManagement.SceneType)
+  fullName: Engine.Core.SceneManagement.Scene.Scene(System.Int32, Engine.Core.SceneManagement.SceneType)
+  nameWithType: Scene.Scene(Int32, SceneType)
 - uid: Engine.Core.SceneManagement.Scene.#ctor*
   name: Scene
   href: engineAPI/Engine.Core.SceneManagement.Scene.html#Engine_Core_SceneManagement_Scene__ctor_
@@ -6712,6 +8340,22 @@ references:
   isSpec: "True"
   fullName: Engine.Core.SceneManagement.Scene.Scene
   nameWithType: Scene.Scene
+- uid: Engine.Core.SceneManagement.Scene.GetGlobalCoordinateSystem(GCS3@)
+  name: GetGlobalCoordinateSystem(out GCS3)
+  href: engineAPI/Engine.Core.SceneManagement.Scene.html#Engine_Core_SceneManagement_Scene_GetGlobalCoordinateSystem_GCS3__
+  commentId: M:Engine.Core.SceneManagement.Scene.GetGlobalCoordinateSystem(GCS3@)
+  name.vb: GetGlobalCoordinateSystem(ByRef GCS3)
+  fullName: Engine.Core.SceneManagement.Scene.GetGlobalCoordinateSystem(out GCS3)
+  fullName.vb: Engine.Core.SceneManagement.Scene.GetGlobalCoordinateSystem(ByRef GCS3)
+  nameWithType: Scene.GetGlobalCoordinateSystem(out GCS3)
+  nameWithType.vb: Scene.GetGlobalCoordinateSystem(ByRef GCS3)
+- uid: Engine.Core.SceneManagement.Scene.GetGlobalCoordinateSystem*
+  name: GetGlobalCoordinateSystem
+  href: engineAPI/Engine.Core.SceneManagement.Scene.html#Engine_Core_SceneManagement_Scene_GetGlobalCoordinateSystem_
+  commentId: Overload:Engine.Core.SceneManagement.Scene.GetGlobalCoordinateSystem
+  isSpec: "True"
+  fullName: Engine.Core.SceneManagement.Scene.GetGlobalCoordinateSystem
+  nameWithType: Scene.GetGlobalCoordinateSystem
 - uid: Engine.Core.SceneManagement.Scene.Name
   name: Name
   href: engineAPI/Engine.Core.SceneManagement.Scene.html#Engine_Core_SceneManagement_Scene_Name
@@ -6731,6 +8375,19 @@ references:
   isSpec: "True"
   fullName: Engine.Core.SceneManagement.Scene.SceneId
   nameWithType: Scene.SceneId
+- uid: Engine.Core.SceneManagement.Scene.Type
+  name: Type
+  href: engineAPI/Engine.Core.SceneManagement.Scene.html#Engine_Core_SceneManagement_Scene_Type
+  commentId: P:Engine.Core.SceneManagement.Scene.Type
+  fullName: Engine.Core.SceneManagement.Scene.Type
+  nameWithType: Scene.Type
+- uid: Engine.Core.SceneManagement.Scene.Type*
+  name: Type
+  href: engineAPI/Engine.Core.SceneManagement.Scene.html#Engine_Core_SceneManagement_Scene_Type_
+  commentId: Overload:Engine.Core.SceneManagement.Scene.Type
+  isSpec: "True"
+  fullName: Engine.Core.SceneManagement.Scene.Type
+  nameWithType: Scene.Type
 - uid: Engine.Core.SceneManagement.Scene3D
   name: Scene3D
   href: engineAPI/Engine.Core.SceneManagement.Scene3D.html
@@ -6807,6 +8464,140 @@ references:
   commentId: F:Engine.Core.SceneManagement.SceneManager.Instance
   fullName: Engine.Core.SceneManagement.SceneManager.Instance
   nameWithType: SceneManager.Instance
+- uid: Engine.Core.SceneManagement.SceneType
+  name: SceneType
+  href: engineAPI/Engine.Core.SceneManagement.SceneType.html
+  commentId: T:Engine.Core.SceneManagement.SceneType
+  fullName: Engine.Core.SceneManagement.SceneType
+  nameWithType: SceneType
+- uid: Engine.Core.SceneManagement.SceneType.Scene2D
+  name: Scene2D
+  href: engineAPI/Engine.Core.SceneManagement.SceneType.html#Engine_Core_SceneManagement_SceneType_Scene2D
+  commentId: F:Engine.Core.SceneManagement.SceneType.Scene2D
+  fullName: Engine.Core.SceneManagement.SceneType.Scene2D
+  nameWithType: SceneType.Scene2D
+- uid: Engine.Core.SceneManagement.SceneType.Scene3D
+  name: Scene3D
+  href: engineAPI/Engine.Core.SceneManagement.SceneType.html#Engine_Core_SceneManagement_SceneType_Scene3D
+  commentId: F:Engine.Core.SceneManagement.SceneType.Scene3D
+  fullName: Engine.Core.SceneManagement.SceneType.Scene3D
+  nameWithType: SceneType.Scene3D
+- uid: Engine.Core.Tag
+  name: Tag
+  href: engineAPI/Engine.Core.Tag.html
+  commentId: T:Engine.Core.Tag
+  fullName: Engine.Core.Tag
+  nameWithType: Tag
+- uid: Engine.Core.Tag.#ctor(System.String)
+  name: Tag(String)
+  href: engineAPI/Engine.Core.Tag.html#Engine_Core_Tag__ctor_System_String_
+  commentId: M:Engine.Core.Tag.#ctor(System.String)
+  fullName: Engine.Core.Tag.Tag(System.String)
+  nameWithType: Tag.Tag(String)
+- uid: Engine.Core.Tag.#ctor*
+  name: Tag
+  href: engineAPI/Engine.Core.Tag.html#Engine_Core_Tag__ctor_
+  commentId: Overload:Engine.Core.Tag.#ctor
+  isSpec: "True"
+  fullName: Engine.Core.Tag.Tag
+  nameWithType: Tag.Tag
+- uid: Engine.Core.Tag.Name
+  name: Name
+  href: engineAPI/Engine.Core.Tag.html#Engine_Core_Tag_Name
+  commentId: P:Engine.Core.Tag.Name
+  fullName: Engine.Core.Tag.Name
+  nameWithType: Tag.Name
+- uid: Engine.Core.Tag.Name*
+  name: Name
+  href: engineAPI/Engine.Core.Tag.html#Engine_Core_Tag_Name_
+  commentId: Overload:Engine.Core.Tag.Name
+  isSpec: "True"
+  fullName: Engine.Core.Tag.Name
+  nameWithType: Tag.Name
+- uid: Engine.Core.Tag.op_Implicit(Engine.Core.Tag)~System.Int32
+  name: Implicit(Tag to Int32)
+  href: engineAPI/Engine.Core.Tag.html#Engine_Core_Tag_op_Implicit_Engine_Core_Tag__System_Int32
+  commentId: M:Engine.Core.Tag.op_Implicit(Engine.Core.Tag)~System.Int32
+  name.vb: Widening(Tag to Int32)
+  fullName: Engine.Core.Tag.Implicit(Engine.Core.Tag to System.Int32)
+  fullName.vb: Engine.Core.Tag.Widening(Engine.Core.Tag to System.Int32)
+  nameWithType: Tag.Implicit(Tag to Int32)
+  nameWithType.vb: Tag.Widening(Tag to Int32)
+- uid: Engine.Core.Tag.op_Implicit(Engine.Core.Tag)~System.String
+  name: Implicit(Tag to String)
+  href: engineAPI/Engine.Core.Tag.html#Engine_Core_Tag_op_Implicit_Engine_Core_Tag__System_String
+  commentId: M:Engine.Core.Tag.op_Implicit(Engine.Core.Tag)~System.String
+  name.vb: Widening(Tag to String)
+  fullName: Engine.Core.Tag.Implicit(Engine.Core.Tag to System.String)
+  fullName.vb: Engine.Core.Tag.Widening(Engine.Core.Tag to System.String)
+  nameWithType: Tag.Implicit(Tag to String)
+  nameWithType.vb: Tag.Widening(Tag to String)
+- uid: Engine.Core.Tag.op_Implicit(System.Int32)~Engine.Core.Tag
+  name: Implicit(Int32 to Tag)
+  href: engineAPI/Engine.Core.Tag.html#Engine_Core_Tag_op_Implicit_System_Int32__Engine_Core_Tag
+  commentId: M:Engine.Core.Tag.op_Implicit(System.Int32)~Engine.Core.Tag
+  name.vb: Widening(Int32 to Tag)
+  fullName: Engine.Core.Tag.Implicit(System.Int32 to Engine.Core.Tag)
+  fullName.vb: Engine.Core.Tag.Widening(System.Int32 to Engine.Core.Tag)
+  nameWithType: Tag.Implicit(Int32 to Tag)
+  nameWithType.vb: Tag.Widening(Int32 to Tag)
+- uid: Engine.Core.Tag.op_Implicit(System.String)~Engine.Core.Tag
+  name: Implicit(String to Tag)
+  href: engineAPI/Engine.Core.Tag.html#Engine_Core_Tag_op_Implicit_System_String__Engine_Core_Tag
+  commentId: M:Engine.Core.Tag.op_Implicit(System.String)~Engine.Core.Tag
+  name.vb: Widening(String to Tag)
+  fullName: Engine.Core.Tag.Implicit(System.String to Engine.Core.Tag)
+  fullName.vb: Engine.Core.Tag.Widening(System.String to Engine.Core.Tag)
+  nameWithType: Tag.Implicit(String to Tag)
+  nameWithType.vb: Tag.Widening(String to Tag)
+- uid: Engine.Core.Tag.op_Implicit*
+  name: Implicit
+  href: engineAPI/Engine.Core.Tag.html#Engine_Core_Tag_op_Implicit_
+  commentId: Overload:Engine.Core.Tag.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: Engine.Core.Tag.Implicit
+  fullName.vb: Engine.Core.Tag.Widening
+  nameWithType: Tag.Implicit
+  nameWithType.vb: Tag.Widening
+- uid: Engine.Core.Tag.RemoveTag(Engine.Core.Tag)
+  name: RemoveTag(Tag)
+  href: engineAPI/Engine.Core.Tag.html#Engine_Core_Tag_RemoveTag_Engine_Core_Tag_
+  commentId: M:Engine.Core.Tag.RemoveTag(Engine.Core.Tag)
+  fullName: Engine.Core.Tag.RemoveTag(Engine.Core.Tag)
+  nameWithType: Tag.RemoveTag(Tag)
+- uid: Engine.Core.Tag.RemoveTag*
+  name: RemoveTag
+  href: engineAPI/Engine.Core.Tag.html#Engine_Core_Tag_RemoveTag_
+  commentId: Overload:Engine.Core.Tag.RemoveTag
+  isSpec: "True"
+  fullName: Engine.Core.Tag.RemoveTag
+  nameWithType: Tag.RemoveTag
+- uid: Engine.Core.Tag.SetName(System.String)
+  name: SetName(String)
+  href: engineAPI/Engine.Core.Tag.html#Engine_Core_Tag_SetName_System_String_
+  commentId: M:Engine.Core.Tag.SetName(System.String)
+  fullName: Engine.Core.Tag.SetName(System.String)
+  nameWithType: Tag.SetName(String)
+- uid: Engine.Core.Tag.SetName(System.String,System.Int32)
+  name: SetName(String, Int32)
+  href: engineAPI/Engine.Core.Tag.html#Engine_Core_Tag_SetName_System_String_System_Int32_
+  commentId: M:Engine.Core.Tag.SetName(System.String,System.Int32)
+  fullName: Engine.Core.Tag.SetName(System.String, System.Int32)
+  nameWithType: Tag.SetName(String, Int32)
+- uid: Engine.Core.Tag.SetName*
+  name: SetName
+  href: engineAPI/Engine.Core.Tag.html#Engine_Core_Tag_SetName_
+  commentId: Overload:Engine.Core.Tag.SetName
+  isSpec: "True"
+  fullName: Engine.Core.Tag.SetName
+  nameWithType: Tag.SetName
+- uid: Engine.Core.Tag.Tags
+  name: Tags
+  href: engineAPI/Engine.Core.Tag.html#Engine_Core_Tag_Tags
+  commentId: F:Engine.Core.Tag.Tags
+  fullName: Engine.Core.Tag.Tags
+  nameWithType: Tag.Tags
 - uid: Engine.Main
   name: Main
   href: engineAPI/Engine.Main.html

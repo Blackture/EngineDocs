@@ -11,11 +11,13 @@ items:
   - Engine.Core.Object3D.#ctor(Vector3,System.Boolean)
   - Engine.Core.Object3D.AddComponent``1(``0)
   - Engine.Core.Object3D.Components
+  - Engine.Core.Object3D.customTags
   - Engine.Core.Object3D.FindChild(System.String)
   - Engine.Core.Object3D.GetComponent``1
   - Engine.Core.Object3D.GetComponent``1(``0)
   - Engine.Core.Object3D.GetComponents``1
   - Engine.Core.Object3D.GetComponents``1(``0)
+  - Engine.Core.Object3D.InternalTag
   - Engine.Core.Object3D.Local
   - Engine.Core.Object3D.Name
   - Engine.Core.Object3D.op_Implicit(Engine.Core.Object3D)~LCS3
@@ -32,7 +34,7 @@ items:
   source:
     id: Object3D
     path: ''
-    startLine: 273
+    startLine: 567
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core
@@ -69,7 +71,7 @@ items:
   source:
     id: Name
     path: ''
-    startLine: 278
+    startLine: 574
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core
@@ -96,7 +98,7 @@ items:
   source:
     id: Components
     path: ''
-    startLine: 279
+    startLine: 575
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core
@@ -123,7 +125,7 @@ items:
   source:
     id: Local
     path: ''
-    startLine: 283
+    startLine: 579
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core
@@ -136,6 +138,64 @@ items:
       type: LCS3
     content.vb: Public ReadOnly Property Local As LCS3
   overload: Engine.Core.Object3D.Local*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Engine.Core.Object3D.customTags
+  commentId: F:Engine.Core.Object3D.customTags
+  id: customTags
+  parent: Engine.Core.Object3D
+  langs:
+  - csharp
+  - vb
+  name: customTags
+  nameWithType: Object3D.customTags
+  fullName: Engine.Core.Object3D.customTags
+  type: Field
+  source:
+    id: customTags
+    path: ''
+    startLine: 580
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core
+  syntax:
+    content: public List<Tag> customTags
+    return:
+      type: System.Collections.Generic.List{Engine.Core.Tag}
+    content.vb: Public customTags As List(Of Tag)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Object3D.InternalTag
+  commentId: P:Engine.Core.Object3D.InternalTag
+  id: InternalTag
+  parent: Engine.Core.Object3D
+  langs:
+  - csharp
+  - vb
+  name: InternalTag
+  nameWithType: Object3D.InternalTag
+  fullName: Engine.Core.Object3D.InternalTag
+  type: Property
+  source:
+    id: InternalTag
+    path: ''
+    startLine: 582
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core
+  syntax:
+    content: public Tag InternalTag { get; }
+    parameters: []
+    return:
+      type: Engine.Core.Tag
+    content.vb: Public ReadOnly Property InternalTag As Tag
+  overload: Engine.Core.Object3D.InternalTag*
   modifiers.csharp:
   - public
   - get
@@ -156,11 +216,11 @@ items:
   source:
     id: Parent
     path: ''
-    startLine: 288
+    startLine: 586
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core
-  summary: "\nThe set-accessor resets the local transformations the new parent ones. To keep this Object3D&apos;s transformation, use the method instead.\n"
+  summary: "\nThe set-accessor resets the local transformations the new Parent ones. To keep this Object3D&apos;s transformation, use the method instead.\n"
   example: []
   syntax:
     content: public Object3D Parent { get; set; }
@@ -189,7 +249,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 294
+    startLine: 597
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core
@@ -218,7 +278,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 298
+    startLine: 601
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core
@@ -249,7 +309,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 302
+    startLine: 605
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core
@@ -282,7 +342,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 306
+    startLine: 609
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core
@@ -317,7 +377,7 @@ items:
   source:
     id: SetParent
     path: ''
-    startLine: 347
+    startLine: 650
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core
@@ -348,7 +408,7 @@ items:
   source:
     id: AddComponent
     path: ''
-    startLine: 364
+    startLine: 673
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core
@@ -386,7 +446,7 @@ items:
   source:
     id: RemoveComponent
     path: ''
-    startLine: 371
+    startLine: 681
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core
@@ -422,7 +482,7 @@ items:
   source:
     id: GetComponent
     path: ''
-    startLine: 380
+    startLine: 690
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core
@@ -460,7 +520,7 @@ items:
   source:
     id: GetComponent
     path: ''
-    startLine: 384
+    startLine: 694
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core
@@ -495,7 +555,7 @@ items:
   source:
     id: GetComponents
     path: ''
-    startLine: 389
+    startLine: 699
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core
@@ -533,7 +593,7 @@ items:
   source:
     id: GetComponents
     path: ''
-    startLine: 394
+    startLine: 704
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core
@@ -568,7 +628,7 @@ items:
   source:
     id: FindChild
     path: ''
-    startLine: 404
+    startLine: 714
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core
@@ -603,7 +663,7 @@ items:
   source:
     id: op_Implicit
     path: ''
-    startLine: 417
+    startLine: 727
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core
@@ -1027,6 +1087,59 @@ references:
   name: LCS3
   nameWithType: LCS3
   fullName: LCS3
+- uid: System.Collections.Generic.List{Engine.Core.Tag}
+  commentId: T:System.Collections.Generic.List{Engine.Core.Tag}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Tag>
+  nameWithType: List<Tag>
+  fullName: System.Collections.Generic.List<Engine.Core.Tag>
+  nameWithType.vb: List(Of Tag)
+  fullName.vb: System.Collections.Generic.List(Of Engine.Core.Tag)
+  name.vb: List(Of Tag)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Engine.Core.Tag
+    name: Tag
+    nameWithType: Tag
+    fullName: Engine.Core.Tag
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Engine.Core.Tag
+    name: Tag
+    nameWithType: Tag
+    fullName: Engine.Core.Tag
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Engine.Core.Object3D.InternalTag*
+  commentId: Overload:Engine.Core.Object3D.InternalTag
+  name: InternalTag
+  nameWithType: Object3D.InternalTag
+  fullName: Engine.Core.Object3D.InternalTag
+- uid: Engine.Core.Tag
+  commentId: T:Engine.Core.Tag
+  parent: Engine.Core
+  name: Tag
+  nameWithType: Tag
+  fullName: Engine.Core.Tag
 - uid: Engine.Core.Object3D.Parent*
   commentId: Overload:Engine.Core.Object3D.Parent
   name: Parent

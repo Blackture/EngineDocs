@@ -9,16 +9,26 @@
   items:
   - uid: Engine.Core.Component
     name: Component
+  - uid: Engine.Core.IParticle
+    name: IParticle
+  - uid: Engine.Core.IParticleHandler
+    name: IParticleHandler
+  - uid: Engine.Core.IRay
+    name: IRay
   - uid: Engine.Core.Layer
     name: Layer
+  - uid: Engine.Core.LCS3Element
+    name: LCS3Element
+  - uid: Engine.Core.LCS3ElementGroup
+    name: LCS3ElementGroup
   - uid: Engine.Core.Object3D
     name: Object3D
   - uid: Engine.Core.Particle
     name: Particle
-  - uid: Engine.Core.Pixel
-    name: Pixel
   - uid: Engine.Core.Ray
     name: Ray
+  - uid: Engine.Core.Tag
+    name: Tag
 - uid: Engine.Core.Components
   name: Engine.Core.Components
   items:
@@ -26,16 +36,27 @@
     name: Camera
   - uid: Engine.Core.Components.Camera.CameraPlane
     name: Camera.CameraPlane
-  - uid: Engine.Core.Components.Edge
-    name: Edge
-  - uid: Engine.Core.Components.Face
-    name: Face
+  - uid: Engine.Core.Components.Edge3D
+    name: Edge3D
+  - uid: Engine.Core.Components.Face3D
+    name: Face3D
   - uid: Engine.Core.Components.LCS3
     name: LCS3
-  - uid: Engine.Core.Components.Mesh
-    name: Mesh
-  - uid: Engine.Core.Components.Vertex
-    name: Vertex
+  - uid: Engine.Core.Components.Mesh3D
+    name: Mesh3D
+  - uid: Engine.Core.Components.Vertex3D
+    name: Vertex3D
+- uid: Engine.Core.Events
+  name: Engine.Core.Events
+  items:
+  - uid: Engine.Core.Events.Event
+    name: Event
+  - uid: Engine.Core.Events.Event`1
+    name: Event<T>
+    name.vb: Event(Of T)
+  - uid: Engine.Core.Events.Event`2
+    name: Event<T0, T1>
+    name.vb: Event(Of T0, T1)
 - uid: Engine.Core.Maths
   name: Engine.Core.Maths
   items:
@@ -122,6 +143,21 @@
     name: Gaussian.GaussianResult
   - uid: Engine.Core.Maths.Obsolete.Matrix
     name: Matrix
+- uid: Engine.Core.Physics.CollisionDetection
+  name: Engine.Core.Physics.CollisionDetection
+  items:
+  - uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D
+    name: BoundingBox3D
+  - uid: Engine.Core.Physics.CollisionDetection.BoundingVolume3D
+    name: BoundingVolume3D
+  - uid: Engine.Core.Physics.CollisionDetection.Cell
+    name: Cell
+  - uid: Engine.Core.Physics.CollisionDetection.Grid
+    name: Grid
+  - uid: Engine.Core.Physics.CollisionDetection.ParticleCollision3D
+    name: ParticleCollision3D
+  - uid: Engine.Core.Physics.CollisionDetection.SpatialPartitioning
+    name: SpatialPartitioning
 - uid: Engine.Core.Physics.Optics
   name: Engine.Core.Physics.Optics
   items:
@@ -133,6 +169,15 @@
     name: LightRay
   - uid: Engine.Core.Physics.Optics.LightSource
     name: LightSource
+  - uid: Engine.Core.Physics.Optics.Photon
+    name: Photon
+- uid: Engine.Core.Rendering
+  name: Engine.Core.Rendering
+  items:
+  - uid: Engine.Core.Rendering.CameraRay
+    name: CameraRay
+  - uid: Engine.Core.Rendering.Pixel
+    name: Pixel
 - uid: Engine.Core.SceneManagement
   name: Engine.Core.SceneManagement
   items:
@@ -142,6 +187,8 @@
     name: Scene3D
   - uid: Engine.Core.SceneManagement.SceneManager
     name: SceneManager
+  - uid: Engine.Core.SceneManagement.SceneType
+    name: SceneType
 - uid: Engine.Rendering
   name: Engine.Rendering
   items:

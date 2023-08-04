@@ -17,7 +17,7 @@ items:
   source:
     id: BaseDirections2D
     path: ''
-    startLine: 1393
+    startLine: 2051
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -44,7 +44,7 @@ items:
   source:
     id: Horizontal
     path: ''
-    startLine: 1395
+    startLine: 2053
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -72,7 +72,7 @@ items:
   source:
     id: Vertical
     path: ''
-    startLine: 1396
+    startLine: 2054
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths

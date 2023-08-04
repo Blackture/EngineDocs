@@ -17,7 +17,7 @@ items:
   source:
     id: RenderTexture
     path: ''
-    startLine: 5718
+    startLine: 7010
   assemblies:
   - cs.temp.dll
   namespace: Engine.Rendering
@@ -54,7 +54,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 5725
+    startLine: 7017
   assemblies:
   - cs.temp.dll
   namespace: Engine.Rendering
@@ -85,7 +85,7 @@ items:
   source:
     id: RenderPixel
     path: ''
-    startLine: 5736
+    startLine: 7028
   assemblies:
   - cs.temp.dll
   namespace: Engine.Rendering
@@ -432,7 +432,6 @@ references:
   nameWithType: Camera
   fullName: Camera
 - uid: Pixel
-  commentId: '!:Pixel'
   isExternal: true
   name: Pixel
   nameWithType: Pixel

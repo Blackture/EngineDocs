@@ -21,7 +21,7 @@ items:
   source:
     id: RotationConvention
     path: ''
-    startLine: 1362
+    startLine: 2020
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -48,7 +48,7 @@ items:
   source:
     id: X1X2X3
     path: ''
-    startLine: 1364
+    startLine: 2022
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -76,7 +76,7 @@ items:
   source:
     id: X1X3X2
     path: ''
-    startLine: 1365
+    startLine: 2023
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -104,7 +104,7 @@ items:
   source:
     id: X2X1X3
     path: ''
-    startLine: 1366
+    startLine: 2024
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -132,7 +132,7 @@ items:
   source:
     id: X2X3X1
     path: ''
-    startLine: 1367
+    startLine: 2025
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -160,7 +160,7 @@ items:
   source:
     id: X3X1X2
     path: ''
-    startLine: 1368
+    startLine: 2026
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -188,7 +188,7 @@ items:
   source:
     id: X3X2X1
     path: ''
-    startLine: 1369
+    startLine: 2027
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths

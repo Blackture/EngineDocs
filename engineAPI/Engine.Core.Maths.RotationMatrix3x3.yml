@@ -24,7 +24,7 @@ items:
   source:
     id: RotationMatrix3x3
     path: ''
-    startLine: 3619
+    startLine: 4385
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -61,7 +61,7 @@ items:
   source:
     id: MirrorX1
     path: ''
-    startLine: 3621
+    startLine: 4387
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -92,7 +92,7 @@ items:
   source:
     id: MirrorX2
     path: ''
-    startLine: 3622
+    startLine: 4388
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -123,7 +123,7 @@ items:
   source:
     id: MirrorX3
     path: ''
-    startLine: 3623
+    startLine: 4389
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -154,7 +154,7 @@ items:
   source:
     id: R3x3
     path: ''
-    startLine: 3625
+    startLine: 4391
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -183,7 +183,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 3633
+    startLine: 4399
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -216,7 +216,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 3670
+    startLine: 4436
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -256,7 +256,7 @@ items:
   source:
     id: ToMatrix4x4
     path: ''
-    startLine: 3706
+    startLine: 4472
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -284,7 +284,7 @@ items:
   source:
     id: op_Implicit
     path: ''
-    startLine: 3722
+    startLine: 4488
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -320,7 +320,7 @@ items:
   source:
     id: op_Implicit
     path: ''
-    startLine: 3727
+    startLine: 4493
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths

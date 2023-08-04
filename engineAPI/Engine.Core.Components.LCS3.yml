@@ -8,7 +8,7 @@ items:
   - Engine.Core.Components.LCS3.#ctor(Engine.Core.Object3D)
   - Engine.Core.Components.LCS3.axis
   - Engine.Core.Components.LCS3.AxisToGlobalUnitVectors
-  - Engine.Core.Components.LCS3.CalculateGlobals
+  - Engine.Core.Components.LCS3.ChildCount
   - Engine.Core.Components.LCS3.children
   - Engine.Core.Components.LCS3.Current
   - Engine.Core.Components.LCS3.Dispose
@@ -19,11 +19,14 @@ items:
   - Engine.Core.Components.LCS3.GlobalPosition
   - Engine.Core.Components.LCS3.GlobalRotation
   - Engine.Core.Components.LCS3.GlobalScale
+  - Engine.Core.Components.LCS3.HasChild
   - Engine.Core.Components.LCS3.LocalPosition
   - Engine.Core.Components.LCS3.LocalRotation
   - Engine.Core.Components.LCS3.LocalScale
   - Engine.Core.Components.LCS3.MoveNext
+  - Engine.Core.Components.LCS3.Parent
   - Engine.Core.Components.LCS3.Reset
+  - Engine.Core.Components.LCS3.ToLocalPositionVector(Vector3)
   langs:
   - csharp
   - vb
@@ -34,7 +37,7 @@ items:
   source:
     id: LCS3
     path: ''
-    startLine: 889
+    startLine: 1368
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -82,7 +85,7 @@ items:
   source:
     id: axis
     path: ''
-    startLine: 891
+    startLine: 1370
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -111,7 +114,7 @@ items:
   source:
     id: Current
     path: ''
-    startLine: 893
+    startLine: 1372
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -144,7 +147,7 @@ items:
   source:
     id: GlobalPosition
     path: ''
-    startLine: 910
+    startLine: 1389
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -175,7 +178,7 @@ items:
   source:
     id: GlobalRotation
     path: ''
-    startLine: 911
+    startLine: 1390
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -206,7 +209,7 @@ items:
   source:
     id: GlobalScale
     path: ''
-    startLine: 912
+    startLine: 1391
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -237,7 +240,7 @@ items:
   source:
     id: LocalPosition
     path: ''
-    startLine: 913
+    startLine: 1392
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -268,7 +271,7 @@ items:
   source:
     id: LocalRotation
     path: ''
-    startLine: 914
+    startLine: 1393
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -299,7 +302,7 @@ items:
   source:
     id: LocalScale
     path: ''
-    startLine: 915
+    startLine: 1394
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -316,6 +319,103 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Engine.Core.Components.LCS3.HasChild
+  commentId: P:Engine.Core.Components.LCS3.HasChild
+  id: HasChild
+  parent: Engine.Core.Components.LCS3
+  langs:
+  - csharp
+  - vb
+  name: HasChild
+  nameWithType: LCS3.HasChild
+  fullName: Engine.Core.Components.LCS3.HasChild
+  type: Property
+  source:
+    id: HasChild
+    path: ''
+    startLine: 1398
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Components
+  summary: "\nIs true if the LCS has at least one child Lcs\n"
+  example: []
+  syntax:
+    content: public bool HasChild { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasChild As Boolean
+  overload: Engine.Core.Components.LCS3.HasChild*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Engine.Core.Components.LCS3.Parent
+  commentId: P:Engine.Core.Components.LCS3.Parent
+  id: Parent
+  parent: Engine.Core.Components.LCS3
+  langs:
+  - csharp
+  - vb
+  name: Parent
+  nameWithType: LCS3.Parent
+  fullName: Engine.Core.Components.LCS3.Parent
+  type: Property
+  source:
+    id: Parent
+    path: ''
+    startLine: 1402
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Components
+  summary: "\nThe higher the value the more parents it has, starting from 0: no parents\n"
+  example: []
+  syntax:
+    content: public LCS3 Parent { get; }
+    parameters: []
+    return:
+      type: Engine.Core.Components.LCS3
+    content.vb: Public ReadOnly Property Parent As LCS3
+  overload: Engine.Core.Components.LCS3.Parent*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Engine.Core.Components.LCS3.ChildCount
+  commentId: P:Engine.Core.Components.LCS3.ChildCount
+  id: ChildCount
+  parent: Engine.Core.Components.LCS3
+  langs:
+  - csharp
+  - vb
+  name: ChildCount
+  nameWithType: LCS3.ChildCount
+  fullName: Engine.Core.Components.LCS3.ChildCount
+  type: Property
+  source:
+    id: ChildCount
+    path: ''
+    startLine: 1403
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Components
+  syntax:
+    content: public int ChildCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property ChildCount As Integer
+  overload: Engine.Core.Components.LCS3.ChildCount*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: Engine.Core.Components.LCS3.children
   commentId: F:Engine.Core.Components.LCS3.children
   id: children
@@ -330,7 +430,7 @@ items:
   source:
     id: children
     path: ''
-    startLine: 924
+    startLine: 1413
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -357,7 +457,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 928
+    startLine: 1417
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -368,32 +468,6 @@ items:
       type: Engine.Core.Object3D
     content.vb: Public Sub New(dependency As Object3D)
   overload: Engine.Core.Components.LCS3.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: Engine.Core.Components.LCS3.CalculateGlobals
-  commentId: M:Engine.Core.Components.LCS3.CalculateGlobals
-  id: CalculateGlobals
-  parent: Engine.Core.Components.LCS3
-  langs:
-  - csharp
-  - vb
-  name: CalculateGlobals()
-  nameWithType: LCS3.CalculateGlobals()
-  fullName: Engine.Core.Components.LCS3.CalculateGlobals()
-  type: Method
-  source:
-    id: CalculateGlobals
-    path: ''
-    startLine: 938
-  assemblies:
-  - cs.temp.dll
-  namespace: Engine.Core.Components
-  syntax:
-    content: public void CalculateGlobals()
-    content.vb: Public Sub CalculateGlobals
-  overload: Engine.Core.Components.LCS3.CalculateGlobals*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -412,7 +486,7 @@ items:
   source:
     id: GetChilds
     path: ''
-    startLine: 942
+    startLine: 1428
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -440,7 +514,7 @@ items:
   source:
     id: AxisToGlobalUnitVectors
     path: ''
-    startLine: 956
+    startLine: 1442
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -450,6 +524,49 @@ items:
       type: Vector3[]
     content.vb: Public Function AxisToGlobalUnitVectors As Vector3()
   overload: Engine.Core.Components.LCS3.AxisToGlobalUnitVectors*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Components.LCS3.ToLocalPositionVector(Vector3)
+  commentId: M:Engine.Core.Components.LCS3.ToLocalPositionVector(Vector3)
+  id: ToLocalPositionVector(Vector3)
+  parent: Engine.Core.Components.LCS3
+  langs:
+  - csharp
+  - vb
+  name: ToLocalPositionVector(Vector3)
+  nameWithType: LCS3.ToLocalPositionVector(Vector3)
+  fullName: Engine.Core.Components.LCS3.ToLocalPositionVector(Vector3)
+  type: Method
+  source:
+    id: ToLocalPositionVector
+    path: ''
+    startLine: 1466
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Components
+  syntax:
+    content: >-
+      [Obsolete("Not Implemented")]
+
+      public Vector3 ToLocalPositionVector(Vector3 globalPosition)
+    parameters:
+    - id: globalPosition
+      type: Vector3
+    return:
+      type: Vector3
+    content.vb: >-
+      <Obsolete("Not Implemented")>
+
+      Public Function ToLocalPositionVector(globalPosition As Vector3) As Vector3
+  overload: Engine.Core.Components.LCS3.ToLocalPositionVector*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Not Implemented
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -468,7 +585,7 @@ items:
   source:
     id: GetEnumerator
     path: ''
-    startLine: 980
+    startLine: 1472
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -498,7 +615,7 @@ items:
   source:
     id: MoveNext
     path: ''
-    startLine: 989
+    startLine: 1481
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -528,7 +645,7 @@ items:
   source:
     id: Reset
     path: ''
-    startLine: 995
+    startLine: 1487
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -556,7 +673,7 @@ items:
   source:
     id: Dispose
     path: ''
-    startLine: 1001
+    startLine: 1493
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -587,7 +704,7 @@ items:
   source:
     id: Dispose
     path: ''
-    startLine: 1017
+    startLine: 1509
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -615,7 +732,7 @@ items:
   source:
     id: Finalize
     path: ''
-    startLine: 1024
+    startLine: 1516
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -1231,6 +1348,35 @@ references:
   name: LocalScale
   nameWithType: LCS3.LocalScale
   fullName: Engine.Core.Components.LCS3.LocalScale
+- uid: Engine.Core.Components.LCS3.HasChild*
+  commentId: Overload:Engine.Core.Components.LCS3.HasChild
+  name: HasChild
+  nameWithType: LCS3.HasChild
+  fullName: Engine.Core.Components.LCS3.HasChild
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Engine.Core.Components.LCS3.Parent*
+  commentId: Overload:Engine.Core.Components.LCS3.Parent
+  name: Parent
+  nameWithType: LCS3.Parent
+  fullName: Engine.Core.Components.LCS3.Parent
+- uid: Engine.Core.Components.LCS3.ChildCount*
+  commentId: Overload:Engine.Core.Components.LCS3.ChildCount
+  name: ChildCount
+  nameWithType: LCS3.ChildCount
+  fullName: Engine.Core.Components.LCS3.ChildCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System.Collections.Generic.List{Engine.Core.Components.LCS3}
   commentId: T:System.Collections.Generic.List{Engine.Core.Components.LCS3}
   parent: System.Collections.Generic
@@ -1323,11 +1469,6 @@ references:
   name: Object3D
   nameWithType: Object3D
   fullName: Engine.Core.Object3D
-- uid: Engine.Core.Components.LCS3.CalculateGlobals*
-  commentId: Overload:Engine.Core.Components.LCS3.CalculateGlobals
-  name: CalculateGlobals
-  nameWithType: LCS3.CalculateGlobals
-  fullName: Engine.Core.Components.LCS3.CalculateGlobals
 - uid: Engine.Core.Components.LCS3.GetChilds*
   commentId: Overload:Engine.Core.Components.LCS3.GetChilds
   name: GetChilds
@@ -1364,6 +1505,11 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+- uid: Engine.Core.Components.LCS3.ToLocalPositionVector*
+  commentId: Overload:Engine.Core.Components.LCS3.ToLocalPositionVector
+  name: ToLocalPositionVector
+  nameWithType: LCS3.ToLocalPositionVector
+  fullName: Engine.Core.Components.LCS3.ToLocalPositionVector
 - uid: Engine.Core.Components.LCS3.GetEnumerator*
   commentId: Overload:Engine.Core.Components.LCS3.GetEnumerator
   name: GetEnumerator
@@ -1470,13 +1616,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: Engine.Core.Components.LCS3.Reset*
   commentId: Overload:Engine.Core.Components.LCS3.Reset
   name: Reset

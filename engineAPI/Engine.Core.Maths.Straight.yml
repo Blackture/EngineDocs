@@ -29,7 +29,7 @@ items:
   source:
     id: Straight
     path: ''
-    startLine: 4044
+    startLine: 4810
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -68,7 +68,7 @@ items:
   source:
     id: x1_Axis
     path: ''
-    startLine: 4052
+    startLine: 4818
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -99,7 +99,7 @@ items:
   source:
     id: x2_Axis
     path: ''
-    startLine: 4053
+    startLine: 4819
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -130,7 +130,7 @@ items:
   source:
     id: x3_Axis
     path: ''
-    startLine: 4054
+    startLine: 4820
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -161,7 +161,7 @@ items:
   source:
     id: OA
     path: ''
-    startLine: 4060
+    startLine: 4826
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -192,7 +192,7 @@ items:
   source:
     id: OB
     path: ''
-    startLine: 4061
+    startLine: 4827
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -223,7 +223,7 @@ items:
   source:
     id: Dir
     path: ''
-    startLine: 4062
+    startLine: 4828
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -254,7 +254,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 4064
+    startLine: 4830
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -287,7 +287,7 @@ items:
   source:
     id: GetPointAt
     path: ''
-    startLine: 4081
+    startLine: 4847
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -318,7 +318,7 @@ items:
   source:
     id: Intersection
     path: ''
-    startLine: 4086
+    startLine: 4852
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -358,7 +358,7 @@ items:
   source:
     id: Distance
     path: ''
-    startLine: 4100
+    startLine: 4866
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -394,7 +394,7 @@ items:
   source:
     id: Distance
     path: ''
-    startLine: 4111
+    startLine: 4877
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -425,7 +425,7 @@ items:
   source:
     id: Distance
     path: ''
-    startLine: 4132
+    startLine: 4898
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -463,7 +463,7 @@ items:
   source:
     id: Distance
     path: ''
-    startLine: 4165
+    startLine: 4931
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -503,7 +503,7 @@ items:
   source:
     id: Distance
     path: ''
-    startLine: 4170
+    startLine: 4936
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths

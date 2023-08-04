@@ -21,7 +21,7 @@ items:
   source:
     id: IMatrix
     path: ''
-    startLine: 1703
+    startLine: 2469
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -48,7 +48,7 @@ items:
   source:
     id: RowCount
     path: ''
-    startLine: 1705
+    startLine: 2471
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -77,7 +77,7 @@ items:
   source:
     id: ColumnCount
     path: ''
-    startLine: 1706
+    startLine: 2472
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -106,7 +106,7 @@ items:
   source:
     id: this[]
     path: ''
-    startLine: 1708
+    startLine: 2474
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -141,7 +141,7 @@ items:
   source:
     id: RowOperation
     path: ''
-    startLine: 1709
+    startLine: 2475
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -172,7 +172,7 @@ items:
   source:
     id: SwapRows
     path: ''
-    startLine: 1710
+    startLine: 2476
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -199,7 +199,7 @@ items:
   source:
     id: Operation
     path: ''
-    startLine: 1711
+    startLine: 2477
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths

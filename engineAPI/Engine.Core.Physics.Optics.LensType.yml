@@ -20,7 +20,7 @@ items:
   source:
     id: LensType
     path: ''
-    startLine: 5329
+    startLine: 6527
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Physics.Optics
@@ -47,7 +47,7 @@ items:
   source:
     id: None
     path: ''
-    startLine: 5331
+    startLine: 6529
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Physics.Optics
@@ -75,7 +75,7 @@ items:
   source:
     id: TwoSided
     path: ''
-    startLine: 5332
+    startLine: 6530
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Physics.Optics
@@ -103,7 +103,7 @@ items:
   source:
     id: FrontSided
     path: ''
-    startLine: 5333
+    startLine: 6531
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Physics.Optics
@@ -131,7 +131,7 @@ items:
   source:
     id: BackSided
     path: ''
-    startLine: 5334
+    startLine: 6532
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Physics.Optics
@@ -159,7 +159,7 @@ items:
   source:
     id: Prismatic
     path: ''
-    startLine: 5335
+    startLine: 6533
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Physics.Optics

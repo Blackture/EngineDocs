@@ -1,0 +1,716 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Events.Event`1
+  commentId: T:Engine.Core.Events.Event`1
+  id: Event`1
+  parent: Engine.Core.Events
+  children:
+  - Engine.Core.Events.Event`1.AddListener(System.Action{`0})
+  - Engine.Core.Events.Event`1.Invoke(`0)
+  - Engine.Core.Events.Event`1.op_Addition(Engine.Core.Events.Event{`0},System.Action{`0})
+  - Engine.Core.Events.Event`1.op_Subtraction(Engine.Core.Events.Event{`0},System.Action{`0})
+  - Engine.Core.Events.Event`1.RemoveAllListeners
+  - Engine.Core.Events.Event`1.RemoveListener(System.Action{`0})
+  langs:
+  - csharp
+  - vb
+  name: Event<T>
+  nameWithType: Event<T>
+  fullName: Engine.Core.Events.Event<T>
+  type: Class
+  source:
+    id: Event
+    path: ''
+    startLine: 1720
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Events
+  syntax:
+    content: public class Event<T>
+    typeParameters:
+    - id: T
+    content.vb: Public Class Event(Of T)
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  nameWithType.vb: Event(Of T)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: Engine.Core.Events.Event(Of T)
+  name.vb: Event(Of T)
+- uid: Engine.Core.Events.Event`1.AddListener(System.Action{`0})
+  commentId: M:Engine.Core.Events.Event`1.AddListener(System.Action{`0})
+  id: AddListener(System.Action{`0})
+  parent: Engine.Core.Events.Event`1
+  langs:
+  - csharp
+  - vb
+  name: AddListener(Action<T>)
+  nameWithType: Event<T>.AddListener(Action<T>)
+  fullName: Engine.Core.Events.Event<T>.AddListener(System.Action<T>)
+  type: Method
+  source:
+    id: AddListener
+    path: ''
+    startLine: 1726
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Events
+  syntax:
+    content: public void AddListener(Action<T> method)
+    parameters:
+    - id: method
+      type: System.Action{{T}}
+    content.vb: Public Sub AddListener(method As Action(Of T))
+  overload: Engine.Core.Events.Event`1.AddListener*
+  nameWithType.vb: Event(Of T).AddListener(Action(Of T))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Engine.Core.Events.Event(Of T).AddListener(System.Action(Of T))
+  name.vb: AddListener(Action(Of T))
+- uid: Engine.Core.Events.Event`1.RemoveListener(System.Action{`0})
+  commentId: M:Engine.Core.Events.Event`1.RemoveListener(System.Action{`0})
+  id: RemoveListener(System.Action{`0})
+  parent: Engine.Core.Events.Event`1
+  langs:
+  - csharp
+  - vb
+  name: RemoveListener(Action<T>)
+  nameWithType: Event<T>.RemoveListener(Action<T>)
+  fullName: Engine.Core.Events.Event<T>.RemoveListener(System.Action<T>)
+  type: Method
+  source:
+    id: RemoveListener
+    path: ''
+    startLine: 1731
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Events
+  syntax:
+    content: public void RemoveListener(Action<T> method)
+    parameters:
+    - id: method
+      type: System.Action{{T}}
+    content.vb: Public Sub RemoveListener(method As Action(Of T))
+  overload: Engine.Core.Events.Event`1.RemoveListener*
+  nameWithType.vb: Event(Of T).RemoveListener(Action(Of T))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Engine.Core.Events.Event(Of T).RemoveListener(System.Action(Of T))
+  name.vb: RemoveListener(Action(Of T))
+- uid: Engine.Core.Events.Event`1.RemoveAllListeners
+  commentId: M:Engine.Core.Events.Event`1.RemoveAllListeners
+  id: RemoveAllListeners
+  parent: Engine.Core.Events.Event`1
+  langs:
+  - csharp
+  - vb
+  name: RemoveAllListeners()
+  nameWithType: Event<T>.RemoveAllListeners()
+  fullName: Engine.Core.Events.Event<T>.RemoveAllListeners()
+  type: Method
+  source:
+    id: RemoveAllListeners
+    path: ''
+    startLine: 1736
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Events
+  syntax:
+    content: public void RemoveAllListeners()
+    content.vb: Public Sub RemoveAllListeners
+  overload: Engine.Core.Events.Event`1.RemoveAllListeners*
+  nameWithType.vb: Event(Of T).RemoveAllListeners()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Engine.Core.Events.Event(Of T).RemoveAllListeners()
+- uid: Engine.Core.Events.Event`1.Invoke(`0)
+  commentId: M:Engine.Core.Events.Event`1.Invoke(`0)
+  id: Invoke(`0)
+  parent: Engine.Core.Events.Event`1
+  langs:
+  - csharp
+  - vb
+  name: Invoke(T)
+  nameWithType: Event<T>.Invoke(T)
+  fullName: Engine.Core.Events.Event<T>.Invoke(T)
+  type: Method
+  source:
+    id: Invoke
+    path: ''
+    startLine: 1741
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Events
+  syntax:
+    content: public void Invoke(T t)
+    parameters:
+    - id: t
+      type: '{T}'
+    content.vb: Public Sub Invoke(t As T)
+  overload: Engine.Core.Events.Event`1.Invoke*
+  nameWithType.vb: Event(Of T).Invoke(T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Engine.Core.Events.Event(Of T).Invoke(T)
+- uid: Engine.Core.Events.Event`1.op_Addition(Engine.Core.Events.Event{`0},System.Action{`0})
+  commentId: M:Engine.Core.Events.Event`1.op_Addition(Engine.Core.Events.Event{`0},System.Action{`0})
+  id: op_Addition(Engine.Core.Events.Event{`0},System.Action{`0})
+  parent: Engine.Core.Events.Event`1
+  langs:
+  - csharp
+  - vb
+  name: Addition(Event<T>, Action<T>)
+  nameWithType: Event<T>.Addition(Event<T>, Action<T>)
+  fullName: Engine.Core.Events.Event<T>.Addition(Engine.Core.Events.Event<T>, System.Action<T>)
+  type: Operator
+  source:
+    id: op_Addition
+    path: ''
+    startLine: 1746
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Events
+  syntax:
+    content: public static Event<T> operator +(Event<T> e, Action<T> method)
+    parameters:
+    - id: e
+      type: Engine.Core.Events.Event`1
+    - id: method
+      type: System.Action{{T}}
+    return:
+      type: Engine.Core.Events.Event`1
+    content.vb: 'Public Shared Operator +(e As  Event (Of T), method As Action(Of T)) As '
+  overload: Engine.Core.Events.Event`1.op_Addition*
+  nameWithType.vb: Event(Of T).Addition(Event(Of T), Action(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Engine.Core.Events.Event(Of T).Addition(Engine.Core.Events.Event(Of T), System.Action(Of T))
+  name.vb: Addition(Event(Of T), Action(Of T))
+- uid: Engine.Core.Events.Event`1.op_Subtraction(Engine.Core.Events.Event{`0},System.Action{`0})
+  commentId: M:Engine.Core.Events.Event`1.op_Subtraction(Engine.Core.Events.Event{`0},System.Action{`0})
+  id: op_Subtraction(Engine.Core.Events.Event{`0},System.Action{`0})
+  parent: Engine.Core.Events.Event`1
+  langs:
+  - csharp
+  - vb
+  name: Subtraction(Event<T>, Action<T>)
+  nameWithType: Event<T>.Subtraction(Event<T>, Action<T>)
+  fullName: Engine.Core.Events.Event<T>.Subtraction(Engine.Core.Events.Event<T>, System.Action<T>)
+  type: Operator
+  source:
+    id: op_Subtraction
+    path: ''
+    startLine: 1751
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Events
+  syntax:
+    content: public static Event<T> operator -(Event<T> e, Action<T> method)
+    parameters:
+    - id: e
+      type: Engine.Core.Events.Event`1
+    - id: method
+      type: System.Action{{T}}
+    return:
+      type: Engine.Core.Events.Event`1
+    content.vb: 'Public Shared Operator -(e As  Event (Of T), method As Action(Of T)) As '
+  overload: Engine.Core.Events.Event`1.op_Subtraction*
+  nameWithType.vb: Event(Of T).Subtraction(Event(Of T), Action(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Engine.Core.Events.Event(Of T).Subtraction(Engine.Core.Events.Event(Of T), System.Action(Of T))
+  name.vb: Subtraction(Event(Of T), Action(Of T))
+references:
+- uid: Engine.Core.Events
+  commentId: N:Engine.Core.Events
+  name: Engine.Core.Events
+  nameWithType: Engine.Core.Events
+  fullName: Engine.Core.Events
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Engine.Core.Events.Event`1.AddListener*
+  commentId: Overload:Engine.Core.Events.Event`1.AddListener
+  name: AddListener
+  nameWithType: Event<T>.AddListener
+  fullName: Engine.Core.Events.Event<T>.AddListener
+  nameWithType.vb: Event(Of T).AddListener
+  fullName.vb: Engine.Core.Events.Event(Of T).AddListener
+- uid: System.Action{{T}}
+  commentId: T:System.Action{`0}
+  parent: System
+  definition: System.Action`1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Engine.Core.Events.Event`1.RemoveListener*
+  commentId: Overload:Engine.Core.Events.Event`1.RemoveListener
+  name: RemoveListener
+  nameWithType: Event<T>.RemoveListener
+  fullName: Engine.Core.Events.Event<T>.RemoveListener
+  nameWithType.vb: Event(Of T).RemoveListener
+  fullName.vb: Engine.Core.Events.Event(Of T).RemoveListener
+- uid: Engine.Core.Events.Event`1.RemoveAllListeners*
+  commentId: Overload:Engine.Core.Events.Event`1.RemoveAllListeners
+  name: RemoveAllListeners
+  nameWithType: Event<T>.RemoveAllListeners
+  fullName: Engine.Core.Events.Event<T>.RemoveAllListeners
+  nameWithType.vb: Event(Of T).RemoveAllListeners
+  fullName.vb: Engine.Core.Events.Event(Of T).RemoveAllListeners
+- uid: Engine.Core.Events.Event`1.Invoke*
+  commentId: Overload:Engine.Core.Events.Event`1.Invoke
+  name: Invoke
+  nameWithType: Event<T>.Invoke
+  fullName: Engine.Core.Events.Event<T>.Invoke
+  nameWithType.vb: Event(Of T).Invoke
+  fullName.vb: Engine.Core.Events.Event(Of T).Invoke
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Engine.Core.Events.Event`1.op_Addition*
+  commentId: Overload:Engine.Core.Events.Event`1.op_Addition
+  name: Addition
+  nameWithType: Event<T>.Addition
+  fullName: Engine.Core.Events.Event<T>.Addition
+  nameWithType.vb: Event(Of T).Addition
+  fullName.vb: Engine.Core.Events.Event(Of T).Addition
+- uid: Engine.Core.Events.Event`1
+  commentId: T:Engine.Core.Events.Event`1
+  parent: Engine.Core.Events
+  name: Event<T>
+  nameWithType: Event<T>
+  fullName: Engine.Core.Events.Event<T>
+  nameWithType.vb: Event(Of T)
+  fullName.vb: Engine.Core.Events.Event(Of T)
+  name.vb: Event(Of T)
+  spec.csharp:
+  - uid: Engine.Core.Events.Event`1
+    name: Event
+    nameWithType: Event
+    fullName: Engine.Core.Events.Event
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Engine.Core.Events.Event`1
+    name: Event
+    nameWithType: Event
+    fullName: Engine.Core.Events.Event
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Engine.Core.Events.Event`1.op_Subtraction*
+  commentId: Overload:Engine.Core.Events.Event`1.op_Subtraction
+  name: Subtraction
+  nameWithType: Event<T>.Subtraction
+  fullName: Engine.Core.Events.Event<T>.Subtraction
+  nameWithType.vb: Event(Of T).Subtraction
+  fullName.vb: Engine.Core.Events.Event(Of T).Subtraction

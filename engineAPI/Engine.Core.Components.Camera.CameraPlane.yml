@@ -23,7 +23,7 @@ items:
   source:
     id: CameraPlane
     path: ''
-    startLine: 581
+    startLine: 1053
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -60,7 +60,7 @@ items:
   source:
     id: plane
     path: ''
-    startLine: 590
+    startLine: 1062
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -91,7 +91,7 @@ items:
   source:
     id: GlobalVertical
     path: ''
-    startLine: 591
+    startLine: 1063
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -122,7 +122,7 @@ items:
   source:
     id: GlobalHorizontal
     path: ''
-    startLine: 592
+    startLine: 1064
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -153,7 +153,7 @@ items:
   source:
     id: Normal
     path: ''
-    startLine: 593
+    startLine: 1065
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -184,7 +184,7 @@ items:
   source:
     id: BoundaryS
     path: ''
-    startLine: 598
+    startLine: 1070
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -215,7 +215,7 @@ items:
   source:
     id: BoundaryT
     path: ''
-    startLine: 599
+    startLine: 1071
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -246,7 +246,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 601
+    startLine: 1073
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components
@@ -277,7 +277,7 @@ items:
   source:
     id: GetPoint
     path: ''
-    startLine: 723
+    startLine: 1195
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Components

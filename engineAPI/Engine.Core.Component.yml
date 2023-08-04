@@ -28,11 +28,11 @@ items:
   - System.Object
   derivedClasses:
   - Engine.Core.Components.Camera
-  - Engine.Core.Components.Edge
-  - Engine.Core.Components.Face
+  - Engine.Core.Components.Edge3D
+  - Engine.Core.Components.Face3D
   - Engine.Core.Components.LCS3
-  - Engine.Core.Components.Mesh
-  - Engine.Core.Components.Vertex
+  - Engine.Core.Components.Mesh3D
+  - Engine.Core.Components.Vertex3D
   inheritedMembers:
   - System.Object.ToString
   - System.Object.Equals(System.Object)

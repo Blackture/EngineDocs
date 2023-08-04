@@ -5,9 +5,11 @@ items:
   id: Scene
   parent: Engine.Core.SceneManagement
   children:
-  - Engine.Core.SceneManagement.Scene.#ctor(System.Int32)
+  - Engine.Core.SceneManagement.Scene.#ctor(System.Int32,Engine.Core.SceneManagement.SceneType)
+  - Engine.Core.SceneManagement.Scene.GetGlobalCoordinateSystem(GCS3@)
   - Engine.Core.SceneManagement.Scene.Name
   - Engine.Core.SceneManagement.Scene.SceneId
+  - Engine.Core.SceneManagement.Scene.Type
   langs:
   - csharp
   - vb
@@ -18,7 +20,7 @@ items:
   source:
     id: Scene
     path: ''
-    startLine: 5456
+    startLine: 6731
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.SceneManagement
@@ -57,7 +59,7 @@ items:
   source:
     id: Name
     path: ''
-    startLine: 5458
+    startLine: 6733
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.SceneManagement
@@ -84,7 +86,7 @@ items:
   source:
     id: SceneId
     path: ''
-    startLine: 5460
+    startLine: 6739
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.SceneManagement
@@ -101,35 +103,105 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: Engine.Core.SceneManagement.Scene.#ctor(System.Int32)
-  commentId: M:Engine.Core.SceneManagement.Scene.#ctor(System.Int32)
-  id: '#ctor(System.Int32)'
+- uid: Engine.Core.SceneManagement.Scene.Type
+  commentId: P:Engine.Core.SceneManagement.Scene.Type
+  id: Type
   parent: Engine.Core.SceneManagement.Scene
   langs:
   - csharp
   - vb
-  name: Scene(Int32)
-  nameWithType: Scene.Scene(Int32)
-  fullName: Engine.Core.SceneManagement.Scene.Scene(System.Int32)
-  type: Constructor
+  name: Type
+  nameWithType: Scene.Type
+  fullName: Engine.Core.SceneManagement.Scene.Type
+  type: Property
   source:
-    id: .ctor
+    id: Type
     path: ''
-    startLine: 5462
+    startLine: 6740
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.SceneManagement
   syntax:
-    content: public Scene(int sceneId)
+    content: public SceneType Type { get; }
+    parameters: []
+    return:
+      type: Engine.Core.SceneManagement.SceneType
+    content.vb: Public ReadOnly Property Type As SceneType
+  overload: Engine.Core.SceneManagement.Scene.Type*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Engine.Core.SceneManagement.Scene.#ctor(System.Int32,Engine.Core.SceneManagement.SceneType)
+  commentId: M:Engine.Core.SceneManagement.Scene.#ctor(System.Int32,Engine.Core.SceneManagement.SceneType)
+  id: '#ctor(System.Int32,Engine.Core.SceneManagement.SceneType)'
+  parent: Engine.Core.SceneManagement.Scene
+  langs:
+  - csharp
+  - vb
+  name: Scene(Int32, SceneType)
+  nameWithType: Scene.Scene(Int32, SceneType)
+  fullName: Engine.Core.SceneManagement.Scene.Scene(System.Int32, Engine.Core.SceneManagement.SceneType)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 6742
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.SceneManagement
+  syntax:
+    content: public Scene(int sceneId, SceneType type)
     parameters:
     - id: sceneId
       type: System.Int32
-    content.vb: Public Sub New(sceneId As Integer)
+    - id: type
+      type: Engine.Core.SceneManagement.SceneType
+    content.vb: Public Sub New(sceneId As Integer, type As SceneType)
   overload: Engine.Core.SceneManagement.Scene.#ctor*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
+- uid: Engine.Core.SceneManagement.Scene.GetGlobalCoordinateSystem(GCS3@)
+  commentId: M:Engine.Core.SceneManagement.Scene.GetGlobalCoordinateSystem(GCS3@)
+  id: GetGlobalCoordinateSystem(GCS3@)
+  parent: Engine.Core.SceneManagement.Scene
+  langs:
+  - csharp
+  - vb
+  name: GetGlobalCoordinateSystem(out GCS3)
+  nameWithType: Scene.GetGlobalCoordinateSystem(out GCS3)
+  fullName: Engine.Core.SceneManagement.Scene.GetGlobalCoordinateSystem(out GCS3)
+  type: Method
+  source:
+    id: GetGlobalCoordinateSystem
+    path: ''
+    startLine: 6754
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.SceneManagement
+  summary: "\nGets the scene&apos;s global coordinate system.\nTODO: Overload method for GCS2\n"
+  example: []
+  syntax:
+    content: public bool GetGlobalCoordinateSystem(out GCS3 gcs)
+    parameters:
+    - id: gcs
+      type: GCS3
+    return:
+      type: System.Boolean
+      description: Returns wether there is GCS3 or not
+    content.vb: Public Function GetGlobalCoordinateSystem(ByRef gcs As GCS3) As Boolean
+  overload: Engine.Core.SceneManagement.Scene.GetGlobalCoordinateSystem*
+  nameWithType.vb: Scene.GetGlobalCoordinateSystem(ByRef GCS3)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Engine.Core.SceneManagement.Scene.GetGlobalCoordinateSystem(ByRef GCS3)
+  name.vb: GetGlobalCoordinateSystem(ByRef GCS3)
 references:
 - uid: Engine.Core.SceneManagement
   commentId: N:Engine.Core.SceneManagement
@@ -447,8 +519,36 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: Engine.Core.SceneManagement.Scene.Type*
+  commentId: Overload:Engine.Core.SceneManagement.Scene.Type
+  name: Type
+  nameWithType: Scene.Type
+  fullName: Engine.Core.SceneManagement.Scene.Type
+- uid: Engine.Core.SceneManagement.SceneType
+  commentId: T:Engine.Core.SceneManagement.SceneType
+  parent: Engine.Core.SceneManagement
+  name: SceneType
+  nameWithType: SceneType
+  fullName: Engine.Core.SceneManagement.SceneType
 - uid: Engine.Core.SceneManagement.Scene.#ctor*
   commentId: Overload:Engine.Core.SceneManagement.Scene.#ctor
   name: Scene
   nameWithType: Scene.Scene
   fullName: Engine.Core.SceneManagement.Scene.Scene
+- uid: Engine.Core.SceneManagement.Scene.GetGlobalCoordinateSystem*
+  commentId: Overload:Engine.Core.SceneManagement.Scene.GetGlobalCoordinateSystem
+  name: GetGlobalCoordinateSystem
+  nameWithType: Scene.GetGlobalCoordinateSystem
+  fullName: Engine.Core.SceneManagement.Scene.GetGlobalCoordinateSystem
+- uid: GCS3
+  isExternal: true
+  name: GCS3
+  nameWithType: GCS3
+  fullName: GCS3
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

@@ -66,7 +66,7 @@ items:
   source:
     id: MatrixMxN
     path: ''
-    startLine: 2506
+    startLine: 3272
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -114,7 +114,7 @@ items:
   source:
     id: RowCount
     path: ''
-    startLine: 2514
+    startLine: 3280
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -150,7 +150,7 @@ items:
   source:
     id: ColumnCount
     path: ''
-    startLine: 2515
+    startLine: 3281
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -186,7 +186,7 @@ items:
   source:
     id: this[]
     path: ''
-    startLine: 2516
+    startLine: 3282
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -229,7 +229,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 2522
+    startLine: 3288
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -255,7 +255,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 2523
+    startLine: 3289
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -287,7 +287,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 2527
+    startLine: 3293
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -318,7 +318,7 @@ items:
   source:
     id: GetValue
     path: ''
-    startLine: 2621
+    startLine: 3387
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -351,7 +351,7 @@ items:
   source:
     id: SetValue
     path: ''
-    startLine: 2629
+    startLine: 3395
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -384,7 +384,7 @@ items:
   source:
     id: GetRow
     path: ''
-    startLine: 2637
+    startLine: 3403
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -415,7 +415,7 @@ items:
   source:
     id: GetColumn
     path: ''
-    startLine: 2650
+    startLine: 3416
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -446,7 +446,7 @@ items:
   source:
     id: AddRow
     path: ''
-    startLine: 2663
+    startLine: 3429
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -475,7 +475,7 @@ items:
   source:
     id: InsertRow
     path: ''
-    startLine: 2672
+    startLine: 3438
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -506,7 +506,7 @@ items:
   source:
     id: RemoveRow
     path: ''
-    startLine: 2681
+    startLine: 3447
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -535,7 +535,7 @@ items:
   source:
     id: RemoveColumn
     path: ''
-    startLine: 2686
+    startLine: 3452
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -564,7 +564,7 @@ items:
   source:
     id: SwapRows
     path: ''
-    startLine: 2703
+    startLine: 3469
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -600,7 +600,7 @@ items:
   source:
     id: ScalarMultiplication
     path: ''
-    startLine: 2710
+    startLine: 3476
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -631,7 +631,7 @@ items:
   source:
     id: ScalarDivision
     path: ''
-    startLine: 2724
+    startLine: 3490
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -662,7 +662,7 @@ items:
   source:
     id: Multiplication
     path: ''
-    startLine: 2729
+    startLine: 3495
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -693,7 +693,7 @@ items:
   source:
     id: Addition
     path: ''
-    startLine: 2749
+    startLine: 3515
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -724,7 +724,7 @@ items:
   source:
     id: Substraction
     path: ''
-    startLine: 2767
+    startLine: 3533
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -755,7 +755,7 @@ items:
   source:
     id: RowAddition
     path: ''
-    startLine: 2793
+    startLine: 3559
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -793,7 +793,7 @@ items:
   source:
     id: RowSubstraction
     path: ''
-    startLine: 2799
+    startLine: 3565
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -826,7 +826,7 @@ items:
   source:
     id: RowOperation
     path: ''
-    startLine: 2805
+    startLine: 3571
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -866,7 +866,7 @@ items:
   source:
     id: Operation
     path: ''
-    startLine: 2833
+    startLine: 3599
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -906,7 +906,7 @@ items:
   source:
     id: Operation
     path: ''
-    startLine: 2856
+    startLine: 3622
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -946,7 +946,7 @@ items:
   source:
     id: Transpose
     path: ''
-    startLine: 2860
+    startLine: 3626
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -972,7 +972,7 @@ items:
   source:
     id: GetSubMatrix
     path: ''
-    startLine: 2880
+    startLine: 3646
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1010,7 +1010,7 @@ items:
   source:
     id: Get2x2SubMatrices
     path: ''
-    startLine: 2900
+    startLine: 3666
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1046,7 +1046,7 @@ items:
   source:
     id: GetMinorMatrix
     path: ''
-    startLine: 2932
+    startLine: 3698
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1080,7 +1080,7 @@ items:
   source:
     id: GetCofactorMatrix
     path: ''
-    startLine: 2973
+    startLine: 3739
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1114,7 +1114,7 @@ items:
   source:
     id: GetDeterminant
     path: ''
-    startLine: 2991
+    startLine: 3757
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1148,7 +1148,7 @@ items:
   source:
     id: GetAdjointMatrix
     path: ''
-    startLine: 3034
+    startLine: 3800
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1182,7 +1182,7 @@ items:
   source:
     id: ToVector3
     path: ''
-    startLine: 3046
+    startLine: 3812
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1216,7 +1216,7 @@ items:
   source:
     id: ToVector
     path: ''
-    startLine: 3057
+    startLine: 3823
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1250,7 +1250,7 @@ items:
   source:
     id: ScalarMultiplication
     path: ''
-    startLine: 3073
+    startLine: 3839
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1285,7 +1285,7 @@ items:
   source:
     id: ScalarDivision
     path: ''
-    startLine: 3077
+    startLine: 3843
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1320,7 +1320,7 @@ items:
   source:
     id: Multiplication
     path: ''
-    startLine: 3081
+    startLine: 3847
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1355,7 +1355,7 @@ items:
   source:
     id: Addition
     path: ''
-    startLine: 3085
+    startLine: 3851
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1390,7 +1390,7 @@ items:
   source:
     id: Substraction
     path: ''
-    startLine: 3089
+    startLine: 3855
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1425,7 +1425,7 @@ items:
   source:
     id: RowOperation
     path: ''
-    startLine: 3093
+    startLine: 3859
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1464,7 +1464,7 @@ items:
   source:
     id: Operation
     path: ''
-    startLine: 3097
+    startLine: 3863
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1503,7 +1503,7 @@ items:
   source:
     id: GetIdentityMatrix
     path: ''
-    startLine: 3106
+    startLine: 3872
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1540,7 +1540,7 @@ items:
   source:
     id: GetInverse
     path: ''
-    startLine: 3121
+    startLine: 3887
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1578,7 +1578,7 @@ items:
   source:
     id: op_Multiply
     path: ''
-    startLine: 3135
+    startLine: 3901
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1613,7 +1613,7 @@ items:
   source:
     id: op_Multiply
     path: ''
-    startLine: 3139
+    startLine: 3905
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1648,7 +1648,7 @@ items:
   source:
     id: op_Multiply
     path: ''
-    startLine: 3143
+    startLine: 3909
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1683,7 +1683,7 @@ items:
   source:
     id: op_Addition
     path: ''
-    startLine: 3147
+    startLine: 3913
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1718,7 +1718,7 @@ items:
   source:
     id: op_Subtraction
     path: ''
-    startLine: 3151
+    startLine: 3917
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1753,7 +1753,7 @@ items:
   source:
     id: op_UnaryNegation
     path: ''
-    startLine: 3155
+    startLine: 3921
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1786,7 +1786,7 @@ items:
   source:
     id: op_Division
     path: ''
-    startLine: 3159
+    startLine: 3925
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1821,7 +1821,7 @@ items:
   source:
     id: op_Implicit
     path: ''
-    startLine: 3163
+    startLine: 3929
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths

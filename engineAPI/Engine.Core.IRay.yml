@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.IRay
+  commentId: T:Engine.Core.IRay
+  id: IRay
+  parent: Engine.Core
+  children:
+  - Engine.Core.IRay.OnRayCollision(System.Collections.Generic.List{ParticleCollision3D})
+  langs:
+  - csharp
+  - vb
+  name: IRay
+  nameWithType: IRay
+  fullName: Engine.Core.IRay
+  type: Interface
+  source:
+    id: IRay
+    path: ''
+    startLine: 185
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core
+  syntax:
+    content: public interface IRay
+    content.vb: Public Interface IRay
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Engine.Core.IRay.OnRayCollision(System.Collections.Generic.List{ParticleCollision3D})
+  commentId: M:Engine.Core.IRay.OnRayCollision(System.Collections.Generic.List{ParticleCollision3D})
+  id: OnRayCollision(System.Collections.Generic.List{ParticleCollision3D})
+  parent: Engine.Core.IRay
+  langs:
+  - csharp
+  - vb
+  name: OnRayCollision(List<ParticleCollision3D>)
+  nameWithType: IRay.OnRayCollision(List<ParticleCollision3D>)
+  fullName: Engine.Core.IRay.OnRayCollision(System.Collections.Generic.List<ParticleCollision3D>)
+  type: Method
+  source:
+    id: OnRayCollision
+    path: ''
+    startLine: 187
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core
+  syntax:
+    content: void OnRayCollision(List<ParticleCollision3D> collisions)
+    parameters:
+    - id: collisions
+      type: System.Collections.Generic.List{ParticleCollision3D}
+    content.vb: Sub OnRayCollision(collisions As List(Of ParticleCollision3D))
+  overload: Engine.Core.IRay.OnRayCollision*
+  nameWithType.vb: IRay.OnRayCollision(List(Of ParticleCollision3D))
+  fullName.vb: Engine.Core.IRay.OnRayCollision(System.Collections.Generic.List(Of ParticleCollision3D))
+  name.vb: OnRayCollision(List(Of ParticleCollision3D))
+references:
+- uid: Engine.Core
+  commentId: N:Engine.Core
+  name: Engine.Core
+  nameWithType: Engine.Core
+  fullName: Engine.Core
+- uid: Engine.Core.IRay.OnRayCollision*
+  commentId: Overload:Engine.Core.IRay.OnRayCollision
+  name: OnRayCollision
+  nameWithType: IRay.OnRayCollision
+  fullName: Engine.Core.IRay.OnRayCollision
+- uid: System.Collections.Generic.List{ParticleCollision3D}
+  commentId: T:System.Collections.Generic.List{ParticleCollision3D}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ParticleCollision3D>
+  nameWithType: List<ParticleCollision3D>
+  fullName: System.Collections.Generic.List<ParticleCollision3D>
+  nameWithType.vb: List(Of ParticleCollision3D)
+  fullName.vb: System.Collections.Generic.List(Of ParticleCollision3D)
+  name.vb: List(Of ParticleCollision3D)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: ParticleCollision3D
+    name: ParticleCollision3D
+    nameWithType: ParticleCollision3D
+    fullName: ParticleCollision3D
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: ParticleCollision3D
+    name: ParticleCollision3D
+    nameWithType: ParticleCollision3D
+    fullName: ParticleCollision3D
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

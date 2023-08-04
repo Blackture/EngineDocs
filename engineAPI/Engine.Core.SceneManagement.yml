@@ -7,6 +7,7 @@ items:
   - Engine.Core.SceneManagement.Scene
   - Engine.Core.SceneManagement.Scene3D
   - Engine.Core.SceneManagement.SceneManager
+  - Engine.Core.SceneManagement.SceneType
   langs:
   - csharp
   - vb
@@ -17,6 +18,12 @@ items:
   assemblies:
   - cs.temp.dll
 references:
+- uid: Engine.Core.SceneManagement.SceneType
+  commentId: T:Engine.Core.SceneManagement.SceneType
+  parent: Engine.Core.SceneManagement
+  name: SceneType
+  nameWithType: SceneType
+  fullName: Engine.Core.SceneManagement.SceneType
 - uid: Engine.Core.SceneManagement.Scene
   commentId: T:Engine.Core.SceneManagement.Scene
   parent: Engine.Core.SceneManagement

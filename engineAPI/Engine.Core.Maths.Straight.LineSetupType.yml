@@ -17,7 +17,7 @@ items:
   source:
     id: LineSetupType
     path: ''
-    startLine: 4046
+    startLine: 4812
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -44,7 +44,7 @@ items:
   source:
     id: _2Points
     path: ''
-    startLine: 4048
+    startLine: 4814
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -72,7 +72,7 @@ items:
   source:
     id: _1Point1Dir
     path: ''
-    startLine: 4049
+    startLine: 4815
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths

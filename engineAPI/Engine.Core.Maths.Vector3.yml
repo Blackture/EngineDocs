@@ -55,7 +55,7 @@ items:
   source:
     id: Vector3
     path: ''
-    startLine: 4742
+    startLine: 5508
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -94,7 +94,7 @@ items:
   source:
     id: Zero
     path: ''
-    startLine: 4744
+    startLine: 5510
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -125,7 +125,7 @@ items:
   source:
     id: One
     path: ''
-    startLine: 4745
+    startLine: 5511
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -156,7 +156,7 @@ items:
   source:
     id: X1
     path: ''
-    startLine: 4754
+    startLine: 5520
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -187,7 +187,7 @@ items:
   source:
     id: X2
     path: ''
-    startLine: 4755
+    startLine: 5521
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -218,7 +218,7 @@ items:
   source:
     id: X3
     path: ''
-    startLine: 4756
+    startLine: 5522
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -249,7 +249,7 @@ items:
   source:
     id: Length
     path: ''
-    startLine: 4757
+    startLine: 5523
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -280,7 +280,7 @@ items:
   source:
     id: LengthSquared
     path: ''
-    startLine: 4758
+    startLine: 5524
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -311,7 +311,7 @@ items:
   source:
     id: Normalized
     path: ''
-    startLine: 4759
+    startLine: 5525
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -342,7 +342,7 @@ items:
   source:
     id: Dimension
     path: ''
-    startLine: 4760
+    startLine: 5526
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -373,7 +373,7 @@ items:
   source:
     id: this[]
     path: ''
-    startLine: 4762
+    startLine: 5528
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -409,7 +409,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 4800
+    startLine: 5566
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -442,7 +442,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 4806
+    startLine: 5572
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -471,7 +471,7 @@ items:
   source:
     id: op_Multiply
     path: ''
-    startLine: 4813
+    startLine: 5579
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -506,7 +506,7 @@ items:
   source:
     id: op_Multiply
     path: ''
-    startLine: 4817
+    startLine: 5583
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -541,7 +541,7 @@ items:
   source:
     id: op_Multiply
     path: ''
-    startLine: 4821
+    startLine: 5587
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -576,7 +576,7 @@ items:
   source:
     id: op_Addition
     path: ''
-    startLine: 4825
+    startLine: 5591
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -611,7 +611,7 @@ items:
   source:
     id: op_Subtraction
     path: ''
-    startLine: 4829
+    startLine: 5595
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -646,7 +646,7 @@ items:
   source:
     id: op_Division
     path: ''
-    startLine: 4833
+    startLine: 5599
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -681,7 +681,7 @@ items:
   source:
     id: op_Implicit
     path: ''
-    startLine: 4837
+    startLine: 5603
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -717,7 +717,7 @@ items:
   source:
     id: ToMatrix
     path: ''
-    startLine: 4847
+    startLine: 5613
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -755,7 +755,7 @@ items:
   source:
     id: CrossProduct
     path: ''
-    startLine: 4851
+    startLine: 5617
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -790,7 +790,7 @@ items:
   source:
     id: DotProduct
     path: ''
-    startLine: 4855
+    startLine: 5621
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -825,7 +825,7 @@ items:
   source:
     id: Normalize
     path: ''
-    startLine: 4859
+    startLine: 5625
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -858,7 +858,7 @@ items:
   source:
     id: GetLength
     path: ''
-    startLine: 4864
+    startLine: 5630
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -891,7 +891,7 @@ items:
   source:
     id: AngleBetween
     path: ''
-    startLine: 4868
+    startLine: 5634
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -926,7 +926,7 @@ items:
   source:
     id: OrthogonalityCheck
     path: ''
-    startLine: 4873
+    startLine: 5639
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -961,7 +961,7 @@ items:
   source:
     id: Normalize
     path: ''
-    startLine: 4883
+    startLine: 5649
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -989,7 +989,7 @@ items:
   source:
     id: GetLength
     path: ''
-    startLine: 4888
+    startLine: 5654
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1017,7 +1017,7 @@ items:
   source:
     id: CrossProduct
     path: ''
-    startLine: 4902
+    startLine: 5668
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1048,7 +1048,7 @@ items:
   source:
     id: DotProduct
     path: ''
-    startLine: 4906
+    startLine: 5672
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1079,7 +1079,7 @@ items:
   source:
     id: ScalarProduct
     path: ''
-    startLine: 4910
+    startLine: 5676
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1110,7 +1110,7 @@ items:
   source:
     id: Addition
     path: ''
-    startLine: 4914
+    startLine: 5680
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1141,7 +1141,7 @@ items:
   source:
     id: Substraction
     path: ''
-    startLine: 4918
+    startLine: 5684
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1172,7 +1172,7 @@ items:
   source:
     id: Division
     path: ''
-    startLine: 4922
+    startLine: 5688
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1203,7 +1203,7 @@ items:
   source:
     id: IsPerpendicularTo
     path: ''
-    startLine: 4926
+    startLine: 5692
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1234,7 +1234,7 @@ items:
   source:
     id: GetNormalVector
     path: ''
-    startLine: 4941
+    startLine: 5707
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1269,7 +1269,7 @@ items:
   source:
     id: IsZero
     path: ''
-    startLine: 4959
+    startLine: 5725
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1297,7 +1297,7 @@ items:
   source:
     id: ToMatrix
     path: ''
-    startLine: 4963
+    startLine: 5729
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1328,7 +1328,7 @@ items:
   source:
     id: Project
     path: ''
-    startLine: 4984
+    startLine: 5750
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -1359,7 +1359,7 @@ items:
   source:
     id: Project
     path: ''
-    startLine: 4989
+    startLine: 5755
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths

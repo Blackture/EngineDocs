@@ -18,7 +18,7 @@ items:
   source:
     id: BasePlane
     path: ''
-    startLine: 1386
+    startLine: 2044
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -45,7 +45,7 @@ items:
   source:
     id: X1X2
     path: ''
-    startLine: 1388
+    startLine: 2046
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -73,7 +73,7 @@ items:
   source:
     id: X2X3
     path: ''
-    startLine: 1389
+    startLine: 2047
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -101,7 +101,7 @@ items:
   source:
     id: X1X3
     path: ''
-    startLine: 1390
+    startLine: 2048
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths

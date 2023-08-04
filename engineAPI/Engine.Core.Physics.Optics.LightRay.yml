@@ -4,7 +4,9 @@ items:
   commentId: T:Engine.Core.Physics.Optics.LightRay
   id: LightRay
   parent: Engine.Core.Physics.Optics
-  children: []
+  children:
+  - Engine.Core.Physics.Optics.LightRay.#ctor(Straight,System.Single)
+  - Engine.Core.Physics.Optics.LightRay.#ctor(Straight,System.Single,System.Single)
   langs:
   - csharp
   - vb
@@ -15,16 +17,28 @@ items:
   source:
     id: LightRay
     path: ''
-    startLine: 5428
+    startLine: 6627
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Physics.Optics
   syntax:
-    content: public class LightRay
-    content.vb: Public Class LightRay
+    content: 'public class LightRay : Ray, IParticleHandler, IRay'
+    content.vb: >-
+      Public Class LightRay
+          Inherits Ray
+          Implements IParticleHandler, IRay
   inheritance:
   - System.Object
+  - Engine.Core.Ray
+  implements:
+  - Engine.Core.IParticleHandler
+  - Engine.Core.IRay
   inheritedMembers:
+  - Engine.Core.Ray.Particle
+  - Engine.Core.Ray.Emit(System.Single)
+  - Engine.Core.Ray.EliminateParticle(Engine.Core.Particle@)
+  - Engine.Core.Ray.EliminateAllParticles
+  - Engine.Core.Ray.OnRayCollision(System.Collections.Generic.List{ParticleCollision3D})
   - System.Object.ToString
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -38,6 +52,70 @@ items:
   modifiers.vb:
   - Public
   - Class
+- uid: Engine.Core.Physics.Optics.LightRay.#ctor(Straight,System.Single)
+  commentId: M:Engine.Core.Physics.Optics.LightRay.#ctor(Straight,System.Single)
+  id: '#ctor(Straight,System.Single)'
+  parent: Engine.Core.Physics.Optics.LightRay
+  langs:
+  - csharp
+  - vb
+  name: LightRay(Straight, Single)
+  nameWithType: LightRay.LightRay(Straight, Single)
+  fullName: Engine.Core.Physics.Optics.LightRay.LightRay(Straight, System.Single)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 6633
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Physics.Optics
+  syntax:
+    content: public LightRay(Straight ray, float rayStart)
+    parameters:
+    - id: ray
+      type: Straight
+    - id: rayStart
+      type: System.Single
+    content.vb: Public Sub New(ray As Straight, rayStart As Single)
+  overload: Engine.Core.Physics.Optics.LightRay.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Physics.Optics.LightRay.#ctor(Straight,System.Single,System.Single)
+  commentId: M:Engine.Core.Physics.Optics.LightRay.#ctor(Straight,System.Single,System.Single)
+  id: '#ctor(Straight,System.Single,System.Single)'
+  parent: Engine.Core.Physics.Optics.LightRay
+  langs:
+  - csharp
+  - vb
+  name: LightRay(Straight, Single, Single)
+  nameWithType: LightRay.LightRay(Straight, Single, Single)
+  fullName: Engine.Core.Physics.Optics.LightRay.LightRay(Straight, System.Single, System.Single)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 6636
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Physics.Optics
+  syntax:
+    content: public LightRay(Straight ray, float rayStart, float samplingRate)
+    parameters:
+    - id: ray
+      type: Straight
+    - id: rayStart
+      type: System.Single
+    - id: samplingRate
+      type: System.Single
+    content.vb: Public Sub New(ray As Straight, rayStart As Single, samplingRate As Single)
+  overload: Engine.Core.Physics.Optics.LightRay.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: Engine.Core.Physics.Optics
   commentId: N:Engine.Core.Physics.Optics
@@ -51,6 +129,197 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: Engine.Core.Ray
+  commentId: T:Engine.Core.Ray
+  parent: Engine.Core
+  name: Ray
+  nameWithType: Ray
+  fullName: Engine.Core.Ray
+- uid: Engine.Core.IParticleHandler
+  commentId: T:Engine.Core.IParticleHandler
+  parent: Engine.Core
+  name: IParticleHandler
+  nameWithType: IParticleHandler
+  fullName: Engine.Core.IParticleHandler
+- uid: Engine.Core.IRay
+  commentId: T:Engine.Core.IRay
+  parent: Engine.Core
+  name: IRay
+  nameWithType: IRay
+  fullName: Engine.Core.IRay
+- uid: Engine.Core.Ray.Particle
+  commentId: P:Engine.Core.Ray.Particle
+  parent: Engine.Core.Ray
+  name: Particle
+  nameWithType: Ray.Particle
+  fullName: Engine.Core.Ray.Particle
+- uid: Engine.Core.Ray.Emit(System.Single)
+  commentId: M:Engine.Core.Ray.Emit(System.Single)
+  parent: Engine.Core.Ray
+  isExternal: true
+  name: Emit(Single)
+  nameWithType: Ray.Emit(Single)
+  fullName: Engine.Core.Ray.Emit(System.Single)
+  spec.csharp:
+  - uid: Engine.Core.Ray.Emit(System.Single)
+    name: Emit
+    nameWithType: Ray.Emit
+    fullName: Engine.Core.Ray.Emit
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Engine.Core.Ray.Emit(System.Single)
+    name: Emit
+    nameWithType: Ray.Emit
+    fullName: Engine.Core.Ray.Emit
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Engine.Core.Ray.EliminateParticle(Engine.Core.Particle@)
+  commentId: M:Engine.Core.Ray.EliminateParticle(Engine.Core.Particle@)
+  parent: Engine.Core.Ray
+  name: EliminateParticle(Particle)
+  nameWithType: Ray.EliminateParticle(Particle)
+  fullName: Engine.Core.Ray.EliminateParticle(Engine.Core.Particle)
+  spec.csharp:
+  - uid: Engine.Core.Ray.EliminateParticle(Engine.Core.Particle@)
+    name: EliminateParticle
+    nameWithType: Ray.EliminateParticle
+    fullName: Engine.Core.Ray.EliminateParticle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Engine.Core.Particle
+    name: Particle
+    nameWithType: Particle
+    fullName: Engine.Core.Particle
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Engine.Core.Ray.EliminateParticle(Engine.Core.Particle@)
+    name: EliminateParticle
+    nameWithType: Ray.EliminateParticle
+    fullName: Engine.Core.Ray.EliminateParticle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Engine.Core.Particle
+    name: Particle
+    nameWithType: Particle
+    fullName: Engine.Core.Particle
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Engine.Core.Ray.EliminateAllParticles
+  commentId: M:Engine.Core.Ray.EliminateAllParticles
+  parent: Engine.Core.Ray
+  name: EliminateAllParticles()
+  nameWithType: Ray.EliminateAllParticles()
+  fullName: Engine.Core.Ray.EliminateAllParticles()
+  spec.csharp:
+  - uid: Engine.Core.Ray.EliminateAllParticles
+    name: EliminateAllParticles
+    nameWithType: Ray.EliminateAllParticles
+    fullName: Engine.Core.Ray.EliminateAllParticles
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Engine.Core.Ray.EliminateAllParticles
+    name: EliminateAllParticles
+    nameWithType: Ray.EliminateAllParticles
+    fullName: Engine.Core.Ray.EliminateAllParticles
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Engine.Core.Ray.OnRayCollision(System.Collections.Generic.List{ParticleCollision3D})
+  commentId: M:Engine.Core.Ray.OnRayCollision(System.Collections.Generic.List{ParticleCollision3D})
+  parent: Engine.Core.Ray
+  isExternal: true
+  name: OnRayCollision(List<ParticleCollision3D>)
+  nameWithType: Ray.OnRayCollision(List<ParticleCollision3D>)
+  fullName: Engine.Core.Ray.OnRayCollision(System.Collections.Generic.List<ParticleCollision3D>)
+  nameWithType.vb: Ray.OnRayCollision(List(Of ParticleCollision3D))
+  fullName.vb: Engine.Core.Ray.OnRayCollision(System.Collections.Generic.List(Of ParticleCollision3D))
+  name.vb: OnRayCollision(List(Of ParticleCollision3D))
+  spec.csharp:
+  - uid: Engine.Core.Ray.OnRayCollision(System.Collections.Generic.List{ParticleCollision3D})
+    name: OnRayCollision
+    nameWithType: Ray.OnRayCollision
+    fullName: Engine.Core.Ray.OnRayCollision
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: ParticleCollision3D
+    name: ParticleCollision3D
+    nameWithType: ParticleCollision3D
+    fullName: ParticleCollision3D
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Engine.Core.Ray.OnRayCollision(System.Collections.Generic.List{ParticleCollision3D})
+    name: OnRayCollision
+    nameWithType: Ray.OnRayCollision
+    fullName: Engine.Core.Ray.OnRayCollision
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: ParticleCollision3D
+    name: ParticleCollision3D
+    nameWithType: ParticleCollision3D
+    fullName: ParticleCollision3D
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
@@ -336,3 +605,25 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: Engine.Core
+  commentId: N:Engine.Core
+  name: Engine.Core
+  nameWithType: Engine.Core
+  fullName: Engine.Core
+- uid: Engine.Core.Physics.Optics.LightRay.#ctor*
+  commentId: Overload:Engine.Core.Physics.Optics.LightRay.#ctor
+  name: LightRay
+  nameWithType: LightRay.LightRay
+  fullName: Engine.Core.Physics.Optics.LightRay.LightRay
+- uid: Straight
+  isExternal: true
+  name: Straight
+  nameWithType: Straight
+  fullName: Straight
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

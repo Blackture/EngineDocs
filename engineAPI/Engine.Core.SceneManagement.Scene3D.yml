@@ -17,7 +17,7 @@ items:
   source:
     id: Scene3D
     path: ''
-    startLine: 5485
+    startLine: 6777
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.SceneManagement
@@ -32,6 +32,8 @@ items:
   inheritedMembers:
   - Engine.Core.SceneManagement.Scene.Name
   - Engine.Core.SceneManagement.Scene.SceneId
+  - Engine.Core.SceneManagement.Scene.Type
+  - Engine.Core.SceneManagement.Scene.GetGlobalCoordinateSystem(GCS3@)
   - System.Object.ToString
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -59,7 +61,7 @@ items:
   source:
     id: GlobalCoordinateSystem
     path: ''
-    startLine: 5488
+    startLine: 6780
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.SceneManagement
@@ -90,7 +92,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 5490
+    startLine: 6782
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.SceneManagement
@@ -136,6 +138,51 @@ references:
   name: SceneId
   nameWithType: Scene.SceneId
   fullName: Engine.Core.SceneManagement.Scene.SceneId
+- uid: Engine.Core.SceneManagement.Scene.Type
+  commentId: P:Engine.Core.SceneManagement.Scene.Type
+  parent: Engine.Core.SceneManagement.Scene
+  name: Type
+  nameWithType: Scene.Type
+  fullName: Engine.Core.SceneManagement.Scene.Type
+- uid: Engine.Core.SceneManagement.Scene.GetGlobalCoordinateSystem(GCS3@)
+  commentId: M:Engine.Core.SceneManagement.Scene.GetGlobalCoordinateSystem(GCS3@)
+  parent: Engine.Core.SceneManagement.Scene
+  isExternal: true
+  name: GetGlobalCoordinateSystem(GCS3)
+  nameWithType: Scene.GetGlobalCoordinateSystem(GCS3)
+  fullName: Engine.Core.SceneManagement.Scene.GetGlobalCoordinateSystem(GCS3)
+  spec.csharp:
+  - uid: Engine.Core.SceneManagement.Scene.GetGlobalCoordinateSystem(GCS3@)
+    name: GetGlobalCoordinateSystem
+    nameWithType: Scene.GetGlobalCoordinateSystem
+    fullName: Engine.Core.SceneManagement.Scene.GetGlobalCoordinateSystem
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: GCS3
+    name: GCS3
+    nameWithType: GCS3
+    fullName: GCS3
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Engine.Core.SceneManagement.Scene.GetGlobalCoordinateSystem(GCS3@)
+    name: GetGlobalCoordinateSystem
+    nameWithType: Scene.GetGlobalCoordinateSystem
+    fullName: Engine.Core.SceneManagement.Scene.GetGlobalCoordinateSystem
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: GCS3
+    name: GCS3
+    nameWithType: GCS3
+    fullName: GCS3
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
@@ -427,7 +474,6 @@ references:
   nameWithType: Scene3D.GlobalCoordinateSystem
   fullName: Engine.Core.SceneManagement.Scene3D.GlobalCoordinateSystem
 - uid: GCS3
-  commentId: '!:GCS3'
   isExternal: true
   name: GCS3
   nameWithType: GCS3

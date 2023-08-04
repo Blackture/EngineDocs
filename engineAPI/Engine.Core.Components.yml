@@ -6,11 +6,11 @@ items:
   children:
   - Engine.Core.Components.Camera
   - Engine.Core.Components.Camera.CameraPlane
-  - Engine.Core.Components.Edge
-  - Engine.Core.Components.Face
+  - Engine.Core.Components.Edge3D
+  - Engine.Core.Components.Face3D
   - Engine.Core.Components.LCS3
-  - Engine.Core.Components.Mesh
-  - Engine.Core.Components.Vertex
+  - Engine.Core.Components.Mesh3D
+  - Engine.Core.Components.Vertex3D
   langs:
   - csharp
   - vb
@@ -32,35 +32,35 @@ references:
   name: Camera.CameraPlane
   nameWithType: Camera.CameraPlane
   fullName: Engine.Core.Components.Camera.CameraPlane
-- uid: Engine.Core.Components.Edge
-  commentId: T:Engine.Core.Components.Edge
+- uid: Engine.Core.Components.Edge3D
+  commentId: T:Engine.Core.Components.Edge3D
   parent: Engine.Core.Components
-  name: Edge
-  nameWithType: Edge
-  fullName: Engine.Core.Components.Edge
-- uid: Engine.Core.Components.Face
-  commentId: T:Engine.Core.Components.Face
+  name: Edge3D
+  nameWithType: Edge3D
+  fullName: Engine.Core.Components.Edge3D
+- uid: Engine.Core.Components.Face3D
+  commentId: T:Engine.Core.Components.Face3D
   parent: Engine.Core.Components
-  name: Face
-  nameWithType: Face
-  fullName: Engine.Core.Components.Face
+  name: Face3D
+  nameWithType: Face3D
+  fullName: Engine.Core.Components.Face3D
 - uid: Engine.Core.Components.LCS3
   commentId: T:Engine.Core.Components.LCS3
   parent: Engine.Core.Components
   name: LCS3
   nameWithType: LCS3
   fullName: Engine.Core.Components.LCS3
-- uid: Engine.Core.Components.Mesh
-  commentId: T:Engine.Core.Components.Mesh
-  name: Mesh
-  nameWithType: Mesh
-  fullName: Engine.Core.Components.Mesh
-- uid: Engine.Core.Components.Vertex
-  commentId: T:Engine.Core.Components.Vertex
+- uid: Engine.Core.Components.Mesh3D
+  commentId: T:Engine.Core.Components.Mesh3D
+  name: Mesh3D
+  nameWithType: Mesh3D
+  fullName: Engine.Core.Components.Mesh3D
+- uid: Engine.Core.Components.Vertex3D
+  commentId: T:Engine.Core.Components.Vertex3D
   parent: Engine.Core.Components
-  name: Vertex
-  nameWithType: Vertex
-  fullName: Engine.Core.Components.Vertex
+  name: Vertex3D
+  nameWithType: Vertex3D
+  fullName: Engine.Core.Components.Vertex3D
 - uid: Engine.Core.Components
   commentId: N:Engine.Core.Components
   name: Engine.Core.Components

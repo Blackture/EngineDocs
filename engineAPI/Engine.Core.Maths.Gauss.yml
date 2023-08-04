@@ -16,7 +16,7 @@ items:
   source:
     id: Gauss
     path: ''
-    startLine: 1524
+    startLine: 2182
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths
@@ -53,7 +53,7 @@ items:
   source:
     id: GaussianElimination
     path: ''
-    startLine: 1532
+    startLine: 2190
   assemblies:
   - cs.temp.dll
   namespace: Engine.Core.Maths

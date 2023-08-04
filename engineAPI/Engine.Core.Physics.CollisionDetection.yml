@@ -1,0 +1,59 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Physics.CollisionDetection
+  commentId: N:Engine.Core.Physics.CollisionDetection
+  id: Engine.Core.Physics.CollisionDetection
+  children:
+  - Engine.Core.Physics.CollisionDetection.BoundingBox3D
+  - Engine.Core.Physics.CollisionDetection.BoundingVolume3D
+  - Engine.Core.Physics.CollisionDetection.Cell
+  - Engine.Core.Physics.CollisionDetection.Grid
+  - Engine.Core.Physics.CollisionDetection.ParticleCollision3D
+  - Engine.Core.Physics.CollisionDetection.SpatialPartitioning
+  langs:
+  - csharp
+  - vb
+  name: Engine.Core.Physics.CollisionDetection
+  nameWithType: Engine.Core.Physics.CollisionDetection
+  fullName: Engine.Core.Physics.CollisionDetection
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D
+  commentId: T:Engine.Core.Physics.CollisionDetection.BoundingBox3D
+  parent: Engine.Core.Physics.CollisionDetection
+  name: BoundingBox3D
+  nameWithType: BoundingBox3D
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingBox3D
+- uid: Engine.Core.Physics.CollisionDetection.BoundingVolume3D
+  commentId: T:Engine.Core.Physics.CollisionDetection.BoundingVolume3D
+  name: BoundingVolume3D
+  nameWithType: BoundingVolume3D
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingVolume3D
+- uid: Engine.Core.Physics.CollisionDetection.Cell
+  commentId: T:Engine.Core.Physics.CollisionDetection.Cell
+  parent: Engine.Core.Physics.CollisionDetection
+  name: Cell
+  nameWithType: Cell
+  fullName: Engine.Core.Physics.CollisionDetection.Cell
+- uid: Engine.Core.Physics.CollisionDetection.Grid
+  commentId: T:Engine.Core.Physics.CollisionDetection.Grid
+  name: Grid
+  nameWithType: Grid
+  fullName: Engine.Core.Physics.CollisionDetection.Grid
+- uid: Engine.Core.Physics.CollisionDetection.ParticleCollision3D
+  commentId: T:Engine.Core.Physics.CollisionDetection.ParticleCollision3D
+  name: ParticleCollision3D
+  nameWithType: ParticleCollision3D
+  fullName: Engine.Core.Physics.CollisionDetection.ParticleCollision3D
+- uid: Engine.Core.Physics.CollisionDetection.SpatialPartitioning
+  commentId: T:Engine.Core.Physics.CollisionDetection.SpatialPartitioning
+  name: SpatialPartitioning
+  nameWithType: SpatialPartitioning
+  fullName: Engine.Core.Physics.CollisionDetection.SpatialPartitioning
+- uid: Engine.Core.Physics.CollisionDetection
+  commentId: N:Engine.Core.Physics.CollisionDetection
+  name: Engine.Core.Physics.CollisionDetection
+  nameWithType: Engine.Core.Physics.CollisionDetection
+  fullName: Engine.Core.Physics.CollisionDetection

@@ -1,0 +1,516 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Components.Vertex3D
+  commentId: T:Engine.Core.Components.Vertex3D
+  id: Vertex3D
+  parent: Engine.Core.Components
+  children:
+  - Engine.Core.Components.Vertex3D.#ctor(Vector3,Engine.Core.Object3D)
+  - Engine.Core.Components.Vertex3D.GlobalPosition
+  - Engine.Core.Components.Vertex3D.LocalPosition
+  - Engine.Core.Components.Vertex3D.SetPosition(Vector3)
+  langs:
+  - csharp
+  - vb
+  name: Vertex3D
+  nameWithType: Vertex3D
+  fullName: Engine.Core.Components.Vertex3D
+  type: Class
+  source:
+    id: Vertex3D
+    path: ''
+    startLine: 1641
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Components
+  syntax:
+    content: 'public class Vertex3D : Component'
+    content.vb: >-
+      Public Class Vertex3D
+          Inherits Component
+  inheritance:
+  - System.Object
+  - Engine.Core.Component
+  inheritedMembers:
+  - Engine.Core.Component.Dependency
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Engine.Core.Components.Vertex3D.LocalPosition
+  commentId: P:Engine.Core.Components.Vertex3D.LocalPosition
+  id: LocalPosition
+  parent: Engine.Core.Components.Vertex3D
+  langs:
+  - csharp
+  - vb
+  name: LocalPosition
+  nameWithType: Vertex3D.LocalPosition
+  fullName: Engine.Core.Components.Vertex3D.LocalPosition
+  type: Property
+  source:
+    id: LocalPosition
+    path: ''
+    startLine: 1646
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Components
+  syntax:
+    content: public Vector3 LocalPosition { get; set; }
+    parameters: []
+    return:
+      type: Vector3
+    content.vb: Public Property LocalPosition As Vector3
+  overload: Engine.Core.Components.Vertex3D.LocalPosition*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Components.Vertex3D.GlobalPosition
+  commentId: P:Engine.Core.Components.Vertex3D.GlobalPosition
+  id: GlobalPosition
+  parent: Engine.Core.Components.Vertex3D
+  langs:
+  - csharp
+  - vb
+  name: GlobalPosition
+  nameWithType: Vertex3D.GlobalPosition
+  fullName: Engine.Core.Components.Vertex3D.GlobalPosition
+  type: Property
+  source:
+    id: GlobalPosition
+    path: ''
+    startLine: 1647
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Components
+  syntax:
+    content: public Vector3 GlobalPosition { get; }
+    parameters: []
+    return:
+      type: Vector3
+    content.vb: Public ReadOnly Property GlobalPosition As Vector3
+  overload: Engine.Core.Components.Vertex3D.GlobalPosition*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Engine.Core.Components.Vertex3D.#ctor(Vector3,Engine.Core.Object3D)
+  commentId: M:Engine.Core.Components.Vertex3D.#ctor(Vector3,Engine.Core.Object3D)
+  id: '#ctor(Vector3,Engine.Core.Object3D)'
+  parent: Engine.Core.Components.Vertex3D
+  langs:
+  - csharp
+  - vb
+  name: Vertex3D(Vector3, Object3D)
+  nameWithType: Vertex3D.Vertex3D(Vector3, Object3D)
+  fullName: Engine.Core.Components.Vertex3D.Vertex3D(Vector3, Engine.Core.Object3D)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1649
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Components
+  syntax:
+    content: public Vertex3D(Vector3 localPosition, Object3D dependency)
+    parameters:
+    - id: localPosition
+      type: Vector3
+    - id: dependency
+      type: Engine.Core.Object3D
+    content.vb: Public Sub New(localPosition As Vector3, dependency As Object3D)
+  overload: Engine.Core.Components.Vertex3D.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Engine.Core.Components.Vertex3D.SetPosition(Vector3)
+  commentId: M:Engine.Core.Components.Vertex3D.SetPosition(Vector3)
+  id: SetPosition(Vector3)
+  parent: Engine.Core.Components.Vertex3D
+  langs:
+  - csharp
+  - vb
+  name: SetPosition(Vector3)
+  nameWithType: Vertex3D.SetPosition(Vector3)
+  fullName: Engine.Core.Components.Vertex3D.SetPosition(Vector3)
+  type: Method
+  source:
+    id: SetPosition
+    path: ''
+    startLine: 1655
+  assemblies:
+  - cs.temp.dll
+  namespace: Engine.Core.Components
+  syntax:
+    content: public void SetPosition(Vector3 localPosition)
+    parameters:
+    - id: localPosition
+      type: Vector3
+    content.vb: Public Sub SetPosition(localPosition As Vector3)
+  overload: Engine.Core.Components.Vertex3D.SetPosition*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Engine.Core.Components
+  commentId: N:Engine.Core.Components
+  name: Engine.Core.Components
+  nameWithType: Engine.Core.Components
+  fullName: Engine.Core.Components
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Engine.Core.Component
+  commentId: T:Engine.Core.Component
+  parent: Engine.Core
+  name: Component
+  nameWithType: Component
+  fullName: Engine.Core.Component
+- uid: Engine.Core.Component.Dependency
+  commentId: P:Engine.Core.Component.Dependency
+  parent: Engine.Core.Component
+  name: Dependency
+  nameWithType: Component.Dependency
+  fullName: Engine.Core.Component.Dependency
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Engine.Core
+  commentId: N:Engine.Core
+  name: Engine.Core
+  nameWithType: Engine.Core
+  fullName: Engine.Core
+- uid: Engine.Core.Components.Vertex3D.LocalPosition*
+  commentId: Overload:Engine.Core.Components.Vertex3D.LocalPosition
+  name: LocalPosition
+  nameWithType: Vertex3D.LocalPosition
+  fullName: Engine.Core.Components.Vertex3D.LocalPosition
+- uid: Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: Engine.Core.Components.Vertex3D.GlobalPosition*
+  commentId: Overload:Engine.Core.Components.Vertex3D.GlobalPosition
+  name: GlobalPosition
+  nameWithType: Vertex3D.GlobalPosition
+  fullName: Engine.Core.Components.Vertex3D.GlobalPosition
+- uid: Engine.Core.Components.Vertex3D.#ctor*
+  commentId: Overload:Engine.Core.Components.Vertex3D.#ctor
+  name: Vertex3D
+  nameWithType: Vertex3D.Vertex3D
+  fullName: Engine.Core.Components.Vertex3D.Vertex3D
+- uid: Engine.Core.Object3D
+  commentId: T:Engine.Core.Object3D
+  parent: Engine.Core
+  name: Object3D
+  nameWithType: Object3D
+  fullName: Engine.Core.Object3D
+- uid: Engine.Core.Components.Vertex3D.SetPosition*
+  commentId: Overload:Engine.Core.Components.Vertex3D.SetPosition
+  name: SetPosition
+  nameWithType: Vertex3D.SetPosition
+  fullName: Engine.Core.Components.Vertex3D.SetPosition
