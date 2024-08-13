@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Maths.HomogeneneousType
+  commentId: T:Engine.Core.Maths.HomogeneneousType
+  id: HomogeneneousType
+  parent: Engine.Core.Maths
+  children:
+  - Engine.Core.Maths.HomogeneneousType.Direction
+  - Engine.Core.Maths.HomogeneneousType.Position
+  langs:
+  - csharp
+  - vb
+  name: HomogeneneousType
+  nameWithType: HomogeneneousType
+  fullName: Engine.Core.Maths.HomogeneneousType
+  type: Enum
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: HomogeneneousType
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 77
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public enum HomogeneneousType
+    content.vb: Public Enum HomogeneneousType
+- uid: Engine.Core.Maths.HomogeneneousType.Direction
+  commentId: F:Engine.Core.Maths.HomogeneneousType.Direction
+  id: Direction
+  parent: Engine.Core.Maths.HomogeneneousType
+  langs:
+  - csharp
+  - vb
+  name: Direction
+  nameWithType: HomogeneneousType.Direction
+  fullName: Engine.Core.Maths.HomogeneneousType.Direction
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Direction
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 79
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: Direction = 0
+    return:
+      type: Engine.Core.Maths.HomogeneneousType
+- uid: Engine.Core.Maths.HomogeneneousType.Position
+  commentId: F:Engine.Core.Maths.HomogeneneousType.Position
+  id: Position
+  parent: Engine.Core.Maths.HomogeneneousType
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: HomogeneneousType.Position
+  fullName: Engine.Core.Maths.HomogeneneousType.Position
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Position
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 80
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: Position = 1
+    return:
+      type: Engine.Core.Maths.HomogeneneousType
+references:
+- uid: Engine.Core.Maths
+  commentId: N:Engine.Core.Maths
+  href: Engine.html
+  name: Engine.Core.Maths
+  nameWithType: Engine.Core.Maths
+  fullName: Engine.Core.Maths
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+- uid: Engine.Core.Maths.HomogeneneousType
+  commentId: T:Engine.Core.Maths.HomogeneneousType
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.HomogeneneousType.html
+  name: HomogeneneousType
+  nameWithType: HomogeneneousType
+  fullName: Engine.Core.Maths.HomogeneneousType

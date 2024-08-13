@@ -1,0 +1,228 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Maths.TransformationConvention
+  commentId: T:Engine.Core.Maths.TransformationConvention
+  id: TransformationConvention
+  parent: Engine.Core.Maths
+  children:
+  - Engine.Core.Maths.TransformationConvention.DRS
+  - Engine.Core.Maths.TransformationConvention.DSR
+  - Engine.Core.Maths.TransformationConvention.RDS
+  - Engine.Core.Maths.TransformationConvention.RSD
+  - Engine.Core.Maths.TransformationConvention.SDR
+  - Engine.Core.Maths.TransformationConvention.SRD
+  langs:
+  - csharp
+  - vb
+  name: TransformationConvention
+  nameWithType: TransformationConvention
+  fullName: Engine.Core.Maths.TransformationConvention
+  type: Enum
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: TransformationConvention
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 61
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public enum TransformationConvention
+    content.vb: Public Enum TransformationConvention
+- uid: Engine.Core.Maths.TransformationConvention.DRS
+  commentId: F:Engine.Core.Maths.TransformationConvention.DRS
+  id: DRS
+  parent: Engine.Core.Maths.TransformationConvention
+  langs:
+  - csharp
+  - vb
+  name: DRS
+  nameWithType: TransformationConvention.DRS
+  fullName: Engine.Core.Maths.TransformationConvention.DRS
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: DRS
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 63
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: DRS = 0
+    return:
+      type: Engine.Core.Maths.TransformationConvention
+- uid: Engine.Core.Maths.TransformationConvention.RDS
+  commentId: F:Engine.Core.Maths.TransformationConvention.RDS
+  id: RDS
+  parent: Engine.Core.Maths.TransformationConvention
+  langs:
+  - csharp
+  - vb
+  name: RDS
+  nameWithType: TransformationConvention.RDS
+  fullName: Engine.Core.Maths.TransformationConvention.RDS
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: RDS
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 64
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: RDS = 1
+    return:
+      type: Engine.Core.Maths.TransformationConvention
+- uid: Engine.Core.Maths.TransformationConvention.DSR
+  commentId: F:Engine.Core.Maths.TransformationConvention.DSR
+  id: DSR
+  parent: Engine.Core.Maths.TransformationConvention
+  langs:
+  - csharp
+  - vb
+  name: DSR
+  nameWithType: TransformationConvention.DSR
+  fullName: Engine.Core.Maths.TransformationConvention.DSR
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: DSR
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 65
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: DSR = 2
+    return:
+      type: Engine.Core.Maths.TransformationConvention
+- uid: Engine.Core.Maths.TransformationConvention.RSD
+  commentId: F:Engine.Core.Maths.TransformationConvention.RSD
+  id: RSD
+  parent: Engine.Core.Maths.TransformationConvention
+  langs:
+  - csharp
+  - vb
+  name: RSD
+  nameWithType: TransformationConvention.RSD
+  fullName: Engine.Core.Maths.TransformationConvention.RSD
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: RSD
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 66
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: RSD = 3
+    return:
+      type: Engine.Core.Maths.TransformationConvention
+- uid: Engine.Core.Maths.TransformationConvention.SRD
+  commentId: F:Engine.Core.Maths.TransformationConvention.SRD
+  id: SRD
+  parent: Engine.Core.Maths.TransformationConvention
+  langs:
+  - csharp
+  - vb
+  name: SRD
+  nameWithType: TransformationConvention.SRD
+  fullName: Engine.Core.Maths.TransformationConvention.SRD
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: SRD
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 67
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: SRD = 4
+    return:
+      type: Engine.Core.Maths.TransformationConvention
+- uid: Engine.Core.Maths.TransformationConvention.SDR
+  commentId: F:Engine.Core.Maths.TransformationConvention.SDR
+  id: SDR
+  parent: Engine.Core.Maths.TransformationConvention
+  langs:
+  - csharp
+  - vb
+  name: SDR
+  nameWithType: TransformationConvention.SDR
+  fullName: Engine.Core.Maths.TransformationConvention.SDR
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: SDR
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 68
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: SDR = 5
+    return:
+      type: Engine.Core.Maths.TransformationConvention
+references:
+- uid: Engine.Core.Maths
+  commentId: N:Engine.Core.Maths
+  href: Engine.html
+  name: Engine.Core.Maths
+  nameWithType: Engine.Core.Maths
+  fullName: Engine.Core.Maths
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+- uid: Engine.Core.Maths.TransformationConvention
+  commentId: T:Engine.Core.Maths.TransformationConvention
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.TransformationConvention.html
+  name: TransformationConvention
+  nameWithType: TransformationConvention
+  fullName: Engine.Core.Maths.TransformationConvention

@@ -1,0 +1,114 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Events
+  commentId: N:Engine.Core.Events
+  id: Engine.Core.Events
+  children:
+  - Engine.Core.Events.Event
+  - Engine.Core.Events.Event`1
+  - Engine.Core.Events.Event`2
+  langs:
+  - csharp
+  - vb
+  name: Engine.Core.Events
+  nameWithType: Engine.Core.Events
+  fullName: Engine.Core.Events
+  type: Namespace
+  assemblies:
+  - Engine
+references:
+- uid: Engine.Core.Events.Event`2
+  commentId: T:Engine.Core.Events.Event`2
+  parent: Engine.Core.Events
+  href: Engine.Core.Events.Event-2.html
+  name: Event<T0, T1>
+  nameWithType: Event<T0, T1>
+  fullName: Engine.Core.Events.Event<T0, T1>
+  nameWithType.vb: Event(Of T0, T1)
+  fullName.vb: Engine.Core.Events.Event(Of T0, T1)
+  name.vb: Event(Of T0, T1)
+  spec.csharp:
+  - uid: Engine.Core.Events.Event`2
+    name: Event
+    href: Engine.Core.Events.Event-2.html
+  - name: <
+  - name: T0
+  - name: ','
+  - name: " "
+  - name: T1
+  - name: '>'
+  spec.vb:
+  - uid: Engine.Core.Events.Event`2
+    name: Event
+    href: Engine.Core.Events.Event-2.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T0
+  - name: ','
+  - name: " "
+  - name: T1
+  - name: )
+- uid: Engine.Core.Events.Event`1
+  commentId: T:Engine.Core.Events.Event`1
+  parent: Engine.Core.Events
+  href: Engine.Core.Events.Event-1.html
+  name: Event<T>
+  nameWithType: Event<T>
+  fullName: Engine.Core.Events.Event<T>
+  nameWithType.vb: Event(Of T)
+  fullName.vb: Engine.Core.Events.Event(Of T)
+  name.vb: Event(Of T)
+  spec.csharp:
+  - uid: Engine.Core.Events.Event`1
+    name: Event
+    href: Engine.Core.Events.Event-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Engine.Core.Events.Event`1
+    name: Event
+    href: Engine.Core.Events.Event-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Engine.Core.Events.Event
+  commentId: T:Engine.Core.Events.Event
+  parent: Engine.Core.Events
+  href: Engine.Core.Events.Event.html
+  name: Event
+  nameWithType: Event
+  fullName: Engine.Core.Events.Event
+- uid: Engine.Core.Events
+  commentId: N:Engine.Core.Events
+  href: Engine.html
+  name: Engine.Core.Events
+  nameWithType: Engine.Core.Events
+  fullName: Engine.Core.Events
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Events
+    name: Events
+    href: Engine.Core.Events.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Events
+    name: Events
+    href: Engine.Core.Events.html

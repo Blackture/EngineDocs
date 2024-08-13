@@ -1,0 +1,793 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Tag
+  commentId: T:Engine.Core.Tag
+  id: Tag
+  parent: Engine.Core
+  children:
+  - Engine.Core.Tag.#ctor(System.String)
+  - Engine.Core.Tag.Name
+  - Engine.Core.Tag.RemoveTag(Engine.Core.Tag)
+  - Engine.Core.Tag.SetName(System.String)
+  - Engine.Core.Tag.SetName(System.String,System.Int32)
+  - Engine.Core.Tag.Tags
+  - Engine.Core.Tag.op_Implicit(Engine.Core.Tag)~System.Int32
+  - Engine.Core.Tag.op_Implicit(Engine.Core.Tag)~System.String
+  - Engine.Core.Tag.op_Implicit(System.Int32)~Engine.Core.Tag
+  - Engine.Core.Tag.op_Implicit(System.String)~Engine.Core.Tag
+  langs:
+  - csharp
+  - vb
+  name: Tag
+  nameWithType: Tag
+  fullName: Engine.Core.Tag
+  type: Class
+  source:
+    remote:
+      path: Engine.Core/Tag.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Tag
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Tag.cs
+    startLine: 10
+  assemblies:
+  - Engine
+  namespace: Engine.Core
+  syntax:
+    content: public class Tag
+    content.vb: Public Class Tag
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: Engine.Core.Tag.Tags
+  commentId: F:Engine.Core.Tag.Tags
+  id: Tags
+  parent: Engine.Core.Tag
+  langs:
+  - csharp
+  - vb
+  name: Tags
+  nameWithType: Tag.Tags
+  fullName: Engine.Core.Tag.Tags
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Tag.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Tags
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Tag.cs
+    startLine: 12
+  assemblies:
+  - Engine
+  namespace: Engine.Core
+  syntax:
+    content: public static List<Tag> Tags
+    return:
+      type: System.Collections.Generic.List{Engine.Core.Tag}
+    content.vb: Public Shared Tags As List(Of Tag)
+- uid: Engine.Core.Tag.Name
+  commentId: P:Engine.Core.Tag.Name
+  id: Name
+  parent: Engine.Core.Tag
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Tag.Name
+  fullName: Engine.Core.Tag.Name
+  type: Property
+  source:
+    remote:
+      path: Engine.Core/Tag.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Name
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Tag.cs
+    startLine: 18
+  assemblies:
+  - Engine
+  namespace: Engine.Core
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Engine.Core.Tag.Name*
+- uid: Engine.Core.Tag.#ctor(System.String)
+  commentId: M:Engine.Core.Tag.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Engine.Core.Tag
+  langs:
+  - csharp
+  - vb
+  name: Tag(string)
+  nameWithType: Tag.Tag(string)
+  fullName: Engine.Core.Tag.Tag(string)
+  type: Constructor
+  source:
+    remote:
+      path: Engine.Core/Tag.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: .ctor
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Tag.cs
+    startLine: 31
+  assemblies:
+  - Engine
+  namespace: Engine.Core
+  syntax:
+    content: public Tag(string name)
+    parameters:
+    - id: name
+      type: System.String
+    content.vb: Public Sub New(name As String)
+  overload: Engine.Core.Tag.#ctor*
+  nameWithType.vb: Tag.New(String)
+  fullName.vb: Engine.Core.Tag.New(String)
+  name.vb: New(String)
+- uid: Engine.Core.Tag.SetName(System.String)
+  commentId: M:Engine.Core.Tag.SetName(System.String)
+  id: SetName(System.String)
+  parent: Engine.Core.Tag
+  langs:
+  - csharp
+  - vb
+  name: SetName(string)
+  nameWithType: Tag.SetName(string)
+  fullName: Engine.Core.Tag.SetName(string)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Tag.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: SetName
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Tag.cs
+    startLine: 47
+  assemblies:
+  - Engine
+  namespace: Engine.Core
+  syntax:
+    content: public void SetName(string name)
+    parameters:
+    - id: name
+      type: System.String
+    content.vb: Public Sub SetName(name As String)
+  overload: Engine.Core.Tag.SetName*
+  nameWithType.vb: Tag.SetName(String)
+  fullName.vb: Engine.Core.Tag.SetName(String)
+  name.vb: SetName(String)
+- uid: Engine.Core.Tag.SetName(System.String,System.Int32)
+  commentId: M:Engine.Core.Tag.SetName(System.String,System.Int32)
+  id: SetName(System.String,System.Int32)
+  parent: Engine.Core.Tag
+  langs:
+  - csharp
+  - vb
+  name: SetName(string, int)
+  nameWithType: Tag.SetName(string, int)
+  fullName: Engine.Core.Tag.SetName(string, int)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Tag.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: SetName
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Tag.cs
+    startLine: 52
+  assemblies:
+  - Engine
+  namespace: Engine.Core
+  syntax:
+    content: public static void SetName(string name, int index)
+    parameters:
+    - id: name
+      type: System.String
+    - id: index
+      type: System.Int32
+    content.vb: Public Shared Sub SetName(name As String, index As Integer)
+  overload: Engine.Core.Tag.SetName*
+  nameWithType.vb: Tag.SetName(String, Integer)
+  fullName.vb: Engine.Core.Tag.SetName(String, Integer)
+  name.vb: SetName(String, Integer)
+- uid: Engine.Core.Tag.RemoveTag(Engine.Core.Tag)
+  commentId: M:Engine.Core.Tag.RemoveTag(Engine.Core.Tag)
+  id: RemoveTag(Engine.Core.Tag)
+  parent: Engine.Core.Tag
+  langs:
+  - csharp
+  - vb
+  name: RemoveTag(Tag)
+  nameWithType: Tag.RemoveTag(Tag)
+  fullName: Engine.Core.Tag.RemoveTag(Engine.Core.Tag)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Tag.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: RemoveTag
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Tag.cs
+    startLine: 59
+  assemblies:
+  - Engine
+  namespace: Engine.Core
+  syntax:
+    content: public static void RemoveTag(Tag tag)
+    parameters:
+    - id: tag
+      type: Engine.Core.Tag
+    content.vb: Public Shared Sub RemoveTag(tag As Tag)
+  overload: Engine.Core.Tag.RemoveTag*
+- uid: Engine.Core.Tag.op_Implicit(Engine.Core.Tag)~System.Int32
+  commentId: M:Engine.Core.Tag.op_Implicit(Engine.Core.Tag)~System.Int32
+  id: op_Implicit(Engine.Core.Tag)~System.Int32
+  parent: Engine.Core.Tag
+  langs:
+  - csharp
+  - vb
+  name: implicit operator int(Tag)
+  nameWithType: Tag.implicit operator int(Tag)
+  fullName: Engine.Core.Tag.implicit operator int(Engine.Core.Tag)
+  type: Operator
+  source:
+    remote:
+      path: Engine.Core/Tag.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: op_Implicit
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Tag.cs
+    startLine: 67
+  assemblies:
+  - Engine
+  namespace: Engine.Core
+  syntax:
+    content: public static implicit operator int(Tag t)
+    parameters:
+    - id: t
+      type: Engine.Core.Tag
+    return:
+      type: System.Int32
+    content.vb: Public Shared Widening Operator CType(t As Tag) As Integer
+  overload: Engine.Core.Tag.op_Implicit*
+  nameWithType.vb: Tag.CType(Tag)
+  fullName.vb: Engine.Core.Tag.CType(Engine.Core.Tag)
+  name.vb: CType(Tag)
+- uid: Engine.Core.Tag.op_Implicit(Engine.Core.Tag)~System.String
+  commentId: M:Engine.Core.Tag.op_Implicit(Engine.Core.Tag)~System.String
+  id: op_Implicit(Engine.Core.Tag)~System.String
+  parent: Engine.Core.Tag
+  langs:
+  - csharp
+  - vb
+  name: implicit operator string(Tag)
+  nameWithType: Tag.implicit operator string(Tag)
+  fullName: Engine.Core.Tag.implicit operator string(Engine.Core.Tag)
+  type: Operator
+  source:
+    remote:
+      path: Engine.Core/Tag.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: op_Implicit
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Tag.cs
+    startLine: 71
+  assemblies:
+  - Engine
+  namespace: Engine.Core
+  syntax:
+    content: public static implicit operator string(Tag t)
+    parameters:
+    - id: t
+      type: Engine.Core.Tag
+    return:
+      type: System.String
+    content.vb: Public Shared Widening Operator CType(t As Tag) As String
+  overload: Engine.Core.Tag.op_Implicit*
+  nameWithType.vb: Tag.CType(Tag)
+  fullName.vb: Engine.Core.Tag.CType(Engine.Core.Tag)
+  name.vb: CType(Tag)
+- uid: Engine.Core.Tag.op_Implicit(System.String)~Engine.Core.Tag
+  commentId: M:Engine.Core.Tag.op_Implicit(System.String)~Engine.Core.Tag
+  id: op_Implicit(System.String)~Engine.Core.Tag
+  parent: Engine.Core.Tag
+  langs:
+  - csharp
+  - vb
+  name: implicit operator Tag(string)
+  nameWithType: Tag.implicit operator Tag(string)
+  fullName: Engine.Core.Tag.implicit operator Engine.Core.Tag(string)
+  type: Operator
+  source:
+    remote:
+      path: Engine.Core/Tag.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: op_Implicit
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Tag.cs
+    startLine: 75
+  assemblies:
+  - Engine
+  namespace: Engine.Core
+  syntax:
+    content: public static implicit operator Tag(string s)
+    parameters:
+    - id: s
+      type: System.String
+    return:
+      type: Engine.Core.Tag
+    content.vb: Public Shared Widening Operator CType(s As String) As Tag
+  overload: Engine.Core.Tag.op_Implicit*
+  nameWithType.vb: Tag.CType(String)
+  fullName.vb: Engine.Core.Tag.CType(String)
+  name.vb: CType(String)
+- uid: Engine.Core.Tag.op_Implicit(System.Int32)~Engine.Core.Tag
+  commentId: M:Engine.Core.Tag.op_Implicit(System.Int32)~Engine.Core.Tag
+  id: op_Implicit(System.Int32)~Engine.Core.Tag
+  parent: Engine.Core.Tag
+  langs:
+  - csharp
+  - vb
+  name: implicit operator Tag(int)
+  nameWithType: Tag.implicit operator Tag(int)
+  fullName: Engine.Core.Tag.implicit operator Engine.Core.Tag(int)
+  type: Operator
+  source:
+    remote:
+      path: Engine.Core/Tag.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: op_Implicit
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Tag.cs
+    startLine: 79
+  assemblies:
+  - Engine
+  namespace: Engine.Core
+  syntax:
+    content: public static implicit operator Tag(int i)
+    parameters:
+    - id: i
+      type: System.Int32
+    return:
+      type: Engine.Core.Tag
+    content.vb: Public Shared Widening Operator CType(i As Integer) As Tag
+  overload: Engine.Core.Tag.op_Implicit*
+  nameWithType.vb: Tag.CType(Integer)
+  fullName.vb: Engine.Core.Tag.CType(Integer)
+  name.vb: CType(Integer)
+references:
+- uid: Engine.Core
+  commentId: N:Engine.Core
+  href: Engine.html
+  name: Engine.Core
+  nameWithType: Engine.Core
+  fullName: Engine.Core
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.List{Engine.Core.Tag}
+  commentId: T:System.Collections.Generic.List{Engine.Core.Tag}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<Tag>
+  nameWithType: List<Tag>
+  fullName: System.Collections.Generic.List<Engine.Core.Tag>
+  nameWithType.vb: List(Of Tag)
+  fullName.vb: System.Collections.Generic.List(Of Engine.Core.Tag)
+  name.vb: List(Of Tag)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Engine.Core.Tag
+    name: Tag
+    href: Engine.Core.Tag.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Engine.Core.Tag
+    name: Tag
+    href: Engine.Core.Tag.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Engine.Core.Tag.Name*
+  commentId: Overload:Engine.Core.Tag.Name
+  href: Engine.Core.Tag.html#Engine_Core_Tag_Name
+  name: Name
+  nameWithType: Tag.Name
+  fullName: Engine.Core.Tag.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Engine.Core.Tag.#ctor*
+  commentId: Overload:Engine.Core.Tag.#ctor
+  href: Engine.Core.Tag.html#Engine_Core_Tag__ctor_System_String_
+  name: Tag
+  nameWithType: Tag.Tag
+  fullName: Engine.Core.Tag.Tag
+  nameWithType.vb: Tag.New
+  fullName.vb: Engine.Core.Tag.New
+  name.vb: New
+- uid: Engine.Core.Tag.SetName*
+  commentId: Overload:Engine.Core.Tag.SetName
+  href: Engine.Core.Tag.html#Engine_Core_Tag_SetName_System_String_
+  name: SetName
+  nameWithType: Tag.SetName
+  fullName: Engine.Core.Tag.SetName
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Engine.Core.Tag.RemoveTag*
+  commentId: Overload:Engine.Core.Tag.RemoveTag
+  href: Engine.Core.Tag.html#Engine_Core_Tag_RemoveTag_Engine_Core_Tag_
+  name: RemoveTag
+  nameWithType: Tag.RemoveTag
+  fullName: Engine.Core.Tag.RemoveTag
+- uid: Engine.Core.Tag
+  commentId: T:Engine.Core.Tag
+  parent: Engine.Core
+  href: Engine.Core.Tag.html
+  name: Tag
+  nameWithType: Tag
+  fullName: Engine.Core.Tag
+- uid: Engine.Core.Tag.op_Implicit*
+  commentId: Overload:Engine.Core.Tag.op_Implicit
+  name: implicit operator
+  nameWithType: Tag.implicit operator
+  fullName: Engine.Core.Tag.implicit operator
+  nameWithType.vb: Tag.CType
+  fullName.vb: Engine.Core.Tag.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator

@@ -1,0 +1,625 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Physics.Optics.LightRay
+  commentId: T:Engine.Core.Physics.Optics.LightRay
+  id: LightRay
+  parent: Engine.Core.Physics.Optics
+  children:
+  - Engine.Core.Physics.Optics.LightRay.#ctor(Engine.Core.Maths.Straight3D,System.Single)
+  - Engine.Core.Physics.Optics.LightRay.#ctor(Engine.Core.Maths.Straight3D,System.Single,System.Single)
+  langs:
+  - csharp
+  - vb
+  name: LightRay
+  nameWithType: LightRay
+  fullName: Engine.Core.Physics.Optics.LightRay
+  type: Class
+  source:
+    remote:
+      path: Engine.Core/Physics/Optics/LightRay.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: LightRay
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Physics/Optics/LightRay.cs
+    startLine: 9
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Physics.Optics
+  syntax:
+    content: 'public class LightRay : Ray, IParticleHandler, IRay'
+    content.vb: Public Class LightRay Inherits Ray Implements IParticleHandler, IRay
+  inheritance:
+  - System.Object
+  - Engine.Core.Ray
+  implements:
+  - Engine.Core.IParticleHandler
+  - Engine.Core.IRay
+  inheritedMembers:
+  - Engine.Core.Ray.Particle
+  - Engine.Core.Ray.Emit(System.Single)
+  - Engine.Core.Ray.EliminateParticle(Engine.Core.Particle@)
+  - Engine.Core.Ray.EliminateAllParticles
+  - Engine.Core.Ray.OnRayCollision(System.Collections.Generic.List{Engine.Core.Physics.CollisionDetection.ParticleCollision3D})
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: Engine.Core.Physics.Optics.LightRay.#ctor(Engine.Core.Maths.Straight3D,System.Single)
+  commentId: M:Engine.Core.Physics.Optics.LightRay.#ctor(Engine.Core.Maths.Straight3D,System.Single)
+  id: '#ctor(Engine.Core.Maths.Straight3D,System.Single)'
+  parent: Engine.Core.Physics.Optics.LightRay
+  langs:
+  - csharp
+  - vb
+  name: LightRay(Straight3D, float)
+  nameWithType: LightRay.LightRay(Straight3D, float)
+  fullName: Engine.Core.Physics.Optics.LightRay.LightRay(Engine.Core.Maths.Straight3D, float)
+  type: Constructor
+  source:
+    remote:
+      path: Engine.Core/Physics/Optics/LightRay.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: .ctor
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Physics/Optics/LightRay.cs
+    startLine: 15
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Physics.Optics
+  syntax:
+    content: public LightRay(Straight3D ray, float rayStart)
+    parameters:
+    - id: ray
+      type: Engine.Core.Maths.Straight3D
+    - id: rayStart
+      type: System.Single
+    content.vb: Public Sub New(ray As Straight3D, rayStart As Single)
+  overload: Engine.Core.Physics.Optics.LightRay.#ctor*
+  nameWithType.vb: LightRay.New(Straight3D, Single)
+  fullName.vb: Engine.Core.Physics.Optics.LightRay.New(Engine.Core.Maths.Straight3D, Single)
+  name.vb: New(Straight3D, Single)
+- uid: Engine.Core.Physics.Optics.LightRay.#ctor(Engine.Core.Maths.Straight3D,System.Single,System.Single)
+  commentId: M:Engine.Core.Physics.Optics.LightRay.#ctor(Engine.Core.Maths.Straight3D,System.Single,System.Single)
+  id: '#ctor(Engine.Core.Maths.Straight3D,System.Single,System.Single)'
+  parent: Engine.Core.Physics.Optics.LightRay
+  langs:
+  - csharp
+  - vb
+  name: LightRay(Straight3D, float, float)
+  nameWithType: LightRay.LightRay(Straight3D, float, float)
+  fullName: Engine.Core.Physics.Optics.LightRay.LightRay(Engine.Core.Maths.Straight3D, float, float)
+  type: Constructor
+  source:
+    remote:
+      path: Engine.Core/Physics/Optics/LightRay.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: .ctor
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Physics/Optics/LightRay.cs
+    startLine: 18
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Physics.Optics
+  syntax:
+    content: public LightRay(Straight3D ray, float rayStart, float samplingRate)
+    parameters:
+    - id: ray
+      type: Engine.Core.Maths.Straight3D
+    - id: rayStart
+      type: System.Single
+    - id: samplingRate
+      type: System.Single
+    content.vb: Public Sub New(ray As Straight3D, rayStart As Single, samplingRate As Single)
+  overload: Engine.Core.Physics.Optics.LightRay.#ctor*
+  nameWithType.vb: LightRay.New(Straight3D, Single, Single)
+  fullName.vb: Engine.Core.Physics.Optics.LightRay.New(Engine.Core.Maths.Straight3D, Single, Single)
+  name.vb: New(Straight3D, Single, Single)
+references:
+- uid: Engine.Core.Physics.Optics
+  commentId: N:Engine.Core.Physics.Optics
+  href: Engine.html
+  name: Engine.Core.Physics.Optics
+  nameWithType: Engine.Core.Physics.Optics
+  fullName: Engine.Core.Physics.Optics
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Physics
+    name: Physics
+    href: Engine.Core.Physics.html
+  - name: .
+  - uid: Engine.Core.Physics.Optics
+    name: Optics
+    href: Engine.Core.Physics.Optics.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Physics
+    name: Physics
+    href: Engine.Core.Physics.html
+  - name: .
+  - uid: Engine.Core.Physics.Optics
+    name: Optics
+    href: Engine.Core.Physics.Optics.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Engine.Core.Ray
+  commentId: T:Engine.Core.Ray
+  parent: Engine.Core
+  href: Engine.Core.Ray.html
+  name: Ray
+  nameWithType: Ray
+  fullName: Engine.Core.Ray
+- uid: Engine.Core.IParticleHandler
+  commentId: T:Engine.Core.IParticleHandler
+  parent: Engine.Core
+  href: Engine.Core.IParticleHandler.html
+  name: IParticleHandler
+  nameWithType: IParticleHandler
+  fullName: Engine.Core.IParticleHandler
+- uid: Engine.Core.IRay
+  commentId: T:Engine.Core.IRay
+  parent: Engine.Core
+  href: Engine.Core.IRay.html
+  name: IRay
+  nameWithType: IRay
+  fullName: Engine.Core.IRay
+- uid: Engine.Core.Ray.Particle
+  commentId: P:Engine.Core.Ray.Particle
+  parent: Engine.Core.Ray
+  href: Engine.Core.Ray.html#Engine_Core_Ray_Particle
+  name: Particle
+  nameWithType: Ray.Particle
+  fullName: Engine.Core.Ray.Particle
+- uid: Engine.Core.Ray.Emit(System.Single)
+  commentId: M:Engine.Core.Ray.Emit(System.Single)
+  parent: Engine.Core.Ray
+  isExternal: true
+  href: Engine.Core.Ray.html#Engine_Core_Ray_Emit_System_Single_
+  name: Emit(float)
+  nameWithType: Ray.Emit(float)
+  fullName: Engine.Core.Ray.Emit(float)
+  nameWithType.vb: Ray.Emit(Single)
+  fullName.vb: Engine.Core.Ray.Emit(Single)
+  name.vb: Emit(Single)
+  spec.csharp:
+  - uid: Engine.Core.Ray.Emit(System.Single)
+    name: Emit
+    href: Engine.Core.Ray.html#Engine_Core_Ray_Emit_System_Single_
+  - name: (
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  spec.vb:
+  - uid: Engine.Core.Ray.Emit(System.Single)
+    name: Emit
+    href: Engine.Core.Ray.html#Engine_Core_Ray_Emit_System_Single_
+  - name: (
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: Engine.Core.Ray.EliminateParticle(Engine.Core.Particle@)
+  commentId: M:Engine.Core.Ray.EliminateParticle(Engine.Core.Particle@)
+  parent: Engine.Core.Ray
+  href: Engine.Core.Ray.html#Engine_Core_Ray_EliminateParticle_Engine_Core_Particle__
+  name: EliminateParticle(ref Particle)
+  nameWithType: Ray.EliminateParticle(ref Particle)
+  fullName: Engine.Core.Ray.EliminateParticle(ref Engine.Core.Particle)
+  nameWithType.vb: Ray.EliminateParticle(Particle)
+  fullName.vb: Engine.Core.Ray.EliminateParticle(Engine.Core.Particle)
+  name.vb: EliminateParticle(Particle)
+  spec.csharp:
+  - uid: Engine.Core.Ray.EliminateParticle(Engine.Core.Particle@)
+    name: EliminateParticle
+    href: Engine.Core.Ray.html#Engine_Core_Ray_EliminateParticle_Engine_Core_Particle__
+  - name: (
+  - name: ref
+  - name: " "
+  - uid: Engine.Core.Particle
+    name: Particle
+    href: Engine.Core.Particle.html
+  - name: )
+  spec.vb:
+  - uid: Engine.Core.Ray.EliminateParticle(Engine.Core.Particle@)
+    name: EliminateParticle
+    href: Engine.Core.Ray.html#Engine_Core_Ray_EliminateParticle_Engine_Core_Particle__
+  - name: (
+  - uid: Engine.Core.Particle
+    name: Particle
+    href: Engine.Core.Particle.html
+  - name: )
+- uid: Engine.Core.Ray.EliminateAllParticles
+  commentId: M:Engine.Core.Ray.EliminateAllParticles
+  parent: Engine.Core.Ray
+  href: Engine.Core.Ray.html#Engine_Core_Ray_EliminateAllParticles
+  name: EliminateAllParticles()
+  nameWithType: Ray.EliminateAllParticles()
+  fullName: Engine.Core.Ray.EliminateAllParticles()
+  spec.csharp:
+  - uid: Engine.Core.Ray.EliminateAllParticles
+    name: EliminateAllParticles
+    href: Engine.Core.Ray.html#Engine_Core_Ray_EliminateAllParticles
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Engine.Core.Ray.EliminateAllParticles
+    name: EliminateAllParticles
+    href: Engine.Core.Ray.html#Engine_Core_Ray_EliminateAllParticles
+  - name: (
+  - name: )
+- uid: Engine.Core.Ray.OnRayCollision(System.Collections.Generic.List{Engine.Core.Physics.CollisionDetection.ParticleCollision3D})
+  commentId: M:Engine.Core.Ray.OnRayCollision(System.Collections.Generic.List{Engine.Core.Physics.CollisionDetection.ParticleCollision3D})
+  parent: Engine.Core.Ray
+  isExternal: true
+  href: Engine.Core.Ray.html#Engine_Core_Ray_OnRayCollision_System_Collections_Generic_List_Engine_Core_Physics_CollisionDetection_ParticleCollision3D__
+  name: OnRayCollision(List<ParticleCollision3D>)
+  nameWithType: Ray.OnRayCollision(List<ParticleCollision3D>)
+  fullName: Engine.Core.Ray.OnRayCollision(System.Collections.Generic.List<Engine.Core.Physics.CollisionDetection.ParticleCollision3D>)
+  nameWithType.vb: Ray.OnRayCollision(List(Of ParticleCollision3D))
+  fullName.vb: Engine.Core.Ray.OnRayCollision(System.Collections.Generic.List(Of Engine.Core.Physics.CollisionDetection.ParticleCollision3D))
+  name.vb: OnRayCollision(List(Of ParticleCollision3D))
+  spec.csharp:
+  - uid: Engine.Core.Ray.OnRayCollision(System.Collections.Generic.List{Engine.Core.Physics.CollisionDetection.ParticleCollision3D})
+    name: OnRayCollision
+    href: Engine.Core.Ray.html#Engine_Core_Ray_OnRayCollision_System_Collections_Generic_List_Engine_Core_Physics_CollisionDetection_ParticleCollision3D__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Engine.Core.Physics.CollisionDetection.ParticleCollision3D
+    name: ParticleCollision3D
+    href: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.html
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: Engine.Core.Ray.OnRayCollision(System.Collections.Generic.List{Engine.Core.Physics.CollisionDetection.ParticleCollision3D})
+    name: OnRayCollision
+    href: Engine.Core.Ray.html#Engine_Core_Ray_OnRayCollision_System_Collections_Generic_List_Engine_Core_Physics_CollisionDetection_ParticleCollision3D__
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Engine.Core.Physics.CollisionDetection.ParticleCollision3D
+    name: ParticleCollision3D
+    href: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.html
+  - name: )
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Engine.Core
+  commentId: N:Engine.Core
+  href: Engine.html
+  name: Engine.Core
+  nameWithType: Engine.Core
+  fullName: Engine.Core
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+- uid: Engine.Core.Physics.Optics.LightRay.#ctor*
+  commentId: Overload:Engine.Core.Physics.Optics.LightRay.#ctor
+  href: Engine.Core.Physics.Optics.LightRay.html#Engine_Core_Physics_Optics_LightRay__ctor_Engine_Core_Maths_Straight3D_System_Single_
+  name: LightRay
+  nameWithType: LightRay.LightRay
+  fullName: Engine.Core.Physics.Optics.LightRay.LightRay
+  nameWithType.vb: LightRay.New
+  fullName.vb: Engine.Core.Physics.Optics.LightRay.New
+  name.vb: New
+- uid: Engine.Core.Maths.Straight3D
+  commentId: T:Engine.Core.Maths.Straight3D
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.Straight3D.html
+  name: Straight3D
+  nameWithType: Straight3D
+  fullName: Engine.Core.Maths.Straight3D
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Engine.Core.Maths
+  commentId: N:Engine.Core.Maths
+  href: Engine.html
+  name: Engine.Core.Maths
+  nameWithType: Engine.Core.Maths
+  fullName: Engine.Core.Maths
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html

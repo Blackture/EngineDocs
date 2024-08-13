@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Maths.BaseDirections2D
+  commentId: T:Engine.Core.Maths.BaseDirections2D
+  id: BaseDirections2D
+  parent: Engine.Core.Maths
+  children:
+  - Engine.Core.Maths.BaseDirections2D.Horizontal
+  - Engine.Core.Maths.BaseDirections2D.Vertical
+  langs:
+  - csharp
+  - vb
+  name: BaseDirections2D
+  nameWithType: BaseDirections2D
+  fullName: Engine.Core.Maths.BaseDirections2D
+  type: Enum
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: BaseDirections2D
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 55
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public enum BaseDirections2D
+    content.vb: Public Enum BaseDirections2D
+- uid: Engine.Core.Maths.BaseDirections2D.Horizontal
+  commentId: F:Engine.Core.Maths.BaseDirections2D.Horizontal
+  id: Horizontal
+  parent: Engine.Core.Maths.BaseDirections2D
+  langs:
+  - csharp
+  - vb
+  name: Horizontal
+  nameWithType: BaseDirections2D.Horizontal
+  fullName: Engine.Core.Maths.BaseDirections2D.Horizontal
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Horizontal
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 57
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: Horizontal = 0
+    return:
+      type: Engine.Core.Maths.BaseDirections2D
+- uid: Engine.Core.Maths.BaseDirections2D.Vertical
+  commentId: F:Engine.Core.Maths.BaseDirections2D.Vertical
+  id: Vertical
+  parent: Engine.Core.Maths.BaseDirections2D
+  langs:
+  - csharp
+  - vb
+  name: Vertical
+  nameWithType: BaseDirections2D.Vertical
+  fullName: Engine.Core.Maths.BaseDirections2D.Vertical
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Vertical
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 58
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: Vertical = 1
+    return:
+      type: Engine.Core.Maths.BaseDirections2D
+references:
+- uid: Engine.Core.Maths
+  commentId: N:Engine.Core.Maths
+  href: Engine.html
+  name: Engine.Core.Maths
+  nameWithType: Engine.Core.Maths
+  fullName: Engine.Core.Maths
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+- uid: Engine.Core.Maths.BaseDirections2D
+  commentId: T:Engine.Core.Maths.BaseDirections2D
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.BaseDirections2D.html
+  name: BaseDirections2D
+  nameWithType: BaseDirections2D
+  fullName: Engine.Core.Maths.BaseDirections2D

@@ -1,0 +1,932 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Maths.Straight3D
+  commentId: T:Engine.Core.Maths.Straight3D
+  id: Straight3D
+  parent: Engine.Core.Maths
+  children:
+  - Engine.Core.Maths.Straight3D.#ctor(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3,Engine.Core.Maths.Straight3D.LineSetupType)
+  - Engine.Core.Maths.Straight3D.Dir
+  - Engine.Core.Maths.Straight3D.Distance(Engine.Core.Maths.Straight3D)
+  - Engine.Core.Maths.Straight3D.Distance(Engine.Core.Maths.Straight3D,Engine.Core.Maths.Straight3D,Engine.Core.Maths.Vector3@,Engine.Core.Maths.Vector3@)
+  - Engine.Core.Maths.Straight3D.Distance(Engine.Core.Maths.Straight3D,Engine.Core.Maths.Vector3@,Engine.Core.Maths.Vector3@)
+  - Engine.Core.Maths.Straight3D.Distance(Engine.Core.Maths.Vector3,Engine.Core.Maths.Straight3D,Engine.Core.Maths.Vector3@)
+  - Engine.Core.Maths.Straight3D.Distance(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3@)
+  - Engine.Core.Maths.Straight3D.GetPointAt(System.Single)
+  - Engine.Core.Maths.Straight3D.Intersection(Engine.Core.Maths.Straight3D,Engine.Core.Maths.Straight3D,Engine.Core.Maths.Vector3@)
+  - Engine.Core.Maths.Straight3D.OA
+  - Engine.Core.Maths.Straight3D.OB
+  - Engine.Core.Maths.Straight3D.ToString
+  - Engine.Core.Maths.Straight3D.x1_Axis
+  - Engine.Core.Maths.Straight3D.x2_Axis
+  - Engine.Core.Maths.Straight3D.x3_Axis
+  langs:
+  - csharp
+  - vb
+  name: Straight3D
+  nameWithType: Straight3D
+  fullName: Engine.Core.Maths.Straight3D
+  type: Class
+  source:
+    remote:
+      path: Engine.Core/Maths/Straight3D.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Straight3D
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Straight3D.cs
+    startLine: 12
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  summary: This code defines a class called Straight3D that represents a straight line in 3D space. It has properties such as OA, OB, and Dir, which represent the endpoints of the line, and the direction of the line, respectively. The class also contains methods such as GetPointAt, Intersection, Distance, and Distance with 2 output parameters, which return the point on the line at a given position, determine if the line intersects with another line, find the distance between the line and a point in 3D space, and find the distance between the line and another line in 3D space along with the closest points on both lines to the point of intersection, respectively. The class also has some static fields, such as x1_Axis, x2_Axis, and x3_Axis, which represent the x, y, and z axes in 3D space, respectively.
+  example: []
+  syntax:
+    content: public class Straight3D
+    content.vb: Public Class Straight3D
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: Engine.Core.Maths.Straight3D.x1_Axis
+  commentId: F:Engine.Core.Maths.Straight3D.x1_Axis
+  id: x1_Axis
+  parent: Engine.Core.Maths.Straight3D
+  langs:
+  - csharp
+  - vb
+  name: x1_Axis
+  nameWithType: Straight3D.x1_Axis
+  fullName: Engine.Core.Maths.Straight3D.x1_Axis
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Straight3D.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: x1_Axis
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Straight3D.cs
+    startLine: 20
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static readonly Straight3D x1_Axis
+    return:
+      type: Engine.Core.Maths.Straight3D
+    content.vb: Public Shared ReadOnly x1_Axis As Straight3D
+- uid: Engine.Core.Maths.Straight3D.x2_Axis
+  commentId: F:Engine.Core.Maths.Straight3D.x2_Axis
+  id: x2_Axis
+  parent: Engine.Core.Maths.Straight3D
+  langs:
+  - csharp
+  - vb
+  name: x2_Axis
+  nameWithType: Straight3D.x2_Axis
+  fullName: Engine.Core.Maths.Straight3D.x2_Axis
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Straight3D.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: x2_Axis
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Straight3D.cs
+    startLine: 21
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static readonly Straight3D x2_Axis
+    return:
+      type: Engine.Core.Maths.Straight3D
+    content.vb: Public Shared ReadOnly x2_Axis As Straight3D
+- uid: Engine.Core.Maths.Straight3D.x3_Axis
+  commentId: F:Engine.Core.Maths.Straight3D.x3_Axis
+  id: x3_Axis
+  parent: Engine.Core.Maths.Straight3D
+  langs:
+  - csharp
+  - vb
+  name: x3_Axis
+  nameWithType: Straight3D.x3_Axis
+  fullName: Engine.Core.Maths.Straight3D.x3_Axis
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Straight3D.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: x3_Axis
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Straight3D.cs
+    startLine: 22
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static readonly Straight3D x3_Axis
+    return:
+      type: Engine.Core.Maths.Straight3D
+    content.vb: Public Shared ReadOnly x3_Axis As Straight3D
+- uid: Engine.Core.Maths.Straight3D.OA
+  commentId: P:Engine.Core.Maths.Straight3D.OA
+  id: OA
+  parent: Engine.Core.Maths.Straight3D
+  langs:
+  - csharp
+  - vb
+  name: OA
+  nameWithType: Straight3D.OA
+  fullName: Engine.Core.Maths.Straight3D.OA
+  type: Property
+  source:
+    remote:
+      path: Engine.Core/Maths/Straight3D.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: OA
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Straight3D.cs
+    startLine: 28
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public Vector3 OA { get; set; }
+    parameters: []
+    return:
+      type: Engine.Core.Maths.Vector3
+    content.vb: Public Property OA As Vector3
+  overload: Engine.Core.Maths.Straight3D.OA*
+- uid: Engine.Core.Maths.Straight3D.OB
+  commentId: P:Engine.Core.Maths.Straight3D.OB
+  id: OB
+  parent: Engine.Core.Maths.Straight3D
+  langs:
+  - csharp
+  - vb
+  name: OB
+  nameWithType: Straight3D.OB
+  fullName: Engine.Core.Maths.Straight3D.OB
+  type: Property
+  source:
+    remote:
+      path: Engine.Core/Maths/Straight3D.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: OB
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Straight3D.cs
+    startLine: 29
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public Vector3 OB { get; set; }
+    parameters: []
+    return:
+      type: Engine.Core.Maths.Vector3
+    content.vb: Public Property OB As Vector3
+  overload: Engine.Core.Maths.Straight3D.OB*
+- uid: Engine.Core.Maths.Straight3D.Dir
+  commentId: P:Engine.Core.Maths.Straight3D.Dir
+  id: Dir
+  parent: Engine.Core.Maths.Straight3D
+  langs:
+  - csharp
+  - vb
+  name: Dir
+  nameWithType: Straight3D.Dir
+  fullName: Engine.Core.Maths.Straight3D.Dir
+  type: Property
+  source:
+    remote:
+      path: Engine.Core/Maths/Straight3D.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Dir
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Straight3D.cs
+    startLine: 30
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public Vector3 Dir { get; }
+    parameters: []
+    return:
+      type: Engine.Core.Maths.Vector3
+    content.vb: Public ReadOnly Property Dir As Vector3
+  overload: Engine.Core.Maths.Straight3D.Dir*
+- uid: Engine.Core.Maths.Straight3D.#ctor(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3,Engine.Core.Maths.Straight3D.LineSetupType)
+  commentId: M:Engine.Core.Maths.Straight3D.#ctor(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3,Engine.Core.Maths.Straight3D.LineSetupType)
+  id: '#ctor(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3,Engine.Core.Maths.Straight3D.LineSetupType)'
+  parent: Engine.Core.Maths.Straight3D
+  langs:
+  - csharp
+  - vb
+  name: Straight3D(Vector3, Vector3, LineSetupType)
+  nameWithType: Straight3D.Straight3D(Vector3, Vector3, Straight3D.LineSetupType)
+  fullName: Engine.Core.Maths.Straight3D.Straight3D(Engine.Core.Maths.Vector3, Engine.Core.Maths.Vector3, Engine.Core.Maths.Straight3D.LineSetupType)
+  type: Constructor
+  source:
+    remote:
+      path: Engine.Core/Maths/Straight3D.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: .ctor
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Straight3D.cs
+    startLine: 32
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public Straight3D(Vector3 OA, Vector3 OB, Straight3D.LineSetupType setupType)
+    parameters:
+    - id: OA
+      type: Engine.Core.Maths.Vector3
+    - id: OB
+      type: Engine.Core.Maths.Vector3
+    - id: setupType
+      type: Engine.Core.Maths.Straight3D.LineSetupType
+    content.vb: Public Sub New(OA As Vector3, OB As Vector3, setupType As Straight3D.LineSetupType)
+  overload: Engine.Core.Maths.Straight3D.#ctor*
+  nameWithType.vb: Straight3D.New(Vector3, Vector3, Straight3D.LineSetupType)
+  fullName.vb: Engine.Core.Maths.Straight3D.New(Engine.Core.Maths.Vector3, Engine.Core.Maths.Vector3, Engine.Core.Maths.Straight3D.LineSetupType)
+  name.vb: New(Vector3, Vector3, LineSetupType)
+- uid: Engine.Core.Maths.Straight3D.GetPointAt(System.Single)
+  commentId: M:Engine.Core.Maths.Straight3D.GetPointAt(System.Single)
+  id: GetPointAt(System.Single)
+  parent: Engine.Core.Maths.Straight3D
+  langs:
+  - csharp
+  - vb
+  name: GetPointAt(float)
+  nameWithType: Straight3D.GetPointAt(float)
+  fullName: Engine.Core.Maths.Straight3D.GetPointAt(float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Straight3D.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: GetPointAt
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Straight3D.cs
+    startLine: 49
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public Vector3 GetPointAt(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: Engine.Core.Maths.Vector3
+    content.vb: Public Function GetPointAt(f As Single) As Vector3
+  overload: Engine.Core.Maths.Straight3D.GetPointAt*
+  nameWithType.vb: Straight3D.GetPointAt(Single)
+  fullName.vb: Engine.Core.Maths.Straight3D.GetPointAt(Single)
+  name.vb: GetPointAt(Single)
+- uid: Engine.Core.Maths.Straight3D.Intersection(Engine.Core.Maths.Straight3D,Engine.Core.Maths.Straight3D,Engine.Core.Maths.Vector3@)
+  commentId: M:Engine.Core.Maths.Straight3D.Intersection(Engine.Core.Maths.Straight3D,Engine.Core.Maths.Straight3D,Engine.Core.Maths.Vector3@)
+  id: Intersection(Engine.Core.Maths.Straight3D,Engine.Core.Maths.Straight3D,Engine.Core.Maths.Vector3@)
+  parent: Engine.Core.Maths.Straight3D
+  langs:
+  - csharp
+  - vb
+  name: Intersection(Straight3D, Straight3D, out Vector3)
+  nameWithType: Straight3D.Intersection(Straight3D, Straight3D, out Vector3)
+  fullName: Engine.Core.Maths.Straight3D.Intersection(Engine.Core.Maths.Straight3D, Engine.Core.Maths.Straight3D, out Engine.Core.Maths.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Straight3D.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Intersection
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Straight3D.cs
+    startLine: 54
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static bool Intersection(Straight3D a, Straight3D b, out Vector3 I)
+    parameters:
+    - id: a
+      type: Engine.Core.Maths.Straight3D
+    - id: b
+      type: Engine.Core.Maths.Straight3D
+    - id: I
+      type: Engine.Core.Maths.Vector3
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function Intersection(a As Straight3D, b As Straight3D, I As Vector3) As Boolean
+  overload: Engine.Core.Maths.Straight3D.Intersection*
+  nameWithType.vb: Straight3D.Intersection(Straight3D, Straight3D, Vector3)
+  fullName.vb: Engine.Core.Maths.Straight3D.Intersection(Engine.Core.Maths.Straight3D, Engine.Core.Maths.Straight3D, Engine.Core.Maths.Vector3)
+  name.vb: Intersection(Straight3D, Straight3D, Vector3)
+- uid: Engine.Core.Maths.Straight3D.Distance(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3@)
+  commentId: M:Engine.Core.Maths.Straight3D.Distance(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3@)
+  id: Distance(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3@)
+  parent: Engine.Core.Maths.Straight3D
+  langs:
+  - csharp
+  - vb
+  name: Distance(Vector3, out Vector3)
+  nameWithType: Straight3D.Distance(Vector3, out Vector3)
+  fullName: Engine.Core.Maths.Straight3D.Distance(Engine.Core.Maths.Vector3, out Engine.Core.Maths.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Straight3D.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Distance
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Straight3D.cs
+    startLine: 68
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public float Distance(Vector3 x, out Vector3 l)
+    parameters:
+    - id: x
+      type: Engine.Core.Maths.Vector3
+    - id: l
+      type: Engine.Core.Maths.Vector3
+    return:
+      type: System.Single
+    content.vb: Public Function Distance(x As Vector3, l As Vector3) As Single
+  overload: Engine.Core.Maths.Straight3D.Distance*
+  nameWithType.vb: Straight3D.Distance(Vector3, Vector3)
+  fullName.vb: Engine.Core.Maths.Straight3D.Distance(Engine.Core.Maths.Vector3, Engine.Core.Maths.Vector3)
+  name.vb: Distance(Vector3, Vector3)
+- uid: Engine.Core.Maths.Straight3D.Distance(Engine.Core.Maths.Straight3D)
+  commentId: M:Engine.Core.Maths.Straight3D.Distance(Engine.Core.Maths.Straight3D)
+  id: Distance(Engine.Core.Maths.Straight3D)
+  parent: Engine.Core.Maths.Straight3D
+  langs:
+  - csharp
+  - vb
+  name: Distance(Straight3D)
+  nameWithType: Straight3D.Distance(Straight3D)
+  fullName: Engine.Core.Maths.Straight3D.Distance(Engine.Core.Maths.Straight3D)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Straight3D.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Distance
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Straight3D.cs
+    startLine: 79
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public float Distance(Straight3D s)
+    parameters:
+    - id: s
+      type: Engine.Core.Maths.Straight3D
+    return:
+      type: System.Single
+    content.vb: Public Function Distance(s As Straight3D) As Single
+  overload: Engine.Core.Maths.Straight3D.Distance*
+- uid: Engine.Core.Maths.Straight3D.Distance(Engine.Core.Maths.Straight3D,Engine.Core.Maths.Vector3@,Engine.Core.Maths.Vector3@)
+  commentId: M:Engine.Core.Maths.Straight3D.Distance(Engine.Core.Maths.Straight3D,Engine.Core.Maths.Vector3@,Engine.Core.Maths.Vector3@)
+  id: Distance(Engine.Core.Maths.Straight3D,Engine.Core.Maths.Vector3@,Engine.Core.Maths.Vector3@)
+  parent: Engine.Core.Maths.Straight3D
+  langs:
+  - csharp
+  - vb
+  name: Distance(Straight3D, out Vector3, out Vector3)
+  nameWithType: Straight3D.Distance(Straight3D, out Vector3, out Vector3)
+  fullName: Engine.Core.Maths.Straight3D.Distance(Engine.Core.Maths.Straight3D, out Engine.Core.Maths.Vector3, out Engine.Core.Maths.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Straight3D.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Distance
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Straight3D.cs
+    startLine: 100
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public float Distance(Straight3D s, out Vector3 OG, out Vector3 OH)
+    parameters:
+    - id: s
+      type: Engine.Core.Maths.Straight3D
+    - id: OG
+      type: Engine.Core.Maths.Vector3
+    - id: OH
+      type: Engine.Core.Maths.Vector3
+    return:
+      type: System.Single
+    content.vb: Public Function Distance(s As Straight3D, OG As Vector3, OH As Vector3) As Single
+  overload: Engine.Core.Maths.Straight3D.Distance*
+  nameWithType.vb: Straight3D.Distance(Straight3D, Vector3, Vector3)
+  fullName.vb: Engine.Core.Maths.Straight3D.Distance(Engine.Core.Maths.Straight3D, Engine.Core.Maths.Vector3, Engine.Core.Maths.Vector3)
+  name.vb: Distance(Straight3D, Vector3, Vector3)
+- uid: Engine.Core.Maths.Straight3D.Distance(Engine.Core.Maths.Vector3,Engine.Core.Maths.Straight3D,Engine.Core.Maths.Vector3@)
+  commentId: M:Engine.Core.Maths.Straight3D.Distance(Engine.Core.Maths.Vector3,Engine.Core.Maths.Straight3D,Engine.Core.Maths.Vector3@)
+  id: Distance(Engine.Core.Maths.Vector3,Engine.Core.Maths.Straight3D,Engine.Core.Maths.Vector3@)
+  parent: Engine.Core.Maths.Straight3D
+  langs:
+  - csharp
+  - vb
+  name: Distance(Vector3, Straight3D, out Vector3)
+  nameWithType: Straight3D.Distance(Vector3, Straight3D, out Vector3)
+  fullName: Engine.Core.Maths.Straight3D.Distance(Engine.Core.Maths.Vector3, Engine.Core.Maths.Straight3D, out Engine.Core.Maths.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Straight3D.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Distance
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Straight3D.cs
+    startLine: 133
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Distance(Vector3 a, Straight3D b, out Vector3 l)
+    parameters:
+    - id: a
+      type: Engine.Core.Maths.Vector3
+    - id: b
+      type: Engine.Core.Maths.Straight3D
+    - id: l
+      type: Engine.Core.Maths.Vector3
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Distance(a As Vector3, b As Straight3D, l As Vector3) As Single
+  overload: Engine.Core.Maths.Straight3D.Distance*
+  nameWithType.vb: Straight3D.Distance(Vector3, Straight3D, Vector3)
+  fullName.vb: Engine.Core.Maths.Straight3D.Distance(Engine.Core.Maths.Vector3, Engine.Core.Maths.Straight3D, Engine.Core.Maths.Vector3)
+  name.vb: Distance(Vector3, Straight3D, Vector3)
+- uid: Engine.Core.Maths.Straight3D.Distance(Engine.Core.Maths.Straight3D,Engine.Core.Maths.Straight3D,Engine.Core.Maths.Vector3@,Engine.Core.Maths.Vector3@)
+  commentId: M:Engine.Core.Maths.Straight3D.Distance(Engine.Core.Maths.Straight3D,Engine.Core.Maths.Straight3D,Engine.Core.Maths.Vector3@,Engine.Core.Maths.Vector3@)
+  id: Distance(Engine.Core.Maths.Straight3D,Engine.Core.Maths.Straight3D,Engine.Core.Maths.Vector3@,Engine.Core.Maths.Vector3@)
+  parent: Engine.Core.Maths.Straight3D
+  langs:
+  - csharp
+  - vb
+  name: Distance(Straight3D, Straight3D, out Vector3, out Vector3)
+  nameWithType: Straight3D.Distance(Straight3D, Straight3D, out Vector3, out Vector3)
+  fullName: Engine.Core.Maths.Straight3D.Distance(Engine.Core.Maths.Straight3D, Engine.Core.Maths.Straight3D, out Engine.Core.Maths.Vector3, out Engine.Core.Maths.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Straight3D.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Distance
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Straight3D.cs
+    startLine: 138
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Distance(Straight3D g, Straight3D h, out Vector3 OG, out Vector3 OH)
+    parameters:
+    - id: g
+      type: Engine.Core.Maths.Straight3D
+    - id: h
+      type: Engine.Core.Maths.Straight3D
+    - id: OG
+      type: Engine.Core.Maths.Vector3
+    - id: OH
+      type: Engine.Core.Maths.Vector3
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Distance(g As Straight3D, h As Straight3D, OG As Vector3, OH As Vector3) As Single
+  overload: Engine.Core.Maths.Straight3D.Distance*
+  nameWithType.vb: Straight3D.Distance(Straight3D, Straight3D, Vector3, Vector3)
+  fullName.vb: Engine.Core.Maths.Straight3D.Distance(Engine.Core.Maths.Straight3D, Engine.Core.Maths.Straight3D, Engine.Core.Maths.Vector3, Engine.Core.Maths.Vector3)
+  name.vb: Distance(Straight3D, Straight3D, Vector3, Vector3)
+- uid: Engine.Core.Maths.Straight3D.ToString
+  commentId: M:Engine.Core.Maths.Straight3D.ToString
+  id: ToString
+  parent: Engine.Core.Maths.Straight3D
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Straight3D.ToString()
+  fullName: Engine.Core.Maths.Straight3D.ToString()
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Straight3D.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: ToString
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Straight3D.cs
+    startLine: 143
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: Engine.Core.Maths.Straight3D.ToString*
+references:
+- uid: Engine.Core.Maths
+  commentId: N:Engine.Core.Maths
+  href: Engine.html
+  name: Engine.Core.Maths
+  nameWithType: Engine.Core.Maths
+  fullName: Engine.Core.Maths
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Engine.Core.Maths.Straight3D
+  commentId: T:Engine.Core.Maths.Straight3D
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.Straight3D.html
+  name: Straight3D
+  nameWithType: Straight3D
+  fullName: Engine.Core.Maths.Straight3D
+- uid: Engine.Core.Maths.Straight3D.OA*
+  commentId: Overload:Engine.Core.Maths.Straight3D.OA
+  href: Engine.Core.Maths.Straight3D.html#Engine_Core_Maths_Straight3D_OA
+  name: OA
+  nameWithType: Straight3D.OA
+  fullName: Engine.Core.Maths.Straight3D.OA
+- uid: Engine.Core.Maths.Vector3
+  commentId: T:Engine.Core.Maths.Vector3
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Engine.Core.Maths.Vector3
+- uid: Engine.Core.Maths.Straight3D.OB*
+  commentId: Overload:Engine.Core.Maths.Straight3D.OB
+  href: Engine.Core.Maths.Straight3D.html#Engine_Core_Maths_Straight3D_OB
+  name: OB
+  nameWithType: Straight3D.OB
+  fullName: Engine.Core.Maths.Straight3D.OB
+- uid: Engine.Core.Maths.Straight3D.Dir*
+  commentId: Overload:Engine.Core.Maths.Straight3D.Dir
+  href: Engine.Core.Maths.Straight3D.html#Engine_Core_Maths_Straight3D_Dir
+  name: Dir
+  nameWithType: Straight3D.Dir
+  fullName: Engine.Core.Maths.Straight3D.Dir
+- uid: Engine.Core.Maths.Straight3D.#ctor*
+  commentId: Overload:Engine.Core.Maths.Straight3D.#ctor
+  href: Engine.Core.Maths.Straight3D.html#Engine_Core_Maths_Straight3D__ctor_Engine_Core_Maths_Vector3_Engine_Core_Maths_Vector3_Engine_Core_Maths_Straight3D_LineSetupType_
+  name: Straight3D
+  nameWithType: Straight3D.Straight3D
+  fullName: Engine.Core.Maths.Straight3D.Straight3D
+  nameWithType.vb: Straight3D.New
+  fullName.vb: Engine.Core.Maths.Straight3D.New
+  name.vb: New
+- uid: Engine.Core.Maths.Straight3D.LineSetupType
+  commentId: T:Engine.Core.Maths.Straight3D.LineSetupType
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.Straight3D.html
+  name: Straight3D.LineSetupType
+  nameWithType: Straight3D.LineSetupType
+  fullName: Engine.Core.Maths.Straight3D.LineSetupType
+  spec.csharp:
+  - uid: Engine.Core.Maths.Straight3D
+    name: Straight3D
+    href: Engine.Core.Maths.Straight3D.html
+  - name: .
+  - uid: Engine.Core.Maths.Straight3D.LineSetupType
+    name: LineSetupType
+    href: Engine.Core.Maths.Straight3D.LineSetupType.html
+  spec.vb:
+  - uid: Engine.Core.Maths.Straight3D
+    name: Straight3D
+    href: Engine.Core.Maths.Straight3D.html
+  - name: .
+  - uid: Engine.Core.Maths.Straight3D.LineSetupType
+    name: LineSetupType
+    href: Engine.Core.Maths.Straight3D.LineSetupType.html
+- uid: Engine.Core.Maths.Straight3D.GetPointAt*
+  commentId: Overload:Engine.Core.Maths.Straight3D.GetPointAt
+  href: Engine.Core.Maths.Straight3D.html#Engine_Core_Maths_Straight3D_GetPointAt_System_Single_
+  name: GetPointAt
+  nameWithType: Straight3D.GetPointAt
+  fullName: Engine.Core.Maths.Straight3D.GetPointAt
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Engine.Core.Maths.Straight3D.Intersection*
+  commentId: Overload:Engine.Core.Maths.Straight3D.Intersection
+  href: Engine.Core.Maths.Straight3D.html#Engine_Core_Maths_Straight3D_Intersection_Engine_Core_Maths_Straight3D_Engine_Core_Maths_Straight3D_Engine_Core_Maths_Vector3__
+  name: Intersection
+  nameWithType: Straight3D.Intersection
+  fullName: Engine.Core.Maths.Straight3D.Intersection
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Engine.Core.Maths.Straight3D.Distance*
+  commentId: Overload:Engine.Core.Maths.Straight3D.Distance
+  href: Engine.Core.Maths.Straight3D.html#Engine_Core_Maths_Straight3D_Distance_Engine_Core_Maths_Vector3_Engine_Core_Maths_Vector3__
+  name: Distance
+  nameWithType: Straight3D.Distance
+  fullName: Engine.Core.Maths.Straight3D.Distance
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: Engine.Core.Maths.Straight3D.ToString*
+  commentId: Overload:Engine.Core.Maths.Straight3D.ToString
+  href: Engine.Core.Maths.Straight3D.html#Engine_Core_Maths_Straight3D_ToString
+  name: ToString
+  nameWithType: Straight3D.ToString
+  fullName: Engine.Core.Maths.Straight3D.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

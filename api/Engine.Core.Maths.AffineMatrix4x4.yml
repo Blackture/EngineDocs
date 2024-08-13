@@ -1,0 +1,640 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Maths.AffineMatrix4x4
+  commentId: T:Engine.Core.Maths.AffineMatrix4x4
+  id: AffineMatrix4x4
+  parent: Engine.Core.Maths
+  children:
+  - Engine.Core.Maths.AffineMatrix4x4.#ctor
+  - Engine.Core.Maths.AffineMatrix4x4.#ctor(Engine.Core.Maths.TransformationConvention,Engine.Core.Maths.RotationConvention)
+  - Engine.Core.Maths.AffineMatrix4x4.ATM4x4
+  - Engine.Core.Maths.AffineMatrix4x4.TConvention
+  - Engine.Core.Maths.AffineMatrix4x4.dilationSub
+  - Engine.Core.Maths.AffineMatrix4x4.rotationQ
+  - Engine.Core.Maths.AffineMatrix4x4.rotationSub
+  - Engine.Core.Maths.AffineMatrix4x4.sheerSub
+  - Engine.Core.Maths.AffineMatrix4x4.translation
+  langs:
+  - csharp
+  - vb
+  name: AffineMatrix4x4
+  nameWithType: AffineMatrix4x4
+  fullName: Engine.Core.Maths.AffineMatrix4x4
+  type: Class
+  source:
+    remote:
+      path: Engine.Core/Maths/AffineMatrix4x4.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: AffineMatrix4x4
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/AffineMatrix4x4.cs
+    startLine: 8
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: 'public class AffineMatrix4x4 : AffineMatrix3x3'
+    content.vb: Public Class AffineMatrix4x4 Inherits AffineMatrix3x3
+  inheritance:
+  - System.Object
+  - Engine.Core.Maths.AffineMatrix3x3
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: Engine.Core.Maths.AffineMatrix4x4.translation
+  commentId: F:Engine.Core.Maths.AffineMatrix4x4.translation
+  id: translation
+  parent: Engine.Core.Maths.AffineMatrix4x4
+  langs:
+  - csharp
+  - vb
+  name: translation
+  nameWithType: AffineMatrix4x4.translation
+  fullName: Engine.Core.Maths.AffineMatrix4x4.translation
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/AffineMatrix4x4.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: translation
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/AffineMatrix4x4.cs
+    startLine: 10
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public HomogeneousObject3D translation
+    return:
+      type: Engine.Core.Maths.HomogeneousObject3D
+    content.vb: Public translation As HomogeneousObject3D
+- uid: Engine.Core.Maths.AffineMatrix4x4.rotationSub
+  commentId: F:Engine.Core.Maths.AffineMatrix4x4.rotationSub
+  id: rotationSub
+  parent: Engine.Core.Maths.AffineMatrix4x4
+  langs:
+  - csharp
+  - vb
+  name: rotationSub
+  nameWithType: AffineMatrix4x4.rotationSub
+  fullName: Engine.Core.Maths.AffineMatrix4x4.rotationSub
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/AffineMatrix4x4.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: rotationSub
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/AffineMatrix4x4.cs
+    startLine: 12
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public RotationMatrix3x3 rotationSub
+    return:
+      type: Engine.Core.Maths.RotationMatrix3x3
+    content.vb: Public rotationSub As RotationMatrix3x3
+- uid: Engine.Core.Maths.AffineMatrix4x4.rotationQ
+  commentId: F:Engine.Core.Maths.AffineMatrix4x4.rotationQ
+  id: rotationQ
+  parent: Engine.Core.Maths.AffineMatrix4x4
+  langs:
+  - csharp
+  - vb
+  name: rotationQ
+  nameWithType: AffineMatrix4x4.rotationQ
+  fullName: Engine.Core.Maths.AffineMatrix4x4.rotationQ
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/AffineMatrix4x4.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: rotationQ
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/AffineMatrix4x4.cs
+    startLine: 13
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public Quaternion rotationQ
+    return:
+      type: Engine.Core.Maths.Quaternion
+    content.vb: Public rotationQ As Quaternion
+- uid: Engine.Core.Maths.AffineMatrix4x4.dilationSub
+  commentId: F:Engine.Core.Maths.AffineMatrix4x4.dilationSub
+  id: dilationSub
+  parent: Engine.Core.Maths.AffineMatrix4x4
+  langs:
+  - csharp
+  - vb
+  name: dilationSub
+  nameWithType: AffineMatrix4x4.dilationSub
+  fullName: Engine.Core.Maths.AffineMatrix4x4.dilationSub
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/AffineMatrix4x4.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: dilationSub
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/AffineMatrix4x4.cs
+    startLine: 14
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public DilationMatrix3x3 dilationSub
+    return:
+      type: Engine.Core.Maths.DilationMatrix3x3
+    content.vb: Public dilationSub As DilationMatrix3x3
+- uid: Engine.Core.Maths.AffineMatrix4x4.sheerSub
+  commentId: F:Engine.Core.Maths.AffineMatrix4x4.sheerSub
+  id: sheerSub
+  parent: Engine.Core.Maths.AffineMatrix4x4
+  langs:
+  - csharp
+  - vb
+  name: sheerSub
+  nameWithType: AffineMatrix4x4.sheerSub
+  fullName: Engine.Core.Maths.AffineMatrix4x4.sheerSub
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/AffineMatrix4x4.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: sheerSub
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/AffineMatrix4x4.cs
+    startLine: 15
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public SheerMatrix3D sheerSub
+    return:
+      type: Engine.Core.Maths.SheerMatrix3D
+    content.vb: Public sheerSub As SheerMatrix3D
+- uid: Engine.Core.Maths.AffineMatrix4x4.TConvention
+  commentId: F:Engine.Core.Maths.AffineMatrix4x4.TConvention
+  id: TConvention
+  parent: Engine.Core.Maths.AffineMatrix4x4
+  langs:
+  - csharp
+  - vb
+  name: TConvention
+  nameWithType: AffineMatrix4x4.TConvention
+  fullName: Engine.Core.Maths.AffineMatrix4x4.TConvention
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/AffineMatrix4x4.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: TConvention
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/AffineMatrix4x4.cs
+    startLine: 17
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public TransformationConvention TConvention
+    return:
+      type: Engine.Core.Maths.TransformationConvention
+    content.vb: Public TConvention As TransformationConvention
+- uid: Engine.Core.Maths.AffineMatrix4x4.ATM4x4
+  commentId: F:Engine.Core.Maths.AffineMatrix4x4.ATM4x4
+  id: ATM4x4
+  parent: Engine.Core.Maths.AffineMatrix4x4
+  langs:
+  - csharp
+  - vb
+  name: ATM4x4
+  nameWithType: AffineMatrix4x4.ATM4x4
+  fullName: Engine.Core.Maths.AffineMatrix4x4.ATM4x4
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/AffineMatrix4x4.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: ATM4x4
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/AffineMatrix4x4.cs
+    startLine: 18
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public MatrixMxN ATM4x4
+    return:
+      type: Engine.Core.Maths.MatrixMxN
+    content.vb: Public ATM4x4 As MatrixMxN
+- uid: Engine.Core.Maths.AffineMatrix4x4.#ctor
+  commentId: M:Engine.Core.Maths.AffineMatrix4x4.#ctor
+  id: '#ctor'
+  parent: Engine.Core.Maths.AffineMatrix4x4
+  langs:
+  - csharp
+  - vb
+  name: AffineMatrix4x4()
+  nameWithType: AffineMatrix4x4.AffineMatrix4x4()
+  fullName: Engine.Core.Maths.AffineMatrix4x4.AffineMatrix4x4()
+  type: Constructor
+  source:
+    remote:
+      path: Engine.Core/Maths/AffineMatrix4x4.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: .ctor
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/AffineMatrix4x4.cs
+    startLine: 20
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public AffineMatrix4x4()
+    content.vb: Public Sub New()
+  overload: Engine.Core.Maths.AffineMatrix4x4.#ctor*
+  nameWithType.vb: AffineMatrix4x4.New()
+  fullName.vb: Engine.Core.Maths.AffineMatrix4x4.New()
+  name.vb: New()
+- uid: Engine.Core.Maths.AffineMatrix4x4.#ctor(Engine.Core.Maths.TransformationConvention,Engine.Core.Maths.RotationConvention)
+  commentId: M:Engine.Core.Maths.AffineMatrix4x4.#ctor(Engine.Core.Maths.TransformationConvention,Engine.Core.Maths.RotationConvention)
+  id: '#ctor(Engine.Core.Maths.TransformationConvention,Engine.Core.Maths.RotationConvention)'
+  parent: Engine.Core.Maths.AffineMatrix4x4
+  langs:
+  - csharp
+  - vb
+  name: AffineMatrix4x4(TransformationConvention, RotationConvention)
+  nameWithType: AffineMatrix4x4.AffineMatrix4x4(TransformationConvention, RotationConvention)
+  fullName: Engine.Core.Maths.AffineMatrix4x4.AffineMatrix4x4(Engine.Core.Maths.TransformationConvention, Engine.Core.Maths.RotationConvention)
+  type: Constructor
+  source:
+    remote:
+      path: Engine.Core/Maths/AffineMatrix4x4.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: .ctor
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/AffineMatrix4x4.cs
+    startLine: 25
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public AffineMatrix4x4(TransformationConvention TConvention = TransformationConvention.RDS, RotationConvention RConvention = RotationConvention.X1X2X3)
+    parameters:
+    - id: TConvention
+      type: Engine.Core.Maths.TransformationConvention
+    - id: RConvention
+      type: Engine.Core.Maths.RotationConvention
+    content.vb: Public Sub New(TConvention As TransformationConvention = TransformationConvention.RDS, RConvention As RotationConvention = RotationConvention.X1X2X3)
+  overload: Engine.Core.Maths.AffineMatrix4x4.#ctor*
+  nameWithType.vb: AffineMatrix4x4.New(TransformationConvention, RotationConvention)
+  fullName.vb: Engine.Core.Maths.AffineMatrix4x4.New(Engine.Core.Maths.TransformationConvention, Engine.Core.Maths.RotationConvention)
+  name.vb: New(TransformationConvention, RotationConvention)
+references:
+- uid: Engine.Core.Maths
+  commentId: N:Engine.Core.Maths
+  href: Engine.html
+  name: Engine.Core.Maths
+  nameWithType: Engine.Core.Maths
+  fullName: Engine.Core.Maths
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Engine.Core.Maths.AffineMatrix3x3
+  commentId: T:Engine.Core.Maths.AffineMatrix3x3
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.AffineMatrix3x3.html
+  name: AffineMatrix3x3
+  nameWithType: AffineMatrix3x3
+  fullName: Engine.Core.Maths.AffineMatrix3x3
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Engine.Core.Maths.HomogeneousObject3D
+  commentId: T:Engine.Core.Maths.HomogeneousObject3D
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.HomogeneousObject3D.html
+  name: HomogeneousObject3D
+  nameWithType: HomogeneousObject3D
+  fullName: Engine.Core.Maths.HomogeneousObject3D
+- uid: Engine.Core.Maths.RotationMatrix3x3
+  commentId: T:Engine.Core.Maths.RotationMatrix3x3
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.RotationMatrix3x3.html
+  name: RotationMatrix3x3
+  nameWithType: RotationMatrix3x3
+  fullName: Engine.Core.Maths.RotationMatrix3x3
+- uid: Engine.Core.Maths.Quaternion
+  commentId: T:Engine.Core.Maths.Quaternion
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.Quaternion.html
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: Engine.Core.Maths.Quaternion
+- uid: Engine.Core.Maths.DilationMatrix3x3
+  commentId: T:Engine.Core.Maths.DilationMatrix3x3
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.DilationMatrix3x3.html
+  name: DilationMatrix3x3
+  nameWithType: DilationMatrix3x3
+  fullName: Engine.Core.Maths.DilationMatrix3x3
+- uid: Engine.Core.Maths.SheerMatrix3D
+  commentId: T:Engine.Core.Maths.SheerMatrix3D
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.SheerMatrix3D.html
+  name: SheerMatrix3D
+  nameWithType: SheerMatrix3D
+  fullName: Engine.Core.Maths.SheerMatrix3D
+- uid: Engine.Core.Maths.TransformationConvention
+  commentId: T:Engine.Core.Maths.TransformationConvention
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.TransformationConvention.html
+  name: TransformationConvention
+  nameWithType: TransformationConvention
+  fullName: Engine.Core.Maths.TransformationConvention
+- uid: Engine.Core.Maths.MatrixMxN
+  commentId: T:Engine.Core.Maths.MatrixMxN
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.MatrixMxN.html
+  name: MatrixMxN
+  nameWithType: MatrixMxN
+  fullName: Engine.Core.Maths.MatrixMxN
+- uid: Engine.Core.Maths.AffineMatrix4x4.#ctor*
+  commentId: Overload:Engine.Core.Maths.AffineMatrix4x4.#ctor
+  href: Engine.Core.Maths.AffineMatrix4x4.html#Engine_Core_Maths_AffineMatrix4x4__ctor
+  name: AffineMatrix4x4
+  nameWithType: AffineMatrix4x4.AffineMatrix4x4
+  fullName: Engine.Core.Maths.AffineMatrix4x4.AffineMatrix4x4
+  nameWithType.vb: AffineMatrix4x4.New
+  fullName.vb: Engine.Core.Maths.AffineMatrix4x4.New
+  name.vb: New
+- uid: Engine.Core.Maths.RotationConvention
+  commentId: T:Engine.Core.Maths.RotationConvention
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.RotationConvention.html
+  name: RotationConvention
+  nameWithType: RotationConvention
+  fullName: Engine.Core.Maths.RotationConvention

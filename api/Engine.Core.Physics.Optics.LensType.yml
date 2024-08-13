@@ -1,0 +1,209 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Physics.Optics.LensType
+  commentId: T:Engine.Core.Physics.Optics.LensType
+  id: LensType
+  parent: Engine.Core.Physics.Optics
+  children:
+  - Engine.Core.Physics.Optics.LensType.BackSided
+  - Engine.Core.Physics.Optics.LensType.FrontSided
+  - Engine.Core.Physics.Optics.LensType.None
+  - Engine.Core.Physics.Optics.LensType.Prismatic
+  - Engine.Core.Physics.Optics.LensType.TwoSided
+  langs:
+  - csharp
+  - vb
+  name: LensType
+  nameWithType: LensType
+  fullName: Engine.Core.Physics.Optics.LensType
+  type: Enum
+  source:
+    remote:
+      path: Engine.Core/Physics/Optics/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: LensType
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Physics/Optics/Enums.cs
+    startLine: 8
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Physics.Optics
+  syntax:
+    content: public enum LensType
+    content.vb: Public Enum LensType
+- uid: Engine.Core.Physics.Optics.LensType.None
+  commentId: F:Engine.Core.Physics.Optics.LensType.None
+  id: None
+  parent: Engine.Core.Physics.Optics.LensType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: LensType.None
+  fullName: Engine.Core.Physics.Optics.LensType.None
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Physics/Optics/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: None
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Physics/Optics/Enums.cs
+    startLine: 10
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Physics.Optics
+  syntax:
+    content: None = 0
+    return:
+      type: Engine.Core.Physics.Optics.LensType
+- uid: Engine.Core.Physics.Optics.LensType.TwoSided
+  commentId: F:Engine.Core.Physics.Optics.LensType.TwoSided
+  id: TwoSided
+  parent: Engine.Core.Physics.Optics.LensType
+  langs:
+  - csharp
+  - vb
+  name: TwoSided
+  nameWithType: LensType.TwoSided
+  fullName: Engine.Core.Physics.Optics.LensType.TwoSided
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Physics/Optics/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: TwoSided
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Physics/Optics/Enums.cs
+    startLine: 11
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Physics.Optics
+  syntax:
+    content: TwoSided = 1
+    return:
+      type: Engine.Core.Physics.Optics.LensType
+- uid: Engine.Core.Physics.Optics.LensType.FrontSided
+  commentId: F:Engine.Core.Physics.Optics.LensType.FrontSided
+  id: FrontSided
+  parent: Engine.Core.Physics.Optics.LensType
+  langs:
+  - csharp
+  - vb
+  name: FrontSided
+  nameWithType: LensType.FrontSided
+  fullName: Engine.Core.Physics.Optics.LensType.FrontSided
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Physics/Optics/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: FrontSided
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Physics/Optics/Enums.cs
+    startLine: 12
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Physics.Optics
+  syntax:
+    content: FrontSided = 2
+    return:
+      type: Engine.Core.Physics.Optics.LensType
+- uid: Engine.Core.Physics.Optics.LensType.BackSided
+  commentId: F:Engine.Core.Physics.Optics.LensType.BackSided
+  id: BackSided
+  parent: Engine.Core.Physics.Optics.LensType
+  langs:
+  - csharp
+  - vb
+  name: BackSided
+  nameWithType: LensType.BackSided
+  fullName: Engine.Core.Physics.Optics.LensType.BackSided
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Physics/Optics/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: BackSided
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Physics/Optics/Enums.cs
+    startLine: 13
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Physics.Optics
+  syntax:
+    content: BackSided = 3
+    return:
+      type: Engine.Core.Physics.Optics.LensType
+- uid: Engine.Core.Physics.Optics.LensType.Prismatic
+  commentId: F:Engine.Core.Physics.Optics.LensType.Prismatic
+  id: Prismatic
+  parent: Engine.Core.Physics.Optics.LensType
+  langs:
+  - csharp
+  - vb
+  name: Prismatic
+  nameWithType: LensType.Prismatic
+  fullName: Engine.Core.Physics.Optics.LensType.Prismatic
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Physics/Optics/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Prismatic
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Physics/Optics/Enums.cs
+    startLine: 14
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Physics.Optics
+  syntax:
+    content: Prismatic = 4
+    return:
+      type: Engine.Core.Physics.Optics.LensType
+references:
+- uid: Engine.Core.Physics.Optics
+  commentId: N:Engine.Core.Physics.Optics
+  href: Engine.html
+  name: Engine.Core.Physics.Optics
+  nameWithType: Engine.Core.Physics.Optics
+  fullName: Engine.Core.Physics.Optics
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Physics
+    name: Physics
+    href: Engine.Core.Physics.html
+  - name: .
+  - uid: Engine.Core.Physics.Optics
+    name: Optics
+    href: Engine.Core.Physics.Optics.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Physics
+    name: Physics
+    href: Engine.Core.Physics.html
+  - name: .
+  - uid: Engine.Core.Physics.Optics
+    name: Optics
+    href: Engine.Core.Physics.Optics.html
+- uid: Engine.Core.Physics.Optics.LensType
+  commentId: T:Engine.Core.Physics.Optics.LensType
+  parent: Engine.Core.Physics.Optics
+  href: Engine.Core.Physics.Optics.LensType.html
+  name: LensType
+  nameWithType: LensType
+  fullName: Engine.Core.Physics.Optics.LensType

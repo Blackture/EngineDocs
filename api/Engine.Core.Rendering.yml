@@ -1,0 +1,61 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Rendering
+  commentId: N:Engine.Core.Rendering
+  id: Engine.Core.Rendering
+  children:
+  - Engine.Core.Rendering.CameraRay
+  - Engine.Core.Rendering.Pixel
+  langs:
+  - csharp
+  - vb
+  name: Engine.Core.Rendering
+  nameWithType: Engine.Core.Rendering
+  fullName: Engine.Core.Rendering
+  type: Namespace
+  assemblies:
+  - Engine
+references:
+- uid: Engine.Core.Rendering.CameraRay
+  commentId: T:Engine.Core.Rendering.CameraRay
+  href: Engine.Core.Rendering.CameraRay.html
+  name: CameraRay
+  nameWithType: CameraRay
+  fullName: Engine.Core.Rendering.CameraRay
+- uid: Engine.Core.Rendering.Pixel
+  commentId: T:Engine.Core.Rendering.Pixel
+  parent: Engine.Core.Rendering
+  href: Engine.Core.Rendering.Pixel.html
+  name: Pixel
+  nameWithType: Pixel
+  fullName: Engine.Core.Rendering.Pixel
+- uid: Engine.Core.Rendering
+  commentId: N:Engine.Core.Rendering
+  href: Engine.html
+  name: Engine.Core.Rendering
+  nameWithType: Engine.Core.Rendering
+  fullName: Engine.Core.Rendering
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Rendering
+    name: Rendering
+    href: Engine.Core.Rendering.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Rendering
+    name: Rendering
+    href: Engine.Core.Rendering.html

@@ -1,0 +1,118 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Components
+  commentId: N:Engine.Core.Components
+  id: Engine.Core.Components
+  children:
+  - Engine.Core.Components.Camera
+  - Engine.Core.Components.Camera.CameraPlane
+  - Engine.Core.Components.Edge3D
+  - Engine.Core.Components.Face3D
+  - Engine.Core.Components.LCS3
+  - Engine.Core.Components.Mesh3D
+  - Engine.Core.Components.Vertex3D
+  langs:
+  - csharp
+  - vb
+  name: Engine.Core.Components
+  nameWithType: Engine.Core.Components
+  fullName: Engine.Core.Components
+  type: Namespace
+  assemblies:
+  - Engine
+references:
+- uid: Engine.Core.Components.Edge3D
+  commentId: T:Engine.Core.Components.Edge3D
+  parent: Engine.Core.Components
+  href: Engine.Core.Components.Edge3D.html
+  name: Edge3D
+  nameWithType: Edge3D
+  fullName: Engine.Core.Components.Edge3D
+- uid: Engine.Core.Components.Face3D
+  commentId: T:Engine.Core.Components.Face3D
+  parent: Engine.Core.Components
+  href: Engine.Core.Components.Face3D.html
+  name: Face3D
+  nameWithType: Face3D
+  fullName: Engine.Core.Components.Face3D
+- uid: Engine.Core.Components.Camera
+  commentId: T:Engine.Core.Components.Camera
+  parent: Engine.Core.Components
+  href: Engine.Core.Components.Camera.html
+  name: Camera
+  nameWithType: Camera
+  fullName: Engine.Core.Components.Camera
+- uid: Engine.Core.Components.Camera.CameraPlane
+  commentId: T:Engine.Core.Components.Camera.CameraPlane
+  parent: Engine.Core.Components
+  href: Engine.Core.Components.Camera.html
+  name: Camera.CameraPlane
+  nameWithType: Camera.CameraPlane
+  fullName: Engine.Core.Components.Camera.CameraPlane
+  spec.csharp:
+  - uid: Engine.Core.Components.Camera
+    name: Camera
+    href: Engine.Core.Components.Camera.html
+  - name: .
+  - uid: Engine.Core.Components.Camera.CameraPlane
+    name: CameraPlane
+    href: Engine.Core.Components.Camera.CameraPlane.html
+  spec.vb:
+  - uid: Engine.Core.Components.Camera
+    name: Camera
+    href: Engine.Core.Components.Camera.html
+  - name: .
+  - uid: Engine.Core.Components.Camera.CameraPlane
+    name: CameraPlane
+    href: Engine.Core.Components.Camera.CameraPlane.html
+- uid: Engine.Core.Components.LCS3
+  commentId: T:Engine.Core.Components.LCS3
+  parent: Engine.Core.Components
+  href: Engine.Core.Components.LCS3.html
+  name: LCS3
+  nameWithType: LCS3
+  fullName: Engine.Core.Components.LCS3
+- uid: Engine.Core.Components.Mesh3D
+  commentId: T:Engine.Core.Components.Mesh3D
+  parent: Engine.Core.Components
+  href: Engine.Core.Components.Mesh3D.html
+  name: Mesh3D
+  nameWithType: Mesh3D
+  fullName: Engine.Core.Components.Mesh3D
+- uid: Engine.Core.Components.Vertex3D
+  commentId: T:Engine.Core.Components.Vertex3D
+  parent: Engine.Core.Components
+  href: Engine.Core.Components.Vertex3D.html
+  name: Vertex3D
+  nameWithType: Vertex3D
+  fullName: Engine.Core.Components.Vertex3D
+- uid: Engine.Core.Components
+  commentId: N:Engine.Core.Components
+  href: Engine.html
+  name: Engine.Core.Components
+  nameWithType: Engine.Core.Components
+  fullName: Engine.Core.Components
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Components
+    name: Components
+    href: Engine.Core.Components.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Components
+    name: Components
+    href: Engine.Core.Components.html

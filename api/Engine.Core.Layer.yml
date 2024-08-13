@@ -1,0 +1,786 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Layer
+  commentId: T:Engine.Core.Layer
+  id: Layer
+  parent: Engine.Core
+  children:
+  - Engine.Core.Layer.#ctor(System.String,System.Int32)
+  - Engine.Core.Layer.#ctor(System.String,System.Int32,System.Int32)
+  - Engine.Core.Layer.All
+  - Engine.Core.Layer.ChangeLayer(System.Int32,System.String,System.Nullable{System.Int32})
+  - Engine.Core.Layer.ID
+  - Engine.Core.Layer.Index
+  - Engine.Core.Layer.Item(System.Int32)
+  - Engine.Core.Layer.Name
+  langs:
+  - csharp
+  - vb
+  name: Layer
+  nameWithType: Layer
+  fullName: Engine.Core.Layer
+  type: Class
+  source:
+    remote:
+      path: Engine.Core/Layer.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Layer
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Layer.cs
+    startLine: 12
+  assemblies:
+  - Engine
+  namespace: Engine.Core
+  syntax:
+    content: public class Layer
+    content.vb: Public Class Layer
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: Engine.Core.Layer.All
+  commentId: F:Engine.Core.Layer.All
+  id: All
+  parent: Engine.Core.Layer
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: Layer.All
+  fullName: Engine.Core.Layer.All
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Layer.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: All
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Layer.cs
+    startLine: 14
+  assemblies:
+  - Engine
+  namespace: Engine.Core
+  syntax:
+    content: public static readonly List<Layer> All
+    return:
+      type: System.Collections.Generic.List{Engine.Core.Layer}
+    content.vb: Public Shared ReadOnly All As List(Of Layer)
+- uid: Engine.Core.Layer.Item(System.Int32)
+  commentId: P:Engine.Core.Layer.Item(System.Int32)
+  id: Item(System.Int32)
+  parent: Engine.Core.Layer
+  langs:
+  - csharp
+  - vb
+  name: this[int]
+  nameWithType: Layer.this[int]
+  fullName: Engine.Core.Layer.this[int]
+  type: Property
+  source:
+    remote:
+      path: Engine.Core/Layer.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: this[]
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Layer.cs
+    startLine: 19
+  assemblies:
+  - Engine
+  namespace: Engine.Core
+  syntax:
+    content: public Layer this[int id] { get; set; }
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: Engine.Core.Layer
+    content.vb: Public Default Property this[](id As Integer) As Layer
+  overload: Engine.Core.Layer.Item*
+  nameWithType.vb: Layer.this[](Integer)
+  fullName.vb: Engine.Core.Layer.this[](Integer)
+  name.vb: this[](Integer)
+- uid: Engine.Core.Layer.Name
+  commentId: P:Engine.Core.Layer.Name
+  id: Name
+  parent: Engine.Core.Layer
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Layer.Name
+  fullName: Engine.Core.Layer.Name
+  type: Property
+  source:
+    remote:
+      path: Engine.Core/Layer.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Name
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Layer.cs
+    startLine: 35
+  assemblies:
+  - Engine
+  namespace: Engine.Core
+  summary: The layer's unique name
+  example: []
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: Engine.Core.Layer.Name*
+- uid: Engine.Core.Layer.ID
+  commentId: P:Engine.Core.Layer.ID
+  id: ID
+  parent: Engine.Core.Layer
+  langs:
+  - csharp
+  - vb
+  name: ID
+  nameWithType: Layer.ID
+  fullName: Engine.Core.Layer.ID
+  type: Property
+  source:
+    remote:
+      path: Engine.Core/Layer.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: ID
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Layer.cs
+    startLine: 39
+  assemblies:
+  - Engine
+  namespace: Engine.Core
+  summary: The layer's unique id for the layer listing
+  example: []
+  syntax:
+    content: public int ID { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property ID As Integer
+  overload: Engine.Core.Layer.ID*
+- uid: Engine.Core.Layer.Index
+  commentId: P:Engine.Core.Layer.Index
+  id: Index
+  parent: Engine.Core.Layer
+  langs:
+  - csharp
+  - vb
+  name: Index
+  nameWithType: Layer.Index
+  fullName: Engine.Core.Layer.Index
+  type: Property
+  source:
+    remote:
+      path: Engine.Core/Layer.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Index
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Layer.cs
+    startLine: 43
+  assemblies:
+  - Engine
+  namespace: Engine.Core
+  summary: The layer's unique index indicating its position (that's neither its identification nor its position in the list).
+  example: []
+  syntax:
+    content: public int Index { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Index As Integer
+  overload: Engine.Core.Layer.Index*
+- uid: Engine.Core.Layer.#ctor(System.String,System.Int32)
+  commentId: M:Engine.Core.Layer.#ctor(System.String,System.Int32)
+  id: '#ctor(System.String,System.Int32)'
+  parent: Engine.Core.Layer
+  langs:
+  - csharp
+  - vb
+  name: Layer(string, int)
+  nameWithType: Layer.Layer(string, int)
+  fullName: Engine.Core.Layer.Layer(string, int)
+  type: Constructor
+  source:
+    remote:
+      path: Engine.Core/Layer.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: .ctor
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Layer.cs
+    startLine: 45
+  assemblies:
+  - Engine
+  namespace: Engine.Core
+  syntax:
+    content: public Layer(string name, int index)
+    parameters:
+    - id: name
+      type: System.String
+    - id: index
+      type: System.Int32
+    content.vb: Public Sub New(name As String, index As Integer)
+  overload: Engine.Core.Layer.#ctor*
+  nameWithType.vb: Layer.New(String, Integer)
+  fullName.vb: Engine.Core.Layer.New(String, Integer)
+  name.vb: New(String, Integer)
+- uid: Engine.Core.Layer.#ctor(System.String,System.Int32,System.Int32)
+  commentId: M:Engine.Core.Layer.#ctor(System.String,System.Int32,System.Int32)
+  id: '#ctor(System.String,System.Int32,System.Int32)'
+  parent: Engine.Core.Layer
+  langs:
+  - csharp
+  - vb
+  name: Layer(string, int, int)
+  nameWithType: Layer.Layer(string, int, int)
+  fullName: Engine.Core.Layer.Layer(string, int, int)
+  type: Constructor
+  source:
+    remote:
+      path: Engine.Core/Layer.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: .ctor
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Layer.cs
+    startLine: 50
+  assemblies:
+  - Engine
+  namespace: Engine.Core
+  syntax:
+    content: public Layer(string name, int id, int index)
+    parameters:
+    - id: name
+      type: System.String
+    - id: id
+      type: System.Int32
+    - id: index
+      type: System.Int32
+    content.vb: Public Sub New(name As String, id As Integer, index As Integer)
+  overload: Engine.Core.Layer.#ctor*
+  nameWithType.vb: Layer.New(String, Integer, Integer)
+  fullName.vb: Engine.Core.Layer.New(String, Integer, Integer)
+  name.vb: New(String, Integer, Integer)
+- uid: Engine.Core.Layer.ChangeLayer(System.Int32,System.String,System.Nullable{System.Int32})
+  commentId: M:Engine.Core.Layer.ChangeLayer(System.Int32,System.String,System.Nullable{System.Int32})
+  id: ChangeLayer(System.Int32,System.String,System.Nullable{System.Int32})
+  parent: Engine.Core.Layer
+  langs:
+  - csharp
+  - vb
+  name: ChangeLayer(int, string, int?)
+  nameWithType: Layer.ChangeLayer(int, string, int?)
+  fullName: Engine.Core.Layer.ChangeLayer(int, string, int?)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Layer.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: ChangeLayer
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Layer.cs
+    startLine: 91
+  assemblies:
+  - Engine
+  namespace: Engine.Core
+  syntax:
+    content: public static void ChangeLayer(int Id, string name, int? index)
+    parameters:
+    - id: Id
+      type: System.Int32
+    - id: name
+      type: System.String
+    - id: index
+      type: System.Nullable{System.Int32}
+    content.vb: Public Shared Sub ChangeLayer(Id As Integer, name As String, index As Integer?)
+  overload: Engine.Core.Layer.ChangeLayer*
+  nameWithType.vb: Layer.ChangeLayer(Integer, String, Integer?)
+  fullName.vb: Engine.Core.Layer.ChangeLayer(Integer, String, Integer?)
+  name.vb: ChangeLayer(Integer, String, Integer?)
+references:
+- uid: Engine.Core
+  commentId: N:Engine.Core
+  href: Engine.html
+  name: Engine.Core
+  nameWithType: Engine.Core
+  fullName: Engine.Core
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.List{Engine.Core.Layer}
+  commentId: T:System.Collections.Generic.List{Engine.Core.Layer}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<Layer>
+  nameWithType: List<Layer>
+  fullName: System.Collections.Generic.List<Engine.Core.Layer>
+  nameWithType.vb: List(Of Layer)
+  fullName.vb: System.Collections.Generic.List(Of Engine.Core.Layer)
+  name.vb: List(Of Layer)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Engine.Core.Layer
+    name: Layer
+    href: Engine.Core.Layer.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Engine.Core.Layer
+    name: Layer
+    href: Engine.Core.Layer.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Engine.Core.Layer.Item*
+  commentId: Overload:Engine.Core.Layer.Item
+  href: Engine.Core.Layer.html#Engine_Core_Layer_Item_System_Int32_
+  name: this
+  nameWithType: Layer.this
+  fullName: Engine.Core.Layer.this
+  nameWithType.vb: Layer.this[]
+  fullName.vb: Engine.Core.Layer.this[]
+  name.vb: this[]
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Engine.Core.Layer
+  commentId: T:Engine.Core.Layer
+  parent: Engine.Core
+  href: Engine.Core.Layer.html
+  name: Layer
+  nameWithType: Layer
+  fullName: Engine.Core.Layer
+- uid: Engine.Core.Layer.Name*
+  commentId: Overload:Engine.Core.Layer.Name
+  href: Engine.Core.Layer.html#Engine_Core_Layer_Name
+  name: Name
+  nameWithType: Layer.Name
+  fullName: Engine.Core.Layer.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Engine.Core.Layer.ID*
+  commentId: Overload:Engine.Core.Layer.ID
+  href: Engine.Core.Layer.html#Engine_Core_Layer_ID
+  name: ID
+  nameWithType: Layer.ID
+  fullName: Engine.Core.Layer.ID
+- uid: Engine.Core.Layer.Index*
+  commentId: Overload:Engine.Core.Layer.Index
+  href: Engine.Core.Layer.html#Engine_Core_Layer_Index
+  name: Index
+  nameWithType: Layer.Index
+  fullName: Engine.Core.Layer.Index
+- uid: Engine.Core.Layer.#ctor*
+  commentId: Overload:Engine.Core.Layer.#ctor
+  href: Engine.Core.Layer.html#Engine_Core_Layer__ctor_System_String_System_Int32_
+  name: Layer
+  nameWithType: Layer.Layer
+  fullName: Engine.Core.Layer.Layer
+  nameWithType.vb: Layer.New
+  fullName.vb: Engine.Core.Layer.New
+  name.vb: New
+- uid: Engine.Core.Layer.ChangeLayer*
+  commentId: Overload:Engine.Core.Layer.ChangeLayer
+  href: Engine.Core.Layer.html#Engine_Core_Layer_ChangeLayer_System_Int32_System_String_System_Nullable_System_Int32__
+  name: ChangeLayer
+  nameWithType: Layer.ChangeLayer
+  fullName: Engine.Core.Layer.ChangeLayer
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int?
+  nameWithType: int?
+  fullName: int?
+  nameWithType.vb: Integer?
+  fullName.vb: Integer?
+  name.vb: Integer?
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

@@ -1,0 +1,2130 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Maths.Vector
+  commentId: T:Engine.Core.Maths.Vector
+  id: Vector
+  parent: Engine.Core.Maths
+  children:
+  - Engine.Core.Maths.Vector.#ctor(Engine.Core.Maths.Vector)
+  - Engine.Core.Maths.Vector.#ctor(System.Collections.Generic.List{System.Single})
+  - Engine.Core.Maths.Vector.#ctor(System.Single[])
+  - Engine.Core.Maths.Vector.AddValue(System.Single)
+  - Engine.Core.Maths.Vector.Addition(Engine.Core.Maths.Vector)
+  - Engine.Core.Maths.Vector.Addition(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)
+  - Engine.Core.Maths.Vector.Cross(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)
+  - Engine.Core.Maths.Vector.CrossProduct(Engine.Core.Maths.Vector)
+  - Engine.Core.Maths.Vector.Dimension
+  - Engine.Core.Maths.Vector.Division(Engine.Core.Maths.Vector,System.Single)
+  - Engine.Core.Maths.Vector.Division(System.Single)
+  - Engine.Core.Maths.Vector.Dot(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)
+  - Engine.Core.Maths.Vector.DotProduct(Engine.Core.Maths.Vector)
+  - Engine.Core.Maths.Vector.GetEnumerator
+  - Engine.Core.Maths.Vector.GetLength
+  - Engine.Core.Maths.Vector.GetValue(System.Int32)
+  - Engine.Core.Maths.Vector.IsDimensionEqual(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)
+  - Engine.Core.Maths.Vector.IsValidIndex(System.Int32)
+  - Engine.Core.Maths.Vector.IsZeroVector
+  - Engine.Core.Maths.Vector.Item(System.Int32)
+  - Engine.Core.Maths.Vector.Length
+  - Engine.Core.Maths.Vector.LengthSquared
+  - Engine.Core.Maths.Vector.Normalize
+  - Engine.Core.Maths.Vector.Normalized
+  - Engine.Core.Maths.Vector.Scalar(Engine.Core.Maths.Vector,System.Single)
+  - Engine.Core.Maths.Vector.ScalarProduct(System.Single)
+  - Engine.Core.Maths.Vector.SetValue(System.Single,System.Int32)
+  - Engine.Core.Maths.Vector.Substraction(Engine.Core.Maths.Vector)
+  - Engine.Core.Maths.Vector.Substraction(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)
+  - Engine.Core.Maths.Vector.ToMatrix(Engine.Core.Maths.Vector,System.Boolean)
+  - Engine.Core.Maths.Vector.op_Addition(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)
+  - Engine.Core.Maths.Vector.op_Division(Engine.Core.Maths.Vector,System.Single)
+  - Engine.Core.Maths.Vector.op_Multiply(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)
+  - Engine.Core.Maths.Vector.op_Multiply(Engine.Core.Maths.Vector,System.Single)
+  - Engine.Core.Maths.Vector.op_Multiply(System.Single,Engine.Core.Maths.Vector)
+  - Engine.Core.Maths.Vector.op_Subtraction(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)
+  langs:
+  - csharp
+  - vb
+  name: Vector
+  nameWithType: Vector
+  fullName: Engine.Core.Maths.Vector
+  type: Class
+  source:
+    remote:
+      path: Engine.Core/Maths/Vector.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Vector
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Vector.cs
+    startLine: 15
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  summary: A vector with n dimensions
+  example: []
+  syntax:
+    content: 'public class Vector : IEnumerable<float>, IEnumerable'
+    content.vb: Public Class Vector Implements IEnumerable(Of Single), IEnumerable
+  inheritance:
+  - System.Object
+  implements:
+  - System.Collections.Generic.IEnumerable{System.Single}
+  - System.Collections.IEnumerable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: Engine.Core.Maths.Vector.Item(System.Int32)
+  commentId: P:Engine.Core.Maths.Vector.Item(System.Int32)
+  id: Item(System.Int32)
+  parent: Engine.Core.Maths.Vector
+  langs:
+  - csharp
+  - vb
+  name: this[int]
+  nameWithType: Vector.this[int]
+  fullName: Engine.Core.Maths.Vector.this[int]
+  type: Property
+  source:
+    remote:
+      path: Engine.Core/Maths/Vector.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: this[]
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Vector.cs
+    startLine: 25
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public float this[int index] { get; set; }
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Single
+    content.vb: Public Default Property this[](index As Integer) As Single
+  overload: Engine.Core.Maths.Vector.Item*
+  nameWithType.vb: Vector.this[](Integer)
+  fullName.vb: Engine.Core.Maths.Vector.this[](Integer)
+  name.vb: this[](Integer)
+- uid: Engine.Core.Maths.Vector.Length
+  commentId: P:Engine.Core.Maths.Vector.Length
+  id: Length
+  parent: Engine.Core.Maths.Vector
+  langs:
+  - csharp
+  - vb
+  name: Length
+  nameWithType: Vector.Length
+  fullName: Engine.Core.Maths.Vector.Length
+  type: Property
+  source:
+    remote:
+      path: Engine.Core/Maths/Vector.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Length
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Vector.cs
+    startLine: 30
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public float Length { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property Length As Single
+  overload: Engine.Core.Maths.Vector.Length*
+- uid: Engine.Core.Maths.Vector.Dimension
+  commentId: P:Engine.Core.Maths.Vector.Dimension
+  id: Dimension
+  parent: Engine.Core.Maths.Vector
+  langs:
+  - csharp
+  - vb
+  name: Dimension
+  nameWithType: Vector.Dimension
+  fullName: Engine.Core.Maths.Vector.Dimension
+  type: Property
+  source:
+    remote:
+      path: Engine.Core/Maths/Vector.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Dimension
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Vector.cs
+    startLine: 31
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public int Dimension { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Dimension As Integer
+  overload: Engine.Core.Maths.Vector.Dimension*
+- uid: Engine.Core.Maths.Vector.LengthSquared
+  commentId: P:Engine.Core.Maths.Vector.LengthSquared
+  id: LengthSquared
+  parent: Engine.Core.Maths.Vector
+  langs:
+  - csharp
+  - vb
+  name: LengthSquared
+  nameWithType: Vector.LengthSquared
+  fullName: Engine.Core.Maths.Vector.LengthSquared
+  type: Property
+  source:
+    remote:
+      path: Engine.Core/Maths/Vector.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: LengthSquared
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Vector.cs
+    startLine: 32
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public float LengthSquared { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property LengthSquared As Single
+  overload: Engine.Core.Maths.Vector.LengthSquared*
+- uid: Engine.Core.Maths.Vector.Normalized
+  commentId: P:Engine.Core.Maths.Vector.Normalized
+  id: Normalized
+  parent: Engine.Core.Maths.Vector
+  langs:
+  - csharp
+  - vb
+  name: Normalized
+  nameWithType: Vector.Normalized
+  fullName: Engine.Core.Maths.Vector.Normalized
+  type: Property
+  source:
+    remote:
+      path: Engine.Core/Maths/Vector.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Normalized
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Vector.cs
+    startLine: 33
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public Vector Normalized { get; }
+    parameters: []
+    return:
+      type: Engine.Core.Maths.Vector
+    content.vb: Public ReadOnly Property Normalized As Vector
+  overload: Engine.Core.Maths.Vector.Normalized*
+- uid: Engine.Core.Maths.Vector.#ctor(System.Collections.Generic.List{System.Single})
+  commentId: M:Engine.Core.Maths.Vector.#ctor(System.Collections.Generic.List{System.Single})
+  id: '#ctor(System.Collections.Generic.List{System.Single})'
+  parent: Engine.Core.Maths.Vector
+  langs:
+  - csharp
+  - vb
+  name: Vector(List<float>)
+  nameWithType: Vector.Vector(List<float>)
+  fullName: Engine.Core.Maths.Vector.Vector(System.Collections.Generic.List<float>)
+  type: Constructor
+  source:
+    remote:
+      path: Engine.Core/Maths/Vector.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: .ctor
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Vector.cs
+    startLine: 35
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public Vector(List<float> values)
+    parameters:
+    - id: values
+      type: System.Collections.Generic.List{System.Single}
+    content.vb: Public Sub New(values As List(Of Single))
+  overload: Engine.Core.Maths.Vector.#ctor*
+  nameWithType.vb: Vector.New(List(Of Single))
+  fullName.vb: Engine.Core.Maths.Vector.New(System.Collections.Generic.List(Of Single))
+  name.vb: New(List(Of Single))
+- uid: Engine.Core.Maths.Vector.#ctor(System.Single[])
+  commentId: M:Engine.Core.Maths.Vector.#ctor(System.Single[])
+  id: '#ctor(System.Single[])'
+  parent: Engine.Core.Maths.Vector
+  langs:
+  - csharp
+  - vb
+  name: Vector(params float[])
+  nameWithType: Vector.Vector(params float[])
+  fullName: Engine.Core.Maths.Vector.Vector(params float[])
+  type: Constructor
+  source:
+    remote:
+      path: Engine.Core/Maths/Vector.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: .ctor
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Vector.cs
+    startLine: 39
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public Vector(params float[] values)
+    parameters:
+    - id: values
+      type: System.Single[]
+    content.vb: Public Sub New(ParamArray values As Single())
+  overload: Engine.Core.Maths.Vector.#ctor*
+  nameWithType.vb: Vector.New(ParamArray Single())
+  fullName.vb: Engine.Core.Maths.Vector.New(ParamArray Single())
+  name.vb: New(ParamArray Single())
+- uid: Engine.Core.Maths.Vector.#ctor(Engine.Core.Maths.Vector)
+  commentId: M:Engine.Core.Maths.Vector.#ctor(Engine.Core.Maths.Vector)
+  id: '#ctor(Engine.Core.Maths.Vector)'
+  parent: Engine.Core.Maths.Vector
+  langs:
+  - csharp
+  - vb
+  name: Vector(Vector)
+  nameWithType: Vector.Vector(Vector)
+  fullName: Engine.Core.Maths.Vector.Vector(Engine.Core.Maths.Vector)
+  type: Constructor
+  source:
+    remote:
+      path: Engine.Core/Maths/Vector.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: .ctor
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Vector.cs
+    startLine: 44
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public Vector(Vector v)
+    parameters:
+    - id: v
+      type: Engine.Core.Maths.Vector
+    content.vb: Public Sub New(v As Vector)
+  overload: Engine.Core.Maths.Vector.#ctor*
+  nameWithType.vb: Vector.New(Vector)
+  fullName.vb: Engine.Core.Maths.Vector.New(Engine.Core.Maths.Vector)
+  name.vb: New(Vector)
+- uid: Engine.Core.Maths.Vector.Normalize
+  commentId: M:Engine.Core.Maths.Vector.Normalize
+  id: Normalize
+  parent: Engine.Core.Maths.Vector
+  langs:
+  - csharp
+  - vb
+  name: Normalize()
+  nameWithType: Vector.Normalize()
+  fullName: Engine.Core.Maths.Vector.Normalize()
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Vector.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Normalize
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Vector.cs
+    startLine: 66
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public Vector Normalize()
+    return:
+      type: Engine.Core.Maths.Vector
+    content.vb: Public Function Normalize() As Vector
+  overload: Engine.Core.Maths.Vector.Normalize*
+- uid: Engine.Core.Maths.Vector.GetLength
+  commentId: M:Engine.Core.Maths.Vector.GetLength
+  id: GetLength
+  parent: Engine.Core.Maths.Vector
+  langs:
+  - csharp
+  - vb
+  name: GetLength()
+  nameWithType: Vector.GetLength()
+  fullName: Engine.Core.Maths.Vector.GetLength()
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Vector.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: GetLength
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Vector.cs
+    startLine: 89
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public float GetLength()
+    return:
+      type: System.Single
+    content.vb: Public Function GetLength() As Single
+  overload: Engine.Core.Maths.Vector.GetLength*
+- uid: Engine.Core.Maths.Vector.IsValidIndex(System.Int32)
+  commentId: M:Engine.Core.Maths.Vector.IsValidIndex(System.Int32)
+  id: IsValidIndex(System.Int32)
+  parent: Engine.Core.Maths.Vector
+  langs:
+  - csharp
+  - vb
+  name: IsValidIndex(int)
+  nameWithType: Vector.IsValidIndex(int)
+  fullName: Engine.Core.Maths.Vector.IsValidIndex(int)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Vector.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: IsValidIndex
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Vector.cs
+    startLine: 102
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  summary: Checks if the vector contains the given index.
+  example: []
+  syntax:
+    content: public bool IsValidIndex(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Function IsValidIndex(index As Integer) As Boolean
+  overload: Engine.Core.Maths.Vector.IsValidIndex*
+  nameWithType.vb: Vector.IsValidIndex(Integer)
+  fullName.vb: Engine.Core.Maths.Vector.IsValidIndex(Integer)
+  name.vb: IsValidIndex(Integer)
+- uid: Engine.Core.Maths.Vector.IsDimensionEqual(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)
+  commentId: M:Engine.Core.Maths.Vector.IsDimensionEqual(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)
+  id: IsDimensionEqual(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)
+  parent: Engine.Core.Maths.Vector
+  langs:
+  - csharp
+  - vb
+  name: IsDimensionEqual(Vector, Vector)
+  nameWithType: Vector.IsDimensionEqual(Vector, Vector)
+  fullName: Engine.Core.Maths.Vector.IsDimensionEqual(Engine.Core.Maths.Vector, Engine.Core.Maths.Vector)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Vector.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: IsDimensionEqual
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Vector.cs
+    startLine: 106
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public bool IsDimensionEqual(Vector a, Vector b)
+    parameters:
+    - id: a
+      type: Engine.Core.Maths.Vector
+    - id: b
+      type: Engine.Core.Maths.Vector
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsDimensionEqual(a As Vector, b As Vector) As Boolean
+  overload: Engine.Core.Maths.Vector.IsDimensionEqual*
+- uid: Engine.Core.Maths.Vector.IsZeroVector
+  commentId: M:Engine.Core.Maths.Vector.IsZeroVector
+  id: IsZeroVector
+  parent: Engine.Core.Maths.Vector
+  langs:
+  - csharp
+  - vb
+  name: IsZeroVector()
+  nameWithType: Vector.IsZeroVector()
+  fullName: Engine.Core.Maths.Vector.IsZeroVector()
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Vector.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: IsZeroVector
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Vector.cs
+    startLine: 107
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public bool IsZeroVector()
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsZeroVector() As Boolean
+  overload: Engine.Core.Maths.Vector.IsZeroVector*
+- uid: Engine.Core.Maths.Vector.SetValue(System.Single,System.Int32)
+  commentId: M:Engine.Core.Maths.Vector.SetValue(System.Single,System.Int32)
+  id: SetValue(System.Single,System.Int32)
+  parent: Engine.Core.Maths.Vector
+  langs:
+  - csharp
+  - vb
+  name: SetValue(float, int)
+  nameWithType: Vector.SetValue(float, int)
+  fullName: Engine.Core.Maths.Vector.SetValue(float, int)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Vector.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: SetValue
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Vector.cs
+    startLine: 113
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public void SetValue(float value, int index)
+    parameters:
+    - id: value
+      type: System.Single
+    - id: index
+      type: System.Int32
+    content.vb: Public Sub SetValue(value As Single, index As Integer)
+  overload: Engine.Core.Maths.Vector.SetValue*
+  nameWithType.vb: Vector.SetValue(Single, Integer)
+  fullName.vb: Engine.Core.Maths.Vector.SetValue(Single, Integer)
+  name.vb: SetValue(Single, Integer)
+- uid: Engine.Core.Maths.Vector.GetValue(System.Int32)
+  commentId: M:Engine.Core.Maths.Vector.GetValue(System.Int32)
+  id: GetValue(System.Int32)
+  parent: Engine.Core.Maths.Vector
+  langs:
+  - csharp
+  - vb
+  name: GetValue(int)
+  nameWithType: Vector.GetValue(int)
+  fullName: Engine.Core.Maths.Vector.GetValue(int)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Vector.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: GetValue
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Vector.cs
+    startLine: 121
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public float GetValue(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Single
+    content.vb: Public Function GetValue(index As Integer) As Single
+  overload: Engine.Core.Maths.Vector.GetValue*
+  nameWithType.vb: Vector.GetValue(Integer)
+  fullName.vb: Engine.Core.Maths.Vector.GetValue(Integer)
+  name.vb: GetValue(Integer)
+- uid: Engine.Core.Maths.Vector.AddValue(System.Single)
+  commentId: M:Engine.Core.Maths.Vector.AddValue(System.Single)
+  id: AddValue(System.Single)
+  parent: Engine.Core.Maths.Vector
+  langs:
+  - csharp
+  - vb
+  name: AddValue(float)
+  nameWithType: Vector.AddValue(float)
+  fullName: Engine.Core.Maths.Vector.AddValue(float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Vector.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: AddValue
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Vector.cs
+    startLine: 133
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  summary: Adds a dimension to the vector and adds the given value.
+  example: []
+  syntax:
+    content: public void AddValue(float value)
+    parameters:
+    - id: value
+      type: System.Single
+      description: ''
+    content.vb: Public Sub AddValue(value As Single)
+  overload: Engine.Core.Maths.Vector.AddValue*
+  nameWithType.vb: Vector.AddValue(Single)
+  fullName.vb: Engine.Core.Maths.Vector.AddValue(Single)
+  name.vb: AddValue(Single)
+- uid: Engine.Core.Maths.Vector.DotProduct(Engine.Core.Maths.Vector)
+  commentId: M:Engine.Core.Maths.Vector.DotProduct(Engine.Core.Maths.Vector)
+  id: DotProduct(Engine.Core.Maths.Vector)
+  parent: Engine.Core.Maths.Vector
+  langs:
+  - csharp
+  - vb
+  name: DotProduct(Vector)
+  nameWithType: Vector.DotProduct(Vector)
+  fullName: Engine.Core.Maths.Vector.DotProduct(Engine.Core.Maths.Vector)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Vector.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: DotProduct
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Vector.cs
+    startLine: 140
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public float DotProduct(Vector vector)
+    parameters:
+    - id: vector
+      type: Engine.Core.Maths.Vector
+    return:
+      type: System.Single
+    content.vb: Public Function DotProduct(vector As Vector) As Single
+  overload: Engine.Core.Maths.Vector.DotProduct*
+- uid: Engine.Core.Maths.Vector.ScalarProduct(System.Single)
+  commentId: M:Engine.Core.Maths.Vector.ScalarProduct(System.Single)
+  id: ScalarProduct(System.Single)
+  parent: Engine.Core.Maths.Vector
+  langs:
+  - csharp
+  - vb
+  name: ScalarProduct(float)
+  nameWithType: Vector.ScalarProduct(float)
+  fullName: Engine.Core.Maths.Vector.ScalarProduct(float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Vector.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: ScalarProduct
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Vector.cs
+    startLine: 153
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public Vector ScalarProduct(float scalar)
+    parameters:
+    - id: scalar
+      type: System.Single
+    return:
+      type: Engine.Core.Maths.Vector
+    content.vb: Public Function ScalarProduct(scalar As Single) As Vector
+  overload: Engine.Core.Maths.Vector.ScalarProduct*
+  nameWithType.vb: Vector.ScalarProduct(Single)
+  fullName.vb: Engine.Core.Maths.Vector.ScalarProduct(Single)
+  name.vb: ScalarProduct(Single)
+- uid: Engine.Core.Maths.Vector.CrossProduct(Engine.Core.Maths.Vector)
+  commentId: M:Engine.Core.Maths.Vector.CrossProduct(Engine.Core.Maths.Vector)
+  id: CrossProduct(Engine.Core.Maths.Vector)
+  parent: Engine.Core.Maths.Vector
+  langs:
+  - csharp
+  - vb
+  name: CrossProduct(Vector)
+  nameWithType: Vector.CrossProduct(Vector)
+  fullName: Engine.Core.Maths.Vector.CrossProduct(Engine.Core.Maths.Vector)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Vector.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: CrossProduct
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Vector.cs
+    startLine: 162
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public Vector CrossProduct(Vector b)
+    parameters:
+    - id: b
+      type: Engine.Core.Maths.Vector
+    return:
+      type: Engine.Core.Maths.Vector
+    content.vb: Public Function CrossProduct(b As Vector) As Vector
+  overload: Engine.Core.Maths.Vector.CrossProduct*
+- uid: Engine.Core.Maths.Vector.Addition(Engine.Core.Maths.Vector)
+  commentId: M:Engine.Core.Maths.Vector.Addition(Engine.Core.Maths.Vector)
+  id: Addition(Engine.Core.Maths.Vector)
+  parent: Engine.Core.Maths.Vector
+  langs:
+  - csharp
+  - vb
+  name: Addition(Vector)
+  nameWithType: Vector.Addition(Vector)
+  fullName: Engine.Core.Maths.Vector.Addition(Engine.Core.Maths.Vector)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Vector.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Addition
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Vector.cs
+    startLine: 190
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public Vector Addition(Vector vector)
+    parameters:
+    - id: vector
+      type: Engine.Core.Maths.Vector
+    return:
+      type: Engine.Core.Maths.Vector
+    content.vb: Public Function Addition(vector As Vector) As Vector
+  overload: Engine.Core.Maths.Vector.Addition*
+- uid: Engine.Core.Maths.Vector.Substraction(Engine.Core.Maths.Vector)
+  commentId: M:Engine.Core.Maths.Vector.Substraction(Engine.Core.Maths.Vector)
+  id: Substraction(Engine.Core.Maths.Vector)
+  parent: Engine.Core.Maths.Vector
+  langs:
+  - csharp
+  - vb
+  name: Substraction(Vector)
+  nameWithType: Vector.Substraction(Vector)
+  fullName: Engine.Core.Maths.Vector.Substraction(Engine.Core.Maths.Vector)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Vector.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Substraction
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Vector.cs
+    startLine: 203
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public Vector Substraction(Vector vector)
+    parameters:
+    - id: vector
+      type: Engine.Core.Maths.Vector
+    return:
+      type: Engine.Core.Maths.Vector
+    content.vb: Public Function Substraction(vector As Vector) As Vector
+  overload: Engine.Core.Maths.Vector.Substraction*
+- uid: Engine.Core.Maths.Vector.Division(System.Single)
+  commentId: M:Engine.Core.Maths.Vector.Division(System.Single)
+  id: Division(System.Single)
+  parent: Engine.Core.Maths.Vector
+  langs:
+  - csharp
+  - vb
+  name: Division(float)
+  nameWithType: Vector.Division(float)
+  fullName: Engine.Core.Maths.Vector.Division(float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Vector.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Division
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Vector.cs
+    startLine: 216
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public Vector Division(float scalar)
+    parameters:
+    - id: scalar
+      type: System.Single
+    return:
+      type: Engine.Core.Maths.Vector
+    content.vb: Public Function Division(scalar As Single) As Vector
+  overload: Engine.Core.Maths.Vector.Division*
+  nameWithType.vb: Vector.Division(Single)
+  fullName.vb: Engine.Core.Maths.Vector.Division(Single)
+  name.vb: Division(Single)
+- uid: Engine.Core.Maths.Vector.Dot(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)
+  commentId: M:Engine.Core.Maths.Vector.Dot(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)
+  id: Dot(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)
+  parent: Engine.Core.Maths.Vector
+  langs:
+  - csharp
+  - vb
+  name: Dot(Vector, Vector)
+  nameWithType: Vector.Dot(Vector, Vector)
+  fullName: Engine.Core.Maths.Vector.Dot(Engine.Core.Maths.Vector, Engine.Core.Maths.Vector)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Vector.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Dot
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Vector.cs
+    startLine: 226
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Dot(Vector a, Vector b)
+    parameters:
+    - id: a
+      type: Engine.Core.Maths.Vector
+    - id: b
+      type: Engine.Core.Maths.Vector
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Dot(a As Vector, b As Vector) As Single
+  overload: Engine.Core.Maths.Vector.Dot*
+- uid: Engine.Core.Maths.Vector.Cross(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)
+  commentId: M:Engine.Core.Maths.Vector.Cross(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)
+  id: Cross(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)
+  parent: Engine.Core.Maths.Vector
+  langs:
+  - csharp
+  - vb
+  name: Cross(Vector, Vector)
+  nameWithType: Vector.Cross(Vector, Vector)
+  fullName: Engine.Core.Maths.Vector.Cross(Engine.Core.Maths.Vector, Engine.Core.Maths.Vector)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Vector.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Cross
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Vector.cs
+    startLine: 230
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static Vector Cross(Vector a, Vector b)
+    parameters:
+    - id: a
+      type: Engine.Core.Maths.Vector
+    - id: b
+      type: Engine.Core.Maths.Vector
+    return:
+      type: Engine.Core.Maths.Vector
+    content.vb: Public Shared Function Cross(a As Vector, b As Vector) As Vector
+  overload: Engine.Core.Maths.Vector.Cross*
+- uid: Engine.Core.Maths.Vector.Scalar(Engine.Core.Maths.Vector,System.Single)
+  commentId: M:Engine.Core.Maths.Vector.Scalar(Engine.Core.Maths.Vector,System.Single)
+  id: Scalar(Engine.Core.Maths.Vector,System.Single)
+  parent: Engine.Core.Maths.Vector
+  langs:
+  - csharp
+  - vb
+  name: Scalar(Vector, float)
+  nameWithType: Vector.Scalar(Vector, float)
+  fullName: Engine.Core.Maths.Vector.Scalar(Engine.Core.Maths.Vector, float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Vector.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Scalar
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Vector.cs
+    startLine: 234
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static Vector Scalar(Vector a, float f)
+    parameters:
+    - id: a
+      type: Engine.Core.Maths.Vector
+    - id: f
+      type: System.Single
+    return:
+      type: Engine.Core.Maths.Vector
+    content.vb: Public Shared Function Scalar(a As Vector, f As Single) As Vector
+  overload: Engine.Core.Maths.Vector.Scalar*
+  nameWithType.vb: Vector.Scalar(Vector, Single)
+  fullName.vb: Engine.Core.Maths.Vector.Scalar(Engine.Core.Maths.Vector, Single)
+  name.vb: Scalar(Vector, Single)
+- uid: Engine.Core.Maths.Vector.Addition(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)
+  commentId: M:Engine.Core.Maths.Vector.Addition(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)
+  id: Addition(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)
+  parent: Engine.Core.Maths.Vector
+  langs:
+  - csharp
+  - vb
+  name: Addition(Vector, Vector)
+  nameWithType: Vector.Addition(Vector, Vector)
+  fullName: Engine.Core.Maths.Vector.Addition(Engine.Core.Maths.Vector, Engine.Core.Maths.Vector)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Vector.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Addition
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Vector.cs
+    startLine: 238
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static Vector Addition(Vector a, Vector b)
+    parameters:
+    - id: a
+      type: Engine.Core.Maths.Vector
+    - id: b
+      type: Engine.Core.Maths.Vector
+    return:
+      type: Engine.Core.Maths.Vector
+    content.vb: Public Shared Function Addition(a As Vector, b As Vector) As Vector
+  overload: Engine.Core.Maths.Vector.Addition*
+- uid: Engine.Core.Maths.Vector.Substraction(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)
+  commentId: M:Engine.Core.Maths.Vector.Substraction(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)
+  id: Substraction(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)
+  parent: Engine.Core.Maths.Vector
+  langs:
+  - csharp
+  - vb
+  name: Substraction(Vector, Vector)
+  nameWithType: Vector.Substraction(Vector, Vector)
+  fullName: Engine.Core.Maths.Vector.Substraction(Engine.Core.Maths.Vector, Engine.Core.Maths.Vector)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Vector.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Substraction
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Vector.cs
+    startLine: 242
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static Vector Substraction(Vector a, Vector b)
+    parameters:
+    - id: a
+      type: Engine.Core.Maths.Vector
+    - id: b
+      type: Engine.Core.Maths.Vector
+    return:
+      type: Engine.Core.Maths.Vector
+    content.vb: Public Shared Function Substraction(a As Vector, b As Vector) As Vector
+  overload: Engine.Core.Maths.Vector.Substraction*
+- uid: Engine.Core.Maths.Vector.Division(Engine.Core.Maths.Vector,System.Single)
+  commentId: M:Engine.Core.Maths.Vector.Division(Engine.Core.Maths.Vector,System.Single)
+  id: Division(Engine.Core.Maths.Vector,System.Single)
+  parent: Engine.Core.Maths.Vector
+  langs:
+  - csharp
+  - vb
+  name: Division(Vector, float)
+  nameWithType: Vector.Division(Vector, float)
+  fullName: Engine.Core.Maths.Vector.Division(Engine.Core.Maths.Vector, float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Vector.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Division
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Vector.cs
+    startLine: 246
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static Vector Division(Vector a, float f)
+    parameters:
+    - id: a
+      type: Engine.Core.Maths.Vector
+    - id: f
+      type: System.Single
+    return:
+      type: Engine.Core.Maths.Vector
+    content.vb: Public Shared Function Division(a As Vector, f As Single) As Vector
+  overload: Engine.Core.Maths.Vector.Division*
+  nameWithType.vb: Vector.Division(Vector, Single)
+  fullName.vb: Engine.Core.Maths.Vector.Division(Engine.Core.Maths.Vector, Single)
+  name.vb: Division(Vector, Single)
+- uid: Engine.Core.Maths.Vector.op_Addition(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)
+  commentId: M:Engine.Core.Maths.Vector.op_Addition(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)
+  id: op_Addition(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)
+  parent: Engine.Core.Maths.Vector
+  langs:
+  - csharp
+  - vb
+  name: operator +(Vector, Vector)
+  nameWithType: Vector.operator +(Vector, Vector)
+  fullName: Engine.Core.Maths.Vector.operator +(Engine.Core.Maths.Vector, Engine.Core.Maths.Vector)
+  type: Operator
+  source:
+    remote:
+      path: Engine.Core/Maths/Vector.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: op_Addition
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Vector.cs
+    startLine: 251
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static Vector operator +(Vector v1, Vector v2)
+    parameters:
+    - id: v1
+      type: Engine.Core.Maths.Vector
+    - id: v2
+      type: Engine.Core.Maths.Vector
+    return:
+      type: Engine.Core.Maths.Vector
+    content.vb: Public Shared Operator +(v1 As Vector, v2 As Vector) As Vector
+  overload: Engine.Core.Maths.Vector.op_Addition*
+  nameWithType.vb: Vector.+(Vector, Vector)
+  fullName.vb: Engine.Core.Maths.Vector.+(Engine.Core.Maths.Vector, Engine.Core.Maths.Vector)
+  name.vb: +(Vector, Vector)
+- uid: Engine.Core.Maths.Vector.op_Subtraction(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)
+  commentId: M:Engine.Core.Maths.Vector.op_Subtraction(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)
+  id: op_Subtraction(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)
+  parent: Engine.Core.Maths.Vector
+  langs:
+  - csharp
+  - vb
+  name: operator -(Vector, Vector)
+  nameWithType: Vector.operator -(Vector, Vector)
+  fullName: Engine.Core.Maths.Vector.operator -(Engine.Core.Maths.Vector, Engine.Core.Maths.Vector)
+  type: Operator
+  source:
+    remote:
+      path: Engine.Core/Maths/Vector.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: op_Subtraction
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Vector.cs
+    startLine: 255
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static Vector operator -(Vector v1, Vector v2)
+    parameters:
+    - id: v1
+      type: Engine.Core.Maths.Vector
+    - id: v2
+      type: Engine.Core.Maths.Vector
+    return:
+      type: Engine.Core.Maths.Vector
+    content.vb: Public Shared Operator -(v1 As Vector, v2 As Vector) As Vector
+  overload: Engine.Core.Maths.Vector.op_Subtraction*
+  nameWithType.vb: Vector.-(Vector, Vector)
+  fullName.vb: Engine.Core.Maths.Vector.-(Engine.Core.Maths.Vector, Engine.Core.Maths.Vector)
+  name.vb: -(Vector, Vector)
+- uid: Engine.Core.Maths.Vector.op_Multiply(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)
+  commentId: M:Engine.Core.Maths.Vector.op_Multiply(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)
+  id: op_Multiply(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)
+  parent: Engine.Core.Maths.Vector
+  langs:
+  - csharp
+  - vb
+  name: operator *(Vector, Vector)
+  nameWithType: Vector.operator *(Vector, Vector)
+  fullName: Engine.Core.Maths.Vector.operator *(Engine.Core.Maths.Vector, Engine.Core.Maths.Vector)
+  type: Operator
+  source:
+    remote:
+      path: Engine.Core/Maths/Vector.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: op_Multiply
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Vector.cs
+    startLine: 259
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float operator *(Vector v1, Vector v2)
+    parameters:
+    - id: v1
+      type: Engine.Core.Maths.Vector
+    - id: v2
+      type: Engine.Core.Maths.Vector
+    return:
+      type: System.Single
+    content.vb: Public Shared Operator *(v1 As Vector, v2 As Vector) As Single
+  overload: Engine.Core.Maths.Vector.op_Multiply*
+  nameWithType.vb: Vector.*(Vector, Vector)
+  fullName.vb: Engine.Core.Maths.Vector.*(Engine.Core.Maths.Vector, Engine.Core.Maths.Vector)
+  name.vb: '*(Vector, Vector)'
+- uid: Engine.Core.Maths.Vector.op_Multiply(Engine.Core.Maths.Vector,System.Single)
+  commentId: M:Engine.Core.Maths.Vector.op_Multiply(Engine.Core.Maths.Vector,System.Single)
+  id: op_Multiply(Engine.Core.Maths.Vector,System.Single)
+  parent: Engine.Core.Maths.Vector
+  langs:
+  - csharp
+  - vb
+  name: operator *(Vector, float)
+  nameWithType: Vector.operator *(Vector, float)
+  fullName: Engine.Core.Maths.Vector.operator *(Engine.Core.Maths.Vector, float)
+  type: Operator
+  source:
+    remote:
+      path: Engine.Core/Maths/Vector.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: op_Multiply
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Vector.cs
+    startLine: 263
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static Vector operator *(Vector v1, float f)
+    parameters:
+    - id: v1
+      type: Engine.Core.Maths.Vector
+    - id: f
+      type: System.Single
+    return:
+      type: Engine.Core.Maths.Vector
+    content.vb: Public Shared Operator *(v1 As Vector, f As Single) As Vector
+  overload: Engine.Core.Maths.Vector.op_Multiply*
+  nameWithType.vb: Vector.*(Vector, Single)
+  fullName.vb: Engine.Core.Maths.Vector.*(Engine.Core.Maths.Vector, Single)
+  name.vb: '*(Vector, Single)'
+- uid: Engine.Core.Maths.Vector.op_Multiply(System.Single,Engine.Core.Maths.Vector)
+  commentId: M:Engine.Core.Maths.Vector.op_Multiply(System.Single,Engine.Core.Maths.Vector)
+  id: op_Multiply(System.Single,Engine.Core.Maths.Vector)
+  parent: Engine.Core.Maths.Vector
+  langs:
+  - csharp
+  - vb
+  name: operator *(float, Vector)
+  nameWithType: Vector.operator *(float, Vector)
+  fullName: Engine.Core.Maths.Vector.operator *(float, Engine.Core.Maths.Vector)
+  type: Operator
+  source:
+    remote:
+      path: Engine.Core/Maths/Vector.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: op_Multiply
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Vector.cs
+    startLine: 267
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static Vector operator *(float f, Vector v1)
+    parameters:
+    - id: f
+      type: System.Single
+    - id: v1
+      type: Engine.Core.Maths.Vector
+    return:
+      type: Engine.Core.Maths.Vector
+    content.vb: Public Shared Operator *(f As Single, v1 As Vector) As Vector
+  overload: Engine.Core.Maths.Vector.op_Multiply*
+  nameWithType.vb: Vector.*(Single, Vector)
+  fullName.vb: Engine.Core.Maths.Vector.*(Single, Engine.Core.Maths.Vector)
+  name.vb: '*(Single, Vector)'
+- uid: Engine.Core.Maths.Vector.op_Division(Engine.Core.Maths.Vector,System.Single)
+  commentId: M:Engine.Core.Maths.Vector.op_Division(Engine.Core.Maths.Vector,System.Single)
+  id: op_Division(Engine.Core.Maths.Vector,System.Single)
+  parent: Engine.Core.Maths.Vector
+  langs:
+  - csharp
+  - vb
+  name: operator /(Vector, float)
+  nameWithType: Vector.operator /(Vector, float)
+  fullName: Engine.Core.Maths.Vector.operator /(Engine.Core.Maths.Vector, float)
+  type: Operator
+  source:
+    remote:
+      path: Engine.Core/Maths/Vector.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: op_Division
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Vector.cs
+    startLine: 271
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static Vector operator /(Vector v1, float f)
+    parameters:
+    - id: v1
+      type: Engine.Core.Maths.Vector
+    - id: f
+      type: System.Single
+    return:
+      type: Engine.Core.Maths.Vector
+    content.vb: Public Shared Operator /(v1 As Vector, f As Single) As Vector
+  overload: Engine.Core.Maths.Vector.op_Division*
+  nameWithType.vb: Vector./(Vector, Single)
+  fullName.vb: Engine.Core.Maths.Vector./(Engine.Core.Maths.Vector, Single)
+  name.vb: /(Vector, Single)
+- uid: Engine.Core.Maths.Vector.ToMatrix(Engine.Core.Maths.Vector,System.Boolean)
+  commentId: M:Engine.Core.Maths.Vector.ToMatrix(Engine.Core.Maths.Vector,System.Boolean)
+  id: ToMatrix(Engine.Core.Maths.Vector,System.Boolean)
+  parent: Engine.Core.Maths.Vector
+  langs:
+  - csharp
+  - vb
+  name: ToMatrix(Vector, bool)
+  nameWithType: Vector.ToMatrix(Vector, bool)
+  fullName: Engine.Core.Maths.Vector.ToMatrix(Engine.Core.Maths.Vector, bool)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Vector.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: ToMatrix
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Vector.cs
+    startLine: 280
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  summary: >-
+    Turns the vector into single-row matrix, as long as <code class="paramref">isColumn</code> is false.
+
+    Otherwise it turns the vector into a single-column matrix
+  example: []
+  syntax:
+    content: public static MatrixMxN ToMatrix(Vector v, bool isColumn = false)
+    parameters:
+    - id: v
+      type: Engine.Core.Maths.Vector
+      description: ''
+    - id: isColumn
+      type: System.Boolean
+    return:
+      type: Engine.Core.Maths.MatrixMxN
+    content.vb: Public Shared Function ToMatrix(v As Vector, isColumn As Boolean = False) As MatrixMxN
+  overload: Engine.Core.Maths.Vector.ToMatrix*
+  nameWithType.vb: Vector.ToMatrix(Vector, Boolean)
+  fullName.vb: Engine.Core.Maths.Vector.ToMatrix(Engine.Core.Maths.Vector, Boolean)
+  name.vb: ToMatrix(Vector, Boolean)
+- uid: Engine.Core.Maths.Vector.GetEnumerator
+  commentId: M:Engine.Core.Maths.Vector.GetEnumerator
+  id: GetEnumerator
+  parent: Engine.Core.Maths.Vector
+  langs:
+  - csharp
+  - vb
+  name: GetEnumerator()
+  nameWithType: Vector.GetEnumerator()
+  fullName: Engine.Core.Maths.Vector.GetEnumerator()
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Vector.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: GetEnumerator
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Vector.cs
+    startLine: 301
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  example: []
+  syntax:
+    content: public IEnumerator<float> GetEnumerator()
+    return:
+      type: System.Collections.Generic.IEnumerator{System.Single}
+    content.vb: Public Function GetEnumerator() As IEnumerator(Of Single)
+  overload: Engine.Core.Maths.Vector.GetEnumerator*
+  implements:
+  - System.Collections.Generic.IEnumerable{System.Single}.GetEnumerator
+references:
+- uid: Engine.Core.Maths
+  commentId: N:Engine.Core.Maths
+  href: Engine.html
+  name: Engine.Core.Maths
+  nameWithType: Engine.Core.Maths
+  fullName: Engine.Core.Maths
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Collections.Generic.IEnumerable{System.Single}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Single}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<float>
+  nameWithType: IEnumerable<float>
+  fullName: System.Collections.Generic.IEnumerable<float>
+  nameWithType.vb: IEnumerable(Of Single)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Single)
+  name.vb: IEnumerable(Of Single)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+- uid: Engine.Core.Maths.Vector.Item*
+  commentId: Overload:Engine.Core.Maths.Vector.Item
+  href: Engine.Core.Maths.Vector.html#Engine_Core_Maths_Vector_Item_System_Int32_
+  name: this
+  nameWithType: Vector.this
+  fullName: Engine.Core.Maths.Vector.this
+  nameWithType.vb: Vector.this[]
+  fullName.vb: Engine.Core.Maths.Vector.this[]
+  name.vb: this[]
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Engine.Core.Maths.Vector.Length*
+  commentId: Overload:Engine.Core.Maths.Vector.Length
+  href: Engine.Core.Maths.Vector.html#Engine_Core_Maths_Vector_Length
+  name: Length
+  nameWithType: Vector.Length
+  fullName: Engine.Core.Maths.Vector.Length
+- uid: Engine.Core.Maths.Vector.Dimension*
+  commentId: Overload:Engine.Core.Maths.Vector.Dimension
+  href: Engine.Core.Maths.Vector.html#Engine_Core_Maths_Vector_Dimension
+  name: Dimension
+  nameWithType: Vector.Dimension
+  fullName: Engine.Core.Maths.Vector.Dimension
+- uid: Engine.Core.Maths.Vector.LengthSquared*
+  commentId: Overload:Engine.Core.Maths.Vector.LengthSquared
+  href: Engine.Core.Maths.Vector.html#Engine_Core_Maths_Vector_LengthSquared
+  name: LengthSquared
+  nameWithType: Vector.LengthSquared
+  fullName: Engine.Core.Maths.Vector.LengthSquared
+- uid: Engine.Core.Maths.Vector.Normalized*
+  commentId: Overload:Engine.Core.Maths.Vector.Normalized
+  href: Engine.Core.Maths.Vector.html#Engine_Core_Maths_Vector_Normalized
+  name: Normalized
+  nameWithType: Vector.Normalized
+  fullName: Engine.Core.Maths.Vector.Normalized
+- uid: Engine.Core.Maths.Vector
+  commentId: T:Engine.Core.Maths.Vector
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.Vector.html
+  name: Vector
+  nameWithType: Vector
+  fullName: Engine.Core.Maths.Vector
+- uid: Engine.Core.Maths.Vector.#ctor*
+  commentId: Overload:Engine.Core.Maths.Vector.#ctor
+  href: Engine.Core.Maths.Vector.html#Engine_Core_Maths_Vector__ctor_System_Collections_Generic_List_System_Single__
+  name: Vector
+  nameWithType: Vector.Vector
+  fullName: Engine.Core.Maths.Vector.Vector
+  nameWithType.vb: Vector.New
+  fullName.vb: Engine.Core.Maths.Vector.New
+  name.vb: New
+- uid: System.Collections.Generic.List{System.Single}
+  commentId: T:System.Collections.Generic.List{System.Single}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<float>
+  nameWithType: List<float>
+  fullName: System.Collections.Generic.List<float>
+  nameWithType.vb: List(Of Single)
+  fullName.vb: System.Collections.Generic.List(Of Single)
+  name.vb: List(Of Single)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Single[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float[]
+  nameWithType: float[]
+  fullName: float[]
+  nameWithType.vb: Single()
+  fullName.vb: Single()
+  name.vb: Single()
+  spec.csharp:
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: (
+  - name: )
+- uid: Engine.Core.Maths.Vector.Normalize*
+  commentId: Overload:Engine.Core.Maths.Vector.Normalize
+  href: Engine.Core.Maths.Vector.html#Engine_Core_Maths_Vector_Normalize
+  name: Normalize
+  nameWithType: Vector.Normalize
+  fullName: Engine.Core.Maths.Vector.Normalize
+- uid: Engine.Core.Maths.Vector.GetLength*
+  commentId: Overload:Engine.Core.Maths.Vector.GetLength
+  href: Engine.Core.Maths.Vector.html#Engine_Core_Maths_Vector_GetLength
+  name: GetLength
+  nameWithType: Vector.GetLength
+  fullName: Engine.Core.Maths.Vector.GetLength
+- uid: Engine.Core.Maths.Vector.IsValidIndex*
+  commentId: Overload:Engine.Core.Maths.Vector.IsValidIndex
+  href: Engine.Core.Maths.Vector.html#Engine_Core_Maths_Vector_IsValidIndex_System_Int32_
+  name: IsValidIndex
+  nameWithType: Vector.IsValidIndex
+  fullName: Engine.Core.Maths.Vector.IsValidIndex
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Engine.Core.Maths.Vector.IsDimensionEqual*
+  commentId: Overload:Engine.Core.Maths.Vector.IsDimensionEqual
+  href: Engine.Core.Maths.Vector.html#Engine_Core_Maths_Vector_IsDimensionEqual_Engine_Core_Maths_Vector_Engine_Core_Maths_Vector_
+  name: IsDimensionEqual
+  nameWithType: Vector.IsDimensionEqual
+  fullName: Engine.Core.Maths.Vector.IsDimensionEqual
+- uid: Engine.Core.Maths.Vector.IsZeroVector*
+  commentId: Overload:Engine.Core.Maths.Vector.IsZeroVector
+  href: Engine.Core.Maths.Vector.html#Engine_Core_Maths_Vector_IsZeroVector
+  name: IsZeroVector
+  nameWithType: Vector.IsZeroVector
+  fullName: Engine.Core.Maths.Vector.IsZeroVector
+- uid: Engine.Core.Maths.Vector.SetValue*
+  commentId: Overload:Engine.Core.Maths.Vector.SetValue
+  href: Engine.Core.Maths.Vector.html#Engine_Core_Maths_Vector_SetValue_System_Single_System_Int32_
+  name: SetValue
+  nameWithType: Vector.SetValue
+  fullName: Engine.Core.Maths.Vector.SetValue
+- uid: Engine.Core.Maths.Vector.GetValue*
+  commentId: Overload:Engine.Core.Maths.Vector.GetValue
+  href: Engine.Core.Maths.Vector.html#Engine_Core_Maths_Vector_GetValue_System_Int32_
+  name: GetValue
+  nameWithType: Vector.GetValue
+  fullName: Engine.Core.Maths.Vector.GetValue
+- uid: Engine.Core.Maths.Vector.AddValue*
+  commentId: Overload:Engine.Core.Maths.Vector.AddValue
+  href: Engine.Core.Maths.Vector.html#Engine_Core_Maths_Vector_AddValue_System_Single_
+  name: AddValue
+  nameWithType: Vector.AddValue
+  fullName: Engine.Core.Maths.Vector.AddValue
+- uid: Engine.Core.Maths.Vector.DotProduct*
+  commentId: Overload:Engine.Core.Maths.Vector.DotProduct
+  href: Engine.Core.Maths.Vector.html#Engine_Core_Maths_Vector_DotProduct_Engine_Core_Maths_Vector_
+  name: DotProduct
+  nameWithType: Vector.DotProduct
+  fullName: Engine.Core.Maths.Vector.DotProduct
+- uid: Engine.Core.Maths.Vector.ScalarProduct*
+  commentId: Overload:Engine.Core.Maths.Vector.ScalarProduct
+  href: Engine.Core.Maths.Vector.html#Engine_Core_Maths_Vector_ScalarProduct_System_Single_
+  name: ScalarProduct
+  nameWithType: Vector.ScalarProduct
+  fullName: Engine.Core.Maths.Vector.ScalarProduct
+- uid: Engine.Core.Maths.Vector.CrossProduct*
+  commentId: Overload:Engine.Core.Maths.Vector.CrossProduct
+  href: Engine.Core.Maths.Vector.html#Engine_Core_Maths_Vector_CrossProduct_Engine_Core_Maths_Vector_
+  name: CrossProduct
+  nameWithType: Vector.CrossProduct
+  fullName: Engine.Core.Maths.Vector.CrossProduct
+- uid: Engine.Core.Maths.Vector.Addition*
+  commentId: Overload:Engine.Core.Maths.Vector.Addition
+  href: Engine.Core.Maths.Vector.html#Engine_Core_Maths_Vector_Addition_Engine_Core_Maths_Vector_
+  name: Addition
+  nameWithType: Vector.Addition
+  fullName: Engine.Core.Maths.Vector.Addition
+- uid: Engine.Core.Maths.Vector.Substraction*
+  commentId: Overload:Engine.Core.Maths.Vector.Substraction
+  href: Engine.Core.Maths.Vector.html#Engine_Core_Maths_Vector_Substraction_Engine_Core_Maths_Vector_
+  name: Substraction
+  nameWithType: Vector.Substraction
+  fullName: Engine.Core.Maths.Vector.Substraction
+- uid: Engine.Core.Maths.Vector.Division*
+  commentId: Overload:Engine.Core.Maths.Vector.Division
+  href: Engine.Core.Maths.Vector.html#Engine_Core_Maths_Vector_Division_System_Single_
+  name: Division
+  nameWithType: Vector.Division
+  fullName: Engine.Core.Maths.Vector.Division
+- uid: Engine.Core.Maths.Vector.Dot*
+  commentId: Overload:Engine.Core.Maths.Vector.Dot
+  href: Engine.Core.Maths.Vector.html#Engine_Core_Maths_Vector_Dot_Engine_Core_Maths_Vector_Engine_Core_Maths_Vector_
+  name: Dot
+  nameWithType: Vector.Dot
+  fullName: Engine.Core.Maths.Vector.Dot
+- uid: Engine.Core.Maths.Vector.Cross*
+  commentId: Overload:Engine.Core.Maths.Vector.Cross
+  href: Engine.Core.Maths.Vector.html#Engine_Core_Maths_Vector_Cross_Engine_Core_Maths_Vector_Engine_Core_Maths_Vector_
+  name: Cross
+  nameWithType: Vector.Cross
+  fullName: Engine.Core.Maths.Vector.Cross
+- uid: Engine.Core.Maths.Vector.Scalar*
+  commentId: Overload:Engine.Core.Maths.Vector.Scalar
+  href: Engine.Core.Maths.Vector.html#Engine_Core_Maths_Vector_Scalar_Engine_Core_Maths_Vector_System_Single_
+  name: Scalar
+  nameWithType: Vector.Scalar
+  fullName: Engine.Core.Maths.Vector.Scalar
+- uid: Engine.Core.Maths.Vector.op_Addition*
+  commentId: Overload:Engine.Core.Maths.Vector.op_Addition
+  href: Engine.Core.Maths.Vector.html#Engine_Core_Maths_Vector_op_Addition_Engine_Core_Maths_Vector_Engine_Core_Maths_Vector_
+  name: operator +
+  nameWithType: Vector.operator +
+  fullName: Engine.Core.Maths.Vector.operator +
+  nameWithType.vb: Vector.+
+  fullName.vb: Engine.Core.Maths.Vector.+
+  name.vb: +
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Engine.Core.Maths.Vector.op_Addition*
+    name: +
+    href: Engine.Core.Maths.Vector.html#Engine_Core_Maths_Vector_op_Addition_Engine_Core_Maths_Vector_Engine_Core_Maths_Vector_
+- uid: Engine.Core.Maths.Vector.op_Subtraction*
+  commentId: Overload:Engine.Core.Maths.Vector.op_Subtraction
+  href: Engine.Core.Maths.Vector.html#Engine_Core_Maths_Vector_op_Subtraction_Engine_Core_Maths_Vector_Engine_Core_Maths_Vector_
+  name: operator -
+  nameWithType: Vector.operator -
+  fullName: Engine.Core.Maths.Vector.operator -
+  nameWithType.vb: Vector.-
+  fullName.vb: Engine.Core.Maths.Vector.-
+  name.vb: '-'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Engine.Core.Maths.Vector.op_Subtraction*
+    name: '-'
+    href: Engine.Core.Maths.Vector.html#Engine_Core_Maths_Vector_op_Subtraction_Engine_Core_Maths_Vector_Engine_Core_Maths_Vector_
+- uid: Engine.Core.Maths.Vector.op_Multiply*
+  commentId: Overload:Engine.Core.Maths.Vector.op_Multiply
+  href: Engine.Core.Maths.Vector.html#Engine_Core_Maths_Vector_op_Multiply_Engine_Core_Maths_Vector_Engine_Core_Maths_Vector_
+  name: operator *
+  nameWithType: Vector.operator *
+  fullName: Engine.Core.Maths.Vector.operator *
+  nameWithType.vb: Vector.*
+  fullName.vb: Engine.Core.Maths.Vector.*
+  name.vb: '*'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Engine.Core.Maths.Vector.op_Multiply*
+    name: '*'
+    href: Engine.Core.Maths.Vector.html#Engine_Core_Maths_Vector_op_Multiply_Engine_Core_Maths_Vector_Engine_Core_Maths_Vector_
+- uid: Engine.Core.Maths.Vector.op_Division*
+  commentId: Overload:Engine.Core.Maths.Vector.op_Division
+  href: Engine.Core.Maths.Vector.html#Engine_Core_Maths_Vector_op_Division_Engine_Core_Maths_Vector_System_Single_
+  name: operator /
+  nameWithType: Vector.operator /
+  fullName: Engine.Core.Maths.Vector.operator /
+  nameWithType.vb: Vector./
+  fullName.vb: Engine.Core.Maths.Vector./
+  name.vb: /
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Engine.Core.Maths.Vector.op_Division*
+    name: /
+    href: Engine.Core.Maths.Vector.html#Engine_Core_Maths_Vector_op_Division_Engine_Core_Maths_Vector_System_Single_
+- uid: Engine.Core.Maths.Vector.ToMatrix*
+  commentId: Overload:Engine.Core.Maths.Vector.ToMatrix
+  href: Engine.Core.Maths.Vector.html#Engine_Core_Maths_Vector_ToMatrix_Engine_Core_Maths_Vector_System_Boolean_
+  name: ToMatrix
+  nameWithType: Vector.ToMatrix
+  fullName: Engine.Core.Maths.Vector.ToMatrix
+- uid: Engine.Core.Maths.MatrixMxN
+  commentId: T:Engine.Core.Maths.MatrixMxN
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.MatrixMxN.html
+  name: MatrixMxN
+  nameWithType: MatrixMxN
+  fullName: Engine.Core.Maths.MatrixMxN
+- uid: Engine.Core.Maths.Vector.GetEnumerator*
+  commentId: Overload:Engine.Core.Maths.Vector.GetEnumerator
+  href: Engine.Core.Maths.Vector.html#Engine_Core_Maths_Vector_GetEnumerator
+  name: GetEnumerator
+  nameWithType: Vector.GetEnumerator
+  fullName: Engine.Core.Maths.Vector.GetEnumerator
+- uid: System.Collections.Generic.IEnumerable{System.Single}.GetEnumerator
+  commentId: M:System.Collections.Generic.IEnumerable{System.Single}.GetEnumerator
+  parent: System.Collections.Generic.IEnumerable{System.Single}
+  definition: System.Collections.Generic.IEnumerable`1.GetEnumerator
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  name: GetEnumerator()
+  nameWithType: IEnumerable<float>.GetEnumerator()
+  fullName: System.Collections.Generic.IEnumerable<float>.GetEnumerator()
+  nameWithType.vb: IEnumerable(Of Single).GetEnumerator()
+  fullName.vb: System.Collections.Generic.IEnumerable(Of Single).GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable{System.Single}.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable{System.Single}.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.IEnumerator{System.Single}
+  commentId: T:System.Collections.Generic.IEnumerator{System.Single}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerator`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  name: IEnumerator<float>
+  nameWithType: IEnumerator<float>
+  fullName: System.Collections.Generic.IEnumerator<float>
+  nameWithType.vb: IEnumerator(Of Single)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of Single)
+  name.vb: IEnumerator(Of Single)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: <
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+  commentId: M:System.Collections.Generic.IEnumerable`1.GetEnumerator
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  name: GetEnumerator()
+  nameWithType: IEnumerable<T>.GetEnumerator()
+  fullName: System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+  nameWithType.vb: IEnumerable(Of T).GetEnumerator()
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T).GetEnumerator()
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1.GetEnumerator
+    name: GetEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1.getenumerator
+  - name: (
+  - name: )
+- uid: System.Collections.Generic.IEnumerator`1
+  commentId: T:System.Collections.Generic.IEnumerator`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  name: IEnumerator<T>
+  nameWithType: IEnumerator<T>
+  fullName: System.Collections.Generic.IEnumerator<T>
+  nameWithType.vb: IEnumerator(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of T)
+  name.vb: IEnumerator(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

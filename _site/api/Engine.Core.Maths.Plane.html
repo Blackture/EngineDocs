@@ -1,0 +1,870 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Plane </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Plane ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Blackture/engine/new/main/apiSpec/new?filename=Engine_Core_Maths_Plane.md&amp;value=---%0Auid%3A%20Engine.Core.Maths.Plane%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Engine.Core.Maths.Plane">
+
+
+
+  <h1 id="Engine_Core_Maths_Plane" data-uid="Engine.Core.Maths.Plane" class="text-break">
+Class Plane  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Plane.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Engine.html">Engine</a>.<a class="xref" href="Engine.Core.html">Core</a>.<a class="xref" href="Engine.Core.Maths.html">Maths</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Engine.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Plane</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Plane</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Engine_Core_Maths_Plane__ctor_" data-uid="Engine.Core.Maths.Plane.#ctor*"></a>
+
+  <h3 id="Engine_Core_Maths_Plane__ctor_Engine_Core_Maths_Vector3_Engine_Core_Maths_Vector3_" data-uid="Engine.Core.Maths.Plane.#ctor(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3)">
+  Plane(Vector3, Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Plane.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Plane(Vector3 p, Vector3 n)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>p</code> <a class="xref" href="Engine.Core.Maths.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>n</code> <a class="xref" href="Engine.Core.Maths.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Plane__ctor_" data-uid="Engine.Core.Maths.Plane.#ctor*"></a>
+
+  <h3 id="Engine_Core_Maths_Plane__ctor_Engine_Core_Maths_Vector3_Engine_Core_Maths_Vector3_Engine_Core_Maths_Vector3_Engine_Core_Maths_Plane_PlaneSetupType_" data-uid="Engine.Core.Maths.Plane.#ctor(Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3,Engine.Core.Maths.Vector3,Engine.Core.Maths.Plane.PlaneSetupType)">
+  Plane(Vector3, Vector3, Vector3, PlaneSetupType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Plane.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Plane(Vector3 p1, Vector3 s1, Vector3 s2, Plane.PlaneSetupType setupType)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>p1</code> <a class="xref" href="Engine.Core.Maths.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>s1</code> <a class="xref" href="Engine.Core.Maths.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>s2</code> <a class="xref" href="Engine.Core.Maths.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>setupType</code> <a class="xref" href="Engine.Core.Maths.Plane.html">Plane</a>.<a class="xref" href="Engine.Core.Maths.Plane.PlaneSetupType.html">PlaneSetupType</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Plane__ctor_" data-uid="Engine.Core.Maths.Plane.#ctor*"></a>
+
+  <h3 id="Engine_Core_Maths_Plane__ctor_Engine_Core_Maths_Vector3_System_Single_" data-uid="Engine.Core.Maths.Plane.#ctor(Engine.Core.Maths.Vector3,System.Single)">
+  Plane(Vector3, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Plane.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Plane(Vector3 n, float b)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>n</code> <a class="xref" href="Engine.Core.Maths.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>b</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Engine_Core_Maths_Plane_B_" data-uid="Engine.Core.Maths.Plane.B*"></a>
+
+  <h3 id="Engine_Core_Maths_Plane_B" data-uid="Engine.Core.Maths.Plane.B">
+  B
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Plane.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The &quot;b&quot; value of the coordinate-form &quot;n1x1+n2x2+n3a3-b&quot;</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float B { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Plane_N_" data-uid="Engine.Core.Maths.Plane.N*"></a>
+
+  <h3 id="Engine_Core_Maths_Plane_N" data-uid="Engine.Core.Maths.Plane.N">
+  N
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Plane.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The normal vector of the plane</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 N { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Engine.Core.Maths.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Plane_P_" data-uid="Engine.Core.Maths.Plane.P*"></a>
+
+  <h3 id="Engine_Core_Maths_Plane_P" data-uid="Engine.Core.Maths.Plane.P">
+  P
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Plane.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>A position vector on the plane</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 P { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Engine.Core.Maths.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Plane_S1_" data-uid="Engine.Core.Maths.Plane.S1*"></a>
+
+  <h3 id="Engine_Core_Maths_Plane_S1" data-uid="Engine.Core.Maths.Plane.S1">
+  S1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Plane.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Span Vector3 1</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 S1 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Engine.Core.Maths.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Plane_S2_" data-uid="Engine.Core.Maths.Plane.S2*"></a>
+
+  <h3 id="Engine_Core_Maths_Plane_S2" data-uid="Engine.Core.Maths.Plane.S2">
+  S2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Plane.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Span Vector3 2</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 S2 { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Engine.Core.Maths.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Engine_Core_Maths_Plane_Contains_" data-uid="Engine.Core.Maths.Plane.Contains*"></a>
+
+  <h3 id="Engine_Core_Maths_Plane_Contains_Engine_Core_Maths_Straight3D_" data-uid="Engine.Core.Maths.Plane.Contains(Engine.Core.Maths.Straight3D)">
+  Contains(Straight3D)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Plane.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Contains(Straight3D s)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>s</code> <a class="xref" href="Engine.Core.Maths.Straight3D.html">Straight3D</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Plane_Contains_" data-uid="Engine.Core.Maths.Plane.Contains*"></a>
+
+  <h3 id="Engine_Core_Maths_Plane_Contains_Engine_Core_Maths_Vector3_" data-uid="Engine.Core.Maths.Plane.Contains(Engine.Core.Maths.Vector3)">
+  Contains(Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Plane.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Contains(Vector3 v)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>v</code> <a class="xref" href="Engine.Core.Maths.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Plane_Contains_" data-uid="Engine.Core.Maths.Plane.Contains*"></a>
+
+  <h3 id="Engine_Core_Maths_Plane_Contains_Engine_Core_Maths_Vector3_System_Nullable_System_Boolean___" data-uid="Engine.Core.Maths.Plane.Contains(Engine.Core.Maths.Vector3,System.Nullable{System.Boolean}@)">
+  Contains(Vector3, out bool?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Plane.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Contains(Vector3 v, out bool? above)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>v</code> <a class="xref" href="Engine.Core.Maths.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+    <dt><code>above</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Plane_Distance_" data-uid="Engine.Core.Maths.Plane.Distance*"></a>
+
+  <h3 id="Engine_Core_Maths_Plane_Distance_Engine_Core_Maths_Plane_" data-uid="Engine.Core.Maths.Plane.Distance(Engine.Core.Maths.Plane)">
+  Distance(Plane)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Plane.cs/#L227"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Distance(Plane p)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>p</code> <a class="xref" href="Engine.Core.Maths.Plane.html">Plane</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Plane_Distance_" data-uid="Engine.Core.Maths.Plane.Distance*"></a>
+
+  <h3 id="Engine_Core_Maths_Plane_Distance_Engine_Core_Maths_Straight3D_" data-uid="Engine.Core.Maths.Plane.Distance(Engine.Core.Maths.Straight3D)">
+  Distance(Straight3D)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Plane.cs/#L244"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Distance(Straight3D s)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>s</code> <a class="xref" href="Engine.Core.Maths.Straight3D.html">Straight3D</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Plane_Distance_" data-uid="Engine.Core.Maths.Plane.Distance*"></a>
+
+  <h3 id="Engine_Core_Maths_Plane_Distance_Engine_Core_Maths_Straight3D_Engine_Core_Maths_Vector3__" data-uid="Engine.Core.Maths.Plane.Distance(Engine.Core.Maths.Straight3D,Engine.Core.Maths.Vector3@)">
+  Distance(Straight3D, out Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Plane.cs/#L249"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Distance(Straight3D s, out Vector3 l)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>s</code> <a class="xref" href="Engine.Core.Maths.Straight3D.html">Straight3D</a></dt>
+    <dd></dd>
+    <dt><code>l</code> <a class="xref" href="Engine.Core.Maths.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Plane_GetPoint_00X_" data-uid="Engine.Core.Maths.Plane.GetPoint_00X*"></a>
+
+  <h3 id="Engine_Core_Maths_Plane_GetPoint_00X" data-uid="Engine.Core.Maths.Plane.GetPoint_00X">
+  GetPoint_00X()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Plane.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a point on the plane</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 GetPoint_00X()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Engine.Core.Maths.Vector3.html">Vector3</a></dt>
+    <dd><p>Returns the point for X1 = 0, X2 = 0 and X3 = b/n3</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Plane_GetPositionVectorAt_" data-uid="Engine.Core.Maths.Plane.GetPositionVectorAt*"></a>
+
+  <h3 id="Engine_Core_Maths_Plane_GetPositionVectorAt_System_Single_System_Single_" data-uid="Engine.Core.Maths.Plane.GetPositionVectorAt(System.Single,System.Single)">
+  GetPositionVectorAt(float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Plane.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 GetPositionVectorAt(float s1, float s2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>s1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>s2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Engine.Core.Maths.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Plane_Intersection_" data-uid="Engine.Core.Maths.Plane.Intersection*"></a>
+
+  <h3 id="Engine_Core_Maths_Plane_Intersection_Engine_Core_Maths_Plane_Engine_Core_Maths_Plane_Engine_Core_Maths_Straight3D__Engine_Core_Maths_Plane__Engine_Core_Maths_Vector3__" data-uid="Engine.Core.Maths.Plane.Intersection(Engine.Core.Maths.Plane,Engine.Core.Maths.Plane,Engine.Core.Maths.Straight3D@,Engine.Core.Maths.Plane@,Engine.Core.Maths.Vector3@)">
+  Intersection(Plane, Plane, out Straight3D, out Plane, out Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Plane.cs/#L151"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get plane ∩ plane and outputs its results</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Intersection(Plane p1, Plane p2, out Straight3D s, out Plane p, out Vector3 v)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>p1</code> <a class="xref" href="Engine.Core.Maths.Plane.html">Plane</a></dt>
+    <dd></dd>
+    <dt><code>p2</code> <a class="xref" href="Engine.Core.Maths.Plane.html">Plane</a></dt>
+    <dd></dd>
+    <dt><code>s</code> <a class="xref" href="Engine.Core.Maths.Straight3D.html">Straight3D</a></dt>
+    <dd></dd>
+    <dt><code>p</code> <a class="xref" href="Engine.Core.Maths.Plane.html">Plane</a></dt>
+    <dd></dd>
+    <dt><code>v</code> <a class="xref" href="Engine.Core.Maths.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if plane ∩ plane ≠ ∅</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Plane_Intersection_" data-uid="Engine.Core.Maths.Plane.Intersection*"></a>
+
+  <h3 id="Engine_Core_Maths_Plane_Intersection_Engine_Core_Maths_Plane_Engine_Core_Maths_Straight3D_Engine_Core_Maths_Straight3D__Engine_Core_Maths_Vector3__" data-uid="Engine.Core.Maths.Plane.Intersection(Engine.Core.Maths.Plane,Engine.Core.Maths.Straight3D,Engine.Core.Maths.Straight3D@,Engine.Core.Maths.Vector3@)">
+  Intersection(Plane, Straight3D, out Straight3D, out Vector3)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Plane.cs/#L188"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get plane ∩ line and outputs its results</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Intersection(Plane plane, Straight3D line, out Straight3D intersectionLine, out Vector3 intersectionPoint)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>plane</code> <a class="xref" href="Engine.Core.Maths.Plane.html">Plane</a></dt>
+    <dd></dd>
+    <dt><code>line</code> <a class="xref" href="Engine.Core.Maths.Straight3D.html">Straight3D</a></dt>
+    <dd></dd>
+    <dt><code>intersectionLine</code> <a class="xref" href="Engine.Core.Maths.Straight3D.html">Straight3D</a></dt>
+    <dd></dd>
+    <dt><code>intersectionPoint</code> <a class="xref" href="Engine.Core.Maths.Vector3.html">Vector3</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True if plane ∩ line ≠ ∅</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Plane_Intersects_" data-uid="Engine.Core.Maths.Plane.Intersects*"></a>
+
+  <h3 id="Engine_Core_Maths_Plane_Intersects_Engine_Core_Maths_Plane_Engine_Core_Maths_Straight3D_" data-uid="Engine.Core.Maths.Plane.Intersects(Engine.Core.Maths.Plane,Engine.Core.Maths.Straight3D)">
+  Intersects(Plane, Straight3D)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Plane.cs/#L124"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Intersects(Plane plane, Straight3D line)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>plane</code> <a class="xref" href="Engine.Core.Maths.Plane.html">Plane</a></dt>
+    <dd></dd>
+    <dt><code>line</code> <a class="xref" href="Engine.Core.Maths.Straight3D.html">Straight3D</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Plane.cs/#L12" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

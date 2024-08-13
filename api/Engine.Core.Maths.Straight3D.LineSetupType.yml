@@ -1,0 +1,136 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Maths.Straight3D.LineSetupType
+  commentId: T:Engine.Core.Maths.Straight3D.LineSetupType
+  id: Straight3D.LineSetupType
+  parent: Engine.Core.Maths
+  children:
+  - Engine.Core.Maths.Straight3D.LineSetupType._1Point1Dir
+  - Engine.Core.Maths.Straight3D.LineSetupType._2Points
+  langs:
+  - csharp
+  - vb
+  name: Straight3D.LineSetupType
+  nameWithType: Straight3D.LineSetupType
+  fullName: Engine.Core.Maths.Straight3D.LineSetupType
+  type: Enum
+  source:
+    remote:
+      path: Engine.Core/Maths/Straight3D.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: LineSetupType
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Straight3D.cs
+    startLine: 14
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public enum Straight3D.LineSetupType
+    content.vb: Public Enum Straight3D.LineSetupType
+- uid: Engine.Core.Maths.Straight3D.LineSetupType._2Points
+  commentId: F:Engine.Core.Maths.Straight3D.LineSetupType._2Points
+  id: _2Points
+  parent: Engine.Core.Maths.Straight3D.LineSetupType
+  langs:
+  - csharp
+  - vb
+  name: _2Points
+  nameWithType: Straight3D.LineSetupType._2Points
+  fullName: Engine.Core.Maths.Straight3D.LineSetupType._2Points
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Straight3D.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: _2Points
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Straight3D.cs
+    startLine: 16
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: _2Points = 0
+    return:
+      type: Engine.Core.Maths.Straight3D.LineSetupType
+- uid: Engine.Core.Maths.Straight3D.LineSetupType._1Point1Dir
+  commentId: F:Engine.Core.Maths.Straight3D.LineSetupType._1Point1Dir
+  id: _1Point1Dir
+  parent: Engine.Core.Maths.Straight3D.LineSetupType
+  langs:
+  - csharp
+  - vb
+  name: _1Point1Dir
+  nameWithType: Straight3D.LineSetupType._1Point1Dir
+  fullName: Engine.Core.Maths.Straight3D.LineSetupType._1Point1Dir
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Straight3D.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: _1Point1Dir
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Straight3D.cs
+    startLine: 17
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: _1Point1Dir = 1
+    return:
+      type: Engine.Core.Maths.Straight3D.LineSetupType
+references:
+- uid: Engine.Core.Maths
+  commentId: N:Engine.Core.Maths
+  href: Engine.html
+  name: Engine.Core.Maths
+  nameWithType: Engine.Core.Maths
+  fullName: Engine.Core.Maths
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+- uid: Engine.Core.Maths.Straight3D.LineSetupType
+  commentId: T:Engine.Core.Maths.Straight3D.LineSetupType
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.Straight3D.html
+  name: Straight3D.LineSetupType
+  nameWithType: Straight3D.LineSetupType
+  fullName: Engine.Core.Maths.Straight3D.LineSetupType
+  spec.csharp:
+  - uid: Engine.Core.Maths.Straight3D
+    name: Straight3D
+    href: Engine.Core.Maths.Straight3D.html
+  - name: .
+  - uid: Engine.Core.Maths.Straight3D.LineSetupType
+    name: LineSetupType
+    href: Engine.Core.Maths.Straight3D.LineSetupType.html
+  spec.vb:
+  - uid: Engine.Core.Maths.Straight3D
+    name: Straight3D
+    href: Engine.Core.Maths.Straight3D.html
+  - name: .
+  - uid: Engine.Core.Maths.Straight3D.LineSetupType
+    name: LineSetupType
+    href: Engine.Core.Maths.Straight3D.LineSetupType.html

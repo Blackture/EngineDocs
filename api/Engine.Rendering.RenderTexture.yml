@@ -1,0 +1,517 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Rendering.RenderTexture
+  commentId: T:Engine.Rendering.RenderTexture
+  id: RenderTexture
+  parent: Engine.Rendering
+  children:
+  - Engine.Rendering.RenderTexture.#ctor(System.Windows.Forms.PictureBox,System.Single)
+  - Engine.Rendering.RenderTexture.RenderPixel(System.Single,System.Single,Engine.Core.Components.Camera)
+  langs:
+  - csharp
+  - vb
+  name: RenderTexture
+  nameWithType: RenderTexture
+  fullName: Engine.Rendering.RenderTexture
+  type: Class
+  source:
+    remote:
+      path: Engine.Rendering/RenderTexture.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: RenderTexture
+    path: C:/Users/Admin/Desktop/Engine/Engine.Rendering/RenderTexture.cs
+    startLine: 13
+  assemblies:
+  - Engine.Rendering
+  namespace: Engine.Rendering
+  syntax:
+    content: public class RenderTexture
+    content.vb: Public Class RenderTexture
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: Engine.Rendering.RenderTexture.#ctor(System.Windows.Forms.PictureBox,System.Single)
+  commentId: M:Engine.Rendering.RenderTexture.#ctor(System.Windows.Forms.PictureBox,System.Single)
+  id: '#ctor(System.Windows.Forms.PictureBox,System.Single)'
+  parent: Engine.Rendering.RenderTexture
+  langs:
+  - csharp
+  - vb
+  name: RenderTexture(PictureBox, float)
+  nameWithType: RenderTexture.RenderTexture(PictureBox, float)
+  fullName: Engine.Rendering.RenderTexture.RenderTexture(System.Windows.Forms.PictureBox, float)
+  type: Constructor
+  source:
+    remote:
+      path: Engine.Rendering/RenderTexture.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: .ctor
+    path: C:/Users/Admin/Desktop/Engine/Engine.Rendering/RenderTexture.cs
+    startLine: 20
+  assemblies:
+  - Engine.Rendering
+  namespace: Engine.Rendering
+  syntax:
+    content: public RenderTexture(PictureBox pictureBox, float pixelDensity = 90)
+    parameters:
+    - id: pictureBox
+      type: System.Windows.Forms.PictureBox
+    - id: pixelDensity
+      type: System.Single
+    content.vb: Public Sub New(pictureBox As PictureBox, pixelDensity As Single = 90)
+  overload: Engine.Rendering.RenderTexture.#ctor*
+  nameWithType.vb: RenderTexture.New(PictureBox, Single)
+  fullName.vb: Engine.Rendering.RenderTexture.New(System.Windows.Forms.PictureBox, Single)
+  name.vb: New(PictureBox, Single)
+- uid: Engine.Rendering.RenderTexture.RenderPixel(System.Single,System.Single,Engine.Core.Components.Camera)
+  commentId: M:Engine.Rendering.RenderTexture.RenderPixel(System.Single,System.Single,Engine.Core.Components.Camera)
+  id: RenderPixel(System.Single,System.Single,Engine.Core.Components.Camera)
+  parent: Engine.Rendering.RenderTexture
+  langs:
+  - csharp
+  - vb
+  name: RenderPixel(float, float, Camera)
+  nameWithType: RenderTexture.RenderPixel(float, float, Camera)
+  fullName: Engine.Rendering.RenderTexture.RenderPixel(float, float, Engine.Core.Components.Camera)
+  type: Method
+  source:
+    remote:
+      path: Engine.Rendering/RenderTexture.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: RenderPixel
+    path: C:/Users/Admin/Desktop/Engine/Engine.Rendering/RenderTexture.cs
+    startLine: 31
+  assemblies:
+  - Engine.Rendering
+  namespace: Engine.Rendering
+  syntax:
+    content: public Pixel RenderPixel(float x, float y, Camera camera)
+    parameters:
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    - id: camera
+      type: Engine.Core.Components.Camera
+    return:
+      type: Engine.Core.Rendering.Pixel
+    content.vb: Public Function RenderPixel(x As Single, y As Single, camera As Camera) As Pixel
+  overload: Engine.Rendering.RenderTexture.RenderPixel*
+  nameWithType.vb: RenderTexture.RenderPixel(Single, Single, Camera)
+  fullName.vb: Engine.Rendering.RenderTexture.RenderPixel(Single, Single, Engine.Core.Components.Camera)
+  name.vb: RenderPixel(Single, Single, Camera)
+references:
+- uid: Engine.Rendering
+  commentId: N:Engine.Rendering
+  href: Engine.html
+  name: Engine.Rendering
+  nameWithType: Engine.Rendering
+  fullName: Engine.Rendering
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Rendering
+    name: Rendering
+    href: Engine.Rendering.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Rendering
+    name: Rendering
+    href: Engine.Rendering.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Engine.Rendering.RenderTexture.#ctor*
+  commentId: Overload:Engine.Rendering.RenderTexture.#ctor
+  href: Engine.Rendering.RenderTexture.html#Engine_Rendering_RenderTexture__ctor_System_Windows_Forms_PictureBox_System_Single_
+  name: RenderTexture
+  nameWithType: RenderTexture.RenderTexture
+  fullName: Engine.Rendering.RenderTexture.RenderTexture
+  nameWithType.vb: RenderTexture.New
+  fullName.vb: Engine.Rendering.RenderTexture.New
+  name.vb: New
+- uid: System.Windows.Forms.PictureBox
+  commentId: T:System.Windows.Forms.PictureBox
+  parent: System.Windows.Forms
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.forms.picturebox
+  name: PictureBox
+  nameWithType: PictureBox
+  fullName: System.Windows.Forms.PictureBox
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System.Windows.Forms
+  commentId: N:System.Windows.Forms
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Forms
+  nameWithType: System.Windows.Forms
+  fullName: System.Windows.Forms
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Forms
+    name: Forms
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.forms
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Forms
+    name: Forms
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.forms
+- uid: Engine.Rendering.RenderTexture.RenderPixel*
+  commentId: Overload:Engine.Rendering.RenderTexture.RenderPixel
+  href: Engine.Rendering.RenderTexture.html#Engine_Rendering_RenderTexture_RenderPixel_System_Single_System_Single_Engine_Core_Components_Camera_
+  name: RenderPixel
+  nameWithType: RenderTexture.RenderPixel
+  fullName: Engine.Rendering.RenderTexture.RenderPixel
+- uid: Engine.Core.Components.Camera
+  commentId: T:Engine.Core.Components.Camera
+  parent: Engine.Core.Components
+  href: Engine.Core.Components.Camera.html
+  name: Camera
+  nameWithType: Camera
+  fullName: Engine.Core.Components.Camera
+- uid: Engine.Core.Rendering.Pixel
+  commentId: T:Engine.Core.Rendering.Pixel
+  parent: Engine.Core.Rendering
+  href: Engine.Core.Rendering.Pixel.html
+  name: Pixel
+  nameWithType: Pixel
+  fullName: Engine.Core.Rendering.Pixel
+- uid: Engine.Core.Components
+  commentId: N:Engine.Core.Components
+  href: Engine.html
+  name: Engine.Core.Components
+  nameWithType: Engine.Core.Components
+  fullName: Engine.Core.Components
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Components
+    name: Components
+    href: Engine.Core.Components.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Components
+    name: Components
+    href: Engine.Core.Components.html
+- uid: Engine.Core.Rendering
+  commentId: N:Engine.Core.Rendering
+  href: Engine.html
+  name: Engine.Core.Rendering
+  nameWithType: Engine.Core.Rendering
+  fullName: Engine.Core.Rendering
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Rendering
+    name: Rendering
+    href: Engine.Core.Rendering.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Rendering
+    name: Rendering
+    href: Engine.Core.Rendering.html

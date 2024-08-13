@@ -1,0 +1,147 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Maths.BasePlane
+  commentId: T:Engine.Core.Maths.BasePlane
+  id: BasePlane
+  parent: Engine.Core.Maths
+  children:
+  - Engine.Core.Maths.BasePlane.X1X2
+  - Engine.Core.Maths.BasePlane.X1X3
+  - Engine.Core.Maths.BasePlane.X2X3
+  langs:
+  - csharp
+  - vb
+  name: BasePlane
+  nameWithType: BasePlane
+  fullName: Engine.Core.Maths.BasePlane
+  type: Enum
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: BasePlane
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 48
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public enum BasePlane
+    content.vb: Public Enum BasePlane
+- uid: Engine.Core.Maths.BasePlane.X1X2
+  commentId: F:Engine.Core.Maths.BasePlane.X1X2
+  id: X1X2
+  parent: Engine.Core.Maths.BasePlane
+  langs:
+  - csharp
+  - vb
+  name: X1X2
+  nameWithType: BasePlane.X1X2
+  fullName: Engine.Core.Maths.BasePlane.X1X2
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: X1X2
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 50
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: X1X2 = 0
+    return:
+      type: Engine.Core.Maths.BasePlane
+- uid: Engine.Core.Maths.BasePlane.X2X3
+  commentId: F:Engine.Core.Maths.BasePlane.X2X3
+  id: X2X3
+  parent: Engine.Core.Maths.BasePlane
+  langs:
+  - csharp
+  - vb
+  name: X2X3
+  nameWithType: BasePlane.X2X3
+  fullName: Engine.Core.Maths.BasePlane.X2X3
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: X2X3
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 51
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: X2X3 = 1
+    return:
+      type: Engine.Core.Maths.BasePlane
+- uid: Engine.Core.Maths.BasePlane.X1X3
+  commentId: F:Engine.Core.Maths.BasePlane.X1X3
+  id: X1X3
+  parent: Engine.Core.Maths.BasePlane
+  langs:
+  - csharp
+  - vb
+  name: X1X3
+  nameWithType: BasePlane.X1X3
+  fullName: Engine.Core.Maths.BasePlane.X1X3
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: X1X3
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 52
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: X1X3 = 2
+    return:
+      type: Engine.Core.Maths.BasePlane
+references:
+- uid: Engine.Core.Maths
+  commentId: N:Engine.Core.Maths
+  href: Engine.html
+  name: Engine.Core.Maths
+  nameWithType: Engine.Core.Maths
+  fullName: Engine.Core.Maths
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+- uid: Engine.Core.Maths.BasePlane
+  commentId: T:Engine.Core.Maths.BasePlane
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.BasePlane.html
+  name: BasePlane
+  nameWithType: BasePlane
+  fullName: Engine.Core.Maths.BasePlane

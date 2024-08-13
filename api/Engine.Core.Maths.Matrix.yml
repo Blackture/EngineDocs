@@ -1,0 +1,1036 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Maths.Matrix
+  commentId: T:Engine.Core.Maths.Matrix
+  id: Matrix
+  parent: Engine.Core.Maths
+  children:
+  - Engine.Core.Maths.Matrix.ColumnCount
+  - Engine.Core.Maths.Matrix.GetIdentityMatrix``1(System.Int32,``0@)
+  - Engine.Core.Maths.Matrix.GetInverse``1(``0,``0@)
+  - Engine.Core.Maths.Matrix.I2x2
+  - Engine.Core.Maths.Matrix.I3x3
+  - Engine.Core.Maths.Matrix.I4x4
+  - Engine.Core.Maths.Matrix.Item(System.Int32,System.Int32)
+  - Engine.Core.Maths.Matrix.Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
+  - Engine.Core.Maths.Matrix.RowCount
+  - Engine.Core.Maths.Matrix.RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+  - Engine.Core.Maths.Matrix.SwapRows(System.Int32,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: Matrix
+  nameWithType: Matrix
+  fullName: Engine.Core.Maths.Matrix
+  type: Class
+  source:
+    remote:
+      path: Engine.Core/Maths/Matrix.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Matrix
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Matrix.cs
+    startLine: 8
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: 'public abstract class Matrix : IMatrix'
+    content.vb: Public MustInherit Class Matrix Implements IMatrix
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Engine.Core.Maths.Matrix3x3
+  - Engine.Core.Maths.MatrixMxN
+  implements:
+  - Engine.Core.Maths.IMatrix
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: Engine.Core.Maths.Matrix.I2x2
+  commentId: F:Engine.Core.Maths.Matrix.I2x2
+  id: I2x2
+  parent: Engine.Core.Maths.Matrix
+  langs:
+  - csharp
+  - vb
+  name: I2x2
+  nameWithType: Matrix.I2x2
+  fullName: Engine.Core.Maths.Matrix.I2x2
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Matrix.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: I2x2
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Matrix.cs
+    startLine: 13
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  summary: 2x2 Identity Matrix
+  example: []
+  syntax:
+    content: public static readonly Matrix I2x2
+    return:
+      type: Engine.Core.Maths.Matrix
+    content.vb: Public Shared ReadOnly I2x2 As Matrix
+- uid: Engine.Core.Maths.Matrix.I3x3
+  commentId: F:Engine.Core.Maths.Matrix.I3x3
+  id: I3x3
+  parent: Engine.Core.Maths.Matrix
+  langs:
+  - csharp
+  - vb
+  name: I3x3
+  nameWithType: Matrix.I3x3
+  fullName: Engine.Core.Maths.Matrix.I3x3
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Matrix.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: I3x3
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Matrix.cs
+    startLine: 17
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  summary: 3x3 Identity Matrix
+  example: []
+  syntax:
+    content: public static readonly Matrix I3x3
+    return:
+      type: Engine.Core.Maths.Matrix
+    content.vb: Public Shared ReadOnly I3x3 As Matrix
+- uid: Engine.Core.Maths.Matrix.I4x4
+  commentId: F:Engine.Core.Maths.Matrix.I4x4
+  id: I4x4
+  parent: Engine.Core.Maths.Matrix
+  langs:
+  - csharp
+  - vb
+  name: I4x4
+  nameWithType: Matrix.I4x4
+  fullName: Engine.Core.Maths.Matrix.I4x4
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Matrix.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: I4x4
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Matrix.cs
+    startLine: 21
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  summary: 4x4 Identity Matrix
+  example: []
+  syntax:
+    content: public static readonly Matrix I4x4
+    return:
+      type: Engine.Core.Maths.Matrix
+    content.vb: Public Shared ReadOnly I4x4 As Matrix
+- uid: Engine.Core.Maths.Matrix.Item(System.Int32,System.Int32)
+  commentId: P:Engine.Core.Maths.Matrix.Item(System.Int32,System.Int32)
+  id: Item(System.Int32,System.Int32)
+  parent: Engine.Core.Maths.Matrix
+  langs:
+  - csharp
+  - vb
+  name: this[int, int]
+  nameWithType: Matrix.this[int, int]
+  fullName: Engine.Core.Maths.Matrix.this[int, int]
+  type: Property
+  source:
+    remote:
+      path: Engine.Core/Maths/Matrix.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: this[]
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Matrix.cs
+    startLine: 23
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  example: []
+  syntax:
+    content: public abstract float this[int r, int c] { get; set; }
+    parameters:
+    - id: r
+      type: System.Int32
+    - id: c
+      type: System.Int32
+    return:
+      type: System.Single
+    content.vb: Public MustOverride Default Property this[](r As Integer, c As Integer) As Single
+  overload: Engine.Core.Maths.Matrix.Item*
+  implements:
+  - Engine.Core.Maths.IMatrix.Item(System.Int32,System.Int32)
+  nameWithType.vb: Matrix.this[](Integer, Integer)
+  fullName.vb: Engine.Core.Maths.Matrix.this[](Integer, Integer)
+  name.vb: this[](Integer, Integer)
+- uid: Engine.Core.Maths.Matrix.RowCount
+  commentId: P:Engine.Core.Maths.Matrix.RowCount
+  id: RowCount
+  parent: Engine.Core.Maths.Matrix
+  langs:
+  - csharp
+  - vb
+  name: RowCount
+  nameWithType: Matrix.RowCount
+  fullName: Engine.Core.Maths.Matrix.RowCount
+  type: Property
+  source:
+    remote:
+      path: Engine.Core/Maths/Matrix.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: RowCount
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Matrix.cs
+    startLine: 24
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  example: []
+  syntax:
+    content: public abstract int RowCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public MustOverride ReadOnly Property RowCount As Integer
+  overload: Engine.Core.Maths.Matrix.RowCount*
+  implements:
+  - Engine.Core.Maths.IMatrix.RowCount
+- uid: Engine.Core.Maths.Matrix.ColumnCount
+  commentId: P:Engine.Core.Maths.Matrix.ColumnCount
+  id: ColumnCount
+  parent: Engine.Core.Maths.Matrix
+  langs:
+  - csharp
+  - vb
+  name: ColumnCount
+  nameWithType: Matrix.ColumnCount
+  fullName: Engine.Core.Maths.Matrix.ColumnCount
+  type: Property
+  source:
+    remote:
+      path: Engine.Core/Maths/Matrix.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: ColumnCount
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Matrix.cs
+    startLine: 25
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  example: []
+  syntax:
+    content: public abstract int ColumnCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public MustOverride ReadOnly Property ColumnCount As Integer
+  overload: Engine.Core.Maths.Matrix.ColumnCount*
+  implements:
+  - Engine.Core.Maths.IMatrix.ColumnCount
+- uid: Engine.Core.Maths.Matrix.Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
+  commentId: M:Engine.Core.Maths.Matrix.Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
+  id: Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
+  parent: Engine.Core.Maths.Matrix
+  langs:
+  - csharp
+  - vb
+  name: Operation(IMatrix, MatrixOperation, float)
+  nameWithType: Matrix.Operation(IMatrix, MatrixOperation, float)
+  fullName: Engine.Core.Maths.Matrix.Operation(Engine.Core.Maths.IMatrix, Engine.Core.Maths.MatrixOperation, float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Matrix.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Operation
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Matrix.cs
+    startLine: 34
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  example: []
+  syntax:
+    content: public abstract IMatrix Operation(IMatrix m, MatrixOperation operation, float f = 0)
+    parameters:
+    - id: m
+      type: Engine.Core.Maths.IMatrix
+    - id: operation
+      type: Engine.Core.Maths.MatrixOperation
+    - id: f
+      type: System.Single
+    return:
+      type: Engine.Core.Maths.IMatrix
+    content.vb: Public MustOverride Function Operation(m As IMatrix, operation As MatrixOperation, f As Single = 0) As IMatrix
+  overload: Engine.Core.Maths.Matrix.Operation*
+  implements:
+  - Engine.Core.Maths.IMatrix.Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
+  nameWithType.vb: Matrix.Operation(IMatrix, MatrixOperation, Single)
+  fullName.vb: Engine.Core.Maths.Matrix.Operation(Engine.Core.Maths.IMatrix, Engine.Core.Maths.MatrixOperation, Single)
+  name.vb: Operation(IMatrix, MatrixOperation, Single)
+- uid: Engine.Core.Maths.Matrix.RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+  commentId: M:Engine.Core.Maths.Matrix.RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+  id: RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+  parent: Engine.Core.Maths.Matrix
+  langs:
+  - csharp
+  - vb
+  name: RowOperation(int, int, MatrixOperation, float)
+  nameWithType: Matrix.RowOperation(int, int, MatrixOperation, float)
+  fullName: Engine.Core.Maths.Matrix.RowOperation(int, int, Engine.Core.Maths.MatrixOperation, float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Matrix.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: RowOperation
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Matrix.cs
+    startLine: 35
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  example: []
+  syntax:
+    content: public abstract void RowOperation(int target, int source, MatrixOperation operation, float f = 0)
+    parameters:
+    - id: target
+      type: System.Int32
+    - id: source
+      type: System.Int32
+    - id: operation
+      type: Engine.Core.Maths.MatrixOperation
+    - id: f
+      type: System.Single
+    content.vb: Public MustOverride Sub RowOperation(target As Integer, source As Integer, operation As MatrixOperation, f As Single = 0)
+  overload: Engine.Core.Maths.Matrix.RowOperation*
+  implements:
+  - Engine.Core.Maths.IMatrix.RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+  nameWithType.vb: Matrix.RowOperation(Integer, Integer, MatrixOperation, Single)
+  fullName.vb: Engine.Core.Maths.Matrix.RowOperation(Integer, Integer, Engine.Core.Maths.MatrixOperation, Single)
+  name.vb: RowOperation(Integer, Integer, MatrixOperation, Single)
+- uid: Engine.Core.Maths.Matrix.SwapRows(System.Int32,System.Int32)
+  commentId: M:Engine.Core.Maths.Matrix.SwapRows(System.Int32,System.Int32)
+  id: SwapRows(System.Int32,System.Int32)
+  parent: Engine.Core.Maths.Matrix
+  langs:
+  - csharp
+  - vb
+  name: SwapRows(int, int)
+  nameWithType: Matrix.SwapRows(int, int)
+  fullName: Engine.Core.Maths.Matrix.SwapRows(int, int)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Matrix.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: SwapRows
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Matrix.cs
+    startLine: 36
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  example: []
+  syntax:
+    content: public abstract void SwapRows(int from, int to)
+    parameters:
+    - id: from
+      type: System.Int32
+    - id: to
+      type: System.Int32
+    content.vb: Public MustOverride Sub SwapRows(from As Integer, [to] As Integer)
+  overload: Engine.Core.Maths.Matrix.SwapRows*
+  implements:
+  - Engine.Core.Maths.IMatrix.SwapRows(System.Int32,System.Int32)
+  nameWithType.vb: Matrix.SwapRows(Integer, Integer)
+  fullName.vb: Engine.Core.Maths.Matrix.SwapRows(Integer, Integer)
+  name.vb: SwapRows(Integer, Integer)
+- uid: Engine.Core.Maths.Matrix.GetIdentityMatrix``1(System.Int32,``0@)
+  commentId: M:Engine.Core.Maths.Matrix.GetIdentityMatrix``1(System.Int32,``0@)
+  id: GetIdentityMatrix``1(System.Int32,``0@)
+  parent: Engine.Core.Maths.Matrix
+  langs:
+  - csharp
+  - vb
+  name: GetIdentityMatrix<T>(int, out T)
+  nameWithType: Matrix.GetIdentityMatrix<T>(int, out T)
+  fullName: Engine.Core.Maths.Matrix.GetIdentityMatrix<T>(int, out T)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Matrix.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: GetIdentityMatrix
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Matrix.cs
+    startLine: 38
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: 'public static bool GetIdentityMatrix<T>(int n, out T identityMatrix) where T : Matrix, IMatrix, new()'
+    parameters:
+    - id: n
+      type: System.Int32
+    - id: identityMatrix
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function GetIdentityMatrix(Of T As {Matrix, IMatrix, New})(n As Integer, identityMatrix As T) As Boolean
+  overload: Engine.Core.Maths.Matrix.GetIdentityMatrix*
+  nameWithType.vb: Matrix.GetIdentityMatrix(Of T)(Integer, T)
+  fullName.vb: Engine.Core.Maths.Matrix.GetIdentityMatrix(Of T)(Integer, T)
+  name.vb: GetIdentityMatrix(Of T)(Integer, T)
+- uid: Engine.Core.Maths.Matrix.GetInverse``1(``0,``0@)
+  commentId: M:Engine.Core.Maths.Matrix.GetInverse``1(``0,``0@)
+  id: GetInverse``1(``0,``0@)
+  parent: Engine.Core.Maths.Matrix
+  langs:
+  - csharp
+  - vb
+  name: GetInverse<T>(T, out T)
+  nameWithType: Matrix.GetInverse<T>(T, out T)
+  fullName: Engine.Core.Maths.Matrix.GetInverse<T>(T, out T)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Matrix.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: GetInverse
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Matrix.cs
+    startLine: 63
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: 'public static bool GetInverse<T>(T matrix, out T inverseMatrix) where T : Matrix, IMatrix'
+    parameters:
+    - id: matrix
+      type: '{T}'
+    - id: inverseMatrix
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function GetInverse(Of T As {Matrix, IMatrix})(matrix As T, inverseMatrix As T) As Boolean
+  overload: Engine.Core.Maths.Matrix.GetInverse*
+  nameWithType.vb: Matrix.GetInverse(Of T)(T, T)
+  fullName.vb: Engine.Core.Maths.Matrix.GetInverse(Of T)(T, T)
+  name.vb: GetInverse(Of T)(T, T)
+references:
+- uid: Engine.Core.Maths
+  commentId: N:Engine.Core.Maths
+  href: Engine.html
+  name: Engine.Core.Maths
+  nameWithType: Engine.Core.Maths
+  fullName: Engine.Core.Maths
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Engine.Core.Maths.IMatrix
+  commentId: T:Engine.Core.Maths.IMatrix
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.IMatrix.html
+  name: IMatrix
+  nameWithType: IMatrix
+  fullName: Engine.Core.Maths.IMatrix
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Engine.Core.Maths.Matrix
+  commentId: T:Engine.Core.Maths.Matrix
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.Matrix.html
+  name: Matrix
+  nameWithType: Matrix
+  fullName: Engine.Core.Maths.Matrix
+- uid: Engine.Core.Maths.Matrix.Item*
+  commentId: Overload:Engine.Core.Maths.Matrix.Item
+  href: Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_Item_System_Int32_System_Int32_
+  name: this
+  nameWithType: Matrix.this
+  fullName: Engine.Core.Maths.Matrix.this
+  nameWithType.vb: Matrix.this[]
+  fullName.vb: Engine.Core.Maths.Matrix.this[]
+  name.vb: this[]
+- uid: Engine.Core.Maths.IMatrix.Item(System.Int32,System.Int32)
+  commentId: P:Engine.Core.Maths.IMatrix.Item(System.Int32,System.Int32)
+  parent: Engine.Core.Maths.IMatrix
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: this[int, int]
+  nameWithType: IMatrix.this[int, int]
+  fullName: Engine.Core.Maths.IMatrix.this[int, int]
+  nameWithType.vb: IMatrix.this[](Integer, Integer)
+  fullName.vb: Engine.Core.Maths.IMatrix.this[](Integer, Integer)
+  name.vb: this[](Integer, Integer)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ']'
+  spec.vb:
+  - uid: Engine.Core.Maths.IMatrix.Item(System.Int32,System.Int32)
+    name: this[]
+    href: Engine.Core.Maths.IMatrix.html#Engine_Core_Maths_IMatrix_Item_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Engine.Core.Maths.Matrix.RowCount*
+  commentId: Overload:Engine.Core.Maths.Matrix.RowCount
+  href: Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_RowCount
+  name: RowCount
+  nameWithType: Matrix.RowCount
+  fullName: Engine.Core.Maths.Matrix.RowCount
+- uid: Engine.Core.Maths.IMatrix.RowCount
+  commentId: P:Engine.Core.Maths.IMatrix.RowCount
+  parent: Engine.Core.Maths.IMatrix
+  href: Engine.Core.Maths.IMatrix.html#Engine_Core_Maths_IMatrix_RowCount
+  name: RowCount
+  nameWithType: IMatrix.RowCount
+  fullName: Engine.Core.Maths.IMatrix.RowCount
+- uid: Engine.Core.Maths.Matrix.ColumnCount*
+  commentId: Overload:Engine.Core.Maths.Matrix.ColumnCount
+  href: Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_ColumnCount
+  name: ColumnCount
+  nameWithType: Matrix.ColumnCount
+  fullName: Engine.Core.Maths.Matrix.ColumnCount
+- uid: Engine.Core.Maths.IMatrix.ColumnCount
+  commentId: P:Engine.Core.Maths.IMatrix.ColumnCount
+  parent: Engine.Core.Maths.IMatrix
+  href: Engine.Core.Maths.IMatrix.html#Engine_Core_Maths_IMatrix_ColumnCount
+  name: ColumnCount
+  nameWithType: IMatrix.ColumnCount
+  fullName: Engine.Core.Maths.IMatrix.ColumnCount
+- uid: Engine.Core.Maths.Matrix.Operation*
+  commentId: Overload:Engine.Core.Maths.Matrix.Operation
+  href: Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_Operation_Engine_Core_Maths_IMatrix_Engine_Core_Maths_MatrixOperation_System_Single_
+  name: Operation
+  nameWithType: Matrix.Operation
+  fullName: Engine.Core.Maths.Matrix.Operation
+- uid: Engine.Core.Maths.IMatrix.Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
+  commentId: M:Engine.Core.Maths.IMatrix.Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
+  parent: Engine.Core.Maths.IMatrix
+  isExternal: true
+  href: Engine.Core.Maths.IMatrix.html#Engine_Core_Maths_IMatrix_Operation_Engine_Core_Maths_IMatrix_Engine_Core_Maths_MatrixOperation_System_Single_
+  name: Operation(IMatrix, MatrixOperation, float)
+  nameWithType: IMatrix.Operation(IMatrix, MatrixOperation, float)
+  fullName: Engine.Core.Maths.IMatrix.Operation(Engine.Core.Maths.IMatrix, Engine.Core.Maths.MatrixOperation, float)
+  nameWithType.vb: IMatrix.Operation(IMatrix, MatrixOperation, Single)
+  fullName.vb: Engine.Core.Maths.IMatrix.Operation(Engine.Core.Maths.IMatrix, Engine.Core.Maths.MatrixOperation, Single)
+  name.vb: Operation(IMatrix, MatrixOperation, Single)
+  spec.csharp:
+  - uid: Engine.Core.Maths.IMatrix.Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
+    name: Operation
+    href: Engine.Core.Maths.IMatrix.html#Engine_Core_Maths_IMatrix_Operation_Engine_Core_Maths_IMatrix_Engine_Core_Maths_MatrixOperation_System_Single_
+  - name: (
+  - uid: Engine.Core.Maths.IMatrix
+    name: IMatrix
+    href: Engine.Core.Maths.IMatrix.html
+  - name: ','
+  - name: " "
+  - uid: Engine.Core.Maths.MatrixOperation
+    name: MatrixOperation
+    href: Engine.Core.Maths.MatrixOperation.html
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  spec.vb:
+  - uid: Engine.Core.Maths.IMatrix.Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
+    name: Operation
+    href: Engine.Core.Maths.IMatrix.html#Engine_Core_Maths_IMatrix_Operation_Engine_Core_Maths_IMatrix_Engine_Core_Maths_MatrixOperation_System_Single_
+  - name: (
+  - uid: Engine.Core.Maths.IMatrix
+    name: IMatrix
+    href: Engine.Core.Maths.IMatrix.html
+  - name: ','
+  - name: " "
+  - uid: Engine.Core.Maths.MatrixOperation
+    name: MatrixOperation
+    href: Engine.Core.Maths.MatrixOperation.html
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: Engine.Core.Maths.MatrixOperation
+  commentId: T:Engine.Core.Maths.MatrixOperation
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.MatrixOperation.html
+  name: MatrixOperation
+  nameWithType: MatrixOperation
+  fullName: Engine.Core.Maths.MatrixOperation
+- uid: Engine.Core.Maths.Matrix.RowOperation*
+  commentId: Overload:Engine.Core.Maths.Matrix.RowOperation
+  href: Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_RowOperation_System_Int32_System_Int32_Engine_Core_Maths_MatrixOperation_System_Single_
+  name: RowOperation
+  nameWithType: Matrix.RowOperation
+  fullName: Engine.Core.Maths.Matrix.RowOperation
+- uid: Engine.Core.Maths.IMatrix.RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+  commentId: M:Engine.Core.Maths.IMatrix.RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+  parent: Engine.Core.Maths.IMatrix
+  isExternal: true
+  href: Engine.Core.Maths.IMatrix.html#Engine_Core_Maths_IMatrix_RowOperation_System_Int32_System_Int32_Engine_Core_Maths_MatrixOperation_System_Single_
+  name: RowOperation(int, int, MatrixOperation, float)
+  nameWithType: IMatrix.RowOperation(int, int, MatrixOperation, float)
+  fullName: Engine.Core.Maths.IMatrix.RowOperation(int, int, Engine.Core.Maths.MatrixOperation, float)
+  nameWithType.vb: IMatrix.RowOperation(Integer, Integer, MatrixOperation, Single)
+  fullName.vb: Engine.Core.Maths.IMatrix.RowOperation(Integer, Integer, Engine.Core.Maths.MatrixOperation, Single)
+  name.vb: RowOperation(Integer, Integer, MatrixOperation, Single)
+  spec.csharp:
+  - uid: Engine.Core.Maths.IMatrix.RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+    name: RowOperation
+    href: Engine.Core.Maths.IMatrix.html#Engine_Core_Maths_IMatrix_RowOperation_System_Int32_System_Int32_Engine_Core_Maths_MatrixOperation_System_Single_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: Engine.Core.Maths.MatrixOperation
+    name: MatrixOperation
+    href: Engine.Core.Maths.MatrixOperation.html
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  spec.vb:
+  - uid: Engine.Core.Maths.IMatrix.RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+    name: RowOperation
+    href: Engine.Core.Maths.IMatrix.html#Engine_Core_Maths_IMatrix_RowOperation_System_Int32_System_Int32_Engine_Core_Maths_MatrixOperation_System_Single_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: Engine.Core.Maths.MatrixOperation
+    name: MatrixOperation
+    href: Engine.Core.Maths.MatrixOperation.html
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: Engine.Core.Maths.Matrix.SwapRows*
+  commentId: Overload:Engine.Core.Maths.Matrix.SwapRows
+  href: Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_SwapRows_System_Int32_System_Int32_
+  name: SwapRows
+  nameWithType: Matrix.SwapRows
+  fullName: Engine.Core.Maths.Matrix.SwapRows
+- uid: Engine.Core.Maths.IMatrix.SwapRows(System.Int32,System.Int32)
+  commentId: M:Engine.Core.Maths.IMatrix.SwapRows(System.Int32,System.Int32)
+  parent: Engine.Core.Maths.IMatrix
+  isExternal: true
+  href: Engine.Core.Maths.IMatrix.html#Engine_Core_Maths_IMatrix_SwapRows_System_Int32_System_Int32_
+  name: SwapRows(int, int)
+  nameWithType: IMatrix.SwapRows(int, int)
+  fullName: Engine.Core.Maths.IMatrix.SwapRows(int, int)
+  nameWithType.vb: IMatrix.SwapRows(Integer, Integer)
+  fullName.vb: Engine.Core.Maths.IMatrix.SwapRows(Integer, Integer)
+  name.vb: SwapRows(Integer, Integer)
+  spec.csharp:
+  - uid: Engine.Core.Maths.IMatrix.SwapRows(System.Int32,System.Int32)
+    name: SwapRows
+    href: Engine.Core.Maths.IMatrix.html#Engine_Core_Maths_IMatrix_SwapRows_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Engine.Core.Maths.IMatrix.SwapRows(System.Int32,System.Int32)
+    name: SwapRows
+    href: Engine.Core.Maths.IMatrix.html#Engine_Core_Maths_IMatrix_SwapRows_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Engine.Core.Maths.Matrix.GetIdentityMatrix*
+  commentId: Overload:Engine.Core.Maths.Matrix.GetIdentityMatrix
+  href: Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_GetIdentityMatrix__1_System_Int32___0__
+  name: GetIdentityMatrix
+  nameWithType: Matrix.GetIdentityMatrix
+  fullName: Engine.Core.Maths.Matrix.GetIdentityMatrix
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Engine.Core.Maths.Matrix.GetInverse*
+  commentId: Overload:Engine.Core.Maths.Matrix.GetInverse
+  href: Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_GetInverse__1___0___0__
+  name: GetInverse
+  nameWithType: Matrix.GetInverse
+  fullName: Engine.Core.Maths.Matrix.GetInverse

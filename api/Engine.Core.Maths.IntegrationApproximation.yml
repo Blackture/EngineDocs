@@ -1,0 +1,147 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Maths.IntegrationApproximation
+  commentId: T:Engine.Core.Maths.IntegrationApproximation
+  id: IntegrationApproximation
+  parent: Engine.Core.Maths
+  children:
+  - Engine.Core.Maths.IntegrationApproximation.MidpointRile
+  - Engine.Core.Maths.IntegrationApproximation.SimpsonsRule
+  - Engine.Core.Maths.IntegrationApproximation.TrapezoidalRule
+  langs:
+  - csharp
+  - vb
+  name: IntegrationApproximation
+  nameWithType: IntegrationApproximation
+  fullName: Engine.Core.Maths.IntegrationApproximation
+  type: Enum
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: IntegrationApproximation
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 83
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public enum IntegrationApproximation
+    content.vb: Public Enum IntegrationApproximation
+- uid: Engine.Core.Maths.IntegrationApproximation.TrapezoidalRule
+  commentId: F:Engine.Core.Maths.IntegrationApproximation.TrapezoidalRule
+  id: TrapezoidalRule
+  parent: Engine.Core.Maths.IntegrationApproximation
+  langs:
+  - csharp
+  - vb
+  name: TrapezoidalRule
+  nameWithType: IntegrationApproximation.TrapezoidalRule
+  fullName: Engine.Core.Maths.IntegrationApproximation.TrapezoidalRule
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: TrapezoidalRule
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 85
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: TrapezoidalRule = 0
+    return:
+      type: Engine.Core.Maths.IntegrationApproximation
+- uid: Engine.Core.Maths.IntegrationApproximation.SimpsonsRule
+  commentId: F:Engine.Core.Maths.IntegrationApproximation.SimpsonsRule
+  id: SimpsonsRule
+  parent: Engine.Core.Maths.IntegrationApproximation
+  langs:
+  - csharp
+  - vb
+  name: SimpsonsRule
+  nameWithType: IntegrationApproximation.SimpsonsRule
+  fullName: Engine.Core.Maths.IntegrationApproximation.SimpsonsRule
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: SimpsonsRule
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 86
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: SimpsonsRule = 1
+    return:
+      type: Engine.Core.Maths.IntegrationApproximation
+- uid: Engine.Core.Maths.IntegrationApproximation.MidpointRile
+  commentId: F:Engine.Core.Maths.IntegrationApproximation.MidpointRile
+  id: MidpointRile
+  parent: Engine.Core.Maths.IntegrationApproximation
+  langs:
+  - csharp
+  - vb
+  name: MidpointRile
+  nameWithType: IntegrationApproximation.MidpointRile
+  fullName: Engine.Core.Maths.IntegrationApproximation.MidpointRile
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: MidpointRile
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 87
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: MidpointRile = 2
+    return:
+      type: Engine.Core.Maths.IntegrationApproximation
+references:
+- uid: Engine.Core.Maths
+  commentId: N:Engine.Core.Maths
+  href: Engine.html
+  name: Engine.Core.Maths
+  nameWithType: Engine.Core.Maths
+  fullName: Engine.Core.Maths
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+- uid: Engine.Core.Maths.IntegrationApproximation
+  commentId: T:Engine.Core.Maths.IntegrationApproximation
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.IntegrationApproximation.html
+  name: IntegrationApproximation
+  nameWithType: IntegrationApproximation
+  fullName: Engine.Core.Maths.IntegrationApproximation

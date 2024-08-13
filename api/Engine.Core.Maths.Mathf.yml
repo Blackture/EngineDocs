@@ -1,0 +1,3003 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Maths.Mathf
+  commentId: T:Engine.Core.Maths.Mathf
+  id: Mathf
+  parent: Engine.Core.Maths
+  children:
+  - Engine.Core.Maths.Mathf.Abs(System.Single)
+  - Engine.Core.Maths.Mathf.Acos(System.Single)
+  - Engine.Core.Maths.Mathf.Approximately(System.Single,System.Single)
+  - Engine.Core.Maths.Mathf.Approximately(System.Single,System.Single,System.Single)
+  - Engine.Core.Maths.Mathf.Asin(System.Single)
+  - Engine.Core.Maths.Mathf.Atan(System.Single)
+  - Engine.Core.Maths.Mathf.Atan2(System.Single,System.Single)
+  - Engine.Core.Maths.Mathf.Ceiling(System.Single)
+  - Engine.Core.Maths.Mathf.Cos(System.Single)
+  - Engine.Core.Maths.Mathf.Cosh(System.Single)
+  - Engine.Core.Maths.Mathf.CosinePiQuarter
+  - Engine.Core.Maths.Mathf.Cot(System.Single)
+  - Engine.Core.Maths.Mathf.Csc(System.Single)
+  - Engine.Core.Maths.Mathf.Deg2Rad(System.Single)
+  - Engine.Core.Maths.Mathf.Exp(System.Single)
+  - Engine.Core.Maths.Mathf.Factorial(System.Int32)
+  - Engine.Core.Maths.Mathf.FactorialHelper(System.Int32,System.Int32)
+  - Engine.Core.Maths.Mathf.FactorialR(System.Int32)
+  - Engine.Core.Maths.Mathf.Floor(System.Single)
+  - Engine.Core.Maths.Mathf.Gamma(System.Single)
+  - Engine.Core.Maths.Mathf.IEEERemainder(System.Single,System.Single)
+  - Engine.Core.Maths.Mathf.Integral(Engine.Core.Maths.Limits,System.Single,System.Func{System.Single,System.Single},Engine.Core.Maths.IntegrationApproximation)
+  - Engine.Core.Maths.Mathf.Log(System.Single)
+  - Engine.Core.Maths.Mathf.Log(System.Single,System.Single)
+  - Engine.Core.Maths.Mathf.Log10(System.Single)
+  - Engine.Core.Maths.Mathf.Max(System.Single,System.Single)
+  - Engine.Core.Maths.Mathf.Min(System.Single,System.Single)
+  - Engine.Core.Maths.Mathf.NthSqrt(System.Single,System.Int32)
+  - Engine.Core.Maths.Mathf.Pi(System.Func{System.Single,System.Single},System.Int32,System.Int32)
+  - Engine.Core.Maths.Mathf.Pi(System.Func{System.Single,System.Single},System.Single,System.Single,System.Single)
+  - Engine.Core.Maths.Mathf.PiHalf
+  - Engine.Core.Maths.Mathf.PiQuarter
+  - Engine.Core.Maths.Mathf.Pow(System.Single,System.Single)
+  - Engine.Core.Maths.Mathf.Rad2Deg(System.Single)
+  - Engine.Core.Maths.Mathf.Round(System.Single)
+  - Engine.Core.Maths.Mathf.Round(System.Single,System.Int32)
+  - Engine.Core.Maths.Mathf.Round(System.Single,System.Int32,System.MidpointRounding)
+  - Engine.Core.Maths.Mathf.RoundToInt(System.Single)
+  - Engine.Core.Maths.Mathf.Sec(System.Single)
+  - Engine.Core.Maths.Mathf.Sigma(System.Func{System.Single,System.Single},System.Int32,System.Int32)
+  - Engine.Core.Maths.Mathf.Sigma(System.Func{System.Single,System.Single},System.Single,System.Single,System.Single)
+  - Engine.Core.Maths.Mathf.Sigma(System.Single[])
+  - Engine.Core.Maths.Mathf.SigmaPow(System.Single,System.Collections.Generic.List{System.Single})
+  - Engine.Core.Maths.Mathf.SigmaPow(System.Single,System.Single[])
+  - Engine.Core.Maths.Mathf.SigmaR(System.Collections.Generic.List{System.Single})
+  - Engine.Core.Maths.Mathf.SigmaR(System.Func{System.Single,System.Single},System.Int32,System.Int32,System.Single)
+  - Engine.Core.Maths.Mathf.SigmaR(System.Single[])
+  - Engine.Core.Maths.Mathf.SigmaR_PowElements(System.Single,System.Collections.Generic.List{System.Single})
+  - Engine.Core.Maths.Mathf.SigmaR_PowElements(System.Single,System.Single[])
+  - Engine.Core.Maths.Mathf.Sign(System.Single)
+  - Engine.Core.Maths.Mathf.Sin(System.Single)
+  - Engine.Core.Maths.Mathf.Sinc(System.Single,System.Boolean)
+  - Engine.Core.Maths.Mathf.SinePiQuarter
+  - Engine.Core.Maths.Mathf.Sinh(System.Single)
+  - Engine.Core.Maths.Mathf.Sqrt(System.Single)
+  - Engine.Core.Maths.Mathf.Tan(System.Single)
+  - Engine.Core.Maths.Mathf.Tanh(System.Single)
+  - Engine.Core.Maths.Mathf.Truncate(System.Single)
+  - Engine.Core.Maths.Mathf.e
+  - Engine.Core.Maths.Mathf.pi
+  langs:
+  - csharp
+  - vb
+  name: Mathf
+  nameWithType: Mathf
+  fullName: Engine.Core.Maths.Mathf
+  type: Class
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Mathf
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 10
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static class Mathf
+    content.vb: Public Module Mathf
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: Engine.Core.Maths.Mathf.PiQuarter
+  commentId: F:Engine.Core.Maths.Mathf.PiQuarter
+  id: PiQuarter
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: PiQuarter
+  nameWithType: Mathf.PiQuarter
+  fullName: Engine.Core.Maths.Mathf.PiQuarter
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: PiQuarter
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 12
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static readonly float PiQuarter
+    return:
+      type: System.Single
+    content.vb: Public Shared ReadOnly PiQuarter As Single
+- uid: Engine.Core.Maths.Mathf.PiHalf
+  commentId: F:Engine.Core.Maths.Mathf.PiHalf
+  id: PiHalf
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: PiHalf
+  nameWithType: Mathf.PiHalf
+  fullName: Engine.Core.Maths.Mathf.PiHalf
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: PiHalf
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 13
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static readonly float PiHalf
+    return:
+      type: System.Single
+    content.vb: Public Shared ReadOnly PiHalf As Single
+- uid: Engine.Core.Maths.Mathf.SinePiQuarter
+  commentId: F:Engine.Core.Maths.Mathf.SinePiQuarter
+  id: SinePiQuarter
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: SinePiQuarter
+  nameWithType: Mathf.SinePiQuarter
+  fullName: Engine.Core.Maths.Mathf.SinePiQuarter
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: SinePiQuarter
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 15
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static readonly float SinePiQuarter
+    return:
+      type: System.Single
+    content.vb: Public Shared ReadOnly SinePiQuarter As Single
+- uid: Engine.Core.Maths.Mathf.CosinePiQuarter
+  commentId: F:Engine.Core.Maths.Mathf.CosinePiQuarter
+  id: CosinePiQuarter
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: CosinePiQuarter
+  nameWithType: Mathf.CosinePiQuarter
+  fullName: Engine.Core.Maths.Mathf.CosinePiQuarter
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: CosinePiQuarter
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 16
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static readonly float CosinePiQuarter
+    return:
+      type: System.Single
+    content.vb: Public Shared ReadOnly CosinePiQuarter As Single
+- uid: Engine.Core.Maths.Mathf.e
+  commentId: F:Engine.Core.Maths.Mathf.e
+  id: e
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: e
+  nameWithType: Mathf.e
+  fullName: Engine.Core.Maths.Mathf.e
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: e
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 18
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public const float e = 2.7182817
+    return:
+      type: System.Single
+    content.vb: Public Const e As Single = 2.7182817
+- uid: Engine.Core.Maths.Mathf.pi
+  commentId: F:Engine.Core.Maths.Mathf.pi
+  id: pi
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: pi
+  nameWithType: Mathf.pi
+  fullName: Engine.Core.Maths.Mathf.pi
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: pi
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 19
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public const float pi = 3.1415927
+    return:
+      type: System.Single
+    content.vb: Public Const pi As Single = 3.1415927
+- uid: Engine.Core.Maths.Mathf.Acos(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Acos(System.Single)
+  id: Acos(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Acos(float)
+  nameWithType: Mathf.Acos(float)
+  fullName: Engine.Core.Maths.Mathf.Acos(float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Acos
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 30
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Acos(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Acos(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Acos*
+  nameWithType.vb: Mathf.Acos(Single)
+  fullName.vb: Engine.Core.Maths.Mathf.Acos(Single)
+  name.vb: Acos(Single)
+- uid: Engine.Core.Maths.Mathf.Asin(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Asin(System.Single)
+  id: Asin(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Asin(float)
+  nameWithType: Mathf.Asin(float)
+  fullName: Engine.Core.Maths.Mathf.Asin(float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Asin
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 35
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Asin(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Asin(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Asin*
+  nameWithType.vb: Mathf.Asin(Single)
+  fullName.vb: Engine.Core.Maths.Mathf.Asin(Single)
+  name.vb: Asin(Single)
+- uid: Engine.Core.Maths.Mathf.Atan(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Atan(System.Single)
+  id: Atan(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Atan(float)
+  nameWithType: Mathf.Atan(float)
+  fullName: Engine.Core.Maths.Mathf.Atan(float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Atan
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 40
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Atan(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Atan(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Atan*
+  nameWithType.vb: Mathf.Atan(Single)
+  fullName.vb: Engine.Core.Maths.Mathf.Atan(Single)
+  name.vb: Atan(Single)
+- uid: Engine.Core.Maths.Mathf.Abs(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Abs(System.Single)
+  id: Abs(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Abs(float)
+  nameWithType: Mathf.Abs(float)
+  fullName: Engine.Core.Maths.Mathf.Abs(float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Abs
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 45
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Abs(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Abs(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Abs*
+  nameWithType.vb: Mathf.Abs(Single)
+  fullName.vb: Engine.Core.Maths.Mathf.Abs(Single)
+  name.vb: Abs(Single)
+- uid: Engine.Core.Maths.Mathf.Atan2(System.Single,System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Atan2(System.Single,System.Single)
+  id: Atan2(System.Single,System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Atan2(float, float)
+  nameWithType: Mathf.Atan2(float, float)
+  fullName: Engine.Core.Maths.Mathf.Atan2(float, float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Atan2
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 50
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Atan2(float x, float y)
+    parameters:
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Atan2(x As Single, y As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Atan2*
+  nameWithType.vb: Mathf.Atan2(Single, Single)
+  fullName.vb: Engine.Core.Maths.Mathf.Atan2(Single, Single)
+  name.vb: Atan2(Single, Single)
+- uid: Engine.Core.Maths.Mathf.Ceiling(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Ceiling(System.Single)
+  id: Ceiling(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Ceiling(float)
+  nameWithType: Mathf.Ceiling(float)
+  fullName: Engine.Core.Maths.Mathf.Ceiling(float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Ceiling
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 55
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Ceiling(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Ceiling(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Ceiling*
+  nameWithType.vb: Mathf.Ceiling(Single)
+  fullName.vb: Engine.Core.Maths.Mathf.Ceiling(Single)
+  name.vb: Ceiling(Single)
+- uid: Engine.Core.Maths.Mathf.Cos(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Cos(System.Single)
+  id: Cos(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Cos(float)
+  nameWithType: Mathf.Cos(float)
+  fullName: Engine.Core.Maths.Mathf.Cos(float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Cos
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 60
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Cos(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Cos(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Cos*
+  nameWithType.vb: Mathf.Cos(Single)
+  fullName.vb: Engine.Core.Maths.Mathf.Cos(Single)
+  name.vb: Cos(Single)
+- uid: Engine.Core.Maths.Mathf.Cosh(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Cosh(System.Single)
+  id: Cosh(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Cosh(float)
+  nameWithType: Mathf.Cosh(float)
+  fullName: Engine.Core.Maths.Mathf.Cosh(float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Cosh
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 65
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Cosh(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Cosh(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Cosh*
+  nameWithType.vb: Mathf.Cosh(Single)
+  fullName.vb: Engine.Core.Maths.Mathf.Cosh(Single)
+  name.vb: Cosh(Single)
+- uid: Engine.Core.Maths.Mathf.Cot(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Cot(System.Single)
+  id: Cot(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Cot(float)
+  nameWithType: Mathf.Cot(float)
+  fullName: Engine.Core.Maths.Mathf.Cot(float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Cot
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 70
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Cot(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Cot(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Cot*
+  nameWithType.vb: Mathf.Cot(Single)
+  fullName.vb: Engine.Core.Maths.Mathf.Cot(Single)
+  name.vb: Cot(Single)
+- uid: Engine.Core.Maths.Mathf.Sec(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Sec(System.Single)
+  id: Sec(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Sec(float)
+  nameWithType: Mathf.Sec(float)
+  fullName: Engine.Core.Maths.Mathf.Sec(float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Sec
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 75
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Sec(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Sec(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Sec*
+  nameWithType.vb: Mathf.Sec(Single)
+  fullName.vb: Engine.Core.Maths.Mathf.Sec(Single)
+  name.vb: Sec(Single)
+- uid: Engine.Core.Maths.Mathf.Csc(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Csc(System.Single)
+  id: Csc(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Csc(float)
+  nameWithType: Mathf.Csc(float)
+  fullName: Engine.Core.Maths.Mathf.Csc(float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Csc
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 79
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Csc(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Csc(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Csc*
+  nameWithType.vb: Mathf.Csc(Single)
+  fullName.vb: Engine.Core.Maths.Mathf.Csc(Single)
+  name.vb: Csc(Single)
+- uid: Engine.Core.Maths.Mathf.Exp(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Exp(System.Single)
+  id: Exp(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Exp(float)
+  nameWithType: Mathf.Exp(float)
+  fullName: Engine.Core.Maths.Mathf.Exp(float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Exp
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 84
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Exp(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Exp(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Exp*
+  nameWithType.vb: Mathf.Exp(Single)
+  fullName.vb: Engine.Core.Maths.Mathf.Exp(Single)
+  name.vb: Exp(Single)
+- uid: Engine.Core.Maths.Mathf.Floor(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Floor(System.Single)
+  id: Floor(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Floor(float)
+  nameWithType: Mathf.Floor(float)
+  fullName: Engine.Core.Maths.Mathf.Floor(float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Floor
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 89
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Floor(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Floor(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Floor*
+  nameWithType.vb: Mathf.Floor(Single)
+  fullName.vb: Engine.Core.Maths.Mathf.Floor(Single)
+  name.vb: Floor(Single)
+- uid: Engine.Core.Maths.Mathf.IEEERemainder(System.Single,System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.IEEERemainder(System.Single,System.Single)
+  id: IEEERemainder(System.Single,System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: IEEERemainder(float, float)
+  nameWithType: Mathf.IEEERemainder(float, float)
+  fullName: Engine.Core.Maths.Mathf.IEEERemainder(float, float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: IEEERemainder
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 94
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float IEEERemainder(float x, float y)
+    parameters:
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function IEEERemainder(x As Single, y As Single) As Single
+  overload: Engine.Core.Maths.Mathf.IEEERemainder*
+  nameWithType.vb: Mathf.IEEERemainder(Single, Single)
+  fullName.vb: Engine.Core.Maths.Mathf.IEEERemainder(Single, Single)
+  name.vb: IEEERemainder(Single, Single)
+- uid: Engine.Core.Maths.Mathf.Log(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Log(System.Single)
+  id: Log(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Log(float)
+  nameWithType: Mathf.Log(float)
+  fullName: Engine.Core.Maths.Mathf.Log(float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Log
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 99
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Log(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Log(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Log*
+  nameWithType.vb: Mathf.Log(Single)
+  fullName.vb: Engine.Core.Maths.Mathf.Log(Single)
+  name.vb: Log(Single)
+- uid: Engine.Core.Maths.Mathf.Log(System.Single,System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Log(System.Single,System.Single)
+  id: Log(System.Single,System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Log(float, float)
+  nameWithType: Mathf.Log(float, float)
+  fullName: Engine.Core.Maths.Mathf.Log(float, float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Log
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 104
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Log(float f, float newBase)
+    parameters:
+    - id: f
+      type: System.Single
+    - id: newBase
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Log(f As Single, newBase As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Log*
+  nameWithType.vb: Mathf.Log(Single, Single)
+  fullName.vb: Engine.Core.Maths.Mathf.Log(Single, Single)
+  name.vb: Log(Single, Single)
+- uid: Engine.Core.Maths.Mathf.Log10(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Log10(System.Single)
+  id: Log10(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Log10(float)
+  nameWithType: Mathf.Log10(float)
+  fullName: Engine.Core.Maths.Mathf.Log10(float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Log10
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 109
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Log10(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Log10(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Log10*
+  nameWithType.vb: Mathf.Log10(Single)
+  fullName.vb: Engine.Core.Maths.Mathf.Log10(Single)
+  name.vb: Log10(Single)
+- uid: Engine.Core.Maths.Mathf.Max(System.Single,System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Max(System.Single,System.Single)
+  id: Max(System.Single,System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Max(float, float)
+  nameWithType: Mathf.Max(float, float)
+  fullName: Engine.Core.Maths.Mathf.Max(float, float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Max
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 114
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Max(float val1, float val2)
+    parameters:
+    - id: val1
+      type: System.Single
+    - id: val2
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Max(val1 As Single, val2 As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Max*
+  nameWithType.vb: Mathf.Max(Single, Single)
+  fullName.vb: Engine.Core.Maths.Mathf.Max(Single, Single)
+  name.vb: Max(Single, Single)
+- uid: Engine.Core.Maths.Mathf.Min(System.Single,System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Min(System.Single,System.Single)
+  id: Min(System.Single,System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Min(float, float)
+  nameWithType: Mathf.Min(float, float)
+  fullName: Engine.Core.Maths.Mathf.Min(float, float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Min
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 119
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Min(float val1, float val2)
+    parameters:
+    - id: val1
+      type: System.Single
+    - id: val2
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Min(val1 As Single, val2 As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Min*
+  nameWithType.vb: Mathf.Min(Single, Single)
+  fullName.vb: Engine.Core.Maths.Mathf.Min(Single, Single)
+  name.vb: Min(Single, Single)
+- uid: Engine.Core.Maths.Mathf.Pow(System.Single,System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Pow(System.Single,System.Single)
+  id: Pow(System.Single,System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Pow(float, float)
+  nameWithType: Mathf.Pow(float, float)
+  fullName: Engine.Core.Maths.Mathf.Pow(float, float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Pow
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 124
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Pow(float b, float p)
+    parameters:
+    - id: b
+      type: System.Single
+    - id: p
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Pow(b As Single, p As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Pow*
+  nameWithType.vb: Mathf.Pow(Single, Single)
+  fullName.vb: Engine.Core.Maths.Mathf.Pow(Single, Single)
+  name.vb: Pow(Single, Single)
+- uid: Engine.Core.Maths.Mathf.Round(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Round(System.Single)
+  id: Round(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Round(float)
+  nameWithType: Mathf.Round(float)
+  fullName: Engine.Core.Maths.Mathf.Round(float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Round
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 129
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Round(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Round(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Round*
+  nameWithType.vb: Mathf.Round(Single)
+  fullName.vb: Engine.Core.Maths.Mathf.Round(Single)
+  name.vb: Round(Single)
+- uid: Engine.Core.Maths.Mathf.Round(System.Single,System.Int32)
+  commentId: M:Engine.Core.Maths.Mathf.Round(System.Single,System.Int32)
+  id: Round(System.Single,System.Int32)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Round(float, int)
+  nameWithType: Mathf.Round(float, int)
+  fullName: Engine.Core.Maths.Mathf.Round(float, int)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Round
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 134
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Round(float f, int digits)
+    parameters:
+    - id: f
+      type: System.Single
+    - id: digits
+      type: System.Int32
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Round(f As Single, digits As Integer) As Single
+  overload: Engine.Core.Maths.Mathf.Round*
+  nameWithType.vb: Mathf.Round(Single, Integer)
+  fullName.vb: Engine.Core.Maths.Mathf.Round(Single, Integer)
+  name.vb: Round(Single, Integer)
+- uid: Engine.Core.Maths.Mathf.Round(System.Single,System.Int32,System.MidpointRounding)
+  commentId: M:Engine.Core.Maths.Mathf.Round(System.Single,System.Int32,System.MidpointRounding)
+  id: Round(System.Single,System.Int32,System.MidpointRounding)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Round(float, int, MidpointRounding)
+  nameWithType: Mathf.Round(float, int, MidpointRounding)
+  fullName: Engine.Core.Maths.Mathf.Round(float, int, System.MidpointRounding)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Round
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 139
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Round(float f, int digits, MidpointRounding midpointRounding)
+    parameters:
+    - id: f
+      type: System.Single
+    - id: digits
+      type: System.Int32
+    - id: midpointRounding
+      type: System.MidpointRounding
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Round(f As Single, digits As Integer, midpointRounding As MidpointRounding) As Single
+  overload: Engine.Core.Maths.Mathf.Round*
+  nameWithType.vb: Mathf.Round(Single, Integer, MidpointRounding)
+  fullName.vb: Engine.Core.Maths.Mathf.Round(Single, Integer, System.MidpointRounding)
+  name.vb: Round(Single, Integer, MidpointRounding)
+- uid: Engine.Core.Maths.Mathf.RoundToInt(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.RoundToInt(System.Single)
+  id: RoundToInt(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: RoundToInt(float)
+  nameWithType: Mathf.RoundToInt(float)
+  fullName: Engine.Core.Maths.Mathf.RoundToInt(float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: RoundToInt
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 144
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static int RoundToInt(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function RoundToInt(f As Single) As Integer
+  overload: Engine.Core.Maths.Mathf.RoundToInt*
+  nameWithType.vb: Mathf.RoundToInt(Single)
+  fullName.vb: Engine.Core.Maths.Mathf.RoundToInt(Single)
+  name.vb: RoundToInt(Single)
+- uid: Engine.Core.Maths.Mathf.Sign(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Sign(System.Single)
+  id: Sign(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Sign(float)
+  nameWithType: Mathf.Sign(float)
+  fullName: Engine.Core.Maths.Mathf.Sign(float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Sign
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 149
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static int Sign(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function Sign(f As Single) As Integer
+  overload: Engine.Core.Maths.Mathf.Sign*
+  nameWithType.vb: Mathf.Sign(Single)
+  fullName.vb: Engine.Core.Maths.Mathf.Sign(Single)
+  name.vb: Sign(Single)
+- uid: Engine.Core.Maths.Mathf.Sin(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Sin(System.Single)
+  id: Sin(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Sin(float)
+  nameWithType: Mathf.Sin(float)
+  fullName: Engine.Core.Maths.Mathf.Sin(float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Sin
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 154
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Sin(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Sin(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Sin*
+  nameWithType.vb: Mathf.Sin(Single)
+  fullName.vb: Engine.Core.Maths.Mathf.Sin(Single)
+  name.vb: Sin(Single)
+- uid: Engine.Core.Maths.Mathf.Sinh(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Sinh(System.Single)
+  id: Sinh(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Sinh(float)
+  nameWithType: Mathf.Sinh(float)
+  fullName: Engine.Core.Maths.Mathf.Sinh(float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Sinh
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 159
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Sinh(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Sinh(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Sinh*
+  nameWithType.vb: Mathf.Sinh(Single)
+  fullName.vb: Engine.Core.Maths.Mathf.Sinh(Single)
+  name.vb: Sinh(Single)
+- uid: Engine.Core.Maths.Mathf.Sqrt(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Sqrt(System.Single)
+  id: Sqrt(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Sqrt(float)
+  nameWithType: Mathf.Sqrt(float)
+  fullName: Engine.Core.Maths.Mathf.Sqrt(float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Sqrt
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 164
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Sqrt(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Sqrt(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Sqrt*
+  nameWithType.vb: Mathf.Sqrt(Single)
+  fullName.vb: Engine.Core.Maths.Mathf.Sqrt(Single)
+  name.vb: Sqrt(Single)
+- uid: Engine.Core.Maths.Mathf.NthSqrt(System.Single,System.Int32)
+  commentId: M:Engine.Core.Maths.Mathf.NthSqrt(System.Single,System.Int32)
+  id: NthSqrt(System.Single,System.Int32)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: NthSqrt(float, int)
+  nameWithType: Mathf.NthSqrt(float, int)
+  fullName: Engine.Core.Maths.Mathf.NthSqrt(float, int)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: NthSqrt
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 170
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float NthSqrt(float f, int n)
+    parameters:
+    - id: f
+      type: System.Single
+    - id: n
+      type: System.Int32
+    return:
+      type: System.Single
+    content.vb: Public Shared Function NthSqrt(f As Single, n As Integer) As Single
+  overload: Engine.Core.Maths.Mathf.NthSqrt*
+  nameWithType.vb: Mathf.NthSqrt(Single, Integer)
+  fullName.vb: Engine.Core.Maths.Mathf.NthSqrt(Single, Integer)
+  name.vb: NthSqrt(Single, Integer)
+- uid: Engine.Core.Maths.Mathf.Tan(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Tan(System.Single)
+  id: Tan(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Tan(float)
+  nameWithType: Mathf.Tan(float)
+  fullName: Engine.Core.Maths.Mathf.Tan(float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Tan
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 175
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Tan(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Tan(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Tan*
+  nameWithType.vb: Mathf.Tan(Single)
+  fullName.vb: Engine.Core.Maths.Mathf.Tan(Single)
+  name.vb: Tan(Single)
+- uid: Engine.Core.Maths.Mathf.Tanh(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Tanh(System.Single)
+  id: Tanh(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Tanh(float)
+  nameWithType: Mathf.Tanh(float)
+  fullName: Engine.Core.Maths.Mathf.Tanh(float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Tanh
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 180
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Tanh(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Tanh(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Tanh*
+  nameWithType.vb: Mathf.Tanh(Single)
+  fullName.vb: Engine.Core.Maths.Mathf.Tanh(Single)
+  name.vb: Tanh(Single)
+- uid: Engine.Core.Maths.Mathf.Truncate(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Truncate(System.Single)
+  id: Truncate(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Truncate(float)
+  nameWithType: Mathf.Truncate(float)
+  fullName: Engine.Core.Maths.Mathf.Truncate(float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Truncate
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 185
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Truncate(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Truncate(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Truncate*
+  nameWithType.vb: Mathf.Truncate(Single)
+  fullName.vb: Engine.Core.Maths.Mathf.Truncate(Single)
+  name.vb: Truncate(Single)
+- uid: Engine.Core.Maths.Mathf.Pi(System.Func{System.Single,System.Single},System.Int32,System.Int32)
+  commentId: M:Engine.Core.Maths.Mathf.Pi(System.Func{System.Single,System.Single},System.Int32,System.Int32)
+  id: Pi(System.Func{System.Single,System.Single},System.Int32,System.Int32)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Pi(Func<float, float>, int, int)
+  nameWithType: Mathf.Pi(Func<float, float>, int, int)
+  fullName: Engine.Core.Maths.Mathf.Pi(System.Func<float, float>, int, int)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Pi
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 190
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Pi(Func<float, float> innerFunction, int limit1, int limit2)
+    parameters:
+    - id: innerFunction
+      type: System.Func{System.Single,System.Single}
+    - id: limit1
+      type: System.Int32
+    - id: limit2
+      type: System.Int32
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Pi(innerFunction As Func(Of Single, Single), limit1 As Integer, limit2 As Integer) As Single
+  overload: Engine.Core.Maths.Mathf.Pi*
+  nameWithType.vb: Mathf.Pi(Func(Of Single, Single), Integer, Integer)
+  fullName.vb: Engine.Core.Maths.Mathf.Pi(System.Func(Of Single, Single), Integer, Integer)
+  name.vb: Pi(Func(Of Single, Single), Integer, Integer)
+- uid: Engine.Core.Maths.Mathf.Pi(System.Func{System.Single,System.Single},System.Single,System.Single,System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Pi(System.Func{System.Single,System.Single},System.Single,System.Single,System.Single)
+  id: Pi(System.Func{System.Single,System.Single},System.Single,System.Single,System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Pi(Func<float, float>, float, float, float)
+  nameWithType: Mathf.Pi(Func<float, float>, float, float, float)
+  fullName: Engine.Core.Maths.Mathf.Pi(System.Func<float, float>, float, float, float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Pi
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 200
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Pi(Func<float, float> innerFunction, float limit1, float limit2, float increment)
+    parameters:
+    - id: innerFunction
+      type: System.Func{System.Single,System.Single}
+    - id: limit1
+      type: System.Single
+    - id: limit2
+      type: System.Single
+    - id: increment
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Pi(innerFunction As Func(Of Single, Single), limit1 As Single, limit2 As Single, increment As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Pi*
+  nameWithType.vb: Mathf.Pi(Func(Of Single, Single), Single, Single, Single)
+  fullName.vb: Engine.Core.Maths.Mathf.Pi(System.Func(Of Single, Single), Single, Single, Single)
+  name.vb: Pi(Func(Of Single, Single), Single, Single, Single)
+- uid: Engine.Core.Maths.Mathf.Sigma(System.Func{System.Single,System.Single},System.Single,System.Single,System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Sigma(System.Func{System.Single,System.Single},System.Single,System.Single,System.Single)
+  id: Sigma(System.Func{System.Single,System.Single},System.Single,System.Single,System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Sigma(Func<float, float>, float, float, float)
+  nameWithType: Mathf.Sigma(Func<float, float>, float, float, float)
+  fullName: Engine.Core.Maths.Mathf.Sigma(System.Func<float, float>, float, float, float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Sigma
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 218
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  summary: Iterative Implementation
+  example: []
+  syntax:
+    content: public static float Sigma(Func<float, float> innerFunction, float limit1, float limit2, float increment)
+    parameters:
+    - id: innerFunction
+      type: System.Func{System.Single,System.Single}
+      description: ''
+    - id: limit1
+      type: System.Single
+      description: ''
+    - id: limit2
+      type: System.Single
+      description: ''
+    - id: increment
+      type: System.Single
+      description: ''
+    return:
+      type: System.Single
+      description: ''
+    content.vb: Public Shared Function Sigma(innerFunction As Func(Of Single, Single), limit1 As Single, limit2 As Single, increment As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Sigma*
+  nameWithType.vb: Mathf.Sigma(Func(Of Single, Single), Single, Single, Single)
+  fullName.vb: Engine.Core.Maths.Mathf.Sigma(System.Func(Of Single, Single), Single, Single, Single)
+  name.vb: Sigma(Func(Of Single, Single), Single, Single, Single)
+- uid: Engine.Core.Maths.Mathf.Sigma(System.Func{System.Single,System.Single},System.Int32,System.Int32)
+  commentId: M:Engine.Core.Maths.Mathf.Sigma(System.Func{System.Single,System.Single},System.Int32,System.Int32)
+  id: Sigma(System.Func{System.Single,System.Single},System.Int32,System.Int32)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Sigma(Func<float, float>, int, int)
+  nameWithType: Mathf.Sigma(Func<float, float>, int, int)
+  fullName: Engine.Core.Maths.Mathf.Sigma(System.Func<float, float>, int, int)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Sigma
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 234
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  summary: Iterative Implementation
+  example: []
+  syntax:
+    content: public static float Sigma(Func<float, float> innerFunction, int limit1, int limit2)
+    parameters:
+    - id: innerFunction
+      type: System.Func{System.Single,System.Single}
+      description: ''
+    - id: limit1
+      type: System.Int32
+      description: ''
+    - id: limit2
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Single
+      description: ''
+    content.vb: Public Shared Function Sigma(innerFunction As Func(Of Single, Single), limit1 As Integer, limit2 As Integer) As Single
+  overload: Engine.Core.Maths.Mathf.Sigma*
+  nameWithType.vb: Mathf.Sigma(Func(Of Single, Single), Integer, Integer)
+  fullName.vb: Engine.Core.Maths.Mathf.Sigma(System.Func(Of Single, Single), Integer, Integer)
+  name.vb: Sigma(Func(Of Single, Single), Integer, Integer)
+- uid: Engine.Core.Maths.Mathf.SigmaR(System.Func{System.Single,System.Single},System.Int32,System.Int32,System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.SigmaR(System.Func{System.Single,System.Single},System.Int32,System.Int32,System.Single)
+  id: SigmaR(System.Func{System.Single,System.Single},System.Int32,System.Int32,System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: SigmaR(Func<float, float>, int, int, float)
+  nameWithType: Mathf.SigmaR(Func<float, float>, int, int, float)
+  fullName: Engine.Core.Maths.Mathf.SigmaR(System.Func<float, float>, int, int, float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: SigmaR
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 251
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  summary: Recursive Implementation
+  example: []
+  syntax:
+    content: public static float SigmaR(Func<float, float> innerFunction, int limit1, int limit2, float increment = 1E-45)
+    parameters:
+    - id: innerFunction
+      type: System.Func{System.Single,System.Single}
+      description: ''
+    - id: limit1
+      type: System.Int32
+      description: ''
+    - id: limit2
+      type: System.Int32
+      description: ''
+    - id: increment
+      type: System.Single
+    return:
+      type: System.Single
+      description: ''
+    content.vb: Public Shared Function SigmaR(innerFunction As Func(Of Single, Single), limit1 As Integer, limit2 As Integer, increment As Single = 1E-45) As Single
+  overload: Engine.Core.Maths.Mathf.SigmaR*
+  nameWithType.vb: Mathf.SigmaR(Func(Of Single, Single), Integer, Integer, Single)
+  fullName.vb: Engine.Core.Maths.Mathf.SigmaR(System.Func(Of Single, Single), Integer, Integer, Single)
+  name.vb: SigmaR(Func(Of Single, Single), Integer, Integer, Single)
+- uid: Engine.Core.Maths.Mathf.Sigma(System.Single[])
+  commentId: M:Engine.Core.Maths.Mathf.Sigma(System.Single[])
+  id: Sigma(System.Single[])
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Sigma(params float[])
+  nameWithType: Mathf.Sigma(params float[])
+  fullName: Engine.Core.Maths.Mathf.Sigma(params float[])
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Sigma
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 271
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  summary: Iterative Sum
+  example: []
+  syntax:
+    content: public static float Sigma(params float[] floats)
+    parameters:
+    - id: floats
+      type: System.Single[]
+      description: ''
+    return:
+      type: System.Single
+      description: ''
+    content.vb: Public Shared Function Sigma(ParamArray floats As Single()) As Single
+  overload: Engine.Core.Maths.Mathf.Sigma*
+  nameWithType.vb: Mathf.Sigma(ParamArray Single())
+  fullName.vb: Engine.Core.Maths.Mathf.Sigma(ParamArray Single())
+  name.vb: Sigma(ParamArray Single())
+- uid: Engine.Core.Maths.Mathf.SigmaPow(System.Single,System.Single[])
+  commentId: M:Engine.Core.Maths.Mathf.SigmaPow(System.Single,System.Single[])
+  id: SigmaPow(System.Single,System.Single[])
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: SigmaPow(float, params float[])
+  nameWithType: Mathf.SigmaPow(float, params float[])
+  fullName: Engine.Core.Maths.Mathf.SigmaPow(float, params float[])
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: SigmaPow
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 286
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  summary: Iterative Sum
+  example: []
+  syntax:
+    content: public static float SigmaPow(float power, params float[] floats)
+    parameters:
+    - id: power
+      type: System.Single
+    - id: floats
+      type: System.Single[]
+      description: ''
+    return:
+      type: System.Single
+      description: ''
+    content.vb: Public Shared Function SigmaPow(power As Single, ParamArray floats As Single()) As Single
+  overload: Engine.Core.Maths.Mathf.SigmaPow*
+  nameWithType.vb: Mathf.SigmaPow(Single, ParamArray Single())
+  fullName.vb: Engine.Core.Maths.Mathf.SigmaPow(Single, ParamArray Single())
+  name.vb: SigmaPow(Single, ParamArray Single())
+- uid: Engine.Core.Maths.Mathf.SigmaPow(System.Single,System.Collections.Generic.List{System.Single})
+  commentId: M:Engine.Core.Maths.Mathf.SigmaPow(System.Single,System.Collections.Generic.List{System.Single})
+  id: SigmaPow(System.Single,System.Collections.Generic.List{System.Single})
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: SigmaPow(float, List<float>)
+  nameWithType: Mathf.SigmaPow(float, List<float>)
+  fullName: Engine.Core.Maths.Mathf.SigmaPow(float, System.Collections.Generic.List<float>)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: SigmaPow
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 301
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  summary: Iterative Sum
+  example: []
+  syntax:
+    content: public static float SigmaPow(float power, List<float> floats)
+    parameters:
+    - id: power
+      type: System.Single
+    - id: floats
+      type: System.Collections.Generic.List{System.Single}
+      description: ''
+    return:
+      type: System.Single
+      description: ''
+    content.vb: Public Shared Function SigmaPow(power As Single, floats As List(Of Single)) As Single
+  overload: Engine.Core.Maths.Mathf.SigmaPow*
+  nameWithType.vb: Mathf.SigmaPow(Single, List(Of Single))
+  fullName.vb: Engine.Core.Maths.Mathf.SigmaPow(Single, System.Collections.Generic.List(Of Single))
+  name.vb: SigmaPow(Single, List(Of Single))
+- uid: Engine.Core.Maths.Mathf.SigmaR(System.Single[])
+  commentId: M:Engine.Core.Maths.Mathf.SigmaR(System.Single[])
+  id: SigmaR(System.Single[])
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: SigmaR(params float[])
+  nameWithType: Mathf.SigmaR(params float[])
+  fullName: Engine.Core.Maths.Mathf.SigmaR(params float[])
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: SigmaR
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 316
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  summary: Recursive Sum
+  example: []
+  syntax:
+    content: public static float SigmaR(params float[] floats)
+    parameters:
+    - id: floats
+      type: System.Single[]
+      description: ''
+    return:
+      type: System.Single
+      description: ''
+    content.vb: Public Shared Function SigmaR(ParamArray floats As Single()) As Single
+  overload: Engine.Core.Maths.Mathf.SigmaR*
+  nameWithType.vb: Mathf.SigmaR(ParamArray Single())
+  fullName.vb: Engine.Core.Maths.Mathf.SigmaR(ParamArray Single())
+  name.vb: SigmaR(ParamArray Single())
+- uid: Engine.Core.Maths.Mathf.SigmaR(System.Collections.Generic.List{System.Single})
+  commentId: M:Engine.Core.Maths.Mathf.SigmaR(System.Collections.Generic.List{System.Single})
+  id: SigmaR(System.Collections.Generic.List{System.Single})
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: SigmaR(List<float>)
+  nameWithType: Mathf.SigmaR(List<float>)
+  fullName: Engine.Core.Maths.Mathf.SigmaR(System.Collections.Generic.List<float>)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: SigmaR
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 326
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  summary: Recursive Sum
+  example: []
+  syntax:
+    content: public static float SigmaR(List<float> floats)
+    parameters:
+    - id: floats
+      type: System.Collections.Generic.List{System.Single}
+      description: ''
+    return:
+      type: System.Single
+      description: ''
+    content.vb: Public Shared Function SigmaR(floats As List(Of Single)) As Single
+  overload: Engine.Core.Maths.Mathf.SigmaR*
+  nameWithType.vb: Mathf.SigmaR(List(Of Single))
+  fullName.vb: Engine.Core.Maths.Mathf.SigmaR(System.Collections.Generic.List(Of Single))
+  name.vb: SigmaR(List(Of Single))
+- uid: Engine.Core.Maths.Mathf.SigmaR_PowElements(System.Single,System.Single[])
+  commentId: M:Engine.Core.Maths.Mathf.SigmaR_PowElements(System.Single,System.Single[])
+  id: SigmaR_PowElements(System.Single,System.Single[])
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: SigmaR_PowElements(float, params float[])
+  nameWithType: Mathf.SigmaR_PowElements(float, params float[])
+  fullName: Engine.Core.Maths.Mathf.SigmaR_PowElements(float, params float[])
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: SigmaR_PowElements
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 331
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float SigmaR_PowElements(float power, params float[] floats)
+    parameters:
+    - id: power
+      type: System.Single
+    - id: floats
+      type: System.Single[]
+    return:
+      type: System.Single
+    content.vb: Public Shared Function SigmaR_PowElements(power As Single, ParamArray floats As Single()) As Single
+  overload: Engine.Core.Maths.Mathf.SigmaR_PowElements*
+  nameWithType.vb: Mathf.SigmaR_PowElements(Single, ParamArray Single())
+  fullName.vb: Engine.Core.Maths.Mathf.SigmaR_PowElements(Single, ParamArray Single())
+  name.vb: SigmaR_PowElements(Single, ParamArray Single())
+- uid: Engine.Core.Maths.Mathf.SigmaR_PowElements(System.Single,System.Collections.Generic.List{System.Single})
+  commentId: M:Engine.Core.Maths.Mathf.SigmaR_PowElements(System.Single,System.Collections.Generic.List{System.Single})
+  id: SigmaR_PowElements(System.Single,System.Collections.Generic.List{System.Single})
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: SigmaR_PowElements(float, List<float>)
+  nameWithType: Mathf.SigmaR_PowElements(float, List<float>)
+  fullName: Engine.Core.Maths.Mathf.SigmaR_PowElements(float, System.Collections.Generic.List<float>)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: SigmaR_PowElements
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 336
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float SigmaR_PowElements(float power, List<float> floats)
+    parameters:
+    - id: power
+      type: System.Single
+    - id: floats
+      type: System.Collections.Generic.List{System.Single}
+    return:
+      type: System.Single
+    content.vb: Public Shared Function SigmaR_PowElements(power As Single, floats As List(Of Single)) As Single
+  overload: Engine.Core.Maths.Mathf.SigmaR_PowElements*
+  nameWithType.vb: Mathf.SigmaR_PowElements(Single, List(Of Single))
+  fullName.vb: Engine.Core.Maths.Mathf.SigmaR_PowElements(Single, System.Collections.Generic.List(Of Single))
+  name.vb: SigmaR_PowElements(Single, List(Of Single))
+- uid: Engine.Core.Maths.Mathf.Approximately(System.Single,System.Single,System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Approximately(System.Single,System.Single,System.Single)
+  id: Approximately(System.Single,System.Single,System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Approximately(float, float, float)
+  nameWithType: Mathf.Approximately(float, float, float)
+  fullName: Engine.Core.Maths.Mathf.Approximately(float, float, float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Approximately
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 377
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static bool Approximately(float a, float b, float tolerance)
+    parameters:
+    - id: a
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: tolerance
+      type: System.Single
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function Approximately(a As Single, b As Single, tolerance As Single) As Boolean
+  overload: Engine.Core.Maths.Mathf.Approximately*
+  nameWithType.vb: Mathf.Approximately(Single, Single, Single)
+  fullName.vb: Engine.Core.Maths.Mathf.Approximately(Single, Single, Single)
+  name.vb: Approximately(Single, Single, Single)
+- uid: Engine.Core.Maths.Mathf.Approximately(System.Single,System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Approximately(System.Single,System.Single)
+  id: Approximately(System.Single,System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Approximately(float, float)
+  nameWithType: Mathf.Approximately(float, float)
+  fullName: Engine.Core.Maths.Mathf.Approximately(float, float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Approximately
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 382
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static bool Approximately(float a, float b)
+    parameters:
+    - id: a
+      type: System.Single
+    - id: b
+      type: System.Single
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function Approximately(a As Single, b As Single) As Boolean
+  overload: Engine.Core.Maths.Mathf.Approximately*
+  nameWithType.vb: Mathf.Approximately(Single, Single)
+  fullName.vb: Engine.Core.Maths.Mathf.Approximately(Single, Single)
+  name.vb: Approximately(Single, Single)
+- uid: Engine.Core.Maths.Mathf.Deg2Rad(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Deg2Rad(System.Single)
+  id: Deg2Rad(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Deg2Rad(float)
+  nameWithType: Mathf.Deg2Rad(float)
+  fullName: Engine.Core.Maths.Mathf.Deg2Rad(float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Deg2Rad
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 387
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Deg2Rad(float deg)
+    parameters:
+    - id: deg
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Deg2Rad(deg As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Deg2Rad*
+  nameWithType.vb: Mathf.Deg2Rad(Single)
+  fullName.vb: Engine.Core.Maths.Mathf.Deg2Rad(Single)
+  name.vb: Deg2Rad(Single)
+- uid: Engine.Core.Maths.Mathf.Rad2Deg(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Rad2Deg(System.Single)
+  id: Rad2Deg(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Rad2Deg(float)
+  nameWithType: Mathf.Rad2Deg(float)
+  fullName: Engine.Core.Maths.Mathf.Rad2Deg(float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Rad2Deg
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 392
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Rad2Deg(float rad)
+    parameters:
+    - id: rad
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Rad2Deg(rad As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Rad2Deg*
+  nameWithType.vb: Mathf.Rad2Deg(Single)
+  fullName.vb: Engine.Core.Maths.Mathf.Rad2Deg(Single)
+  name.vb: Rad2Deg(Single)
+- uid: Engine.Core.Maths.Mathf.Sinc(System.Single,System.Boolean)
+  commentId: M:Engine.Core.Maths.Mathf.Sinc(System.Single,System.Boolean)
+  id: Sinc(System.Single,System.Boolean)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Sinc(float, bool)
+  nameWithType: Mathf.Sinc(float, bool)
+  fullName: Engine.Core.Maths.Mathf.Sinc(float, bool)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Sinc
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 397
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Sinc(float f, bool Pi = false)
+    parameters:
+    - id: f
+      type: System.Single
+    - id: Pi
+      type: System.Boolean
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Sinc(f As Single, Pi As Boolean = False) As Single
+  overload: Engine.Core.Maths.Mathf.Sinc*
+  nameWithType.vb: Mathf.Sinc(Single, Boolean)
+  fullName.vb: Engine.Core.Maths.Mathf.Sinc(Single, Boolean)
+  name.vb: Sinc(Single, Boolean)
+- uid: Engine.Core.Maths.Mathf.Factorial(System.Int32)
+  commentId: M:Engine.Core.Maths.Mathf.Factorial(System.Int32)
+  id: Factorial(System.Int32)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Factorial(int)
+  nameWithType: Mathf.Factorial(int)
+  fullName: Engine.Core.Maths.Mathf.Factorial(int)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Factorial
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 407
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  summary: Iterative Implementation
+  example: []
+  syntax:
+    content: public static int Factorial(int i)
+    parameters:
+    - id: i
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public Shared Function Factorial(i As Integer) As Integer
+  overload: Engine.Core.Maths.Mathf.Factorial*
+  nameWithType.vb: Mathf.Factorial(Integer)
+  fullName.vb: Engine.Core.Maths.Mathf.Factorial(Integer)
+  name.vb: Factorial(Integer)
+- uid: Engine.Core.Maths.Mathf.FactorialR(System.Int32)
+  commentId: M:Engine.Core.Maths.Mathf.FactorialR(System.Int32)
+  id: FactorialR(System.Int32)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: FactorialR(int)
+  nameWithType: Mathf.FactorialR(int)
+  fullName: Engine.Core.Maths.Mathf.FactorialR(int)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: FactorialR
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 420
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  summary: Recursive Implementation
+  example: []
+  syntax:
+    content: public static int FactorialR(int i)
+    parameters:
+    - id: i
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Int32
+      description: ''
+    content.vb: Public Shared Function FactorialR(i As Integer) As Integer
+  overload: Engine.Core.Maths.Mathf.FactorialR*
+  nameWithType.vb: Mathf.FactorialR(Integer)
+  fullName.vb: Engine.Core.Maths.Mathf.FactorialR(Integer)
+  name.vb: FactorialR(Integer)
+- uid: Engine.Core.Maths.Mathf.FactorialHelper(System.Int32,System.Int32)
+  commentId: M:Engine.Core.Maths.Mathf.FactorialHelper(System.Int32,System.Int32)
+  id: FactorialHelper(System.Int32,System.Int32)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: FactorialHelper(int, int)
+  nameWithType: Mathf.FactorialHelper(int, int)
+  fullName: Engine.Core.Maths.Mathf.FactorialHelper(int, int)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: FactorialHelper
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 427
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static int FactorialHelper(int i, int current)
+    parameters:
+    - id: i
+      type: System.Int32
+    - id: current
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function FactorialHelper(i As Integer, current As Integer) As Integer
+  overload: Engine.Core.Maths.Mathf.FactorialHelper*
+  nameWithType.vb: Mathf.FactorialHelper(Integer, Integer)
+  fullName.vb: Engine.Core.Maths.Mathf.FactorialHelper(Integer, Integer)
+  name.vb: FactorialHelper(Integer, Integer)
+- uid: Engine.Core.Maths.Mathf.Gamma(System.Single)
+  commentId: M:Engine.Core.Maths.Mathf.Gamma(System.Single)
+  id: Gamma(System.Single)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Gamma(float)
+  nameWithType: Mathf.Gamma(float)
+  fullName: Engine.Core.Maths.Mathf.Gamma(float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Gamma
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 438
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static float Gamma(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function Gamma(f As Single) As Single
+  overload: Engine.Core.Maths.Mathf.Gamma*
+  nameWithType.vb: Mathf.Gamma(Single)
+  fullName.vb: Engine.Core.Maths.Mathf.Gamma(Single)
+  name.vb: Gamma(Single)
+- uid: Engine.Core.Maths.Mathf.Integral(Engine.Core.Maths.Limits,System.Single,System.Func{System.Single,System.Single},Engine.Core.Maths.IntegrationApproximation)
+  commentId: M:Engine.Core.Maths.Mathf.Integral(Engine.Core.Maths.Limits,System.Single,System.Func{System.Single,System.Single},Engine.Core.Maths.IntegrationApproximation)
+  id: Integral(Engine.Core.Maths.Limits,System.Single,System.Func{System.Single,System.Single},Engine.Core.Maths.IntegrationApproximation)
+  parent: Engine.Core.Maths.Mathf
+  langs:
+  - csharp
+  - vb
+  name: Integral(Limits, float, Func<float, float>, IntegrationApproximation)
+  nameWithType: Mathf.Integral(Limits, float, Func<float, float>, IntegrationApproximation)
+  fullName: Engine.Core.Maths.Mathf.Integral(Engine.Core.Maths.Limits, float, System.Func<float, float>, Engine.Core.Maths.IntegrationApproximation)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Mathf.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Integral
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Mathf.cs
+    startLine: 451
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  summary: Definite or improper integral
+  example: []
+  syntax:
+    content: public static float Integral(Limits limits, float f, Func<float, float> innerFunction, IntegrationApproximation approximation)
+    parameters:
+    - id: limits
+      type: Engine.Core.Maths.Limits
+    - id: f
+      type: System.Single
+      description: ''
+    - id: innerFunction
+      type: System.Func{System.Single,System.Single}
+      description: ''
+    - id: approximation
+      type: Engine.Core.Maths.IntegrationApproximation
+    return:
+      type: System.Single
+      description: ''
+    content.vb: Public Shared Function Integral(limits As Limits, f As Single, innerFunction As Func(Of Single, Single), approximation As IntegrationApproximation) As Single
+  overload: Engine.Core.Maths.Mathf.Integral*
+  nameWithType.vb: Mathf.Integral(Limits, Single, Func(Of Single, Single), IntegrationApproximation)
+  fullName.vb: Engine.Core.Maths.Mathf.Integral(Engine.Core.Maths.Limits, Single, System.Func(Of Single, Single), Engine.Core.Maths.IntegrationApproximation)
+  name.vb: Integral(Limits, Single, Func(Of Single, Single), IntegrationApproximation)
+references:
+- uid: Engine.Core.Maths
+  commentId: N:Engine.Core.Maths
+  href: Engine.html
+  name: Engine.Core.Maths
+  nameWithType: Engine.Core.Maths
+  fullName: Engine.Core.Maths
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Engine.Core.Maths.Mathf.Acos*
+  commentId: Overload:Engine.Core.Maths.Mathf.Acos
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Acos_System_Single_
+  name: Acos
+  nameWithType: Mathf.Acos
+  fullName: Engine.Core.Maths.Mathf.Acos
+- uid: Engine.Core.Maths.Mathf.Asin*
+  commentId: Overload:Engine.Core.Maths.Mathf.Asin
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Asin_System_Single_
+  name: Asin
+  nameWithType: Mathf.Asin
+  fullName: Engine.Core.Maths.Mathf.Asin
+- uid: Engine.Core.Maths.Mathf.Atan*
+  commentId: Overload:Engine.Core.Maths.Mathf.Atan
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Atan_System_Single_
+  name: Atan
+  nameWithType: Mathf.Atan
+  fullName: Engine.Core.Maths.Mathf.Atan
+- uid: Engine.Core.Maths.Mathf.Abs*
+  commentId: Overload:Engine.Core.Maths.Mathf.Abs
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Abs_System_Single_
+  name: Abs
+  nameWithType: Mathf.Abs
+  fullName: Engine.Core.Maths.Mathf.Abs
+- uid: Engine.Core.Maths.Mathf.Atan2*
+  commentId: Overload:Engine.Core.Maths.Mathf.Atan2
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Atan2_System_Single_System_Single_
+  name: Atan2
+  nameWithType: Mathf.Atan2
+  fullName: Engine.Core.Maths.Mathf.Atan2
+- uid: Engine.Core.Maths.Mathf.Ceiling*
+  commentId: Overload:Engine.Core.Maths.Mathf.Ceiling
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Ceiling_System_Single_
+  name: Ceiling
+  nameWithType: Mathf.Ceiling
+  fullName: Engine.Core.Maths.Mathf.Ceiling
+- uid: Engine.Core.Maths.Mathf.Cos*
+  commentId: Overload:Engine.Core.Maths.Mathf.Cos
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Cos_System_Single_
+  name: Cos
+  nameWithType: Mathf.Cos
+  fullName: Engine.Core.Maths.Mathf.Cos
+- uid: Engine.Core.Maths.Mathf.Cosh*
+  commentId: Overload:Engine.Core.Maths.Mathf.Cosh
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Cosh_System_Single_
+  name: Cosh
+  nameWithType: Mathf.Cosh
+  fullName: Engine.Core.Maths.Mathf.Cosh
+- uid: Engine.Core.Maths.Mathf.Cot*
+  commentId: Overload:Engine.Core.Maths.Mathf.Cot
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Cot_System_Single_
+  name: Cot
+  nameWithType: Mathf.Cot
+  fullName: Engine.Core.Maths.Mathf.Cot
+- uid: Engine.Core.Maths.Mathf.Sec*
+  commentId: Overload:Engine.Core.Maths.Mathf.Sec
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Sec_System_Single_
+  name: Sec
+  nameWithType: Mathf.Sec
+  fullName: Engine.Core.Maths.Mathf.Sec
+- uid: Engine.Core.Maths.Mathf.Csc*
+  commentId: Overload:Engine.Core.Maths.Mathf.Csc
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Csc_System_Single_
+  name: Csc
+  nameWithType: Mathf.Csc
+  fullName: Engine.Core.Maths.Mathf.Csc
+- uid: Engine.Core.Maths.Mathf.Exp*
+  commentId: Overload:Engine.Core.Maths.Mathf.Exp
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Exp_System_Single_
+  name: Exp
+  nameWithType: Mathf.Exp
+  fullName: Engine.Core.Maths.Mathf.Exp
+- uid: Engine.Core.Maths.Mathf.Floor*
+  commentId: Overload:Engine.Core.Maths.Mathf.Floor
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Floor_System_Single_
+  name: Floor
+  nameWithType: Mathf.Floor
+  fullName: Engine.Core.Maths.Mathf.Floor
+- uid: Engine.Core.Maths.Mathf.IEEERemainder*
+  commentId: Overload:Engine.Core.Maths.Mathf.IEEERemainder
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_IEEERemainder_System_Single_System_Single_
+  name: IEEERemainder
+  nameWithType: Mathf.IEEERemainder
+  fullName: Engine.Core.Maths.Mathf.IEEERemainder
+- uid: Engine.Core.Maths.Mathf.Log*
+  commentId: Overload:Engine.Core.Maths.Mathf.Log
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Log_System_Single_
+  name: Log
+  nameWithType: Mathf.Log
+  fullName: Engine.Core.Maths.Mathf.Log
+- uid: Engine.Core.Maths.Mathf.Log10*
+  commentId: Overload:Engine.Core.Maths.Mathf.Log10
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Log10_System_Single_
+  name: Log10
+  nameWithType: Mathf.Log10
+  fullName: Engine.Core.Maths.Mathf.Log10
+- uid: Engine.Core.Maths.Mathf.Max*
+  commentId: Overload:Engine.Core.Maths.Mathf.Max
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Max_System_Single_System_Single_
+  name: Max
+  nameWithType: Mathf.Max
+  fullName: Engine.Core.Maths.Mathf.Max
+- uid: Engine.Core.Maths.Mathf.Min*
+  commentId: Overload:Engine.Core.Maths.Mathf.Min
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Min_System_Single_System_Single_
+  name: Min
+  nameWithType: Mathf.Min
+  fullName: Engine.Core.Maths.Mathf.Min
+- uid: Engine.Core.Maths.Mathf.Pow*
+  commentId: Overload:Engine.Core.Maths.Mathf.Pow
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Pow_System_Single_System_Single_
+  name: Pow
+  nameWithType: Mathf.Pow
+  fullName: Engine.Core.Maths.Mathf.Pow
+- uid: Engine.Core.Maths.Mathf.Round*
+  commentId: Overload:Engine.Core.Maths.Mathf.Round
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Round_System_Single_
+  name: Round
+  nameWithType: Mathf.Round
+  fullName: Engine.Core.Maths.Mathf.Round
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.MidpointRounding
+  commentId: T:System.MidpointRounding
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.midpointrounding
+  name: MidpointRounding
+  nameWithType: MidpointRounding
+  fullName: System.MidpointRounding
+- uid: Engine.Core.Maths.Mathf.RoundToInt*
+  commentId: Overload:Engine.Core.Maths.Mathf.RoundToInt
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_RoundToInt_System_Single_
+  name: RoundToInt
+  nameWithType: Mathf.RoundToInt
+  fullName: Engine.Core.Maths.Mathf.RoundToInt
+- uid: Engine.Core.Maths.Mathf.Sign*
+  commentId: Overload:Engine.Core.Maths.Mathf.Sign
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Sign_System_Single_
+  name: Sign
+  nameWithType: Mathf.Sign
+  fullName: Engine.Core.Maths.Mathf.Sign
+- uid: Engine.Core.Maths.Mathf.Sin*
+  commentId: Overload:Engine.Core.Maths.Mathf.Sin
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Sin_System_Single_
+  name: Sin
+  nameWithType: Mathf.Sin
+  fullName: Engine.Core.Maths.Mathf.Sin
+- uid: Engine.Core.Maths.Mathf.Sinh*
+  commentId: Overload:Engine.Core.Maths.Mathf.Sinh
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Sinh_System_Single_
+  name: Sinh
+  nameWithType: Mathf.Sinh
+  fullName: Engine.Core.Maths.Mathf.Sinh
+- uid: Engine.Core.Maths.Mathf.Sqrt*
+  commentId: Overload:Engine.Core.Maths.Mathf.Sqrt
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Sqrt_System_Single_
+  name: Sqrt
+  nameWithType: Mathf.Sqrt
+  fullName: Engine.Core.Maths.Mathf.Sqrt
+- uid: Engine.Core.Maths.Mathf.NthSqrt*
+  commentId: Overload:Engine.Core.Maths.Mathf.NthSqrt
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_NthSqrt_System_Single_System_Int32_
+  name: NthSqrt
+  nameWithType: Mathf.NthSqrt
+  fullName: Engine.Core.Maths.Mathf.NthSqrt
+- uid: Engine.Core.Maths.Mathf.Tan*
+  commentId: Overload:Engine.Core.Maths.Mathf.Tan
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Tan_System_Single_
+  name: Tan
+  nameWithType: Mathf.Tan
+  fullName: Engine.Core.Maths.Mathf.Tan
+- uid: Engine.Core.Maths.Mathf.Tanh*
+  commentId: Overload:Engine.Core.Maths.Mathf.Tanh
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Tanh_System_Single_
+  name: Tanh
+  nameWithType: Mathf.Tanh
+  fullName: Engine.Core.Maths.Mathf.Tanh
+- uid: Engine.Core.Maths.Mathf.Truncate*
+  commentId: Overload:Engine.Core.Maths.Mathf.Truncate
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Truncate_System_Single_
+  name: Truncate
+  nameWithType: Mathf.Truncate
+  fullName: Engine.Core.Maths.Mathf.Truncate
+- uid: Engine.Core.Maths.Mathf.Pi*
+  commentId: Overload:Engine.Core.Maths.Mathf.Pi
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Pi_System_Func_System_Single_System_Single__System_Int32_System_Int32_
+  name: Pi
+  nameWithType: Mathf.Pi
+  fullName: Engine.Core.Maths.Mathf.Pi
+- uid: System.Func{System.Single,System.Single}
+  commentId: T:System.Func{System.Single,System.Single}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<float, float>
+  nameWithType: Func<float, float>
+  fullName: System.Func<float, float>
+  nameWithType.vb: Func(Of Single, Single)
+  fullName.vb: System.Func(Of Single, Single)
+  name.vb: Func(Of Single, Single)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: Engine.Core.Maths.Mathf.Sigma*
+  commentId: Overload:Engine.Core.Maths.Mathf.Sigma
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Sigma_System_Func_System_Single_System_Single__System_Single_System_Single_System_Single_
+  name: Sigma
+  nameWithType: Mathf.Sigma
+  fullName: Engine.Core.Maths.Mathf.Sigma
+- uid: Engine.Core.Maths.Mathf.SigmaR*
+  commentId: Overload:Engine.Core.Maths.Mathf.SigmaR
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_SigmaR_System_Func_System_Single_System_Single__System_Int32_System_Int32_System_Single_
+  name: SigmaR
+  nameWithType: Mathf.SigmaR
+  fullName: Engine.Core.Maths.Mathf.SigmaR
+- uid: System.Single[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float[]
+  nameWithType: float[]
+  fullName: float[]
+  nameWithType.vb: Single()
+  fullName.vb: Single()
+  name.vb: Single()
+  spec.csharp:
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: (
+  - name: )
+- uid: Engine.Core.Maths.Mathf.SigmaPow*
+  commentId: Overload:Engine.Core.Maths.Mathf.SigmaPow
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_SigmaPow_System_Single_System_Single___
+  name: SigmaPow
+  nameWithType: Mathf.SigmaPow
+  fullName: Engine.Core.Maths.Mathf.SigmaPow
+- uid: System.Collections.Generic.List{System.Single}
+  commentId: T:System.Collections.Generic.List{System.Single}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<float>
+  nameWithType: List<float>
+  fullName: System.Collections.Generic.List<float>
+  nameWithType.vb: List(Of Single)
+  fullName.vb: System.Collections.Generic.List(Of Single)
+  name.vb: List(Of Single)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Engine.Core.Maths.Mathf.SigmaR_PowElements*
+  commentId: Overload:Engine.Core.Maths.Mathf.SigmaR_PowElements
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_SigmaR_PowElements_System_Single_System_Single___
+  name: SigmaR_PowElements
+  nameWithType: Mathf.SigmaR_PowElements
+  fullName: Engine.Core.Maths.Mathf.SigmaR_PowElements
+- uid: Engine.Core.Maths.Mathf.Approximately*
+  commentId: Overload:Engine.Core.Maths.Mathf.Approximately
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Approximately_System_Single_System_Single_System_Single_
+  name: Approximately
+  nameWithType: Mathf.Approximately
+  fullName: Engine.Core.Maths.Mathf.Approximately
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Engine.Core.Maths.Mathf.Deg2Rad*
+  commentId: Overload:Engine.Core.Maths.Mathf.Deg2Rad
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Deg2Rad_System_Single_
+  name: Deg2Rad
+  nameWithType: Mathf.Deg2Rad
+  fullName: Engine.Core.Maths.Mathf.Deg2Rad
+- uid: Engine.Core.Maths.Mathf.Rad2Deg*
+  commentId: Overload:Engine.Core.Maths.Mathf.Rad2Deg
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Rad2Deg_System_Single_
+  name: Rad2Deg
+  nameWithType: Mathf.Rad2Deg
+  fullName: Engine.Core.Maths.Mathf.Rad2Deg
+- uid: Engine.Core.Maths.Mathf.Sinc*
+  commentId: Overload:Engine.Core.Maths.Mathf.Sinc
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Sinc_System_Single_System_Boolean_
+  name: Sinc
+  nameWithType: Mathf.Sinc
+  fullName: Engine.Core.Maths.Mathf.Sinc
+- uid: Engine.Core.Maths.Mathf.Factorial*
+  commentId: Overload:Engine.Core.Maths.Mathf.Factorial
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Factorial_System_Int32_
+  name: Factorial
+  nameWithType: Mathf.Factorial
+  fullName: Engine.Core.Maths.Mathf.Factorial
+- uid: Engine.Core.Maths.Mathf.FactorialR*
+  commentId: Overload:Engine.Core.Maths.Mathf.FactorialR
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_FactorialR_System_Int32_
+  name: FactorialR
+  nameWithType: Mathf.FactorialR
+  fullName: Engine.Core.Maths.Mathf.FactorialR
+- uid: Engine.Core.Maths.Mathf.FactorialHelper*
+  commentId: Overload:Engine.Core.Maths.Mathf.FactorialHelper
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_FactorialHelper_System_Int32_System_Int32_
+  name: FactorialHelper
+  nameWithType: Mathf.FactorialHelper
+  fullName: Engine.Core.Maths.Mathf.FactorialHelper
+- uid: Engine.Core.Maths.Mathf.Gamma*
+  commentId: Overload:Engine.Core.Maths.Mathf.Gamma
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Gamma_System_Single_
+  name: Gamma
+  nameWithType: Mathf.Gamma
+  fullName: Engine.Core.Maths.Mathf.Gamma
+- uid: Engine.Core.Maths.Mathf.Integral*
+  commentId: Overload:Engine.Core.Maths.Mathf.Integral
+  href: Engine.Core.Maths.Mathf.html#Engine_Core_Maths_Mathf_Integral_Engine_Core_Maths_Limits_System_Single_System_Func_System_Single_System_Single__Engine_Core_Maths_IntegrationApproximation_
+  name: Integral
+  nameWithType: Mathf.Integral
+  fullName: Engine.Core.Maths.Mathf.Integral
+- uid: Engine.Core.Maths.Limits
+  commentId: T:Engine.Core.Maths.Limits
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.Limits.html
+  name: Limits
+  nameWithType: Limits
+  fullName: Engine.Core.Maths.Limits
+- uid: Engine.Core.Maths.IntegrationApproximation
+  commentId: T:Engine.Core.Maths.IntegrationApproximation
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.IntegrationApproximation.html
+  name: IntegrationApproximation
+  nameWithType: IntegrationApproximation
+  fullName: Engine.Core.Maths.IntegrationApproximation

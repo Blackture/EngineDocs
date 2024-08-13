@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Maths.RotationMeasure
+  commentId: T:Engine.Core.Maths.RotationMeasure
+  id: RotationMeasure
+  parent: Engine.Core.Maths
+  children:
+  - Engine.Core.Maths.RotationMeasure.DEG
+  - Engine.Core.Maths.RotationMeasure.RAD
+  langs:
+  - csharp
+  - vb
+  name: RotationMeasure
+  nameWithType: RotationMeasure
+  fullName: Engine.Core.Maths.RotationMeasure
+  type: Enum
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: RotationMeasure
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 71
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public enum RotationMeasure
+    content.vb: Public Enum RotationMeasure
+- uid: Engine.Core.Maths.RotationMeasure.RAD
+  commentId: F:Engine.Core.Maths.RotationMeasure.RAD
+  id: RAD
+  parent: Engine.Core.Maths.RotationMeasure
+  langs:
+  - csharp
+  - vb
+  name: RAD
+  nameWithType: RotationMeasure.RAD
+  fullName: Engine.Core.Maths.RotationMeasure.RAD
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: RAD
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 73
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: RAD = 0
+    return:
+      type: Engine.Core.Maths.RotationMeasure
+- uid: Engine.Core.Maths.RotationMeasure.DEG
+  commentId: F:Engine.Core.Maths.RotationMeasure.DEG
+  id: DEG
+  parent: Engine.Core.Maths.RotationMeasure
+  langs:
+  - csharp
+  - vb
+  name: DEG
+  nameWithType: RotationMeasure.DEG
+  fullName: Engine.Core.Maths.RotationMeasure.DEG
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: DEG
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 74
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: DEG = 1
+    return:
+      type: Engine.Core.Maths.RotationMeasure
+references:
+- uid: Engine.Core.Maths
+  commentId: N:Engine.Core.Maths
+  href: Engine.html
+  name: Engine.Core.Maths
+  nameWithType: Engine.Core.Maths
+  fullName: Engine.Core.Maths
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+- uid: Engine.Core.Maths.RotationMeasure
+  commentId: T:Engine.Core.Maths.RotationMeasure
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.RotationMeasure.html
+  name: RotationMeasure
+  nameWithType: RotationMeasure
+  fullName: Engine.Core.Maths.RotationMeasure

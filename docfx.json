@@ -5,67 +5,41 @@
         {
           "src": "C:/Users/Admin/Desktop/Engine",
           "files": [
-            "**.cs",
-            "**/**.cs",
-            "**/**/**.cs",
-            "**/**/**/**.cs",
-            "**/**/**/**/**.cs"
-          ],
-          "exclude": [
-            "**/bin/**",
-            "**/obj/**",
-            "**/Properties/**"
+            "Engine.sln"
           ]
         }
       ],
-      "dest": "engineAPI",
-      "disableGitFeatures": false,
-      "disableDefaultFilter": false
+      "dest": "api"
     }
   ],
   "build": {
     "content": [
       {
         "files": [
-          "articles/**",
-          "toc.yml",
-          "*.md",
-          "engineAPI/**",
-          "References/**"
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
         ]
       }
     ],
     "resource": [
       {
         "files": [
+          "images/**"
         ]
       }
     ],
-    "overwrite": [
-      {
-        "files": [
-          "apidoc/**.md"
-        ],
-        "exclude": [
-          "obj/**",
-          "docs/**"
-        ]
-      }
-    ],
-    "xref": [
-
-    ],
-    "dest": "docs",
-    "globalMetadataFiles": [],
-    "fileMetadataFiles": [],
+    "output": "_site",
     "template": [
-      "default"
+      "default",
+      "modern"
     ],
-    "postProcessors": [],
-    "markdownEngineName": "markdig",
-    "noLangKeyword": false,
-    "keepFileLink": false,
-    "cleanupCacheHistory": false,
-    "disableGitFeatures": false
+    "globalMetadata": {
+      "_appName": "",
+      "_appTitle": "",
+      "_enableSearch": true,
+      "pdf": true
+    }
   }
 }

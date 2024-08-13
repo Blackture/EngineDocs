@@ -1,0 +1,118 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core
+  commentId: N:Engine.Core
+  id: Engine.Core
+  children:
+  - Engine.Core.Component
+  - Engine.Core.IParticleHandler
+  - Engine.Core.IRay
+  - Engine.Core.LCS3Element
+  - Engine.Core.LCS3ElementGroup
+  - Engine.Core.Layer
+  - Engine.Core.Object3D
+  - Engine.Core.Particle
+  - Engine.Core.Ray
+  - Engine.Core.Tag
+  langs:
+  - csharp
+  - vb
+  name: Engine.Core
+  nameWithType: Engine.Core
+  fullName: Engine.Core
+  type: Namespace
+  assemblies:
+  - Engine
+references:
+- uid: Engine.Core.LCS3Element
+  commentId: T:Engine.Core.LCS3Element
+  parent: Engine.Core
+  href: Engine.Core.LCS3Element.html
+  name: LCS3Element
+  nameWithType: LCS3Element
+  fullName: Engine.Core.LCS3Element
+- uid: Engine.Core.IParticleHandler
+  commentId: T:Engine.Core.IParticleHandler
+  parent: Engine.Core
+  href: Engine.Core.IParticleHandler.html
+  name: IParticleHandler
+  nameWithType: IParticleHandler
+  fullName: Engine.Core.IParticleHandler
+- uid: Engine.Core.LCS3ElementGroup
+  commentId: T:Engine.Core.LCS3ElementGroup
+  parent: Engine.Core
+  href: Engine.Core.LCS3ElementGroup.html
+  name: LCS3ElementGroup
+  nameWithType: LCS3ElementGroup
+  fullName: Engine.Core.LCS3ElementGroup
+- uid: Engine.Core.IRay
+  commentId: T:Engine.Core.IRay
+  parent: Engine.Core
+  href: Engine.Core.IRay.html
+  name: IRay
+  nameWithType: IRay
+  fullName: Engine.Core.IRay
+- uid: Engine.Core.Component
+  commentId: T:Engine.Core.Component
+  parent: Engine.Core
+  href: Engine.Core.Component.html
+  name: Component
+  nameWithType: Component
+  fullName: Engine.Core.Component
+- uid: Engine.Core.Layer
+  commentId: T:Engine.Core.Layer
+  parent: Engine.Core
+  href: Engine.Core.Layer.html
+  name: Layer
+  nameWithType: Layer
+  fullName: Engine.Core.Layer
+- uid: Engine.Core.Object3D
+  commentId: T:Engine.Core.Object3D
+  parent: Engine.Core
+  href: Engine.Core.Object3D.html
+  name: Object3D
+  nameWithType: Object3D
+  fullName: Engine.Core.Object3D
+- uid: Engine.Core.Particle
+  commentId: T:Engine.Core.Particle
+  parent: Engine.Core
+  href: Engine.Core.Particle.html
+  name: Particle
+  nameWithType: Particle
+  fullName: Engine.Core.Particle
+- uid: Engine.Core.Ray
+  commentId: T:Engine.Core.Ray
+  parent: Engine.Core
+  href: Engine.Core.Ray.html
+  name: Ray
+  nameWithType: Ray
+  fullName: Engine.Core.Ray
+- uid: Engine.Core.Tag
+  commentId: T:Engine.Core.Tag
+  parent: Engine.Core
+  href: Engine.Core.Tag.html
+  name: Tag
+  nameWithType: Tag
+  fullName: Engine.Core.Tag
+- uid: Engine.Core
+  commentId: N:Engine.Core
+  href: Engine.html
+  name: Engine.Core
+  nameWithType: Engine.Core
+  fullName: Engine.Core
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html

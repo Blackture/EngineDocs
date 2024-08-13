@@ -1,0 +1,201 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Maths.MatrixOperation
+  commentId: T:Engine.Core.Maths.MatrixOperation
+  id: MatrixOperation
+  parent: Engine.Core.Maths
+  children:
+  - Engine.Core.Maths.MatrixOperation.Addition
+  - Engine.Core.Maths.MatrixOperation.Multiplication
+  - Engine.Core.Maths.MatrixOperation.ScalarDivision
+  - Engine.Core.Maths.MatrixOperation.ScalarMultiplication
+  - Engine.Core.Maths.MatrixOperation.Substraction
+  langs:
+  - csharp
+  - vb
+  name: MatrixOperation
+  nameWithType: MatrixOperation
+  fullName: Engine.Core.Maths.MatrixOperation
+  type: Enum
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: MatrixOperation
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 8
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public enum MatrixOperation
+    content.vb: Public Enum MatrixOperation
+- uid: Engine.Core.Maths.MatrixOperation.Addition
+  commentId: F:Engine.Core.Maths.MatrixOperation.Addition
+  id: Addition
+  parent: Engine.Core.Maths.MatrixOperation
+  langs:
+  - csharp
+  - vb
+  name: Addition
+  nameWithType: MatrixOperation.Addition
+  fullName: Engine.Core.Maths.MatrixOperation.Addition
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Addition
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 10
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: Addition = 0
+    return:
+      type: Engine.Core.Maths.MatrixOperation
+- uid: Engine.Core.Maths.MatrixOperation.Substraction
+  commentId: F:Engine.Core.Maths.MatrixOperation.Substraction
+  id: Substraction
+  parent: Engine.Core.Maths.MatrixOperation
+  langs:
+  - csharp
+  - vb
+  name: Substraction
+  nameWithType: MatrixOperation.Substraction
+  fullName: Engine.Core.Maths.MatrixOperation.Substraction
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Substraction
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 11
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: Substraction = 1
+    return:
+      type: Engine.Core.Maths.MatrixOperation
+- uid: Engine.Core.Maths.MatrixOperation.Multiplication
+  commentId: F:Engine.Core.Maths.MatrixOperation.Multiplication
+  id: Multiplication
+  parent: Engine.Core.Maths.MatrixOperation
+  langs:
+  - csharp
+  - vb
+  name: Multiplication
+  nameWithType: MatrixOperation.Multiplication
+  fullName: Engine.Core.Maths.MatrixOperation.Multiplication
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Multiplication
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 12
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: Multiplication = 2
+    return:
+      type: Engine.Core.Maths.MatrixOperation
+- uid: Engine.Core.Maths.MatrixOperation.ScalarMultiplication
+  commentId: F:Engine.Core.Maths.MatrixOperation.ScalarMultiplication
+  id: ScalarMultiplication
+  parent: Engine.Core.Maths.MatrixOperation
+  langs:
+  - csharp
+  - vb
+  name: ScalarMultiplication
+  nameWithType: MatrixOperation.ScalarMultiplication
+  fullName: Engine.Core.Maths.MatrixOperation.ScalarMultiplication
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: ScalarMultiplication
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 13
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: ScalarMultiplication = 3
+    return:
+      type: Engine.Core.Maths.MatrixOperation
+- uid: Engine.Core.Maths.MatrixOperation.ScalarDivision
+  commentId: F:Engine.Core.Maths.MatrixOperation.ScalarDivision
+  id: ScalarDivision
+  parent: Engine.Core.Maths.MatrixOperation
+  langs:
+  - csharp
+  - vb
+  name: ScalarDivision
+  nameWithType: MatrixOperation.ScalarDivision
+  fullName: Engine.Core.Maths.MatrixOperation.ScalarDivision
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: ScalarDivision
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 14
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: ScalarDivision = 4
+    return:
+      type: Engine.Core.Maths.MatrixOperation
+references:
+- uid: Engine.Core.Maths
+  commentId: N:Engine.Core.Maths
+  href: Engine.html
+  name: Engine.Core.Maths
+  nameWithType: Engine.Core.Maths
+  fullName: Engine.Core.Maths
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+- uid: Engine.Core.Maths.MatrixOperation
+  commentId: T:Engine.Core.Maths.MatrixOperation
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.MatrixOperation.html
+  name: MatrixOperation
+  nameWithType: MatrixOperation
+  fullName: Engine.Core.Maths.MatrixOperation

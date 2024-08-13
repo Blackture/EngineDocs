@@ -1,0 +1,174 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Maths.ShearConvention
+  commentId: T:Engine.Core.Maths.ShearConvention
+  id: ShearConvention
+  parent: Engine.Core.Maths
+  children:
+  - Engine.Core.Maths.ShearConvention.AsymmetricCot
+  - Engine.Core.Maths.ShearConvention.AsymmetricTan
+  - Engine.Core.Maths.ShearConvention.SymmetricCot
+  - Engine.Core.Maths.ShearConvention.SymmetricTan
+  langs:
+  - csharp
+  - vb
+  name: ShearConvention
+  nameWithType: ShearConvention
+  fullName: Engine.Core.Maths.ShearConvention
+  type: Enum
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: ShearConvention
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 34
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public enum ShearConvention
+    content.vb: Public Enum ShearConvention
+- uid: Engine.Core.Maths.ShearConvention.SymmetricTan
+  commentId: F:Engine.Core.Maths.ShearConvention.SymmetricTan
+  id: SymmetricTan
+  parent: Engine.Core.Maths.ShearConvention
+  langs:
+  - csharp
+  - vb
+  name: SymmetricTan
+  nameWithType: ShearConvention.SymmetricTan
+  fullName: Engine.Core.Maths.ShearConvention.SymmetricTan
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: SymmetricTan
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 36
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: SymmetricTan = 0
+    return:
+      type: Engine.Core.Maths.ShearConvention
+- uid: Engine.Core.Maths.ShearConvention.SymmetricCot
+  commentId: F:Engine.Core.Maths.ShearConvention.SymmetricCot
+  id: SymmetricCot
+  parent: Engine.Core.Maths.ShearConvention
+  langs:
+  - csharp
+  - vb
+  name: SymmetricCot
+  nameWithType: ShearConvention.SymmetricCot
+  fullName: Engine.Core.Maths.ShearConvention.SymmetricCot
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: SymmetricCot
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 37
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: SymmetricCot = 1
+    return:
+      type: Engine.Core.Maths.ShearConvention
+- uid: Engine.Core.Maths.ShearConvention.AsymmetricTan
+  commentId: F:Engine.Core.Maths.ShearConvention.AsymmetricTan
+  id: AsymmetricTan
+  parent: Engine.Core.Maths.ShearConvention
+  langs:
+  - csharp
+  - vb
+  name: AsymmetricTan
+  nameWithType: ShearConvention.AsymmetricTan
+  fullName: Engine.Core.Maths.ShearConvention.AsymmetricTan
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: AsymmetricTan
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 38
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: AsymmetricTan = 2
+    return:
+      type: Engine.Core.Maths.ShearConvention
+- uid: Engine.Core.Maths.ShearConvention.AsymmetricCot
+  commentId: F:Engine.Core.Maths.ShearConvention.AsymmetricCot
+  id: AsymmetricCot
+  parent: Engine.Core.Maths.ShearConvention
+  langs:
+  - csharp
+  - vb
+  name: AsymmetricCot
+  nameWithType: ShearConvention.AsymmetricCot
+  fullName: Engine.Core.Maths.ShearConvention.AsymmetricCot
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: AsymmetricCot
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 39
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: AsymmetricCot = 3
+    return:
+      type: Engine.Core.Maths.ShearConvention
+references:
+- uid: Engine.Core.Maths
+  commentId: N:Engine.Core.Maths
+  href: Engine.html
+  name: Engine.Core.Maths
+  nameWithType: Engine.Core.Maths
+  fullName: Engine.Core.Maths
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+- uid: Engine.Core.Maths.ShearConvention
+  commentId: T:Engine.Core.Maths.ShearConvention
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.ShearConvention.html
+  name: ShearConvention
+  nameWithType: ShearConvention
+  fullName: Engine.Core.Maths.ShearConvention

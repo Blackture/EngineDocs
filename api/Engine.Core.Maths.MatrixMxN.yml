@@ -1,0 +1,3316 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Maths.MatrixMxN
+  commentId: T:Engine.Core.Maths.MatrixMxN
+  id: MatrixMxN
+  parent: Engine.Core.Maths
+  children:
+  - Engine.Core.Maths.MatrixMxN.#ctor
+  - Engine.Core.Maths.MatrixMxN.#ctor(System.Collections.Generic.List{Engine.Core.Maths.Vector})
+  - Engine.Core.Maths.MatrixMxN.#ctor(System.Int32,System.Int32)
+  - Engine.Core.Maths.MatrixMxN.AddColumn(Engine.Core.Maths.Vector)
+  - Engine.Core.Maths.MatrixMxN.AddRow(Engine.Core.Maths.Vector)
+  - Engine.Core.Maths.MatrixMxN.Addition(Engine.Core.Maths.MatrixMxN)
+  - Engine.Core.Maths.MatrixMxN.Addition(Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixMxN)
+  - Engine.Core.Maths.MatrixMxN.ColumnCount
+  - Engine.Core.Maths.MatrixMxN.Get2x2SubMatrices(Engine.Core.Maths.MatrixMxN,System.Collections.Generic.List{Engine.Core.Maths.MatrixMxN}@)
+  - Engine.Core.Maths.MatrixMxN.GetAdjointMatrix(Engine.Core.Maths.MatrixMxN@)
+  - Engine.Core.Maths.MatrixMxN.GetCofactorMatrix(Engine.Core.Maths.MatrixMxN@)
+  - Engine.Core.Maths.MatrixMxN.GetColumn(System.Int32)
+  - Engine.Core.Maths.MatrixMxN.GetDeterminant(System.Single@)
+  - Engine.Core.Maths.MatrixMxN.GetIdentityMatrix(System.Int32)
+  - Engine.Core.Maths.MatrixMxN.GetInverse(Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixMxN@)
+  - Engine.Core.Maths.MatrixMxN.GetMinorMatrix(Engine.Core.Maths.MatrixMxN@)
+  - Engine.Core.Maths.MatrixMxN.GetRow(System.Int32)
+  - Engine.Core.Maths.MatrixMxN.GetSubMatrix(System.Int32,System.Int32,Engine.Core.Maths.MatrixMxN@)
+  - Engine.Core.Maths.MatrixMxN.GetValue(System.Int32,System.Int32)
+  - Engine.Core.Maths.MatrixMxN.InsertRow(Engine.Core.Maths.Vector,System.Int32)
+  - Engine.Core.Maths.MatrixMxN.Item(System.Int32,System.Int32)
+  - Engine.Core.Maths.MatrixMxN.Multiplication(Engine.Core.Maths.MatrixMxN)
+  - Engine.Core.Maths.MatrixMxN.Multiplication(Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixMxN)
+  - Engine.Core.Maths.MatrixMxN.Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
+  - Engine.Core.Maths.MatrixMxN.Operation(Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixOperation,System.Single)
+  - Engine.Core.Maths.MatrixMxN.Operation(Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixOperation,System.Single)
+  - Engine.Core.Maths.MatrixMxN.RemoveColumn(System.Int32)
+  - Engine.Core.Maths.MatrixMxN.RemoveRow(System.Int32)
+  - Engine.Core.Maths.MatrixMxN.RowAddition(System.Int32,System.Int32)
+  - Engine.Core.Maths.MatrixMxN.RowCount
+  - Engine.Core.Maths.MatrixMxN.RowOperation(Engine.Core.Maths.MatrixMxN,System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+  - Engine.Core.Maths.MatrixMxN.RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+  - Engine.Core.Maths.MatrixMxN.RowSubstraction(System.Int32,System.Int32)
+  - Engine.Core.Maths.MatrixMxN.ScalarDivision(Engine.Core.Maths.MatrixMxN,System.Single)
+  - Engine.Core.Maths.MatrixMxN.ScalarDivision(System.Single)
+  - Engine.Core.Maths.MatrixMxN.ScalarMultiplication(Engine.Core.Maths.MatrixMxN,System.Single)
+  - Engine.Core.Maths.MatrixMxN.ScalarMultiplication(System.Single)
+  - Engine.Core.Maths.MatrixMxN.SetValue(System.Int32,System.Int32,System.Single)
+  - Engine.Core.Maths.MatrixMxN.Substraction(Engine.Core.Maths.MatrixMxN)
+  - Engine.Core.Maths.MatrixMxN.Substraction(Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixMxN)
+  - Engine.Core.Maths.MatrixMxN.SwapRows(System.Int32,System.Int32)
+  - Engine.Core.Maths.MatrixMxN.ToVector(Engine.Core.Maths.Vector@)
+  - Engine.Core.Maths.MatrixMxN.ToVector3(Engine.Core.Maths.Vector3@)
+  - Engine.Core.Maths.MatrixMxN.Transpose
+  - Engine.Core.Maths.MatrixMxN.op_Addition(Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixMxN)
+  - Engine.Core.Maths.MatrixMxN.op_Division(Engine.Core.Maths.MatrixMxN,System.Single)
+  - Engine.Core.Maths.MatrixMxN.op_Implicit(Engine.Core.Maths.MatrixMxN)~Engine.Core.Maths.Matrix3x3
+  - Engine.Core.Maths.MatrixMxN.op_Multiply(Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixMxN)
+  - Engine.Core.Maths.MatrixMxN.op_Multiply(Engine.Core.Maths.MatrixMxN,System.Single)
+  - Engine.Core.Maths.MatrixMxN.op_Multiply(System.Single,Engine.Core.Maths.MatrixMxN)
+  - Engine.Core.Maths.MatrixMxN.op_Subtraction(Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixMxN)
+  - Engine.Core.Maths.MatrixMxN.op_UnaryNegation(Engine.Core.Maths.MatrixMxN)
+  langs:
+  - csharp
+  - vb
+  name: MatrixMxN
+  nameWithType: MatrixMxN
+  fullName: Engine.Core.Maths.MatrixMxN
+  type: Class
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: MatrixMxN
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 12
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: 'public class MatrixMxN : Matrix, IMatrix'
+    content.vb: Public Class MatrixMxN Inherits Matrix Implements IMatrix
+  inheritance:
+  - System.Object
+  - Engine.Core.Maths.Matrix
+  implements:
+  - Engine.Core.Maths.IMatrix
+  inheritedMembers:
+  - Engine.Core.Maths.Matrix.I2x2
+  - Engine.Core.Maths.Matrix.I3x3
+  - Engine.Core.Maths.Matrix.I4x4
+  - Engine.Core.Maths.Matrix.GetIdentityMatrix``1(System.Int32,{T}@)
+  - Engine.Core.Maths.Matrix.GetInverse``1({T},{T}@)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: Engine.Core.Maths.MatrixMxN.RowCount
+  commentId: P:Engine.Core.Maths.MatrixMxN.RowCount
+  id: RowCount
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: RowCount
+  nameWithType: MatrixMxN.RowCount
+  fullName: Engine.Core.Maths.MatrixMxN.RowCount
+  type: Property
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: RowCount
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 20
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  example: []
+  syntax:
+    content: public override int RowCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overrides ReadOnly Property RowCount As Integer
+  overridden: Engine.Core.Maths.Matrix.RowCount
+  overload: Engine.Core.Maths.MatrixMxN.RowCount*
+  implements:
+  - Engine.Core.Maths.IMatrix.RowCount
+- uid: Engine.Core.Maths.MatrixMxN.ColumnCount
+  commentId: P:Engine.Core.Maths.MatrixMxN.ColumnCount
+  id: ColumnCount
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: ColumnCount
+  nameWithType: MatrixMxN.ColumnCount
+  fullName: Engine.Core.Maths.MatrixMxN.ColumnCount
+  type: Property
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: ColumnCount
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 21
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  example: []
+  syntax:
+    content: public override int ColumnCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overrides ReadOnly Property ColumnCount As Integer
+  overridden: Engine.Core.Maths.Matrix.ColumnCount
+  overload: Engine.Core.Maths.MatrixMxN.ColumnCount*
+  implements:
+  - Engine.Core.Maths.IMatrix.ColumnCount
+- uid: Engine.Core.Maths.MatrixMxN.Item(System.Int32,System.Int32)
+  commentId: P:Engine.Core.Maths.MatrixMxN.Item(System.Int32,System.Int32)
+  id: Item(System.Int32,System.Int32)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: this[int, int]
+  nameWithType: MatrixMxN.this[int, int]
+  fullName: Engine.Core.Maths.MatrixMxN.this[int, int]
+  type: Property
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: this[]
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 22
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  example: []
+  syntax:
+    content: public override float this[int r, int c] { get; set; }
+    parameters:
+    - id: r
+      type: System.Int32
+    - id: c
+      type: System.Int32
+    return:
+      type: System.Single
+    content.vb: Public Overrides Default Property this[](r As Integer, c As Integer) As Single
+  overridden: Engine.Core.Maths.Matrix.Item(System.Int32,System.Int32)
+  overload: Engine.Core.Maths.MatrixMxN.Item*
+  implements:
+  - Engine.Core.Maths.IMatrix.Item(System.Int32,System.Int32)
+  nameWithType.vb: MatrixMxN.this[](Integer, Integer)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.this[](Integer, Integer)
+  name.vb: this[](Integer, Integer)
+- uid: Engine.Core.Maths.MatrixMxN.#ctor
+  commentId: M:Engine.Core.Maths.MatrixMxN.#ctor
+  id: '#ctor'
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: MatrixMxN()
+  nameWithType: MatrixMxN.MatrixMxN()
+  fullName: Engine.Core.Maths.MatrixMxN.MatrixMxN()
+  type: Constructor
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: .ctor
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 28
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public MatrixMxN()
+    content.vb: Public Sub New()
+  overload: Engine.Core.Maths.MatrixMxN.#ctor*
+  nameWithType.vb: MatrixMxN.New()
+  fullName.vb: Engine.Core.Maths.MatrixMxN.New()
+  name.vb: New()
+- uid: Engine.Core.Maths.MatrixMxN.#ctor(System.Collections.Generic.List{Engine.Core.Maths.Vector})
+  commentId: M:Engine.Core.Maths.MatrixMxN.#ctor(System.Collections.Generic.List{Engine.Core.Maths.Vector})
+  id: '#ctor(System.Collections.Generic.List{Engine.Core.Maths.Vector})'
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: MatrixMxN(List<Vector>)
+  nameWithType: MatrixMxN.MatrixMxN(List<Vector>)
+  fullName: Engine.Core.Maths.MatrixMxN.MatrixMxN(System.Collections.Generic.List<Engine.Core.Maths.Vector>)
+  type: Constructor
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: .ctor
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 29
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public MatrixMxN(List<Vector> rows)
+    parameters:
+    - id: rows
+      type: System.Collections.Generic.List{Engine.Core.Maths.Vector}
+    content.vb: Public Sub New(rows As List(Of Vector))
+  overload: Engine.Core.Maths.MatrixMxN.#ctor*
+  nameWithType.vb: MatrixMxN.New(List(Of Vector))
+  fullName.vb: Engine.Core.Maths.MatrixMxN.New(System.Collections.Generic.List(Of Engine.Core.Maths.Vector))
+  name.vb: New(List(Of Vector))
+- uid: Engine.Core.Maths.MatrixMxN.#ctor(System.Int32,System.Int32)
+  commentId: M:Engine.Core.Maths.MatrixMxN.#ctor(System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32)'
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: MatrixMxN(int, int)
+  nameWithType: MatrixMxN.MatrixMxN(int, int)
+  fullName: Engine.Core.Maths.MatrixMxN.MatrixMxN(int, int)
+  type: Constructor
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: .ctor
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 33
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public MatrixMxN(int r, int c)
+    parameters:
+    - id: r
+      type: System.Int32
+    - id: c
+      type: System.Int32
+    content.vb: Public Sub New(r As Integer, c As Integer)
+  overload: Engine.Core.Maths.MatrixMxN.#ctor*
+  nameWithType.vb: MatrixMxN.New(Integer, Integer)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.New(Integer, Integer)
+  name.vb: New(Integer, Integer)
+- uid: Engine.Core.Maths.MatrixMxN.GetValue(System.Int32,System.Int32)
+  commentId: M:Engine.Core.Maths.MatrixMxN.GetValue(System.Int32,System.Int32)
+  id: GetValue(System.Int32,System.Int32)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: GetValue(int, int)
+  nameWithType: MatrixMxN.GetValue(int, int)
+  fullName: Engine.Core.Maths.MatrixMxN.GetValue(int, int)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: GetValue
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 127
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public float GetValue(int r, int c)
+    parameters:
+    - id: r
+      type: System.Int32
+    - id: c
+      type: System.Int32
+    return:
+      type: System.Single
+    content.vb: Public Function GetValue(r As Integer, c As Integer) As Single
+  overload: Engine.Core.Maths.MatrixMxN.GetValue*
+  nameWithType.vb: MatrixMxN.GetValue(Integer, Integer)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.GetValue(Integer, Integer)
+  name.vb: GetValue(Integer, Integer)
+- uid: Engine.Core.Maths.MatrixMxN.SetValue(System.Int32,System.Int32,System.Single)
+  commentId: M:Engine.Core.Maths.MatrixMxN.SetValue(System.Int32,System.Int32,System.Single)
+  id: SetValue(System.Int32,System.Int32,System.Single)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: SetValue(int, int, float)
+  nameWithType: MatrixMxN.SetValue(int, int, float)
+  fullName: Engine.Core.Maths.MatrixMxN.SetValue(int, int, float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: SetValue
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 135
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public void SetValue(int r, int c, float value)
+    parameters:
+    - id: r
+      type: System.Int32
+    - id: c
+      type: System.Int32
+    - id: value
+      type: System.Single
+    content.vb: Public Sub SetValue(r As Integer, c As Integer, value As Single)
+  overload: Engine.Core.Maths.MatrixMxN.SetValue*
+  nameWithType.vb: MatrixMxN.SetValue(Integer, Integer, Single)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.SetValue(Integer, Integer, Single)
+  name.vb: SetValue(Integer, Integer, Single)
+- uid: Engine.Core.Maths.MatrixMxN.GetRow(System.Int32)
+  commentId: M:Engine.Core.Maths.MatrixMxN.GetRow(System.Int32)
+  id: GetRow(System.Int32)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: GetRow(int)
+  nameWithType: MatrixMxN.GetRow(int)
+  fullName: Engine.Core.Maths.MatrixMxN.GetRow(int)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: GetRow
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 143
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public Vector GetRow(int r)
+    parameters:
+    - id: r
+      type: System.Int32
+    return:
+      type: Engine.Core.Maths.Vector
+    content.vb: Public Function GetRow(r As Integer) As Vector
+  overload: Engine.Core.Maths.MatrixMxN.GetRow*
+  nameWithType.vb: MatrixMxN.GetRow(Integer)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.GetRow(Integer)
+  name.vb: GetRow(Integer)
+- uid: Engine.Core.Maths.MatrixMxN.GetColumn(System.Int32)
+  commentId: M:Engine.Core.Maths.MatrixMxN.GetColumn(System.Int32)
+  id: GetColumn(System.Int32)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: GetColumn(int)
+  nameWithType: MatrixMxN.GetColumn(int)
+  fullName: Engine.Core.Maths.MatrixMxN.GetColumn(int)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: GetColumn
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 156
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public Vector GetColumn(int c)
+    parameters:
+    - id: c
+      type: System.Int32
+    return:
+      type: Engine.Core.Maths.Vector
+    content.vb: Public Function GetColumn(c As Integer) As Vector
+  overload: Engine.Core.Maths.MatrixMxN.GetColumn*
+  nameWithType.vb: MatrixMxN.GetColumn(Integer)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.GetColumn(Integer)
+  name.vb: GetColumn(Integer)
+- uid: Engine.Core.Maths.MatrixMxN.AddRow(Engine.Core.Maths.Vector)
+  commentId: M:Engine.Core.Maths.MatrixMxN.AddRow(Engine.Core.Maths.Vector)
+  id: AddRow(Engine.Core.Maths.Vector)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: AddRow(Vector)
+  nameWithType: MatrixMxN.AddRow(Vector)
+  fullName: Engine.Core.Maths.MatrixMxN.AddRow(Engine.Core.Maths.Vector)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: AddRow
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 169
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public void AddRow(Vector row)
+    parameters:
+    - id: row
+      type: Engine.Core.Maths.Vector
+    content.vb: Public Sub AddRow(row As Vector)
+  overload: Engine.Core.Maths.MatrixMxN.AddRow*
+- uid: Engine.Core.Maths.MatrixMxN.AddColumn(Engine.Core.Maths.Vector)
+  commentId: M:Engine.Core.Maths.MatrixMxN.AddColumn(Engine.Core.Maths.Vector)
+  id: AddColumn(Engine.Core.Maths.Vector)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: AddColumn(Vector)
+  nameWithType: MatrixMxN.AddColumn(Vector)
+  fullName: Engine.Core.Maths.MatrixMxN.AddColumn(Engine.Core.Maths.Vector)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: AddColumn
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 178
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public void AddColumn(Vector col)
+    parameters:
+    - id: col
+      type: Engine.Core.Maths.Vector
+    content.vb: Public Sub AddColumn(col As Vector)
+  overload: Engine.Core.Maths.MatrixMxN.AddColumn*
+- uid: Engine.Core.Maths.MatrixMxN.InsertRow(Engine.Core.Maths.Vector,System.Int32)
+  commentId: M:Engine.Core.Maths.MatrixMxN.InsertRow(Engine.Core.Maths.Vector,System.Int32)
+  id: InsertRow(Engine.Core.Maths.Vector,System.Int32)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: InsertRow(Vector, int)
+  nameWithType: MatrixMxN.InsertRow(Vector, int)
+  fullName: Engine.Core.Maths.MatrixMxN.InsertRow(Engine.Core.Maths.Vector, int)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: InsertRow
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 191
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public void InsertRow(Vector row, int index)
+    parameters:
+    - id: row
+      type: Engine.Core.Maths.Vector
+    - id: index
+      type: System.Int32
+    content.vb: Public Sub InsertRow(row As Vector, index As Integer)
+  overload: Engine.Core.Maths.MatrixMxN.InsertRow*
+  nameWithType.vb: MatrixMxN.InsertRow(Vector, Integer)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.InsertRow(Engine.Core.Maths.Vector, Integer)
+  name.vb: InsertRow(Vector, Integer)
+- uid: Engine.Core.Maths.MatrixMxN.RemoveRow(System.Int32)
+  commentId: M:Engine.Core.Maths.MatrixMxN.RemoveRow(System.Int32)
+  id: RemoveRow(System.Int32)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: RemoveRow(int)
+  nameWithType: MatrixMxN.RemoveRow(int)
+  fullName: Engine.Core.Maths.MatrixMxN.RemoveRow(int)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: RemoveRow
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 200
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public void RemoveRow(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    content.vb: Public Sub RemoveRow(index As Integer)
+  overload: Engine.Core.Maths.MatrixMxN.RemoveRow*
+  nameWithType.vb: MatrixMxN.RemoveRow(Integer)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.RemoveRow(Integer)
+  name.vb: RemoveRow(Integer)
+- uid: Engine.Core.Maths.MatrixMxN.RemoveColumn(System.Int32)
+  commentId: M:Engine.Core.Maths.MatrixMxN.RemoveColumn(System.Int32)
+  id: RemoveColumn(System.Int32)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: RemoveColumn(int)
+  nameWithType: MatrixMxN.RemoveColumn(int)
+  fullName: Engine.Core.Maths.MatrixMxN.RemoveColumn(int)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: RemoveColumn
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 205
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public void RemoveColumn(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    content.vb: Public Sub RemoveColumn(index As Integer)
+  overload: Engine.Core.Maths.MatrixMxN.RemoveColumn*
+  nameWithType.vb: MatrixMxN.RemoveColumn(Integer)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.RemoveColumn(Integer)
+  name.vb: RemoveColumn(Integer)
+- uid: Engine.Core.Maths.MatrixMxN.SwapRows(System.Int32,System.Int32)
+  commentId: M:Engine.Core.Maths.MatrixMxN.SwapRows(System.Int32,System.Int32)
+  id: SwapRows(System.Int32,System.Int32)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: SwapRows(int, int)
+  nameWithType: MatrixMxN.SwapRows(int, int)
+  fullName: Engine.Core.Maths.MatrixMxN.SwapRows(int, int)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: SwapRows
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 222
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  example: []
+  syntax:
+    content: public override void SwapRows(int from, int to)
+    parameters:
+    - id: from
+      type: System.Int32
+    - id: to
+      type: System.Int32
+    content.vb: Public Overrides Sub SwapRows(from As Integer, [to] As Integer)
+  overridden: Engine.Core.Maths.Matrix.SwapRows(System.Int32,System.Int32)
+  overload: Engine.Core.Maths.MatrixMxN.SwapRows*
+  implements:
+  - Engine.Core.Maths.IMatrix.SwapRows(System.Int32,System.Int32)
+  nameWithType.vb: MatrixMxN.SwapRows(Integer, Integer)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.SwapRows(Integer, Integer)
+  name.vb: SwapRows(Integer, Integer)
+- uid: Engine.Core.Maths.MatrixMxN.ScalarMultiplication(System.Single)
+  commentId: M:Engine.Core.Maths.MatrixMxN.ScalarMultiplication(System.Single)
+  id: ScalarMultiplication(System.Single)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: ScalarMultiplication(float)
+  nameWithType: MatrixMxN.ScalarMultiplication(float)
+  fullName: Engine.Core.Maths.MatrixMxN.ScalarMultiplication(float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: ScalarMultiplication
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 229
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public MatrixMxN ScalarMultiplication(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: Engine.Core.Maths.MatrixMxN
+    content.vb: Public Function ScalarMultiplication(f As Single) As MatrixMxN
+  overload: Engine.Core.Maths.MatrixMxN.ScalarMultiplication*
+  nameWithType.vb: MatrixMxN.ScalarMultiplication(Single)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.ScalarMultiplication(Single)
+  name.vb: ScalarMultiplication(Single)
+- uid: Engine.Core.Maths.MatrixMxN.ScalarDivision(System.Single)
+  commentId: M:Engine.Core.Maths.MatrixMxN.ScalarDivision(System.Single)
+  id: ScalarDivision(System.Single)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: ScalarDivision(float)
+  nameWithType: MatrixMxN.ScalarDivision(float)
+  fullName: Engine.Core.Maths.MatrixMxN.ScalarDivision(float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: ScalarDivision
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 243
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public MatrixMxN ScalarDivision(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    return:
+      type: Engine.Core.Maths.MatrixMxN
+    content.vb: Public Function ScalarDivision(f As Single) As MatrixMxN
+  overload: Engine.Core.Maths.MatrixMxN.ScalarDivision*
+  nameWithType.vb: MatrixMxN.ScalarDivision(Single)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.ScalarDivision(Single)
+  name.vb: ScalarDivision(Single)
+- uid: Engine.Core.Maths.MatrixMxN.Multiplication(Engine.Core.Maths.MatrixMxN)
+  commentId: M:Engine.Core.Maths.MatrixMxN.Multiplication(Engine.Core.Maths.MatrixMxN)
+  id: Multiplication(Engine.Core.Maths.MatrixMxN)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: Multiplication(MatrixMxN)
+  nameWithType: MatrixMxN.Multiplication(MatrixMxN)
+  fullName: Engine.Core.Maths.MatrixMxN.Multiplication(Engine.Core.Maths.MatrixMxN)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Multiplication
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 248
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public MatrixMxN Multiplication(MatrixMxN m)
+    parameters:
+    - id: m
+      type: Engine.Core.Maths.MatrixMxN
+    return:
+      type: Engine.Core.Maths.MatrixMxN
+    content.vb: Public Function Multiplication(m As MatrixMxN) As MatrixMxN
+  overload: Engine.Core.Maths.MatrixMxN.Multiplication*
+- uid: Engine.Core.Maths.MatrixMxN.Addition(Engine.Core.Maths.MatrixMxN)
+  commentId: M:Engine.Core.Maths.MatrixMxN.Addition(Engine.Core.Maths.MatrixMxN)
+  id: Addition(Engine.Core.Maths.MatrixMxN)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: Addition(MatrixMxN)
+  nameWithType: MatrixMxN.Addition(MatrixMxN)
+  fullName: Engine.Core.Maths.MatrixMxN.Addition(Engine.Core.Maths.MatrixMxN)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Addition
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 268
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public MatrixMxN Addition(MatrixMxN m)
+    parameters:
+    - id: m
+      type: Engine.Core.Maths.MatrixMxN
+    return:
+      type: Engine.Core.Maths.MatrixMxN
+    content.vb: Public Function Addition(m As MatrixMxN) As MatrixMxN
+  overload: Engine.Core.Maths.MatrixMxN.Addition*
+- uid: Engine.Core.Maths.MatrixMxN.Substraction(Engine.Core.Maths.MatrixMxN)
+  commentId: M:Engine.Core.Maths.MatrixMxN.Substraction(Engine.Core.Maths.MatrixMxN)
+  id: Substraction(Engine.Core.Maths.MatrixMxN)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: Substraction(MatrixMxN)
+  nameWithType: MatrixMxN.Substraction(MatrixMxN)
+  fullName: Engine.Core.Maths.MatrixMxN.Substraction(Engine.Core.Maths.MatrixMxN)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Substraction
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 286
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public MatrixMxN Substraction(MatrixMxN m)
+    parameters:
+    - id: m
+      type: Engine.Core.Maths.MatrixMxN
+    return:
+      type: Engine.Core.Maths.MatrixMxN
+    content.vb: Public Function Substraction(m As MatrixMxN) As MatrixMxN
+  overload: Engine.Core.Maths.MatrixMxN.Substraction*
+- uid: Engine.Core.Maths.MatrixMxN.RowAddition(System.Int32,System.Int32)
+  commentId: M:Engine.Core.Maths.MatrixMxN.RowAddition(System.Int32,System.Int32)
+  id: RowAddition(System.Int32,System.Int32)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: RowAddition(int, int)
+  nameWithType: MatrixMxN.RowAddition(int, int)
+  fullName: Engine.Core.Maths.MatrixMxN.RowAddition(int, int)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: RowAddition
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 312
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  summary: >-
+    Calculates l+r. Doesn's change any row in the matrix
+
+    <code class="paramref">l</code> left side of the equation
+
+    <code class="paramref">r</code> right side of the equation
+  example: []
+  syntax:
+    content: public Vector RowAddition(int l, int r)
+    parameters:
+    - id: l
+      type: System.Int32
+      description: ''
+    - id: r
+      type: System.Int32
+      description: ''
+    return:
+      type: Engine.Core.Maths.Vector
+      description: Returns a row vector of the row l+r
+    content.vb: Public Function RowAddition(l As Integer, r As Integer) As Vector
+  overload: Engine.Core.Maths.MatrixMxN.RowAddition*
+  nameWithType.vb: MatrixMxN.RowAddition(Integer, Integer)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.RowAddition(Integer, Integer)
+  name.vb: RowAddition(Integer, Integer)
+- uid: Engine.Core.Maths.MatrixMxN.RowSubstraction(System.Int32,System.Int32)
+  commentId: M:Engine.Core.Maths.MatrixMxN.RowSubstraction(System.Int32,System.Int32)
+  id: RowSubstraction(System.Int32,System.Int32)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: RowSubstraction(int, int)
+  nameWithType: MatrixMxN.RowSubstraction(int, int)
+  fullName: Engine.Core.Maths.MatrixMxN.RowSubstraction(int, int)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: RowSubstraction
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 318
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public Vector RowSubstraction(int l, int r)
+    parameters:
+    - id: l
+      type: System.Int32
+    - id: r
+      type: System.Int32
+    return:
+      type: Engine.Core.Maths.Vector
+    content.vb: Public Function RowSubstraction(l As Integer, r As Integer) As Vector
+  overload: Engine.Core.Maths.MatrixMxN.RowSubstraction*
+  nameWithType.vb: MatrixMxN.RowSubstraction(Integer, Integer)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.RowSubstraction(Integer, Integer)
+  name.vb: RowSubstraction(Integer, Integer)
+- uid: Engine.Core.Maths.MatrixMxN.RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+  commentId: M:Engine.Core.Maths.MatrixMxN.RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+  id: RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: RowOperation(int, int, MatrixOperation, float)
+  nameWithType: MatrixMxN.RowOperation(int, int, MatrixOperation, float)
+  fullName: Engine.Core.Maths.MatrixMxN.RowOperation(int, int, Engine.Core.Maths.MatrixOperation, float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: RowOperation
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 324
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  example: []
+  syntax:
+    content: public override void RowOperation(int target, int source, MatrixOperation operation, float f = 0)
+    parameters:
+    - id: target
+      type: System.Int32
+    - id: source
+      type: System.Int32
+    - id: operation
+      type: Engine.Core.Maths.MatrixOperation
+    - id: f
+      type: System.Single
+    content.vb: Public Overrides Sub RowOperation(target As Integer, source As Integer, operation As MatrixOperation, f As Single = 0)
+  overridden: Engine.Core.Maths.Matrix.RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+  overload: Engine.Core.Maths.MatrixMxN.RowOperation*
+  implements:
+  - Engine.Core.Maths.IMatrix.RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+  nameWithType.vb: MatrixMxN.RowOperation(Integer, Integer, MatrixOperation, Single)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.RowOperation(Integer, Integer, Engine.Core.Maths.MatrixOperation, Single)
+  name.vb: RowOperation(Integer, Integer, MatrixOperation, Single)
+- uid: Engine.Core.Maths.MatrixMxN.Operation(Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixOperation,System.Single)
+  commentId: M:Engine.Core.Maths.MatrixMxN.Operation(Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixOperation,System.Single)
+  id: Operation(Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixOperation,System.Single)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: Operation(MatrixMxN, MatrixOperation, float)
+  nameWithType: MatrixMxN.Operation(MatrixMxN, MatrixOperation, float)
+  fullName: Engine.Core.Maths.MatrixMxN.Operation(Engine.Core.Maths.MatrixMxN, Engine.Core.Maths.MatrixOperation, float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Operation
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 352
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  summary: Operates on the matrix (changes the target row) and outputs the row after the calculation as a vector.
+  example: []
+  syntax:
+    content: public MatrixMxN Operation(MatrixMxN m, MatrixOperation operation, float f = 0)
+    parameters:
+    - id: m
+      type: Engine.Core.Maths.MatrixMxN
+    - id: operation
+      type: Engine.Core.Maths.MatrixOperation
+      description: ''
+    - id: f
+      type: System.Single
+      description: ''
+    return:
+      type: Engine.Core.Maths.MatrixMxN
+      description: ''
+    content.vb: Public Function Operation(m As MatrixMxN, operation As MatrixOperation, f As Single = 0) As MatrixMxN
+  overload: Engine.Core.Maths.MatrixMxN.Operation*
+  nameWithType.vb: MatrixMxN.Operation(MatrixMxN, MatrixOperation, Single)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.Operation(Engine.Core.Maths.MatrixMxN, Engine.Core.Maths.MatrixOperation, Single)
+  name.vb: Operation(MatrixMxN, MatrixOperation, Single)
+- uid: Engine.Core.Maths.MatrixMxN.Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
+  commentId: M:Engine.Core.Maths.MatrixMxN.Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
+  id: Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: Operation(IMatrix, MatrixOperation, float)
+  nameWithType: MatrixMxN.Operation(IMatrix, MatrixOperation, float)
+  fullName: Engine.Core.Maths.MatrixMxN.Operation(Engine.Core.Maths.IMatrix, Engine.Core.Maths.MatrixOperation, float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Operation
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 375
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  example: []
+  syntax:
+    content: public override IMatrix Operation(IMatrix m, MatrixOperation operation, float f = 0)
+    parameters:
+    - id: m
+      type: Engine.Core.Maths.IMatrix
+    - id: operation
+      type: Engine.Core.Maths.MatrixOperation
+    - id: f
+      type: System.Single
+    return:
+      type: Engine.Core.Maths.IMatrix
+    content.vb: Public Overrides Function Operation(m As IMatrix, operation As MatrixOperation, f As Single = 0) As IMatrix
+  overridden: Engine.Core.Maths.Matrix.Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
+  overload: Engine.Core.Maths.MatrixMxN.Operation*
+  implements:
+  - Engine.Core.Maths.IMatrix.Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
+  nameWithType.vb: MatrixMxN.Operation(IMatrix, MatrixOperation, Single)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.Operation(Engine.Core.Maths.IMatrix, Engine.Core.Maths.MatrixOperation, Single)
+  name.vb: Operation(IMatrix, MatrixOperation, Single)
+- uid: Engine.Core.Maths.MatrixMxN.Transpose
+  commentId: M:Engine.Core.Maths.MatrixMxN.Transpose
+  id: Transpose
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: Transpose()
+  nameWithType: MatrixMxN.Transpose()
+  fullName: Engine.Core.Maths.MatrixMxN.Transpose()
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Transpose
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 379
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public void Transpose()
+    content.vb: Public Sub Transpose()
+  overload: Engine.Core.Maths.MatrixMxN.Transpose*
+- uid: Engine.Core.Maths.MatrixMxN.GetSubMatrix(System.Int32,System.Int32,Engine.Core.Maths.MatrixMxN@)
+  commentId: M:Engine.Core.Maths.MatrixMxN.GetSubMatrix(System.Int32,System.Int32,Engine.Core.Maths.MatrixMxN@)
+  id: GetSubMatrix(System.Int32,System.Int32,Engine.Core.Maths.MatrixMxN@)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: GetSubMatrix(int, int, out MatrixMxN)
+  nameWithType: MatrixMxN.GetSubMatrix(int, int, out MatrixMxN)
+  fullName: Engine.Core.Maths.MatrixMxN.GetSubMatrix(int, int, out Engine.Core.Maths.MatrixMxN)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: GetSubMatrix
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 399
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public bool GetSubMatrix(int r, int c, out MatrixMxN subMatrix)
+    parameters:
+    - id: r
+      type: System.Int32
+    - id: c
+      type: System.Int32
+    - id: subMatrix
+      type: Engine.Core.Maths.MatrixMxN
+    return:
+      type: System.Boolean
+    content.vb: Public Function GetSubMatrix(r As Integer, c As Integer, subMatrix As MatrixMxN) As Boolean
+  overload: Engine.Core.Maths.MatrixMxN.GetSubMatrix*
+  nameWithType.vb: MatrixMxN.GetSubMatrix(Integer, Integer, MatrixMxN)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.GetSubMatrix(Integer, Integer, Engine.Core.Maths.MatrixMxN)
+  name.vb: GetSubMatrix(Integer, Integer, MatrixMxN)
+- uid: Engine.Core.Maths.MatrixMxN.Get2x2SubMatrices(Engine.Core.Maths.MatrixMxN,System.Collections.Generic.List{Engine.Core.Maths.MatrixMxN}@)
+  commentId: M:Engine.Core.Maths.MatrixMxN.Get2x2SubMatrices(Engine.Core.Maths.MatrixMxN,System.Collections.Generic.List{Engine.Core.Maths.MatrixMxN}@)
+  id: Get2x2SubMatrices(Engine.Core.Maths.MatrixMxN,System.Collections.Generic.List{Engine.Core.Maths.MatrixMxN}@)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: Get2x2SubMatrices(MatrixMxN, out List<MatrixMxN>)
+  nameWithType: MatrixMxN.Get2x2SubMatrices(MatrixMxN, out List<MatrixMxN>)
+  fullName: Engine.Core.Maths.MatrixMxN.Get2x2SubMatrices(Engine.Core.Maths.MatrixMxN, out System.Collections.Generic.List<Engine.Core.Maths.MatrixMxN>)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Get2x2SubMatrices
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 419
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public bool Get2x2SubMatrices(MatrixMxN m, out List<MatrixMxN> subs)
+    parameters:
+    - id: m
+      type: Engine.Core.Maths.MatrixMxN
+    - id: subs
+      type: System.Collections.Generic.List{Engine.Core.Maths.MatrixMxN}
+    return:
+      type: System.Boolean
+    content.vb: Public Function Get2x2SubMatrices(m As MatrixMxN, subs As List(Of MatrixMxN)) As Boolean
+  overload: Engine.Core.Maths.MatrixMxN.Get2x2SubMatrices*
+  nameWithType.vb: MatrixMxN.Get2x2SubMatrices(MatrixMxN, List(Of MatrixMxN))
+  fullName.vb: Engine.Core.Maths.MatrixMxN.Get2x2SubMatrices(Engine.Core.Maths.MatrixMxN, System.Collections.Generic.List(Of Engine.Core.Maths.MatrixMxN))
+  name.vb: Get2x2SubMatrices(MatrixMxN, List(Of MatrixMxN))
+- uid: Engine.Core.Maths.MatrixMxN.GetMinorMatrix(Engine.Core.Maths.MatrixMxN@)
+  commentId: M:Engine.Core.Maths.MatrixMxN.GetMinorMatrix(Engine.Core.Maths.MatrixMxN@)
+  id: GetMinorMatrix(Engine.Core.Maths.MatrixMxN@)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: GetMinorMatrix(out MatrixMxN)
+  nameWithType: MatrixMxN.GetMinorMatrix(out MatrixMxN)
+  fullName: Engine.Core.Maths.MatrixMxN.GetMinorMatrix(out Engine.Core.Maths.MatrixMxN)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: GetMinorMatrix
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 451
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public bool GetMinorMatrix(out MatrixMxN minor)
+    parameters:
+    - id: minor
+      type: Engine.Core.Maths.MatrixMxN
+    return:
+      type: System.Boolean
+    content.vb: Public Function GetMinorMatrix(minor As MatrixMxN) As Boolean
+  overload: Engine.Core.Maths.MatrixMxN.GetMinorMatrix*
+  nameWithType.vb: MatrixMxN.GetMinorMatrix(MatrixMxN)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.GetMinorMatrix(Engine.Core.Maths.MatrixMxN)
+  name.vb: GetMinorMatrix(MatrixMxN)
+- uid: Engine.Core.Maths.MatrixMxN.GetCofactorMatrix(Engine.Core.Maths.MatrixMxN@)
+  commentId: M:Engine.Core.Maths.MatrixMxN.GetCofactorMatrix(Engine.Core.Maths.MatrixMxN@)
+  id: GetCofactorMatrix(Engine.Core.Maths.MatrixMxN@)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: GetCofactorMatrix(out MatrixMxN)
+  nameWithType: MatrixMxN.GetCofactorMatrix(out MatrixMxN)
+  fullName: Engine.Core.Maths.MatrixMxN.GetCofactorMatrix(out Engine.Core.Maths.MatrixMxN)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: GetCofactorMatrix
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 492
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public bool GetCofactorMatrix(out MatrixMxN fac)
+    parameters:
+    - id: fac
+      type: Engine.Core.Maths.MatrixMxN
+    return:
+      type: System.Boolean
+    content.vb: Public Function GetCofactorMatrix(fac As MatrixMxN) As Boolean
+  overload: Engine.Core.Maths.MatrixMxN.GetCofactorMatrix*
+  nameWithType.vb: MatrixMxN.GetCofactorMatrix(MatrixMxN)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.GetCofactorMatrix(Engine.Core.Maths.MatrixMxN)
+  name.vb: GetCofactorMatrix(MatrixMxN)
+- uid: Engine.Core.Maths.MatrixMxN.GetDeterminant(System.Single@)
+  commentId: M:Engine.Core.Maths.MatrixMxN.GetDeterminant(System.Single@)
+  id: GetDeterminant(System.Single@)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: GetDeterminant(out float)
+  nameWithType: MatrixMxN.GetDeterminant(out float)
+  fullName: Engine.Core.Maths.MatrixMxN.GetDeterminant(out float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: GetDeterminant
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 510
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public bool GetDeterminant(out float determinant)
+    parameters:
+    - id: determinant
+      type: System.Single
+    return:
+      type: System.Boolean
+    content.vb: Public Function GetDeterminant(determinant As Single) As Boolean
+  overload: Engine.Core.Maths.MatrixMxN.GetDeterminant*
+  nameWithType.vb: MatrixMxN.GetDeterminant(Single)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.GetDeterminant(Single)
+  name.vb: GetDeterminant(Single)
+- uid: Engine.Core.Maths.MatrixMxN.GetAdjointMatrix(Engine.Core.Maths.MatrixMxN@)
+  commentId: M:Engine.Core.Maths.MatrixMxN.GetAdjointMatrix(Engine.Core.Maths.MatrixMxN@)
+  id: GetAdjointMatrix(Engine.Core.Maths.MatrixMxN@)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: GetAdjointMatrix(out MatrixMxN)
+  nameWithType: MatrixMxN.GetAdjointMatrix(out MatrixMxN)
+  fullName: Engine.Core.Maths.MatrixMxN.GetAdjointMatrix(out Engine.Core.Maths.MatrixMxN)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: GetAdjointMatrix
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 553
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public bool GetAdjointMatrix(out MatrixMxN adj)
+    parameters:
+    - id: adj
+      type: Engine.Core.Maths.MatrixMxN
+    return:
+      type: System.Boolean
+    content.vb: Public Function GetAdjointMatrix(adj As MatrixMxN) As Boolean
+  overload: Engine.Core.Maths.MatrixMxN.GetAdjointMatrix*
+  nameWithType.vb: MatrixMxN.GetAdjointMatrix(MatrixMxN)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.GetAdjointMatrix(Engine.Core.Maths.MatrixMxN)
+  name.vb: GetAdjointMatrix(MatrixMxN)
+- uid: Engine.Core.Maths.MatrixMxN.ToVector3(Engine.Core.Maths.Vector3@)
+  commentId: M:Engine.Core.Maths.MatrixMxN.ToVector3(Engine.Core.Maths.Vector3@)
+  id: ToVector3(Engine.Core.Maths.Vector3@)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: ToVector3(out Vector3)
+  nameWithType: MatrixMxN.ToVector3(out Vector3)
+  fullName: Engine.Core.Maths.MatrixMxN.ToVector3(out Engine.Core.Maths.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: ToVector3
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 565
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public bool ToVector3(out Vector3 v)
+    parameters:
+    - id: v
+      type: Engine.Core.Maths.Vector3
+    return:
+      type: System.Boolean
+    content.vb: Public Function ToVector3(v As Vector3) As Boolean
+  overload: Engine.Core.Maths.MatrixMxN.ToVector3*
+  nameWithType.vb: MatrixMxN.ToVector3(Vector3)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.ToVector3(Engine.Core.Maths.Vector3)
+  name.vb: ToVector3(Vector3)
+- uid: Engine.Core.Maths.MatrixMxN.ToVector(Engine.Core.Maths.Vector@)
+  commentId: M:Engine.Core.Maths.MatrixMxN.ToVector(Engine.Core.Maths.Vector@)
+  id: ToVector(Engine.Core.Maths.Vector@)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: ToVector(out Vector)
+  nameWithType: MatrixMxN.ToVector(out Vector)
+  fullName: Engine.Core.Maths.MatrixMxN.ToVector(out Engine.Core.Maths.Vector)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: ToVector
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 576
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public bool ToVector(out Vector v)
+    parameters:
+    - id: v
+      type: Engine.Core.Maths.Vector
+    return:
+      type: System.Boolean
+    content.vb: Public Function ToVector(v As Vector) As Boolean
+  overload: Engine.Core.Maths.MatrixMxN.ToVector*
+  nameWithType.vb: MatrixMxN.ToVector(Vector)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.ToVector(Engine.Core.Maths.Vector)
+  name.vb: ToVector(Vector)
+- uid: Engine.Core.Maths.MatrixMxN.ScalarMultiplication(Engine.Core.Maths.MatrixMxN,System.Single)
+  commentId: M:Engine.Core.Maths.MatrixMxN.ScalarMultiplication(Engine.Core.Maths.MatrixMxN,System.Single)
+  id: ScalarMultiplication(Engine.Core.Maths.MatrixMxN,System.Single)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: ScalarMultiplication(MatrixMxN, float)
+  nameWithType: MatrixMxN.ScalarMultiplication(MatrixMxN, float)
+  fullName: Engine.Core.Maths.MatrixMxN.ScalarMultiplication(Engine.Core.Maths.MatrixMxN, float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: ScalarMultiplication
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 592
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static MatrixMxN ScalarMultiplication(MatrixMxN n, float f)
+    parameters:
+    - id: n
+      type: Engine.Core.Maths.MatrixMxN
+    - id: f
+      type: System.Single
+    return:
+      type: Engine.Core.Maths.MatrixMxN
+    content.vb: Public Shared Function ScalarMultiplication(n As MatrixMxN, f As Single) As MatrixMxN
+  overload: Engine.Core.Maths.MatrixMxN.ScalarMultiplication*
+  nameWithType.vb: MatrixMxN.ScalarMultiplication(MatrixMxN, Single)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.ScalarMultiplication(Engine.Core.Maths.MatrixMxN, Single)
+  name.vb: ScalarMultiplication(MatrixMxN, Single)
+- uid: Engine.Core.Maths.MatrixMxN.ScalarDivision(Engine.Core.Maths.MatrixMxN,System.Single)
+  commentId: M:Engine.Core.Maths.MatrixMxN.ScalarDivision(Engine.Core.Maths.MatrixMxN,System.Single)
+  id: ScalarDivision(Engine.Core.Maths.MatrixMxN,System.Single)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: ScalarDivision(MatrixMxN, float)
+  nameWithType: MatrixMxN.ScalarDivision(MatrixMxN, float)
+  fullName: Engine.Core.Maths.MatrixMxN.ScalarDivision(Engine.Core.Maths.MatrixMxN, float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: ScalarDivision
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 596
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static MatrixMxN ScalarDivision(MatrixMxN n, float f)
+    parameters:
+    - id: n
+      type: Engine.Core.Maths.MatrixMxN
+    - id: f
+      type: System.Single
+    return:
+      type: Engine.Core.Maths.MatrixMxN
+    content.vb: Public Shared Function ScalarDivision(n As MatrixMxN, f As Single) As MatrixMxN
+  overload: Engine.Core.Maths.MatrixMxN.ScalarDivision*
+  nameWithType.vb: MatrixMxN.ScalarDivision(MatrixMxN, Single)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.ScalarDivision(Engine.Core.Maths.MatrixMxN, Single)
+  name.vb: ScalarDivision(MatrixMxN, Single)
+- uid: Engine.Core.Maths.MatrixMxN.Multiplication(Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixMxN)
+  commentId: M:Engine.Core.Maths.MatrixMxN.Multiplication(Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixMxN)
+  id: Multiplication(Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixMxN)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: Multiplication(MatrixMxN, MatrixMxN)
+  nameWithType: MatrixMxN.Multiplication(MatrixMxN, MatrixMxN)
+  fullName: Engine.Core.Maths.MatrixMxN.Multiplication(Engine.Core.Maths.MatrixMxN, Engine.Core.Maths.MatrixMxN)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Multiplication
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 600
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static MatrixMxN Multiplication(MatrixMxN n, MatrixMxN m)
+    parameters:
+    - id: n
+      type: Engine.Core.Maths.MatrixMxN
+    - id: m
+      type: Engine.Core.Maths.MatrixMxN
+    return:
+      type: Engine.Core.Maths.MatrixMxN
+    content.vb: Public Shared Function Multiplication(n As MatrixMxN, m As MatrixMxN) As MatrixMxN
+  overload: Engine.Core.Maths.MatrixMxN.Multiplication*
+- uid: Engine.Core.Maths.MatrixMxN.Addition(Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixMxN)
+  commentId: M:Engine.Core.Maths.MatrixMxN.Addition(Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixMxN)
+  id: Addition(Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixMxN)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: Addition(MatrixMxN, MatrixMxN)
+  nameWithType: MatrixMxN.Addition(MatrixMxN, MatrixMxN)
+  fullName: Engine.Core.Maths.MatrixMxN.Addition(Engine.Core.Maths.MatrixMxN, Engine.Core.Maths.MatrixMxN)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Addition
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 604
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static MatrixMxN Addition(MatrixMxN n, MatrixMxN m)
+    parameters:
+    - id: n
+      type: Engine.Core.Maths.MatrixMxN
+    - id: m
+      type: Engine.Core.Maths.MatrixMxN
+    return:
+      type: Engine.Core.Maths.MatrixMxN
+    content.vb: Public Shared Function Addition(n As MatrixMxN, m As MatrixMxN) As MatrixMxN
+  overload: Engine.Core.Maths.MatrixMxN.Addition*
+- uid: Engine.Core.Maths.MatrixMxN.Substraction(Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixMxN)
+  commentId: M:Engine.Core.Maths.MatrixMxN.Substraction(Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixMxN)
+  id: Substraction(Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixMxN)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: Substraction(MatrixMxN, MatrixMxN)
+  nameWithType: MatrixMxN.Substraction(MatrixMxN, MatrixMxN)
+  fullName: Engine.Core.Maths.MatrixMxN.Substraction(Engine.Core.Maths.MatrixMxN, Engine.Core.Maths.MatrixMxN)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Substraction
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 608
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static MatrixMxN Substraction(MatrixMxN n, MatrixMxN m)
+    parameters:
+    - id: n
+      type: Engine.Core.Maths.MatrixMxN
+    - id: m
+      type: Engine.Core.Maths.MatrixMxN
+    return:
+      type: Engine.Core.Maths.MatrixMxN
+    content.vb: Public Shared Function Substraction(n As MatrixMxN, m As MatrixMxN) As MatrixMxN
+  overload: Engine.Core.Maths.MatrixMxN.Substraction*
+- uid: Engine.Core.Maths.MatrixMxN.RowOperation(Engine.Core.Maths.MatrixMxN,System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+  commentId: M:Engine.Core.Maths.MatrixMxN.RowOperation(Engine.Core.Maths.MatrixMxN,System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+  id: RowOperation(Engine.Core.Maths.MatrixMxN,System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: RowOperation(MatrixMxN, int, int, MatrixOperation, float)
+  nameWithType: MatrixMxN.RowOperation(MatrixMxN, int, int, MatrixOperation, float)
+  fullName: Engine.Core.Maths.MatrixMxN.RowOperation(Engine.Core.Maths.MatrixMxN, int, int, Engine.Core.Maths.MatrixOperation, float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: RowOperation
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 612
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static void RowOperation(MatrixMxN n, int target, int source, MatrixOperation operation, float f = 0)
+    parameters:
+    - id: n
+      type: Engine.Core.Maths.MatrixMxN
+    - id: target
+      type: System.Int32
+    - id: source
+      type: System.Int32
+    - id: operation
+      type: Engine.Core.Maths.MatrixOperation
+    - id: f
+      type: System.Single
+    content.vb: Public Shared Sub RowOperation(n As MatrixMxN, target As Integer, source As Integer, operation As MatrixOperation, f As Single = 0)
+  overload: Engine.Core.Maths.MatrixMxN.RowOperation*
+  nameWithType.vb: MatrixMxN.RowOperation(MatrixMxN, Integer, Integer, MatrixOperation, Single)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.RowOperation(Engine.Core.Maths.MatrixMxN, Integer, Integer, Engine.Core.Maths.MatrixOperation, Single)
+  name.vb: RowOperation(MatrixMxN, Integer, Integer, MatrixOperation, Single)
+- uid: Engine.Core.Maths.MatrixMxN.Operation(Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixOperation,System.Single)
+  commentId: M:Engine.Core.Maths.MatrixMxN.Operation(Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixOperation,System.Single)
+  id: Operation(Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixOperation,System.Single)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: Operation(MatrixMxN, MatrixMxN, MatrixOperation, float)
+  nameWithType: MatrixMxN.Operation(MatrixMxN, MatrixMxN, MatrixOperation, float)
+  fullName: Engine.Core.Maths.MatrixMxN.Operation(Engine.Core.Maths.MatrixMxN, Engine.Core.Maths.MatrixMxN, Engine.Core.Maths.MatrixOperation, float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Operation
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 616
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static MatrixMxN Operation(MatrixMxN n, MatrixMxN m, MatrixOperation operation, float f = 0)
+    parameters:
+    - id: n
+      type: Engine.Core.Maths.MatrixMxN
+    - id: m
+      type: Engine.Core.Maths.MatrixMxN
+    - id: operation
+      type: Engine.Core.Maths.MatrixOperation
+    - id: f
+      type: System.Single
+    return:
+      type: Engine.Core.Maths.MatrixMxN
+    content.vb: Public Shared Function Operation(n As MatrixMxN, m As MatrixMxN, operation As MatrixOperation, f As Single = 0) As MatrixMxN
+  overload: Engine.Core.Maths.MatrixMxN.Operation*
+  nameWithType.vb: MatrixMxN.Operation(MatrixMxN, MatrixMxN, MatrixOperation, Single)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.Operation(Engine.Core.Maths.MatrixMxN, Engine.Core.Maths.MatrixMxN, Engine.Core.Maths.MatrixOperation, Single)
+  name.vb: Operation(MatrixMxN, MatrixMxN, MatrixOperation, Single)
+- uid: Engine.Core.Maths.MatrixMxN.GetIdentityMatrix(System.Int32)
+  commentId: M:Engine.Core.Maths.MatrixMxN.GetIdentityMatrix(System.Int32)
+  id: GetIdentityMatrix(System.Int32)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: GetIdentityMatrix(int)
+  nameWithType: MatrixMxN.GetIdentityMatrix(int)
+  fullName: Engine.Core.Maths.MatrixMxN.GetIdentityMatrix(int)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: GetIdentityMatrix
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 625
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  summary: Creates a nxn identity and returns it.
+  example: []
+  syntax:
+    content: public static MatrixMxN GetIdentityMatrix(int n)
+    parameters:
+    - id: n
+      type: System.Int32
+      description: ''
+    return:
+      type: Engine.Core.Maths.MatrixMxN
+      description: ''
+    content.vb: Public Shared Function GetIdentityMatrix(n As Integer) As MatrixMxN
+  overload: Engine.Core.Maths.MatrixMxN.GetIdentityMatrix*
+  nameWithType.vb: MatrixMxN.GetIdentityMatrix(Integer)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.GetIdentityMatrix(Integer)
+  name.vb: GetIdentityMatrix(Integer)
+- uid: Engine.Core.Maths.MatrixMxN.GetInverse(Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixMxN@)
+  commentId: M:Engine.Core.Maths.MatrixMxN.GetInverse(Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixMxN@)
+  id: GetInverse(Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixMxN@)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: GetInverse(MatrixMxN, out MatrixMxN)
+  nameWithType: MatrixMxN.GetInverse(MatrixMxN, out MatrixMxN)
+  fullName: Engine.Core.Maths.MatrixMxN.GetInverse(Engine.Core.Maths.MatrixMxN, out Engine.Core.Maths.MatrixMxN)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: GetInverse
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 640
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static bool GetInverse(MatrixMxN m, out MatrixMxN inverseMatrix)
+    parameters:
+    - id: m
+      type: Engine.Core.Maths.MatrixMxN
+    - id: inverseMatrix
+      type: Engine.Core.Maths.MatrixMxN
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function GetInverse(m As MatrixMxN, inverseMatrix As MatrixMxN) As Boolean
+  overload: Engine.Core.Maths.MatrixMxN.GetInverse*
+  nameWithType.vb: MatrixMxN.GetInverse(MatrixMxN, MatrixMxN)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.GetInverse(Engine.Core.Maths.MatrixMxN, Engine.Core.Maths.MatrixMxN)
+  name.vb: GetInverse(MatrixMxN, MatrixMxN)
+- uid: Engine.Core.Maths.MatrixMxN.op_Multiply(System.Single,Engine.Core.Maths.MatrixMxN)
+  commentId: M:Engine.Core.Maths.MatrixMxN.op_Multiply(System.Single,Engine.Core.Maths.MatrixMxN)
+  id: op_Multiply(System.Single,Engine.Core.Maths.MatrixMxN)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: operator *(float, MatrixMxN)
+  nameWithType: MatrixMxN.operator *(float, MatrixMxN)
+  fullName: Engine.Core.Maths.MatrixMxN.operator *(float, Engine.Core.Maths.MatrixMxN)
+  type: Operator
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: op_Multiply
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 654
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static MatrixMxN operator *(float f, MatrixMxN n)
+    parameters:
+    - id: f
+      type: System.Single
+    - id: n
+      type: Engine.Core.Maths.MatrixMxN
+    return:
+      type: Engine.Core.Maths.MatrixMxN
+    content.vb: Public Shared Operator *(f As Single, n As MatrixMxN) As MatrixMxN
+  overload: Engine.Core.Maths.MatrixMxN.op_Multiply*
+  nameWithType.vb: MatrixMxN.*(Single, MatrixMxN)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.*(Single, Engine.Core.Maths.MatrixMxN)
+  name.vb: '*(Single, MatrixMxN)'
+- uid: Engine.Core.Maths.MatrixMxN.op_Multiply(Engine.Core.Maths.MatrixMxN,System.Single)
+  commentId: M:Engine.Core.Maths.MatrixMxN.op_Multiply(Engine.Core.Maths.MatrixMxN,System.Single)
+  id: op_Multiply(Engine.Core.Maths.MatrixMxN,System.Single)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: operator *(MatrixMxN, float)
+  nameWithType: MatrixMxN.operator *(MatrixMxN, float)
+  fullName: Engine.Core.Maths.MatrixMxN.operator *(Engine.Core.Maths.MatrixMxN, float)
+  type: Operator
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: op_Multiply
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 658
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static MatrixMxN operator *(MatrixMxN n, float f)
+    parameters:
+    - id: n
+      type: Engine.Core.Maths.MatrixMxN
+    - id: f
+      type: System.Single
+    return:
+      type: Engine.Core.Maths.MatrixMxN
+    content.vb: Public Shared Operator *(n As MatrixMxN, f As Single) As MatrixMxN
+  overload: Engine.Core.Maths.MatrixMxN.op_Multiply*
+  nameWithType.vb: MatrixMxN.*(MatrixMxN, Single)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.*(Engine.Core.Maths.MatrixMxN, Single)
+  name.vb: '*(MatrixMxN, Single)'
+- uid: Engine.Core.Maths.MatrixMxN.op_Multiply(Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixMxN)
+  commentId: M:Engine.Core.Maths.MatrixMxN.op_Multiply(Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixMxN)
+  id: op_Multiply(Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixMxN)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: operator *(MatrixMxN, MatrixMxN)
+  nameWithType: MatrixMxN.operator *(MatrixMxN, MatrixMxN)
+  fullName: Engine.Core.Maths.MatrixMxN.operator *(Engine.Core.Maths.MatrixMxN, Engine.Core.Maths.MatrixMxN)
+  type: Operator
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: op_Multiply
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 662
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static MatrixMxN operator *(MatrixMxN n, MatrixMxN m)
+    parameters:
+    - id: n
+      type: Engine.Core.Maths.MatrixMxN
+    - id: m
+      type: Engine.Core.Maths.MatrixMxN
+    return:
+      type: Engine.Core.Maths.MatrixMxN
+    content.vb: Public Shared Operator *(n As MatrixMxN, m As MatrixMxN) As MatrixMxN
+  overload: Engine.Core.Maths.MatrixMxN.op_Multiply*
+  nameWithType.vb: MatrixMxN.*(MatrixMxN, MatrixMxN)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.*(Engine.Core.Maths.MatrixMxN, Engine.Core.Maths.MatrixMxN)
+  name.vb: '*(MatrixMxN, MatrixMxN)'
+- uid: Engine.Core.Maths.MatrixMxN.op_Addition(Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixMxN)
+  commentId: M:Engine.Core.Maths.MatrixMxN.op_Addition(Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixMxN)
+  id: op_Addition(Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixMxN)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: operator +(MatrixMxN, MatrixMxN)
+  nameWithType: MatrixMxN.operator +(MatrixMxN, MatrixMxN)
+  fullName: Engine.Core.Maths.MatrixMxN.operator +(Engine.Core.Maths.MatrixMxN, Engine.Core.Maths.MatrixMxN)
+  type: Operator
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: op_Addition
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 666
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static MatrixMxN operator +(MatrixMxN n, MatrixMxN m)
+    parameters:
+    - id: n
+      type: Engine.Core.Maths.MatrixMxN
+    - id: m
+      type: Engine.Core.Maths.MatrixMxN
+    return:
+      type: Engine.Core.Maths.MatrixMxN
+    content.vb: Public Shared Operator +(n As MatrixMxN, m As MatrixMxN) As MatrixMxN
+  overload: Engine.Core.Maths.MatrixMxN.op_Addition*
+  nameWithType.vb: MatrixMxN.+(MatrixMxN, MatrixMxN)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.+(Engine.Core.Maths.MatrixMxN, Engine.Core.Maths.MatrixMxN)
+  name.vb: +(MatrixMxN, MatrixMxN)
+- uid: Engine.Core.Maths.MatrixMxN.op_Subtraction(Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixMxN)
+  commentId: M:Engine.Core.Maths.MatrixMxN.op_Subtraction(Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixMxN)
+  id: op_Subtraction(Engine.Core.Maths.MatrixMxN,Engine.Core.Maths.MatrixMxN)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: operator -(MatrixMxN, MatrixMxN)
+  nameWithType: MatrixMxN.operator -(MatrixMxN, MatrixMxN)
+  fullName: Engine.Core.Maths.MatrixMxN.operator -(Engine.Core.Maths.MatrixMxN, Engine.Core.Maths.MatrixMxN)
+  type: Operator
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: op_Subtraction
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 670
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static MatrixMxN operator -(MatrixMxN n, MatrixMxN m)
+    parameters:
+    - id: n
+      type: Engine.Core.Maths.MatrixMxN
+    - id: m
+      type: Engine.Core.Maths.MatrixMxN
+    return:
+      type: Engine.Core.Maths.MatrixMxN
+    content.vb: Public Shared Operator -(n As MatrixMxN, m As MatrixMxN) As MatrixMxN
+  overload: Engine.Core.Maths.MatrixMxN.op_Subtraction*
+  nameWithType.vb: MatrixMxN.-(MatrixMxN, MatrixMxN)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.-(Engine.Core.Maths.MatrixMxN, Engine.Core.Maths.MatrixMxN)
+  name.vb: -(MatrixMxN, MatrixMxN)
+- uid: Engine.Core.Maths.MatrixMxN.op_UnaryNegation(Engine.Core.Maths.MatrixMxN)
+  commentId: M:Engine.Core.Maths.MatrixMxN.op_UnaryNegation(Engine.Core.Maths.MatrixMxN)
+  id: op_UnaryNegation(Engine.Core.Maths.MatrixMxN)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: operator -(MatrixMxN)
+  nameWithType: MatrixMxN.operator -(MatrixMxN)
+  fullName: Engine.Core.Maths.MatrixMxN.operator -(Engine.Core.Maths.MatrixMxN)
+  type: Operator
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: op_UnaryNegation
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 674
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static MatrixMxN operator -(MatrixMxN n)
+    parameters:
+    - id: n
+      type: Engine.Core.Maths.MatrixMxN
+    return:
+      type: Engine.Core.Maths.MatrixMxN
+    content.vb: Public Shared Operator -(n As MatrixMxN) As MatrixMxN
+  overload: Engine.Core.Maths.MatrixMxN.op_UnaryNegation*
+  nameWithType.vb: MatrixMxN.-(MatrixMxN)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.-(Engine.Core.Maths.MatrixMxN)
+  name.vb: -(MatrixMxN)
+- uid: Engine.Core.Maths.MatrixMxN.op_Division(Engine.Core.Maths.MatrixMxN,System.Single)
+  commentId: M:Engine.Core.Maths.MatrixMxN.op_Division(Engine.Core.Maths.MatrixMxN,System.Single)
+  id: op_Division(Engine.Core.Maths.MatrixMxN,System.Single)
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: operator /(MatrixMxN, float)
+  nameWithType: MatrixMxN.operator /(MatrixMxN, float)
+  fullName: Engine.Core.Maths.MatrixMxN.operator /(Engine.Core.Maths.MatrixMxN, float)
+  type: Operator
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: op_Division
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 678
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static MatrixMxN operator /(MatrixMxN n, float f)
+    parameters:
+    - id: n
+      type: Engine.Core.Maths.MatrixMxN
+    - id: f
+      type: System.Single
+    return:
+      type: Engine.Core.Maths.MatrixMxN
+    content.vb: Public Shared Operator /(n As MatrixMxN, f As Single) As MatrixMxN
+  overload: Engine.Core.Maths.MatrixMxN.op_Division*
+  nameWithType.vb: MatrixMxN./(MatrixMxN, Single)
+  fullName.vb: Engine.Core.Maths.MatrixMxN./(Engine.Core.Maths.MatrixMxN, Single)
+  name.vb: /(MatrixMxN, Single)
+- uid: Engine.Core.Maths.MatrixMxN.op_Implicit(Engine.Core.Maths.MatrixMxN)~Engine.Core.Maths.Matrix3x3
+  commentId: M:Engine.Core.Maths.MatrixMxN.op_Implicit(Engine.Core.Maths.MatrixMxN)~Engine.Core.Maths.Matrix3x3
+  id: op_Implicit(Engine.Core.Maths.MatrixMxN)~Engine.Core.Maths.Matrix3x3
+  parent: Engine.Core.Maths.MatrixMxN
+  langs:
+  - csharp
+  - vb
+  name: implicit operator Matrix3x3(MatrixMxN)
+  nameWithType: MatrixMxN.implicit operator Matrix3x3(MatrixMxN)
+  fullName: Engine.Core.Maths.MatrixMxN.implicit operator Engine.Core.Maths.Matrix3x3(Engine.Core.Maths.MatrixMxN)
+  type: Operator
+  source:
+    remote:
+      path: Engine.Core/Maths/MatrixMxN.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: op_Implicit
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/MatrixMxN.cs
+    startLine: 682
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public static implicit operator Matrix3x3(MatrixMxN m)
+    parameters:
+    - id: m
+      type: Engine.Core.Maths.MatrixMxN
+    return:
+      type: Engine.Core.Maths.Matrix3x3
+    content.vb: Public Shared Widening Operator CType(m As MatrixMxN) As Matrix3x3
+  overload: Engine.Core.Maths.MatrixMxN.op_Implicit*
+  nameWithType.vb: MatrixMxN.CType(MatrixMxN)
+  fullName.vb: Engine.Core.Maths.MatrixMxN.CType(Engine.Core.Maths.MatrixMxN)
+  name.vb: CType(MatrixMxN)
+references:
+- uid: Engine.Core.Maths
+  commentId: N:Engine.Core.Maths
+  href: Engine.html
+  name: Engine.Core.Maths
+  nameWithType: Engine.Core.Maths
+  fullName: Engine.Core.Maths
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Engine.Core.Maths.Matrix
+  commentId: T:Engine.Core.Maths.Matrix
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.Matrix.html
+  name: Matrix
+  nameWithType: Matrix
+  fullName: Engine.Core.Maths.Matrix
+- uid: Engine.Core.Maths.IMatrix
+  commentId: T:Engine.Core.Maths.IMatrix
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.IMatrix.html
+  name: IMatrix
+  nameWithType: IMatrix
+  fullName: Engine.Core.Maths.IMatrix
+- uid: Engine.Core.Maths.Matrix.I2x2
+  commentId: F:Engine.Core.Maths.Matrix.I2x2
+  parent: Engine.Core.Maths.Matrix
+  href: Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_I2x2
+  name: I2x2
+  nameWithType: Matrix.I2x2
+  fullName: Engine.Core.Maths.Matrix.I2x2
+- uid: Engine.Core.Maths.Matrix.I3x3
+  commentId: F:Engine.Core.Maths.Matrix.I3x3
+  parent: Engine.Core.Maths.Matrix
+  href: Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_I3x3
+  name: I3x3
+  nameWithType: Matrix.I3x3
+  fullName: Engine.Core.Maths.Matrix.I3x3
+- uid: Engine.Core.Maths.Matrix.I4x4
+  commentId: F:Engine.Core.Maths.Matrix.I4x4
+  parent: Engine.Core.Maths.Matrix
+  href: Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_I4x4
+  name: I4x4
+  nameWithType: Matrix.I4x4
+  fullName: Engine.Core.Maths.Matrix.I4x4
+- uid: Engine.Core.Maths.Matrix.GetIdentityMatrix``1(System.Int32,{T}@)
+  commentId: M:Engine.Core.Maths.Matrix.GetIdentityMatrix``1(System.Int32,``0@)
+  parent: Engine.Core.Maths.Matrix
+  definition: Engine.Core.Maths.Matrix.GetIdentityMatrix``1(System.Int32,``0@)
+  href: Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_GetIdentityMatrix__1_System_Int32___0__
+  name: GetIdentityMatrix<T>(int, out T)
+  nameWithType: Matrix.GetIdentityMatrix<T>(int, out T)
+  fullName: Engine.Core.Maths.Matrix.GetIdentityMatrix<T>(int, out T)
+  nameWithType.vb: Matrix.GetIdentityMatrix(Of T)(Integer, T)
+  fullName.vb: Engine.Core.Maths.Matrix.GetIdentityMatrix(Of T)(Integer, T)
+  name.vb: GetIdentityMatrix(Of T)(Integer, T)
+  spec.csharp:
+  - uid: Engine.Core.Maths.Matrix.GetIdentityMatrix``1(System.Int32,``0@)
+    name: GetIdentityMatrix
+    href: Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_GetIdentityMatrix__1_System_Int32___0__
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - name: out
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Engine.Core.Maths.Matrix.GetIdentityMatrix``1(System.Int32,``0@)
+    name: GetIdentityMatrix
+    href: Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_GetIdentityMatrix__1_System_Int32___0__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: Engine.Core.Maths.Matrix.GetInverse``1({T},{T}@)
+  commentId: M:Engine.Core.Maths.Matrix.GetInverse``1(``0,``0@)
+  parent: Engine.Core.Maths.Matrix
+  definition: Engine.Core.Maths.Matrix.GetInverse``1(``0,``0@)
+  href: Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_GetInverse__1___0___0__
+  name: GetInverse<T>(T, out T)
+  nameWithType: Matrix.GetInverse<T>(T, out T)
+  fullName: Engine.Core.Maths.Matrix.GetInverse<T>(T, out T)
+  nameWithType.vb: Matrix.GetInverse(Of T)(T, T)
+  fullName.vb: Engine.Core.Maths.Matrix.GetInverse(Of T)(T, T)
+  name.vb: GetInverse(Of T)(T, T)
+  spec.csharp:
+  - uid: Engine.Core.Maths.Matrix.GetInverse``1(``0,``0@)
+    name: GetInverse
+    href: Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_GetInverse__1___0___0__
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: out
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Engine.Core.Maths.Matrix.GetInverse``1(``0,``0@)
+    name: GetInverse
+    href: Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_GetInverse__1___0___0__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Engine.Core.Maths.Matrix.GetIdentityMatrix``1(System.Int32,``0@)
+  commentId: M:Engine.Core.Maths.Matrix.GetIdentityMatrix``1(System.Int32,``0@)
+  isExternal: true
+  href: Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_GetIdentityMatrix__1_System_Int32___0__
+  name: GetIdentityMatrix<T>(int, out T)
+  nameWithType: Matrix.GetIdentityMatrix<T>(int, out T)
+  fullName: Engine.Core.Maths.Matrix.GetIdentityMatrix<T>(int, out T)
+  nameWithType.vb: Matrix.GetIdentityMatrix(Of T)(Integer, T)
+  fullName.vb: Engine.Core.Maths.Matrix.GetIdentityMatrix(Of T)(Integer, T)
+  name.vb: GetIdentityMatrix(Of T)(Integer, T)
+  spec.csharp:
+  - uid: Engine.Core.Maths.Matrix.GetIdentityMatrix``1(System.Int32,``0@)
+    name: GetIdentityMatrix
+    href: Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_GetIdentityMatrix__1_System_Int32___0__
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - name: out
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Engine.Core.Maths.Matrix.GetIdentityMatrix``1(System.Int32,``0@)
+    name: GetIdentityMatrix
+    href: Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_GetIdentityMatrix__1_System_Int32___0__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: Engine.Core.Maths.Matrix.GetInverse``1(``0,``0@)
+  commentId: M:Engine.Core.Maths.Matrix.GetInverse``1(``0,``0@)
+  href: Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_GetInverse__1___0___0__
+  name: GetInverse<T>(T, out T)
+  nameWithType: Matrix.GetInverse<T>(T, out T)
+  fullName: Engine.Core.Maths.Matrix.GetInverse<T>(T, out T)
+  nameWithType.vb: Matrix.GetInverse(Of T)(T, T)
+  fullName.vb: Engine.Core.Maths.Matrix.GetInverse(Of T)(T, T)
+  name.vb: GetInverse(Of T)(T, T)
+  spec.csharp:
+  - uid: Engine.Core.Maths.Matrix.GetInverse``1(``0,``0@)
+    name: GetInverse
+    href: Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_GetInverse__1___0___0__
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: out
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Engine.Core.Maths.Matrix.GetInverse``1(``0,``0@)
+    name: GetInverse
+    href: Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_GetInverse__1___0___0__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: Engine.Core.Maths.Matrix.RowCount
+  commentId: P:Engine.Core.Maths.Matrix.RowCount
+  parent: Engine.Core.Maths.Matrix
+  href: Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_RowCount
+  name: RowCount
+  nameWithType: Matrix.RowCount
+  fullName: Engine.Core.Maths.Matrix.RowCount
+- uid: Engine.Core.Maths.MatrixMxN.RowCount*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.RowCount
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_RowCount
+  name: RowCount
+  nameWithType: MatrixMxN.RowCount
+  fullName: Engine.Core.Maths.MatrixMxN.RowCount
+- uid: Engine.Core.Maths.IMatrix.RowCount
+  commentId: P:Engine.Core.Maths.IMatrix.RowCount
+  parent: Engine.Core.Maths.IMatrix
+  href: Engine.Core.Maths.IMatrix.html#Engine_Core_Maths_IMatrix_RowCount
+  name: RowCount
+  nameWithType: IMatrix.RowCount
+  fullName: Engine.Core.Maths.IMatrix.RowCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Engine.Core.Maths.Matrix.ColumnCount
+  commentId: P:Engine.Core.Maths.Matrix.ColumnCount
+  parent: Engine.Core.Maths.Matrix
+  href: Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_ColumnCount
+  name: ColumnCount
+  nameWithType: Matrix.ColumnCount
+  fullName: Engine.Core.Maths.Matrix.ColumnCount
+- uid: Engine.Core.Maths.MatrixMxN.ColumnCount*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.ColumnCount
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_ColumnCount
+  name: ColumnCount
+  nameWithType: MatrixMxN.ColumnCount
+  fullName: Engine.Core.Maths.MatrixMxN.ColumnCount
+- uid: Engine.Core.Maths.IMatrix.ColumnCount
+  commentId: P:Engine.Core.Maths.IMatrix.ColumnCount
+  parent: Engine.Core.Maths.IMatrix
+  href: Engine.Core.Maths.IMatrix.html#Engine_Core_Maths_IMatrix_ColumnCount
+  name: ColumnCount
+  nameWithType: IMatrix.ColumnCount
+  fullName: Engine.Core.Maths.IMatrix.ColumnCount
+- uid: Engine.Core.Maths.Matrix.Item(System.Int32,System.Int32)
+  commentId: P:Engine.Core.Maths.Matrix.Item(System.Int32,System.Int32)
+  parent: Engine.Core.Maths.Matrix
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: this[int, int]
+  nameWithType: Matrix.this[int, int]
+  fullName: Engine.Core.Maths.Matrix.this[int, int]
+  nameWithType.vb: Matrix.this[](Integer, Integer)
+  fullName.vb: Engine.Core.Maths.Matrix.this[](Integer, Integer)
+  name.vb: this[](Integer, Integer)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ']'
+  spec.vb:
+  - uid: Engine.Core.Maths.Matrix.Item(System.Int32,System.Int32)
+    name: this[]
+    href: Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_Item_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Engine.Core.Maths.MatrixMxN.Item*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.Item
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_Item_System_Int32_System_Int32_
+  name: this
+  nameWithType: MatrixMxN.this
+  fullName: Engine.Core.Maths.MatrixMxN.this
+  nameWithType.vb: MatrixMxN.this[]
+  fullName.vb: Engine.Core.Maths.MatrixMxN.this[]
+  name.vb: this[]
+- uid: Engine.Core.Maths.IMatrix.Item(System.Int32,System.Int32)
+  commentId: P:Engine.Core.Maths.IMatrix.Item(System.Int32,System.Int32)
+  parent: Engine.Core.Maths.IMatrix
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: this[int, int]
+  nameWithType: IMatrix.this[int, int]
+  fullName: Engine.Core.Maths.IMatrix.this[int, int]
+  nameWithType.vb: IMatrix.this[](Integer, Integer)
+  fullName.vb: Engine.Core.Maths.IMatrix.this[](Integer, Integer)
+  name.vb: this[](Integer, Integer)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ']'
+  spec.vb:
+  - uid: Engine.Core.Maths.IMatrix.Item(System.Int32,System.Int32)
+    name: this[]
+    href: Engine.Core.Maths.IMatrix.html#Engine_Core_Maths_IMatrix_Item_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Engine.Core.Maths.MatrixMxN.#ctor*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.#ctor
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN__ctor
+  name: MatrixMxN
+  nameWithType: MatrixMxN.MatrixMxN
+  fullName: Engine.Core.Maths.MatrixMxN.MatrixMxN
+  nameWithType.vb: MatrixMxN.New
+  fullName.vb: Engine.Core.Maths.MatrixMxN.New
+  name.vb: New
+- uid: System.Collections.Generic.List{Engine.Core.Maths.Vector}
+  commentId: T:System.Collections.Generic.List{Engine.Core.Maths.Vector}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<Vector>
+  nameWithType: List<Vector>
+  fullName: System.Collections.Generic.List<Engine.Core.Maths.Vector>
+  nameWithType.vb: List(Of Vector)
+  fullName.vb: System.Collections.Generic.List(Of Engine.Core.Maths.Vector)
+  name.vb: List(Of Vector)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Engine.Core.Maths.Vector
+    name: Vector
+    href: Engine.Core.Maths.Vector.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Engine.Core.Maths.Vector
+    name: Vector
+    href: Engine.Core.Maths.Vector.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Engine.Core.Maths.MatrixMxN.GetValue*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.GetValue
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_GetValue_System_Int32_System_Int32_
+  name: GetValue
+  nameWithType: MatrixMxN.GetValue
+  fullName: Engine.Core.Maths.MatrixMxN.GetValue
+- uid: Engine.Core.Maths.MatrixMxN.SetValue*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.SetValue
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_SetValue_System_Int32_System_Int32_System_Single_
+  name: SetValue
+  nameWithType: MatrixMxN.SetValue
+  fullName: Engine.Core.Maths.MatrixMxN.SetValue
+- uid: Engine.Core.Maths.MatrixMxN.GetRow*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.GetRow
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_GetRow_System_Int32_
+  name: GetRow
+  nameWithType: MatrixMxN.GetRow
+  fullName: Engine.Core.Maths.MatrixMxN.GetRow
+- uid: Engine.Core.Maths.Vector
+  commentId: T:Engine.Core.Maths.Vector
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.Vector.html
+  name: Vector
+  nameWithType: Vector
+  fullName: Engine.Core.Maths.Vector
+- uid: Engine.Core.Maths.MatrixMxN.GetColumn*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.GetColumn
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_GetColumn_System_Int32_
+  name: GetColumn
+  nameWithType: MatrixMxN.GetColumn
+  fullName: Engine.Core.Maths.MatrixMxN.GetColumn
+- uid: Engine.Core.Maths.MatrixMxN.AddRow*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.AddRow
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_AddRow_Engine_Core_Maths_Vector_
+  name: AddRow
+  nameWithType: MatrixMxN.AddRow
+  fullName: Engine.Core.Maths.MatrixMxN.AddRow
+- uid: Engine.Core.Maths.MatrixMxN.AddColumn*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.AddColumn
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_AddColumn_Engine_Core_Maths_Vector_
+  name: AddColumn
+  nameWithType: MatrixMxN.AddColumn
+  fullName: Engine.Core.Maths.MatrixMxN.AddColumn
+- uid: Engine.Core.Maths.MatrixMxN.InsertRow*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.InsertRow
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_InsertRow_Engine_Core_Maths_Vector_System_Int32_
+  name: InsertRow
+  nameWithType: MatrixMxN.InsertRow
+  fullName: Engine.Core.Maths.MatrixMxN.InsertRow
+- uid: Engine.Core.Maths.MatrixMxN.RemoveRow*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.RemoveRow
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_RemoveRow_System_Int32_
+  name: RemoveRow
+  nameWithType: MatrixMxN.RemoveRow
+  fullName: Engine.Core.Maths.MatrixMxN.RemoveRow
+- uid: Engine.Core.Maths.MatrixMxN.RemoveColumn*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.RemoveColumn
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_RemoveColumn_System_Int32_
+  name: RemoveColumn
+  nameWithType: MatrixMxN.RemoveColumn
+  fullName: Engine.Core.Maths.MatrixMxN.RemoveColumn
+- uid: Engine.Core.Maths.Matrix.SwapRows(System.Int32,System.Int32)
+  commentId: M:Engine.Core.Maths.Matrix.SwapRows(System.Int32,System.Int32)
+  parent: Engine.Core.Maths.Matrix
+  isExternal: true
+  href: Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_SwapRows_System_Int32_System_Int32_
+  name: SwapRows(int, int)
+  nameWithType: Matrix.SwapRows(int, int)
+  fullName: Engine.Core.Maths.Matrix.SwapRows(int, int)
+  nameWithType.vb: Matrix.SwapRows(Integer, Integer)
+  fullName.vb: Engine.Core.Maths.Matrix.SwapRows(Integer, Integer)
+  name.vb: SwapRows(Integer, Integer)
+  spec.csharp:
+  - uid: Engine.Core.Maths.Matrix.SwapRows(System.Int32,System.Int32)
+    name: SwapRows
+    href: Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_SwapRows_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Engine.Core.Maths.Matrix.SwapRows(System.Int32,System.Int32)
+    name: SwapRows
+    href: Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_SwapRows_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Engine.Core.Maths.MatrixMxN.SwapRows*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.SwapRows
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_SwapRows_System_Int32_System_Int32_
+  name: SwapRows
+  nameWithType: MatrixMxN.SwapRows
+  fullName: Engine.Core.Maths.MatrixMxN.SwapRows
+- uid: Engine.Core.Maths.IMatrix.SwapRows(System.Int32,System.Int32)
+  commentId: M:Engine.Core.Maths.IMatrix.SwapRows(System.Int32,System.Int32)
+  parent: Engine.Core.Maths.IMatrix
+  isExternal: true
+  href: Engine.Core.Maths.IMatrix.html#Engine_Core_Maths_IMatrix_SwapRows_System_Int32_System_Int32_
+  name: SwapRows(int, int)
+  nameWithType: IMatrix.SwapRows(int, int)
+  fullName: Engine.Core.Maths.IMatrix.SwapRows(int, int)
+  nameWithType.vb: IMatrix.SwapRows(Integer, Integer)
+  fullName.vb: Engine.Core.Maths.IMatrix.SwapRows(Integer, Integer)
+  name.vb: SwapRows(Integer, Integer)
+  spec.csharp:
+  - uid: Engine.Core.Maths.IMatrix.SwapRows(System.Int32,System.Int32)
+    name: SwapRows
+    href: Engine.Core.Maths.IMatrix.html#Engine_Core_Maths_IMatrix_SwapRows_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Engine.Core.Maths.IMatrix.SwapRows(System.Int32,System.Int32)
+    name: SwapRows
+    href: Engine.Core.Maths.IMatrix.html#Engine_Core_Maths_IMatrix_SwapRows_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Engine.Core.Maths.MatrixMxN.ScalarMultiplication*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.ScalarMultiplication
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_ScalarMultiplication_System_Single_
+  name: ScalarMultiplication
+  nameWithType: MatrixMxN.ScalarMultiplication
+  fullName: Engine.Core.Maths.MatrixMxN.ScalarMultiplication
+- uid: Engine.Core.Maths.MatrixMxN
+  commentId: T:Engine.Core.Maths.MatrixMxN
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.MatrixMxN.html
+  name: MatrixMxN
+  nameWithType: MatrixMxN
+  fullName: Engine.Core.Maths.MatrixMxN
+- uid: Engine.Core.Maths.MatrixMxN.ScalarDivision*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.ScalarDivision
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_ScalarDivision_System_Single_
+  name: ScalarDivision
+  nameWithType: MatrixMxN.ScalarDivision
+  fullName: Engine.Core.Maths.MatrixMxN.ScalarDivision
+- uid: Engine.Core.Maths.MatrixMxN.Multiplication*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.Multiplication
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_Multiplication_Engine_Core_Maths_MatrixMxN_
+  name: Multiplication
+  nameWithType: MatrixMxN.Multiplication
+  fullName: Engine.Core.Maths.MatrixMxN.Multiplication
+- uid: Engine.Core.Maths.MatrixMxN.Addition*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.Addition
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_Addition_Engine_Core_Maths_MatrixMxN_
+  name: Addition
+  nameWithType: MatrixMxN.Addition
+  fullName: Engine.Core.Maths.MatrixMxN.Addition
+- uid: Engine.Core.Maths.MatrixMxN.Substraction*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.Substraction
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_Substraction_Engine_Core_Maths_MatrixMxN_
+  name: Substraction
+  nameWithType: MatrixMxN.Substraction
+  fullName: Engine.Core.Maths.MatrixMxN.Substraction
+- uid: Engine.Core.Maths.MatrixMxN.RowAddition*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.RowAddition
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_RowAddition_System_Int32_System_Int32_
+  name: RowAddition
+  nameWithType: MatrixMxN.RowAddition
+  fullName: Engine.Core.Maths.MatrixMxN.RowAddition
+- uid: Engine.Core.Maths.MatrixMxN.RowSubstraction*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.RowSubstraction
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_RowSubstraction_System_Int32_System_Int32_
+  name: RowSubstraction
+  nameWithType: MatrixMxN.RowSubstraction
+  fullName: Engine.Core.Maths.MatrixMxN.RowSubstraction
+- uid: Engine.Core.Maths.Matrix.RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+  commentId: M:Engine.Core.Maths.Matrix.RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+  parent: Engine.Core.Maths.Matrix
+  isExternal: true
+  href: Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_RowOperation_System_Int32_System_Int32_Engine_Core_Maths_MatrixOperation_System_Single_
+  name: RowOperation(int, int, MatrixOperation, float)
+  nameWithType: Matrix.RowOperation(int, int, MatrixOperation, float)
+  fullName: Engine.Core.Maths.Matrix.RowOperation(int, int, Engine.Core.Maths.MatrixOperation, float)
+  nameWithType.vb: Matrix.RowOperation(Integer, Integer, MatrixOperation, Single)
+  fullName.vb: Engine.Core.Maths.Matrix.RowOperation(Integer, Integer, Engine.Core.Maths.MatrixOperation, Single)
+  name.vb: RowOperation(Integer, Integer, MatrixOperation, Single)
+  spec.csharp:
+  - uid: Engine.Core.Maths.Matrix.RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+    name: RowOperation
+    href: Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_RowOperation_System_Int32_System_Int32_Engine_Core_Maths_MatrixOperation_System_Single_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: Engine.Core.Maths.MatrixOperation
+    name: MatrixOperation
+    href: Engine.Core.Maths.MatrixOperation.html
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  spec.vb:
+  - uid: Engine.Core.Maths.Matrix.RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+    name: RowOperation
+    href: Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_RowOperation_System_Int32_System_Int32_Engine_Core_Maths_MatrixOperation_System_Single_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: Engine.Core.Maths.MatrixOperation
+    name: MatrixOperation
+    href: Engine.Core.Maths.MatrixOperation.html
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: Engine.Core.Maths.MatrixMxN.RowOperation*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.RowOperation
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_RowOperation_System_Int32_System_Int32_Engine_Core_Maths_MatrixOperation_System_Single_
+  name: RowOperation
+  nameWithType: MatrixMxN.RowOperation
+  fullName: Engine.Core.Maths.MatrixMxN.RowOperation
+- uid: Engine.Core.Maths.IMatrix.RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+  commentId: M:Engine.Core.Maths.IMatrix.RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+  parent: Engine.Core.Maths.IMatrix
+  isExternal: true
+  href: Engine.Core.Maths.IMatrix.html#Engine_Core_Maths_IMatrix_RowOperation_System_Int32_System_Int32_Engine_Core_Maths_MatrixOperation_System_Single_
+  name: RowOperation(int, int, MatrixOperation, float)
+  nameWithType: IMatrix.RowOperation(int, int, MatrixOperation, float)
+  fullName: Engine.Core.Maths.IMatrix.RowOperation(int, int, Engine.Core.Maths.MatrixOperation, float)
+  nameWithType.vb: IMatrix.RowOperation(Integer, Integer, MatrixOperation, Single)
+  fullName.vb: Engine.Core.Maths.IMatrix.RowOperation(Integer, Integer, Engine.Core.Maths.MatrixOperation, Single)
+  name.vb: RowOperation(Integer, Integer, MatrixOperation, Single)
+  spec.csharp:
+  - uid: Engine.Core.Maths.IMatrix.RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+    name: RowOperation
+    href: Engine.Core.Maths.IMatrix.html#Engine_Core_Maths_IMatrix_RowOperation_System_Int32_System_Int32_Engine_Core_Maths_MatrixOperation_System_Single_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: Engine.Core.Maths.MatrixOperation
+    name: MatrixOperation
+    href: Engine.Core.Maths.MatrixOperation.html
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  spec.vb:
+  - uid: Engine.Core.Maths.IMatrix.RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+    name: RowOperation
+    href: Engine.Core.Maths.IMatrix.html#Engine_Core_Maths_IMatrix_RowOperation_System_Int32_System_Int32_Engine_Core_Maths_MatrixOperation_System_Single_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: Engine.Core.Maths.MatrixOperation
+    name: MatrixOperation
+    href: Engine.Core.Maths.MatrixOperation.html
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: Engine.Core.Maths.MatrixOperation
+  commentId: T:Engine.Core.Maths.MatrixOperation
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.MatrixOperation.html
+  name: MatrixOperation
+  nameWithType: MatrixOperation
+  fullName: Engine.Core.Maths.MatrixOperation
+- uid: Engine.Core.Maths.MatrixMxN.Operation*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.Operation
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_Operation_Engine_Core_Maths_MatrixMxN_Engine_Core_Maths_MatrixOperation_System_Single_
+  name: Operation
+  nameWithType: MatrixMxN.Operation
+  fullName: Engine.Core.Maths.MatrixMxN.Operation
+- uid: Engine.Core.Maths.Matrix.Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
+  commentId: M:Engine.Core.Maths.Matrix.Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
+  parent: Engine.Core.Maths.Matrix
+  isExternal: true
+  href: Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_Operation_Engine_Core_Maths_IMatrix_Engine_Core_Maths_MatrixOperation_System_Single_
+  name: Operation(IMatrix, MatrixOperation, float)
+  nameWithType: Matrix.Operation(IMatrix, MatrixOperation, float)
+  fullName: Engine.Core.Maths.Matrix.Operation(Engine.Core.Maths.IMatrix, Engine.Core.Maths.MatrixOperation, float)
+  nameWithType.vb: Matrix.Operation(IMatrix, MatrixOperation, Single)
+  fullName.vb: Engine.Core.Maths.Matrix.Operation(Engine.Core.Maths.IMatrix, Engine.Core.Maths.MatrixOperation, Single)
+  name.vb: Operation(IMatrix, MatrixOperation, Single)
+  spec.csharp:
+  - uid: Engine.Core.Maths.Matrix.Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
+    name: Operation
+    href: Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_Operation_Engine_Core_Maths_IMatrix_Engine_Core_Maths_MatrixOperation_System_Single_
+  - name: (
+  - uid: Engine.Core.Maths.IMatrix
+    name: IMatrix
+    href: Engine.Core.Maths.IMatrix.html
+  - name: ','
+  - name: " "
+  - uid: Engine.Core.Maths.MatrixOperation
+    name: MatrixOperation
+    href: Engine.Core.Maths.MatrixOperation.html
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  spec.vb:
+  - uid: Engine.Core.Maths.Matrix.Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
+    name: Operation
+    href: Engine.Core.Maths.Matrix.html#Engine_Core_Maths_Matrix_Operation_Engine_Core_Maths_IMatrix_Engine_Core_Maths_MatrixOperation_System_Single_
+  - name: (
+  - uid: Engine.Core.Maths.IMatrix
+    name: IMatrix
+    href: Engine.Core.Maths.IMatrix.html
+  - name: ','
+  - name: " "
+  - uid: Engine.Core.Maths.MatrixOperation
+    name: MatrixOperation
+    href: Engine.Core.Maths.MatrixOperation.html
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: Engine.Core.Maths.IMatrix.Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
+  commentId: M:Engine.Core.Maths.IMatrix.Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
+  parent: Engine.Core.Maths.IMatrix
+  isExternal: true
+  href: Engine.Core.Maths.IMatrix.html#Engine_Core_Maths_IMatrix_Operation_Engine_Core_Maths_IMatrix_Engine_Core_Maths_MatrixOperation_System_Single_
+  name: Operation(IMatrix, MatrixOperation, float)
+  nameWithType: IMatrix.Operation(IMatrix, MatrixOperation, float)
+  fullName: Engine.Core.Maths.IMatrix.Operation(Engine.Core.Maths.IMatrix, Engine.Core.Maths.MatrixOperation, float)
+  nameWithType.vb: IMatrix.Operation(IMatrix, MatrixOperation, Single)
+  fullName.vb: Engine.Core.Maths.IMatrix.Operation(Engine.Core.Maths.IMatrix, Engine.Core.Maths.MatrixOperation, Single)
+  name.vb: Operation(IMatrix, MatrixOperation, Single)
+  spec.csharp:
+  - uid: Engine.Core.Maths.IMatrix.Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
+    name: Operation
+    href: Engine.Core.Maths.IMatrix.html#Engine_Core_Maths_IMatrix_Operation_Engine_Core_Maths_IMatrix_Engine_Core_Maths_MatrixOperation_System_Single_
+  - name: (
+  - uid: Engine.Core.Maths.IMatrix
+    name: IMatrix
+    href: Engine.Core.Maths.IMatrix.html
+  - name: ','
+  - name: " "
+  - uid: Engine.Core.Maths.MatrixOperation
+    name: MatrixOperation
+    href: Engine.Core.Maths.MatrixOperation.html
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  spec.vb:
+  - uid: Engine.Core.Maths.IMatrix.Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
+    name: Operation
+    href: Engine.Core.Maths.IMatrix.html#Engine_Core_Maths_IMatrix_Operation_Engine_Core_Maths_IMatrix_Engine_Core_Maths_MatrixOperation_System_Single_
+  - name: (
+  - uid: Engine.Core.Maths.IMatrix
+    name: IMatrix
+    href: Engine.Core.Maths.IMatrix.html
+  - name: ','
+  - name: " "
+  - uid: Engine.Core.Maths.MatrixOperation
+    name: MatrixOperation
+    href: Engine.Core.Maths.MatrixOperation.html
+  - name: ','
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: Engine.Core.Maths.MatrixMxN.Transpose*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.Transpose
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_Transpose
+  name: Transpose
+  nameWithType: MatrixMxN.Transpose
+  fullName: Engine.Core.Maths.MatrixMxN.Transpose
+- uid: Engine.Core.Maths.MatrixMxN.GetSubMatrix*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.GetSubMatrix
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_GetSubMatrix_System_Int32_System_Int32_Engine_Core_Maths_MatrixMxN__
+  name: GetSubMatrix
+  nameWithType: MatrixMxN.GetSubMatrix
+  fullName: Engine.Core.Maths.MatrixMxN.GetSubMatrix
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Engine.Core.Maths.MatrixMxN.Get2x2SubMatrices*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.Get2x2SubMatrices
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_Get2x2SubMatrices_Engine_Core_Maths_MatrixMxN_System_Collections_Generic_List_Engine_Core_Maths_MatrixMxN___
+  name: Get2x2SubMatrices
+  nameWithType: MatrixMxN.Get2x2SubMatrices
+  fullName: Engine.Core.Maths.MatrixMxN.Get2x2SubMatrices
+- uid: System.Collections.Generic.List{Engine.Core.Maths.MatrixMxN}
+  commentId: T:System.Collections.Generic.List{Engine.Core.Maths.MatrixMxN}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<MatrixMxN>
+  nameWithType: List<MatrixMxN>
+  fullName: System.Collections.Generic.List<Engine.Core.Maths.MatrixMxN>
+  nameWithType.vb: List(Of MatrixMxN)
+  fullName.vb: System.Collections.Generic.List(Of Engine.Core.Maths.MatrixMxN)
+  name.vb: List(Of MatrixMxN)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Engine.Core.Maths.MatrixMxN
+    name: MatrixMxN
+    href: Engine.Core.Maths.MatrixMxN.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Engine.Core.Maths.MatrixMxN
+    name: MatrixMxN
+    href: Engine.Core.Maths.MatrixMxN.html
+  - name: )
+- uid: Engine.Core.Maths.MatrixMxN.GetMinorMatrix*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.GetMinorMatrix
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_GetMinorMatrix_Engine_Core_Maths_MatrixMxN__
+  name: GetMinorMatrix
+  nameWithType: MatrixMxN.GetMinorMatrix
+  fullName: Engine.Core.Maths.MatrixMxN.GetMinorMatrix
+- uid: Engine.Core.Maths.MatrixMxN.GetCofactorMatrix*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.GetCofactorMatrix
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_GetCofactorMatrix_Engine_Core_Maths_MatrixMxN__
+  name: GetCofactorMatrix
+  nameWithType: MatrixMxN.GetCofactorMatrix
+  fullName: Engine.Core.Maths.MatrixMxN.GetCofactorMatrix
+- uid: Engine.Core.Maths.MatrixMxN.GetDeterminant*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.GetDeterminant
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_GetDeterminant_System_Single__
+  name: GetDeterminant
+  nameWithType: MatrixMxN.GetDeterminant
+  fullName: Engine.Core.Maths.MatrixMxN.GetDeterminant
+- uid: Engine.Core.Maths.MatrixMxN.GetAdjointMatrix*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.GetAdjointMatrix
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_GetAdjointMatrix_Engine_Core_Maths_MatrixMxN__
+  name: GetAdjointMatrix
+  nameWithType: MatrixMxN.GetAdjointMatrix
+  fullName: Engine.Core.Maths.MatrixMxN.GetAdjointMatrix
+- uid: Engine.Core.Maths.MatrixMxN.ToVector3*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.ToVector3
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_ToVector3_Engine_Core_Maths_Vector3__
+  name: ToVector3
+  nameWithType: MatrixMxN.ToVector3
+  fullName: Engine.Core.Maths.MatrixMxN.ToVector3
+- uid: Engine.Core.Maths.Vector3
+  commentId: T:Engine.Core.Maths.Vector3
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Engine.Core.Maths.Vector3
+- uid: Engine.Core.Maths.MatrixMxN.ToVector*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.ToVector
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_ToVector_Engine_Core_Maths_Vector__
+  name: ToVector
+  nameWithType: MatrixMxN.ToVector
+  fullName: Engine.Core.Maths.MatrixMxN.ToVector
+- uid: Engine.Core.Maths.MatrixMxN.GetIdentityMatrix*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.GetIdentityMatrix
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_GetIdentityMatrix_System_Int32_
+  name: GetIdentityMatrix
+  nameWithType: MatrixMxN.GetIdentityMatrix
+  fullName: Engine.Core.Maths.MatrixMxN.GetIdentityMatrix
+- uid: Engine.Core.Maths.MatrixMxN.GetInverse*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.GetInverse
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_GetInverse_Engine_Core_Maths_MatrixMxN_Engine_Core_Maths_MatrixMxN__
+  name: GetInverse
+  nameWithType: MatrixMxN.GetInverse
+  fullName: Engine.Core.Maths.MatrixMxN.GetInverse
+- uid: Engine.Core.Maths.MatrixMxN.op_Multiply*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.op_Multiply
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_op_Multiply_System_Single_Engine_Core_Maths_MatrixMxN_
+  name: operator *
+  nameWithType: MatrixMxN.operator *
+  fullName: Engine.Core.Maths.MatrixMxN.operator *
+  nameWithType.vb: MatrixMxN.*
+  fullName.vb: Engine.Core.Maths.MatrixMxN.*
+  name.vb: '*'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Engine.Core.Maths.MatrixMxN.op_Multiply*
+    name: '*'
+    href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_op_Multiply_System_Single_Engine_Core_Maths_MatrixMxN_
+- uid: Engine.Core.Maths.MatrixMxN.op_Addition*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.op_Addition
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_op_Addition_Engine_Core_Maths_MatrixMxN_Engine_Core_Maths_MatrixMxN_
+  name: operator +
+  nameWithType: MatrixMxN.operator +
+  fullName: Engine.Core.Maths.MatrixMxN.operator +
+  nameWithType.vb: MatrixMxN.+
+  fullName.vb: Engine.Core.Maths.MatrixMxN.+
+  name.vb: +
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Engine.Core.Maths.MatrixMxN.op_Addition*
+    name: +
+    href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_op_Addition_Engine_Core_Maths_MatrixMxN_Engine_Core_Maths_MatrixMxN_
+- uid: Engine.Core.Maths.MatrixMxN.op_Subtraction*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.op_Subtraction
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_op_Subtraction_Engine_Core_Maths_MatrixMxN_Engine_Core_Maths_MatrixMxN_
+  name: operator -
+  nameWithType: MatrixMxN.operator -
+  fullName: Engine.Core.Maths.MatrixMxN.operator -
+  nameWithType.vb: MatrixMxN.-
+  fullName.vb: Engine.Core.Maths.MatrixMxN.-
+  name.vb: '-'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Engine.Core.Maths.MatrixMxN.op_Subtraction*
+    name: '-'
+    href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_op_Subtraction_Engine_Core_Maths_MatrixMxN_Engine_Core_Maths_MatrixMxN_
+- uid: Engine.Core.Maths.MatrixMxN.op_UnaryNegation*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.op_UnaryNegation
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_op_UnaryNegation_Engine_Core_Maths_MatrixMxN_
+  name: operator -
+  nameWithType: MatrixMxN.operator -
+  fullName: Engine.Core.Maths.MatrixMxN.operator -
+  nameWithType.vb: MatrixMxN.-
+  fullName.vb: Engine.Core.Maths.MatrixMxN.-
+  name.vb: '-'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Engine.Core.Maths.MatrixMxN.op_UnaryNegation*
+    name: '-'
+    href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_op_UnaryNegation_Engine_Core_Maths_MatrixMxN_
+- uid: Engine.Core.Maths.MatrixMxN.op_Division*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.op_Division
+  href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_op_Division_Engine_Core_Maths_MatrixMxN_System_Single_
+  name: operator /
+  nameWithType: MatrixMxN.operator /
+  fullName: Engine.Core.Maths.MatrixMxN.operator /
+  nameWithType.vb: MatrixMxN./
+  fullName.vb: Engine.Core.Maths.MatrixMxN./
+  name.vb: /
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Engine.Core.Maths.MatrixMxN.op_Division*
+    name: /
+    href: Engine.Core.Maths.MatrixMxN.html#Engine_Core_Maths_MatrixMxN_op_Division_Engine_Core_Maths_MatrixMxN_System_Single_
+- uid: Engine.Core.Maths.MatrixMxN.op_Implicit*
+  commentId: Overload:Engine.Core.Maths.MatrixMxN.op_Implicit
+  name: implicit operator
+  nameWithType: MatrixMxN.implicit operator
+  fullName: Engine.Core.Maths.MatrixMxN.implicit operator
+  nameWithType.vb: MatrixMxN.CType
+  fullName.vb: Engine.Core.Maths.MatrixMxN.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator
+- uid: Engine.Core.Maths.Matrix3x3
+  commentId: T:Engine.Core.Maths.Matrix3x3
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.Matrix3x3.html
+  name: Matrix3x3
+  nameWithType: Matrix3x3
+  fullName: Engine.Core.Maths.Matrix3x3

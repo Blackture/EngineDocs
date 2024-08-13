@@ -1,0 +1,91 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Physics.Optics
+  commentId: N:Engine.Core.Physics.Optics
+  id: Engine.Core.Physics.Optics
+  children:
+  - Engine.Core.Physics.Optics.Lens
+  - Engine.Core.Physics.Optics.LensType
+  - Engine.Core.Physics.Optics.LightRay
+  - Engine.Core.Physics.Optics.LightSource
+  - Engine.Core.Physics.Optics.Photon
+  langs:
+  - csharp
+  - vb
+  name: Engine.Core.Physics.Optics
+  nameWithType: Engine.Core.Physics.Optics
+  fullName: Engine.Core.Physics.Optics
+  type: Namespace
+  assemblies:
+  - Engine
+references:
+- uid: Engine.Core.Physics.Optics.LensType
+  commentId: T:Engine.Core.Physics.Optics.LensType
+  parent: Engine.Core.Physics.Optics
+  href: Engine.Core.Physics.Optics.LensType.html
+  name: LensType
+  nameWithType: LensType
+  fullName: Engine.Core.Physics.Optics.LensType
+- uid: Engine.Core.Physics.Optics.Lens
+  commentId: T:Engine.Core.Physics.Optics.Lens
+  href: Engine.Core.Physics.Optics.Lens.html
+  name: Lens
+  nameWithType: Lens
+  fullName: Engine.Core.Physics.Optics.Lens
+- uid: Engine.Core.Physics.Optics.LightRay
+  commentId: T:Engine.Core.Physics.Optics.LightRay
+  href: Engine.Core.Physics.Optics.LightRay.html
+  name: LightRay
+  nameWithType: LightRay
+  fullName: Engine.Core.Physics.Optics.LightRay
+- uid: Engine.Core.Physics.Optics.LightSource
+  commentId: T:Engine.Core.Physics.Optics.LightSource
+  parent: Engine.Core.Physics.Optics
+  href: Engine.Core.Physics.Optics.LightSource.html
+  name: LightSource
+  nameWithType: LightSource
+  fullName: Engine.Core.Physics.Optics.LightSource
+- uid: Engine.Core.Physics.Optics.Photon
+  commentId: T:Engine.Core.Physics.Optics.Photon
+  href: Engine.Core.Physics.Optics.Photon.html
+  name: Photon
+  nameWithType: Photon
+  fullName: Engine.Core.Physics.Optics.Photon
+- uid: Engine.Core.Physics.Optics
+  commentId: N:Engine.Core.Physics.Optics
+  href: Engine.html
+  name: Engine.Core.Physics.Optics
+  nameWithType: Engine.Core.Physics.Optics
+  fullName: Engine.Core.Physics.Optics
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Physics
+    name: Physics
+    href: Engine.Core.Physics.html
+  - name: .
+  - uid: Engine.Core.Physics.Optics
+    name: Optics
+    href: Engine.Core.Physics.Optics.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Physics
+    name: Physics
+    href: Engine.Core.Physics.html
+  - name: .
+  - uid: Engine.Core.Physics.Optics
+    name: Optics
+    href: Engine.Core.Physics.Optics.html

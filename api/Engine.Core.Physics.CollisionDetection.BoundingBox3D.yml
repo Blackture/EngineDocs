@@ -1,0 +1,844 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D
+  commentId: T:Engine.Core.Physics.CollisionDetection.BoundingBox3D
+  id: BoundingBox3D
+  parent: Engine.Core.Physics.CollisionDetection
+  children:
+  - Engine.Core.Physics.CollisionDetection.BoundingBox3D.#ctor(Engine.Core.Physics.CollisionDetection.BoundingBox3D)
+  - Engine.Core.Physics.CollisionDetection.BoundingBox3D.#ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  - Engine.Core.Physics.CollisionDetection.BoundingBox3D.BoundingDepth
+  - Engine.Core.Physics.CollisionDetection.BoundingBox3D.Contains(Engine.Core.Maths.Vector3)
+  - Engine.Core.Physics.CollisionDetection.BoundingBox3D.GetBoundingBox(Engine.Core.Components.Mesh3D)
+  - Engine.Core.Physics.CollisionDetection.BoundingBox3D.maxX1
+  - Engine.Core.Physics.CollisionDetection.BoundingBox3D.maxX2
+  - Engine.Core.Physics.CollisionDetection.BoundingBox3D.maxX3
+  - Engine.Core.Physics.CollisionDetection.BoundingBox3D.minX1
+  - Engine.Core.Physics.CollisionDetection.BoundingBox3D.minX2
+  - Engine.Core.Physics.CollisionDetection.BoundingBox3D.minX3
+  - Engine.Core.Physics.CollisionDetection.BoundingBox3D.op_Implicit(Engine.Core.Components.Mesh3D)~Engine.Core.Physics.CollisionDetection.BoundingBox3D
+  langs:
+  - csharp
+  - vb
+  name: BoundingBox3D
+  nameWithType: BoundingBox3D
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingBox3D
+  type: Class
+  source:
+    remote:
+      path: Engine.Core/Physics/CollisionDetection/BoundingBox3D.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: BoundingBox3D
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Physics/CollisionDetection/BoundingBox3D.cs
+    startLine: 10
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Physics.CollisionDetection
+  syntax:
+    content: public class BoundingBox3D
+    content.vb: Public Class BoundingBox3D
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D.maxX1
+  commentId: F:Engine.Core.Physics.CollisionDetection.BoundingBox3D.maxX1
+  id: maxX1
+  parent: Engine.Core.Physics.CollisionDetection.BoundingBox3D
+  langs:
+  - csharp
+  - vb
+  name: maxX1
+  nameWithType: BoundingBox3D.maxX1
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingBox3D.maxX1
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Physics/CollisionDetection/BoundingBox3D.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: maxX1
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Physics/CollisionDetection/BoundingBox3D.cs
+    startLine: 14
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Physics.CollisionDetection
+  syntax:
+    content: public float maxX1
+    return:
+      type: System.Single
+    content.vb: Public maxX1 As Single
+- uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D.maxX2
+  commentId: F:Engine.Core.Physics.CollisionDetection.BoundingBox3D.maxX2
+  id: maxX2
+  parent: Engine.Core.Physics.CollisionDetection.BoundingBox3D
+  langs:
+  - csharp
+  - vb
+  name: maxX2
+  nameWithType: BoundingBox3D.maxX2
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingBox3D.maxX2
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Physics/CollisionDetection/BoundingBox3D.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: maxX2
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Physics/CollisionDetection/BoundingBox3D.cs
+    startLine: 15
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Physics.CollisionDetection
+  syntax:
+    content: public float maxX2
+    return:
+      type: System.Single
+    content.vb: Public maxX2 As Single
+- uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D.maxX3
+  commentId: F:Engine.Core.Physics.CollisionDetection.BoundingBox3D.maxX3
+  id: maxX3
+  parent: Engine.Core.Physics.CollisionDetection.BoundingBox3D
+  langs:
+  - csharp
+  - vb
+  name: maxX3
+  nameWithType: BoundingBox3D.maxX3
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingBox3D.maxX3
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Physics/CollisionDetection/BoundingBox3D.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: maxX3
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Physics/CollisionDetection/BoundingBox3D.cs
+    startLine: 16
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Physics.CollisionDetection
+  syntax:
+    content: public float maxX3
+    return:
+      type: System.Single
+    content.vb: Public maxX3 As Single
+- uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D.minX1
+  commentId: F:Engine.Core.Physics.CollisionDetection.BoundingBox3D.minX1
+  id: minX1
+  parent: Engine.Core.Physics.CollisionDetection.BoundingBox3D
+  langs:
+  - csharp
+  - vb
+  name: minX1
+  nameWithType: BoundingBox3D.minX1
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingBox3D.minX1
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Physics/CollisionDetection/BoundingBox3D.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: minX1
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Physics/CollisionDetection/BoundingBox3D.cs
+    startLine: 17
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Physics.CollisionDetection
+  syntax:
+    content: public float minX1
+    return:
+      type: System.Single
+    content.vb: Public minX1 As Single
+- uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D.minX2
+  commentId: F:Engine.Core.Physics.CollisionDetection.BoundingBox3D.minX2
+  id: minX2
+  parent: Engine.Core.Physics.CollisionDetection.BoundingBox3D
+  langs:
+  - csharp
+  - vb
+  name: minX2
+  nameWithType: BoundingBox3D.minX2
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingBox3D.minX2
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Physics/CollisionDetection/BoundingBox3D.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: minX2
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Physics/CollisionDetection/BoundingBox3D.cs
+    startLine: 18
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Physics.CollisionDetection
+  syntax:
+    content: public float minX2
+    return:
+      type: System.Single
+    content.vb: Public minX2 As Single
+- uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D.minX3
+  commentId: F:Engine.Core.Physics.CollisionDetection.BoundingBox3D.minX3
+  id: minX3
+  parent: Engine.Core.Physics.CollisionDetection.BoundingBox3D
+  langs:
+  - csharp
+  - vb
+  name: minX3
+  nameWithType: BoundingBox3D.minX3
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingBox3D.minX3
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Physics/CollisionDetection/BoundingBox3D.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: minX3
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Physics/CollisionDetection/BoundingBox3D.cs
+    startLine: 19
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Physics.CollisionDetection
+  syntax:
+    content: public float minX3
+    return:
+      type: System.Single
+    content.vb: Public minX3 As Single
+- uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D.BoundingDepth
+  commentId: P:Engine.Core.Physics.CollisionDetection.BoundingBox3D.BoundingDepth
+  id: BoundingDepth
+  parent: Engine.Core.Physics.CollisionDetection.BoundingBox3D
+  langs:
+  - csharp
+  - vb
+  name: BoundingDepth
+  nameWithType: BoundingBox3D.BoundingDepth
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingBox3D.BoundingDepth
+  type: Property
+  source:
+    remote:
+      path: Engine.Core/Physics/CollisionDetection/BoundingBox3D.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: BoundingDepth
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Physics/CollisionDetection/BoundingBox3D.cs
+    startLine: 21
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Physics.CollisionDetection
+  syntax:
+    content: public int BoundingDepth { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property BoundingDepth As Integer
+  overload: Engine.Core.Physics.CollisionDetection.BoundingBox3D.BoundingDepth*
+- uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D.#ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Engine.Core.Physics.CollisionDetection.BoundingBox3D.#ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  id: '#ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)'
+  parent: Engine.Core.Physics.CollisionDetection.BoundingBox3D
+  langs:
+  - csharp
+  - vb
+  name: BoundingBox3D(float, float, float, float, float, float)
+  nameWithType: BoundingBox3D.BoundingBox3D(float, float, float, float, float, float)
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingBox3D.BoundingBox3D(float, float, float, float, float, float)
+  type: Constructor
+  source:
+    remote:
+      path: Engine.Core/Physics/CollisionDetection/BoundingBox3D.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: .ctor
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Physics/CollisionDetection/BoundingBox3D.cs
+    startLine: 23
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Physics.CollisionDetection
+  syntax:
+    content: public BoundingBox3D(float maxX1, float maxX2, float maxX3, float minX1, float minX2, float minX3)
+    parameters:
+    - id: maxX1
+      type: System.Single
+    - id: maxX2
+      type: System.Single
+    - id: maxX3
+      type: System.Single
+    - id: minX1
+      type: System.Single
+    - id: minX2
+      type: System.Single
+    - id: minX3
+      type: System.Single
+    content.vb: Public Sub New(maxX1 As Single, maxX2 As Single, maxX3 As Single, minX1 As Single, minX2 As Single, minX3 As Single)
+  overload: Engine.Core.Physics.CollisionDetection.BoundingBox3D.#ctor*
+  nameWithType.vb: BoundingBox3D.New(Single, Single, Single, Single, Single, Single)
+  fullName.vb: Engine.Core.Physics.CollisionDetection.BoundingBox3D.New(Single, Single, Single, Single, Single, Single)
+  name.vb: New(Single, Single, Single, Single, Single, Single)
+- uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D.#ctor(Engine.Core.Physics.CollisionDetection.BoundingBox3D)
+  commentId: M:Engine.Core.Physics.CollisionDetection.BoundingBox3D.#ctor(Engine.Core.Physics.CollisionDetection.BoundingBox3D)
+  id: '#ctor(Engine.Core.Physics.CollisionDetection.BoundingBox3D)'
+  parent: Engine.Core.Physics.CollisionDetection.BoundingBox3D
+  langs:
+  - csharp
+  - vb
+  name: BoundingBox3D(BoundingBox3D)
+  nameWithType: BoundingBox3D.BoundingBox3D(BoundingBox3D)
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingBox3D.BoundingBox3D(Engine.Core.Physics.CollisionDetection.BoundingBox3D)
+  type: Constructor
+  source:
+    remote:
+      path: Engine.Core/Physics/CollisionDetection/BoundingBox3D.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: .ctor
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Physics/CollisionDetection/BoundingBox3D.cs
+    startLine: 32
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Physics.CollisionDetection
+  syntax:
+    content: public BoundingBox3D(BoundingBox3D box)
+    parameters:
+    - id: box
+      type: Engine.Core.Physics.CollisionDetection.BoundingBox3D
+    content.vb: Public Sub New(box As BoundingBox3D)
+  overload: Engine.Core.Physics.CollisionDetection.BoundingBox3D.#ctor*
+  nameWithType.vb: BoundingBox3D.New(BoundingBox3D)
+  fullName.vb: Engine.Core.Physics.CollisionDetection.BoundingBox3D.New(Engine.Core.Physics.CollisionDetection.BoundingBox3D)
+  name.vb: New(BoundingBox3D)
+- uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D.Contains(Engine.Core.Maths.Vector3)
+  commentId: M:Engine.Core.Physics.CollisionDetection.BoundingBox3D.Contains(Engine.Core.Maths.Vector3)
+  id: Contains(Engine.Core.Maths.Vector3)
+  parent: Engine.Core.Physics.CollisionDetection.BoundingBox3D
+  langs:
+  - csharp
+  - vb
+  name: Contains(Vector3)
+  nameWithType: BoundingBox3D.Contains(Vector3)
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingBox3D.Contains(Engine.Core.Maths.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Physics/CollisionDetection/BoundingBox3D.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Contains
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Physics/CollisionDetection/BoundingBox3D.cs
+    startLine: 47
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Physics.CollisionDetection
+  summary: Checks if the position vector is within the boundaries.
+  example: []
+  syntax:
+    content: public bool Contains(Vector3 globalPosition)
+    parameters:
+    - id: globalPosition
+      type: Engine.Core.Maths.Vector3
+      description: ''
+    return:
+      type: System.Boolean
+      description: True if the position is within the boundaries; else false
+    content.vb: Public Function Contains(globalPosition As Vector3) As Boolean
+  overload: Engine.Core.Physics.CollisionDetection.BoundingBox3D.Contains*
+- uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D.GetBoundingBox(Engine.Core.Components.Mesh3D)
+  commentId: M:Engine.Core.Physics.CollisionDetection.BoundingBox3D.GetBoundingBox(Engine.Core.Components.Mesh3D)
+  id: GetBoundingBox(Engine.Core.Components.Mesh3D)
+  parent: Engine.Core.Physics.CollisionDetection.BoundingBox3D
+  langs:
+  - csharp
+  - vb
+  name: GetBoundingBox(Mesh3D)
+  nameWithType: BoundingBox3D.GetBoundingBox(Mesh3D)
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingBox3D.GetBoundingBox(Engine.Core.Components.Mesh3D)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Physics/CollisionDetection/BoundingBox3D.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: GetBoundingBox
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Physics/CollisionDetection/BoundingBox3D.cs
+    startLine: 60
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Physics.CollisionDetection
+  syntax:
+    content: public static BoundingBox3D GetBoundingBox(Mesh3D mesh)
+    parameters:
+    - id: mesh
+      type: Engine.Core.Components.Mesh3D
+    return:
+      type: Engine.Core.Physics.CollisionDetection.BoundingBox3D
+    content.vb: Public Shared Function GetBoundingBox(mesh As Mesh3D) As BoundingBox3D
+  overload: Engine.Core.Physics.CollisionDetection.BoundingBox3D.GetBoundingBox*
+- uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D.op_Implicit(Engine.Core.Components.Mesh3D)~Engine.Core.Physics.CollisionDetection.BoundingBox3D
+  commentId: M:Engine.Core.Physics.CollisionDetection.BoundingBox3D.op_Implicit(Engine.Core.Components.Mesh3D)~Engine.Core.Physics.CollisionDetection.BoundingBox3D
+  id: op_Implicit(Engine.Core.Components.Mesh3D)~Engine.Core.Physics.CollisionDetection.BoundingBox3D
+  parent: Engine.Core.Physics.CollisionDetection.BoundingBox3D
+  langs:
+  - csharp
+  - vb
+  name: implicit operator BoundingBox3D(Mesh3D)
+  nameWithType: BoundingBox3D.implicit operator BoundingBox3D(Mesh3D)
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingBox3D.implicit operator Engine.Core.Physics.CollisionDetection.BoundingBox3D(Engine.Core.Components.Mesh3D)
+  type: Operator
+  source:
+    remote:
+      path: Engine.Core/Physics/CollisionDetection/BoundingBox3D.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: op_Implicit
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Physics/CollisionDetection/BoundingBox3D.cs
+    startLine: 85
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Physics.CollisionDetection
+  syntax:
+    content: public static implicit operator BoundingBox3D(Mesh3D m)
+    parameters:
+    - id: m
+      type: Engine.Core.Components.Mesh3D
+    return:
+      type: Engine.Core.Physics.CollisionDetection.BoundingBox3D
+    content.vb: Public Shared Widening Operator CType(m As Mesh3D) As BoundingBox3D
+  overload: Engine.Core.Physics.CollisionDetection.BoundingBox3D.op_Implicit*
+  nameWithType.vb: BoundingBox3D.CType(Mesh3D)
+  fullName.vb: Engine.Core.Physics.CollisionDetection.BoundingBox3D.CType(Engine.Core.Components.Mesh3D)
+  name.vb: CType(Mesh3D)
+references:
+- uid: Engine.Core.Physics.CollisionDetection
+  commentId: N:Engine.Core.Physics.CollisionDetection
+  href: Engine.html
+  name: Engine.Core.Physics.CollisionDetection
+  nameWithType: Engine.Core.Physics.CollisionDetection
+  fullName: Engine.Core.Physics.CollisionDetection
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Physics
+    name: Physics
+    href: Engine.Core.Physics.html
+  - name: .
+  - uid: Engine.Core.Physics.CollisionDetection
+    name: CollisionDetection
+    href: Engine.Core.Physics.CollisionDetection.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Physics
+    name: Physics
+    href: Engine.Core.Physics.html
+  - name: .
+  - uid: Engine.Core.Physics.CollisionDetection
+    name: CollisionDetection
+    href: Engine.Core.Physics.CollisionDetection.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D.BoundingDepth*
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.BoundingBox3D.BoundingDepth
+  href: Engine.Core.Physics.CollisionDetection.BoundingBox3D.html#Engine_Core_Physics_CollisionDetection_BoundingBox3D_BoundingDepth
+  name: BoundingDepth
+  nameWithType: BoundingBox3D.BoundingDepth
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingBox3D.BoundingDepth
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D.#ctor*
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.BoundingBox3D.#ctor
+  href: Engine.Core.Physics.CollisionDetection.BoundingBox3D.html#Engine_Core_Physics_CollisionDetection_BoundingBox3D__ctor_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_
+  name: BoundingBox3D
+  nameWithType: BoundingBox3D.BoundingBox3D
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingBox3D.BoundingBox3D
+  nameWithType.vb: BoundingBox3D.New
+  fullName.vb: Engine.Core.Physics.CollisionDetection.BoundingBox3D.New
+  name.vb: New
+- uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D
+  commentId: T:Engine.Core.Physics.CollisionDetection.BoundingBox3D
+  parent: Engine.Core.Physics.CollisionDetection
+  href: Engine.Core.Physics.CollisionDetection.BoundingBox3D.html
+  name: BoundingBox3D
+  nameWithType: BoundingBox3D
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingBox3D
+- uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D.Contains*
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.BoundingBox3D.Contains
+  href: Engine.Core.Physics.CollisionDetection.BoundingBox3D.html#Engine_Core_Physics_CollisionDetection_BoundingBox3D_Contains_Engine_Core_Maths_Vector3_
+  name: Contains
+  nameWithType: BoundingBox3D.Contains
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingBox3D.Contains
+- uid: Engine.Core.Maths.Vector3
+  commentId: T:Engine.Core.Maths.Vector3
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Engine.Core.Maths.Vector3
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Engine.Core.Maths
+  commentId: N:Engine.Core.Maths
+  href: Engine.html
+  name: Engine.Core.Maths
+  nameWithType: Engine.Core.Maths
+  fullName: Engine.Core.Maths
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+- uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D.GetBoundingBox*
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.BoundingBox3D.GetBoundingBox
+  href: Engine.Core.Physics.CollisionDetection.BoundingBox3D.html#Engine_Core_Physics_CollisionDetection_BoundingBox3D_GetBoundingBox_Engine_Core_Components_Mesh3D_
+  name: GetBoundingBox
+  nameWithType: BoundingBox3D.GetBoundingBox
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingBox3D.GetBoundingBox
+- uid: Engine.Core.Components.Mesh3D
+  commentId: T:Engine.Core.Components.Mesh3D
+  parent: Engine.Core.Components
+  href: Engine.Core.Components.Mesh3D.html
+  name: Mesh3D
+  nameWithType: Mesh3D
+  fullName: Engine.Core.Components.Mesh3D
+- uid: Engine.Core.Components
+  commentId: N:Engine.Core.Components
+  href: Engine.html
+  name: Engine.Core.Components
+  nameWithType: Engine.Core.Components
+  fullName: Engine.Core.Components
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Components
+    name: Components
+    href: Engine.Core.Components.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Components
+    name: Components
+    href: Engine.Core.Components.html
+- uid: Engine.Core.Physics.CollisionDetection.BoundingBox3D.op_Implicit*
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.BoundingBox3D.op_Implicit
+  name: implicit operator
+  nameWithType: BoundingBox3D.implicit operator
+  fullName: Engine.Core.Physics.CollisionDetection.BoundingBox3D.implicit operator
+  nameWithType.vb: BoundingBox3D.CType
+  fullName.vb: Engine.Core.Physics.CollisionDetection.BoundingBox3D.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator

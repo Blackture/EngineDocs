@@ -1,0 +1,599 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Physics.CollisionDetection.ParticleCollision3D
+  commentId: T:Engine.Core.Physics.CollisionDetection.ParticleCollision3D
+  id: ParticleCollision3D
+  parent: Engine.Core.Physics.CollisionDetection
+  children:
+  - Engine.Core.Physics.CollisionDetection.ParticleCollision3D.#ctor(Engine.Core.Maths.Vector3,Engine.Core.Object3D,Engine.Core.Components.Mesh3D,Engine.Core.Components.Face3D)
+  - Engine.Core.Physics.CollisionDetection.ParticleCollision3D.At
+  - Engine.Core.Physics.CollisionDetection.ParticleCollision3D.Face
+  - Engine.Core.Physics.CollisionDetection.ParticleCollision3D.MeshHit
+  - Engine.Core.Physics.CollisionDetection.ParticleCollision3D.Object
+  langs:
+  - csharp
+  - vb
+  name: ParticleCollision3D
+  nameWithType: ParticleCollision3D
+  fullName: Engine.Core.Physics.CollisionDetection.ParticleCollision3D
+  type: Struct
+  source:
+    remote:
+      path: Engine.Core/Physics/CollisionDetection/ParticleCollision3D.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: ParticleCollision3D
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Physics/CollisionDetection/ParticleCollision3D.cs
+    startLine: 10
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Physics.CollisionDetection
+  syntax:
+    content: public readonly struct ParticleCollision3D
+    content.vb: Public Structure ParticleCollision3D
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.ValueType.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+- uid: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.At
+  commentId: P:Engine.Core.Physics.CollisionDetection.ParticleCollision3D.At
+  id: At
+  parent: Engine.Core.Physics.CollisionDetection.ParticleCollision3D
+  langs:
+  - csharp
+  - vb
+  name: At
+  nameWithType: ParticleCollision3D.At
+  fullName: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.At
+  type: Property
+  source:
+    remote:
+      path: Engine.Core/Physics/CollisionDetection/ParticleCollision3D.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: At
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Physics/CollisionDetection/ParticleCollision3D.cs
+    startLine: 20
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Physics.CollisionDetection
+  summary: Global position of the collision
+  example: []
+  syntax:
+    content: public Vector3 At { get; }
+    parameters: []
+    return:
+      type: Engine.Core.Maths.Vector3
+    content.vb: Public ReadOnly Property At As Vector3
+  overload: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.At*
+- uid: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.Object
+  commentId: P:Engine.Core.Physics.CollisionDetection.ParticleCollision3D.Object
+  id: Object
+  parent: Engine.Core.Physics.CollisionDetection.ParticleCollision3D
+  langs:
+  - csharp
+  - vb
+  name: Object
+  nameWithType: ParticleCollision3D.Object
+  fullName: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.Object
+  type: Property
+  source:
+    remote:
+      path: Engine.Core/Physics/CollisionDetection/ParticleCollision3D.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Object
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Physics/CollisionDetection/ParticleCollision3D.cs
+    startLine: 21
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Physics.CollisionDetection
+  syntax:
+    content: public Object3D Object { get; }
+    parameters: []
+    return:
+      type: Engine.Core.Object3D
+    content.vb: Public ReadOnly Property [Object] As Object3D
+  overload: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.Object*
+- uid: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.MeshHit
+  commentId: P:Engine.Core.Physics.CollisionDetection.ParticleCollision3D.MeshHit
+  id: MeshHit
+  parent: Engine.Core.Physics.CollisionDetection.ParticleCollision3D
+  langs:
+  - csharp
+  - vb
+  name: MeshHit
+  nameWithType: ParticleCollision3D.MeshHit
+  fullName: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.MeshHit
+  type: Property
+  source:
+    remote:
+      path: Engine.Core/Physics/CollisionDetection/ParticleCollision3D.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: MeshHit
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Physics/CollisionDetection/ParticleCollision3D.cs
+    startLine: 25
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Physics.CollisionDetection
+  summary: The mesh that was involved in the collision
+  example: []
+  syntax:
+    content: public Mesh3D MeshHit { get; }
+    parameters: []
+    return:
+      type: Engine.Core.Components.Mesh3D
+    content.vb: Public ReadOnly Property MeshHit As Mesh3D
+  overload: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.MeshHit*
+- uid: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.Face
+  commentId: P:Engine.Core.Physics.CollisionDetection.ParticleCollision3D.Face
+  id: Face
+  parent: Engine.Core.Physics.CollisionDetection.ParticleCollision3D
+  langs:
+  - csharp
+  - vb
+  name: Face
+  nameWithType: ParticleCollision3D.Face
+  fullName: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.Face
+  type: Property
+  source:
+    remote:
+      path: Engine.Core/Physics/CollisionDetection/ParticleCollision3D.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Face
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Physics/CollisionDetection/ParticleCollision3D.cs
+    startLine: 29
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Physics.CollisionDetection
+  summary: The specific face of the mesh that was involved in the collision
+  example: []
+  syntax:
+    content: public Face3D Face { get; }
+    parameters: []
+    return:
+      type: Engine.Core.Components.Face3D
+    content.vb: Public ReadOnly Property Face As Face3D
+  overload: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.Face*
+- uid: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.#ctor(Engine.Core.Maths.Vector3,Engine.Core.Object3D,Engine.Core.Components.Mesh3D,Engine.Core.Components.Face3D)
+  commentId: M:Engine.Core.Physics.CollisionDetection.ParticleCollision3D.#ctor(Engine.Core.Maths.Vector3,Engine.Core.Object3D,Engine.Core.Components.Mesh3D,Engine.Core.Components.Face3D)
+  id: '#ctor(Engine.Core.Maths.Vector3,Engine.Core.Object3D,Engine.Core.Components.Mesh3D,Engine.Core.Components.Face3D)'
+  parent: Engine.Core.Physics.CollisionDetection.ParticleCollision3D
+  langs:
+  - csharp
+  - vb
+  name: ParticleCollision3D(Vector3, Object3D, Mesh3D, Face3D)
+  nameWithType: ParticleCollision3D.ParticleCollision3D(Vector3, Object3D, Mesh3D, Face3D)
+  fullName: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.ParticleCollision3D(Engine.Core.Maths.Vector3, Engine.Core.Object3D, Engine.Core.Components.Mesh3D, Engine.Core.Components.Face3D)
+  type: Constructor
+  source:
+    remote:
+      path: Engine.Core/Physics/CollisionDetection/ParticleCollision3D.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: .ctor
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Physics/CollisionDetection/ParticleCollision3D.cs
+    startLine: 31
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Physics.CollisionDetection
+  syntax:
+    content: public ParticleCollision3D(Vector3 at, Object3D object3D, Mesh3D meshHit, Face3D faceHit)
+    parameters:
+    - id: at
+      type: Engine.Core.Maths.Vector3
+    - id: object3D
+      type: Engine.Core.Object3D
+    - id: meshHit
+      type: Engine.Core.Components.Mesh3D
+    - id: faceHit
+      type: Engine.Core.Components.Face3D
+    content.vb: Public Sub New(at As Vector3, object3D As Object3D, meshHit As Mesh3D, faceHit As Face3D)
+  overload: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.#ctor*
+  nameWithType.vb: ParticleCollision3D.New(Vector3, Object3D, Mesh3D, Face3D)
+  fullName.vb: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.New(Engine.Core.Maths.Vector3, Engine.Core.Object3D, Engine.Core.Components.Mesh3D, Engine.Core.Components.Face3D)
+  name.vb: New(Vector3, Object3D, Mesh3D, Face3D)
+references:
+- uid: Engine.Core.Physics.CollisionDetection
+  commentId: N:Engine.Core.Physics.CollisionDetection
+  href: Engine.html
+  name: Engine.Core.Physics.CollisionDetection
+  nameWithType: Engine.Core.Physics.CollisionDetection
+  fullName: Engine.Core.Physics.CollisionDetection
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Physics
+    name: Physics
+    href: Engine.Core.Physics.html
+  - name: .
+  - uid: Engine.Core.Physics.CollisionDetection
+    name: CollisionDetection
+    href: Engine.Core.Physics.CollisionDetection.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Physics
+    name: Physics
+    href: Engine.Core.Physics.html
+  - name: .
+  - uid: Engine.Core.Physics.CollisionDetection
+    name: CollisionDetection
+    href: Engine.Core.Physics.CollisionDetection.html
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.At*
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.ParticleCollision3D.At
+  href: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.html#Engine_Core_Physics_CollisionDetection_ParticleCollision3D_At
+  name: At
+  nameWithType: ParticleCollision3D.At
+  fullName: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.At
+- uid: Engine.Core.Maths.Vector3
+  commentId: T:Engine.Core.Maths.Vector3
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Engine.Core.Maths.Vector3
+- uid: Engine.Core.Maths
+  commentId: N:Engine.Core.Maths
+  href: Engine.html
+  name: Engine.Core.Maths
+  nameWithType: Engine.Core.Maths
+  fullName: Engine.Core.Maths
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+- uid: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.Object*
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.ParticleCollision3D.Object
+  href: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.html#Engine_Core_Physics_CollisionDetection_ParticleCollision3D_Object
+  name: Object
+  nameWithType: ParticleCollision3D.Object
+  fullName: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.Object
+- uid: Engine.Core.Object3D
+  commentId: T:Engine.Core.Object3D
+  parent: Engine.Core
+  href: Engine.Core.Object3D.html
+  name: Object3D
+  nameWithType: Object3D
+  fullName: Engine.Core.Object3D
+- uid: Engine.Core
+  commentId: N:Engine.Core
+  href: Engine.html
+  name: Engine.Core
+  nameWithType: Engine.Core
+  fullName: Engine.Core
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+- uid: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.MeshHit*
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.ParticleCollision3D.MeshHit
+  href: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.html#Engine_Core_Physics_CollisionDetection_ParticleCollision3D_MeshHit
+  name: MeshHit
+  nameWithType: ParticleCollision3D.MeshHit
+  fullName: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.MeshHit
+- uid: Engine.Core.Components.Mesh3D
+  commentId: T:Engine.Core.Components.Mesh3D
+  parent: Engine.Core.Components
+  href: Engine.Core.Components.Mesh3D.html
+  name: Mesh3D
+  nameWithType: Mesh3D
+  fullName: Engine.Core.Components.Mesh3D
+- uid: Engine.Core.Components
+  commentId: N:Engine.Core.Components
+  href: Engine.html
+  name: Engine.Core.Components
+  nameWithType: Engine.Core.Components
+  fullName: Engine.Core.Components
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Components
+    name: Components
+    href: Engine.Core.Components.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Components
+    name: Components
+    href: Engine.Core.Components.html
+- uid: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.Face*
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.ParticleCollision3D.Face
+  href: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.html#Engine_Core_Physics_CollisionDetection_ParticleCollision3D_Face
+  name: Face
+  nameWithType: ParticleCollision3D.Face
+  fullName: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.Face
+- uid: Engine.Core.Components.Face3D
+  commentId: T:Engine.Core.Components.Face3D
+  parent: Engine.Core.Components
+  href: Engine.Core.Components.Face3D.html
+  name: Face3D
+  nameWithType: Face3D
+  fullName: Engine.Core.Components.Face3D
+- uid: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.#ctor*
+  commentId: Overload:Engine.Core.Physics.CollisionDetection.ParticleCollision3D.#ctor
+  href: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.html#Engine_Core_Physics_CollisionDetection_ParticleCollision3D__ctor_Engine_Core_Maths_Vector3_Engine_Core_Object3D_Engine_Core_Components_Mesh3D_Engine_Core_Components_Face3D_
+  name: ParticleCollision3D
+  nameWithType: ParticleCollision3D.ParticleCollision3D
+  fullName: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.ParticleCollision3D
+  nameWithType.vb: ParticleCollision3D.New
+  fullName.vb: Engine.Core.Physics.CollisionDetection.ParticleCollision3D.New
+  name.vb: New

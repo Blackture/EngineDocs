@@ -1,0 +1,81 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Rendering
+  commentId: N:Engine.Rendering
+  id: Engine.Rendering
+  children:
+  - Engine.Rendering.ColorExtension
+  - Engine.Rendering.Projection
+  - Engine.Rendering.RenderImage
+  - Engine.Rendering.RenderPoint
+  - Engine.Rendering.RenderTexture
+  - Engine.Rendering.RenderingConstants
+  langs:
+  - csharp
+  - vb
+  name: Engine.Rendering
+  nameWithType: Engine.Rendering
+  fullName: Engine.Rendering
+  type: Namespace
+  assemblies:
+  - Engine.Rendering
+references:
+- uid: Engine.Rendering.ColorExtension
+  commentId: T:Engine.Rendering.ColorExtension
+  href: Engine.Rendering.ColorExtension.html
+  name: ColorExtension
+  nameWithType: ColorExtension
+  fullName: Engine.Rendering.ColorExtension
+- uid: Engine.Rendering.RenderingConstants
+  commentId: T:Engine.Rendering.RenderingConstants
+  href: Engine.Rendering.RenderingConstants.html
+  name: RenderingConstants
+  nameWithType: RenderingConstants
+  fullName: Engine.Rendering.RenderingConstants
+- uid: Engine.Rendering.Projection
+  commentId: T:Engine.Rendering.Projection
+  parent: Engine.Rendering
+  href: Engine.Rendering.Projection.html
+  name: Projection
+  nameWithType: Projection
+  fullName: Engine.Rendering.Projection
+- uid: Engine.Rendering.RenderImage
+  commentId: T:Engine.Rendering.RenderImage
+  href: Engine.Rendering.RenderImage.html
+  name: RenderImage
+  nameWithType: RenderImage
+  fullName: Engine.Rendering.RenderImage
+- uid: Engine.Rendering.RenderPoint
+  commentId: T:Engine.Rendering.RenderPoint
+  href: Engine.Rendering.RenderPoint.html
+  name: RenderPoint
+  nameWithType: RenderPoint
+  fullName: Engine.Rendering.RenderPoint
+- uid: Engine.Rendering.RenderTexture
+  commentId: T:Engine.Rendering.RenderTexture
+  href: Engine.Rendering.RenderTexture.html
+  name: RenderTexture
+  nameWithType: RenderTexture
+  fullName: Engine.Rendering.RenderTexture
+- uid: Engine.Rendering
+  commentId: N:Engine.Rendering
+  href: Engine.html
+  name: Engine.Rendering
+  nameWithType: Engine.Rendering
+  fullName: Engine.Rendering
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Rendering
+    name: Rendering
+    href: Engine.Rendering.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Rendering
+    name: Rendering
+    href: Engine.Rendering.html

@@ -1,0 +1,1465 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Vector </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Vector ">
+      
+      <meta name="description" content="A vector with n dimensions">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Blackture/engine/new/main/apiSpec/new?filename=Engine_Core_Maths_Vector.md&amp;value=---%0Auid%3A%20Engine.Core.Maths.Vector%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Engine.Core.Maths.Vector">
+
+
+
+  <h1 id="Engine_Core_Maths_Vector" data-uid="Engine.Core.Maths.Vector" class="text-break">
+Class Vector  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Vector.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Engine.html">Engine</a>.<a class="xref" href="Engine.Core.html">Core</a>.<a class="xref" href="Engine.Core.Maths.html">Maths</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Engine.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>A vector with n dimensions</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Vector : IEnumerable&lt;float&gt;, IEnumerable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Vector</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="Engine_Core_Maths_Vector__ctor_" data-uid="Engine.Core.Maths.Vector.#ctor*"></a>
+
+  <h3 id="Engine_Core_Maths_Vector__ctor_Engine_Core_Maths_Vector_" data-uid="Engine.Core.Maths.Vector.#ctor(Engine.Core.Maths.Vector)">
+  Vector(Vector)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Vector.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector(Vector v)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>v</code> <a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Vector__ctor_" data-uid="Engine.Core.Maths.Vector.#ctor*"></a>
+
+  <h3 id="Engine_Core_Maths_Vector__ctor_System_Collections_Generic_List_System_Single__" data-uid="Engine.Core.Maths.Vector.#ctor(System.Collections.Generic.List{System.Single})">
+  Vector(List&lt;float&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Vector.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector(List&lt;float&gt; values)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>values</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Vector__ctor_" data-uid="Engine.Core.Maths.Vector.#ctor*"></a>
+
+  <h3 id="Engine_Core_Maths_Vector__ctor_System_Single___" data-uid="Engine.Core.Maths.Vector.#ctor(System.Single[])">
+  Vector(params float[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Vector.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector(params float[] values)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>values</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Engine_Core_Maths_Vector_Dimension_" data-uid="Engine.Core.Maths.Vector.Dimension*"></a>
+
+  <h3 id="Engine_Core_Maths_Vector_Dimension" data-uid="Engine.Core.Maths.Vector.Dimension">
+  Dimension
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Vector.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Dimension { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Vector_Item_" data-uid="Engine.Core.Maths.Vector.Item*"></a>
+
+  <h3 id="Engine_Core_Maths_Vector_Item_System_Int32_" data-uid="Engine.Core.Maths.Vector.Item(System.Int32)">
+  this[int]
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Vector.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float this[int index] { get; set; }</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Vector_Length_" data-uid="Engine.Core.Maths.Vector.Length*"></a>
+
+  <h3 id="Engine_Core_Maths_Vector_Length" data-uid="Engine.Core.Maths.Vector.Length">
+  Length
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Vector.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Length { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Vector_LengthSquared_" data-uid="Engine.Core.Maths.Vector.LengthSquared*"></a>
+
+  <h3 id="Engine_Core_Maths_Vector_LengthSquared" data-uid="Engine.Core.Maths.Vector.LengthSquared">
+  LengthSquared
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Vector.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float LengthSquared { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Vector_Normalized_" data-uid="Engine.Core.Maths.Vector.Normalized*"></a>
+
+  <h3 id="Engine_Core_Maths_Vector_Normalized" data-uid="Engine.Core.Maths.Vector.Normalized">
+  Normalized
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Vector.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector Normalized { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Engine_Core_Maths_Vector_AddValue_" data-uid="Engine.Core.Maths.Vector.AddValue*"></a>
+
+  <h3 id="Engine_Core_Maths_Vector_AddValue_System_Single_" data-uid="Engine.Core.Maths.Vector.AddValue(System.Single)">
+  AddValue(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Vector.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Adds a dimension to the vector and adds the given value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddValue(float value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Vector_Addition_" data-uid="Engine.Core.Maths.Vector.Addition*"></a>
+
+  <h3 id="Engine_Core_Maths_Vector_Addition_Engine_Core_Maths_Vector_" data-uid="Engine.Core.Maths.Vector.Addition(Engine.Core.Maths.Vector)">
+  Addition(Vector)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Vector.cs/#L191"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector Addition(Vector vector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Vector_Addition_" data-uid="Engine.Core.Maths.Vector.Addition*"></a>
+
+  <h3 id="Engine_Core_Maths_Vector_Addition_Engine_Core_Maths_Vector_Engine_Core_Maths_Vector_" data-uid="Engine.Core.Maths.Vector.Addition(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)">
+  Addition(Vector, Vector)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Vector.cs/#L239"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector Addition(Vector a, Vector b)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>a</code> <a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+    <dt><code>b</code> <a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Vector_Cross_" data-uid="Engine.Core.Maths.Vector.Cross*"></a>
+
+  <h3 id="Engine_Core_Maths_Vector_Cross_Engine_Core_Maths_Vector_Engine_Core_Maths_Vector_" data-uid="Engine.Core.Maths.Vector.Cross(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)">
+  Cross(Vector, Vector)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Vector.cs/#L231"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector Cross(Vector a, Vector b)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>a</code> <a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+    <dt><code>b</code> <a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Vector_CrossProduct_" data-uid="Engine.Core.Maths.Vector.CrossProduct*"></a>
+
+  <h3 id="Engine_Core_Maths_Vector_CrossProduct_Engine_Core_Maths_Vector_" data-uid="Engine.Core.Maths.Vector.CrossProduct(Engine.Core.Maths.Vector)">
+  CrossProduct(Vector)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Vector.cs/#L163"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector CrossProduct(Vector b)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>b</code> <a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Vector_Division_" data-uid="Engine.Core.Maths.Vector.Division*"></a>
+
+  <h3 id="Engine_Core_Maths_Vector_Division_Engine_Core_Maths_Vector_System_Single_" data-uid="Engine.Core.Maths.Vector.Division(Engine.Core.Maths.Vector,System.Single)">
+  Division(Vector, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Vector.cs/#L247"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector Division(Vector a, float f)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>a</code> <a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+    <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Vector_Division_" data-uid="Engine.Core.Maths.Vector.Division*"></a>
+
+  <h3 id="Engine_Core_Maths_Vector_Division_System_Single_" data-uid="Engine.Core.Maths.Vector.Division(System.Single)">
+  Division(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Vector.cs/#L217"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector Division(float scalar)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>scalar</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Vector_Dot_" data-uid="Engine.Core.Maths.Vector.Dot*"></a>
+
+  <h3 id="Engine_Core_Maths_Vector_Dot_Engine_Core_Maths_Vector_Engine_Core_Maths_Vector_" data-uid="Engine.Core.Maths.Vector.Dot(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)">
+  Dot(Vector, Vector)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Vector.cs/#L227"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Dot(Vector a, Vector b)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>a</code> <a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+    <dt><code>b</code> <a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Vector_DotProduct_" data-uid="Engine.Core.Maths.Vector.DotProduct*"></a>
+
+  <h3 id="Engine_Core_Maths_Vector_DotProduct_Engine_Core_Maths_Vector_" data-uid="Engine.Core.Maths.Vector.DotProduct(Engine.Core.Maths.Vector)">
+  DotProduct(Vector)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Vector.cs/#L141"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float DotProduct(Vector vector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Vector_GetEnumerator_" data-uid="Engine.Core.Maths.Vector.GetEnumerator*"></a>
+
+  <h3 id="Engine_Core_Maths_Vector_GetEnumerator" data-uid="Engine.Core.Maths.Vector.GetEnumerator">
+  GetEnumerator()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Vector.cs/#L302"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerator&lt;float&gt; GetEnumerator()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1">IEnumerator</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Vector_GetLength_" data-uid="Engine.Core.Maths.Vector.GetLength*"></a>
+
+  <h3 id="Engine_Core_Maths_Vector_GetLength" data-uid="Engine.Core.Maths.Vector.GetLength">
+  GetLength()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Vector.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetLength()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Vector_GetValue_" data-uid="Engine.Core.Maths.Vector.GetValue*"></a>
+
+  <h3 id="Engine_Core_Maths_Vector_GetValue_System_Int32_" data-uid="Engine.Core.Maths.Vector.GetValue(System.Int32)">
+  GetValue(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Vector.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetValue(int index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Vector_IsDimensionEqual_" data-uid="Engine.Core.Maths.Vector.IsDimensionEqual*"></a>
+
+  <h3 id="Engine_Core_Maths_Vector_IsDimensionEqual_Engine_Core_Maths_Vector_Engine_Core_Maths_Vector_" data-uid="Engine.Core.Maths.Vector.IsDimensionEqual(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)">
+  IsDimensionEqual(Vector, Vector)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Vector.cs/#L107"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsDimensionEqual(Vector a, Vector b)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>a</code> <a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+    <dt><code>b</code> <a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Vector_IsValidIndex_" data-uid="Engine.Core.Maths.Vector.IsValidIndex*"></a>
+
+  <h3 id="Engine_Core_Maths_Vector_IsValidIndex_System_Int32_" data-uid="Engine.Core.Maths.Vector.IsValidIndex(System.Int32)">
+  IsValidIndex(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Vector.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Checks if the vector contains the given index.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsValidIndex(int index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Vector_IsZeroVector_" data-uid="Engine.Core.Maths.Vector.IsZeroVector*"></a>
+
+  <h3 id="Engine_Core_Maths_Vector_IsZeroVector" data-uid="Engine.Core.Maths.Vector.IsZeroVector">
+  IsZeroVector()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Vector.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsZeroVector()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Vector_Normalize_" data-uid="Engine.Core.Maths.Vector.Normalize*"></a>
+
+  <h3 id="Engine_Core_Maths_Vector_Normalize" data-uid="Engine.Core.Maths.Vector.Normalize">
+  Normalize()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Vector.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector Normalize()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Vector_Scalar_" data-uid="Engine.Core.Maths.Vector.Scalar*"></a>
+
+  <h3 id="Engine_Core_Maths_Vector_Scalar_Engine_Core_Maths_Vector_System_Single_" data-uid="Engine.Core.Maths.Vector.Scalar(Engine.Core.Maths.Vector,System.Single)">
+  Scalar(Vector, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Vector.cs/#L235"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector Scalar(Vector a, float f)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>a</code> <a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+    <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Vector_ScalarProduct_" data-uid="Engine.Core.Maths.Vector.ScalarProduct*"></a>
+
+  <h3 id="Engine_Core_Maths_Vector_ScalarProduct_System_Single_" data-uid="Engine.Core.Maths.Vector.ScalarProduct(System.Single)">
+  ScalarProduct(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Vector.cs/#L154"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector ScalarProduct(float scalar)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>scalar</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Vector_SetValue_" data-uid="Engine.Core.Maths.Vector.SetValue*"></a>
+
+  <h3 id="Engine_Core_Maths_Vector_SetValue_System_Single_System_Int32_" data-uid="Engine.Core.Maths.Vector.SetValue(System.Single,System.Int32)">
+  SetValue(float, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Vector.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetValue(float value, int index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Vector_Substraction_" data-uid="Engine.Core.Maths.Vector.Substraction*"></a>
+
+  <h3 id="Engine_Core_Maths_Vector_Substraction_Engine_Core_Maths_Vector_" data-uid="Engine.Core.Maths.Vector.Substraction(Engine.Core.Maths.Vector)">
+  Substraction(Vector)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Vector.cs/#L204"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector Substraction(Vector vector)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vector</code> <a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Vector_Substraction_" data-uid="Engine.Core.Maths.Vector.Substraction*"></a>
+
+  <h3 id="Engine_Core_Maths_Vector_Substraction_Engine_Core_Maths_Vector_Engine_Core_Maths_Vector_" data-uid="Engine.Core.Maths.Vector.Substraction(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)">
+  Substraction(Vector, Vector)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Vector.cs/#L243"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector Substraction(Vector a, Vector b)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>a</code> <a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+    <dt><code>b</code> <a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Vector_ToMatrix_" data-uid="Engine.Core.Maths.Vector.ToMatrix*"></a>
+
+  <h3 id="Engine_Core_Maths_Vector_ToMatrix_Engine_Core_Maths_Vector_System_Boolean_" data-uid="Engine.Core.Maths.Vector.ToMatrix(Engine.Core.Maths.Vector,System.Boolean)">
+  ToMatrix(Vector, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Vector.cs/#L281"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Turns the vector into single-row matrix, as long as <code class="paramref">isColumn</code> is false.
+Otherwise it turns the vector into a single-column matrix</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MatrixMxN ToMatrix(Vector v, bool isColumn = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>v</code> <a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+    <dt><code>isColumn</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Engine.Core.Maths.MatrixMxN.html">MatrixMxN</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="operators">Operators
+</h2>
+
+
+  <a id="Engine_Core_Maths_Vector_op_Addition_" data-uid="Engine.Core.Maths.Vector.op_Addition*"></a>
+
+  <h3 id="Engine_Core_Maths_Vector_op_Addition_Engine_Core_Maths_Vector_Engine_Core_Maths_Vector_" data-uid="Engine.Core.Maths.Vector.op_Addition(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)">
+  operator +(Vector, Vector)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Vector.cs/#L252"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector operator +(Vector v1, Vector v2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>v1</code> <a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+    <dt><code>v2</code> <a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Vector_op_Division_" data-uid="Engine.Core.Maths.Vector.op_Division*"></a>
+
+  <h3 id="Engine_Core_Maths_Vector_op_Division_Engine_Core_Maths_Vector_System_Single_" data-uid="Engine.Core.Maths.Vector.op_Division(Engine.Core.Maths.Vector,System.Single)">
+  operator /(Vector, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Vector.cs/#L272"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector operator /(Vector v1, float f)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>v1</code> <a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+    <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Vector_op_Multiply_" data-uid="Engine.Core.Maths.Vector.op_Multiply*"></a>
+
+  <h3 id="Engine_Core_Maths_Vector_op_Multiply_Engine_Core_Maths_Vector_Engine_Core_Maths_Vector_" data-uid="Engine.Core.Maths.Vector.op_Multiply(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)">
+  operator *(Vector, Vector)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Vector.cs/#L260"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float operator *(Vector v1, Vector v2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>v1</code> <a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+    <dt><code>v2</code> <a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Vector_op_Multiply_" data-uid="Engine.Core.Maths.Vector.op_Multiply*"></a>
+
+  <h3 id="Engine_Core_Maths_Vector_op_Multiply_Engine_Core_Maths_Vector_System_Single_" data-uid="Engine.Core.Maths.Vector.op_Multiply(Engine.Core.Maths.Vector,System.Single)">
+  operator *(Vector, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Vector.cs/#L264"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector operator *(Vector v1, float f)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>v1</code> <a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+    <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Vector_op_Multiply_" data-uid="Engine.Core.Maths.Vector.op_Multiply*"></a>
+
+  <h3 id="Engine_Core_Maths_Vector_op_Multiply_System_Single_Engine_Core_Maths_Vector_" data-uid="Engine.Core.Maths.Vector.op_Multiply(System.Single,Engine.Core.Maths.Vector)">
+  operator *(float, Vector)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Vector.cs/#L268"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector operator *(float f, Vector v1)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>v1</code> <a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Vector_op_Subtraction_" data-uid="Engine.Core.Maths.Vector.op_Subtraction*"></a>
+
+  <h3 id="Engine_Core_Maths_Vector_op_Subtraction_Engine_Core_Maths_Vector_Engine_Core_Maths_Vector_" data-uid="Engine.Core.Maths.Vector.op_Subtraction(Engine.Core.Maths.Vector,Engine.Core.Maths.Vector)">
+  operator -(Vector, Vector)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Vector.cs/#L256"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector operator -(Vector v1, Vector v2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>v1</code> <a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+    <dt><code>v2</code> <a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Engine.Core.Maths.Vector.html">Vector</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Vector.cs/#L16" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Maths.Obsolete
+  commentId: N:Engine.Core.Maths.Obsolete
+  id: Engine.Core.Maths.Obsolete
+  children:
+  - Engine.Core.Maths.Obsolete.Gaussian
+  - Engine.Core.Maths.Obsolete.Gaussian.GaussianResult
+  - Engine.Core.Maths.Obsolete.Matrix
+  langs:
+  - csharp
+  - vb
+  name: Engine.Core.Maths.Obsolete
+  nameWithType: Engine.Core.Maths.Obsolete
+  fullName: Engine.Core.Maths.Obsolete
+  type: Namespace
+  assemblies:
+  - Engine
+references:
+- uid: Engine.Core.Maths.Obsolete.Gaussian
+  commentId: T:Engine.Core.Maths.Obsolete.Gaussian
+  href: Engine.Core.Maths.Obsolete.Gaussian.html
+  name: Gaussian
+  nameWithType: Gaussian
+  fullName: Engine.Core.Maths.Obsolete.Gaussian
+- uid: Engine.Core.Maths.Obsolete.Gaussian.GaussianResult
+  commentId: T:Engine.Core.Maths.Obsolete.Gaussian.GaussianResult
+  parent: Engine.Core.Maths.Obsolete
+  href: Engine.Core.Maths.Obsolete.Gaussian.html
+  name: Gaussian.GaussianResult
+  nameWithType: Gaussian.GaussianResult
+  fullName: Engine.Core.Maths.Obsolete.Gaussian.GaussianResult
+  spec.csharp:
+  - uid: Engine.Core.Maths.Obsolete.Gaussian
+    name: Gaussian
+    href: Engine.Core.Maths.Obsolete.Gaussian.html
+  - name: .
+  - uid: Engine.Core.Maths.Obsolete.Gaussian.GaussianResult
+    name: GaussianResult
+    href: Engine.Core.Maths.Obsolete.Gaussian.GaussianResult.html
+  spec.vb:
+  - uid: Engine.Core.Maths.Obsolete.Gaussian
+    name: Gaussian
+    href: Engine.Core.Maths.Obsolete.Gaussian.html
+  - name: .
+  - uid: Engine.Core.Maths.Obsolete.Gaussian.GaussianResult
+    name: GaussianResult
+    href: Engine.Core.Maths.Obsolete.Gaussian.GaussianResult.html
+- uid: Engine.Core.Maths.Obsolete.Matrix
+  commentId: T:Engine.Core.Maths.Obsolete.Matrix
+  parent: Engine.Core.Maths.Obsolete
+  href: Engine.Core.Maths.Obsolete.Matrix.html
+  name: Matrix
+  nameWithType: Matrix
+  fullName: Engine.Core.Maths.Obsolete.Matrix
+- uid: Engine.Core.Maths.Obsolete
+  commentId: N:Engine.Core.Maths.Obsolete
+  href: Engine.html
+  name: Engine.Core.Maths.Obsolete
+  nameWithType: Engine.Core.Maths.Obsolete
+  fullName: Engine.Core.Maths.Obsolete
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+  - name: .
+  - uid: Engine.Core.Maths.Obsolete
+    name: Obsolete
+    href: Engine.Core.Maths.Obsolete.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+  - name: .
+  - uid: Engine.Core.Maths.Obsolete
+    name: Obsolete
+    href: Engine.Core.Maths.Obsolete.html

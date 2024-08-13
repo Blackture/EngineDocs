@@ -1,0 +1,417 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Maths
+  commentId: N:Engine.Core.Maths
+  id: Engine.Core.Maths
+  children:
+  - Engine.Core.Maths.AffineMatrix3x3
+  - Engine.Core.Maths.AffineMatrix4x4
+  - Engine.Core.Maths.AugmentedMatrix
+  - Engine.Core.Maths.Axis
+  - Engine.Core.Maths.BaseDirections2D
+  - Engine.Core.Maths.BasePlane
+  - Engine.Core.Maths.DilationMatrix2x2
+  - Engine.Core.Maths.DilationMatrix3x3
+  - Engine.Core.Maths.FloatEnumerator
+  - Engine.Core.Maths.GCS3
+  - Engine.Core.Maths.Gauss
+  - Engine.Core.Maths.Gauss.EliminationResult
+  - Engine.Core.Maths.HomogeneneousType
+  - Engine.Core.Maths.HomogeneousObject3D
+  - Engine.Core.Maths.IMatrix
+  - Engine.Core.Maths.IntegrationApproximation
+  - Engine.Core.Maths.Limits
+  - Engine.Core.Maths.Mathf
+  - Engine.Core.Maths.Matrix
+  - Engine.Core.Maths.Matrix3x3
+  - Engine.Core.Maths.MatrixMxN
+  - Engine.Core.Maths.MatrixOperation
+  - Engine.Core.Maths.MirrorMatrix3x3
+  - Engine.Core.Maths.Plane
+  - Engine.Core.Maths.Plane.PlaneSetupType
+  - Engine.Core.Maths.Quaternion
+  - Engine.Core.Maths.RotationConvention
+  - Engine.Core.Maths.RotationMatrix2x2
+  - Engine.Core.Maths.RotationMatrix3x3
+  - Engine.Core.Maths.RotationMeasure
+  - Engine.Core.Maths.RotationType
+  - Engine.Core.Maths.RotationVector3
+  - Engine.Core.Maths.ShearConvention
+  - Engine.Core.Maths.SheerMatrix2x2
+  - Engine.Core.Maths.SheerMatrix3D
+  - Engine.Core.Maths.Straight3D
+  - Engine.Core.Maths.Straight3D.LineSetupType
+  - Engine.Core.Maths.TransformationConvention
+  - Engine.Core.Maths.Vector
+  - Engine.Core.Maths.Vector2
+  - Engine.Core.Maths.Vector3
+  langs:
+  - csharp
+  - vb
+  name: Engine.Core.Maths
+  nameWithType: Engine.Core.Maths
+  fullName: Engine.Core.Maths
+  type: Namespace
+  assemblies:
+  - Engine
+references:
+- uid: Engine.Core.Maths.HomogeneousObject3D
+  commentId: T:Engine.Core.Maths.HomogeneousObject3D
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.HomogeneousObject3D.html
+  name: HomogeneousObject3D
+  nameWithType: HomogeneousObject3D
+  fullName: Engine.Core.Maths.HomogeneousObject3D
+- uid: Engine.Core.Maths.Limits
+  commentId: T:Engine.Core.Maths.Limits
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.Limits.html
+  name: Limits
+  nameWithType: Limits
+  fullName: Engine.Core.Maths.Limits
+- uid: Engine.Core.Maths.AffineMatrix3x3
+  commentId: T:Engine.Core.Maths.AffineMatrix3x3
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.AffineMatrix3x3.html
+  name: AffineMatrix3x3
+  nameWithType: AffineMatrix3x3
+  fullName: Engine.Core.Maths.AffineMatrix3x3
+- uid: Engine.Core.Maths.AffineMatrix4x4
+  commentId: T:Engine.Core.Maths.AffineMatrix4x4
+  href: Engine.Core.Maths.AffineMatrix4x4.html
+  name: AffineMatrix4x4
+  nameWithType: AffineMatrix4x4
+  fullName: Engine.Core.Maths.AffineMatrix4x4
+- uid: Engine.Core.Maths.AugmentedMatrix
+  commentId: T:Engine.Core.Maths.AugmentedMatrix
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.AugmentedMatrix.html
+  name: AugmentedMatrix
+  nameWithType: AugmentedMatrix
+  fullName: Engine.Core.Maths.AugmentedMatrix
+- uid: Engine.Core.Maths.DilationMatrix2x2
+  commentId: T:Engine.Core.Maths.DilationMatrix2x2
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.DilationMatrix2x2.html
+  name: DilationMatrix2x2
+  nameWithType: DilationMatrix2x2
+  fullName: Engine.Core.Maths.DilationMatrix2x2
+- uid: Engine.Core.Maths.DilationMatrix3x3
+  commentId: T:Engine.Core.Maths.DilationMatrix3x3
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.DilationMatrix3x3.html
+  name: DilationMatrix3x3
+  nameWithType: DilationMatrix3x3
+  fullName: Engine.Core.Maths.DilationMatrix3x3
+- uid: Engine.Core.Maths.Gauss
+  commentId: T:Engine.Core.Maths.Gauss
+  href: Engine.Core.Maths.Gauss.html
+  name: Gauss
+  nameWithType: Gauss
+  fullName: Engine.Core.Maths.Gauss
+- uid: Engine.Core.Maths.Gauss.EliminationResult
+  commentId: T:Engine.Core.Maths.Gauss.EliminationResult
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.Gauss.html
+  name: Gauss.EliminationResult
+  nameWithType: Gauss.EliminationResult
+  fullName: Engine.Core.Maths.Gauss.EliminationResult
+  spec.csharp:
+  - uid: Engine.Core.Maths.Gauss
+    name: Gauss
+    href: Engine.Core.Maths.Gauss.html
+  - name: .
+  - uid: Engine.Core.Maths.Gauss.EliminationResult
+    name: EliminationResult
+    href: Engine.Core.Maths.Gauss.EliminationResult.html
+  spec.vb:
+  - uid: Engine.Core.Maths.Gauss
+    name: Gauss
+    href: Engine.Core.Maths.Gauss.html
+  - name: .
+  - uid: Engine.Core.Maths.Gauss.EliminationResult
+    name: EliminationResult
+    href: Engine.Core.Maths.Gauss.EliminationResult.html
+- uid: Engine.Core.Maths.MatrixOperation
+  commentId: T:Engine.Core.Maths.MatrixOperation
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.MatrixOperation.html
+  name: MatrixOperation
+  nameWithType: MatrixOperation
+  fullName: Engine.Core.Maths.MatrixOperation
+- uid: Engine.Core.Maths.Axis
+  commentId: T:Engine.Core.Maths.Axis
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.Axis.html
+  name: Axis
+  nameWithType: Axis
+  fullName: Engine.Core.Maths.Axis
+- uid: Engine.Core.Maths.RotationConvention
+  commentId: T:Engine.Core.Maths.RotationConvention
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.RotationConvention.html
+  name: RotationConvention
+  nameWithType: RotationConvention
+  fullName: Engine.Core.Maths.RotationConvention
+- uid: Engine.Core.Maths.ShearConvention
+  commentId: T:Engine.Core.Maths.ShearConvention
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.ShearConvention.html
+  name: ShearConvention
+  nameWithType: ShearConvention
+  fullName: Engine.Core.Maths.ShearConvention
+- uid: Engine.Core.Maths.RotationType
+  commentId: T:Engine.Core.Maths.RotationType
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.RotationType.html
+  name: RotationType
+  nameWithType: RotationType
+  fullName: Engine.Core.Maths.RotationType
+- uid: Engine.Core.Maths.BasePlane
+  commentId: T:Engine.Core.Maths.BasePlane
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.BasePlane.html
+  name: BasePlane
+  nameWithType: BasePlane
+  fullName: Engine.Core.Maths.BasePlane
+- uid: Engine.Core.Maths.BaseDirections2D
+  commentId: T:Engine.Core.Maths.BaseDirections2D
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.BaseDirections2D.html
+  name: BaseDirections2D
+  nameWithType: BaseDirections2D
+  fullName: Engine.Core.Maths.BaseDirections2D
+- uid: Engine.Core.Maths.TransformationConvention
+  commentId: T:Engine.Core.Maths.TransformationConvention
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.TransformationConvention.html
+  name: TransformationConvention
+  nameWithType: TransformationConvention
+  fullName: Engine.Core.Maths.TransformationConvention
+- uid: Engine.Core.Maths.RotationMeasure
+  commentId: T:Engine.Core.Maths.RotationMeasure
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.RotationMeasure.html
+  name: RotationMeasure
+  nameWithType: RotationMeasure
+  fullName: Engine.Core.Maths.RotationMeasure
+- uid: Engine.Core.Maths.HomogeneneousType
+  commentId: T:Engine.Core.Maths.HomogeneneousType
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.HomogeneneousType.html
+  name: HomogeneneousType
+  nameWithType: HomogeneneousType
+  fullName: Engine.Core.Maths.HomogeneneousType
+- uid: Engine.Core.Maths.IntegrationApproximation
+  commentId: T:Engine.Core.Maths.IntegrationApproximation
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.IntegrationApproximation.html
+  name: IntegrationApproximation
+  nameWithType: IntegrationApproximation
+  fullName: Engine.Core.Maths.IntegrationApproximation
+- uid: Engine.Core.Maths.FloatEnumerator
+  commentId: T:Engine.Core.Maths.FloatEnumerator
+  href: Engine.Core.Maths.FloatEnumerator.html
+  name: FloatEnumerator
+  nameWithType: FloatEnumerator
+  fullName: Engine.Core.Maths.FloatEnumerator
+- uid: Engine.Core.Maths.IMatrix
+  commentId: T:Engine.Core.Maths.IMatrix
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.IMatrix.html
+  name: IMatrix
+  nameWithType: IMatrix
+  fullName: Engine.Core.Maths.IMatrix
+- uid: Engine.Core.Maths.Matrix
+  commentId: T:Engine.Core.Maths.Matrix
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.Matrix.html
+  name: Matrix
+  nameWithType: Matrix
+  fullName: Engine.Core.Maths.Matrix
+- uid: Engine.Core.Maths.Matrix3x3
+  commentId: T:Engine.Core.Maths.Matrix3x3
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.Matrix3x3.html
+  name: Matrix3x3
+  nameWithType: Matrix3x3
+  fullName: Engine.Core.Maths.Matrix3x3
+- uid: Engine.Core.Maths.MirrorMatrix3x3
+  commentId: T:Engine.Core.Maths.MirrorMatrix3x3
+  href: Engine.Core.Maths.MirrorMatrix3x3.html
+  name: MirrorMatrix3x3
+  nameWithType: MirrorMatrix3x3
+  fullName: Engine.Core.Maths.MirrorMatrix3x3
+- uid: Engine.Core.Maths.MatrixMxN
+  commentId: T:Engine.Core.Maths.MatrixMxN
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.MatrixMxN.html
+  name: MatrixMxN
+  nameWithType: MatrixMxN
+  fullName: Engine.Core.Maths.MatrixMxN
+- uid: Engine.Core.Maths.Plane
+  commentId: T:Engine.Core.Maths.Plane
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.Plane.html
+  name: Plane
+  nameWithType: Plane
+  fullName: Engine.Core.Maths.Plane
+- uid: Engine.Core.Maths.Plane.PlaneSetupType
+  commentId: T:Engine.Core.Maths.Plane.PlaneSetupType
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.Plane.html
+  name: Plane.PlaneSetupType
+  nameWithType: Plane.PlaneSetupType
+  fullName: Engine.Core.Maths.Plane.PlaneSetupType
+  spec.csharp:
+  - uid: Engine.Core.Maths.Plane
+    name: Plane
+    href: Engine.Core.Maths.Plane.html
+  - name: .
+  - uid: Engine.Core.Maths.Plane.PlaneSetupType
+    name: PlaneSetupType
+    href: Engine.Core.Maths.Plane.PlaneSetupType.html
+  spec.vb:
+  - uid: Engine.Core.Maths.Plane
+    name: Plane
+    href: Engine.Core.Maths.Plane.html
+  - name: .
+  - uid: Engine.Core.Maths.Plane.PlaneSetupType
+    name: PlaneSetupType
+    href: Engine.Core.Maths.Plane.PlaneSetupType.html
+- uid: Engine.Core.Maths.Quaternion
+  commentId: T:Engine.Core.Maths.Quaternion
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.Quaternion.html
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: Engine.Core.Maths.Quaternion
+- uid: Engine.Core.Maths.RotationMatrix2x2
+  commentId: T:Engine.Core.Maths.RotationMatrix2x2
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.RotationMatrix2x2.html
+  name: RotationMatrix2x2
+  nameWithType: RotationMatrix2x2
+  fullName: Engine.Core.Maths.RotationMatrix2x2
+- uid: Engine.Core.Maths.RotationMatrix3x3
+  commentId: T:Engine.Core.Maths.RotationMatrix3x3
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.RotationMatrix3x3.html
+  name: RotationMatrix3x3
+  nameWithType: RotationMatrix3x3
+  fullName: Engine.Core.Maths.RotationMatrix3x3
+- uid: Engine.Core.Maths.RotationVector3
+  commentId: T:Engine.Core.Maths.RotationVector3
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.RotationVector3.html
+  name: RotationVector3
+  nameWithType: RotationVector3
+  fullName: Engine.Core.Maths.RotationVector3
+- uid: Engine.Core.Maths.SheerMatrix2x2
+  commentId: T:Engine.Core.Maths.SheerMatrix2x2
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.SheerMatrix2x2.html
+  name: SheerMatrix2x2
+  nameWithType: SheerMatrix2x2
+  fullName: Engine.Core.Maths.SheerMatrix2x2
+- uid: Engine.Core.Maths.SheerMatrix3D
+  commentId: T:Engine.Core.Maths.SheerMatrix3D
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.SheerMatrix3D.html
+  name: SheerMatrix3D
+  nameWithType: SheerMatrix3D
+  fullName: Engine.Core.Maths.SheerMatrix3D
+- uid: Engine.Core.Maths.Straight3D
+  commentId: T:Engine.Core.Maths.Straight3D
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.Straight3D.html
+  name: Straight3D
+  nameWithType: Straight3D
+  fullName: Engine.Core.Maths.Straight3D
+- uid: Engine.Core.Maths.Straight3D.LineSetupType
+  commentId: T:Engine.Core.Maths.Straight3D.LineSetupType
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.Straight3D.html
+  name: Straight3D.LineSetupType
+  nameWithType: Straight3D.LineSetupType
+  fullName: Engine.Core.Maths.Straight3D.LineSetupType
+  spec.csharp:
+  - uid: Engine.Core.Maths.Straight3D
+    name: Straight3D
+    href: Engine.Core.Maths.Straight3D.html
+  - name: .
+  - uid: Engine.Core.Maths.Straight3D.LineSetupType
+    name: LineSetupType
+    href: Engine.Core.Maths.Straight3D.LineSetupType.html
+  spec.vb:
+  - uid: Engine.Core.Maths.Straight3D
+    name: Straight3D
+    href: Engine.Core.Maths.Straight3D.html
+  - name: .
+  - uid: Engine.Core.Maths.Straight3D.LineSetupType
+    name: LineSetupType
+    href: Engine.Core.Maths.Straight3D.LineSetupType.html
+- uid: Engine.Core.Maths.GCS3
+  commentId: T:Engine.Core.Maths.GCS3
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.GCS3.html
+  name: GCS3
+  nameWithType: GCS3
+  fullName: Engine.Core.Maths.GCS3
+- uid: Engine.Core.Maths.Vector
+  commentId: T:Engine.Core.Maths.Vector
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.Vector.html
+  name: Vector
+  nameWithType: Vector
+  fullName: Engine.Core.Maths.Vector
+- uid: Engine.Core.Maths.Vector2
+  commentId: T:Engine.Core.Maths.Vector2
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.Vector2.html
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Engine.Core.Maths.Vector2
+- uid: Engine.Core.Maths.Vector3
+  commentId: T:Engine.Core.Maths.Vector3
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.Vector3.html
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Engine.Core.Maths.Vector3
+- uid: Engine.Core.Maths.Mathf
+  commentId: T:Engine.Core.Maths.Mathf
+  href: Engine.Core.Maths.Mathf.html
+  name: Mathf
+  nameWithType: Mathf
+  fullName: Engine.Core.Maths.Mathf
+- uid: Engine.Core.Maths
+  commentId: N:Engine.Core.Maths
+  href: Engine.html
+  name: Engine.Core.Maths
+  nameWithType: Engine.Core.Maths
+  fullName: Engine.Core.Maths
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html

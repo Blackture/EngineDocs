@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Rendering.Projection
+  commentId: T:Engine.Rendering.Projection
+  id: Projection
+  parent: Engine.Rendering
+  children:
+  - Engine.Rendering.Projection.Orthographic
+  - Engine.Rendering.Projection.Perspective
+  langs:
+  - csharp
+  - vb
+  name: Projection
+  nameWithType: Projection
+  fullName: Engine.Rendering.Projection
+  type: Enum
+  source:
+    remote:
+      path: Engine.Rendering/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Projection
+    path: C:/Users/Admin/Desktop/Engine/Engine.Rendering/Enums.cs
+    startLine: 8
+  assemblies:
+  - Engine.Rendering
+  namespace: Engine.Rendering
+  syntax:
+    content: public enum Projection
+    content.vb: Public Enum Projection
+- uid: Engine.Rendering.Projection.Orthographic
+  commentId: F:Engine.Rendering.Projection.Orthographic
+  id: Orthographic
+  parent: Engine.Rendering.Projection
+  langs:
+  - csharp
+  - vb
+  name: Orthographic
+  nameWithType: Projection.Orthographic
+  fullName: Engine.Rendering.Projection.Orthographic
+  type: Field
+  source:
+    remote:
+      path: Engine.Rendering/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Orthographic
+    path: C:/Users/Admin/Desktop/Engine/Engine.Rendering/Enums.cs
+    startLine: 9
+  assemblies:
+  - Engine.Rendering
+  namespace: Engine.Rendering
+  syntax:
+    content: Orthographic = 0
+    return:
+      type: Engine.Rendering.Projection
+- uid: Engine.Rendering.Projection.Perspective
+  commentId: F:Engine.Rendering.Projection.Perspective
+  id: Perspective
+  parent: Engine.Rendering.Projection
+  langs:
+  - csharp
+  - vb
+  name: Perspective
+  nameWithType: Projection.Perspective
+  fullName: Engine.Rendering.Projection.Perspective
+  type: Field
+  source:
+    remote:
+      path: Engine.Rendering/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Perspective
+    path: C:/Users/Admin/Desktop/Engine/Engine.Rendering/Enums.cs
+    startLine: 10
+  assemblies:
+  - Engine.Rendering
+  namespace: Engine.Rendering
+  syntax:
+    content: Perspective = 1
+    return:
+      type: Engine.Rendering.Projection
+references:
+- uid: Engine.Rendering
+  commentId: N:Engine.Rendering
+  href: Engine.html
+  name: Engine.Rendering
+  nameWithType: Engine.Rendering
+  fullName: Engine.Rendering
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Rendering
+    name: Rendering
+    href: Engine.Rendering.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Rendering
+    name: Rendering
+    href: Engine.Rendering.html
+- uid: Engine.Rendering.Projection
+  commentId: T:Engine.Rendering.Projection
+  parent: Engine.Rendering
+  href: Engine.Rendering.Projection.html
+  name: Projection
+  nameWithType: Projection
+  fullName: Engine.Rendering.Projection

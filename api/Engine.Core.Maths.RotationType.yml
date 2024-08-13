@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Maths.RotationType
+  commentId: T:Engine.Core.Maths.RotationType
+  id: RotationType
+  parent: Engine.Core.Maths
+  children:
+  - Engine.Core.Maths.RotationType.Quaternion
+  - Engine.Core.Maths.RotationType.RotationMatrix
+  langs:
+  - csharp
+  - vb
+  name: RotationType
+  nameWithType: RotationType
+  fullName: Engine.Core.Maths.RotationType
+  type: Enum
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: RotationType
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 42
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public enum RotationType
+    content.vb: Public Enum RotationType
+- uid: Engine.Core.Maths.RotationType.RotationMatrix
+  commentId: F:Engine.Core.Maths.RotationType.RotationMatrix
+  id: RotationMatrix
+  parent: Engine.Core.Maths.RotationType
+  langs:
+  - csharp
+  - vb
+  name: RotationMatrix
+  nameWithType: RotationType.RotationMatrix
+  fullName: Engine.Core.Maths.RotationType.RotationMatrix
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: RotationMatrix
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 44
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: RotationMatrix = 0
+    return:
+      type: Engine.Core.Maths.RotationType
+- uid: Engine.Core.Maths.RotationType.Quaternion
+  commentId: F:Engine.Core.Maths.RotationType.Quaternion
+  id: Quaternion
+  parent: Engine.Core.Maths.RotationType
+  langs:
+  - csharp
+  - vb
+  name: Quaternion
+  nameWithType: RotationType.Quaternion
+  fullName: Engine.Core.Maths.RotationType.Quaternion
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Quaternion
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 45
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: Quaternion = 1
+    return:
+      type: Engine.Core.Maths.RotationType
+references:
+- uid: Engine.Core.Maths
+  commentId: N:Engine.Core.Maths
+  href: Engine.html
+  name: Engine.Core.Maths
+  nameWithType: Engine.Core.Maths
+  fullName: Engine.Core.Maths
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+- uid: Engine.Core.Maths.RotationType
+  commentId: T:Engine.Core.Maths.RotationType
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.RotationType.html
+  name: RotationType
+  nameWithType: RotationType
+  fullName: Engine.Core.Maths.RotationType

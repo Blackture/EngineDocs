@@ -1,0 +1,2389 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Mathf </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Mathf ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Blackture/engine/new/main/apiSpec/new?filename=Engine_Core_Maths_Mathf.md&amp;value=---%0Auid%3A%20Engine.Core.Maths.Mathf%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Engine.Core.Maths.Mathf">
+
+
+
+  <h1 id="Engine_Core_Maths_Mathf" data-uid="Engine.Core.Maths.Mathf" class="text-break">
+Class Mathf  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Engine.html">Engine</a>.<a class="xref" href="Engine.Core.html">Core</a>.<a class="xref" href="Engine.Core.Maths.html">Maths</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Engine.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class Mathf</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Mathf</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Engine_Core_Maths_Mathf_CosinePiQuarter" data-uid="Engine.Core.Maths.Mathf.CosinePiQuarter">
+  CosinePiQuarter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly float CosinePiQuarter</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Engine_Core_Maths_Mathf_PiHalf" data-uid="Engine.Core.Maths.Mathf.PiHalf">
+  PiHalf
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly float PiHalf</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Engine_Core_Maths_Mathf_PiQuarter" data-uid="Engine.Core.Maths.Mathf.PiQuarter">
+  PiQuarter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly float PiQuarter</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Engine_Core_Maths_Mathf_SinePiQuarter" data-uid="Engine.Core.Maths.Mathf.SinePiQuarter">
+  SinePiQuarter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly float SinePiQuarter</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Engine_Core_Maths_Mathf_e" data-uid="Engine.Core.Maths.Mathf.e">
+  e
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const float e = 2.7182817</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Engine_Core_Maths_Mathf_pi" data-uid="Engine.Core.Maths.Mathf.pi">
+  pi
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const float pi = 3.1415927</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Engine_Core_Maths_Mathf_Abs_" data-uid="Engine.Core.Maths.Mathf.Abs*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Abs_System_Single_" data-uid="Engine.Core.Maths.Mathf.Abs(System.Single)">
+  Abs(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Abs(float f)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Acos_" data-uid="Engine.Core.Maths.Mathf.Acos*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Acos_System_Single_" data-uid="Engine.Core.Maths.Mathf.Acos(System.Single)">
+  Acos(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Acos(float f)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Approximately_" data-uid="Engine.Core.Maths.Mathf.Approximately*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Approximately_System_Single_System_Single_" data-uid="Engine.Core.Maths.Mathf.Approximately(System.Single,System.Single)">
+  Approximately(float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L383"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Approximately(float a, float b)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>a</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>b</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Approximately_" data-uid="Engine.Core.Maths.Mathf.Approximately*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Approximately_System_Single_System_Single_System_Single_" data-uid="Engine.Core.Maths.Mathf.Approximately(System.Single,System.Single,System.Single)">
+  Approximately(float, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L378"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Approximately(float a, float b, float tolerance)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>a</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>b</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>tolerance</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Asin_" data-uid="Engine.Core.Maths.Mathf.Asin*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Asin_System_Single_" data-uid="Engine.Core.Maths.Mathf.Asin(System.Single)">
+  Asin(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Asin(float f)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Atan_" data-uid="Engine.Core.Maths.Mathf.Atan*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Atan_System_Single_" data-uid="Engine.Core.Maths.Mathf.Atan(System.Single)">
+  Atan(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Atan(float f)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Atan2_" data-uid="Engine.Core.Maths.Mathf.Atan2*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Atan2_System_Single_System_Single_" data-uid="Engine.Core.Maths.Mathf.Atan2(System.Single,System.Single)">
+  Atan2(float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Atan2(float x, float y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Ceiling_" data-uid="Engine.Core.Maths.Mathf.Ceiling*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Ceiling_System_Single_" data-uid="Engine.Core.Maths.Mathf.Ceiling(System.Single)">
+  Ceiling(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Ceiling(float f)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Cos_" data-uid="Engine.Core.Maths.Mathf.Cos*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Cos_System_Single_" data-uid="Engine.Core.Maths.Mathf.Cos(System.Single)">
+  Cos(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Cos(float f)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Cosh_" data-uid="Engine.Core.Maths.Mathf.Cosh*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Cosh_System_Single_" data-uid="Engine.Core.Maths.Mathf.Cosh(System.Single)">
+  Cosh(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Cosh(float f)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Cot_" data-uid="Engine.Core.Maths.Mathf.Cot*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Cot_System_Single_" data-uid="Engine.Core.Maths.Mathf.Cot(System.Single)">
+  Cot(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Cot(float f)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Csc_" data-uid="Engine.Core.Maths.Mathf.Csc*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Csc_System_Single_" data-uid="Engine.Core.Maths.Mathf.Csc(System.Single)">
+  Csc(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Csc(float f)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Deg2Rad_" data-uid="Engine.Core.Maths.Mathf.Deg2Rad*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Deg2Rad_System_Single_" data-uid="Engine.Core.Maths.Mathf.Deg2Rad(System.Single)">
+  Deg2Rad(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L388"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Deg2Rad(float deg)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>deg</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Exp_" data-uid="Engine.Core.Maths.Mathf.Exp*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Exp_System_Single_" data-uid="Engine.Core.Maths.Mathf.Exp(System.Single)">
+  Exp(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Exp(float f)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Factorial_" data-uid="Engine.Core.Maths.Mathf.Factorial*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Factorial_System_Int32_" data-uid="Engine.Core.Maths.Mathf.Factorial(System.Int32)">
+  Factorial(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L408"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Iterative Implementation</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int Factorial(int i)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>i</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_FactorialHelper_" data-uid="Engine.Core.Maths.Mathf.FactorialHelper*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_FactorialHelper_System_Int32_System_Int32_" data-uid="Engine.Core.Maths.Mathf.FactorialHelper(System.Int32,System.Int32)">
+  FactorialHelper(int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L428"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int FactorialHelper(int i, int current)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>i</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>current</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_FactorialR_" data-uid="Engine.Core.Maths.Mathf.FactorialR*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_FactorialR_System_Int32_" data-uid="Engine.Core.Maths.Mathf.FactorialR(System.Int32)">
+  FactorialR(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L421"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Recursive Implementation</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int FactorialR(int i)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>i</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Floor_" data-uid="Engine.Core.Maths.Mathf.Floor*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Floor_System_Single_" data-uid="Engine.Core.Maths.Mathf.Floor(System.Single)">
+  Floor(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Floor(float f)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Gamma_" data-uid="Engine.Core.Maths.Mathf.Gamma*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Gamma_System_Single_" data-uid="Engine.Core.Maths.Mathf.Gamma(System.Single)">
+  Gamma(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L439"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Gamma(float f)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_IEEERemainder_" data-uid="Engine.Core.Maths.Mathf.IEEERemainder*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_IEEERemainder_System_Single_System_Single_" data-uid="Engine.Core.Maths.Mathf.IEEERemainder(System.Single,System.Single)">
+  IEEERemainder(float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float IEEERemainder(float x, float y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Integral_" data-uid="Engine.Core.Maths.Mathf.Integral*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Integral_Engine_Core_Maths_Limits_System_Single_System_Func_System_Single_System_Single__Engine_Core_Maths_IntegrationApproximation_" data-uid="Engine.Core.Maths.Mathf.Integral(Engine.Core.Maths.Limits,System.Single,System.Func{System.Single,System.Single},Engine.Core.Maths.IntegrationApproximation)">
+  Integral(Limits, float, Func&lt;float, float&gt;, IntegrationApproximation)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L452"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Definite or improper integral</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Integral(Limits limits, float f, Func&lt;float, float&gt; innerFunction, IntegrationApproximation approximation)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>limits</code> <a class="xref" href="Engine.Core.Maths.Limits.html">Limits</a></dt>
+    <dd></dd>
+    <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>innerFunction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>approximation</code> <a class="xref" href="Engine.Core.Maths.IntegrationApproximation.html">IntegrationApproximation</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Log_" data-uid="Engine.Core.Maths.Mathf.Log*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Log_System_Single_" data-uid="Engine.Core.Maths.Mathf.Log(System.Single)">
+  Log(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Log(float f)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Log_" data-uid="Engine.Core.Maths.Mathf.Log*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Log_System_Single_System_Single_" data-uid="Engine.Core.Maths.Mathf.Log(System.Single,System.Single)">
+  Log(float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Log(float f, float newBase)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>newBase</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Log10_" data-uid="Engine.Core.Maths.Mathf.Log10*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Log10_System_Single_" data-uid="Engine.Core.Maths.Mathf.Log10(System.Single)">
+  Log10(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L110"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Log10(float f)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Max_" data-uid="Engine.Core.Maths.Mathf.Max*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Max_System_Single_System_Single_" data-uid="Engine.Core.Maths.Mathf.Max(System.Single,System.Single)">
+  Max(float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Max(float val1, float val2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>val1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>val2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Min_" data-uid="Engine.Core.Maths.Mathf.Min*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Min_System_Single_System_Single_" data-uid="Engine.Core.Maths.Mathf.Min(System.Single,System.Single)">
+  Min(float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Min(float val1, float val2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>val1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>val2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_NthSqrt_" data-uid="Engine.Core.Maths.Mathf.NthSqrt*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_NthSqrt_System_Single_System_Int32_" data-uid="Engine.Core.Maths.Mathf.NthSqrt(System.Single,System.Int32)">
+  NthSqrt(float, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L171"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float NthSqrt(float f, int n)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>n</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Pi_" data-uid="Engine.Core.Maths.Mathf.Pi*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Pi_System_Func_System_Single_System_Single__System_Int32_System_Int32_" data-uid="Engine.Core.Maths.Mathf.Pi(System.Func{System.Single,System.Single},System.Int32,System.Int32)">
+  Pi(Func&lt;float, float&gt;, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L191"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Pi(Func&lt;float, float&gt; innerFunction, int limit1, int limit2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>innerFunction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>limit1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>limit2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Pi_" data-uid="Engine.Core.Maths.Mathf.Pi*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Pi_System_Func_System_Single_System_Single__System_Single_System_Single_System_Single_" data-uid="Engine.Core.Maths.Mathf.Pi(System.Func{System.Single,System.Single},System.Single,System.Single,System.Single)">
+  Pi(Func&lt;float, float&gt;, float, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L201"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Pi(Func&lt;float, float&gt; innerFunction, float limit1, float limit2, float increment)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>innerFunction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>limit1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>limit2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>increment</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Pow_" data-uid="Engine.Core.Maths.Mathf.Pow*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Pow_System_Single_System_Single_" data-uid="Engine.Core.Maths.Mathf.Pow(System.Single,System.Single)">
+  Pow(float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Pow(float b, float p)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>b</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>p</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Rad2Deg_" data-uid="Engine.Core.Maths.Mathf.Rad2Deg*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Rad2Deg_System_Single_" data-uid="Engine.Core.Maths.Mathf.Rad2Deg(System.Single)">
+  Rad2Deg(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L393"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Rad2Deg(float rad)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rad</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Round_" data-uid="Engine.Core.Maths.Mathf.Round*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Round_System_Single_" data-uid="Engine.Core.Maths.Mathf.Round(System.Single)">
+  Round(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Round(float f)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Round_" data-uid="Engine.Core.Maths.Mathf.Round*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Round_System_Single_System_Int32_" data-uid="Engine.Core.Maths.Mathf.Round(System.Single,System.Int32)">
+  Round(float, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Round(float f, int digits)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>digits</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Round_" data-uid="Engine.Core.Maths.Mathf.Round*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Round_System_Single_System_Int32_System_MidpointRounding_" data-uid="Engine.Core.Maths.Mathf.Round(System.Single,System.Int32,System.MidpointRounding)">
+  Round(float, int, MidpointRounding)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Round(float f, int digits, MidpointRounding midpointRounding)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>digits</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>midpointRounding</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.midpointrounding">MidpointRounding</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_RoundToInt_" data-uid="Engine.Core.Maths.Mathf.RoundToInt*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_RoundToInt_System_Single_" data-uid="Engine.Core.Maths.Mathf.RoundToInt(System.Single)">
+  RoundToInt(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L145"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int RoundToInt(float f)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Sec_" data-uid="Engine.Core.Maths.Mathf.Sec*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Sec_System_Single_" data-uid="Engine.Core.Maths.Mathf.Sec(System.Single)">
+  Sec(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Sec(float f)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Sigma_" data-uid="Engine.Core.Maths.Mathf.Sigma*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Sigma_System_Func_System_Single_System_Single__System_Int32_System_Int32_" data-uid="Engine.Core.Maths.Mathf.Sigma(System.Func{System.Single,System.Single},System.Int32,System.Int32)">
+  Sigma(Func&lt;float, float&gt;, int, int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L235"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Iterative Implementation</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Sigma(Func&lt;float, float&gt; innerFunction, int limit1, int limit2)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>innerFunction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>limit1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>limit2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Sigma_" data-uid="Engine.Core.Maths.Mathf.Sigma*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Sigma_System_Func_System_Single_System_Single__System_Single_System_Single_System_Single_" data-uid="Engine.Core.Maths.Mathf.Sigma(System.Func{System.Single,System.Single},System.Single,System.Single,System.Single)">
+  Sigma(Func&lt;float, float&gt;, float, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L219"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Iterative Implementation</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Sigma(Func&lt;float, float&gt; innerFunction, float limit1, float limit2, float increment)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>innerFunction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>limit1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>limit2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>increment</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Sigma_" data-uid="Engine.Core.Maths.Mathf.Sigma*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Sigma_System_Single___" data-uid="Engine.Core.Maths.Mathf.Sigma(System.Single[])">
+  Sigma(params float[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L272"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Iterative Sum</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Sigma(params float[] floats)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>floats</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_SigmaPow_" data-uid="Engine.Core.Maths.Mathf.SigmaPow*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_SigmaPow_System_Single_System_Collections_Generic_List_System_Single__" data-uid="Engine.Core.Maths.Mathf.SigmaPow(System.Single,System.Collections.Generic.List{System.Single})">
+  SigmaPow(float, List&lt;float&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L302"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Iterative Sum</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float SigmaPow(float power, List&lt;float&gt; floats)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>power</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>floats</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_SigmaPow_" data-uid="Engine.Core.Maths.Mathf.SigmaPow*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_SigmaPow_System_Single_System_Single___" data-uid="Engine.Core.Maths.Mathf.SigmaPow(System.Single,System.Single[])">
+  SigmaPow(float, params float[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L287"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Iterative Sum</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float SigmaPow(float power, params float[] floats)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>power</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>floats</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_SigmaR_" data-uid="Engine.Core.Maths.Mathf.SigmaR*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_SigmaR_System_Collections_Generic_List_System_Single__" data-uid="Engine.Core.Maths.Mathf.SigmaR(System.Collections.Generic.List{System.Single})">
+  SigmaR(List&lt;float&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L327"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Recursive Sum</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float SigmaR(List&lt;float&gt; floats)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>floats</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_SigmaR_" data-uid="Engine.Core.Maths.Mathf.SigmaR*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_SigmaR_System_Func_System_Single_System_Single__System_Int32_System_Int32_System_Single_" data-uid="Engine.Core.Maths.Mathf.SigmaR(System.Func{System.Single,System.Single},System.Int32,System.Int32,System.Single)">
+  SigmaR(Func&lt;float, float&gt;, int, int, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L252"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Recursive Implementation</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float SigmaR(Func&lt;float, float&gt; innerFunction, int limit1, int limit2, float increment = 1E-45)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>innerFunction</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>limit1</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>limit2</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>increment</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_SigmaR_" data-uid="Engine.Core.Maths.Mathf.SigmaR*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_SigmaR_System_Single___" data-uid="Engine.Core.Maths.Mathf.SigmaR(System.Single[])">
+  SigmaR(params float[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L317"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Recursive Sum</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float SigmaR(params float[] floats)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>floats</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_SigmaR_PowElements_" data-uid="Engine.Core.Maths.Mathf.SigmaR_PowElements*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_SigmaR_PowElements_System_Single_System_Collections_Generic_List_System_Single__" data-uid="Engine.Core.Maths.Mathf.SigmaR_PowElements(System.Single,System.Collections.Generic.List{System.Single})">
+  SigmaR_PowElements(float, List&lt;float&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L337"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float SigmaR_PowElements(float power, List&lt;float&gt; floats)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>power</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>floats</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_SigmaR_PowElements_" data-uid="Engine.Core.Maths.Mathf.SigmaR_PowElements*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_SigmaR_PowElements_System_Single_System_Single___" data-uid="Engine.Core.Maths.Mathf.SigmaR_PowElements(System.Single,System.Single[])">
+  SigmaR_PowElements(float, params float[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L332"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float SigmaR_PowElements(float power, params float[] floats)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>power</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>floats</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Sign_" data-uid="Engine.Core.Maths.Mathf.Sign*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Sign_System_Single_" data-uid="Engine.Core.Maths.Mathf.Sign(System.Single)">
+  Sign(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L150"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int Sign(float f)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Sin_" data-uid="Engine.Core.Maths.Mathf.Sin*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Sin_System_Single_" data-uid="Engine.Core.Maths.Mathf.Sin(System.Single)">
+  Sin(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L155"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Sin(float f)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Sinc_" data-uid="Engine.Core.Maths.Mathf.Sinc*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Sinc_System_Single_System_Boolean_" data-uid="Engine.Core.Maths.Mathf.Sinc(System.Single,System.Boolean)">
+  Sinc(float, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L398"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Sinc(float f, bool Pi = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>Pi</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Sinh_" data-uid="Engine.Core.Maths.Mathf.Sinh*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Sinh_System_Single_" data-uid="Engine.Core.Maths.Mathf.Sinh(System.Single)">
+  Sinh(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L160"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Sinh(float f)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Sqrt_" data-uid="Engine.Core.Maths.Mathf.Sqrt*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Sqrt_System_Single_" data-uid="Engine.Core.Maths.Mathf.Sqrt(System.Single)">
+  Sqrt(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L165"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Sqrt(float f)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Tan_" data-uid="Engine.Core.Maths.Mathf.Tan*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Tan_System_Single_" data-uid="Engine.Core.Maths.Mathf.Tan(System.Single)">
+  Tan(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L176"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Tan(float f)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Tanh_" data-uid="Engine.Core.Maths.Mathf.Tanh*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Tanh_System_Single_" data-uid="Engine.Core.Maths.Mathf.Tanh(System.Single)">
+  Tanh(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L181"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Tanh(float f)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Engine_Core_Maths_Mathf_Truncate_" data-uid="Engine.Core.Maths.Mathf.Truncate*"></a>
+
+  <h3 id="Engine_Core_Maths_Mathf_Truncate_System_Single_" data-uid="Engine.Core.Maths.Mathf.Truncate(System.Single)">
+  Truncate(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L186"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Truncate(float f)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Blackture/engine/blob/main/Engine.Core/Maths/Mathf.cs/#L11" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

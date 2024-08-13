@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.SceneManagement.SceneType
+  commentId: T:Engine.Core.SceneManagement.SceneType
+  id: SceneType
+  parent: Engine.Core.SceneManagement
+  children:
+  - Engine.Core.SceneManagement.SceneType.Scene2D
+  - Engine.Core.SceneManagement.SceneType.Scene3D
+  langs:
+  - csharp
+  - vb
+  name: SceneType
+  nameWithType: SceneType
+  fullName: Engine.Core.SceneManagement.SceneType
+  type: Enum
+  source:
+    remote:
+      path: Engine.Core/SceneManagement/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: SceneType
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/SceneManagement/Enums.cs
+    startLine: 8
+  assemblies:
+  - Engine
+  namespace: Engine.Core.SceneManagement
+  syntax:
+    content: public enum SceneType
+    content.vb: Public Enum SceneType
+- uid: Engine.Core.SceneManagement.SceneType.Scene2D
+  commentId: F:Engine.Core.SceneManagement.SceneType.Scene2D
+  id: Scene2D
+  parent: Engine.Core.SceneManagement.SceneType
+  langs:
+  - csharp
+  - vb
+  name: Scene2D
+  nameWithType: SceneType.Scene2D
+  fullName: Engine.Core.SceneManagement.SceneType.Scene2D
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/SceneManagement/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Scene2D
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/SceneManagement/Enums.cs
+    startLine: 10
+  assemblies:
+  - Engine
+  namespace: Engine.Core.SceneManagement
+  syntax:
+    content: Scene2D = 0
+    return:
+      type: Engine.Core.SceneManagement.SceneType
+- uid: Engine.Core.SceneManagement.SceneType.Scene3D
+  commentId: F:Engine.Core.SceneManagement.SceneType.Scene3D
+  id: Scene3D
+  parent: Engine.Core.SceneManagement.SceneType
+  langs:
+  - csharp
+  - vb
+  name: Scene3D
+  nameWithType: SceneType.Scene3D
+  fullName: Engine.Core.SceneManagement.SceneType.Scene3D
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/SceneManagement/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Scene3D
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/SceneManagement/Enums.cs
+    startLine: 11
+  assemblies:
+  - Engine
+  namespace: Engine.Core.SceneManagement
+  syntax:
+    content: Scene3D = 1
+    return:
+      type: Engine.Core.SceneManagement.SceneType
+references:
+- uid: Engine.Core.SceneManagement
+  commentId: N:Engine.Core.SceneManagement
+  href: Engine.html
+  name: Engine.Core.SceneManagement
+  nameWithType: Engine.Core.SceneManagement
+  fullName: Engine.Core.SceneManagement
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.SceneManagement
+    name: SceneManagement
+    href: Engine.Core.SceneManagement.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.SceneManagement
+    name: SceneManagement
+    href: Engine.Core.SceneManagement.html
+- uid: Engine.Core.SceneManagement.SceneType
+  commentId: T:Engine.Core.SceneManagement.SceneType
+  parent: Engine.Core.SceneManagement
+  href: Engine.Core.SceneManagement.SceneType.html
+  name: SceneType
+  nameWithType: SceneType
+  fullName: Engine.Core.SceneManagement.SceneType

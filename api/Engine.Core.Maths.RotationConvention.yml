@@ -1,0 +1,228 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Maths.RotationConvention
+  commentId: T:Engine.Core.Maths.RotationConvention
+  id: RotationConvention
+  parent: Engine.Core.Maths
+  children:
+  - Engine.Core.Maths.RotationConvention.X1X2X3
+  - Engine.Core.Maths.RotationConvention.X1X3X2
+  - Engine.Core.Maths.RotationConvention.X2X1X3
+  - Engine.Core.Maths.RotationConvention.X2X3X1
+  - Engine.Core.Maths.RotationConvention.X3X1X2
+  - Engine.Core.Maths.RotationConvention.X3X2X1
+  langs:
+  - csharp
+  - vb
+  name: RotationConvention
+  nameWithType: RotationConvention
+  fullName: Engine.Core.Maths.RotationConvention
+  type: Enum
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: RotationConvention
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 24
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public enum RotationConvention
+    content.vb: Public Enum RotationConvention
+- uid: Engine.Core.Maths.RotationConvention.X1X2X3
+  commentId: F:Engine.Core.Maths.RotationConvention.X1X2X3
+  id: X1X2X3
+  parent: Engine.Core.Maths.RotationConvention
+  langs:
+  - csharp
+  - vb
+  name: X1X2X3
+  nameWithType: RotationConvention.X1X2X3
+  fullName: Engine.Core.Maths.RotationConvention.X1X2X3
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: X1X2X3
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 26
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: X1X2X3 = 0
+    return:
+      type: Engine.Core.Maths.RotationConvention
+- uid: Engine.Core.Maths.RotationConvention.X1X3X2
+  commentId: F:Engine.Core.Maths.RotationConvention.X1X3X2
+  id: X1X3X2
+  parent: Engine.Core.Maths.RotationConvention
+  langs:
+  - csharp
+  - vb
+  name: X1X3X2
+  nameWithType: RotationConvention.X1X3X2
+  fullName: Engine.Core.Maths.RotationConvention.X1X3X2
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: X1X3X2
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 27
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: X1X3X2 = 1
+    return:
+      type: Engine.Core.Maths.RotationConvention
+- uid: Engine.Core.Maths.RotationConvention.X2X1X3
+  commentId: F:Engine.Core.Maths.RotationConvention.X2X1X3
+  id: X2X1X3
+  parent: Engine.Core.Maths.RotationConvention
+  langs:
+  - csharp
+  - vb
+  name: X2X1X3
+  nameWithType: RotationConvention.X2X1X3
+  fullName: Engine.Core.Maths.RotationConvention.X2X1X3
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: X2X1X3
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 28
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: X2X1X3 = 2
+    return:
+      type: Engine.Core.Maths.RotationConvention
+- uid: Engine.Core.Maths.RotationConvention.X2X3X1
+  commentId: F:Engine.Core.Maths.RotationConvention.X2X3X1
+  id: X2X3X1
+  parent: Engine.Core.Maths.RotationConvention
+  langs:
+  - csharp
+  - vb
+  name: X2X3X1
+  nameWithType: RotationConvention.X2X3X1
+  fullName: Engine.Core.Maths.RotationConvention.X2X3X1
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: X2X3X1
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 29
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: X2X3X1 = 3
+    return:
+      type: Engine.Core.Maths.RotationConvention
+- uid: Engine.Core.Maths.RotationConvention.X3X1X2
+  commentId: F:Engine.Core.Maths.RotationConvention.X3X1X2
+  id: X3X1X2
+  parent: Engine.Core.Maths.RotationConvention
+  langs:
+  - csharp
+  - vb
+  name: X3X1X2
+  nameWithType: RotationConvention.X3X1X2
+  fullName: Engine.Core.Maths.RotationConvention.X3X1X2
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: X3X1X2
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 30
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: X3X1X2 = 4
+    return:
+      type: Engine.Core.Maths.RotationConvention
+- uid: Engine.Core.Maths.RotationConvention.X3X2X1
+  commentId: F:Engine.Core.Maths.RotationConvention.X3X2X1
+  id: X3X2X1
+  parent: Engine.Core.Maths.RotationConvention
+  langs:
+  - csharp
+  - vb
+  name: X3X2X1
+  nameWithType: RotationConvention.X3X2X1
+  fullName: Engine.Core.Maths.RotationConvention.X3X2X1
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Enums.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: X3X2X1
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Enums.cs
+    startLine: 31
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: X3X2X1 = 5
+    return:
+      type: Engine.Core.Maths.RotationConvention
+references:
+- uid: Engine.Core.Maths
+  commentId: N:Engine.Core.Maths
+  href: Engine.html
+  name: Engine.Core.Maths
+  nameWithType: Engine.Core.Maths
+  fullName: Engine.Core.Maths
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+- uid: Engine.Core.Maths.RotationConvention
+  commentId: T:Engine.Core.Maths.RotationConvention
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.RotationConvention.html
+  name: RotationConvention
+  nameWithType: RotationConvention
+  fullName: Engine.Core.Maths.RotationConvention

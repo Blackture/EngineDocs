@@ -1,0 +1,667 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Rendering.RenderingConstants
+  commentId: T:Engine.Rendering.RenderingConstants
+  id: RenderingConstants
+  parent: Engine.Rendering
+  children:
+  - Engine.Rendering.RenderingConstants.FoV
+  - Engine.Rendering.RenderingConstants.HalfScreenHeight
+  - Engine.Rendering.RenderingConstants.HalfScreenWidth
+  - Engine.Rendering.RenderingConstants.ScreenHeight
+  - Engine.Rendering.RenderingConstants.ScreenWidth
+  - Engine.Rendering.RenderingConstants.Sin135
+  - Engine.Rendering.RenderingConstants.Unit
+  - Engine.Rendering.RenderingConstants._halfScreenHeight
+  - Engine.Rendering.RenderingConstants._halfScreenWidth
+  - Engine.Rendering.RenderingConstants._screenHeight
+  - Engine.Rendering.RenderingConstants._screenWidth
+  langs:
+  - csharp
+  - vb
+  name: RenderingConstants
+  nameWithType: RenderingConstants
+  fullName: Engine.Rendering.RenderingConstants
+  type: Class
+  source:
+    remote:
+      path: Engine.Rendering/RenderingConstants.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: RenderingConstants
+    path: C:/Users/Admin/Desktop/Engine/Engine.Rendering/RenderingConstants.cs
+    startLine: 12
+  assemblies:
+  - Engine.Rendering
+  namespace: Engine.Rendering
+  syntax:
+    content: public static class RenderingConstants
+    content.vb: Public Module RenderingConstants
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: Engine.Rendering.RenderingConstants.Unit
+  commentId: F:Engine.Rendering.RenderingConstants.Unit
+  id: Unit
+  parent: Engine.Rendering.RenderingConstants
+  langs:
+  - csharp
+  - vb
+  name: Unit
+  nameWithType: RenderingConstants.Unit
+  fullName: Engine.Rendering.RenderingConstants.Unit
+  type: Field
+  source:
+    remote:
+      path: Engine.Rendering/RenderingConstants.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Unit
+    path: C:/Users/Admin/Desktop/Engine/Engine.Rendering/RenderingConstants.cs
+    startLine: 17
+  assemblies:
+  - Engine.Rendering
+  namespace: Engine.Rendering
+  summary: Defines the Unit size in units
+  example: []
+  syntax:
+    content: public const int Unit = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const Unit As Integer = 1
+- uid: Engine.Rendering.RenderingConstants.Sin135
+  commentId: F:Engine.Rendering.RenderingConstants.Sin135
+  id: Sin135
+  parent: Engine.Rendering.RenderingConstants
+  langs:
+  - csharp
+  - vb
+  name: Sin135
+  nameWithType: RenderingConstants.Sin135
+  fullName: Engine.Rendering.RenderingConstants.Sin135
+  type: Field
+  source:
+    remote:
+      path: Engine.Rendering/RenderingConstants.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Sin135
+    path: C:/Users/Admin/Desktop/Engine/Engine.Rendering/RenderingConstants.cs
+    startLine: 18
+  assemblies:
+  - Engine.Rendering
+  namespace: Engine.Rendering
+  syntax:
+    content: public static readonly float Sin135
+    return:
+      type: System.Single
+    content.vb: Public Shared ReadOnly Sin135 As Single
+- uid: Engine.Rendering.RenderingConstants._screenHeight
+  commentId: F:Engine.Rendering.RenderingConstants._screenHeight
+  id: _screenHeight
+  parent: Engine.Rendering.RenderingConstants
+  langs:
+  - csharp
+  - vb
+  name: _screenHeight
+  nameWithType: RenderingConstants._screenHeight
+  fullName: Engine.Rendering.RenderingConstants._screenHeight
+  type: Field
+  source:
+    remote:
+      path: Engine.Rendering/RenderingConstants.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: _screenHeight
+    path: C:/Users/Admin/Desktop/Engine/Engine.Rendering/RenderingConstants.cs
+    startLine: 24
+  assemblies:
+  - Engine.Rendering
+  namespace: Engine.Rendering
+  summary: >-
+    Only applies when rendering with the orthographic perspective
+
+    UnitXY multiplied with sqrt(2) / 2
+  example: []
+  syntax:
+    content: public static int _screenHeight
+    return:
+      type: System.Int32
+    content.vb: Public Shared _screenHeight As Integer
+- uid: Engine.Rendering.RenderingConstants._screenWidth
+  commentId: F:Engine.Rendering.RenderingConstants._screenWidth
+  id: _screenWidth
+  parent: Engine.Rendering.RenderingConstants
+  langs:
+  - csharp
+  - vb
+  name: _screenWidth
+  nameWithType: RenderingConstants._screenWidth
+  fullName: Engine.Rendering.RenderingConstants._screenWidth
+  type: Field
+  source:
+    remote:
+      path: Engine.Rendering/RenderingConstants.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: _screenWidth
+    path: C:/Users/Admin/Desktop/Engine/Engine.Rendering/RenderingConstants.cs
+    startLine: 25
+  assemblies:
+  - Engine.Rendering
+  namespace: Engine.Rendering
+  syntax:
+    content: public static int _screenWidth
+    return:
+      type: System.Int32
+    content.vb: Public Shared _screenWidth As Integer
+- uid: Engine.Rendering.RenderingConstants._halfScreenHeight
+  commentId: F:Engine.Rendering.RenderingConstants._halfScreenHeight
+  id: _halfScreenHeight
+  parent: Engine.Rendering.RenderingConstants
+  langs:
+  - csharp
+  - vb
+  name: _halfScreenHeight
+  nameWithType: RenderingConstants._halfScreenHeight
+  fullName: Engine.Rendering.RenderingConstants._halfScreenHeight
+  type: Field
+  source:
+    remote:
+      path: Engine.Rendering/RenderingConstants.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: _halfScreenHeight
+    path: C:/Users/Admin/Desktop/Engine/Engine.Rendering/RenderingConstants.cs
+    startLine: 26
+  assemblies:
+  - Engine.Rendering
+  namespace: Engine.Rendering
+  syntax:
+    content: public static int _halfScreenHeight
+    return:
+      type: System.Int32
+    content.vb: Public Shared _halfScreenHeight As Integer
+- uid: Engine.Rendering.RenderingConstants._halfScreenWidth
+  commentId: F:Engine.Rendering.RenderingConstants._halfScreenWidth
+  id: _halfScreenWidth
+  parent: Engine.Rendering.RenderingConstants
+  langs:
+  - csharp
+  - vb
+  name: _halfScreenWidth
+  nameWithType: RenderingConstants._halfScreenWidth
+  fullName: Engine.Rendering.RenderingConstants._halfScreenWidth
+  type: Field
+  source:
+    remote:
+      path: Engine.Rendering/RenderingConstants.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: _halfScreenWidth
+    path: C:/Users/Admin/Desktop/Engine/Engine.Rendering/RenderingConstants.cs
+    startLine: 27
+  assemblies:
+  - Engine.Rendering
+  namespace: Engine.Rendering
+  syntax:
+    content: public static int _halfScreenWidth
+    return:
+      type: System.Int32
+    content.vb: Public Shared _halfScreenWidth As Integer
+- uid: Engine.Rendering.RenderingConstants.FoV
+  commentId: F:Engine.Rendering.RenderingConstants.FoV
+  id: FoV
+  parent: Engine.Rendering.RenderingConstants
+  langs:
+  - csharp
+  - vb
+  name: FoV
+  nameWithType: RenderingConstants.FoV
+  fullName: Engine.Rendering.RenderingConstants.FoV
+  type: Field
+  source:
+    remote:
+      path: Engine.Rendering/RenderingConstants.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: FoV
+    path: C:/Users/Admin/Desktop/Engine/Engine.Rendering/RenderingConstants.cs
+    startLine: 28
+  assemblies:
+  - Engine.Rendering
+  namespace: Engine.Rendering
+  syntax:
+    content: public static int FoV
+    return:
+      type: System.Int32
+    content.vb: Public Shared FoV As Integer
+- uid: Engine.Rendering.RenderingConstants.ScreenHeight
+  commentId: P:Engine.Rendering.RenderingConstants.ScreenHeight
+  id: ScreenHeight
+  parent: Engine.Rendering.RenderingConstants
+  langs:
+  - csharp
+  - vb
+  name: ScreenHeight
+  nameWithType: RenderingConstants.ScreenHeight
+  fullName: Engine.Rendering.RenderingConstants.ScreenHeight
+  type: Property
+  source:
+    remote:
+      path: Engine.Rendering/RenderingConstants.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: ScreenHeight
+    path: C:/Users/Admin/Desktop/Engine/Engine.Rendering/RenderingConstants.cs
+    startLine: 30
+  assemblies:
+  - Engine.Rendering
+  namespace: Engine.Rendering
+  syntax:
+    content: public static int ScreenHeight { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property ScreenHeight As Integer
+  overload: Engine.Rendering.RenderingConstants.ScreenHeight*
+- uid: Engine.Rendering.RenderingConstants.ScreenWidth
+  commentId: P:Engine.Rendering.RenderingConstants.ScreenWidth
+  id: ScreenWidth
+  parent: Engine.Rendering.RenderingConstants
+  langs:
+  - csharp
+  - vb
+  name: ScreenWidth
+  nameWithType: RenderingConstants.ScreenWidth
+  fullName: Engine.Rendering.RenderingConstants.ScreenWidth
+  type: Property
+  source:
+    remote:
+      path: Engine.Rendering/RenderingConstants.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: ScreenWidth
+    path: C:/Users/Admin/Desktop/Engine/Engine.Rendering/RenderingConstants.cs
+    startLine: 31
+  assemblies:
+  - Engine.Rendering
+  namespace: Engine.Rendering
+  syntax:
+    content: public static int ScreenWidth { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property ScreenWidth As Integer
+  overload: Engine.Rendering.RenderingConstants.ScreenWidth*
+- uid: Engine.Rendering.RenderingConstants.HalfScreenHeight
+  commentId: P:Engine.Rendering.RenderingConstants.HalfScreenHeight
+  id: HalfScreenHeight
+  parent: Engine.Rendering.RenderingConstants
+  langs:
+  - csharp
+  - vb
+  name: HalfScreenHeight
+  nameWithType: RenderingConstants.HalfScreenHeight
+  fullName: Engine.Rendering.RenderingConstants.HalfScreenHeight
+  type: Property
+  source:
+    remote:
+      path: Engine.Rendering/RenderingConstants.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: HalfScreenHeight
+    path: C:/Users/Admin/Desktop/Engine/Engine.Rendering/RenderingConstants.cs
+    startLine: 32
+  assemblies:
+  - Engine.Rendering
+  namespace: Engine.Rendering
+  syntax:
+    content: public static int HalfScreenHeight { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property HalfScreenHeight As Integer
+  overload: Engine.Rendering.RenderingConstants.HalfScreenHeight*
+- uid: Engine.Rendering.RenderingConstants.HalfScreenWidth
+  commentId: P:Engine.Rendering.RenderingConstants.HalfScreenWidth
+  id: HalfScreenWidth
+  parent: Engine.Rendering.RenderingConstants
+  langs:
+  - csharp
+  - vb
+  name: HalfScreenWidth
+  nameWithType: RenderingConstants.HalfScreenWidth
+  fullName: Engine.Rendering.RenderingConstants.HalfScreenWidth
+  type: Property
+  source:
+    remote:
+      path: Engine.Rendering/RenderingConstants.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: HalfScreenWidth
+    path: C:/Users/Admin/Desktop/Engine/Engine.Rendering/RenderingConstants.cs
+    startLine: 33
+  assemblies:
+  - Engine.Rendering
+  namespace: Engine.Rendering
+  syntax:
+    content: public static int HalfScreenWidth { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property HalfScreenWidth As Integer
+  overload: Engine.Rendering.RenderingConstants.HalfScreenWidth*
+references:
+- uid: Engine.Rendering
+  commentId: N:Engine.Rendering
+  href: Engine.html
+  name: Engine.Rendering
+  nameWithType: Engine.Rendering
+  fullName: Engine.Rendering
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Rendering
+    name: Rendering
+    href: Engine.Rendering.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Rendering
+    name: Rendering
+    href: Engine.Rendering.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Engine.Rendering.RenderingConstants.ScreenHeight*
+  commentId: Overload:Engine.Rendering.RenderingConstants.ScreenHeight
+  href: Engine.Rendering.RenderingConstants.html#Engine_Rendering_RenderingConstants_ScreenHeight
+  name: ScreenHeight
+  nameWithType: RenderingConstants.ScreenHeight
+  fullName: Engine.Rendering.RenderingConstants.ScreenHeight
+- uid: Engine.Rendering.RenderingConstants.ScreenWidth*
+  commentId: Overload:Engine.Rendering.RenderingConstants.ScreenWidth
+  href: Engine.Rendering.RenderingConstants.html#Engine_Rendering_RenderingConstants_ScreenWidth
+  name: ScreenWidth
+  nameWithType: RenderingConstants.ScreenWidth
+  fullName: Engine.Rendering.RenderingConstants.ScreenWidth
+- uid: Engine.Rendering.RenderingConstants.HalfScreenHeight*
+  commentId: Overload:Engine.Rendering.RenderingConstants.HalfScreenHeight
+  href: Engine.Rendering.RenderingConstants.html#Engine_Rendering_RenderingConstants_HalfScreenHeight
+  name: HalfScreenHeight
+  nameWithType: RenderingConstants.HalfScreenHeight
+  fullName: Engine.Rendering.RenderingConstants.HalfScreenHeight
+- uid: Engine.Rendering.RenderingConstants.HalfScreenWidth*
+  commentId: Overload:Engine.Rendering.RenderingConstants.HalfScreenWidth
+  href: Engine.Rendering.RenderingConstants.html#Engine_Rendering_RenderingConstants_HalfScreenWidth
+  name: HalfScreenWidth
+  nameWithType: RenderingConstants.HalfScreenWidth
+  fullName: Engine.Rendering.RenderingConstants.HalfScreenWidth

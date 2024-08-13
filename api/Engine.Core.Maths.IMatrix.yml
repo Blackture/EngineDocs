@@ -1,0 +1,351 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Maths.IMatrix
+  commentId: T:Engine.Core.Maths.IMatrix
+  id: IMatrix
+  parent: Engine.Core.Maths
+  children:
+  - Engine.Core.Maths.IMatrix.ColumnCount
+  - Engine.Core.Maths.IMatrix.Item(System.Int32,System.Int32)
+  - Engine.Core.Maths.IMatrix.Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
+  - Engine.Core.Maths.IMatrix.RowCount
+  - Engine.Core.Maths.IMatrix.RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+  - Engine.Core.Maths.IMatrix.SwapRows(System.Int32,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: IMatrix
+  nameWithType: IMatrix
+  fullName: Engine.Core.Maths.IMatrix
+  type: Interface
+  source:
+    remote:
+      path: Engine.Core/Maths/IMatrix.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: IMatrix
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/IMatrix.cs
+    startLine: 9
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public interface IMatrix
+    content.vb: Public Interface IMatrix
+- uid: Engine.Core.Maths.IMatrix.RowCount
+  commentId: P:Engine.Core.Maths.IMatrix.RowCount
+  id: RowCount
+  parent: Engine.Core.Maths.IMatrix
+  langs:
+  - csharp
+  - vb
+  name: RowCount
+  nameWithType: IMatrix.RowCount
+  fullName: Engine.Core.Maths.IMatrix.RowCount
+  type: Property
+  source:
+    remote:
+      path: Engine.Core/Maths/IMatrix.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: RowCount
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/IMatrix.cs
+    startLine: 11
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: int RowCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property RowCount As Integer
+  overload: Engine.Core.Maths.IMatrix.RowCount*
+- uid: Engine.Core.Maths.IMatrix.ColumnCount
+  commentId: P:Engine.Core.Maths.IMatrix.ColumnCount
+  id: ColumnCount
+  parent: Engine.Core.Maths.IMatrix
+  langs:
+  - csharp
+  - vb
+  name: ColumnCount
+  nameWithType: IMatrix.ColumnCount
+  fullName: Engine.Core.Maths.IMatrix.ColumnCount
+  type: Property
+  source:
+    remote:
+      path: Engine.Core/Maths/IMatrix.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: ColumnCount
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/IMatrix.cs
+    startLine: 12
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: int ColumnCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property ColumnCount As Integer
+  overload: Engine.Core.Maths.IMatrix.ColumnCount*
+- uid: Engine.Core.Maths.IMatrix.Item(System.Int32,System.Int32)
+  commentId: P:Engine.Core.Maths.IMatrix.Item(System.Int32,System.Int32)
+  id: Item(System.Int32,System.Int32)
+  parent: Engine.Core.Maths.IMatrix
+  langs:
+  - csharp
+  - vb
+  name: this[int, int]
+  nameWithType: IMatrix.this[int, int]
+  fullName: Engine.Core.Maths.IMatrix.this[int, int]
+  type: Property
+  source:
+    remote:
+      path: Engine.Core/Maths/IMatrix.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: this[]
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/IMatrix.cs
+    startLine: 14
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: float this[int r, int c] { get; set; }
+    parameters:
+    - id: r
+      type: System.Int32
+    - id: c
+      type: System.Int32
+    return:
+      type: System.Single
+    content.vb: Default Property this[](r As Integer, c As Integer) As Single
+  overload: Engine.Core.Maths.IMatrix.Item*
+  nameWithType.vb: IMatrix.this[](Integer, Integer)
+  fullName.vb: Engine.Core.Maths.IMatrix.this[](Integer, Integer)
+  name.vb: this[](Integer, Integer)
+- uid: Engine.Core.Maths.IMatrix.RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+  commentId: M:Engine.Core.Maths.IMatrix.RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+  id: RowOperation(System.Int32,System.Int32,Engine.Core.Maths.MatrixOperation,System.Single)
+  parent: Engine.Core.Maths.IMatrix
+  langs:
+  - csharp
+  - vb
+  name: RowOperation(int, int, MatrixOperation, float)
+  nameWithType: IMatrix.RowOperation(int, int, MatrixOperation, float)
+  fullName: Engine.Core.Maths.IMatrix.RowOperation(int, int, Engine.Core.Maths.MatrixOperation, float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/IMatrix.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: RowOperation
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/IMatrix.cs
+    startLine: 15
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: void RowOperation(int target, int source, MatrixOperation operation, float f = 0)
+    parameters:
+    - id: target
+      type: System.Int32
+    - id: source
+      type: System.Int32
+    - id: operation
+      type: Engine.Core.Maths.MatrixOperation
+    - id: f
+      type: System.Single
+    content.vb: Sub RowOperation(target As Integer, source As Integer, operation As MatrixOperation, f As Single = 0)
+  overload: Engine.Core.Maths.IMatrix.RowOperation*
+  nameWithType.vb: IMatrix.RowOperation(Integer, Integer, MatrixOperation, Single)
+  fullName.vb: Engine.Core.Maths.IMatrix.RowOperation(Integer, Integer, Engine.Core.Maths.MatrixOperation, Single)
+  name.vb: RowOperation(Integer, Integer, MatrixOperation, Single)
+- uid: Engine.Core.Maths.IMatrix.SwapRows(System.Int32,System.Int32)
+  commentId: M:Engine.Core.Maths.IMatrix.SwapRows(System.Int32,System.Int32)
+  id: SwapRows(System.Int32,System.Int32)
+  parent: Engine.Core.Maths.IMatrix
+  langs:
+  - csharp
+  - vb
+  name: SwapRows(int, int)
+  nameWithType: IMatrix.SwapRows(int, int)
+  fullName: Engine.Core.Maths.IMatrix.SwapRows(int, int)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/IMatrix.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: SwapRows
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/IMatrix.cs
+    startLine: 16
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: void SwapRows(int from, int to)
+    parameters:
+    - id: from
+      type: System.Int32
+    - id: to
+      type: System.Int32
+    content.vb: Sub SwapRows(from As Integer, [to] As Integer)
+  overload: Engine.Core.Maths.IMatrix.SwapRows*
+  nameWithType.vb: IMatrix.SwapRows(Integer, Integer)
+  fullName.vb: Engine.Core.Maths.IMatrix.SwapRows(Integer, Integer)
+  name.vb: SwapRows(Integer, Integer)
+- uid: Engine.Core.Maths.IMatrix.Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
+  commentId: M:Engine.Core.Maths.IMatrix.Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
+  id: Operation(Engine.Core.Maths.IMatrix,Engine.Core.Maths.MatrixOperation,System.Single)
+  parent: Engine.Core.Maths.IMatrix
+  langs:
+  - csharp
+  - vb
+  name: Operation(IMatrix, MatrixOperation, float)
+  nameWithType: IMatrix.Operation(IMatrix, MatrixOperation, float)
+  fullName: Engine.Core.Maths.IMatrix.Operation(Engine.Core.Maths.IMatrix, Engine.Core.Maths.MatrixOperation, float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/IMatrix.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Operation
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/IMatrix.cs
+    startLine: 17
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: IMatrix Operation(IMatrix m, MatrixOperation operation, float f = 0)
+    parameters:
+    - id: m
+      type: Engine.Core.Maths.IMatrix
+    - id: operation
+      type: Engine.Core.Maths.MatrixOperation
+    - id: f
+      type: System.Single
+    return:
+      type: Engine.Core.Maths.IMatrix
+    content.vb: Function Operation(m As IMatrix, operation As MatrixOperation, f As Single = 0) As IMatrix
+  overload: Engine.Core.Maths.IMatrix.Operation*
+  nameWithType.vb: IMatrix.Operation(IMatrix, MatrixOperation, Single)
+  fullName.vb: Engine.Core.Maths.IMatrix.Operation(Engine.Core.Maths.IMatrix, Engine.Core.Maths.MatrixOperation, Single)
+  name.vb: Operation(IMatrix, MatrixOperation, Single)
+references:
+- uid: Engine.Core.Maths
+  commentId: N:Engine.Core.Maths
+  href: Engine.html
+  name: Engine.Core.Maths
+  nameWithType: Engine.Core.Maths
+  fullName: Engine.Core.Maths
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+- uid: Engine.Core.Maths.IMatrix.RowCount*
+  commentId: Overload:Engine.Core.Maths.IMatrix.RowCount
+  href: Engine.Core.Maths.IMatrix.html#Engine_Core_Maths_IMatrix_RowCount
+  name: RowCount
+  nameWithType: IMatrix.RowCount
+  fullName: Engine.Core.Maths.IMatrix.RowCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Engine.Core.Maths.IMatrix.ColumnCount*
+  commentId: Overload:Engine.Core.Maths.IMatrix.ColumnCount
+  href: Engine.Core.Maths.IMatrix.html#Engine_Core_Maths_IMatrix_ColumnCount
+  name: ColumnCount
+  nameWithType: IMatrix.ColumnCount
+  fullName: Engine.Core.Maths.IMatrix.ColumnCount
+- uid: Engine.Core.Maths.IMatrix.Item*
+  commentId: Overload:Engine.Core.Maths.IMatrix.Item
+  href: Engine.Core.Maths.IMatrix.html#Engine_Core_Maths_IMatrix_Item_System_Int32_System_Int32_
+  name: this
+  nameWithType: IMatrix.this
+  fullName: Engine.Core.Maths.IMatrix.this
+  nameWithType.vb: IMatrix.this[]
+  fullName.vb: Engine.Core.Maths.IMatrix.this[]
+  name.vb: this[]
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Engine.Core.Maths.IMatrix.RowOperation*
+  commentId: Overload:Engine.Core.Maths.IMatrix.RowOperation
+  href: Engine.Core.Maths.IMatrix.html#Engine_Core_Maths_IMatrix_RowOperation_System_Int32_System_Int32_Engine_Core_Maths_MatrixOperation_System_Single_
+  name: RowOperation
+  nameWithType: IMatrix.RowOperation
+  fullName: Engine.Core.Maths.IMatrix.RowOperation
+- uid: Engine.Core.Maths.MatrixOperation
+  commentId: T:Engine.Core.Maths.MatrixOperation
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.MatrixOperation.html
+  name: MatrixOperation
+  nameWithType: MatrixOperation
+  fullName: Engine.Core.Maths.MatrixOperation
+- uid: Engine.Core.Maths.IMatrix.SwapRows*
+  commentId: Overload:Engine.Core.Maths.IMatrix.SwapRows
+  href: Engine.Core.Maths.IMatrix.html#Engine_Core_Maths_IMatrix_SwapRows_System_Int32_System_Int32_
+  name: SwapRows
+  nameWithType: IMatrix.SwapRows
+  fullName: Engine.Core.Maths.IMatrix.SwapRows
+- uid: Engine.Core.Maths.IMatrix.Operation*
+  commentId: Overload:Engine.Core.Maths.IMatrix.Operation
+  href: Engine.Core.Maths.IMatrix.html#Engine_Core_Maths_IMatrix_Operation_Engine_Core_Maths_IMatrix_Engine_Core_Maths_MatrixOperation_System_Single_
+  name: Operation
+  nameWithType: IMatrix.Operation
+  fullName: Engine.Core.Maths.IMatrix.Operation
+- uid: Engine.Core.Maths.IMatrix
+  commentId: T:Engine.Core.Maths.IMatrix
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.IMatrix.html
+  name: IMatrix
+  nameWithType: IMatrix
+  fullName: Engine.Core.Maths.IMatrix

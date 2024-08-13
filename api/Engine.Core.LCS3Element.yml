@@ -1,0 +1,592 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.LCS3Element
+  commentId: T:Engine.Core.LCS3Element
+  id: LCS3Element
+  parent: Engine.Core
+  children:
+  - Engine.Core.LCS3Element.#ctor(System.Int32,Engine.Core.Components.LCS3,Engine.Core.Components.LCS3,System.Guid)
+  - Engine.Core.LCS3Element.Depth
+  - Engine.Core.LCS3Element.GroupID
+  - Engine.Core.LCS3Element.Lcs
+  - Engine.Core.LCS3Element.Parent
+  - Engine.Core.LCS3Element.op_Implicit(Engine.Core.LCS3Element)~Engine.Core.Components.LCS3
+  langs:
+  - csharp
+  - vb
+  name: LCS3Element
+  nameWithType: LCS3Element
+  fullName: Engine.Core.LCS3Element
+  type: Class
+  source:
+    remote:
+      path: Engine.Core/LCS3Element.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: LCS3Element
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/LCS3Element.cs
+    startLine: 13
+  assemblies:
+  - Engine
+  namespace: Engine.Core
+  syntax:
+    content: public class LCS3Element
+    content.vb: Public Class LCS3Element
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: Engine.Core.LCS3Element.Depth
+  commentId: P:Engine.Core.LCS3Element.Depth
+  id: Depth
+  parent: Engine.Core.LCS3Element
+  langs:
+  - csharp
+  - vb
+  name: Depth
+  nameWithType: LCS3Element.Depth
+  fullName: Engine.Core.LCS3Element.Depth
+  type: Property
+  source:
+    remote:
+      path: Engine.Core/LCS3Element.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Depth
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/LCS3Element.cs
+    startLine: 19
+  assemblies:
+  - Engine
+  namespace: Engine.Core
+  syntax:
+    content: public int Depth { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Depth As Integer
+  overload: Engine.Core.LCS3Element.Depth*
+- uid: Engine.Core.LCS3Element.Lcs
+  commentId: P:Engine.Core.LCS3Element.Lcs
+  id: Lcs
+  parent: Engine.Core.LCS3Element
+  langs:
+  - csharp
+  - vb
+  name: Lcs
+  nameWithType: LCS3Element.Lcs
+  fullName: Engine.Core.LCS3Element.Lcs
+  type: Property
+  source:
+    remote:
+      path: Engine.Core/LCS3Element.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Lcs
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/LCS3Element.cs
+    startLine: 20
+  assemblies:
+  - Engine
+  namespace: Engine.Core
+  syntax:
+    content: public LCS3 Lcs { get; }
+    parameters: []
+    return:
+      type: Engine.Core.Components.LCS3
+    content.vb: Public ReadOnly Property Lcs As LCS3
+  overload: Engine.Core.LCS3Element.Lcs*
+- uid: Engine.Core.LCS3Element.Parent
+  commentId: P:Engine.Core.LCS3Element.Parent
+  id: Parent
+  parent: Engine.Core.LCS3Element
+  langs:
+  - csharp
+  - vb
+  name: Parent
+  nameWithType: LCS3Element.Parent
+  fullName: Engine.Core.LCS3Element.Parent
+  type: Property
+  source:
+    remote:
+      path: Engine.Core/LCS3Element.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Parent
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/LCS3Element.cs
+    startLine: 21
+  assemblies:
+  - Engine
+  namespace: Engine.Core
+  syntax:
+    content: public LCS3 Parent { get; }
+    parameters: []
+    return:
+      type: Engine.Core.Components.LCS3
+    content.vb: Public ReadOnly Property Parent As LCS3
+  overload: Engine.Core.LCS3Element.Parent*
+- uid: Engine.Core.LCS3Element.GroupID
+  commentId: F:Engine.Core.LCS3Element.GroupID
+  id: GroupID
+  parent: Engine.Core.LCS3Element
+  langs:
+  - csharp
+  - vb
+  name: GroupID
+  nameWithType: LCS3Element.GroupID
+  fullName: Engine.Core.LCS3Element.GroupID
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/LCS3Element.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: GroupID
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/LCS3Element.cs
+    startLine: 22
+  assemblies:
+  - Engine
+  namespace: Engine.Core
+  syntax:
+    content: public Guid GroupID
+    return:
+      type: System.Guid
+    content.vb: Public GroupID As Guid
+- uid: Engine.Core.LCS3Element.#ctor(System.Int32,Engine.Core.Components.LCS3,Engine.Core.Components.LCS3,System.Guid)
+  commentId: M:Engine.Core.LCS3Element.#ctor(System.Int32,Engine.Core.Components.LCS3,Engine.Core.Components.LCS3,System.Guid)
+  id: '#ctor(System.Int32,Engine.Core.Components.LCS3,Engine.Core.Components.LCS3,System.Guid)'
+  parent: Engine.Core.LCS3Element
+  langs:
+  - csharp
+  - vb
+  name: LCS3Element(int, LCS3, LCS3, Guid)
+  nameWithType: LCS3Element.LCS3Element(int, LCS3, LCS3, Guid)
+  fullName: Engine.Core.LCS3Element.LCS3Element(int, Engine.Core.Components.LCS3, Engine.Core.Components.LCS3, System.Guid)
+  type: Constructor
+  source:
+    remote:
+      path: Engine.Core/LCS3Element.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: .ctor
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/LCS3Element.cs
+    startLine: 24
+  assemblies:
+  - Engine
+  namespace: Engine.Core
+  syntax:
+    content: public LCS3Element(int depth, LCS3 lcs, LCS3 parent, Guid groupID)
+    parameters:
+    - id: depth
+      type: System.Int32
+    - id: lcs
+      type: Engine.Core.Components.LCS3
+    - id: parent
+      type: Engine.Core.Components.LCS3
+    - id: groupID
+      type: System.Guid
+    content.vb: Public Sub New(depth As Integer, lcs As LCS3, parent As LCS3, groupID As Guid)
+  overload: Engine.Core.LCS3Element.#ctor*
+  nameWithType.vb: LCS3Element.New(Integer, LCS3, LCS3, Guid)
+  fullName.vb: Engine.Core.LCS3Element.New(Integer, Engine.Core.Components.LCS3, Engine.Core.Components.LCS3, System.Guid)
+  name.vb: New(Integer, LCS3, LCS3, Guid)
+- uid: Engine.Core.LCS3Element.op_Implicit(Engine.Core.LCS3Element)~Engine.Core.Components.LCS3
+  commentId: M:Engine.Core.LCS3Element.op_Implicit(Engine.Core.LCS3Element)~Engine.Core.Components.LCS3
+  id: op_Implicit(Engine.Core.LCS3Element)~Engine.Core.Components.LCS3
+  parent: Engine.Core.LCS3Element
+  langs:
+  - csharp
+  - vb
+  name: implicit operator LCS3(LCS3Element)
+  nameWithType: LCS3Element.implicit operator LCS3(LCS3Element)
+  fullName: Engine.Core.LCS3Element.implicit operator Engine.Core.Components.LCS3(Engine.Core.LCS3Element)
+  type: Operator
+  source:
+    remote:
+      path: Engine.Core/LCS3Element.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: op_Implicit
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/LCS3Element.cs
+    startLine: 32
+  assemblies:
+  - Engine
+  namespace: Engine.Core
+  syntax:
+    content: public static implicit operator LCS3(LCS3Element element)
+    parameters:
+    - id: element
+      type: Engine.Core.LCS3Element
+    return:
+      type: Engine.Core.Components.LCS3
+    content.vb: Public Shared Widening Operator CType(element As LCS3Element) As LCS3
+  overload: Engine.Core.LCS3Element.op_Implicit*
+  nameWithType.vb: LCS3Element.CType(LCS3Element)
+  fullName.vb: Engine.Core.LCS3Element.CType(Engine.Core.LCS3Element)
+  name.vb: CType(LCS3Element)
+references:
+- uid: Engine.Core
+  commentId: N:Engine.Core
+  href: Engine.html
+  name: Engine.Core
+  nameWithType: Engine.Core
+  fullName: Engine.Core
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Engine.Core.LCS3Element.Depth*
+  commentId: Overload:Engine.Core.LCS3Element.Depth
+  href: Engine.Core.LCS3Element.html#Engine_Core_LCS3Element_Depth
+  name: Depth
+  nameWithType: LCS3Element.Depth
+  fullName: Engine.Core.LCS3Element.Depth
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Engine.Core.LCS3Element.Lcs*
+  commentId: Overload:Engine.Core.LCS3Element.Lcs
+  href: Engine.Core.LCS3Element.html#Engine_Core_LCS3Element_Lcs
+  name: Lcs
+  nameWithType: LCS3Element.Lcs
+  fullName: Engine.Core.LCS3Element.Lcs
+- uid: Engine.Core.Components.LCS3
+  commentId: T:Engine.Core.Components.LCS3
+  parent: Engine.Core.Components
+  href: Engine.Core.Components.LCS3.html
+  name: LCS3
+  nameWithType: LCS3
+  fullName: Engine.Core.Components.LCS3
+- uid: Engine.Core.Components
+  commentId: N:Engine.Core.Components
+  href: Engine.html
+  name: Engine.Core.Components
+  nameWithType: Engine.Core.Components
+  fullName: Engine.Core.Components
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Components
+    name: Components
+    href: Engine.Core.Components.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Components
+    name: Components
+    href: Engine.Core.Components.html
+- uid: Engine.Core.LCS3Element.Parent*
+  commentId: Overload:Engine.Core.LCS3Element.Parent
+  href: Engine.Core.LCS3Element.html#Engine_Core_LCS3Element_Parent
+  name: Parent
+  nameWithType: LCS3Element.Parent
+  fullName: Engine.Core.LCS3Element.Parent
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: Engine.Core.LCS3Element.#ctor*
+  commentId: Overload:Engine.Core.LCS3Element.#ctor
+  href: Engine.Core.LCS3Element.html#Engine_Core_LCS3Element__ctor_System_Int32_Engine_Core_Components_LCS3_Engine_Core_Components_LCS3_System_Guid_
+  name: LCS3Element
+  nameWithType: LCS3Element.LCS3Element
+  fullName: Engine.Core.LCS3Element.LCS3Element
+  nameWithType.vb: LCS3Element.New
+  fullName.vb: Engine.Core.LCS3Element.New
+  name.vb: New
+- uid: Engine.Core.LCS3Element.op_Implicit*
+  commentId: Overload:Engine.Core.LCS3Element.op_Implicit
+  name: implicit operator
+  nameWithType: LCS3Element.implicit operator
+  fullName: Engine.Core.LCS3Element.implicit operator
+  nameWithType.vb: LCS3Element.CType
+  fullName.vb: Engine.Core.LCS3Element.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator
+- uid: Engine.Core.LCS3Element
+  commentId: T:Engine.Core.LCS3Element
+  parent: Engine.Core
+  href: Engine.Core.LCS3Element.html
+  name: LCS3Element
+  nameWithType: LCS3Element
+  fullName: Engine.Core.LCS3Element

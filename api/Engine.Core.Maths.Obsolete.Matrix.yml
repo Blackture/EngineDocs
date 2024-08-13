@@ -1,0 +1,1246 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Maths.Obsolete.Matrix
+  commentId: T:Engine.Core.Maths.Obsolete.Matrix
+  id: Matrix
+  parent: Engine.Core.Maths.Obsolete
+  children:
+  - Engine.Core.Maths.Obsolete.Matrix.#ctor(System.Collections.Generic.List{System.Collections.Generic.List{System.Single}})
+  - Engine.Core.Maths.Obsolete.Matrix.#ctor(System.Int32,System.Int32)
+  - Engine.Core.Maths.Obsolete.Matrix.AddRow(System.Collections.Generic.List{System.Single})
+  - Engine.Core.Maths.Obsolete.Matrix.AddRow(System.Int32,System.Int32,System.Single)
+  - Engine.Core.Maths.Obsolete.Matrix.ColumnCount
+  - Engine.Core.Maths.Obsolete.Matrix.ConvertTo(System.Collections.Generic.List{System.Collections.Generic.List{System.Single}})
+  - Engine.Core.Maths.Obsolete.Matrix.GetColumn(System.Int32)
+  - Engine.Core.Maths.Obsolete.Matrix.GetRow(System.Int32)
+  - Engine.Core.Maths.Obsolete.Matrix.Item(System.Int32,System.Int32)
+  - Engine.Core.Maths.Obsolete.Matrix.RowCount
+  - Engine.Core.Maths.Obsolete.Matrix.ScaleRow(System.Int32,System.Single)
+  - Engine.Core.Maths.Obsolete.Matrix.SwapRows(System.Int32,System.Int32)
+  - Engine.Core.Maths.Obsolete.Matrix.Values
+  - Engine.Core.Maths.Obsolete.Matrix.op_Addition(Engine.Core.Maths.Obsolete.Matrix,Engine.Core.Maths.Obsolete.Matrix)
+  - Engine.Core.Maths.Obsolete.Matrix.op_Multiply(Engine.Core.Maths.Obsolete.Matrix,Engine.Core.Maths.Obsolete.Matrix)
+  - Engine.Core.Maths.Obsolete.Matrix.op_Multiply(Engine.Core.Maths.Obsolete.Matrix,System.Single)
+  - Engine.Core.Maths.Obsolete.Matrix.op_Multiply(System.Single,Engine.Core.Maths.Obsolete.Matrix)
+  - Engine.Core.Maths.Obsolete.Matrix.op_Subtraction(Engine.Core.Maths.Obsolete.Matrix,Engine.Core.Maths.Obsolete.Matrix)
+  langs:
+  - csharp
+  - vb
+  name: Matrix
+  nameWithType: Matrix
+  fullName: Engine.Core.Maths.Obsolete.Matrix
+  type: Class
+  source:
+    remote:
+      path: Engine.Core/Maths/Oboslete/Matrix.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Matrix
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Oboslete/Matrix.cs
+    startLine: 11
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths.Obsolete
+  syntax:
+    content: >-
+      [Obsolete("Deprecated")]
+
+      public class Matrix
+    content.vb: >-
+      <Obsolete("Deprecated")>
+
+      Public Class Matrix
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Deprecated
+- uid: Engine.Core.Maths.Obsolete.Matrix.Values
+  commentId: P:Engine.Core.Maths.Obsolete.Matrix.Values
+  id: Values
+  parent: Engine.Core.Maths.Obsolete.Matrix
+  langs:
+  - csharp
+  - vb
+  name: Values
+  nameWithType: Matrix.Values
+  fullName: Engine.Core.Maths.Obsolete.Matrix.Values
+  type: Property
+  source:
+    remote:
+      path: Engine.Core/Maths/Oboslete/Matrix.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: Values
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Oboslete/Matrix.cs
+    startLine: 14
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths.Obsolete
+  syntax:
+    content: public List<List<float>> Values { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.Collections.Generic.List{System.Single}}
+    content.vb: Public Property Values As List(Of List(Of Single))
+  overload: Engine.Core.Maths.Obsolete.Matrix.Values*
+- uid: Engine.Core.Maths.Obsolete.Matrix.RowCount
+  commentId: P:Engine.Core.Maths.Obsolete.Matrix.RowCount
+  id: RowCount
+  parent: Engine.Core.Maths.Obsolete.Matrix
+  langs:
+  - csharp
+  - vb
+  name: RowCount
+  nameWithType: Matrix.RowCount
+  fullName: Engine.Core.Maths.Obsolete.Matrix.RowCount
+  type: Property
+  source:
+    remote:
+      path: Engine.Core/Maths/Oboslete/Matrix.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: RowCount
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Oboslete/Matrix.cs
+    startLine: 15
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths.Obsolete
+  syntax:
+    content: public int RowCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property RowCount As Integer
+  overload: Engine.Core.Maths.Obsolete.Matrix.RowCount*
+- uid: Engine.Core.Maths.Obsolete.Matrix.ColumnCount
+  commentId: P:Engine.Core.Maths.Obsolete.Matrix.ColumnCount
+  id: ColumnCount
+  parent: Engine.Core.Maths.Obsolete.Matrix
+  langs:
+  - csharp
+  - vb
+  name: ColumnCount
+  nameWithType: Matrix.ColumnCount
+  fullName: Engine.Core.Maths.Obsolete.Matrix.ColumnCount
+  type: Property
+  source:
+    remote:
+      path: Engine.Core/Maths/Oboslete/Matrix.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: ColumnCount
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Oboslete/Matrix.cs
+    startLine: 16
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths.Obsolete
+  syntax:
+    content: public int ColumnCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property ColumnCount As Integer
+  overload: Engine.Core.Maths.Obsolete.Matrix.ColumnCount*
+- uid: Engine.Core.Maths.Obsolete.Matrix.Item(System.Int32,System.Int32)
+  commentId: P:Engine.Core.Maths.Obsolete.Matrix.Item(System.Int32,System.Int32)
+  id: Item(System.Int32,System.Int32)
+  parent: Engine.Core.Maths.Obsolete.Matrix
+  langs:
+  - csharp
+  - vb
+  name: this[int, int]
+  nameWithType: Matrix.this[int, int]
+  fullName: Engine.Core.Maths.Obsolete.Matrix.this[int, int]
+  type: Property
+  source:
+    remote:
+      path: Engine.Core/Maths/Oboslete/Matrix.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: this[]
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Oboslete/Matrix.cs
+    startLine: 18
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths.Obsolete
+  syntax:
+    content: public float this[int row, int column] { get; set; }
+    parameters:
+    - id: row
+      type: System.Int32
+    - id: column
+      type: System.Int32
+    return:
+      type: System.Single
+    content.vb: Public Default Property this[](row As Integer, column As Integer) As Single
+  overload: Engine.Core.Maths.Obsolete.Matrix.Item*
+  nameWithType.vb: Matrix.this[](Integer, Integer)
+  fullName.vb: Engine.Core.Maths.Obsolete.Matrix.this[](Integer, Integer)
+  name.vb: this[](Integer, Integer)
+- uid: Engine.Core.Maths.Obsolete.Matrix.#ctor(System.Int32,System.Int32)
+  commentId: M:Engine.Core.Maths.Obsolete.Matrix.#ctor(System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32)'
+  parent: Engine.Core.Maths.Obsolete.Matrix
+  langs:
+  - csharp
+  - vb
+  name: Matrix(int, int)
+  nameWithType: Matrix.Matrix(int, int)
+  fullName: Engine.Core.Maths.Obsolete.Matrix.Matrix(int, int)
+  type: Constructor
+  source:
+    remote:
+      path: Engine.Core/Maths/Oboslete/Matrix.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: .ctor
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Oboslete/Matrix.cs
+    startLine: 30
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths.Obsolete
+  syntax:
+    content: public Matrix(int rowCount, int columnCount)
+    parameters:
+    - id: rowCount
+      type: System.Int32
+    - id: columnCount
+      type: System.Int32
+    content.vb: Public Sub New(rowCount As Integer, columnCount As Integer)
+  overload: Engine.Core.Maths.Obsolete.Matrix.#ctor*
+  nameWithType.vb: Matrix.New(Integer, Integer)
+  fullName.vb: Engine.Core.Maths.Obsolete.Matrix.New(Integer, Integer)
+  name.vb: New(Integer, Integer)
+- uid: Engine.Core.Maths.Obsolete.Matrix.#ctor(System.Collections.Generic.List{System.Collections.Generic.List{System.Single}})
+  commentId: M:Engine.Core.Maths.Obsolete.Matrix.#ctor(System.Collections.Generic.List{System.Collections.Generic.List{System.Single}})
+  id: '#ctor(System.Collections.Generic.List{System.Collections.Generic.List{System.Single}})'
+  parent: Engine.Core.Maths.Obsolete.Matrix
+  langs:
+  - csharp
+  - vb
+  name: Matrix(List<List<float>>)
+  nameWithType: Matrix.Matrix(List<List<float>>)
+  fullName: Engine.Core.Maths.Obsolete.Matrix.Matrix(System.Collections.Generic.List<System.Collections.Generic.List<float>>)
+  type: Constructor
+  source:
+    remote:
+      path: Engine.Core/Maths/Oboslete/Matrix.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: .ctor
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Oboslete/Matrix.cs
+    startLine: 43
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths.Obsolete
+  syntax:
+    content: public Matrix(List<List<float>> values)
+    parameters:
+    - id: values
+      type: System.Collections.Generic.List{System.Collections.Generic.List{System.Single}}
+    content.vb: Public Sub New(values As List(Of List(Of Single)))
+  overload: Engine.Core.Maths.Obsolete.Matrix.#ctor*
+  nameWithType.vb: Matrix.New(List(Of List(Of Single)))
+  fullName.vb: Engine.Core.Maths.Obsolete.Matrix.New(System.Collections.Generic.List(Of System.Collections.Generic.List(Of Single)))
+  name.vb: New(List(Of List(Of Single)))
+- uid: Engine.Core.Maths.Obsolete.Matrix.op_Multiply(Engine.Core.Maths.Obsolete.Matrix,Engine.Core.Maths.Obsolete.Matrix)
+  commentId: M:Engine.Core.Maths.Obsolete.Matrix.op_Multiply(Engine.Core.Maths.Obsolete.Matrix,Engine.Core.Maths.Obsolete.Matrix)
+  id: op_Multiply(Engine.Core.Maths.Obsolete.Matrix,Engine.Core.Maths.Obsolete.Matrix)
+  parent: Engine.Core.Maths.Obsolete.Matrix
+  langs:
+  - csharp
+  - vb
+  name: operator *(Matrix, Matrix)
+  nameWithType: Matrix.operator *(Matrix, Matrix)
+  fullName: Engine.Core.Maths.Obsolete.Matrix.operator *(Engine.Core.Maths.Obsolete.Matrix, Engine.Core.Maths.Obsolete.Matrix)
+  type: Operator
+  source:
+    remote:
+      path: Engine.Core/Maths/Oboslete/Matrix.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: op_Multiply
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Oboslete/Matrix.cs
+    startLine: 48
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths.Obsolete
+  syntax:
+    content: public static Matrix operator *(Matrix a, Matrix b)
+    parameters:
+    - id: a
+      type: Engine.Core.Maths.Obsolete.Matrix
+    - id: b
+      type: Engine.Core.Maths.Obsolete.Matrix
+    return:
+      type: Engine.Core.Maths.Obsolete.Matrix
+    content.vb: Public Shared Operator *(a As Matrix, b As Matrix) As Matrix
+  overload: Engine.Core.Maths.Obsolete.Matrix.op_Multiply*
+  nameWithType.vb: Matrix.*(Matrix, Matrix)
+  fullName.vb: Engine.Core.Maths.Obsolete.Matrix.*(Engine.Core.Maths.Obsolete.Matrix, Engine.Core.Maths.Obsolete.Matrix)
+  name.vb: '*(Matrix, Matrix)'
+- uid: Engine.Core.Maths.Obsolete.Matrix.op_Multiply(System.Single,Engine.Core.Maths.Obsolete.Matrix)
+  commentId: M:Engine.Core.Maths.Obsolete.Matrix.op_Multiply(System.Single,Engine.Core.Maths.Obsolete.Matrix)
+  id: op_Multiply(System.Single,Engine.Core.Maths.Obsolete.Matrix)
+  parent: Engine.Core.Maths.Obsolete.Matrix
+  langs:
+  - csharp
+  - vb
+  name: operator *(float, Matrix)
+  nameWithType: Matrix.operator *(float, Matrix)
+  fullName: Engine.Core.Maths.Obsolete.Matrix.operator *(float, Engine.Core.Maths.Obsolete.Matrix)
+  type: Operator
+  source:
+    remote:
+      path: Engine.Core/Maths/Oboslete/Matrix.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: op_Multiply
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Oboslete/Matrix.cs
+    startLine: 69
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths.Obsolete
+  syntax:
+    content: public static Matrix operator *(float a, Matrix b)
+    parameters:
+    - id: a
+      type: System.Single
+    - id: b
+      type: Engine.Core.Maths.Obsolete.Matrix
+    return:
+      type: Engine.Core.Maths.Obsolete.Matrix
+    content.vb: Public Shared Operator *(a As Single, b As Matrix) As Matrix
+  overload: Engine.Core.Maths.Obsolete.Matrix.op_Multiply*
+  nameWithType.vb: Matrix.*(Single, Matrix)
+  fullName.vb: Engine.Core.Maths.Obsolete.Matrix.*(Single, Engine.Core.Maths.Obsolete.Matrix)
+  name.vb: '*(Single, Matrix)'
+- uid: Engine.Core.Maths.Obsolete.Matrix.op_Multiply(Engine.Core.Maths.Obsolete.Matrix,System.Single)
+  commentId: M:Engine.Core.Maths.Obsolete.Matrix.op_Multiply(Engine.Core.Maths.Obsolete.Matrix,System.Single)
+  id: op_Multiply(Engine.Core.Maths.Obsolete.Matrix,System.Single)
+  parent: Engine.Core.Maths.Obsolete.Matrix
+  langs:
+  - csharp
+  - vb
+  name: operator *(Matrix, float)
+  nameWithType: Matrix.operator *(Matrix, float)
+  fullName: Engine.Core.Maths.Obsolete.Matrix.operator *(Engine.Core.Maths.Obsolete.Matrix, float)
+  type: Operator
+  source:
+    remote:
+      path: Engine.Core/Maths/Oboslete/Matrix.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: op_Multiply
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Oboslete/Matrix.cs
+    startLine: 82
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths.Obsolete
+  syntax:
+    content: public static Matrix operator *(Matrix b, float a)
+    parameters:
+    - id: b
+      type: Engine.Core.Maths.Obsolete.Matrix
+    - id: a
+      type: System.Single
+    return:
+      type: Engine.Core.Maths.Obsolete.Matrix
+    content.vb: Public Shared Operator *(b As Matrix, a As Single) As Matrix
+  overload: Engine.Core.Maths.Obsolete.Matrix.op_Multiply*
+  nameWithType.vb: Matrix.*(Matrix, Single)
+  fullName.vb: Engine.Core.Maths.Obsolete.Matrix.*(Engine.Core.Maths.Obsolete.Matrix, Single)
+  name.vb: '*(Matrix, Single)'
+- uid: Engine.Core.Maths.Obsolete.Matrix.op_Addition(Engine.Core.Maths.Obsolete.Matrix,Engine.Core.Maths.Obsolete.Matrix)
+  commentId: M:Engine.Core.Maths.Obsolete.Matrix.op_Addition(Engine.Core.Maths.Obsolete.Matrix,Engine.Core.Maths.Obsolete.Matrix)
+  id: op_Addition(Engine.Core.Maths.Obsolete.Matrix,Engine.Core.Maths.Obsolete.Matrix)
+  parent: Engine.Core.Maths.Obsolete.Matrix
+  langs:
+  - csharp
+  - vb
+  name: operator +(Matrix, Matrix)
+  nameWithType: Matrix.operator +(Matrix, Matrix)
+  fullName: Engine.Core.Maths.Obsolete.Matrix.operator +(Engine.Core.Maths.Obsolete.Matrix, Engine.Core.Maths.Obsolete.Matrix)
+  type: Operator
+  source:
+    remote:
+      path: Engine.Core/Maths/Oboslete/Matrix.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: op_Addition
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Oboslete/Matrix.cs
+    startLine: 95
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths.Obsolete
+  syntax:
+    content: public static Matrix operator +(Matrix a, Matrix b)
+    parameters:
+    - id: a
+      type: Engine.Core.Maths.Obsolete.Matrix
+    - id: b
+      type: Engine.Core.Maths.Obsolete.Matrix
+    return:
+      type: Engine.Core.Maths.Obsolete.Matrix
+    content.vb: Public Shared Operator +(a As Matrix, b As Matrix) As Matrix
+  overload: Engine.Core.Maths.Obsolete.Matrix.op_Addition*
+  nameWithType.vb: Matrix.+(Matrix, Matrix)
+  fullName.vb: Engine.Core.Maths.Obsolete.Matrix.+(Engine.Core.Maths.Obsolete.Matrix, Engine.Core.Maths.Obsolete.Matrix)
+  name.vb: +(Matrix, Matrix)
+- uid: Engine.Core.Maths.Obsolete.Matrix.op_Subtraction(Engine.Core.Maths.Obsolete.Matrix,Engine.Core.Maths.Obsolete.Matrix)
+  commentId: M:Engine.Core.Maths.Obsolete.Matrix.op_Subtraction(Engine.Core.Maths.Obsolete.Matrix,Engine.Core.Maths.Obsolete.Matrix)
+  id: op_Subtraction(Engine.Core.Maths.Obsolete.Matrix,Engine.Core.Maths.Obsolete.Matrix)
+  parent: Engine.Core.Maths.Obsolete.Matrix
+  langs:
+  - csharp
+  - vb
+  name: operator -(Matrix, Matrix)
+  nameWithType: Matrix.operator -(Matrix, Matrix)
+  fullName: Engine.Core.Maths.Obsolete.Matrix.operator -(Engine.Core.Maths.Obsolete.Matrix, Engine.Core.Maths.Obsolete.Matrix)
+  type: Operator
+  source:
+    remote:
+      path: Engine.Core/Maths/Oboslete/Matrix.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: op_Subtraction
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Oboslete/Matrix.cs
+    startLine: 117
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths.Obsolete
+  syntax:
+    content: public static Matrix operator -(Matrix a, Matrix b)
+    parameters:
+    - id: a
+      type: Engine.Core.Maths.Obsolete.Matrix
+    - id: b
+      type: Engine.Core.Maths.Obsolete.Matrix
+    return:
+      type: Engine.Core.Maths.Obsolete.Matrix
+    content.vb: Public Shared Operator -(a As Matrix, b As Matrix) As Matrix
+  overload: Engine.Core.Maths.Obsolete.Matrix.op_Subtraction*
+  nameWithType.vb: Matrix.-(Matrix, Matrix)
+  fullName.vb: Engine.Core.Maths.Obsolete.Matrix.-(Engine.Core.Maths.Obsolete.Matrix, Engine.Core.Maths.Obsolete.Matrix)
+  name.vb: -(Matrix, Matrix)
+- uid: Engine.Core.Maths.Obsolete.Matrix.ConvertTo(System.Collections.Generic.List{System.Collections.Generic.List{System.Single}})
+  commentId: M:Engine.Core.Maths.Obsolete.Matrix.ConvertTo(System.Collections.Generic.List{System.Collections.Generic.List{System.Single}})
+  id: ConvertTo(System.Collections.Generic.List{System.Collections.Generic.List{System.Single}})
+  parent: Engine.Core.Maths.Obsolete.Matrix
+  langs:
+  - csharp
+  - vb
+  name: ConvertTo(List<List<float>>)
+  nameWithType: Matrix.ConvertTo(List<List<float>>)
+  fullName: Engine.Core.Maths.Obsolete.Matrix.ConvertTo(System.Collections.Generic.List<System.Collections.Generic.List<float>>)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Oboslete/Matrix.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: ConvertTo
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Oboslete/Matrix.cs
+    startLine: 137
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths.Obsolete
+  syntax:
+    content: public static Matrix ConvertTo(List<List<float>> matrix)
+    parameters:
+    - id: matrix
+      type: System.Collections.Generic.List{System.Collections.Generic.List{System.Single}}
+    return:
+      type: Engine.Core.Maths.Obsolete.Matrix
+    content.vb: Public Shared Function ConvertTo(matrix As List(Of List(Of Single))) As Matrix
+  overload: Engine.Core.Maths.Obsolete.Matrix.ConvertTo*
+  nameWithType.vb: Matrix.ConvertTo(List(Of List(Of Single)))
+  fullName.vb: Engine.Core.Maths.Obsolete.Matrix.ConvertTo(System.Collections.Generic.List(Of System.Collections.Generic.List(Of Single)))
+  name.vb: ConvertTo(List(Of List(Of Single)))
+- uid: Engine.Core.Maths.Obsolete.Matrix.GetRow(System.Int32)
+  commentId: M:Engine.Core.Maths.Obsolete.Matrix.GetRow(System.Int32)
+  id: GetRow(System.Int32)
+  parent: Engine.Core.Maths.Obsolete.Matrix
+  langs:
+  - csharp
+  - vb
+  name: GetRow(int)
+  nameWithType: Matrix.GetRow(int)
+  fullName: Engine.Core.Maths.Obsolete.Matrix.GetRow(int)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Oboslete/Matrix.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: GetRow
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Oboslete/Matrix.cs
+    startLine: 142
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths.Obsolete
+  syntax:
+    content: public List<float> GetRow(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Collections.Generic.List{System.Single}
+    content.vb: Public Function GetRow(index As Integer) As List(Of Single)
+  overload: Engine.Core.Maths.Obsolete.Matrix.GetRow*
+  nameWithType.vb: Matrix.GetRow(Integer)
+  fullName.vb: Engine.Core.Maths.Obsolete.Matrix.GetRow(Integer)
+  name.vb: GetRow(Integer)
+- uid: Engine.Core.Maths.Obsolete.Matrix.GetColumn(System.Int32)
+  commentId: M:Engine.Core.Maths.Obsolete.Matrix.GetColumn(System.Int32)
+  id: GetColumn(System.Int32)
+  parent: Engine.Core.Maths.Obsolete.Matrix
+  langs:
+  - csharp
+  - vb
+  name: GetColumn(int)
+  nameWithType: Matrix.GetColumn(int)
+  fullName: Engine.Core.Maths.Obsolete.Matrix.GetColumn(int)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Oboslete/Matrix.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: GetColumn
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Oboslete/Matrix.cs
+    startLine: 148
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths.Obsolete
+  syntax:
+    content: public List<float> GetColumn(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Collections.Generic.List{System.Single}
+    content.vb: Public Function GetColumn(index As Integer) As List(Of Single)
+  overload: Engine.Core.Maths.Obsolete.Matrix.GetColumn*
+  nameWithType.vb: Matrix.GetColumn(Integer)
+  fullName.vb: Engine.Core.Maths.Obsolete.Matrix.GetColumn(Integer)
+  name.vb: GetColumn(Integer)
+- uid: Engine.Core.Maths.Obsolete.Matrix.ScaleRow(System.Int32,System.Single)
+  commentId: M:Engine.Core.Maths.Obsolete.Matrix.ScaleRow(System.Int32,System.Single)
+  id: ScaleRow(System.Int32,System.Single)
+  parent: Engine.Core.Maths.Obsolete.Matrix
+  langs:
+  - csharp
+  - vb
+  name: ScaleRow(int, float)
+  nameWithType: Matrix.ScaleRow(int, float)
+  fullName: Engine.Core.Maths.Obsolete.Matrix.ScaleRow(int, float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Oboslete/Matrix.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: ScaleRow
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Oboslete/Matrix.cs
+    startLine: 159
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths.Obsolete
+  syntax:
+    content: public void ScaleRow(int index, float scale)
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: scale
+      type: System.Single
+    content.vb: Public Sub ScaleRow(index As Integer, scale As Single)
+  overload: Engine.Core.Maths.Obsolete.Matrix.ScaleRow*
+  nameWithType.vb: Matrix.ScaleRow(Integer, Single)
+  fullName.vb: Engine.Core.Maths.Obsolete.Matrix.ScaleRow(Integer, Single)
+  name.vb: ScaleRow(Integer, Single)
+- uid: Engine.Core.Maths.Obsolete.Matrix.SwapRows(System.Int32,System.Int32)
+  commentId: M:Engine.Core.Maths.Obsolete.Matrix.SwapRows(System.Int32,System.Int32)
+  id: SwapRows(System.Int32,System.Int32)
+  parent: Engine.Core.Maths.Obsolete.Matrix
+  langs:
+  - csharp
+  - vb
+  name: SwapRows(int, int)
+  nameWithType: Matrix.SwapRows(int, int)
+  fullName: Engine.Core.Maths.Obsolete.Matrix.SwapRows(int, int)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Oboslete/Matrix.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: SwapRows
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Oboslete/Matrix.cs
+    startLine: 167
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths.Obsolete
+  syntax:
+    content: public void SwapRows(int from, int to)
+    parameters:
+    - id: from
+      type: System.Int32
+    - id: to
+      type: System.Int32
+    content.vb: Public Sub SwapRows(from As Integer, [to] As Integer)
+  overload: Engine.Core.Maths.Obsolete.Matrix.SwapRows*
+  nameWithType.vb: Matrix.SwapRows(Integer, Integer)
+  fullName.vb: Engine.Core.Maths.Obsolete.Matrix.SwapRows(Integer, Integer)
+  name.vb: SwapRows(Integer, Integer)
+- uid: Engine.Core.Maths.Obsolete.Matrix.AddRow(System.Collections.Generic.List{System.Single})
+  commentId: M:Engine.Core.Maths.Obsolete.Matrix.AddRow(System.Collections.Generic.List{System.Single})
+  id: AddRow(System.Collections.Generic.List{System.Single})
+  parent: Engine.Core.Maths.Obsolete.Matrix
+  langs:
+  - csharp
+  - vb
+  name: AddRow(List<float>)
+  nameWithType: Matrix.AddRow(List<float>)
+  fullName: Engine.Core.Maths.Obsolete.Matrix.AddRow(System.Collections.Generic.List<float>)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Oboslete/Matrix.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: AddRow
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Oboslete/Matrix.cs
+    startLine: 174
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths.Obsolete
+  syntax:
+    content: public void AddRow(List<float> row)
+    parameters:
+    - id: row
+      type: System.Collections.Generic.List{System.Single}
+    content.vb: Public Sub AddRow(row As List(Of Single))
+  overload: Engine.Core.Maths.Obsolete.Matrix.AddRow*
+  nameWithType.vb: Matrix.AddRow(List(Of Single))
+  fullName.vb: Engine.Core.Maths.Obsolete.Matrix.AddRow(System.Collections.Generic.List(Of Single))
+  name.vb: AddRow(List(Of Single))
+- uid: Engine.Core.Maths.Obsolete.Matrix.AddRow(System.Int32,System.Int32,System.Single)
+  commentId: M:Engine.Core.Maths.Obsolete.Matrix.AddRow(System.Int32,System.Int32,System.Single)
+  id: AddRow(System.Int32,System.Int32,System.Single)
+  parent: Engine.Core.Maths.Obsolete.Matrix
+  langs:
+  - csharp
+  - vb
+  name: AddRow(int, int, float)
+  nameWithType: Matrix.AddRow(int, int, float)
+  fullName: Engine.Core.Maths.Obsolete.Matrix.AddRow(int, int, float)
+  type: Method
+  source:
+    remote:
+      path: Engine.Core/Maths/Oboslete/Matrix.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: AddRow
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Oboslete/Matrix.cs
+    startLine: 179
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths.Obsolete
+  syntax:
+    content: public void AddRow(int targetRow, int sourceRow, float factor)
+    parameters:
+    - id: targetRow
+      type: System.Int32
+    - id: sourceRow
+      type: System.Int32
+    - id: factor
+      type: System.Single
+    content.vb: Public Sub AddRow(targetRow As Integer, sourceRow As Integer, factor As Single)
+  overload: Engine.Core.Maths.Obsolete.Matrix.AddRow*
+  nameWithType.vb: Matrix.AddRow(Integer, Integer, Single)
+  fullName.vb: Engine.Core.Maths.Obsolete.Matrix.AddRow(Integer, Integer, Single)
+  name.vb: AddRow(Integer, Integer, Single)
+references:
+- uid: Engine.Core.Maths.Obsolete
+  commentId: N:Engine.Core.Maths.Obsolete
+  href: Engine.html
+  name: Engine.Core.Maths.Obsolete
+  nameWithType: Engine.Core.Maths.Obsolete
+  fullName: Engine.Core.Maths.Obsolete
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+  - name: .
+  - uid: Engine.Core.Maths.Obsolete
+    name: Obsolete
+    href: Engine.Core.Maths.Obsolete.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+  - name: .
+  - uid: Engine.Core.Maths.Obsolete
+    name: Obsolete
+    href: Engine.Core.Maths.Obsolete.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Engine.Core.Maths.Obsolete.Matrix.Values*
+  commentId: Overload:Engine.Core.Maths.Obsolete.Matrix.Values
+  href: Engine.Core.Maths.Obsolete.Matrix.html#Engine_Core_Maths_Obsolete_Matrix_Values
+  name: Values
+  nameWithType: Matrix.Values
+  fullName: Engine.Core.Maths.Obsolete.Matrix.Values
+- uid: System.Collections.Generic.List{System.Collections.Generic.List{System.Single}}
+  commentId: T:System.Collections.Generic.List{System.Collections.Generic.List{System.Single}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<List<float>>
+  nameWithType: List<List<float>>
+  fullName: System.Collections.Generic.List<System.Collections.Generic.List<float>>
+  nameWithType.vb: List(Of List(Of Single))
+  fullName.vb: System.Collections.Generic.List(Of System.Collections.Generic.List(Of Single))
+  name.vb: List(Of List(Of Single))
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Engine.Core.Maths.Obsolete.Matrix.RowCount*
+  commentId: Overload:Engine.Core.Maths.Obsolete.Matrix.RowCount
+  href: Engine.Core.Maths.Obsolete.Matrix.html#Engine_Core_Maths_Obsolete_Matrix_RowCount
+  name: RowCount
+  nameWithType: Matrix.RowCount
+  fullName: Engine.Core.Maths.Obsolete.Matrix.RowCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Engine.Core.Maths.Obsolete.Matrix.ColumnCount*
+  commentId: Overload:Engine.Core.Maths.Obsolete.Matrix.ColumnCount
+  href: Engine.Core.Maths.Obsolete.Matrix.html#Engine_Core_Maths_Obsolete_Matrix_ColumnCount
+  name: ColumnCount
+  nameWithType: Matrix.ColumnCount
+  fullName: Engine.Core.Maths.Obsolete.Matrix.ColumnCount
+- uid: Engine.Core.Maths.Obsolete.Matrix.Item*
+  commentId: Overload:Engine.Core.Maths.Obsolete.Matrix.Item
+  href: Engine.Core.Maths.Obsolete.Matrix.html#Engine_Core_Maths_Obsolete_Matrix_Item_System_Int32_System_Int32_
+  name: this
+  nameWithType: Matrix.this
+  fullName: Engine.Core.Maths.Obsolete.Matrix.this
+  nameWithType.vb: Matrix.this[]
+  fullName.vb: Engine.Core.Maths.Obsolete.Matrix.this[]
+  name.vb: this[]
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Engine.Core.Maths.Obsolete.Matrix.#ctor*
+  commentId: Overload:Engine.Core.Maths.Obsolete.Matrix.#ctor
+  href: Engine.Core.Maths.Obsolete.Matrix.html#Engine_Core_Maths_Obsolete_Matrix__ctor_System_Int32_System_Int32_
+  name: Matrix
+  nameWithType: Matrix.Matrix
+  fullName: Engine.Core.Maths.Obsolete.Matrix.Matrix
+  nameWithType.vb: Matrix.New
+  fullName.vb: Engine.Core.Maths.Obsolete.Matrix.New
+  name.vb: New
+- uid: Engine.Core.Maths.Obsolete.Matrix.op_Multiply*
+  commentId: Overload:Engine.Core.Maths.Obsolete.Matrix.op_Multiply
+  href: Engine.Core.Maths.Obsolete.Matrix.html#Engine_Core_Maths_Obsolete_Matrix_op_Multiply_Engine_Core_Maths_Obsolete_Matrix_Engine_Core_Maths_Obsolete_Matrix_
+  name: operator *
+  nameWithType: Matrix.operator *
+  fullName: Engine.Core.Maths.Obsolete.Matrix.operator *
+  nameWithType.vb: Matrix.*
+  fullName.vb: Engine.Core.Maths.Obsolete.Matrix.*
+  name.vb: '*'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Engine.Core.Maths.Obsolete.Matrix.op_Multiply*
+    name: '*'
+    href: Engine.Core.Maths.Obsolete.Matrix.html#Engine_Core_Maths_Obsolete_Matrix_op_Multiply_Engine_Core_Maths_Obsolete_Matrix_Engine_Core_Maths_Obsolete_Matrix_
+- uid: Engine.Core.Maths.Obsolete.Matrix
+  commentId: T:Engine.Core.Maths.Obsolete.Matrix
+  parent: Engine.Core.Maths.Obsolete
+  href: Engine.Core.Maths.Obsolete.Matrix.html
+  name: Matrix
+  nameWithType: Matrix
+  fullName: Engine.Core.Maths.Obsolete.Matrix
+- uid: Engine.Core.Maths.Obsolete.Matrix.op_Addition*
+  commentId: Overload:Engine.Core.Maths.Obsolete.Matrix.op_Addition
+  href: Engine.Core.Maths.Obsolete.Matrix.html#Engine_Core_Maths_Obsolete_Matrix_op_Addition_Engine_Core_Maths_Obsolete_Matrix_Engine_Core_Maths_Obsolete_Matrix_
+  name: operator +
+  nameWithType: Matrix.operator +
+  fullName: Engine.Core.Maths.Obsolete.Matrix.operator +
+  nameWithType.vb: Matrix.+
+  fullName.vb: Engine.Core.Maths.Obsolete.Matrix.+
+  name.vb: +
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Engine.Core.Maths.Obsolete.Matrix.op_Addition*
+    name: +
+    href: Engine.Core.Maths.Obsolete.Matrix.html#Engine_Core_Maths_Obsolete_Matrix_op_Addition_Engine_Core_Maths_Obsolete_Matrix_Engine_Core_Maths_Obsolete_Matrix_
+- uid: Engine.Core.Maths.Obsolete.Matrix.op_Subtraction*
+  commentId: Overload:Engine.Core.Maths.Obsolete.Matrix.op_Subtraction
+  href: Engine.Core.Maths.Obsolete.Matrix.html#Engine_Core_Maths_Obsolete_Matrix_op_Subtraction_Engine_Core_Maths_Obsolete_Matrix_Engine_Core_Maths_Obsolete_Matrix_
+  name: operator -
+  nameWithType: Matrix.operator -
+  fullName: Engine.Core.Maths.Obsolete.Matrix.operator -
+  nameWithType.vb: Matrix.-
+  fullName.vb: Engine.Core.Maths.Obsolete.Matrix.-
+  name.vb: '-'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: Engine.Core.Maths.Obsolete.Matrix.op_Subtraction*
+    name: '-'
+    href: Engine.Core.Maths.Obsolete.Matrix.html#Engine_Core_Maths_Obsolete_Matrix_op_Subtraction_Engine_Core_Maths_Obsolete_Matrix_Engine_Core_Maths_Obsolete_Matrix_
+- uid: Engine.Core.Maths.Obsolete.Matrix.ConvertTo*
+  commentId: Overload:Engine.Core.Maths.Obsolete.Matrix.ConvertTo
+  href: Engine.Core.Maths.Obsolete.Matrix.html#Engine_Core_Maths_Obsolete_Matrix_ConvertTo_System_Collections_Generic_List_System_Collections_Generic_List_System_Single___
+  name: ConvertTo
+  nameWithType: Matrix.ConvertTo
+  fullName: Engine.Core.Maths.Obsolete.Matrix.ConvertTo
+- uid: Engine.Core.Maths.Obsolete.Matrix.GetRow*
+  commentId: Overload:Engine.Core.Maths.Obsolete.Matrix.GetRow
+  href: Engine.Core.Maths.Obsolete.Matrix.html#Engine_Core_Maths_Obsolete_Matrix_GetRow_System_Int32_
+  name: GetRow
+  nameWithType: Matrix.GetRow
+  fullName: Engine.Core.Maths.Obsolete.Matrix.GetRow
+- uid: System.Collections.Generic.List{System.Single}
+  commentId: T:System.Collections.Generic.List{System.Single}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<float>
+  nameWithType: List<float>
+  fullName: System.Collections.Generic.List<float>
+  nameWithType.vb: List(Of Single)
+  fullName.vb: System.Collections.Generic.List(Of Single)
+  name.vb: List(Of Single)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.Single
+    name: float
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.single
+  - name: )
+- uid: Engine.Core.Maths.Obsolete.Matrix.GetColumn*
+  commentId: Overload:Engine.Core.Maths.Obsolete.Matrix.GetColumn
+  href: Engine.Core.Maths.Obsolete.Matrix.html#Engine_Core_Maths_Obsolete_Matrix_GetColumn_System_Int32_
+  name: GetColumn
+  nameWithType: Matrix.GetColumn
+  fullName: Engine.Core.Maths.Obsolete.Matrix.GetColumn
+- uid: Engine.Core.Maths.Obsolete.Matrix.ScaleRow*
+  commentId: Overload:Engine.Core.Maths.Obsolete.Matrix.ScaleRow
+  href: Engine.Core.Maths.Obsolete.Matrix.html#Engine_Core_Maths_Obsolete_Matrix_ScaleRow_System_Int32_System_Single_
+  name: ScaleRow
+  nameWithType: Matrix.ScaleRow
+  fullName: Engine.Core.Maths.Obsolete.Matrix.ScaleRow
+- uid: Engine.Core.Maths.Obsolete.Matrix.SwapRows*
+  commentId: Overload:Engine.Core.Maths.Obsolete.Matrix.SwapRows
+  href: Engine.Core.Maths.Obsolete.Matrix.html#Engine_Core_Maths_Obsolete_Matrix_SwapRows_System_Int32_System_Int32_
+  name: SwapRows
+  nameWithType: Matrix.SwapRows
+  fullName: Engine.Core.Maths.Obsolete.Matrix.SwapRows
+- uid: Engine.Core.Maths.Obsolete.Matrix.AddRow*
+  commentId: Overload:Engine.Core.Maths.Obsolete.Matrix.AddRow
+  href: Engine.Core.Maths.Obsolete.Matrix.html#Engine_Core_Maths_Obsolete_Matrix_AddRow_System_Collections_Generic_List_System_Single__
+  name: AddRow
+  nameWithType: Matrix.AddRow
+  fullName: Engine.Core.Maths.Obsolete.Matrix.AddRow

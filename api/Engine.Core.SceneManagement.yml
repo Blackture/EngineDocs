@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.SceneManagement
+  commentId: N:Engine.Core.SceneManagement
+  id: Engine.Core.SceneManagement
+  children:
+  - Engine.Core.SceneManagement.Scene
+  - Engine.Core.SceneManagement.Scene3D
+  - Engine.Core.SceneManagement.SceneManager
+  - Engine.Core.SceneManagement.SceneType
+  langs:
+  - csharp
+  - vb
+  name: Engine.Core.SceneManagement
+  nameWithType: Engine.Core.SceneManagement
+  fullName: Engine.Core.SceneManagement
+  type: Namespace
+  assemblies:
+  - Engine
+references:
+- uid: Engine.Core.SceneManagement.SceneType
+  commentId: T:Engine.Core.SceneManagement.SceneType
+  parent: Engine.Core.SceneManagement
+  href: Engine.Core.SceneManagement.SceneType.html
+  name: SceneType
+  nameWithType: SceneType
+  fullName: Engine.Core.SceneManagement.SceneType
+- uid: Engine.Core.SceneManagement.Scene
+  commentId: T:Engine.Core.SceneManagement.Scene
+  parent: Engine.Core.SceneManagement
+  href: Engine.Core.SceneManagement.Scene.html
+  name: Scene
+  nameWithType: Scene
+  fullName: Engine.Core.SceneManagement.Scene
+- uid: Engine.Core.SceneManagement.Scene3D
+  commentId: T:Engine.Core.SceneManagement.Scene3D
+  href: Engine.Core.SceneManagement.Scene3D.html
+  name: Scene3D
+  nameWithType: Scene3D
+  fullName: Engine.Core.SceneManagement.Scene3D
+- uid: Engine.Core.SceneManagement.SceneManager
+  commentId: T:Engine.Core.SceneManagement.SceneManager
+  parent: Engine.Core.SceneManagement
+  href: Engine.Core.SceneManagement.SceneManager.html
+  name: SceneManager
+  nameWithType: SceneManager
+  fullName: Engine.Core.SceneManagement.SceneManager
+- uid: Engine.Core.SceneManagement
+  commentId: N:Engine.Core.SceneManagement
+  href: Engine.html
+  name: Engine.Core.SceneManagement
+  nameWithType: Engine.Core.SceneManagement
+  fullName: Engine.Core.SceneManagement
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.SceneManagement
+    name: SceneManagement
+    href: Engine.Core.SceneManagement.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.SceneManagement
+    name: SceneManagement
+    href: Engine.Core.SceneManagement.html

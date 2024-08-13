@@ -1,0 +1,136 @@
+### YamlMime:ManagedReference
+items:
+- uid: Engine.Core.Maths.Plane.PlaneSetupType
+  commentId: T:Engine.Core.Maths.Plane.PlaneSetupType
+  id: Plane.PlaneSetupType
+  parent: Engine.Core.Maths
+  children:
+  - Engine.Core.Maths.Plane.PlaneSetupType._1PositionVector2SpanVectors
+  - Engine.Core.Maths.Plane.PlaneSetupType._3PositionVectors
+  langs:
+  - csharp
+  - vb
+  name: Plane.PlaneSetupType
+  nameWithType: Plane.PlaneSetupType
+  fullName: Engine.Core.Maths.Plane.PlaneSetupType
+  type: Enum
+  source:
+    remote:
+      path: Engine.Core/Maths/Plane.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: PlaneSetupType
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Plane.cs
+    startLine: 13
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: public enum Plane.PlaneSetupType
+    content.vb: Public Enum Plane.PlaneSetupType
+- uid: Engine.Core.Maths.Plane.PlaneSetupType._3PositionVectors
+  commentId: F:Engine.Core.Maths.Plane.PlaneSetupType._3PositionVectors
+  id: _3PositionVectors
+  parent: Engine.Core.Maths.Plane.PlaneSetupType
+  langs:
+  - csharp
+  - vb
+  name: _3PositionVectors
+  nameWithType: Plane.PlaneSetupType._3PositionVectors
+  fullName: Engine.Core.Maths.Plane.PlaneSetupType._3PositionVectors
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Plane.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: _3PositionVectors
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Plane.cs
+    startLine: 15
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: _3PositionVectors = 0
+    return:
+      type: Engine.Core.Maths.Plane.PlaneSetupType
+- uid: Engine.Core.Maths.Plane.PlaneSetupType._1PositionVector2SpanVectors
+  commentId: F:Engine.Core.Maths.Plane.PlaneSetupType._1PositionVector2SpanVectors
+  id: _1PositionVector2SpanVectors
+  parent: Engine.Core.Maths.Plane.PlaneSetupType
+  langs:
+  - csharp
+  - vb
+  name: _1PositionVector2SpanVectors
+  nameWithType: Plane.PlaneSetupType._1PositionVector2SpanVectors
+  fullName: Engine.Core.Maths.Plane.PlaneSetupType._1PositionVector2SpanVectors
+  type: Field
+  source:
+    remote:
+      path: Engine.Core/Maths/Plane.cs
+      branch: main
+      repo: https://github.com/Blackture/engine.git
+    id: _1PositionVector2SpanVectors
+    path: C:/Users/Admin/Desktop/Engine/Engine.Core/Maths/Plane.cs
+    startLine: 16
+  assemblies:
+  - Engine
+  namespace: Engine.Core.Maths
+  syntax:
+    content: _1PositionVector2SpanVectors = 1
+    return:
+      type: Engine.Core.Maths.Plane.PlaneSetupType
+references:
+- uid: Engine.Core.Maths
+  commentId: N:Engine.Core.Maths
+  href: Engine.html
+  name: Engine.Core.Maths
+  nameWithType: Engine.Core.Maths
+  fullName: Engine.Core.Maths
+  spec.csharp:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+  spec.vb:
+  - uid: Engine
+    name: Engine
+    href: Engine.html
+  - name: .
+  - uid: Engine.Core
+    name: Core
+    href: Engine.Core.html
+  - name: .
+  - uid: Engine.Core.Maths
+    name: Maths
+    href: Engine.Core.Maths.html
+- uid: Engine.Core.Maths.Plane.PlaneSetupType
+  commentId: T:Engine.Core.Maths.Plane.PlaneSetupType
+  parent: Engine.Core.Maths
+  href: Engine.Core.Maths.Plane.html
+  name: Plane.PlaneSetupType
+  nameWithType: Plane.PlaneSetupType
+  fullName: Engine.Core.Maths.Plane.PlaneSetupType
+  spec.csharp:
+  - uid: Engine.Core.Maths.Plane
+    name: Plane
+    href: Engine.Core.Maths.Plane.html
+  - name: .
+  - uid: Engine.Core.Maths.Plane.PlaneSetupType
+    name: PlaneSetupType
+    href: Engine.Core.Maths.Plane.PlaneSetupType.html
+  spec.vb:
+  - uid: Engine.Core.Maths.Plane
+    name: Plane
+    href: Engine.Core.Maths.Plane.html
+  - name: .
+  - uid: Engine.Core.Maths.Plane.PlaneSetupType
+    name: PlaneSetupType
+    href: Engine.Core.Maths.Plane.PlaneSetupType.html
