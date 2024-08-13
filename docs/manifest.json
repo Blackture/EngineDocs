@@ -11,6 +11,39 @@
       }
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "Doc/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "Doc/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Doc/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "Doc/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Doc/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Doc/toc.html"
+        },
+        ".json": {
+          "relative_path": "Doc/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "ManagedReference",
       "source_relative_path": "api/Engine.Core.Component.yml",
       "output": {
