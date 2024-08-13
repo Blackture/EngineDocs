@@ -1,999 +1,1014 @@
 {
-  "source_base_path": "C:/Users/gamin/Documents/GitHub/EngineDocs",
+  "source_base_path": "D:/Users/patri/Desktop/docfx/~Desktop/EngineDocs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
-      "type": "Conceptual",
-      "source_relative_path": "README.md",
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Component.yml",
       "output": {
         ".html": {
-          "relative_path": "README.html"
+          "relative_path": "api/Engine.Core.Component.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Components.Camera.CameraPlane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Components.Camera.CameraPlane.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Components.Camera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Components.Camera.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Components.Edge3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Components.Edge3D.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Components.Face3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Components.Face3D.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Components.LCS3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Components.LCS3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Components.Mesh3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Components.Mesh3D.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Components.Vertex3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Components.Vertex3D.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Components.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Components.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Events.Event-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Events.Event-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Events.Event-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Events.Event-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Events.Event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Events.Event.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Events.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.IParticleHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.IParticleHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.IRay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.IRay.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.LCS3Element.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.LCS3Element.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.LCS3ElementGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.LCS3ElementGroup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Layer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Layer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.AffineMatrix3x3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.AffineMatrix3x3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.AffineMatrix4x4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.AffineMatrix4x4.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.AugmentedMatrix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.AugmentedMatrix.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.Axis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.Axis.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.BaseDirections2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.BaseDirections2D.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.BasePlane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.BasePlane.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.DilationMatrix2x2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.DilationMatrix2x2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.DilationMatrix3x3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.DilationMatrix3x3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.FloatEnumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.FloatEnumerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.GCS3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.GCS3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.Gauss.EliminationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.Gauss.EliminationResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.Gauss.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.Gauss.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.HomogeneneousType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.HomogeneneousType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.HomogeneousObject3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.HomogeneousObject3D.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.IMatrix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.IMatrix.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.IntegrationApproximation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.IntegrationApproximation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.Limits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.Limits.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.Mathf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.Mathf.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.Matrix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.Matrix.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.Matrix3x3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.Matrix3x3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.MatrixMxN.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.MatrixMxN.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.MatrixOperation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.MatrixOperation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.MirrorMatrix3x3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.MirrorMatrix3x3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.Obsolete.Gaussian.GaussianResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.Obsolete.Gaussian.GaussianResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.Obsolete.Gaussian.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.Obsolete.Gaussian.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.Obsolete.Matrix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.Obsolete.Matrix.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.Obsolete.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.Obsolete.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.Plane.PlaneSetupType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.Plane.PlaneSetupType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.Plane.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.Plane.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.Quaternion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.Quaternion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.RotationConvention.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.RotationConvention.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.RotationMatrix2x2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.RotationMatrix2x2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.RotationMatrix3x3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.RotationMatrix3x3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.RotationMeasure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.RotationMeasure.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.RotationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.RotationType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.RotationVector3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.RotationVector3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.ShearConvention.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.ShearConvention.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.SheerMatrix2x2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.SheerMatrix2x2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.SheerMatrix3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.SheerMatrix3D.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.Straight3D.LineSetupType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.Straight3D.LineSetupType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.Straight3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.Straight3D.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.TransformationConvention.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.TransformationConvention.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.Vector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.Vector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.Vector2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.Vector2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.Vector3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.Vector3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Maths.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Maths.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Object3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Object3D.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Particle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Particle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Physics.CollisionDetection.BoundingBox3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Physics.CollisionDetection.BoundingBox3D.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Physics.CollisionDetection.BoundingVolume3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Physics.CollisionDetection.BoundingVolume3D.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Physics.CollisionDetection.Cell.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Physics.CollisionDetection.Cell.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Physics.CollisionDetection.Grid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Physics.CollisionDetection.Grid.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Physics.CollisionDetection.ParticleCollision3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Physics.CollisionDetection.ParticleCollision3D.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Physics.CollisionDetection.SpatialPartitioning.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Physics.CollisionDetection.SpatialPartitioning.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Physics.CollisionDetection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Physics.CollisionDetection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Physics.Optics.Lens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Physics.Optics.Lens.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Physics.Optics.LensType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Physics.Optics.LensType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Physics.Optics.LightRay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Physics.Optics.LightRay.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Physics.Optics.LightSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Physics.Optics.LightSource.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Physics.Optics.Photon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Physics.Optics.Photon.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Physics.Optics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Physics.Optics.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Ray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Ray.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Rendering.CameraRay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Rendering.CameraRay.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Rendering.Pixel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Rendering.Pixel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Rendering.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Rendering.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.SceneManagement.Scene.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.SceneManagement.Scene.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.SceneManagement.Scene3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.SceneManagement.Scene3D.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.SceneManagement.SceneManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.SceneManagement.SceneManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.SceneManagement.SceneType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.SceneManagement.SceneType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.SceneManagement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.SceneManagement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.Tag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.Tag.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Core.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Main.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Main.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Rendering.ColorExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Rendering.ColorExtension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Rendering.Projection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Rendering.Projection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Rendering.RenderImage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Rendering.RenderImage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Rendering.RenderPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Rendering.RenderPoint.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Rendering.RenderTexture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Rendering.RenderTexture.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Rendering.RenderingConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Rendering.RenderingConstants.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.Rendering.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.Rendering.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Engine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Engine.html"
         }
       },
       "version": ""
     },
     {
       "type": "Toc",
-      "source_relative_path": "References/toc.yml",
+      "source_relative_path": "api/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "References/toc.html"
+          "relative_path": "api/toc.html"
         },
         ".json": {
-          "relative_path": "References/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Component.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Component.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Components.Camera.CameraPlane.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Components.Camera.CameraPlane.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Components.Camera.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Components.Camera.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Components.Edge3D.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Components.Edge3D.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Components.Face3D.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Components.Face3D.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Components.LCS3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Components.LCS3.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Components.Mesh3D.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Components.Mesh3D.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Components.Vertex3D.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Components.Vertex3D.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Components.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Components.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Events.Event-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Events.Event-1.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Events.Event-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Events.Event-2.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Events.Event.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Events.Event.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Events.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Events.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.IParticle.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.IParticle.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.IParticleHandler.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.IParticleHandler.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.IRay.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.IRay.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.LCS3Element.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.LCS3Element.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.LCS3ElementGroup.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.LCS3ElementGroup.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Layer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Layer.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.AffineTransformationMatrix.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.AffineTransformationMatrix.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.AffineTransformationMatrix4x4.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.AffineTransformationMatrix4x4.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.AugmentedMatrix.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.AugmentedMatrix.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.Axis.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.Axis.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.BaseDirections2D.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.BaseDirections2D.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.BasePlane.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.BasePlane.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.DilationMatrix2x2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.DilationMatrix2x2.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.DilationMatrix3x3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.DilationMatrix3x3.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.FloatEnumerator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.FloatEnumerator.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.GCS3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.GCS3.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.Gauss.EliminationResult.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.Gauss.EliminationResult.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.Gauss.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.Gauss.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.IMatrix.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.IMatrix.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.Mathf.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.Mathf.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.Matrix.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.Matrix.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.Matrix3x3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.Matrix3x3.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.MatrixMxN.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.MatrixMxN.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.MatrixOperation.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.MatrixOperation.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.MirrorMatrix3x3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.MirrorMatrix3x3.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.Obsolete.Gaussian.GaussianResult.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.Obsolete.Gaussian.GaussianResult.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.Obsolete.Gaussian.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.Obsolete.Gaussian.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.Obsolete.Matrix.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.Obsolete.Matrix.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.Obsolete.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.Obsolete.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.Plane.PlaneSetupType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.Plane.PlaneSetupType.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.Plane.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.Plane.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.Quaternion.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.Quaternion.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.RotationConvention.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.RotationConvention.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.RotationMatrix2x2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.RotationMatrix2x2.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.RotationMatrix3x3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.RotationMatrix3x3.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.RotationMeasure.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.RotationMeasure.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.RotationType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.RotationType.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.RotationVector3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.RotationVector3.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.ShearConvention.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.ShearConvention.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.ShearMatrix2x2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.ShearMatrix2x2.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.ShearMatrix3D.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.ShearMatrix3D.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.Straight.LineSetupType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.Straight.LineSetupType.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.Straight.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.Straight.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.TransformationConvention.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.TransformationConvention.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.Vector.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.Vector.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.Vector2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.Vector2.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.Vector3.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.Vector3.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Maths.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Maths.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Object3D.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Object3D.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Particle.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Particle.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Physics.CollisionDetection.BoundingBox3D.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Physics.CollisionDetection.BoundingBox3D.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Physics.CollisionDetection.BoundingVolume3D.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Physics.CollisionDetection.BoundingVolume3D.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Physics.CollisionDetection.Cell.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Physics.CollisionDetection.Cell.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Physics.CollisionDetection.Grid.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Physics.CollisionDetection.Grid.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Physics.CollisionDetection.ParticleCollision3D.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Physics.CollisionDetection.ParticleCollision3D.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Physics.CollisionDetection.SpatialPartitioning.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Physics.CollisionDetection.SpatialPartitioning.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Physics.CollisionDetection.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Physics.CollisionDetection.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Physics.Optics.Lens.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Physics.Optics.Lens.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Physics.Optics.LensType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Physics.Optics.LensType.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Physics.Optics.LightRay.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Physics.Optics.LightRay.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Physics.Optics.LightSource.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Physics.Optics.LightSource.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Physics.Optics.Photon.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Physics.Optics.Photon.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Physics.Optics.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Physics.Optics.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Ray.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Ray.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Rendering.CameraRay.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Rendering.CameraRay.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Rendering.Pixel.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Rendering.Pixel.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Rendering.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Rendering.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.SceneManagement.Scene.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.SceneManagement.Scene.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.SceneManagement.Scene3D.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.SceneManagement.Scene3D.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.SceneManagement.SceneManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.SceneManagement.SceneManager.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.SceneManagement.SceneType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.SceneManagement.SceneType.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.SceneManagement.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.SceneManagement.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.Tag.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.Tag.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Core.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Core.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Main.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Main.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Rendering.ColorExtension.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Rendering.ColorExtension.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Rendering.Projection.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Rendering.Projection.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Rendering.RenderImage.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Rendering.RenderImage.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Rendering.RenderPoint.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Rendering.RenderPoint.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Rendering.RenderTexture.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Rendering.RenderTexture.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Rendering.RenderingConstants.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Rendering.RenderingConstants.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.Rendering.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.Rendering.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "engineAPI/Engine.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/Engine.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "engineAPI/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "engineAPI/toc.html"
-        },
-        ".json": {
-          "relative_path": "engineAPI/toc.json"
+          "relative_path": "api/toc.json"
         }
       },
       "version": ""

@@ -494,16 +494,6 @@
     "title": "Namespace Engine",
     "keywords": "Namespace Engine Classes Main"
   },
-  "docs/getting-started.html": {
-    "href": "docs/getting-started.html",
-    "title": "Getting Started",
-    "keywords": "Getting Started You start using the engine by using the engine. That will probably be in future as the engine is capable of doing not much right now. More details on the official website."
-  },
-  "docs/introduction.html": {
-    "href": "docs/introduction.html",
-    "title": "Introduction",
-    "keywords": "Introduction An engine designed to simulate based on sciences like physics, chemistry, and mathematics. By seamlessly combining artistic capabilities with scientific computations, this engine project opens up a world of possibilities…"
-  },
   "index.html": {
     "href": "index.html",
     "title": "POIMORA ENGINE DOCS",
